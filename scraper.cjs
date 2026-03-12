@@ -278,22 +278,50 @@ async function fetchGlobalNews() {
   }
 }
 
-async function verifyCompanyNews(company) {
+async function verifyCompanyNews(companyObj) {
+  const company = companyObj.company;
   try {
-    // Search for "[Company Name] return to office" in the last 30 days
     const query = encodeURIComponent(`"${company}" "return to office" OR "rto mandate"`);
     const xml = await fetchPage(`https://news.google.com/rss/search?q=${query}+when:30d&hl=en-US&gl=US&ceid=US:en`);
     const $ = cheerio.load(xml, { xmlMode: true });
     const firstItem = $('item').first();
+    
     if (firstItem.length > 0) {
+      const title = firstItem.find('title').text().replace(/ - [^-]+$/, '').trim();
+      const newsSnippet = firstItem.find('description').text().toLowerCase();
+      const combined = (title + ' ' + newsSnippet).toLowerCase();
+      
+      let detectedPolicy = companyObj.policy;
+      let detectedDays = companyObj.daysInOffice;
+      
+      // Extraction logic
+      if (combined.includes('5 days') || combined.includes('five days') || combined.includes('full-time') || combined.includes('full time')) {
+        detectedPolicy = 'Full Office';
+        detectedDays = 5;
+      } else if (combined.includes('4 days') || combined.includes('four days')) {
+        detectedPolicy = 'Office-First';
+        detectedDays = 4;
+      } else if (combined.includes('3 days') || combined.includes('three days')) {
+        detectedPolicy = 'Hybrid';
+        detectedDays = 3;
+      } else if (combined.includes('2 days') || combined.includes('two days')) {
+        detectedPolicy = 'Hybrid';
+        detectedDays = 2;
+      } else if (combined.includes('remote-first') || combined.includes('remote first') || combined.includes('fully remote') || combined.includes('work from anywhere')) {
+        detectedPolicy = 'Remote-First';
+        detectedDays = 0;
+      }
+
       return {
-        title: firstItem.find('title').text().replace(/ - [^-]+$/, '').trim(),
+        title,
         link: firstItem.find('link').text(),
-        date: new Date(firstItem.find('pubDate').text()).toISOString().split('T')[0]
+        date: new Date(firstItem.find('pubDate').text()).toISOString().split('T')[0],
+        policy: detectedPolicy,
+        daysInOffice: detectedDays
       };
     }
   } catch (err) {
-    // Silently fail, fallback to existing
+    // Silently fail
   }
   return null;
 }
@@ -312,26 +340,28 @@ async function main() {
   }
 
   // Update company specific news
-  console.log(`Updating company-specific news (this may take a minute)...`);
+  console.log(`Updating company-specific news and detecting policy changes...`);
   const finalDataRaw = mergeData(scraped, VERIFIED_DATA);
   const finalData = [];
   
-  // We'll process in batches to be nice to Google
   for (let i = 0; i < finalDataRaw.length; i++) {
     const company = finalDataRaw[i];
     console.log(`  Checking [${i+1}/${finalDataRaw.length}]: ${company.company}...`);
-    const news = await verifyCompanyNews(company.company);
+    const news = await verifyCompanyNews(company);
     if (news) {
-      // If we found a more recent news article, update the source and date
-      if (!company.lastUpdate || news.date > company.lastUpdate) {
-        console.log(`    ⭐ Updated ${company.company} news: ${news.date}`);
-        company.lastUpdate = news.date;
-        company.source = news.link;
+      // Prioritize news source
+      company.source = news.link;
+      company.lastUpdate = news.date;
+      
+      // Update policy if detected from news
+      if (news.policy !== company.policy || news.daysInOffice !== company.daysInOffice) {
+        console.log(`    🗞️ News-detected change for ${company.company}: ${company.policy}→${news.policy}, ${company.daysInOffice}d→${news.daysInOffice}d`);
+        company.policy = news.policy;
+        company.daysInOffice = news.daysInOffice;
       }
     }
     finalData.push(company);
-    // Tiny delay to avoid rate limits
-    await new Promise(r => setTimeout(r, 100));
+    await new Promise(r => setTimeout(r, 100)); // Rate limit safety
   }
 
   console.log(`Final dataset: ${finalData.length} companies`);
@@ -345,7 +375,7 @@ async function main() {
     lastRefreshed: new Date().toISOString(),
     totalCompanies: finalData.length,
     scrapedFromBuildRemote: scraped.length,
-    sources: ["Google News", "BuildRemote", "Verified News Outlets"]
+    sources: ["Google News Search (Real News)", "Verified News Outlets", "BuildRemote"]
   };
   fs.writeFileSync(META_PATH, JSON.stringify(meta, null, 2));
 
