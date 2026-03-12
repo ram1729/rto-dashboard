@@ -10,6 +10,7 @@ function App() {
   const [loading, setLoading] = useState(true);
   const [search, setSearch] = useState('');
   const [sectorFilter, setSectorFilter] = useState('All');
+  const [lastRefreshed, setLastRefreshed] = useState(null);
   
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}data/rto_policies.json`)
@@ -19,6 +20,11 @@ function App() {
         setLoading(false);
       })
       .catch(err => console.error("Error fetching data: ", err));
+    
+    fetch(`${import.meta.env.BASE_URL}data/meta.json`)
+      .then(res => res.json())
+      .then(meta => setLastRefreshed(meta.lastRefreshed))
+      .catch(() => {});
   }, []);
 
   const sectors = useMemo(() => {
@@ -57,6 +63,13 @@ function App() {
             </p>
           </div>
         </div>
+        {lastRefreshed && (
+          <div className="refresh-info">
+            <span className="refresh-dot"></span>
+            Data refreshed: {new Date(lastRefreshed).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })} at {new Date(lastRefreshed).toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' })}
+            <span className="refresh-freq"> · Auto-updates daily</span>
+          </div>
+        )}
       </header>
 
       {/* Main Layout Area: 2 Columns */}

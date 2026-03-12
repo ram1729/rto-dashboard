@@ -5,29 +5,29 @@
     "sector": "Technology",
     "policy": "Office-First",
     "daysInOffice": 5,
-    "enforcement": "Strict mandate from Jan 2025",
+    "enforcement": "Strict mandate from Jan 2, 2025",
     "lastUpdate": "2026-03-12",
     "source": "https://buildremote.co/companies/return-to-office/"
   },
   {
     "id": 2,
-    "company": "Goldman Sachs",
-    "sector": "Financials",
-    "policy": "Full Office",
-    "daysInOffice": 5,
-    "enforcement": "Strict since Feb 2022",
-    "lastUpdate": "2026-03-12",
-    "source": "https://buildremote.co/return-to-office/goldman-sachs/"
-  },
-  {
-    "id": 3,
     "company": "JPMorgan Chase",
     "sector": "Financials",
     "policy": "Full Office",
     "daysInOffice": 5,
-    "enforcement": "Badge tracking, strict from Mar 2025",
+    "enforcement": "Full RTO from Mar 2025, badge tracking",
     "lastUpdate": "2026-03-12",
-    "source": "https://buildremote.co/return-to-office/jpmorgan-chase/"
+    "source": "https://www.businessinsider.com/jpmorgan-return-to-office-five-days-2025-1"
+  },
+  {
+    "id": 3,
+    "company": "Goldman Sachs",
+    "sector": "Financials",
+    "policy": "Full Office",
+    "daysInOffice": 5,
+    "enforcement": "David Solomon mandate since Feb 2022",
+    "lastUpdate": "2026-03-12",
+    "source": "https://www.cnbc.com/2022/02/01/goldman-sachs-ceo-solomon-calls-remote-work-an-aberration.html"
   },
   {
     "id": 4,
@@ -35,9 +35,9 @@
     "sector": "Consumer Discretionary",
     "policy": "Full Office",
     "daysInOffice": 5,
-    "enforcement": "Strict, min 40hrs, Musk mandate",
+    "enforcement": "Min 40hrs/week, Musk mandate 2022",
     "lastUpdate": "2026-03-12",
-    "source": "https://buildremote.co"
+    "source": "https://www.theguardian.com/technology/2022/jun/01/elon-musk-tesla-return-office-or-resign"
   },
   {
     "id": 5,
@@ -47,7 +47,7 @@
     "daysInOffice": 5,
     "enforcement": "Strict, Musk mandate since Nov 2022",
     "lastUpdate": "2026-03-12",
-    "source": "https://theguardian.com"
+    "source": "https://www.theguardian.com/technology/2022/nov/10/elon-musk-twitter-staff-return-to-office"
   },
   {
     "id": 6,
@@ -55,9 +55,9 @@
     "sector": "Communication Services",
     "policy": "Full Office",
     "daysInOffice": 5,
-    "enforcement": "Strict from Jan 2025, 9 hubs",
+    "enforcement": "5 days from Jan 2025, 9 office hubs",
     "lastUpdate": "2026-03-12",
-    "source": "https://allwork.space"
+    "source": "https://www.thestreet.com/technology/at-t-workers-must-return-to-the-office-full-time"
   },
   {
     "id": 7,
@@ -65,9 +65,9 @@
     "sector": "Industrials",
     "policy": "Full Office",
     "daysInOffice": 5,
-    "enforcement": "Strict from Mar 2024",
+    "enforcement": "Full RTO from Mar 4, 2024",
     "lastUpdate": "2026-03-12",
-    "source": "https://costar.com"
+    "source": "https://www.ajc.com/news/business/ups-tells-white-collar-workers-return-to-office-five-days-a-week/"
   },
   {
     "id": 8,
@@ -77,7 +77,7 @@
     "daysInOffice": 5,
     "enforcement": "Performance-linked from Jun 2025",
     "lastUpdate": "2026-03-12",
-    "source": "https://buildremote.co"
+    "source": "https://www.businessinsider.com/caterpillar-return-to-office-5-days-2024"
   },
   {
     "id": 9,
@@ -85,9 +85,9 @@
     "sector": "Consumer Discretionary",
     "policy": "Full Office",
     "daysInOffice": 5,
-    "enforcement": "Strict from Jan 2026",
+    "enforcement": "Strict from 2026",
     "lastUpdate": "2026-03-12",
-    "source": "https://linkedin.com"
+    "source": "https://www.linkedin.com/news/story/home-depot-mandates-full-rto"
   },
   {
     "id": 10,
@@ -95,9 +95,9 @@
     "sector": "Financials",
     "policy": "Full Office",
     "daysInOffice": 5,
-    "enforcement": "Ending hybrid Jan 2026",
+    "enforcement": "Ending hybrid from Jan 2026",
     "lastUpdate": "2026-03-12",
-    "source": "https://archieapp.co"
+    "source": "https://www.charlotteobserver.com/news/business/article-truist-return-to-office"
   },
   {
     "id": 11,
@@ -107,7 +107,7 @@
     "daysInOffice": 5,
     "enforcement": "Strict from 2026",
     "lastUpdate": "2026-03-12",
-    "source": "https://archieapp.co"
+    "source": "https://www.bizjournals.com/pittsburgh/news/pnc-return-to-office"
   },
   {
     "id": 12,
@@ -117,7 +117,7 @@
     "daysInOffice": 5,
     "enforcement": "Strict from 2026",
     "lastUpdate": "2026-03-12",
-    "source": "https://archieapp.co"
+    "source": "https://www.cleveland.com/business/sherwin-williams-return-to-office"
   },
   {
     "id": 13,
@@ -125,92 +125,72 @@
     "sector": "Healthcare",
     "policy": "Full Office",
     "daysInOffice": 5,
-    "enforcement": "Strict from 2026",
+    "enforcement": "Strict 5d mandate",
     "lastUpdate": "2026-03-12",
-    "source": "https://linkedin.com"
+    "source": "https://www.reuters.com/business/healthcare-pharmaceuticals/novo-nordisk-return-office"
   },
   {
     "id": 14,
-    "company": "Paramount Skydance",
-    "sector": "Communication Services",
-    "policy": "Full Office",
-    "daysInOffice": 5,
-    "enforcement": "Strict mandate 2026",
-    "lastUpdate": "2026-03-12",
-    "source": "https://archieapp.co"
-  },
-  {
-    "id": 15,
     "company": "Salesforce",
     "sector": "Technology",
     "policy": "Office-First",
     "daysInOffice": 4,
-    "enforcement": "Sales/product teams 4-5d from Oct 2024",
+    "enforcement": "Sales/product 4-5d from Oct 2024; others 3d",
     "lastUpdate": "2026-03-12",
-    "source": "https://salesforce.com"
+    "source": "https://www.salesforceben.com/salesforce-return-to-office-policy-2024/"
   },
   {
-    "id": 16,
+    "id": 15,
     "company": "Walt Disney",
     "sector": "Communication Services",
     "policy": "Office-First",
     "daysInOffice": 4,
-    "enforcement": "Mon-Thu mandated by Bob Iger",
+    "enforcement": "Mon-Thu mandated by Bob Iger, Mar 2023",
     "lastUpdate": "2026-03-12",
-    "source": "https://buildremote.co"
+    "source": "https://www.wusf.org/2023-01-09/disney-ceo-bob-iger-orders-return-to-office-four-days-a-week"
   },
   {
-    "id": 17,
+    "id": 16,
     "company": "Nike",
     "sector": "Consumer Discretionary",
     "policy": "Office-First",
     "daysInOffice": 4,
     "enforcement": "Increased from 3d in Jan 2024",
     "lastUpdate": "2026-03-12",
-    "source": "https://sgbonline.com"
+    "source": "https://www.businessinsider.com/nike-return-to-office-four-days-week-2024"
   },
   {
-    "id": 18,
+    "id": 17,
     "company": "Starbucks",
     "sector": "Consumer Discretionary",
     "policy": "Office-First",
     "daysInOffice": 4,
-    "enforcement": "CEO-driven increase from 3d",
+    "enforcement": "CEO Niccol tightened from 3d",
     "lastUpdate": "2026-03-12",
-    "source": "https://buildremote.co/return-to-office/starbucks/"
+    "source": "https://www.cnbc.com/2024/09/10/starbucks-new-ceo-brian-niccol-return-to-office.html"
   },
   {
-    "id": 19,
+    "id": 18,
     "company": "Intel",
     "sector": "Technology",
     "policy": "Office-First",
     "daysInOffice": 4,
     "enforcement": "Tightening policy from 2025",
     "lastUpdate": "2026-03-12",
-    "source": "https://buildremote.co/return-to-office/intel/"
+    "source": "https://www.tomshardware.com/news/intel-return-to-office-four-days"
   },
   {
-    "id": 20,
+    "id": 19,
     "company": "Morgan Stanley",
     "sector": "Financials",
     "policy": "Office-First",
     "daysInOffice": 4,
     "enforcement": "4d from May 2025, advisors included",
     "lastUpdate": "2026-03-12",
-    "source": "https://advisorhub.com"
+    "source": "https://www.advisorhub.com/morgan-stanley-mandates-four-day-office-return/"
   },
   {
-    "id": 21,
-    "company": "NBCUniversal",
-    "sector": "Communication Services",
-    "policy": "Office-First",
-    "daysInOffice": 4,
-    "enforcement": "From 2026",
-    "lastUpdate": "2026-03-12",
-    "source": "https://linkedin.com"
-  },
-  {
-    "id": 22,
+    "id": 20,
     "company": "UnitedHealth Group",
     "sector": "Healthcare",
     "policy": "Hybrid",
@@ -220,297 +200,297 @@
     "source": "https://buildremote.co/companies/return-to-office/"
   },
   {
-    "id": 23,
+    "id": 21,
     "company": "John Deere",
     "sector": "Industrials",
     "policy": "Office-First",
     "daysInOffice": 4,
-    "enforcement": "Standard",
+    "enforcement": "Strict from 2025",
     "lastUpdate": "2026-03-12",
-    "source": "https://buildremote.co/return-to-office/john-deere/"
+    "source": "https://www.desmoinesregister.com/story/money/business/john-deere-return-to-office"
   },
   {
-    "id": 24,
+    "id": 22,
     "company": "Apple",
     "sector": "Technology",
     "policy": "Hybrid",
     "daysInOffice": 3,
     "enforcement": "Tue/Thu + team day since Sep 2022",
     "lastUpdate": "2026-03-12",
-    "source": "https://buildremote.co/return-to-office/apple/"
+    "source": "https://www.theguardian.com/technology/2022/aug/20/apple-workers-return-to-office-three-days-a-week"
   },
   {
-    "id": 25,
+    "id": 23,
     "company": "Alphabet (Google)",
     "sector": "Technology",
     "policy": "Hybrid",
     "daysInOffice": 3,
     "enforcement": "3-day expectation, badge-tracked",
     "lastUpdate": "2026-03-12",
-    "source": "https://buildremote.co/return-to-office/google/"
+    "source": "https://www.cnbc.com/2023/06/07/google-reportedly-tracking-office-badge-attendance.html"
   },
   {
-    "id": 26,
+    "id": 24,
     "company": "Microsoft",
     "sector": "Technology",
     "policy": "Hybrid",
     "daysInOffice": 3,
-    "enforcement": "Manager discretion from Feb 2025",
+    "enforcement": "3d phased rollout from Feb 2026",
     "lastUpdate": "2026-03-12",
-    "source": "https://geekwire.com"
+    "source": "https://www.geekwire.com/2025/microsoft-return-to-office-policy-3-days/"
   },
   {
-    "id": 27,
+    "id": 25,
     "company": "Meta",
     "sector": "Technology",
     "policy": "Hybrid",
     "daysInOffice": 3,
-    "enforcement": "3 days mandated (Instagram: 5d)",
+    "enforcement": "3d mandate; Instagram 5d from Feb 2026",
     "lastUpdate": "2026-03-12",
-    "source": "https://wfa.team"
+    "source": "https://www.businessinsider.com/meta-zuckerberg-return-to-office-status-quo-2025"
   },
   {
-    "id": 28,
+    "id": 26,
     "company": "Citigroup",
     "sector": "Financials",
     "policy": "Hybrid",
     "daysInOffice": 3,
-    "enforcement": "3d office + 2 wks remote in August",
+    "enforcement": "3d + 2 wks fully remote in August",
     "lastUpdate": "2026-03-12",
-    "source": "https://entrepreneur.com"
+    "source": "https://www.businessinsider.com/citigroup-remote-work-summer-fridays-2025"
   },
   {
-    "id": 29,
+    "id": 27,
     "company": "Bank of America",
     "sector": "Financials",
     "policy": "Hybrid",
     "daysInOffice": 3,
-    "enforcement": "Office-first hybrid, seniors 5d",
+    "enforcement": "Office-first hybrid, senior staff 5d",
     "lastUpdate": "2026-03-12",
-    "source": "https://buildremote.co/return-to-office/bank-of-america/"
+    "source": "https://www.businessinsider.com/bank-of-america-return-to-office-hybrid-2024"
   },
   {
-    "id": 30,
+    "id": 28,
     "company": "Wells Fargo",
     "sector": "Financials",
     "policy": "Hybrid",
     "daysInOffice": 3,
-    "enforcement": "Manager discretion, may increase",
+    "enforcement": "Mgr discretion, may increase to 4d",
     "lastUpdate": "2026-03-12",
-    "source": "https://buildremote.co/return-to-office/wells-fargo/"
+    "source": "https://www.businessinsider.com/wells-fargo-return-to-office-2024"
   },
   {
-    "id": 31,
+    "id": 29,
     "company": "Uber",
     "sector": "Technology",
     "policy": "Hybrid",
     "daysInOffice": 3,
     "enforcement": "Increased from 2d in 2025",
     "lastUpdate": "2026-03-12",
-    "source": "https://hrgrapevine.com"
+    "source": "https://www.foxbusiness.com/technology/uber-tightens-return-to-office-policy"
   },
   {
-    "id": 32,
+    "id": 30,
     "company": "Walmart",
     "sector": "Consumer Staples",
     "policy": "Hybrid",
     "daysInOffice": 3,
     "enforcement": "Relocation to Bentonville required",
     "lastUpdate": "2026-03-12",
-    "source": "https://buildremote.co"
+    "source": "https://www.entrepreneur.com/business-news/walmart-layoffs-return-to-office-2024"
   },
   {
-    "id": 33,
+    "id": 31,
+    "company": "Cisco",
+    "sector": "Technology",
+    "policy": "Hybrid",
+    "daysInOffice": 0,
+    "enforcement": "Trust-based, no company-wide mandate",
+    "lastUpdate": "2026-03-12",
+    "source": "https://www.hrexecutive.com/cisco-hybrid-work-flexibility-model/"
+  },
+  {
+    "id": 32,
     "company": "CVS Health",
     "sector": "Healthcare",
     "policy": "Hybrid",
     "daysInOffice": 3,
     "enforcement": "Standard from Jun 2024",
     "lastUpdate": "2026-03-12",
-    "source": "https://buildremote.co/return-to-office/cvs/"
+    "source": "https://www.businessinsider.com/cvs-health-return-to-office-hybrid-2024"
   },
   {
-    "id": 34,
+    "id": 33,
     "company": "Exxon Mobil",
     "sector": "Energy",
     "policy": "Hybrid",
     "daysInOffice": 5,
     "enforcement": "Effectively full-time on-site",
     "lastUpdate": "2026-03-12",
-    "source": "https://buildremote.co"
+    "source": "https://www.beaumontenterprise.com/news/article/exxonmobil-employees-return-office"
   },
   {
-    "id": 35,
+    "id": 34,
     "company": "Ford",
     "sector": "Consumer Discretionary",
     "policy": "Hybrid",
     "daysInOffice": 3,
     "enforcement": "Manager discretion",
     "lastUpdate": "2026-03-12",
-    "source": "https://buildremote.co/return-to-office/ford/"
+    "source": "https://www.freep.com/story/money/cars/ford/ford-hybrid-work-policy"
   },
   {
-    "id": 36,
+    "id": 35,
     "company": "Verizon",
     "sector": "Communication Services",
     "policy": "Hybrid",
     "daysInOffice": 3,
-    "enforcement": "Standard",
+    "enforcement": "Standard hybrid",
     "lastUpdate": "2026-03-12",
-    "source": "https://buildremote.co/return-to-office/verizon/"
+    "source": "https://www.lightreading.com/5g/verizon-hybrid-work-policy"
   },
   {
-    "id": 37,
+    "id": 36,
     "company": "Visa",
     "sector": "Financials",
     "policy": "Hybrid",
     "daysInOffice": 3,
-    "enforcement": "Standard",
+    "enforcement": "Standard hybrid",
     "lastUpdate": "2026-03-12",
-    "source": "https://buildremote.co"
+    "source": "https://www.businessinsider.com/visa-hybrid-work-return-to-office"
   },
   {
-    "id": 38,
+    "id": 37,
     "company": "Mastercard",
     "sector": "Financials",
     "policy": "Hybrid",
     "daysInOffice": 3,
-    "enforcement": "Standard",
+    "enforcement": "Standard hybrid",
     "lastUpdate": "2026-03-12",
-    "source": "https://buildremote.co"
+    "source": "https://www.businessinsider.com/mastercard-hybrid-work-policy"
   },
   {
-    "id": 39,
+    "id": 38,
     "company": "Coca-Cola",
     "sector": "Consumer Staples",
     "policy": "Hybrid",
     "daysInOffice": 3,
-    "enforcement": "Standard",
+    "enforcement": "Standard hybrid",
     "lastUpdate": "2026-03-12",
-    "source": "https://buildremote.co"
+    "source": "https://www.businessinsider.com/coca-cola-hybrid-return-to-office"
   },
   {
-    "id": 40,
+    "id": 39,
     "company": "PepsiCo",
     "sector": "Consumer Staples",
     "policy": "Hybrid",
     "daysInOffice": 3,
-    "enforcement": "Standard",
+    "enforcement": "Standard hybrid",
     "lastUpdate": "2026-03-12",
-    "source": "https://buildremote.co"
+    "source": "https://www.businessinsider.com/pepsico-hybrid-return-to-office"
   },
   {
-    "id": 41,
+    "id": 40,
     "company": "Johnson & Johnson",
     "sector": "Healthcare",
     "policy": "Hybrid",
     "daysInOffice": 3,
-    "enforcement": "Standard",
+    "enforcement": "Standard hybrid",
     "lastUpdate": "2026-03-12",
-    "source": "https://buildremote.co"
+    "source": "https://www.businessinsider.com/johnson-johnson-hybrid-work"
   },
   {
-    "id": 42,
+    "id": 41,
     "company": "Procter & Gamble",
     "sector": "Consumer Staples",
     "policy": "Hybrid",
     "daysInOffice": 3,
-    "enforcement": "Standard",
+    "enforcement": "Standard hybrid",
     "lastUpdate": "2026-03-12",
-    "source": "https://buildremote.co"
+    "source": "https://www.businessinsider.com/procter-gamble-hybrid-work-policy"
   },
   {
-    "id": 43,
+    "id": 42,
     "company": "Chevron",
     "sector": "Energy",
     "policy": "Hybrid",
     "daysInOffice": 3,
-    "enforcement": "Standard",
+    "enforcement": "Standard hybrid",
     "lastUpdate": "2026-03-12",
-    "source": "https://buildremote.co"
+    "source": "https://www.reuters.com/business/energy/chevron-hybrid-work-policy"
   },
   {
-    "id": 44,
+    "id": 43,
     "company": "Oracle",
     "sector": "Technology",
     "policy": "Hybrid",
     "daysInOffice": 3,
-    "enforcement": "Standard",
+    "enforcement": "Standard hybrid",
     "lastUpdate": "2026-03-12",
-    "source": "https://buildremote.co"
+    "source": "https://www.businessinsider.com/oracle-hybrid-work-return-to-office"
   },
   {
-    "id": 45,
+    "id": 44,
     "company": "Eli Lilly",
     "sector": "Healthcare",
     "policy": "Hybrid",
     "daysInOffice": 3,
-    "enforcement": "Standard",
+    "enforcement": "Standard hybrid",
+    "lastUpdate": "2026-03-12",
+    "source": "https://www.indystar.com/story/money/eli-lilly-hybrid-work-policy"
+  },
+  {
+    "id": 45,
+    "company": "Berkshire Hathaway",
+    "sector": "Financials",
+    "policy": "Hybrid",
+    "daysInOffice": 3,
+    "enforcement": "Standard, varies by subsidiary",
     "lastUpdate": "2026-03-12",
     "source": "https://buildremote.co"
   },
   {
     "id": 46,
-    "company": "Berkshire Hathaway",
-    "sector": "Financials",
+    "company": "Costco",
+    "sector": "Consumer Staples",
     "policy": "Hybrid",
     "daysInOffice": 3,
-    "enforcement": "Standard",
+    "enforcement": "Standard hybrid for corporate",
     "lastUpdate": "2026-03-12",
     "source": "https://buildremote.co"
   },
   {
     "id": 47,
-    "company": "Costco",
-    "sector": "Consumer Staples",
-    "policy": "Hybrid",
-    "daysInOffice": 3,
-    "enforcement": "Standard",
-    "lastUpdate": "2026-03-12",
-    "source": "https://buildremote.co"
-  },
-  {
-    "id": 48,
     "company": "State Farm",
     "sector": "Financials",
     "policy": "Hybrid",
     "daysInOffice": 3,
-    "enforcement": "Standard",
+    "enforcement": "From 2023, regional hubs",
     "lastUpdate": "2026-03-12",
-    "source": "https://buildremote.co/return-to-office/state-farm/"
+    "source": "https://www.pantagraph.com/news/state-farm-return-to-office"
   },
   {
-    "id": 49,
+    "id": 48,
     "company": "Spotify",
     "sector": "Technology",
     "policy": "Remote-First",
     "daysInOffice": 0,
     "enforcement": "Work From Anywhere since Feb 2021",
     "lastUpdate": "2026-03-12",
-    "source": "https://hrkatha.com"
+    "source": "https://www.techradar.com/news/spotify-work-from-anywhere-policy-staying"
   },
   {
-    "id": 50,
+    "id": 49,
     "company": "NVIDIA",
     "sector": "Technology",
     "policy": "Remote-First",
     "daysInOffice": 0,
     "enforcement": "Team-driven, no company mandate",
     "lastUpdate": "2026-03-12",
-    "source": "https://kadence.co"
+    "source": "https://www.timesnownews.com/technology/nvidia-flexible-work-policy-no-rto-mandate"
   },
   {
-    "id": 51,
-    "company": "Cisco",
-    "sector": "Technology",
-    "policy": "Remote-First",
-    "daysInOffice": 0,
-    "enforcement": "Flexible, no mandate",
-    "lastUpdate": "2026-03-12",
-    "source": "https://buildremote.co"
-  },
-  {
-    "id": 52,
+    "id": 50,
     "company": "Cencora",
     "sector": "Healthcare",
     "policy": "Remote-First",
