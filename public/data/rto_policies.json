@@ -1,0 +1,512 @@
+[
+  {
+    "id": 1,
+    "company": "Amazon",
+    "sector": "Consumer Discretionary",
+    "policy": "Office-First",
+    "daysInOffice": 5,
+    "enforcement": "Strict mandate",
+    "lastUpdate": "2026-03-12",
+    "source": "https://buildremote.co/companies/return-to-office/"
+  },
+  {
+    "id": 2,
+    "company": "Alphabet (Google)",
+    "sector": "Communication Services",
+    "policy": "Hybrid",
+    "daysInOffice": 3,
+    "enforcement": "3-day expectation",
+    "lastUpdate": "2026-03-12",
+    "source": "https://buildremote.co/companies/return-to-office/"
+  },
+  {
+    "id": 3,
+    "company": "Apple",
+    "sector": "Technology",
+    "policy": "Hybrid",
+    "daysInOffice": 3,
+    "enforcement": "Teams manage schedules",
+    "lastUpdate": "2026-03-12",
+    "source": "https://buildremote.co/companies/return-to-office/"
+  },
+  {
+    "id": 4,
+    "company": "Microsoft",
+    "sector": "Technology",
+    "policy": "Hybrid",
+    "daysInOffice": 3,
+    "enforcement": "Manager discretion",
+    "lastUpdate": "2026-03-12",
+    "source": "https://buildremote.co/return-to-office/microsoft/"
+  },
+  {
+    "id": 5,
+    "company": "Meta",
+    "sector": "Communication Services",
+    "policy": "Hybrid",
+    "daysInOffice": 3,
+    "enforcement": "Mandated 3 days",
+    "lastUpdate": "2026-03-12",
+    "source": "https://buildremote.co/return-to-office/meta-facebook/"
+  },
+  {
+    "id": 6,
+    "company": "JPMorgan Chase",
+    "sector": "Financials",
+    "policy": "Full Office",
+    "daysInOffice": 5,
+    "enforcement": "Badge tracking, strict",
+    "lastUpdate": "2026-03-12",
+    "source": "https://buildremote.co/return-to-office/jpmorgan-chase/"
+  },
+  {
+    "id": 7,
+    "company": "Goldman Sachs",
+    "sector": "Financials",
+    "policy": "Full Office",
+    "daysInOffice": 5,
+    "enforcement": "Strong in-person expectation",
+    "lastUpdate": "2026-03-12",
+    "source": "https://buildremote.co/return-to-office/goldman-sachs/"
+  },
+  {
+    "id": 8,
+    "company": "Wells Fargo",
+    "sector": "Financials",
+    "policy": "Hybrid",
+    "daysInOffice": 3,
+    "enforcement": "Manager discretion",
+    "lastUpdate": "2026-03-12",
+    "source": "https://buildremote.co/return-to-office/wells-fargo/"
+  },
+  {
+    "id": 9,
+    "company": "Bank of America",
+    "sector": "Financials",
+    "policy": "Hybrid",
+    "daysInOffice": 3,
+    "enforcement": "Standard",
+    "lastUpdate": "2026-03-12",
+    "source": "https://buildremote.co/return-to-office/bank-of-america/"
+  },
+  {
+    "id": 10,
+    "company": "Morgan Stanley",
+    "sector": "Financials",
+    "policy": "Office-First",
+    "daysInOffice": 4,
+    "enforcement": "Strong expectation",
+    "lastUpdate": "2026-03-12",
+    "source": "https://buildremote.co/return-to-office/morgan-stanley/"
+  },
+  {
+    "id": 11,
+    "company": "Citigroup",
+    "sector": "Financials",
+    "policy": "Hybrid",
+    "daysInOffice": 3,
+    "enforcement": "Manager discretion",
+    "lastUpdate": "2026-03-12",
+    "source": "https://entrepreneur.com"
+  },
+  {
+    "id": 12,
+    "company": "Tesla",
+    "sector": "Consumer Discretionary",
+    "policy": "Full Office",
+    "daysInOffice": 5,
+    "enforcement": "Strict, minimum 40hrs",
+    "lastUpdate": "2026-03-12",
+    "source": "https://buildremote.co"
+  },
+  {
+    "id": 13,
+    "company": "NVIDIA",
+    "sector": "Technology",
+    "policy": "Remote-First",
+    "daysInOffice": 0,
+    "enforcement": "Flexible",
+    "lastUpdate": "2026-03-12",
+    "source": "https://buildremote.co"
+  },
+  {
+    "id": 14,
+    "company": "Cisco",
+    "sector": "Technology",
+    "policy": "Remote-First",
+    "daysInOffice": 0,
+    "enforcement": "Flexible",
+    "lastUpdate": "2026-03-12",
+    "source": "https://buildremote.co"
+  },
+  {
+    "id": 15,
+    "company": "HP",
+    "sector": "Technology",
+    "policy": "Remote-First",
+    "daysInOffice": 0,
+    "enforcement": "Flexible",
+    "lastUpdate": "2026-03-12",
+    "source": "https://buildremote.co"
+  },
+  {
+    "id": 16,
+    "company": "Intel",
+    "sector": "Technology",
+    "policy": "Office-First",
+    "daysInOffice": 4,
+    "enforcement": "Tightening policy",
+    "lastUpdate": "2026-03-12",
+    "source": "https://buildremote.co/return-to-office/intel/"
+  },
+  {
+    "id": 17,
+    "company": "Salesforce",
+    "sector": "Technology",
+    "policy": "Hybrid",
+    "daysInOffice": 3,
+    "enforcement": "Manager discretion",
+    "lastUpdate": "2026-03-12",
+    "source": "https://buildremote.co"
+  },
+  {
+    "id": 18,
+    "company": "AT&T",
+    "sector": "Communication Services",
+    "policy": "Office-First",
+    "daysInOffice": 5,
+    "enforcement": "Mandated",
+    "lastUpdate": "2026-03-12",
+    "source": "https://buildremote.co"
+  },
+  {
+    "id": 19,
+    "company": "Walt Disney",
+    "sector": "Communication Services",
+    "policy": "Office-First",
+    "daysInOffice": 4,
+    "enforcement": "Mandated",
+    "lastUpdate": "2026-03-12",
+    "source": "https://buildremote.co"
+  },
+  {
+    "id": 20,
+    "company": "Starbucks",
+    "sector": "Consumer Discretionary",
+    "policy": "Office-First",
+    "daysInOffice": 4,
+    "enforcement": "CEO-driven",
+    "lastUpdate": "2026-03-12",
+    "source": "https://buildremote.co/return-to-office/starbucks/"
+  },
+  {
+    "id": 21,
+    "company": "Nike",
+    "sector": "Consumer Discretionary",
+    "policy": "Office-First",
+    "daysInOffice": 4,
+    "enforcement": "Mandated",
+    "lastUpdate": "2026-03-12",
+    "source": "https://buildremote.co"
+  },
+  {
+    "id": 22,
+    "company": "Home Depot",
+    "sector": "Consumer Discretionary",
+    "policy": "Full Office",
+    "daysInOffice": 5,
+    "enforcement": "Strict",
+    "lastUpdate": "2026-03-12",
+    "source": "https://buildremote.co/return-to-office/home-depot/"
+  },
+  {
+    "id": 23,
+    "company": "Caterpillar",
+    "sector": "Industrials",
+    "policy": "Full Office",
+    "daysInOffice": 5,
+    "enforcement": "Performance-linked",
+    "lastUpdate": "2026-03-12",
+    "source": "https://buildremote.co"
+  },
+  {
+    "id": 24,
+    "company": "UPS",
+    "sector": "Industrials",
+    "policy": "Full Office",
+    "daysInOffice": 5,
+    "enforcement": "Strict",
+    "lastUpdate": "2026-03-12",
+    "source": "https://buildremote.co"
+  },
+  {
+    "id": 25,
+    "company": "Paramount Skydance",
+    "sector": "Communication Services",
+    "policy": "Full Office",
+    "daysInOffice": 5,
+    "enforcement": "Strict mandate",
+    "lastUpdate": "2026-03-12",
+    "source": "https://archieapp.co"
+  },
+  {
+    "id": 26,
+    "company": "Truist Financial",
+    "sector": "Financials",
+    "policy": "Full Office",
+    "daysInOffice": 5,
+    "enforcement": "Strict; ending hybrid",
+    "lastUpdate": "2026-03-12",
+    "source": "https://archieapp.co"
+  },
+  {
+    "id": 27,
+    "company": "PNC Financial",
+    "sector": "Financials",
+    "policy": "Full Office",
+    "daysInOffice": 5,
+    "enforcement": "Strict",
+    "lastUpdate": "2026-03-12",
+    "source": "https://archieapp.co"
+  },
+  {
+    "id": 28,
+    "company": "Sherwin-Williams",
+    "sector": "Materials",
+    "policy": "Full Office",
+    "daysInOffice": 5,
+    "enforcement": "Strict",
+    "lastUpdate": "2026-03-12",
+    "source": "https://archieapp.co"
+  },
+  {
+    "id": 29,
+    "company": "Novo Nordisk",
+    "sector": "Healthcare",
+    "policy": "Full Office",
+    "daysInOffice": 5,
+    "enforcement": "Strict",
+    "lastUpdate": "2026-03-12",
+    "source": "https://archieapp.co"
+  },
+  {
+    "id": 30,
+    "company": "NBCUniversal",
+    "sector": "Communication Services",
+    "policy": "Office-First",
+    "daysInOffice": 4,
+    "enforcement": "Not explicit",
+    "lastUpdate": "2026-03-12",
+    "source": "https://archieapp.co"
+  },
+  {
+    "id": 31,
+    "company": "Ford",
+    "sector": "Consumer Discretionary",
+    "policy": "Hybrid",
+    "daysInOffice": 3,
+    "enforcement": "Manager discretion",
+    "lastUpdate": "2026-03-12",
+    "source": "https://buildremote.co/return-to-office/ford/"
+  },
+  {
+    "id": 32,
+    "company": "Verizon",
+    "sector": "Communication Services",
+    "policy": "Hybrid",
+    "daysInOffice": 3,
+    "enforcement": "Standard",
+    "lastUpdate": "2026-03-12",
+    "source": "https://buildremote.co/return-to-office/verizon/"
+  },
+  {
+    "id": 33,
+    "company": "John Deere",
+    "sector": "Industrials",
+    "policy": "Office-First",
+    "daysInOffice": 4,
+    "enforcement": "Standard",
+    "lastUpdate": "2026-03-12",
+    "source": "https://buildremote.co/return-to-office/john-deere/"
+  },
+  {
+    "id": 34,
+    "company": "Walmart",
+    "sector": "Consumer Staples",
+    "policy": "Hybrid",
+    "daysInOffice": 3,
+    "enforcement": "Standard",
+    "lastUpdate": "2026-03-12",
+    "source": "https://buildremote.co/companies/return-to-office/"
+  },
+  {
+    "id": 35,
+    "company": "UnitedHealth Group",
+    "sector": "Healthcare",
+    "policy": "Hybrid",
+    "daysInOffice": 4,
+    "enforcement": "Standard",
+    "lastUpdate": "2026-03-12",
+    "source": "https://buildremote.co/companies/return-to-office/"
+  },
+  {
+    "id": 36,
+    "company": "Exxon Mobil",
+    "sector": "Energy",
+    "policy": "Hybrid",
+    "daysInOffice": 5,
+    "enforcement": "Not explicit",
+    "lastUpdate": "2026-03-12",
+    "source": "https://buildremote.co/companies/return-to-office/"
+  },
+  {
+    "id": 37,
+    "company": "CVS Health",
+    "sector": "Healthcare",
+    "policy": "Hybrid",
+    "daysInOffice": 3,
+    "enforcement": "Standard",
+    "lastUpdate": "2026-03-12",
+    "source": "https://buildremote.co/companies/return-to-office/"
+  },
+  {
+    "id": 38,
+    "company": "Cencora",
+    "sector": "Healthcare",
+    "policy": "Remote-First",
+    "daysInOffice": 0,
+    "enforcement": "Flexible",
+    "lastUpdate": "2026-03-12",
+    "source": "https://buildremote.co/companies/return-to-office/"
+  },
+  {
+    "id": 39,
+    "company": "Berkshire Hathaway",
+    "sector": "Financials",
+    "policy": "Hybrid",
+    "daysInOffice": 3,
+    "enforcement": "Standard",
+    "lastUpdate": "2026-03-12",
+    "source": "https://buildremote.co"
+  },
+  {
+    "id": 40,
+    "company": "Eli Lilly",
+    "sector": "Healthcare",
+    "policy": "Hybrid",
+    "daysInOffice": 3,
+    "enforcement": "Standard",
+    "lastUpdate": "2026-03-12",
+    "source": "https://buildremote.co"
+  },
+  {
+    "id": 41,
+    "company": "Johnson & Johnson",
+    "sector": "Healthcare",
+    "policy": "Hybrid",
+    "daysInOffice": 3,
+    "enforcement": "Standard",
+    "lastUpdate": "2026-03-12",
+    "source": "https://buildremote.co"
+  },
+  {
+    "id": 42,
+    "company": "Procter & Gamble",
+    "sector": "Consumer Staples",
+    "policy": "Hybrid",
+    "daysInOffice": 3,
+    "enforcement": "Standard",
+    "lastUpdate": "2026-03-12",
+    "source": "https://buildremote.co"
+  },
+  {
+    "id": 43,
+    "company": "Chevron",
+    "sector": "Energy",
+    "policy": "Hybrid",
+    "daysInOffice": 3,
+    "enforcement": "Standard",
+    "lastUpdate": "2026-03-12",
+    "source": "https://buildremote.co"
+  },
+  {
+    "id": 44,
+    "company": "Coca-Cola",
+    "sector": "Consumer Staples",
+    "policy": "Hybrid",
+    "daysInOffice": 3,
+    "enforcement": "Standard",
+    "lastUpdate": "2026-03-12",
+    "source": "https://buildremote.co"
+  },
+  {
+    "id": 45,
+    "company": "PepsiCo",
+    "sector": "Consumer Staples",
+    "policy": "Hybrid",
+    "daysInOffice": 3,
+    "enforcement": "Standard",
+    "lastUpdate": "2026-03-12",
+    "source": "https://buildremote.co"
+  },
+  {
+    "id": 46,
+    "company": "Oracle",
+    "sector": "Technology",
+    "policy": "Hybrid",
+    "daysInOffice": 3,
+    "enforcement": "Standard",
+    "lastUpdate": "2026-03-12",
+    "source": "https://buildremote.co"
+  },
+  {
+    "id": 47,
+    "company": "Costco",
+    "sector": "Consumer Staples",
+    "policy": "Hybrid",
+    "daysInOffice": 3,
+    "enforcement": "Standard",
+    "lastUpdate": "2026-03-12",
+    "source": "https://buildremote.co"
+  },
+  {
+    "id": 48,
+    "company": "Visa",
+    "sector": "Financials",
+    "policy": "Hybrid",
+    "daysInOffice": 3,
+    "enforcement": "Standard",
+    "lastUpdate": "2026-03-12",
+    "source": "https://buildremote.co"
+  },
+  {
+    "id": 49,
+    "company": "Mastercard",
+    "sector": "Financials",
+    "policy": "Hybrid",
+    "daysInOffice": 3,
+    "enforcement": "Standard",
+    "lastUpdate": "2026-03-12",
+    "source": "https://buildremote.co"
+  },
+  {
+    "id": 50,
+    "company": "State Farm",
+    "sector": "Financials",
+    "policy": "Hybrid",
+    "daysInOffice": 3,
+    "enforcement": "Standard",
+    "lastUpdate": "2026-03-12",
+    "source": "https://buildremote.co/return-to-office/state-farm/"
+  },
+  {
+    "id": 51,
+    "company": "McKesson",
+    "sector": "Various",
+    "policy": "Hybrid",
+    "daysInOffice": 3,
+    "enforcement": "Standard",
+    "lastUpdate": "2026-03-12",
+    "source": "https://buildremote.co/companies/return-to-office/"
+  }
+]
