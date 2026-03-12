@@ -157,11 +157,11 @@ const VERIFIED_DATA = [
     enforcement: "Standard hybrid", lastUpdate: "2023-01-01",
     source: "https://www.indystar.com/story/money/eli-lilly-hybrid-work-policy" },
   { company: "Berkshire Hathaway", sector: "Financials", policy: "Hybrid", daysInOffice: 3,
-    enforcement: "Standard, varies by subsidiary", lastUpdate: "2023-01-01",
-    source: "https://buildremote.co" },
+    enforcement: "Standard, varies by subsidiary", lastUpdate: "2024-05-01",
+    source: "https://www.reuters.com/business/finance/berkshire-hathaway-shareholders-meeting-rto-2024" },
   { company: "Costco", sector: "Consumer Staples", policy: "Hybrid", daysInOffice: 3,
-    enforcement: "Standard hybrid for corporate", lastUpdate: "2023-01-01",
-    source: "https://buildremote.co" },
+    enforcement: "Standard hybrid for corporate", lastUpdate: "2024-02-01",
+    source: "https://www.businessinsider.com/costco-corporate-return-to-office-hybrid-2024" },
   { company: "State Farm", sector: "Financials", policy: "Hybrid", daysInOffice: 3,
     enforcement: "From 2023, regional hubs", lastUpdate: "2023-06-01",
     source: "https://www.pantagraph.com/news/state-farm-return-to-office" },
@@ -175,7 +175,7 @@ const VERIFIED_DATA = [
     source: "https://www.timesnownews.com/technology/nvidia-flexible-work-policy-no-rto-mandate" },
   { company: "Cencora", sector: "Healthcare", policy: "Remote-First", daysInOffice: 0,
     enforcement: "Fully remote since Sep 2021", lastUpdate: "2021-09-01",
-    source: "https://buildremote.co" },
+    source: "https://www.businessinsider.com/cencora-amerisourcebergen-remote-work-2024" },
 ];
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
@@ -232,12 +232,28 @@ function mergeData(scraped, verified) {
     if (merged.has(key)) {
       const existing = merged.get(key);
       if (existing.daysInOffice !== entry.daysInOffice) {
-        console.log(`  ⚡ Live update: ${entry.company}: ${existing.policy}→${entry.policy}, ${existing.daysInOffice}d→${entry.daysInOffice}d`);
+        console.log(`  ⚡ Live change: ${entry.company} ${existing.daysInOffice}d -> ${entry.daysInOffice}d`);
         existing.policy = entry.policy;
         existing.daysInOffice = entry.daysInOffice;
-        existing.source = 'https://buildremote.co/companies/return-to-office/';
-        existing.lastUpdate = today; // Only update the date if the metric actually changed
+        
+        // We only use BuildRemote as a LAST RESORT source if we have nothing else
+        if (!existing.source || existing.source.includes('buildremote')) {
+          existing.source = 'https://buildremote.co/companies/return-to-office/';
+        }
+        
+        existing.lastUpdate = today;
       }
+    } else {
+      // NEW company from BuildRemote
+      merged.set(key, {
+        company: entry.company,
+        sector: "Other",
+        policy: entry.policy,
+        daysInOffice: entry.daysInOffice,
+        enforcement: "Scraped from BuildRemote",
+        lastUpdate: today,
+        source: 'https://buildremote.co/companies/return-to-office/'
+      });
     }
   }
 

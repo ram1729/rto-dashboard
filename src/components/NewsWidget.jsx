@@ -8,7 +8,9 @@ const NewsWidget = () => {
 
   useEffect(() => {
     // Add cache-busting timestamp to prevent stale news
-    const url = `${import.meta.env.BASE_URL}data/news.json?t=${Date.now()}`;
+    const timestamp = Math.floor(Date.now() / 60000); // 1-minute cache window
+    const url = `${import.meta.env.BASE_URL}data/news.json?v=${timestamp}`;
+    
     fetch(url)
       .then(res => {
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
@@ -19,7 +21,7 @@ const NewsWidget = () => {
         setLoading(false);
       })
       .catch(err => {
-        console.error("Error fetching news: ", err);
+        console.error("NewsWidget fetch error: ", err);
         setError(err.message);
         setLoading(false);
       });

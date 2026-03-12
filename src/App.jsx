@@ -14,7 +14,8 @@ function App() {
   const [lastRefreshed, setLastRefreshed] = useState(null);
   
   useEffect(() => {
-    fetch(`${import.meta.env.BASE_URL}data/rto_policies.json`)
+    const timestamp = Date.now();
+    fetch(`${import.meta.env.BASE_URL}data/rto_policies.json?t=${timestamp}`)
       .then(res => res.json())
       .then(json => {
         setData(json);
@@ -22,7 +23,7 @@ function App() {
       })
       .catch(err => console.error("Error fetching data: ", err));
     
-    fetch(`${import.meta.env.BASE_URL}data/meta.json`)
+    fetch(`${import.meta.env.BASE_URL}data/meta.json?t=${timestamp}`)
       .then(res => res.json())
       .then(meta => setLastRefreshed(meta.lastRefreshed))
       .catch(() => {});
