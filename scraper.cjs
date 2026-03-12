@@ -256,17 +256,16 @@ function mergeData(scraped, verified) {
 
 
 // ── Main ──────────────────────────────────────────────────────────────────────
-async function fetchNews() {
-  console.log(`Fetching news from Google News RSS...`);
+async function fetchGlobalNews() {
+  console.log(`Fetching global RTO news from Google News RSS...`);
   try {
-    // We search for recent relevant news: "return to office" OR "rto mandate"
-    const xml = await fetchPage('https://news.google.com/rss/search?q=%22return+to+office%22+OR+%22rto+mandate%22&hl=en-US&gl=US&ceid=US:en');
+    const xml = await fetchPage('https://news.google.com/rss/search?q=%22return+to+office%22+OR+%22rto+mandate%22+when:7d&hl=en-US&gl=US&ceid=US:en');
     const $ = cheerio.load(xml, { xmlMode: true });
     const news = [];
-    $('item').slice(0, 5).each((i, el) => {
+    $('item').slice(0, 10).each((i, el) => {
       news.push({
         id: i + 1,
-        title: $(el).find('title').text().replace(/ - [^-]+$/, '').trim() || $(el).find('title').text(), // Remove source from end of title
+        title: $(el).find('title').text().replace(/ - [^-]+$/, '').trim() || $(el).find('title').text(),
         link: $(el).find('link').text(),
         source: $(el).find('source').text() || 'News',
         date: $(el).find('pubDate').text()
@@ -274,13 +273,34 @@ async function fetchNews() {
     });
     return news;
   } catch (err) {
-    console.warn('Failed to fetch news:', err.message);
+    console.warn('Failed to fetch global news:', err.message);
     return [];
   }
 }
 
+async function verifyCompanyNews(company) {
+  try {
+    // Search for "[Company Name] return to office" in the last 30 days
+    const query = encodeURIComponent(`"${company}" "return to office" OR "rto mandate"`);
+    const xml = await fetchPage(`https://news.google.com/rss/search?q=${query}+when:30d&hl=en-US&gl=US&ceid=US:en`);
+    const $ = cheerio.load(xml, { xmlMode: true });
+    const firstItem = $('item').first();
+    if (firstItem.length > 0) {
+      return {
+        title: firstItem.find('title').text().replace(/ - [^-]+$/, '').trim(),
+        link: firstItem.find('link').text(),
+        date: new Date(firstItem.find('pubDate').text()).toISOString().split('T')[0]
+      };
+    }
+  } catch (err) {
+    // Silently fail, fallback to existing
+  }
+  return null;
+}
+
 async function main() {
   console.log(`[${new Date().toISOString()}] RTO Scraper starting...`);
+  
   let scraped = [];
   try {
     console.log(`Fetching: ${BUILDREMOTE_URL}`);
@@ -290,27 +310,46 @@ async function main() {
   } catch (err) {
     console.warn(`Scrape failed (${err.message}). Using verified data only.`);
   }
-  const finalData = mergeData(scraped, VERIFIED_DATA);
+
+  // Update company specific news
+  console.log(`Updating company-specific news (this may take a minute)...`);
+  const finalDataRaw = mergeData(scraped, VERIFIED_DATA);
+  const finalData = [];
+  
+  // We'll process in batches to be nice to Google
+  for (let i = 0; i < finalDataRaw.length; i++) {
+    const company = finalDataRaw[i];
+    console.log(`  Checking [${i+1}/${finalDataRaw.length}]: ${company.company}...`);
+    const news = await verifyCompanyNews(company.company);
+    if (news) {
+      // If we found a more recent news article, update the source and date
+      if (!company.lastUpdate || news.date > company.lastUpdate) {
+        console.log(`    ⭐ Updated ${company.company} news: ${news.date}`);
+        company.lastUpdate = news.date;
+        company.source = news.link;
+      }
+    }
+    finalData.push(company);
+    // Tiny delay to avoid rate limits
+    await new Promise(r => setTimeout(r, 100));
+  }
+
   console.log(`Final dataset: ${finalData.length} companies`);
 
   const dir = './public/data';
   if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
   fs.writeFileSync(OUTPUT_PATH, JSON.stringify(finalData, null, 2));
 
-  // Write metadata with refresh timestamp
+  // Write metadata
   const meta = {
     lastRefreshed: new Date().toISOString(),
     totalCompanies: finalData.length,
     scrapedFromBuildRemote: scraped.length,
-    sources: [
-      "BuildRemote Fortune 500 RTO Tracker",
-      "CNBC", "Business Insider", "The Guardian", "GeekWire",
-      "WSJ", "Bloomberg", "Reuters", "Company Announcements"
-    ]
+    sources: ["Google News", "BuildRemote", "Verified News Outlets"]
   };
   fs.writeFileSync(META_PATH, JSON.stringify(meta, null, 2));
 
-  const newsData = await fetchNews();
+  const newsData = await fetchGlobalNews();
   fs.writeFileSync(NEWS_PATH, JSON.stringify(newsData, null, 2));
 
   console.log(`Written data to ${OUTPUT_PATH}`);
