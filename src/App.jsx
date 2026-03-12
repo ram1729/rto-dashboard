@@ -3,6 +3,7 @@ import { Building2, Globe, Search, Filter } from 'lucide-react';
 import MetricsCards from './components/MetricsCards';
 import PolicyCharts from './components/PolicyCharts';
 import CompanyTable from './components/CompanyTable';
+import NewsWidget from './components/NewsWidget';
 import './index.css';
 
 function App() {
@@ -105,9 +106,12 @@ function App() {
           <PolicyCharts data={filteredData} />
         </section>
 
-        {/* Right Column: Scrolling Table */}
-        <section className="right-column panel">
-           <CompanyTable data={filteredData} />
+        {/* Right Column: News & Scrolling Table */}
+        <section className="right-column">
+           <NewsWidget />
+           <div className="panel" style={{ flex: 1, minHeight: 0, display: 'flex' }}>
+             <CompanyTable data={filteredData} />
+           </div>
         </section>
 
       </main>

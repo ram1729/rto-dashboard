@@ -15,6 +15,7 @@ const cheerio = require('cheerio');
 const BUILDREMOTE_URL = 'https://buildremote.co/companies/return-to-office/';
 const OUTPUT_PATH = './public/data/rto_policies.json';
 const META_PATH = './public/data/meta.json';
+const NEWS_PATH = './public/data/news.json';
 
 // ── VERIFIED DATASET — Real news article sources ──────────────────────────────
 const VERIFIED_DATA = [
@@ -245,6 +246,29 @@ function mergeData(scraped, verified) {
 }
 
 // ── Main ──────────────────────────────────────────────────────────────────────
+async function fetchNews() {
+  console.log(`Fetching news from Google News RSS...`);
+  try {
+    // We search for recent relevant news: "return to office" OR "rto mandate"
+    const xml = await fetchPage('https://news.google.com/rss/search?q=%22return+to+office%22+OR+%22rto+mandate%22&hl=en-US&gl=US&ceid=US:en');
+    const $ = cheerio.load(xml, { xmlMode: true });
+    const news = [];
+    $('item').slice(0, 5).each((i, el) => {
+      news.push({
+        id: i + 1,
+        title: $(el).find('title').text().replace(/ - [^-]+$/, '').trim() || $(el).find('title').text(), // Remove source from end of title
+        link: $(el).find('link').text(),
+        source: $(el).find('source').text() || 'News',
+        date: $(el).find('pubDate').text()
+      });
+    });
+    return news;
+  } catch (err) {
+    console.warn('Failed to fetch news:', err.message);
+    return [];
+  }
+}
+
 async function main() {
   console.log(`[${new Date().toISOString()}] RTO Scraper starting...`);
   let scraped = [];
@@ -276,8 +300,12 @@ async function main() {
   };
   fs.writeFileSync(META_PATH, JSON.stringify(meta, null, 2));
 
+  const newsData = await fetchNews();
+  fs.writeFileSync(NEWS_PATH, JSON.stringify(newsData, null, 2));
+
   console.log(`Written data to ${OUTPUT_PATH}`);
   console.log(`Written meta to ${META_PATH}`);
+  console.log(`Written news to ${NEWS_PATH}`);
   console.log(`[${new Date().toISOString()}] Done.`);
 }
 
