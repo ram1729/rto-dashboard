@@ -12,7 +12,7 @@ function App() {
   const [sectorFilter, setSectorFilter] = useState('All');
   
   useEffect(() => {
-    fetch('/data/rto_policies.json')
+    fetch(`${import.meta.env.BASE_URL}data/rto_policies.json`)
       .then(res => res.json())
       .then(json => {
         setData(json);
