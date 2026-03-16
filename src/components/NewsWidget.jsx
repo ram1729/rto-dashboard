@@ -44,7 +44,7 @@ const NewsWidget = () => {
 
       {!loading && !error && news.length === 0 && (
         <div className="news-meta" style={{ padding: '0.5rem' }}>
-          No major news breakages in the last 24 hours.
+          No major RTO news updates found in the last 30 days.
         </div>
       )}
 

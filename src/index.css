@@ -430,6 +430,14 @@ a.text-accent:hover { text-decoration: underline; }
   margin-top: 0.15rem;
 }
 
+.news-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.70rem;
+  color: var(--text-muted);
+}
+
 .news-journal-tag {
   background: var(--accent-secondary);
   color: white;

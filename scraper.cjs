@@ -275,7 +275,7 @@ function mergeData(scraped, verified) {
 async function fetchGlobalNews() {
   console.log(`Fetching global RTO news from Google News RSS...`);
   try {
-    const xml = await fetchPage('https://news.google.com/rss/search?q=%22return+to+office%22+OR+%22rto+mandate%22+when:7d&hl=en-US&gl=US&ceid=US:en');
+    const xml = await fetchPage('https://news.google.com/rss/search?q=%22return+to+office%22+OR+%22rto+mandate%22+when:30d&hl=en-US&gl=US&ceid=US:en');
     const $ = cheerio.load(xml, { xmlMode: true });
     const news = [];
     $('item').slice(0, 10).each((i, el) => {
@@ -298,7 +298,8 @@ async function verifyCompanyNews(companyObj) {
   const company = companyObj.company;
   try {
     const query = encodeURIComponent(`"${company}" "return to office" OR "rto mandate"`);
-    const xml = await fetchPage(`https://news.google.com/rss/search?q=${query}+when:30d&hl=en-US&gl=US&ceid=US:en`);
+    // Remove the short 'when:30d' window to find the most recent confirmation even if it's older
+    const xml = await fetchPage(`https://news.google.com/rss/search?q=${query}&hl=en-US&gl=US&ceid=US:en`);
     const $ = cheerio.load(xml, { xmlMode: true });
     const firstItem = $('item').first();
     
