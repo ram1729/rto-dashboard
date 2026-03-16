@@ -227,24 +227,30 @@ function mergeData(scraped, verified) {
   
   const today = new Date().toISOString().split('T')[0];
   
+  // US Cities for HQ locations
+  const hubs = [
+    { city: "San Francisco", lat: 37.7749, lng: -122.4194 },
+    { city: "New York", lat: 40.7128, lng: -74.0060 },
+    { city: "Seattle", lat: 47.6062, lng: -122.3321 },
+    { city: "Chicago", lat: 41.8781, lng: -87.6298 },
+    { city: "Austin", lat: 30.2672, lng: -97.7431 },
+    { city: "Atlanta", lat: 33.7490, lng: -84.3880 },
+    { city: "Boston", lat: 42.3601, lng: -71.0589 }
+  ];
+
   for (const entry of scraped) {
     const key = entry.company.toLowerCase();
     if (merged.has(key)) {
       const existing = merged.get(key);
       if (existing.daysInOffice !== entry.daysInOffice) {
-        console.log(`  ⚡ Live change: ${entry.company} ${existing.daysInOffice}d -> ${entry.daysInOffice}d`);
         existing.policy = entry.policy;
         existing.daysInOffice = entry.daysInOffice;
-        
-        // We only use BuildRemote as a LAST RESORT source if we have nothing else
         if (!existing.source || existing.source.includes('buildremote')) {
           existing.source = 'https://buildremote.co/companies/return-to-office/';
         }
-        
         existing.lastUpdate = today;
       }
     } else {
-      // NEW company from BuildRemote
       merged.set(key, {
         company: entry.company,
         sector: "Other",
@@ -258,16 +264,48 @@ function mergeData(scraped, verified) {
   }
 
   let id = 1;
-  return Array.from(merged.values()).map(d => ({
-    id: id++, 
-    company: d.company, 
-    sector: d.sector, 
-    policy: d.policy,
-    daysInOffice: d.daysInOffice, 
-    enforcement: d.enforcement,
-    lastUpdate: d.lastUpdate || today, // Use the verified date or fallback to today
-    source: d.source
-  }));
+  return Array.from(merged.values()).map(d => {
+    // Inject Mock Data for Dashboard 2.0
+    const hub = hubs[Math.floor(Math.random() * hubs.length)];
+    
+    // Logic: Full Office = Negative, Hybrid/Remote = Positive
+    let sentiment = 0.5 + Math.random() * 0.4; // Default positive
+    if (d.policy === 'Full Office') sentiment = -0.3 - Math.random() * 0.5; // Negative
+    
+    const nextPolicies = ["Full Office", "Office-First", "Hybrid", "Remote-First"].filter(p => p !== d.policy);
+    const predictedPolicy = nextPolicies[Math.floor(Math.random() * nextPolicies.length)];
+    const probability = 20 + Math.floor(Math.random() * 70);
+
+    return {
+      id: id++, 
+      company: d.company, 
+      sector: d.sector, 
+      policy: d.policy,
+      daysInOffice: d.daysInOffice, 
+      enforcement: d.enforcement,
+      lastUpdate: d.lastUpdate || today,
+      source: d.source,
+      // Dashboard 2.0 Fields
+      sentiment: parseFloat(sentiment.toFixed(2)),
+      sentimentTrend: sentiment > 0 ? "Improving" : "Declining",
+      mentionVolume: 500 + Math.floor(Math.random() * 5000),
+      hq: {
+        city: hub.city,
+        lat: hub.lat + (Math.random() - 0.5) * 2, // Jitter
+        lng: hub.lng + (Math.random() - 0.5) * 2
+      },
+      prediction: probability > 40 ? {
+        nextPolicy: predictedPolicy,
+        probability: probability,
+        timeframe: "Q" + (Math.floor(Math.random() * 4) + 1) + " 2026",
+        signals: ["CEO comments", "Lease expiry", "Peer pressure"].slice(0, Math.floor(Math.random() * 3) + 1)
+      } : null,
+      history: Array.from({ length: 12 }, (_, i) => ({
+        month: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"][i],
+        sentiment: parseFloat((sentiment + (Math.random() - 0.5) * 0.4).toFixed(2))
+      }))
+    };
+  });
 }
 
 
