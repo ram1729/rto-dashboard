@@ -2,17 +2,21 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
   schedule:
-    - cron: '0 */12 * * *' # Every 12 hours
+    - cron: '0 */12 * * *'
   workflow_dispatch:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 jobs:
-  build-and-deploy:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
@@ -26,30 +30,52 @@ jobs:
           node-version: 20
           cache: 'npm'
 
-      - name: Install Dependencies 📦
-        run: npm install
+      - name: Install Node Dependencies 📦
+        run: npm ci
 
-      - name: Scrape & Update Intel 🔍
-        run: node scraper.cjs
+      - name: Setup Python for Sentiment 🐍
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Python Dependencies 🐍
+        run: |
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          fi
+
+      - name: Run Scrapers 🔍
+        run: |
+          node scraper.cjs
+          if [ -f scripts/scrape_sentiment.py ]; then
+            python scripts/scrape_sentiment.py
+          fi
         continue-on-error: true
 
       - name: Commit Updated Data 💾
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add public/data/
+          git add public/data/ data/
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "chore: auto-update RTO data and news [$(date +'%Y-%m-%d')]"
+            git commit -m "chore: auto-update RTO data and sentiment [$(date +'%Y-%m-%d')]"
             git push origin main
           fi
+        continue-on-error: true
+
+      - name: Setup Pages 🛠️
+        uses: actions/configure-pages@v5
 
       - name: Build 🔧
         run: npm run build
 
-      - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@v4
+      - name: Upload artifact 📤
+        uses: actions/upload-pages-artifact@v3
         with:
-          folder: dist
-          branch: gh-pages
+          path: './dist'
+
+      - name: Deploy to GitHub Pages 🚀
+        id: deployment
+        uses: actions/deploy-pages@v4
