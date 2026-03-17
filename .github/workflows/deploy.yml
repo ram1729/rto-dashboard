@@ -79,9 +79,12 @@ jobs:
       - name: Deploy to GitHub Pages (Modern) 🚀
         id: deployment
         uses: actions/deploy-pages@v4
+        continue-on-error: true
 
       - name: Deploy to GitHub Pages (Legacy Fallback) 🪂
+        if: always()
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: dist
           branch: gh-pages
+          clean: true
