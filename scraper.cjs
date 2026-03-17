@@ -246,6 +246,17 @@ const VERIFIED_DATA = [
 ];
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
+function loadExistingData() {
+  if (fs.existsSync(OUTPUT_PATH)) {
+    try {
+      return JSON.parse(fs.readFileSync(OUTPUT_PATH, 'utf8'));
+    } catch (e) {
+      console.error("Error loading existing data:", e);
+    }
+  }
+  return [];
+}
+
 function fetchPage(url) {
   return new Promise((resolve, reject) => {
     const client = url.startsWith('https') ? https : http;
@@ -288,42 +299,70 @@ function parseTable(html) {
   return scraped;
 }
 
-function mergeData(scraped, verified) {
+function mergeData(scraped, verified, existingData = []) {
   const mergedMap = new Map();
-  for (const entry of verified) mergedMap.set(entry.company.toLowerCase(), { ...entry });
+  const existingMap = new Map(existingData.map(d => [d.company.toLowerCase(), d]));
+  
+  // Start with verified data
+  for (const entry of verified) {
+    const key = entry.company.toLowerCase();
+    const existing = existingMap.get(key);
+    if (existing) {
+      mergedMap.set(key, { ...existing, ...entry }); // Verified overrides existing but preserves history/fields
+    } else {
+      mergedMap.set(key, { ...entry });
+    }
+  }
   
   const today = new Date().toISOString().split('T')[0];
   
+  // Add/Update from scraped data
   for (const entry of scraped) {
     const key = entry.company.toLowerCase();
     if (mergedMap.has(key)) {
-      const existing = mergedMap.get(key);
-      if (existing.daysInOffice !== entry.daysInOffice) {
-        existing.policy = entry.policy;
-        existing.daysInOffice = entry.daysInOffice;
-        if (!existing.source || existing.source.includes('buildremote')) {
-          existing.source = 'https://buildremote.co/companies/return-to-office/';
+      const current = mergedMap.get(key);
+      if (current.daysInOffice !== entry.daysInOffice) {
+        // Track displacement if it's a real change (minimal jitter filter)
+        if (!current.policyHistory) current.policyHistory = [];
+        current.policyHistory.unshift({
+          date: current.lastUpdate,
+          policy: current.policy,
+          daysInOffice: current.daysInOffice,
+          source: current.source
+        });
+        
+        current.policy = entry.policy;
+        current.daysInOffice = entry.daysInOffice;
+        if (!current.source || current.source.includes('buildremote')) {
+          current.source = 'https://buildremote.co/companies/return-to-office/';
         }
-        existing.lastUpdate = today;
+        current.lastUpdate = today;
       }
     } else {
-      mergedMap.set(key, {
-        company: entry.company,
-        sector: "Other",
-        policy: entry.policy,
-        daysInOffice: entry.daysInOffice,
-        enforcement: "Scraped from BuildRemote",
-        lastUpdate: today,
-        source: 'https://buildremote.co/companies/return-to-office/'
-      });
+      const existing = existingMap.get(key);
+      if (existing) {
+        mergedMap.set(key, { ...existing, ...entry, lastUpdate: today });
+      } else {
+        mergedMap.set(key, {
+          company: entry.company,
+          sector: "Other",
+          policy: entry.policy,
+          daysInOffice: entry.daysInOffice,
+          enforcement: "Scraped from BuildRemote",
+          lastUpdate: today,
+          source: 'https://buildremote.co/companies/return-to-office/',
+          policyHistory: []
+        });
+      }
     }
   }
 
-  let id = 1;
+  let nextId = Math.max(0, ...existingData.map(d => d.id)) + 1;
   const merged = [];
   for (const item of mergedMap.values()) {
-    // Inject Real Dashboard 2.0 Mock Data (Phases 11-13)
-    const hq = HQ_MAP[item.company] || {
+    if (!item.id) item.id = nextId++;
+    
+    const hq = item.hq || HQ_MAP[item.company] || {
       city: "San Francisco",
       lat: 37 + Math.random() * 10,
       lng: -120 + Math.random() * 40
@@ -334,26 +373,12 @@ function mergeData(scraped, verified) {
     const sentiment = parseFloat((baseSentiment + (Math.random() * 0.4 - 0.2)).toFixed(2));
 
     merged.push({
-      id: id++, 
-      company: item.company, 
-      sector: item.sector, 
-      policy: item.policy,
-      daysInOffice: item.daysInOffice, 
-      enforcement: item.enforcement,
-      lastUpdate: item.lastUpdate || today,
-      source: item.source,
-      // Dashboard 2.0 Fields
-      sentiment: sentiment,
-      sentimentTrend: sentiment > -0.2 ? 'Improving' : 'Declining',
-      mentionVolume: Math.floor(Math.random() * 5000) + 500,
+      ...item,
       hq: hq,
-      prediction: Math.random() > 0.6 ? {
-        nextPolicy: item.policy === 'Full Office' ? 'Hybrid' : 'Office-First',
-        probability: Math.floor(Math.random() * 60) + 40,
-        timeframe: `Q${Math.floor(Math.random()*4)+1} 2026`,
-        signals: ["CEO comments", "Lease expiry", "Peer pressure"].slice(0, Math.floor(Math.random()*3)+1)
-      } : null,
-      history: Array.from({length: 12}, (_, i) => ({
+      sentiment: item.sentiment || sentiment,
+      sentimentTrend: item.sentimentTrend || (sentiment > -0.2 ? 'Improving' : 'Declining'),
+      mentionVolume: item.mentionVolume || (Math.floor(Math.random() * 5000) + 500),
+      history: item.history || Array.from({length: 12}, (_, i) => ({
         month: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"][i],
         sentiment: parseFloat((sentiment + (Math.random() * 0.4 - 0.2)).toFixed(2))
       }))
@@ -460,7 +485,8 @@ async function main() {
 
   // Update company specific news
   console.log(`Updating company-specific news and detecting policy changes...`);
-  const finalDataRaw = mergeData(scraped, VERIFIED_DATA);
+  const existingData = loadExistingData();
+  const finalDataRaw = mergeData(scraped, VERIFIED_DATA, existingData);
   const finalData = [];
   
   for (let i = 0; i < finalDataRaw.length; i++) {
@@ -468,16 +494,29 @@ async function main() {
     console.log(`  Checking [${i+1}/${finalDataRaw.length}]: ${company.company}...`);
     const news = await verifyCompanyNews(company);
     if (news) {
-      // Prioritize news source
-      company.source = news.link;
-      company.lastUpdate = news.date;
-      
+      const oldPolicy = company.policy;
+      const oldDays = company.daysInOffice;
+      const oldSource = company.source;
+      const oldUpdate = company.lastUpdate;
+
       // Update policy if detected from news
       if (news.policy !== company.policy || news.daysInOffice !== company.daysInOffice) {
         console.log(`    🗞️ News-detected change for ${company.company}: ${company.policy}→${news.policy}, ${company.daysInOffice}d→${news.daysInOffice}d`);
+        
+        if (!company.policyHistory) company.policyHistory = [];
+        company.policyHistory.unshift({
+          date: oldUpdate,
+          policy: oldPolicy,
+          daysInOffice: oldDays,
+          source: oldSource
+        });
+
         company.policy = news.policy;
         company.daysInOffice = news.daysInOffice;
       }
+
+      company.source = news.link;
+      company.lastUpdate = news.date;
     }
     finalData.push(company);
     await new Promise(r => setTimeout(r, 100)); // Rate limit safety

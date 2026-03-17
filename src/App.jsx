@@ -243,124 +243,172 @@ export default function App() {
                       <tbody className="divide-y divide-white/10">
                         {paginatedData.map((row, idx) => {
                           const sentimentDetail = sentimentData.companies.find(c => c.name === row.company);
-                          const currentSentiment = sentimentDetail ? sentimentDetail.sentiment.overall_score : row.sentiment;
-                          
-                          return (
-                            <React.Fragment key={row.id}>
-                              <tr 
-                                id={`row-${row.id}`}
-                                className={`hover:bg-primary-purple/[0.04] transition-all duration-300 group cursor-pointer border-l-4 animate-in fade-in slide-in-from-left-2`}
-                                style={{ 
-                                  animationDelay: `${idx * 40}ms`, 
-                                  borderLeftColor: expandedRows.has(row.id) ? '#7C5CFC' : 'transparent', 
-                                  backgroundColor: expandedRows.has(row.id) ? 'rgba(124, 92, 252, 0.05)' : 'transparent' 
-                                }}
-                              >
-                                <td className="p-3 border-transparent text-center" onClick={(e) => { e.stopPropagation(); toggleSelect(row.id); }}>
-                                   <div className={`mx-auto w-5 h-5 rounded-lg border-2 flex items-center justify-center transition-all duration-300 ${selectedCompanies.has(row.id) ? 'bg-primary-purple border-primary-purple shadow-lg shadow-primary-purple/20 scale-110' : 'border-text-light/20 group-hover:border-primary-purple/40 group-hover:bg-white'}`}>
-                                      {selectedCompanies.has(row.id) && <Check size={12} className="text-white" strokeWidth={3} />}
-                                   </div>
-                                </td>
-                                <td className="p-3 text-center" onClick={() => toggleExpand(row.id)}>
-                                   <div className={`p-1.5 rounded-lg transition-all duration-300 ${expandedRows.has(row.id) ? 'bg-primary-purple/10' : 'group-hover:bg-primary-purple/10'}`}>
-                                     {expandedRows.has(row.id) ? <ChevronUp size={16} className="text-primary-purple" /> : <ChevronDown size={16} className="text-text-light opacity-60 group-hover:opacity-100" />}
-                                   </div>
-                                </td>
-                                <td className="p-3 truncate" onClick={() => toggleExpand(row.id)}>
-                                  <div className="flex flex-col min-w-0">
-                                    <span className="font-bold text-[13px] text-text-primary group-hover:text-primary-purple transition-all duration-300 truncate tracking-tight">{row.company}</span>
-                                    <span className="text-[10px] font-bold text-text-light/60 truncate uppercase tracking-tighter">{row.sector}</span>
-                                  </div>
-                                </td>
-                                <td className="p-3" onClick={() => toggleExpand(row.id)}><PolicyTag policy={row.policy} /></td>
-                                <td className="p-3" onClick={() => toggleExpand(row.id)}>
-                                  <div className="flex items-center gap-3">
-                                    <SentimentGauge score={currentSentiment} />
-                                    <div className="p-1 rounded bg-white/40 border border-white/60 shadow-sm">
-                                      <SentimentSparkline data={sentimentDetail ? sentimentDetail.sparkline : (row.history ? row.history.map(h => h.sentiment) : [0])} />
+                            const isRecent = (dateStr) => {
+                              const date = new Date(dateStr);
+                              const now = new Date();
+                              const diffTime = Math.abs(now - date);
+                              const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+                              return diffDays <= 7;
+                            };
+
+                            return (
+                              <React.Fragment key={row.id}>
+                                <tr 
+                                  id={`row-${row.id}`}
+                                  className={`hover:bg-primary-purple/[0.04] transition-all duration-300 group cursor-pointer border-l-4 animate-in fade-in slide-in-from-left-2`}
+                                  style={{ 
+                                    animationDelay: `${idx * 40}ms`, 
+                                    borderLeftColor: expandedRows.has(row.id) ? '#7C5CFC' : 'transparent', 
+                                    backgroundColor: expandedRows.has(row.id) ? 'rgba(124, 92, 252, 0.05)' : 'transparent' 
+                                  }}
+                                >
+                                  <td className="p-3 border-transparent text-center" onClick={(e) => { e.stopPropagation(); toggleSelect(row.id); }}>
+                                     <div className={`mx-auto w-5 h-5 rounded-lg border-2 flex items-center justify-center transition-all duration-300 ${selectedCompanies.has(row.id) ? 'bg-primary-purple border-primary-purple shadow-lg shadow-primary-purple/20 scale-110' : 'border-text-light/20 group-hover:border-primary-purple/40 group-hover:bg-white'}`}>
+                                        {selectedCompanies.has(row.id) && <Check size={12} className="text-white" strokeWidth={3} />}
+                                     </div>
+                                  </td>
+                                  <td className="p-3 text-center" onClick={() => toggleExpand(row.id)}>
+                                     <div className={`p-1.5 rounded-lg transition-all duration-300 ${expandedRows.has(row.id) ? 'bg-primary-purple/10' : 'group-hover:bg-primary-purple/10'}`}>
+                                       {expandedRows.has(row.id) ? <ChevronUp size={16} className="text-primary-purple" /> : <ChevronDown size={16} className="text-text-light opacity-60 group-hover:opacity-100" />}
+                                     </div>
+                                  </td>
+                                  <td className="p-3 truncate" onClick={() => toggleExpand(row.id)}>
+                                    <div className="flex flex-col min-w-0">
+                                      <div className="flex items-center gap-2">
+                                        <span className="font-bold text-[13px] text-text-primary group-hover:text-primary-purple transition-all duration-300 truncate tracking-tight">{row.company}</span>
+                                        {isRecent(row.lastUpdate) && (
+                                          <span className="px-1.5 py-0.5 rounded-md bg-positive/10 text-positive text-[7px] font-black uppercase tracking-widest border border-positive/20 animate-pulse">Updated</span>
+                                        )}
+                                      </div>
+                                      <span className="text-[10px] font-bold text-text-light/60 truncate uppercase tracking-tighter">{row.sector}</span>
                                     </div>
-                                  </div>
-                                </td>
-                                <td className="p-3 font-bold text-[13px] text-text-primary" onClick={() => toggleExpand(row.id)}>{row.daysInOffice === 0 ? '—' : `${row.daysInOffice}d`}</td>
-                              </tr>
-                            
-                              {expandedRows.has(row.id) && (
-                                <tr key={`${row.id}-details`}>
-                                  <td colSpan="6" className="bg-primary-purple/[0.01] p-6 border-b border-white/20 border-l-4 border-primary-purple shadow-inner">
-                                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 animate-in fade-in slide-in-from-top-4 duration-500">
-                                      
-                                      <div className="glass-card rounded-2xl p-6">
-                                        <h4 className="text-[10px] font-black text-text-muted uppercase tracking-[0.15em] mb-5 flex items-center gap-2">
-                                          <div className="w-1.5 h-3.5 bg-primary-purple rounded-full" />
-                                          VADER Intelligence
-                                        </h4>
-                                        <div className="space-y-4">
-                                          {sentimentDetail ? Object.entries(sentimentDetail.sentiment.source_scores).map(([name, meta], i) => (
-                                            <div key={i} className="flex flex-col gap-2">
-                                              <div className="flex justify-between text-[10px] font-bold">
-                                                <span className="text-text-primary/70 uppercase tracking-tighter">{name.replace('_', ' ')}</span>
-                                                <span className={`flex items-center gap-1 ${meta.score > 0 ? 'text-positive' : 'text-negative'}`}>
-                                                  {meta.score.toFixed(2)}
-                                                </span>
-                                              </div>
-                                              <div className="h-2 bg-text-light/10 rounded-full overflow-hidden">
-                                                <div 
-                                                  className="h-full rounded-full transition-all duration-1000"
-                                                  style={{ 
-                                                    width: `${Math.min(100, Math.abs(meta.score) * 100)}%`,
-                                                    backgroundColor: meta.score > 0 ? '#22C55E' : '#EF4444'
-                                                  }}
-                                                />
-                                              </div>
-                                            </div>
-                                          )) : (
-                                            <p className="text-[11px] text-text-light italic opacity-60">AI Analysis pending.</p>
-                                          )}
-                                        </div>
-                                      </div>
-       
-                                      <div className="glass-card rounded-2xl p-6 flex flex-col">
-                                        <h4 className="text-[10px] font-black text-text-muted uppercase tracking-[0.15em] mb-5 flex items-center gap-2">
-                                           <div className="w-1.5 h-3.5 bg-blue-400 rounded-full" />
-                                           Historical Trend
-                                        </h4>
-                                        <div className="flex-1 min-h-[120px]">
-                                          <ResponsiveContainer width="100%" height="100%">
-                                            <LineChart data={(sentimentDetail ? sentimentDetail.sparkline : row.history.map(h => h.sentiment)).map((s, i) => ({ val: s, idx: i }))}>
-                                              <Line type="monotone" dataKey="val" stroke="#7C5CFC" strokeWidth={3} dot={false} />
-                                              <YAxis hide domain={['auto', 'auto']} />
-                                              <Tooltip 
-                                                contentStyle={{ backgroundColor: 'rgba(255,255,255,0.95)', backdropFilter: 'blur(8px)', borderRadius: '16px', border: 'none', boxShadow: '0 8px 32px rgba(0,0,0,0.1)', fontSize: '11px' }}
-                                                labelStyle={{ display: 'none' }}
-                                              />
-                                            </LineChart>
-                                          </ResponsiveContainer>
-                                        </div>
-                                      </div>
-       
-                                      <div className="glass-card rounded-2xl p-6">
-                                        <h4 className="text-[10px] font-black text-text-muted uppercase tracking-[0.15em] mb-5 flex items-center gap-2">
-                                           <div className="w-1.5 h-3.5 bg-warning rounded-full" />
-                                           Signal Sources
-                                        </h4>
-                                        <div className="space-y-2">
-                                          {(sentimentDetail ? sentimentDetail.top_headlines : row.history.slice(0, 3).map(h => ({ title: `Shift in ${h.month}`, source: "Archive", url: "#" }))).map((head, i) => (
-                                            <a key={i} href={head.url} target="_blank" rel="noopener noreferrer" className="block p-3 bg-white/40 border border-white/60 rounded-2xl text-[10px] hover:bg-white hover:border-primary-purple transition-all duration-300">
-                                              <p className="font-bold text-text-primary line-clamp-2 leading-tight tracking-tight">{head.title}</p>
-                                              <div className="flex justify-between mt-2 text-[8px] font-black text-text-light/60 uppercase tracking-tighter">
-                                                <span className="flex items-center gap-1.5 "><Globe size={10} className="text-primary-purple/40" /> {head.source}</span>
-                                              </div>
-                                            </a>
-                                          ))}
-                                        </div>
+                                  </td>
+                                  <td className="p-3" onClick={() => toggleExpand(row.id)}><PolicyTag policy={row.policy} /></td>
+                                  <td className="p-3" onClick={() => toggleExpand(row.id)}>
+                                    <div className="flex items-center gap-3">
+                                      <SentimentGauge score={currentSentiment} />
+                                      <div className="p-1 rounded bg-white/40 border border-white/60 shadow-sm">
+                                        <SentimentSparkline data={sentimentDetail ? sentimentDetail.sparkline : (row.history ? row.history.map(h => h.sentiment) : [0])} />
                                       </div>
                                     </div>
                                   </td>
+                                  <td className="p-3 font-bold text-[13px] text-text-primary" onClick={() => toggleExpand(row.id)}>{row.daysInOffice === 0 ? '—' : `${row.daysInOffice}d`}</td>
                                 </tr>
-                              )}
-                            </React.Fragment>
-                          );
-                        })}
+                              
+                                {expandedRows.has(row.id) && (
+                                  <tr key={`${row.id}-details`}>
+                                    <td colSpan="6" className="bg-primary-purple/[0.01] p-6 border-b border-white/20 border-l-4 border-primary-purple shadow-inner">
+                                      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 animate-in fade-in slide-in-from-top-4 duration-500">
+                                        
+                                        <div className="glass-card rounded-2xl p-4">
+                                          <h4 className="text-[9px] font-black text-text-muted uppercase tracking-[0.15em] mb-4 flex items-center gap-2">
+                                            <div className="w-1 h-3 bg-primary-purple rounded-full" />
+                                            VADER Intel
+                                          </h4>
+                                          <div className="space-y-3">
+                                            {sentimentDetail ? Object.entries(sentimentDetail.sentiment.source_scores).map(([name, meta], i) => (
+                                              <div key={i} className="flex flex-col gap-1.5">
+                                                <div className="flex justify-between text-[9px] font-bold">
+                                                  <span className="text-text-primary/70 uppercase tracking-tighter">{name.replace('_', ' ')}</span>
+                                                  <span className={`${meta.score > 0 ? 'text-positive' : 'text-negative'}`}>
+                                                    {meta.score.toFixed(2)}
+                                                  </span>
+                                                </div>
+                                                <div className="h-1.5 bg-text-light/5 rounded-full overflow-hidden">
+                                                  <div 
+                                                    className="h-full rounded-full transition-all duration-1000"
+                                                    style={{ 
+                                                      width: `${Math.min(100, Math.abs(meta.score) * 100)}%`,
+                                                      backgroundColor: meta.score > 0 ? '#22C55E' : '#EF4444'
+                                                    }}
+                                                  />
+                                                </div>
+                                              </div>
+                                            )) : (
+                                              <p className="text-[10px] text-text-light italic opacity-60">AI Intelligence pending.</p>
+                                            )}
+                                          </div>
+                                        </div>
+         
+                                        <div className="glass-card rounded-2xl p-4 flex flex-col">
+                                          <h4 className="text-[9px] font-black text-text-muted uppercase tracking-[0.15em] mb-4 flex items-center gap-2">
+                                             <div className="w-1 h-3 bg-blue-400 rounded-full" />
+                                             Sentiment Trend
+                                          </h4>
+                                          <div className="flex-1 min-h-[100px]">
+                                            <ResponsiveContainer width="100%" height="100%">
+                                              <LineChart data={(sentimentDetail ? sentimentDetail.sparkline : row.history.map(h => h.sentiment)).map((s, i) => ({ val: s, idx: i }))}>
+                                                <Line type="monotone" dataKey="val" stroke="#7C5CFC" strokeWidth={3} dot={false} />
+                                                <YAxis hide domain={['auto', 'auto']} />
+                                                <Tooltip 
+                                                  contentStyle={{ backgroundColor: 'rgba(255,255,255,0.95)', backdropFilter: 'blur(8px)', borderRadius: '12px', border: 'none', boxShadow: '0 4px 12px rgba(0,0,0,0.05)', fontSize: '10px' }}
+                                                  labelStyle={{ display: 'none' }}
+                                                />
+                                              </LineChart>
+                                            </ResponsiveContainer>
+                                          </div>
+                                        </div>
+
+                                        {/* Phase 21: Policy Evolution Timeline */}
+                                        <div className="glass-card rounded-2xl p-4 flex flex-col">
+                                          <h4 className="text-[9px] font-black text-text-muted uppercase tracking-[0.15em] mb-4 flex items-center gap-2">
+                                             <div className="w-1 h-3 bg-positive rounded-full" />
+                                             Policy Evolution
+                                          </h4>
+                                          <div className="space-y-4 overflow-y-auto max-h-[180px] pr-2 custom-scrollbar">
+                                             <div className="relative pl-6 border-l-2 border-primary-purple/20 space-y-4 py-1">
+                                                <div className="relative">
+                                                  <div className="absolute -left-[31px] top-1 w-2.5 h-2.5 rounded-full bg-primary-purple border-4 border-white shadow-sm" />
+                                                  <p className="text-[9px] font-black text-primary-purple uppercase tracking-widest">{new Date(row.lastUpdate).toLocaleDateString('en-US', { month: 'short', year: 'numeric' })}</p>
+                                                  <p className="text-[10px] font-bold text-text-primary mt-1">Current: {row.policy} ({row.daysInOffice}d)</p>
+                                                  <p className="text-[9px] text-text-light/60 font-medium leading-tight mt-1">{row.enforcement}</p>
+                                                </div>
+                                                
+                                                {row.policyHistory && row.policyHistory.map((hist, i) => (
+                                                  <div key={i} className="relative opacity-60">
+                                                    <div className="absolute -left-[31px] top-1 w-2.5 h-2.5 rounded-full bg-text-light/40 border-4 border-white shadow-sm" />
+                                                    <p className="text-[9px] font-black uppercase tracking-widest">{new Date(hist.date).toLocaleDateString('en-US', { month: 'short', year: 'numeric' })}</p>
+                                                    <p className="text-[10px] font-bold text-text-primary mt-1">{hist.policy} ({hist.daysInOffice}d)</p>
+                                                    {hist.source && hist.source !== '#' && (
+                                                      <a href={hist.source} target="_blank" rel="noopener noreferrer" className="text-[8px] text-primary-purple hover:underline mt-1 inline-block">Historical Source</a>
+                                                    )}
+                                                  </div>
+                                                ))}
+
+                                                {(!row.policyHistory || row.policyHistory.length === 0) && (
+                                                  <div className="relative opacity-30">
+                                                    <div className="absolute -left-[31px] top-1 w-2.5 h-2.5 rounded-full bg-text-light/20 border-4 border-white shadow-sm" />
+                                                    <p className="text-[9px] font-black uppercase tracking-widest">Pre-2025</p>
+                                                    <p className="text-[10px] font-bold text-text-primary mt-1">Initial Data Setup</p>
+                                                  </div>
+                                                )}
+                                             </div>
+                                          </div>
+                                        </div>
+         
+                                        <div className="glass-card rounded-2xl p-4">
+                                          <h4 className="text-[9px] font-black text-text-muted uppercase tracking-[0.15em] mb-4 flex items-center gap-2">
+                                             <div className="w-1 h-3 bg-warning rounded-full" />
+                                             Signal Sources
+                                          </h4>
+                                          <div className="space-y-2">
+                                            {(sentimentDetail ? sentimentDetail.top_headlines : row.history.slice(0, 3).map(h => ({ title: `Shift in ${h.month}`, source: "Archive", url: "#" }))).map((head, i) => (
+                                              <a key={i} href={head.url} target="_blank" rel="noopener noreferrer" className="block p-2 bg-white/40 border border-white/60 rounded-xl text-[9px] hover:bg-white hover:border-primary-purple transition-all duration-300">
+                                                <p className="font-bold text-text-primary line-clamp-2 leading-tight tracking-tight">{head.title}</p>
+                                                <div className="flex justify-between mt-1.5 text-[7px] font-black text-text-light/60 uppercase tracking-tighter">
+                                                  <span className="flex items-center gap-1.5 "><Globe size={8} className="text-primary-purple/40" /> {head.source}</span>
+                                                </div>
+                                              </a>
+                                            ))}
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </td>
+                                  </tr>
+                                )}
+                              </React.Fragment>
+                            );
+                          })}
                       </tbody>
                     </table>
                   </div>
