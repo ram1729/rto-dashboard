@@ -1,71 +1,50 @@
-import React, { useState, useEffect } from 'react';
-import { Newspaper, ExternalLink } from 'lucide-react';
+import React from 'react';
+import { ExternalLink, Newspaper, Calendar } from 'lucide-react';
 
-const NewsWidget = () => {
-  const [news, setNews] = useState([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
-
-  useEffect(() => {
-    // Add cache-busting timestamp to prevent stale news
-    const timestamp = Math.floor(Date.now() / 60000); // 1-minute cache window
-    const url = `${import.meta.env.BASE_URL}data/news.json?v=${timestamp}`;
-    
-    fetch(url)
-      .then(res => {
-        if (!res.ok) throw new Error(`HTTP ${res.status}`);
-        return res.json();
-      })
-      .then(data => {
-        setNews(data || []);
-        setLoading(false);
-      })
-      .catch(err => {
-        console.error("NewsWidget fetch error: ", err);
-        setError(err.message);
-        setLoading(false);
-      });
-  }, []);
-
+const NewsWidget = ({ news }) => {
   return (
-    <div className="panel news-panel">
-      <h3 className="news-title">
-        <Newspaper size={18} className="icon-accent" />
-        Top RTO News of the Day
-      </h3>
-      
-      {loading && <div className="news-loading">Scanning major journals...</div>}
-      
-      {error && (
-        <div className="news-meta" style={{ padding: '0.5rem' }}>
-          Could not load live news. Showing latest tracked policies below.
+    <div className="glass-panel rounded-3xl p-6 flex flex-col h-full animate-in fade-in slide-in-from-right-4 duration-700">
+      <div className="flex items-center gap-3 mb-6">
+        <div className="w-8 h-8 bg-warning/20 rounded-lg flex items-center justify-center text-warning">
+          <Newspaper size={18} />
         </div>
-      )}
-
-      {!loading && !error && news.length === 0 && (
-        <div className="news-meta" style={{ padding: '0.5rem' }}>
-          No major RTO news updates found in the last 30 days.
+        <div>
+          <h3 className="text-[14px] font-black text-text-primary uppercase tracking-widest">Global RTO News</h3>
+          <p className="text-[10px] font-bold text-text-light/60 uppercase tracking-tighter">Real-time Policy Intelligence</p>
         </div>
-      )}
+      </div>
 
-      {news.length > 0 && (
-        <ul className="news-list">
-          {news.slice(0, 5).map((item, index) => (
-            <li key={item.id || index} className="news-item">
-              <a href={item.link} target="_blank" rel="noopener noreferrer" className="news-link">
-                <span className="news-text">{item.title}</span>
-                <ExternalLink size={14} className="news-icon-external" />
-              </a>
-              <div className="news-meta">
-                <span className="news-journal-tag">{item.source}</span>
-                <span className="news-date">
-                  {new Date(item.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' })}
-                </span>
+      <div className="flex-1 space-y-4 overflow-y-auto no-scrollbar pr-1">
+        {news.map((item, i) => (
+          <a 
+            key={item.id} 
+            href={item.link} 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="block p-4 bg-white/40 border border-white/60 rounded-2xl group transition-all duration-300 hover:bg-white hover:border-primary-purple hover:shadow-lg hover:shadow-primary-purple/5"
+          >
+            <div className="flex justify-between items-start gap-4 mb-2">
+              <span className="text-[9px] font-black text-primary-purple/60 uppercase tracking-widest bg-primary-purple/5 px-2 py-0.5 rounded-md">
+                {item.source}
+              </span>
+              <div className="text-text-light/40 group-hover:text-primary-purple transition-colors">
+                <ExternalLink size={12} />
               </div>
-            </li>
-          ))}
-        </ul>
-      )}
+            </div>
+            <h4 className="text-[12px] font-bold text-text-primary leading-snug group-hover:text-primary-purple transition-colors line-clamp-2 mb-2">
+              {item.title}
+            </h4>
+            <div className="flex items-center gap-1.5 text-[9px] font-black text-text-light/60 uppercase tracking-tighter">
+              <Calendar size={10} />
+              {new Date(item.date).toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' })}
+            </div>
+          </a>
+        ))}
+      </div>
+      
+      <div className="mt-6 pt-4 border-t border-white/20 text-center">
+        <p className="text-[9px] font-black text-text-light/40 uppercase tracking-[0.2em]">Data provided by AI Scraper v2</p>
+      </div>
     </div>
   );
 };
