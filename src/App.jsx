@@ -18,6 +18,7 @@ import GeographicHeatmap from './components/GeographicHeatmap';
 import PolicyWatchList from './components/PolicyWatchList';
 import NewsWidget from './components/NewsWidget';
 import { SentimentGauge, SentimentSparkline } from './components/SentimentVisuals';
+import PolicyEvolution from './components/PolicyEvolution';
 
 // --- Main App ---
 
@@ -157,7 +158,7 @@ export default function App() {
           {/* Stats Bar - Phase 17: Reduced whitespace */}
           {stats && view !== 'Compare' && (
             <div className="grid grid-cols-2 md:grid-cols-5 gap-3 animate-in fade-in slide-in-from-top-4 duration-700">
-              <StatCard label="Total Tracking" value={stats.total} trend={12} icon={<Users />} />
+              <StatCard label="Total Tracking" value={stats.total} trend={12} icon={<Users />} isUpdated={true} />
               <StatCard label="Hybrid Policy" value={`${stats.hybridPercent}%`} trend={5} type="info" />
               <StatCard label="Remote Core" value={`${stats.remotePercent}%`} trend={-2} type="warning" />
               <StatCard label="Strict Office" value={`${stats.officePercent}%`} trend={8} type="danger" />
@@ -248,7 +249,7 @@ export default function App() {
                               const now = new Date();
                               const diffTime = Math.abs(now - date);
                               const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
-                              return diffDays <= 7;
+                              return diffDays <= 14; // Increased to 14 for better visibility of recent cycles
                             };
 
                             return (

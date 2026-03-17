@@ -1,11 +1,16 @@
 import React from 'react';
 
-const StatCard = ({ label, value, subText, trend, icon: Icon }) => (
+const StatCard = ({ label, value, subText, trend, icon: Icon, isUpdated }) => (
   <div className="glass-card rounded-2xl p-5 flex flex-col gap-1 transition-all duration-500 hover:-translate-y-1">
     <div className="flex justify-between items-start">
       <span className="text-text-muted text-[10px] font-bold uppercase tracking-[0.1em] opacity-80">{label}</span>
-      <div className="p-1.5 bg-primary-purple/10 rounded-lg text-primary-purple">
-        {Icon && <Icon size={14} />}
+      <div className="flex items-center gap-2">
+        {isUpdated && (
+          <div className="w-1.5 h-1.5 bg-positive rounded-full animate-pulse shadow-[0_0_8px_rgba(34,197,94,0.5)]" />
+        )}
+        <div className="p-1.5 bg-primary-purple/10 rounded-lg text-primary-purple">
+          {Icon && <Icon size={14} />}
+        </div>
       </div>
     </div>
     <div className="flex items-baseline gap-2 mt-1">
