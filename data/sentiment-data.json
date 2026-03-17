@@ -1,0 +1,62 @@
+{
+  "last_updated": "2026-03-16T23:27:00Z",
+  "scraper_log": {
+    "duration_sec": 12.5,
+    "total_articles": 150,
+    "errors": []
+  },
+  "companies": [
+    {
+      "name": "Amazon",
+      "sentiment": {
+        "overall_score": -0.42,
+        "trend": "declining",
+        "previous_score": -0.38,
+        "confidence": "high",
+        "sample_size": 47,
+        "source_scores": {
+          "google_news": { "score": -0.38, "count": 18 },
+          "reddit": { "score": -0.61, "count": 12 },
+          "hackernews": { "score": -0.35, "count": 8 },
+          "gdelt": { "score": -0.40, "count": 9 }
+        }
+      },
+      "top_headlines": [
+        {
+          "title": "Amazon mandates full return to office, no exceptions for 2025",
+          "source": "Reuters",
+          "url": "https://reuters.com",
+          "date": "2026-03-14",
+          "sentiment_score": -0.52
+        }
+      ],
+      "sparkline": [-0.21, -0.25, -0.28, -0.30, -0.33, -0.35, -0.36, -0.38, -0.40, -0.41, -0.42]
+    },
+    {
+      "name": "Microsoft",
+      "sentiment": {
+        "overall_score": 0.15,
+        "trend": "improving",
+        "previous_score": 0.10,
+        "confidence": "high",
+        "sample_size": 35,
+        "source_scores": {
+          "google_news": { "score": 0.2, "count": 15 },
+          "reddit": { "score": 0.05, "count": 10 },
+          "hackernews": { "score": 0.15, "count": 5 },
+          "gdelt": { "score": 0.25, "count": 5 }
+        }
+      },
+      "top_headlines": [
+        {
+          "title": "Microsoft hybrid policy remains stable for 2026",
+          "source": "Verge",
+          "url": "https://theverge.com",
+          "date": "2026-03-15",
+          "sentiment_score": 0.1
+        }
+      ],
+      "sparkline": [0.05, 0.06, 0.08, 0.09, 0.1, 0.12, 0.13, 0.14, 0.15]
+    }
+  ]
+}

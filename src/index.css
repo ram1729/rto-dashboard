@@ -25,14 +25,45 @@
 @layer base {
   body {
     @apply bg-background-gray text-text-primary font-sans antialiased text-[14px] leading-normal;
+    background-image: 
+      radial-gradient(at 0% 0%, rgba(124, 92, 252, 0.05) 0px, transparent 50%),
+      radial-gradient(at 100% 0%, rgba(59, 130, 246, 0.05) 0px, transparent 50%);
+    background-attachment: fixed;
   }
 }
 
-/* Base styles for the simplified dashboard components */
-.tag {
-  @apply px-2 py-0.5 rounded-full text-[11px] font-semibold flex items-center gap-1 w-fit transition-all;
+/* Glassmorphism Utilities */
+.glass-panel {
+  @apply bg-white/70 backdrop-blur-md border border-white/20 shadow-xl;
 }
 
-.tag-hybrid { @apply bg-purple-light text-primary-purple; }
-.tag-office { @apply bg-[#F1F5F9] text-policy-office; }
-.tag-remote { @apply bg-[#E0F2FE] text-policy-remote; }
+.glass-card {
+  @apply bg-white/40 backdrop-blur-sm border border-white/40 shadow-sm hover:shadow-md transition-all duration-300;
+}
+
+/* Base styles for the dashboard components */
+.tag {
+  @apply px-2.5 py-1 rounded-full text-[10px] font-bold flex items-center gap-1 w-fit transition-all uppercase tracking-wider;
+}
+
+.tag-hybrid { @apply bg-primary-purple/10 text-primary-purple border border-primary-purple/20; }
+.tag-office { @apply bg-slate-100 text-slate-700 border border-slate-200; }
+.tag-remote { @apply bg-blue-50 text-blue-600 border border-blue-100; }
+
+.panel {
+  @apply bg-white border border-[#E8E8EC] rounded-[16px] shadow-sm overflow-hidden;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-[#E8E8EC] rounded-full hover:bg-text-light/30 transition-colors;
+}

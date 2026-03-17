@@ -11,11 +11,78 @@ const https = require('https');
 const http = require('http');
 const fs = require('fs');
 const cheerio = require('cheerio');
+const path = require('path');
 
 const BUILDREMOTE_URL = 'https://buildremote.co/companies/return-to-office/';
 const OUTPUT_PATH = './public/data/rto_policies.json';
 const META_PATH = './public/data/meta.json';
 const NEWS_PATH = './public/data/news.json';
+const NEWS_CACHE_FILE = path.join(__dirname, 'news_cache.json');
+const VERIFIED_DATA_FILE = path.join(__dirname, 'verified_rto.json');
+
+// Ground-truth HQ coordinates for accurate map placement
+const HQ_MAP = {
+  "Amazon": { city: "Seattle, WA", lat: 47.6062, lng: -122.3321 },
+  "JPMorgan Chase": { city: "New York, NY", lat: 40.7128, lng: -74.0060 },
+  "Goldman Sachs": { city: "New York, NY", lat: 40.7128, lng: -74.0060 },
+  "Tesla": { city: "Austin, TX", lat: 30.2672, lng: -97.7431 },
+  "X (Twitter)": { city: "Austin, TX", lat: 30.1105, lng: -97.3153 },
+  "AT&T": { city: "Dallas, TX", lat: 32.7767, lng: -96.7970 },
+  "UPS": { city: "Atlanta, GA", lat: 33.7490, lng: -84.3880 },
+  "Caterpillar": { city: "Irving, TX", lat: 32.8140, lng: -96.9489 },
+  "Home Depot": { city: "Atlanta, GA", lat: 33.7490, lng: -84.3880 },
+  "Truist Financial": { city: "Charlotte, NC", lat: 35.2271, lng: -80.8431 },
+  "PNC Financial": { city: "Pittsburgh, PA", lat: 40.4406, lng: -79.9959 },
+  "IBM": { city: "Armonk, NY", lat: 41.1265, lng: -73.7137 },
+  "Microsoft": { city: "Redmond, WA", lat: 47.6740, lng: -122.1215 },
+  "Alphabet (Google)": { city: "Mountain View, CA", lat: 37.3861, lng: -122.0839 },
+  "Meta": { city: "Menlo Park, CA", lat: 37.4530, lng: -122.1817 },
+  "Apple": { city: "Cupertino, CA", lat: 37.3230, lng: -122.0322 },
+  "Salesforce": { city: "San Francisco, CA", lat: 37.7749, lng: -122.4194 },
+  "Wells Fargo": { city: "San Francisco, CA", lat: 37.7749, lng: -122.4194 },
+  "Bank of America": { city: "Charlotte, NC", lat: 35.2271, lng: -80.8431 },
+  "Citigroup": { city: "New York, NY", lat: 40.7128, lng: -74.0060 },
+  "Walt Disney": { city: "Burbank, CA", lat: 34.1808, lng: -118.3090 },
+  "Dell": { city: "Round Rock, TX", lat: 30.5083, lng: -97.6789 },
+  "Cisco": { city: "San Jose, CA", lat: 37.3382, lng: -121.8863 },
+  "Intel": { city: "Santa Clara, CA", lat: 37.3541, lng: -121.9552 },
+  "Oracle": { city: "Austin, TX", lat: 30.2672, lng: -97.7431 },
+  "Eli Lilly": { city: "Indianapolis, IN", lat: 39.7684, lng: -86.1581 },
+  "Berkshire Hathaway": { city: "Omaha, NE", lat: 41.2565, lng: -95.9345 },
+  "Costco": { city: "Issaquah, WA", lat: 47.5301, lng: -122.0326 },
+  "State Farm": { city: "Bloomington, IL", lat: 40.4842, lng: -88.9937 },
+  "Spotify": { city: "New York, NY", lat: 40.7128, lng: -74.0060 },
+  "NVIDIA": { city: "Santa Clara, CA", lat: 37.3541, lng: -121.9552 },
+  "Cencora": { city: "Conshohocken, PA", lat: 40.0793, lng: -75.3016 },
+  "McKesson": { city: "Irving, TX", lat: 32.8140, lng: -96.9489 },
+  "Johnson & Johnson": { city: "New Brunswick, NJ", lat: 40.4862, lng: -74.4518 },
+  "General Motors": { city: "Detroit, MI", lat: 42.3314, lng: -83.0458 },
+  "Ford": { city: "Dearborn, MI", lat: 42.3223, lng: -83.1763 },
+  "Chevron": { city: "Houston, TX", lat: 29.7604, lng: -95.3698 },
+  "Exxon Mobil": { city: "Spring, TX", lat: 30.0805, lng: -95.4183 },
+  "Walmart": { city: "Bentonville, AR", lat: 36.3729, lng: -94.2088 },
+  "Target": { city: "Minneapolis, MN", lat: 44.9778, lng: -93.2650 },
+  "Nike": { city: "Beaverton, OR", lat: 45.4871, lng: -122.8037 },
+  "BlackRock": { city: "New York, NY", lat: 40.7128, lng: -74.0060 },
+  "Citadel": { city: "Miami, FL", lat: 25.7617, lng: -80.1918 },
+  "Boeing": { city: "Arlington, VA", lat: 38.8710, lng: -77.0560 },
+  "Northrop Grumman": { city: "Falls Church, VA", lat: 38.8823, lng: -77.1711 },
+  "Lockheed Martin": { city: "Bethesda, MD", lat: 38.9847, lng: -77.1131 },
+  "Raytheon": { city: "Arlington, VA", lat: 38.8710, lng: -77.0560 },
+  "General Dynamics": { city: "Reston, VA", lat: 38.9586, lng: -77.3570 },
+  "UnitedHealth Group": { city: "Minnetonka, MN", lat: 44.9211, lng: -93.4687 },
+  "CVS Health": { city: "Woonsocket, RI", lat: 42.0023, lng: -71.5148 },
+  "Visa": { city: "San Francisco, CA", lat: 37.7749, lng: -122.4194 },
+  "Mastercard": { city: "Purchase, NY", lat: 41.0370, lng: -73.7087 },
+  "Coca-Cola": { city: "Atlanta, GA", lat: 33.7490, lng: -84.3880 },
+  "PepsiCo": { city: "Purchase, NY", lat: 41.0370, lng: -73.7087 },
+  "Procter & Gamble": { city: "Cincinnati, OH", lat: 39.1031, lng: -84.5120 },
+  "Uber": { city: "San Francisco, CA", lat: 37.7749, lng: -122.4194 },
+  "John Deere": { city: "Moline, IL", lat: 41.5086, lng: -90.5154 },
+  "Sherwin-Williams": { city: "Cleveland, OH", lat: 41.4993, lng: -81.6944 },
+  "Novo Nordisk": { city: "Plainsboro, NJ", lat: 40.3398, lng: -74.5804 },
+  "Morgan Stanley": { city: "New York, NY", lat: 40.7128, lng: -74.0060 }
+};
 
 // ── VERIFIED DATASET — Real news article sources ──────────────────────────────
 const VERIFIED_DATA = [
@@ -222,26 +289,15 @@ function parseTable(html) {
 }
 
 function mergeData(scraped, verified) {
-  const merged = new Map();
-  for (const entry of verified) merged.set(entry.company.toLowerCase(), { ...entry });
+  const mergedMap = new Map();
+  for (const entry of verified) mergedMap.set(entry.company.toLowerCase(), { ...entry });
   
   const today = new Date().toISOString().split('T')[0];
   
-  // US Cities for HQ locations
-  const hubs = [
-    { city: "San Francisco", lat: 37.7749, lng: -122.4194 },
-    { city: "New York", lat: 40.7128, lng: -74.0060 },
-    { city: "Seattle", lat: 47.6062, lng: -122.3321 },
-    { city: "Chicago", lat: 41.8781, lng: -87.6298 },
-    { city: "Austin", lat: 30.2672, lng: -97.7431 },
-    { city: "Atlanta", lat: 33.7490, lng: -84.3880 },
-    { city: "Boston", lat: 42.3601, lng: -71.0589 }
-  ];
-
   for (const entry of scraped) {
     const key = entry.company.toLowerCase();
-    if (merged.has(key)) {
-      const existing = merged.get(key);
+    if (mergedMap.has(key)) {
+      const existing = mergedMap.get(key);
       if (existing.daysInOffice !== entry.daysInOffice) {
         existing.policy = entry.policy;
         existing.daysInOffice = entry.daysInOffice;
@@ -251,7 +307,7 @@ function mergeData(scraped, verified) {
         existing.lastUpdate = today;
       }
     } else {
-      merged.set(key, {
+      mergedMap.set(key, {
         company: entry.company,
         sector: "Other",
         policy: entry.policy,
@@ -264,48 +320,46 @@ function mergeData(scraped, verified) {
   }
 
   let id = 1;
-  return Array.from(merged.values()).map(d => {
-    // Inject Mock Data for Dashboard 2.0
-    const hub = hubs[Math.floor(Math.random() * hubs.length)];
-    
-    // Logic: Full Office = Negative, Hybrid/Remote = Positive
-    let sentiment = 0.5 + Math.random() * 0.4; // Default positive
-    if (d.policy === 'Full Office') sentiment = -0.3 - Math.random() * 0.5; // Negative
-    
-    const nextPolicies = ["Full Office", "Office-First", "Hybrid", "Remote-First"].filter(p => p !== d.policy);
-    const predictedPolicy = nextPolicies[Math.floor(Math.random() * nextPolicies.length)];
-    const probability = 20 + Math.floor(Math.random() * 70);
-
-    return {
-      id: id++, 
-      company: d.company, 
-      sector: d.sector, 
-      policy: d.policy,
-      daysInOffice: d.daysInOffice, 
-      enforcement: d.enforcement,
-      lastUpdate: d.lastUpdate || today,
-      source: d.source,
-      // Dashboard 2.0 Fields
-      sentiment: parseFloat(sentiment.toFixed(2)),
-      sentimentTrend: sentiment > 0 ? "Improving" : "Declining",
-      mentionVolume: 500 + Math.floor(Math.random() * 5000),
-      hq: {
-        city: hub.city,
-        lat: hub.lat + (Math.random() - 0.5) * 2, // Jitter
-        lng: hub.lng + (Math.random() - 0.5) * 2
-      },
-      prediction: probability > 40 ? {
-        nextPolicy: predictedPolicy,
-        probability: probability,
-        timeframe: "Q" + (Math.floor(Math.random() * 4) + 1) + " 2026",
-        signals: ["CEO comments", "Lease expiry", "Peer pressure"].slice(0, Math.floor(Math.random() * 3) + 1)
-      } : null,
-      history: Array.from({ length: 12 }, (_, i) => ({
-        month: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"][i],
-        sentiment: parseFloat((sentiment + (Math.random() - 0.5) * 0.4).toFixed(2))
-      }))
+  const merged = [];
+  for (const item of mergedMap.values()) {
+    // Inject Real Dashboard 2.0 Mock Data (Phases 11-13)
+    const hq = HQ_MAP[item.company] || {
+      city: "San Francisco",
+      lat: 37 + Math.random() * 10,
+      lng: -120 + Math.random() * 40
     };
-  });
+    
+    // Weighted sentiment: Full Office is generally negative, others more positive
+    const baseSentiment = item.policy === 'Full Office' ? -0.4 : 0.2;
+    const sentiment = parseFloat((baseSentiment + (Math.random() * 0.4 - 0.2)).toFixed(2));
+
+    merged.push({
+      id: id++, 
+      company: item.company, 
+      sector: item.sector, 
+      policy: item.policy,
+      daysInOffice: item.daysInOffice, 
+      enforcement: item.enforcement,
+      lastUpdate: item.lastUpdate || today,
+      source: item.source,
+      // Dashboard 2.0 Fields
+      sentiment: sentiment,
+      sentimentTrend: sentiment > -0.2 ? 'Improving' : 'Declining',
+      mentionVolume: Math.floor(Math.random() * 5000) + 500,
+      hq: hq,
+      prediction: Math.random() > 0.6 ? {
+        nextPolicy: item.policy === 'Full Office' ? 'Hybrid' : 'Office-First',
+        probability: Math.floor(Math.random() * 60) + 40,
+        timeframe: `Q${Math.floor(Math.random()*4)+1} 2026`,
+        signals: ["CEO comments", "Lease expiry", "Peer pressure"].slice(0, Math.floor(Math.random()*3)+1)
+      } : null,
+      history: Array.from({length: 12}, (_, i) => ({
+        month: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"][i],
+        sentiment: parseFloat((sentiment + (Math.random() * 0.4 - 0.2)).toFixed(2))
+      }))
+    });
+  }
+  return merged;
 }
 
 
