@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-03-18T02:15:12.061360Z",
+  "last_updated": "2026-03-18T13:16:42.756742Z",
   "scraper_log": {
-    "duration_sec": 95.8,
-    "total_articles": 307,
+    "duration_sec": 97.33,
+    "total_articles": 310,
     "errors": []
   },
   "companies": [
@@ -11,7 +11,7 @@
       "sentiment": {
         "overall_score": 0.32,
         "trend": "stable",
-        "previous_score": 0.31,
+        "previous_score": 0.32,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -83,6 +83,7 @@
         -0.41,
         -0.42,
         0.31,
+        0.32,
         0.32
       ]
     },
@@ -90,8 +91,8 @@
       "name": "Apple",
       "sentiment": {
         "overall_score": 0.07,
-        "trend": "improving",
-        "previous_score": -0.02,
+        "trend": "stable",
+        "previous_score": 0.07,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -152,6 +153,7 @@
       ],
       "sparkline": [
         -0.02,
+        0.07,
         0.07
       ]
     },
@@ -160,7 +162,7 @@
       "sentiment": {
         "overall_score": 0.21,
         "trend": "stable",
-        "previous_score": 0.19,
+        "previous_score": 0.21,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -221,6 +223,7 @@
       ],
       "sparkline": [
         0.19,
+        0.21,
         0.21
       ]
     },
@@ -290,17 +293,18 @@
       ],
       "sparkline": [
         0.34,
+        0.34,
         0.34
       ]
     },
     {
       "name": "Microsoft",
       "sentiment": {
-        "overall_score": 0.27,
+        "overall_score": 0.26,
         "trend": "stable",
-        "previous_score": 0.26,
+        "previous_score": 0.27,
         "confidence": "high",
-        "sample_size": 28,
+        "sample_size": 30,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -308,7 +312,7 @@
           },
           "hackernews": {
             "score": -0.08,
-            "count": 13
+            "count": 15
           },
           "reddit": {
             "score": 0.47,
@@ -321,6 +325,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Microsoft is threatening to sue OpenAI over its $50B Amazon deal",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47423568",
+          "date": "2026-03-18",
+          "sentiment_score": -0.4019
+        },
         {
           "title": "Microsoft Office 365: We all work together.",
           "source": "Reddit",
@@ -343,18 +354,11 @@
           "sentiment_score": 0.6249
         },
         {
-          "title": "Microsoft's 'unhackable' Xbox One has been hacked by 'Bliss'",
+          "title": "Excel incorrectly assumes that the year 1900 is a leap year",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47413876",
-          "date": "2026-03-17",
-          "sentiment_score": 0.25
-        },
-        {
-          "title": "My Thoughts on GDC 2026 \u2013 The Good, the Interesting, and the Bad (ARM, WTF)",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47380019",
-          "date": "2026-03-14",
-          "sentiment_score": -0.5319
+          "url": "https://news.ycombinator.com/item?id=47393225",
+          "date": "2026-03-15",
+          "sentiment_score": 0.4588
         }
       ],
       "sparkline": [
@@ -368,7 +372,8 @@
         0.14,
         0.15,
         0.26,
-        0.27
+        0.27,
+        0.26
       ]
     },
     {
@@ -401,6 +406,7 @@
       "top_headlines": [],
       "sparkline": [
         0,
+        0,
         0
       ]
     },
@@ -408,8 +414,8 @@
       "name": "Goldman Sachs",
       "sentiment": {
         "overall_score": 0.0,
-        "trend": "declining",
-        "previous_score": 0.19,
+        "trend": "stable",
+        "previous_score": 0.0,
         "confidence": "low",
         "sample_size": 1,
         "source_scores": {
@@ -442,25 +448,26 @@
       ],
       "sparkline": [
         0.19,
+        0.0,
         0.0
       ]
     },
     {
       "name": "Bank of America",
       "sentiment": {
-        "overall_score": 0.19,
+        "overall_score": 0.28,
         "trend": "improving",
-        "previous_score": 0.0,
+        "previous_score": 0.19,
         "confidence": "low",
-        "sample_size": 2,
+        "sample_size": 3,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.19,
-            "count": 2
+            "score": 0.28,
+            "count": 3
           },
           "reddit": {
             "score": 0,
@@ -473,6 +480,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Show HN: Bank Parser \u2013 Convert US Bank Statement PDFs to QuickBooks-Ready Excel",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47421742",
+          "date": "2026-03-18",
+          "sentiment_score": 0.4588
+        },
         {
           "title": "Launch HN: Kita (YC W26) \u2013 Automate credit review in emerging markets",
           "source": "Hacker News",
@@ -490,7 +504,8 @@
       ],
       "sparkline": [
         0.0,
-        0.19
+        0.19,
+        0.28
       ]
     },
     {
@@ -543,21 +558,22 @@
           "sentiment_score": -0.4723
         },
         {
+          "title": "Perplexity Computer Alternatives for Business (sorted by use cases)",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/aiToolForBusiness/comments/1rx2ef2/perplexity_computer_alternatives_for_business/",
+          "date": "2026-03-18",
+          "sentiment_score": 0.9987
+        },
+        {
           "title": "CX Manager - Latam - Gympass - Brazil",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/sports_jobs/comments/1rw6u8l/cx_manager_latam_gympass_brazil/",
           "date": "2026-03-17",
           "sentiment_score": 0.9998
-        },
-        {
-          "title": "Salesforce Marketing Cloud Specialist - Gympass - Brazil",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/sports_jobs/comments/1rw6tt6/salesforce_marketing_cloud_specialist_gympass/",
-          "date": "2026-03-17",
-          "sentiment_score": 0.9996
         }
       ],
       "sparkline": [
+        0.41,
         0.41,
         0.41
       ]
@@ -565,9 +581,9 @@
     {
       "name": "AT&T",
       "sentiment": {
-        "overall_score": -0.05,
-        "trend": "improving",
-        "previous_score": -0.13,
+        "overall_score": -0.1,
+        "trend": "stable",
+        "previous_score": -0.05,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -580,7 +596,7 @@
             "count": 15
           },
           "reddit": {
-            "score": 0.02,
+            "score": -0.05,
             "count": 15
           },
           "gdelt": {
@@ -590,6 +606,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "and we'll leave it at that..",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/SipsTea/comments/1rw5jnh/and_well_leave_it_at_that/",
+          "date": "2026-03-17",
+          "sentiment_score": -0.1531
+        },
         {
           "title": "MoD sources warn Palantir role at heart of government is threat to UK security",
           "source": "Hacker News",
@@ -617,26 +640,20 @@
           "url": "https://www.reddit.com/r/OldSchoolCool/comments/1rsm27l/video_taken_on_the_jurassic_park_ride_at/",
           "date": "2026-03-13",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "ATMs didn\u2019t kill bank teller jobs, but the iPhone did",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47351371",
-          "date": "2026-03-12",
-          "sentiment_score": -0.431
         }
       ],
       "sparkline": [
         -0.13,
-        -0.05
+        -0.05,
+        -0.1
       ]
     },
     {
       "name": "Disney",
       "sentiment": {
         "overall_score": -0.07,
-        "trend": "improving",
-        "previous_score": -0.15,
+        "trend": "stable",
+        "previous_score": -0.07,
         "confidence": "high",
         "sample_size": 16,
         "source_scores": {
@@ -697,6 +714,7 @@
       ],
       "sparkline": [
         -0.15,
+        -0.07,
         -0.07
       ]
     },
@@ -729,6 +747,13 @@
       },
       "top_headlines": [
         {
+          "title": "Polycode \u2013 self-hosted GitHub bot that runs AI agent workflows from issue labels",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47423086",
+          "date": "2026-03-18",
+          "sentiment_score": 0.0
+        },
+        {
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/ReturntoOffice/",
@@ -755,16 +780,10 @@
           "url": "https://www.reddit.com/r/laptops/comments/1rwjwc0/dell_xps_9345_oled_vs_macbook_neo/",
           "date": "2026-03-17",
           "sentiment_score": 0.8631
-        },
-        {
-          "title": "[SALE] Dell Alienware 27 Gaming Monitor - AW2723DF",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/IndianGaming/comments/1ruejhl/sale_dell_alienware_27_gaming_monitor_aw2723df/",
-          "date": "2026-03-15",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
+        0.43,
         0.43,
         0.43
       ]
@@ -773,8 +792,8 @@
       "name": "Tesla",
       "sentiment": {
         "overall_score": 0.29,
-        "trend": "improving",
-        "previous_score": 0.21,
+        "trend": "stable",
+        "previous_score": 0.29,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -835,6 +854,7 @@
       ],
       "sparkline": [
         0.21,
+        0.29,
         0.29
       ]
     },
@@ -842,8 +862,8 @@
       "name": "Caterpillar",
       "sentiment": {
         "overall_score": 0.29,
-        "trend": "improving",
-        "previous_score": 0.04,
+        "trend": "stable",
+        "previous_score": 0.29,
         "confidence": "high",
         "sample_size": 10,
         "source_scores": {
@@ -904,6 +924,7 @@
       ],
       "sparkline": [
         0.04,
+        0.29,
         0.29
       ]
     },
@@ -972,6 +993,7 @@
         }
       ],
       "sparkline": [
+        0.39,
         0.39,
         0.39
       ]
