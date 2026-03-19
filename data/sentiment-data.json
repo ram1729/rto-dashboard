@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-03-19T02:24:01.447123Z",
+  "last_updated": "2026-03-19T13:08:49.351218Z",
   "scraper_log": {
-    "duration_sec": 87.98,
+    "duration_sec": 97.33,
     "total_articles": 311,
     "errors": []
   },
@@ -10,8 +10,8 @@
       "name": "Amazon",
       "sentiment": {
         "overall_score": 0.26,
-        "trend": "declining",
-        "previous_score": 0.32,
+        "trend": "stable",
+        "previous_score": 0.26,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -85,15 +85,16 @@
         0.31,
         0.32,
         0.32,
+        0.26,
         0.26
       ]
     },
     {
       "name": "Apple",
       "sentiment": {
-        "overall_score": 0.24,
+        "overall_score": 0.32,
         "trend": "improving",
-        "previous_score": 0.07,
+        "previous_score": 0.24,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -106,7 +107,7 @@
             "count": 15
           },
           "reddit": {
-            "score": 0.32,
+            "score": 0.45,
             "count": 15
           },
           "gdelt": {
@@ -138,25 +139,26 @@
           "sentiment_score": -0.3434
         },
         {
+          "title": "363 Days on Zepbound",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/Zepbound/comments/1rxp61j/363_days_on_zepbound/",
+          "date": "2026-03-19",
+          "sentiment_score": 0.9942
+        },
+        {
           "title": "Show HN: PUNK \u2013 Remote control for local Claude Code that just works",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=47414328",
           "date": "2026-03-17",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Apple Screen Sharing High Performance",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47418255",
-          "date": "2026-03-17",
-          "sentiment_score": 0.4215
         }
       ],
       "sparkline": [
         -0.02,
         0.07,
         0.07,
-        0.24
+        0.24,
+        0.32
       ]
     },
     {
@@ -164,7 +166,7 @@
       "sentiment": {
         "overall_score": 0.19,
         "trend": "stable",
-        "previous_score": 0.21,
+        "previous_score": 0.19,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -227,13 +229,14 @@
         0.19,
         0.21,
         0.21,
+        0.19,
         0.19
       ]
     },
     {
       "name": "Meta",
       "sentiment": {
-        "overall_score": 0.34,
+        "overall_score": 0.33,
         "trend": "stable",
         "previous_score": 0.34,
         "confidence": "high",
@@ -244,7 +247,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.0,
+            "score": -0.02,
             "count": 15
           },
           "reddit": {
@@ -258,6 +261,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Meta Confronts Rogue AI Agents After Data Exposure",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47434843",
+          "date": "2026-03-19",
+          "sentiment_score": -0.2263
+        },
         {
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
@@ -285,20 +295,14 @@
           "url": "https://news.ycombinator.com/item?id=47376179",
           "date": "2026-03-14",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Meta Delays Rollout of New A.I. Model After Performance Concerns",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47373096",
-          "date": "2026-03-14",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
         0.34,
         0.34,
         0.34,
-        0.34
+        0.34,
+        0.33
       ]
     },
     {
@@ -306,7 +310,7 @@
       "sentiment": {
         "overall_score": 0.23,
         "trend": "stable",
-        "previous_score": 0.26,
+        "previous_score": 0.23,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -378,6 +382,7 @@
         0.26,
         0.27,
         0.26,
+        0.23,
         0.23
       ]
     },
@@ -410,6 +415,7 @@
       },
       "top_headlines": [],
       "sparkline": [
+        0,
         0,
         0,
         0,
@@ -454,6 +460,7 @@
       ],
       "sparkline": [
         0.19,
+        0.0,
         0.0,
         0.0,
         0.0
@@ -512,6 +519,7 @@
       "sparkline": [
         0.0,
         0.19,
+        0.28,
         0.28,
         0.28
       ]
@@ -584,13 +592,14 @@
         0.41,
         0.41,
         0.41,
+        0.41,
         0.41
       ]
     },
     {
       "name": "AT&T",
       "sentiment": {
-        "overall_score": -0.1,
+        "overall_score": -0.11,
         "trend": "stable",
         "previous_score": -0.1,
         "confidence": "high",
@@ -601,7 +610,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.17,
+            "score": -0.19,
             "count": 15
           },
           "reddit": {
@@ -630,6 +639,13 @@
           "sentiment_score": 0.4215
         },
         {
+          "title": "Glassworm is back: A new wave of invisible Unicode attacks hits repositories",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47387047",
+          "date": "2026-03-15",
+          "sentiment_score": -0.4404
+        },
+        {
           "title": "Trump spotted at a Miami golf course as Iran war casualties rise",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/pics/comments/1rusein/trump_spotted_at_a_miami_golf_course_as_iran_war/",
@@ -642,20 +658,14 @@
           "url": "https://www.reddit.com/r/Wellthatsucks/comments/1rt4k45/the_line_at_austin_airport_this_morning/",
           "date": "2026-03-14",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Video taken on the Jurassic Park ride at Universal Studios Hollywood in 1997",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/OldSchoolCool/comments/1rsm27l/video_taken_on_the_jurassic_park_ride_at/",
-          "date": "2026-03-13",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
         -0.13,
         -0.05,
         -0.1,
-        -0.1
+        -0.1,
+        -0.11
       ]
     },
     {
@@ -724,6 +734,7 @@
       ],
       "sparkline": [
         -0.15,
+        -0.07,
         -0.07,
         -0.07,
         -0.07
@@ -797,6 +808,7 @@
         0.43,
         0.43,
         0.43,
+        0.43,
         0.43
       ]
     },
@@ -804,8 +816,8 @@
       "name": "Tesla",
       "sentiment": {
         "overall_score": 0.35,
-        "trend": "improving",
-        "previous_score": 0.29,
+        "trend": "stable",
+        "previous_score": 0.35,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -868,6 +880,7 @@
         0.21,
         0.29,
         0.29,
+        0.35,
         0.35
       ]
     },
@@ -939,6 +952,7 @@
         0.04,
         0.29,
         0.29,
+        0.29,
         0.29
       ]
     },
@@ -947,7 +961,7 @@
       "sentiment": {
         "overall_score": 0.38,
         "trend": "stable",
-        "previous_score": 0.39,
+        "previous_score": 0.38,
         "confidence": "high",
         "sample_size": 20,
         "source_scores": {
@@ -1010,6 +1024,7 @@
         0.39,
         0.39,
         0.39,
+        0.38,
         0.38
       ]
     }
