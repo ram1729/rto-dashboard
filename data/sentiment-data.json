@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-03-20T02:09:56.458800Z",
+  "last_updated": "2026-03-20T13:03:52.496593Z",
   "scraper_log": {
-    "duration_sec": 93.11,
-    "total_articles": 301,
+    "duration_sec": 137.52,
+    "total_articles": 307,
     "errors": []
   },
   "companies": [
@@ -11,7 +11,7 @@
       "sentiment": {
         "overall_score": 0.27,
         "trend": "stable",
-        "previous_score": 0.26,
+        "previous_score": 0.27,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -87,6 +87,7 @@
         0.32,
         0.26,
         0.26,
+        0.27,
         0.27
       ]
     },
@@ -160,6 +161,7 @@
         0.07,
         0.24,
         0.32,
+        0.32,
         0.32
       ]
     },
@@ -167,8 +169,8 @@
       "name": "Google",
       "sentiment": {
         "overall_score": 0.12,
-        "trend": "declining",
-        "previous_score": 0.19,
+        "trend": "stable",
+        "previous_score": 0.12,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -233,6 +235,7 @@
         0.21,
         0.19,
         0.19,
+        0.12,
         0.12
       ]
     },
@@ -240,8 +243,8 @@
       "name": "Meta",
       "sentiment": {
         "overall_score": 0.26,
-        "trend": "declining",
-        "previous_score": 0.33,
+        "trend": "stable",
+        "previous_score": 0.26,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -306,17 +309,18 @@
         0.34,
         0.34,
         0.33,
+        0.26,
         0.26
       ]
     },
     {
       "name": "Microsoft",
       "sentiment": {
-        "overall_score": 0.3,
-        "trend": "improving",
-        "previous_score": 0.23,
+        "overall_score": 0.31,
+        "trend": "stable",
+        "previous_score": 0.3,
         "confidence": "high",
-        "sample_size": 27,
+        "sample_size": 29,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -324,7 +328,7 @@
           },
           "hackernews": {
             "score": -0.08,
-            "count": 12
+            "count": 14
           },
           "reddit": {
             "score": 0.54,
@@ -359,18 +363,18 @@
           "sentiment_score": 0.6249
         },
         {
+          "title": "European municipalities leak citizen data to US companies",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47443987",
+          "date": "2026-03-19",
+          "sentiment_score": -0.34
+        },
+        {
           "title": "AITA for telling my coworker she also has thin hair",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/AmItheAsshole/comments/1rxkczt/aita_for_telling_my_coworker_she_also_has_thin/",
           "date": "2026-03-18",
           "sentiment_score": 0.9187
-        },
-        {
-          "title": "Microsoft's 'unhackable' Xbox One has been hacked by 'Bliss'",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47413876",
-          "date": "2026-03-17",
-          "sentiment_score": 0.25
         }
       ],
       "sparkline": [
@@ -388,7 +392,8 @@
         0.26,
         0.23,
         0.23,
-        0.3
+        0.3,
+        0.31
       ]
     },
     {
@@ -420,6 +425,7 @@
       },
       "top_headlines": [],
       "sparkline": [
+        0,
         0,
         0,
         0,
@@ -470,25 +476,26 @@
         0.0,
         0.0,
         0.0,
+        0.0,
         0.0
       ]
     },
     {
       "name": "Bank of America",
       "sentiment": {
-        "overall_score": 0.0,
-        "trend": "declining",
-        "previous_score": 0.28,
+        "overall_score": 0.19,
+        "trend": "improving",
+        "previous_score": 0.0,
         "confidence": "low",
-        "sample_size": 1,
+        "sample_size": 2,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.0,
-            "count": 1
+            "score": 0.19,
+            "count": 2
           },
           "reddit": {
             "score": 0,
@@ -501,6 +508,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Launch HN: Kita (YC W26) \u2013 Automate credit review in emerging markets",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47417335",
+          "date": "2026-03-17",
+          "sentiment_score": 0.3818
+        },
         {
           "title": "Ask HN: Why do so many digital banks have such unreliable APIs?",
           "source": "Hacker News",
@@ -515,7 +529,8 @@
         0.28,
         0.28,
         0.28,
-        0.0
+        0.0,
+        0.19
       ]
     },
     {
@@ -588,6 +603,7 @@
         0.41,
         0.41,
         0.41,
+        0.41,
         0.41
       ]
     },
@@ -596,7 +612,7 @@
       "sentiment": {
         "overall_score": -0.13,
         "trend": "stable",
-        "previous_score": -0.11,
+        "previous_score": -0.13,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -661,6 +677,7 @@
         -0.1,
         -0.1,
         -0.11,
+        -0.13,
         -0.13
       ]
     },
@@ -734,6 +751,7 @@
         -0.07,
         -0.07,
         -0.07,
+        -0.07,
         -0.07
       ]
     },
@@ -742,7 +760,7 @@
       "sentiment": {
         "overall_score": 0.44,
         "trend": "stable",
-        "previous_score": 0.43,
+        "previous_score": 0.44,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -807,25 +825,26 @@
         0.43,
         0.43,
         0.43,
+        0.44,
         0.44
       ]
     },
     {
       "name": "Tesla",
       "sentiment": {
-        "overall_score": 0.36,
+        "overall_score": 0.37,
         "trend": "stable",
-        "previous_score": 0.35,
+        "previous_score": 0.36,
         "confidence": "high",
-        "sample_size": 26,
+        "sample_size": 28,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.06,
-            "count": 11
+            "score": 0.07,
+            "count": 13
           },
           "reddit": {
             "score": 0.55,
@@ -838,6 +857,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Tesla expects Dutch decision on self-driving technology by April 10",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47453843",
+          "date": "2026-03-20",
+          "sentiment_score": 0.0
+        },
         {
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
@@ -860,18 +886,11 @@
           "sentiment_score": -0.3434
         },
         {
-          "title": "2026-2027 RTA fee mismatch: DOL bill $503 vs. official estimator $271?",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/SeattleWA/comments/1rwxwx0/20262027_rta_fee_mismatch_dol_bill_503_vs/",
-          "date": "2026-03-18",
-          "sentiment_score": 0.5699
-        },
-        {
-          "title": "\"We can't afford to keep you, but you still need to train us.\"",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/Layoffs/comments/1rw0bml/we_cant_afford_to_keep_you_but_you_still_need_to/",
-          "date": "2026-03-17",
-          "sentiment_score": 0.9425
+          "title": "Tesla to buy $4.3B of LG Energy battery cells made in Michigan",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47444493",
+          "date": "2026-03-19",
+          "sentiment_score": 0.2732
         }
       ],
       "sparkline": [
@@ -880,7 +899,8 @@
         0.29,
         0.35,
         0.35,
-        0.36
+        0.36,
+        0.37
       ]
     },
     {
@@ -953,25 +973,26 @@
         0.29,
         0.29,
         0.29,
+        0.29,
         0.29
       ]
     },
     {
       "name": "Cisco",
       "sentiment": {
-        "overall_score": 0.47,
-        "trend": "improving",
-        "previous_score": 0.38,
+        "overall_score": 0.46,
+        "trend": "stable",
+        "previous_score": 0.47,
         "confidence": "high",
-        "sample_size": 19,
+        "sample_size": 20,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.12,
-            "count": 4
+            "score": 0.1,
+            "count": 5
           },
           "reddit": {
             "score": 0.68,
@@ -1013,11 +1034,11 @@
           "sentiment_score": 0.9999
         },
         {
-          "title": "The Daily Market Flux - Your Complete Market Rundown (03/16/2026)",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/MarketFluxHub/comments/1rvs5zh/the_daily_market_flux_your_complete_market/",
-          "date": "2026-03-17",
-          "sentiment_score": 0.989
+          "title": "Show HN: Permit MCP Gateway \u2013 Fine-Grained Authorization and IGA for MCP",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47426690",
+          "date": "2026-03-18",
+          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
@@ -1026,7 +1047,8 @@
         0.39,
         0.38,
         0.38,
-        0.47
+        0.47,
+        0.46
       ]
     }
   ]
