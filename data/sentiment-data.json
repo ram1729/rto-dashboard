@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-03-21T02:07:10.956418Z",
+  "last_updated": "2026-03-21T12:53:13.574212Z",
   "scraper_log": {
-    "duration_sec": 283.17,
+    "duration_sec": 90.12,
     "total_articles": 307,
     "errors": []
   },
@@ -10,8 +10,8 @@
       "name": "Amazon",
       "sentiment": {
         "overall_score": 0.19,
-        "trend": "declining",
-        "previous_score": 0.27,
+        "trend": "stable",
+        "previous_score": 0.19,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -89,6 +89,7 @@
         0.26,
         0.27,
         0.27,
+        0.19,
         0.19
       ]
     },
@@ -161,6 +162,7 @@
         0.07,
         0.07,
         0.24,
+        0.32,
         0.32,
         0.32,
         0.32,
@@ -239,6 +241,7 @@
         0.19,
         0.12,
         0.12,
+        0.12,
         0.12
       ]
     },
@@ -314,6 +317,7 @@
         0.33,
         0.26,
         0.26,
+        0.26,
         0.26
       ]
     },
@@ -321,8 +325,8 @@
       "name": "Microsoft",
       "sentiment": {
         "overall_score": 0.25,
-        "trend": "declining",
-        "previous_score": 0.31,
+        "trend": "stable",
+        "previous_score": 0.25,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -345,6 +349,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Microsoft's plan to fix Windows 11",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47466406",
+          "date": "2026-03-21",
+          "sentiment_score": 0.0
+        },
         {
           "title": "Microsoft Office 365: We all work together.",
           "source": "Reddit",
@@ -372,13 +383,6 @@
           "url": "https://news.ycombinator.com/item?id=47454448",
           "date": "2026-03-20",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "This is Microsoft's plan to fix Windows 11",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47460946",
-          "date": "2026-03-20",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
@@ -398,6 +402,7 @@
         0.23,
         0.3,
         0.31,
+        0.25,
         0.25
       ]
     },
@@ -430,6 +435,7 @@
       },
       "top_headlines": [],
       "sparkline": [
+        0,
         0,
         0,
         0,
@@ -478,6 +484,7 @@
       ],
       "sparkline": [
         0.19,
+        0.0,
         0.0,
         0.0,
         0.0,
@@ -537,6 +544,7 @@
         0.28,
         0.28,
         0.0,
+        0.19,
         0.19,
         0.19
       ]
@@ -613,6 +621,7 @@
         0.41,
         0.41,
         0.41,
+        0.41,
         0.41
       ]
     },
@@ -621,7 +630,7 @@
       "sentiment": {
         "overall_score": -0.1,
         "trend": "stable",
-        "previous_score": -0.13,
+        "previous_score": -0.1,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -652,13 +661,6 @@
           "sentiment_score": -0.3818
         },
         {
-          "title": "Landlord installed an app-controlled smart deadbolt while I was at work.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1rymjrw/landlord_installed_an_appcontrolled_smart/",
-          "date": "2026-03-20",
-          "sentiment_score": 0.8264
-        },
-        {
           "title": "They trap your car at the highway ramp, then walk up once you\u2019re stuck \ud83d\ude30",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/Amazing/comments/1ryqwm1/they_trap_your_car_at_the_highway_ramp_then_walk/",
@@ -666,18 +668,25 @@
           "sentiment_score": -0.6486
         },
         {
+          "title": "Landlord installed an app-controlled smart deadbolt while I was at work.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1rymjrw/landlord_installed_an_appcontrolled_smart/",
+          "date": "2026-03-20",
+          "sentiment_score": 0.8264
+        },
+        {
+          "title": "Camera operator deftly spots the laser pointer at a football match",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/interestingasfuck/comments/1ryvfou/camera_operator_deftly_spots_the_laser_pointer_at/",
+          "date": "2026-03-20",
+          "sentiment_score": 0.0
+        },
+        {
           "title": "Hero climbs up elevated monorail track at Hershey Park to save autistic child",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/nextfuckinglevel/comments/1rxuqjz/hero_climbs_up_elevated_monorail_track_at_hershey/",
           "date": "2026-03-19",
           "sentiment_score": 0.9298
-        },
-        {
-          "title": "and we'll leave it at that..",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/SipsTea/comments/1rw5jnh/and_well_leave_it_at_that/",
-          "date": "2026-03-17",
-          "sentiment_score": -0.1531
         }
       ],
       "sparkline": [
@@ -688,6 +697,7 @@
         -0.11,
         -0.13,
         -0.13,
+        -0.1,
         -0.1
       ]
     },
@@ -763,6 +773,7 @@
         -0.07,
         -0.07,
         -0.07,
+        -0.07,
         -0.07
       ]
     },
@@ -771,7 +782,7 @@
       "sentiment": {
         "overall_score": 0.43,
         "trend": "stable",
-        "previous_score": 0.44,
+        "previous_score": 0.43,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -838,6 +849,7 @@
         0.43,
         0.44,
         0.44,
+        0.43,
         0.43
       ]
     },
@@ -913,6 +925,7 @@
         0.35,
         0.36,
         0.37,
+        0.37,
         0.37
       ]
     },
@@ -982,6 +995,7 @@
       ],
       "sparkline": [
         0.04,
+        0.29,
         0.29,
         0.29,
         0.29,
@@ -1062,6 +1076,7 @@
         0.38,
         0.38,
         0.47,
+        0.46,
         0.46,
         0.46
       ]
