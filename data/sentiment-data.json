@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-03-23T02:26:11.649327Z",
+  "last_updated": "2026-03-23T13:13:13.154195Z",
   "scraper_log": {
-    "duration_sec": 176.33,
+    "duration_sec": 200.06,
     "total_articles": 308,
     "errors": []
   },
@@ -11,7 +11,7 @@
       "sentiment": {
         "overall_score": 0.21,
         "trend": "stable",
-        "previous_score": 0.19,
+        "previous_score": 0.21,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -93,15 +93,16 @@
         0.19,
         0.19,
         0.19,
+        0.21,
         0.21
       ]
     },
     {
       "name": "Apple",
       "sentiment": {
-        "overall_score": 0.3,
-        "trend": "improving",
-        "previous_score": 0.22,
+        "overall_score": 0.22,
+        "trend": "declining",
+        "previous_score": 0.3,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -114,7 +115,7 @@
             "count": 15
           },
           "reddit": {
-            "score": 0.45,
+            "score": 0.32,
             "count": 15
           },
           "gdelt": {
@@ -153,11 +154,11 @@
           "sentiment_score": 0.0
         },
         {
-          "title": "Newbies: Please read this",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/Zepbound/comments/1s0omo3/newbies_please_read_this/",
-          "date": "2026-03-22",
-          "sentiment_score": 0.9937
+          "title": "Halide co-founder is suing former partner for bringing source code to Apple",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47472189",
+          "date": "2026-03-21",
+          "sentiment_score": -0.2732
         }
       ],
       "sparkline": [
@@ -172,14 +173,15 @@
         0.32,
         0.23,
         0.22,
-        0.3
+        0.3,
+        0.22
       ]
     },
     {
       "name": "Google",
       "sentiment": {
-        "overall_score": 0.12,
-        "trend": "stable",
+        "overall_score": 0.03,
+        "trend": "declining",
         "previous_score": 0.12,
         "confidence": "high",
         "sample_size": 30,
@@ -193,7 +195,7 @@
             "count": 15
           },
           "reddit": {
-            "score": 0.23,
+            "score": 0.09,
             "count": 15
           },
           "gdelt": {
@@ -225,18 +227,18 @@
           "sentiment_score": -0.3434
         },
         {
+          "title": "Lone Ranges Shooting Complex - the end of an era",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/perth/comments/1s1bhxb/lone_ranges_shooting_complex_the_end_of_an_era/",
+          "date": "2026-03-23",
+          "sentiment_score": -0.9957
+        },
+        {
           "title": "Tell HN: A company was billed $128K from one leaked GCP API key",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=47417874",
           "date": "2026-03-17",
           "sentiment_score": -0.3182
-        },
-        {
-          "title": "Ask HN: Did Google Sign-In roll out a breaking change this morning?",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47415520",
-          "date": "2026-03-17",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
@@ -251,7 +253,8 @@
         0.12,
         0.12,
         0.12,
-        0.12
+        0.12,
+        0.03
       ]
     },
     {
@@ -259,7 +262,7 @@
       "sentiment": {
         "overall_score": 0.25,
         "trend": "stable",
-        "previous_score": 0.26,
+        "previous_score": 0.25,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -330,6 +333,7 @@
         0.26,
         0.26,
         0.26,
+        0.25,
         0.25
       ]
     },
@@ -338,7 +342,7 @@
       "sentiment": {
         "overall_score": 0.26,
         "trend": "stable",
-        "previous_score": 0.27,
+        "previous_score": 0.26,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -418,6 +422,7 @@
         0.25,
         0.26,
         0.27,
+        0.26,
         0.26
       ]
     },
@@ -450,6 +455,7 @@
       },
       "top_headlines": [],
       "sparkline": [
+        0,
         0,
         0,
         0,
@@ -502,6 +508,7 @@
       ],
       "sparkline": [
         0.19,
+        0.0,
         0.0,
         0.0,
         0.0,
@@ -569,6 +576,7 @@
         0.19,
         0.19,
         0.0,
+        0.19,
         0.19,
         0.19
       ]
@@ -649,6 +657,7 @@
         0.41,
         0.41,
         0.41,
+        0.41,
         0.41
       ]
     },
@@ -657,7 +666,7 @@
       "sentiment": {
         "overall_score": -0.06,
         "trend": "stable",
-        "previous_score": -0.1,
+        "previous_score": -0.06,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -728,6 +737,7 @@
         -0.1,
         -0.1,
         -0.1,
+        -0.06,
         -0.06
       ]
     },
@@ -807,6 +817,7 @@
         -0.07,
         -0.07,
         -0.07,
+        -0.07,
         -0.07
       ]
     },
@@ -824,7 +835,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.13,
+            "score": -0.12,
             "count": 15
           },
           "reddit": {
@@ -838,6 +849,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Uber's Deal Blitz to Stop a Robotaxi Monopoly",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47485412",
+          "date": "2026-03-23",
+          "sentiment_score": -0.296
+        },
         {
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
@@ -865,13 +883,6 @@
           "url": "https://news.ycombinator.com/item?id=47477073",
           "date": "2026-03-22",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Tell HN: H&R Block tax software installs a TLS backdoor",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47457162",
-          "date": "2026-03-20",
-          "sentiment_score": -0.4404
         }
       ],
       "sparkline": [
@@ -886,15 +897,16 @@
         0.43,
         0.41,
         0.41,
+        0.41,
         0.41
       ]
     },
     {
       "name": "Tesla",
       "sentiment": {
-        "overall_score": 0.35,
+        "overall_score": 0.34,
         "trend": "stable",
-        "previous_score": 0.36,
+        "previous_score": 0.35,
         "confidence": "high",
         "sample_size": 28,
         "source_scores": {
@@ -903,7 +915,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.04,
+            "score": 0.01,
             "count": 13
           },
           "reddit": {
@@ -917,6 +929,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Uber's Deal Blitz to Stop a Robotaxi Monopoly",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47485412",
+          "date": "2026-03-23",
+          "sentiment_score": -0.296
+        },
         {
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
@@ -944,13 +963,6 @@
           "url": "https://news.ycombinator.com/item?id=47478514",
           "date": "2026-03-22",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Terafab: The next step to becoming a galactic civilization",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47474138",
-          "date": "2026-03-22",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
@@ -965,7 +977,8 @@
         0.37,
         0.36,
         0.36,
-        0.35
+        0.35,
+        0.34
       ]
     },
     {
@@ -1044,13 +1057,14 @@
         0.29,
         0.29,
         0.29,
+        0.29,
         0.29
       ]
     },
     {
       "name": "Cisco",
       "sentiment": {
-        "overall_score": 0.45,
+        "overall_score": 0.44,
         "trend": "stable",
         "previous_score": 0.45,
         "confidence": "high",
@@ -1065,7 +1079,7 @@
             "count": 6
           },
           "reddit": {
-            "score": 0.67,
+            "score": 0.66,
             "count": 15
           },
           "gdelt": {
@@ -1097,18 +1111,18 @@
           "sentiment_score": -0.4723
         },
         {
+          "title": "I\u2019m fucking stupid and never should\u2019ve been in the tech industry. What do I do?",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/careerguidance/comments/1s14so7/im_fucking_stupid_and_never_shouldve_been_in_the/",
+          "date": "2026-03-23",
+          "sentiment_score": 0.8414
+        },
+        {
           "title": "I made this app 'Mind Influence Lab' for experimenting consciousness hypothesis",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=47472145",
           "date": "2026-03-21",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Need some tech advice",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/ShittyDaystrom/comments/1ryjxgq/need_some_tech_advice/",
-          "date": "2026-03-20",
-          "sentiment_score": 0.7502
         }
       ],
       "sparkline": [
@@ -1123,7 +1137,8 @@
         0.46,
         0.46,
         0.45,
-        0.45
+        0.45,
+        0.44
       ]
     }
   ]
