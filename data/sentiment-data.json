@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-03-24T02:09:41.463559Z",
+  "last_updated": "2026-03-24T13:15:54.775575Z",
   "scraper_log": {
-    "duration_sec": 89.63,
-    "total_articles": 302,
+    "duration_sec": 108.06,
+    "total_articles": 295,
     "errors": []
   },
   "companies": [
     {
       "name": "Amazon",
       "sentiment": {
-        "overall_score": 0.13,
-        "trend": "declining",
-        "previous_score": 0.21,
+        "overall_score": 0.15,
+        "trend": "stable",
+        "previous_score": 0.13,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -24,7 +24,7 @@
             "count": 15
           },
           "reddit": {
-            "score": 0.17,
+            "score": 0.21,
             "count": 15
           },
           "gdelt": {
@@ -56,18 +56,18 @@
           "sentiment_score": -0.3434
         },
         {
+          "title": "What do people make of Amazon paying over $40 million (plus $35 million in marketing) for Melania Trump\u2019s self-produced documentary right as Trump returned to office, especially with Trump himself calling her a \u201cbig movie star\u201d and denying any corruption?",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/AskReddit/comments/1s289m2/what_do_people_make_of_amazon_paying_over_40/",
+          "date": "2026-03-24",
+          "sentiment_score": -0.1779
+        },
+        {
           "title": "Amazon acquires autonomous robotics startup Rivr",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=47446763",
           "date": "2026-03-19",
           "sentiment_score": 0.1779
-        },
-        {
-          "title": "Return-to-office mandates secret agenda",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/antiwork/comments/1rxaj6u/returntooffice_mandates_secret_agenda/",
-          "date": "2026-03-18",
-          "sentiment_score": -0.3024
         }
       ],
       "sparkline": [
@@ -95,17 +95,18 @@
         0.19,
         0.21,
         0.21,
-        0.13
+        0.13,
+        0.15
       ]
     },
     {
       "name": "Apple",
       "sentiment": {
-        "overall_score": 0.22,
+        "overall_score": 0.25,
         "trend": "stable",
         "previous_score": 0.22,
         "confidence": "high",
-        "sample_size": 30,
+        "sample_size": 18,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -116,8 +117,8 @@
             "count": 15
           },
           "reddit": {
-            "score": 0.32,
-            "count": 15
+            "score": 0.37,
+            "count": 3
           },
           "gdelt": {
             "score": 0,
@@ -176,15 +177,16 @@
         0.22,
         0.3,
         0.22,
-        0.22
+        0.22,
+        0.25
       ]
     },
     {
       "name": "Google",
       "sentiment": {
-        "overall_score": 0.12,
+        "overall_score": 0.2,
         "trend": "improving",
-        "previous_score": 0.03,
+        "previous_score": 0.12,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -197,7 +199,7 @@
             "count": 15
           },
           "reddit": {
-            "score": 0.23,
+            "score": 0.36,
             "count": 15
           },
           "gdelt": {
@@ -229,18 +231,18 @@
           "sentiment_score": -0.3434
         },
         {
+          "title": "My (24F) Husband (23M) Faked Fainting After I Gave Birth",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/BestofRedditorUpdates/comments/1s23ie6/my_24f_husband_23m_faked_fainting_after_i_gave/",
+          "date": "2026-03-24",
+          "sentiment_score": 0.9998
+        },
+        {
           "title": "Lone Ranges Shooting Complex - the end of an era",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/perth/comments/1s1bhxb/lone_ranges_shooting_complex_the_end_of_an_era/",
           "date": "2026-03-23",
           "sentiment_score": -0.9957
-        },
-        {
-          "title": "[1978] - A 13 year old girl disappeared in Melbourne's northern suburbs. The man running the shop she was walking to gave three different accounts of whether he saw her; including one that doesn't fit the timeline at all.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/UnresolvedMysteries/comments/1s19gdn/1978_a_13_year_old_girl_disappeared_in_melbournes/",
-          "date": "2026-03-23",
-          "sentiment_score": -0.9919
         }
       ],
       "sparkline": [
@@ -257,14 +259,15 @@
         0.12,
         0.12,
         0.03,
-        0.12
+        0.12,
+        0.2
       ]
     },
     {
       "name": "Meta",
       "sentiment": {
-        "overall_score": 0.25,
-        "trend": "stable",
+        "overall_score": 0.33,
+        "trend": "improving",
         "previous_score": 0.25,
         "confidence": "high",
         "sample_size": 30,
@@ -278,7 +281,7 @@
             "count": 15
           },
           "reddit": {
-            "score": 0.41,
+            "score": 0.54,
             "count": 15
           },
           "gdelt": {
@@ -310,18 +313,18 @@
           "sentiment_score": 0.6597
         },
         {
+          "title": "Yuri List: Idol, Music, Showbiz",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/yuri_manga/comments/1s1gbe4/yuri_list_idol_music_showbiz/",
+          "date": "2026-03-23",
+          "sentiment_score": 0.9983
+        },
+        {
           "title": "Why was Scream 7 a box office success? I've listed some reasons that, in my opinion, influenced its box office performance. If I missed one, feel free to mention it. *Spoiler Alert*",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/Scream/comments/1s0pckm/why_was_scream_7_a_box_office_success_ive_listed/",
           "date": "2026-03-22",
           "sentiment_score": 0.8684
-        },
-        {
-          "title": "My net worth peaked at $1.2 million.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/copypasta/comments/1s0pqt2/my_net_worth_peaked_at_12_million/",
-          "date": "2026-03-22",
-          "sentiment_score": -0.9037
         }
       ],
       "sparkline": [
@@ -338,25 +341,26 @@
         0.26,
         0.25,
         0.25,
-        0.25
+        0.25,
+        0.33
       ]
     },
     {
       "name": "Microsoft",
       "sentiment": {
-        "overall_score": 0.25,
+        "overall_score": 0.24,
         "trend": "stable",
-        "previous_score": 0.26,
+        "previous_score": 0.25,
         "confidence": "high",
-        "sample_size": 29,
+        "sample_size": 30,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.1,
-            "count": 14
+            "score": -0.13,
+            "count": 15
           },
           "reddit": {
             "score": 0.46,
@@ -369,6 +373,20 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Microsoft's \"Fix\" for Windows 11: Flowers After the Beating",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47500335",
+          "date": "2026-03-24",
+          "sentiment_score": -0.4588
+        },
+        {
+          "title": "Microsoft blocks trick to unlock native NVMe driver, but workarounds still exist",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47498766",
+          "date": "2026-03-24",
+          "sentiment_score": -0.1406
+        },
         {
           "title": "Microsoft Office 365: We all work together.",
           "source": "Reddit",
@@ -389,20 +407,6 @@
           "url": "https://www.reddit.com/r/technology/",
           "date": "2026-03-24",
           "sentiment_score": 0.6249
-        },
-        {
-          "title": "Microsoft's \"Fix\" for Windows 11: Flowers After the Beating",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47492530",
-          "date": "2026-03-23",
-          "sentiment_score": -0.4588
-        },
-        {
-          "title": "Microsoft rolls back some of its Copilot AI bloat on Windows",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47479957",
-          "date": "2026-03-22",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
@@ -428,7 +432,8 @@
         0.27,
         0.26,
         0.26,
-        0.25
+        0.25,
+        0.24
       ]
     },
     {
@@ -460,6 +465,7 @@
       },
       "top_headlines": [],
       "sparkline": [
+        0,
         0,
         0,
         0,
@@ -526,6 +532,7 @@
         0.0,
         0.0,
         0.0,
+        0.0,
         0.0
       ]
     },
@@ -534,7 +541,7 @@
       "sentiment": {
         "overall_score": 0.21,
         "trend": "stable",
-        "previous_score": 0.19,
+        "previous_score": 0.21,
         "confidence": "low",
         "sample_size": 2,
         "source_scores": {
@@ -586,6 +593,7 @@
         0.19,
         0.19,
         0.19,
+        0.21,
         0.21
       ]
     },
@@ -667,15 +675,16 @@
         0.41,
         0.41,
         0.41,
+        0.41,
         0.41
       ]
     },
     {
       "name": "AT&T",
       "sentiment": {
-        "overall_score": -0.15,
-        "trend": "declining",
-        "previous_score": -0.06,
+        "overall_score": -0.2,
+        "trend": "stable",
+        "previous_score": -0.15,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -684,11 +693,11 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.19,
+            "score": -0.23,
             "count": 15
           },
           "reddit": {
-            "score": -0.12,
+            "score": -0.18,
             "count": 15
           },
           "gdelt": {
@@ -720,18 +729,18 @@
           "sentiment_score": -0.9313
         },
         {
+          "title": "ICE already causing havoc at SFO",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/sanfrancisco/comments/1s1a3lq/ice_already_causing_havoc_at_sfo/",
+          "date": "2026-03-23",
+          "sentiment_score": -0.9136
+        },
+        {
           "title": "Japanese Prime Minister Sanae Takaichi during the state dinner at the White House",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/pics/comments/1rzrsti/japanese_prime_minister_sanae_takaichi_during_the/",
           "date": "2026-03-21",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Chuck Norris, Action Icon and \u2018Walker Texas Ranger\u2019 Star, Dies at 86",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/movies/comments/1rywylg/chuck_norris_action_icon_and_walker_texas_ranger/",
-          "date": "2026-03-20",
-          "sentiment_score": -0.3818
         }
       ],
       "sparkline": [
@@ -748,7 +757,8 @@
         -0.1,
         -0.06,
         -0.06,
-        -0.15
+        -0.15,
+        -0.2
       ]
     },
     {
@@ -801,22 +811,23 @@
           "sentiment_score": 0.0
         },
         {
+          "title": "March 20-22 Box Office Recap \u2013 'Project Hail Mary' debuts with a fantastic $80.5M domestically and $140.9M worldwide, Amazon's biggest ever debut. 'Dhurandhar 2' over-performs with $81M worldwide, the biggest ever launch for a Bollywood title. 'Ready or Not 2' opens with a fine $9M.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/movies/comments/1s1v7ly/march_2022_box_office_recap_project_hail_mary/",
+          "date": "2026-03-23",
+          "sentiment_score": 0.9998
+        },
+        {
           "title": "I don\u2019t believe Hacker vs TCO is morally grey. Hacker is bad news. Rocket Corp analysis+investigation",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/AlanBecker/comments/1s0kyhx/i_dont_believe_hacker_vs_tco_is_morally_grey/",
           "date": "2026-03-22",
           "sentiment_score": -0.9999
-        },
-        {
-          "title": "Meghan and Harry\u2019s Falling Out With Netflix \u2014 and Why the Royal Couple Is Struggling in Hollywood *VARIETY*",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/SaintMeghanMarkle/comments/1rwdgc5/meghan_and_harrys_falling_out_with_netflix_and/",
-          "date": "2026-03-17",
-          "sentiment_score": 0.9993
         }
       ],
       "sparkline": [
         -0.15,
+        -0.07,
         -0.07,
         -0.07,
         -0.07,
@@ -835,7 +846,7 @@
     {
       "name": "Dell",
       "sentiment": {
-        "overall_score": 0.41,
+        "overall_score": 0.42,
         "trend": "stable",
         "previous_score": 0.41,
         "confidence": "high",
@@ -846,11 +857,11 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.12,
+            "score": -0.15,
             "count": 15
           },
           "reddit": {
-            "score": 0.72,
+            "score": 0.77,
             "count": 15
           },
           "gdelt": {
@@ -889,11 +900,11 @@
           "sentiment_score": -0.296
         },
         {
-          "title": "New Open Source from Non-Traditional Builder",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47477073",
-          "date": "2026-03-22",
-          "sentiment_score": 0.0
+          "title": "Auspost are you serious?",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/AusPostComplaints/comments/1s1cz8n/auspost_are_you_serious/",
+          "date": "2026-03-23",
+          "sentiment_score": 0.7336
         }
       ],
       "sparkline": [
@@ -910,25 +921,26 @@
         0.41,
         0.41,
         0.41,
-        0.41
+        0.41,
+        0.42
       ]
     },
     {
       "name": "Tesla",
       "sentiment": {
-        "overall_score": 0.35,
+        "overall_score": 0.36,
         "trend": "stable",
-        "previous_score": 0.34,
+        "previous_score": 0.35,
         "confidence": "high",
-        "sample_size": 24,
+        "sample_size": 26,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.04,
-            "count": 9
+            "score": 0.07,
+            "count": 11
           },
           "reddit": {
             "score": 0.53,
@@ -941,6 +953,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Tesla poaching engineers from chip manufacturing companies like TSMC",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47499083",
+          "date": "2026-03-24",
+          "sentiment_score": 0.3612
+        },
         {
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
@@ -968,13 +987,6 @@
           "url": "https://news.ycombinator.com/item?id=47485412",
           "date": "2026-03-23",
           "sentiment_score": -0.296
-        },
-        {
-          "title": "[H] Friday 13th, Call To Arms Ostfront, The Outer Worlds, While True Learn CTO Edition, Metal Eden, Pacer, Rivals Of Aether, Intruder, BL3 Super Deluxe, Circuit Superstars, WWE 2K25, SCP 5K, Labyrinthine, Free Ones, Hurtworld, Persona 5 Royal, Miscreated & 100s more [W] Wishlist, Paypal (EU)",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/GameTrade/comments/1s1esr0/h_friday_13th_call_to_arms_ostfront_the_outer/",
-          "date": "2026-03-23",
-          "sentiment_score": -0.9871
         }
       ],
       "sparkline": [
@@ -991,17 +1003,18 @@
         0.36,
         0.35,
         0.34,
-        0.35
+        0.35,
+        0.36
       ]
     },
     {
       "name": "Caterpillar",
       "sentiment": {
-        "overall_score": 0.29,
-        "trend": "stable",
+        "overall_score": 0.18,
+        "trend": "declining",
         "previous_score": 0.29,
         "confidence": "high",
-        "sample_size": 10,
+        "sample_size": 11,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -1012,8 +1025,8 @@
             "count": 0
           },
           "reddit": {
-            "score": 0.29,
-            "count": 10
+            "score": 0.18,
+            "count": 11
           },
           "gdelt": {
             "score": 0,
@@ -1044,18 +1057,18 @@
           "sentiment_score": -0.4723
         },
         {
+          "title": "[Discussion 1/3] Mod Pick | The Constant Rabbit by Jasper Fforde - Start through Dinner & Dandelion Brandy",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/bookclub/comments/1s24q65/discussion_13_mod_pick_the_constant_rabbit_by/",
+          "date": "2026-03-24",
+          "sentiment_score": -0.9658
+        },
+        {
           "title": "What does Esprit de Corps want?",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/DiscoElysium/comments/1ruymw2/what_does_esprit_de_corps_want/",
           "date": "2026-03-16",
           "sentiment_score": -0.9834
-        },
-        {
-          "title": "Is There an AI Bubble? CAPEX, Profitability, Data Centers & Market Risk",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/stocks/comments/1rqehf9/is_there_an_ai_bubble_capex_profitability_data/",
-          "date": "2026-03-11",
-          "sentiment_score": 0.9988
         }
       ],
       "sparkline": [
@@ -1072,25 +1085,26 @@
         0.29,
         0.29,
         0.29,
-        0.29
+        0.29,
+        0.18
       ]
     },
     {
       "name": "Cisco",
       "sentiment": {
-        "overall_score": 0.46,
+        "overall_score": 0.45,
         "trend": "stable",
-        "previous_score": 0.44,
+        "previous_score": 0.46,
         "confidence": "high",
-        "sample_size": 19,
+        "sample_size": 20,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.12,
-            "count": 4
+            "score": 0.1,
+            "count": 5
           },
           "reddit": {
             "score": 0.66,
@@ -1103,6 +1117,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Interactive LED system for crutches that react to walking motion",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47499283",
+          "date": "2026-03-24",
+          "sentiment_score": 0.0
+        },
         {
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
@@ -1130,13 +1151,6 @@
           "url": "https://www.reddit.com/r/careerguidance/comments/1s14so7/im_fucking_stupid_and_never_shouldve_been_in_the/",
           "date": "2026-03-23",
           "sentiment_score": 0.8414
-        },
-        {
-          "title": "Need some tech advice",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/ShittyDaystrom/comments/1ryjxgq/need_some_tech_advice/",
-          "date": "2026-03-20",
-          "sentiment_score": 0.7502
         }
       ],
       "sparkline": [
@@ -1153,7 +1167,8 @@
         0.45,
         0.45,
         0.44,
-        0.46
+        0.46,
+        0.45
       ]
     }
   ]
