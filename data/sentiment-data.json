@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-03-26T02:31:08.879130Z",
+  "last_updated": "2026-03-26T13:23:14.054443Z",
   "scraper_log": {
-    "duration_sec": 231.65,
-    "total_articles": 302,
+    "duration_sec": 305.48,
+    "total_articles": 303,
     "errors": []
   },
   "companies": [
@@ -56,17 +56,17 @@
           "sentiment_score": -0.3434
         },
         {
+          "title": "I (24F) think I\u2019m being stalked - and I can\u2019t tell by how many people",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/BestofRedditorUpdates/comments/1s3x6qz/i_24f_think_im_being_stalked_and_i_cant_tell_by/",
+          "date": "2026-03-26",
+          "sentiment_score": 0.9931
+        },
+        {
           "title": "Android on Amazon Echo Show 5 2nd Gen \u2013 2021",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=47511883",
           "date": "2026-03-25",
-          "sentiment_score": 0.1779
-        },
-        {
-          "title": "Amazon Acquires Fauna Robotics",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47508312",
-          "date": "2026-03-24",
           "sentiment_score": 0.1779
         }
       ],
@@ -97,6 +97,7 @@
         0.21,
         0.13,
         0.15,
+        0.25,
         0.25,
         0.25,
         0.25
@@ -184,6 +185,7 @@
         0.25,
         0.22,
         0.22,
+        0.22,
         0.22
       ]
     },
@@ -237,18 +239,18 @@
           "sentiment_score": -0.3434
         },
         {
+          "title": "I (24F) think I\u2019m being stalked - and I can\u2019t tell by how many people",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/BestofRedditorUpdates/comments/1s3x6qz/i_24f_think_im_being_stalked_and_i_cant_tell_by/",
+          "date": "2026-03-26",
+          "sentiment_score": 0.9931
+        },
+        {
           "title": "My (24F) Husband (23M) Faked Fainting After I Gave Birth",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/BestofRedditorUpdates/comments/1s23ie6/my_24f_husband_23m_faked_fainting_after_i_gave/",
           "date": "2026-03-24",
           "sentiment_score": 0.9998
-        },
-        {
-          "title": "Lone Ranges Shooting Complex - the end of an era",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/perth/comments/1s1bhxb/lone_ranges_shooting_complex_the_end_of_an_era/",
-          "date": "2026-03-23",
-          "sentiment_score": -0.9957
         }
       ],
       "sparkline": [
@@ -269,6 +271,7 @@
         0.2,
         0.2,
         0.12,
+        0.12,
         0.12
       ]
     },
@@ -276,8 +279,8 @@
       "name": "Meta",
       "sentiment": {
         "overall_score": 0.32,
-        "trend": "improving",
-        "previous_score": 0.25,
+        "trend": "stable",
+        "previous_score": 0.32,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -354,25 +357,26 @@
         0.33,
         0.25,
         0.25,
+        0.32,
         0.32
       ]
     },
     {
       "name": "Microsoft",
       "sentiment": {
-        "overall_score": 0.25,
+        "overall_score": 0.26,
         "trend": "stable",
-        "previous_score": 0.24,
+        "previous_score": 0.25,
         "confidence": "high",
-        "sample_size": 28,
+        "sample_size": 29,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.11,
-            "count": 13
+            "score": -0.09,
+            "count": 14
           },
           "reddit": {
             "score": 0.46,
@@ -448,7 +452,8 @@
         0.24,
         0.24,
         0.24,
-        0.25
+        0.25,
+        0.26
       ]
     },
     {
@@ -480,6 +485,7 @@
       },
       "top_headlines": [],
       "sparkline": [
+        0,
         0,
         0,
         0,
@@ -554,6 +560,7 @@
         0.0,
         0.0,
         0.0,
+        0.0,
         0.0
       ]
     },
@@ -561,8 +568,8 @@
       "name": "Bank of America",
       "sentiment": {
         "overall_score": 0.0,
-        "trend": "declining",
-        "previous_score": 0.21,
+        "trend": "stable",
+        "previous_score": 0.0,
         "confidence": "low",
         "sample_size": 1,
         "source_scores": {
@@ -611,6 +618,7 @@
         0.21,
         0.21,
         0.21,
+        0.0,
         0.0
       ]
     },
@@ -696,15 +704,16 @@
         0.41,
         0.41,
         0.41,
+        0.41,
         0.41
       ]
     },
     {
       "name": "AT&T",
       "sentiment": {
-        "overall_score": -0.19,
-        "trend": "stable",
-        "previous_score": -0.18,
+        "overall_score": -0.11,
+        "trend": "improving",
+        "previous_score": -0.19,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -713,11 +722,11 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.2,
+            "score": -0.19,
             "count": 15
           },
           "reddit": {
-            "score": -0.18,
+            "score": -0.06,
             "count": 15
           },
           "gdelt": {
@@ -727,6 +736,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "POV of a head chef\u2019s super busy session at a restaurant",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/interestingasfuck/comments/1s3vxt1/pov_of_a_head_chefs_super_busy_session_at_a/",
+          "date": "2026-03-26",
+          "sentiment_score": 0.9136
+        },
         {
           "title": "Wine 11 rewrites how Linux runs Windows games at kernel with massive speed gains",
           "source": "Hacker News",
@@ -754,13 +770,6 @@
           "url": "https://www.reddit.com/r/interestingasfuck/comments/1s1ei9g/solar_farms_floating_on_reservoirs_in_china/",
           "date": "2026-03-23",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "OnlyFans Owner Dead at 43",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/technology/comments/1s1gius/onlyfans_owner_dead_at_43/",
-          "date": "2026-03-23",
-          "sentiment_score": -0.9313
         }
       ],
       "sparkline": [
@@ -781,7 +790,8 @@
         -0.2,
         -0.18,
         -0.18,
-        -0.19
+        -0.19,
+        -0.11
       ]
     },
     {
@@ -864,6 +874,7 @@
         -0.07,
         -0.07,
         -0.07,
+        -0.18,
         -0.18,
         -0.18,
         -0.18
@@ -951,6 +962,7 @@
         0.42,
         0.42,
         0.42,
+        0.42,
         0.42
       ]
     },
@@ -958,8 +970,8 @@
       "name": "Tesla",
       "sentiment": {
         "overall_score": 0.27,
-        "trend": "declining",
-        "previous_score": 0.36,
+        "trend": "stable",
+        "previous_score": 0.27,
         "confidence": "high",
         "sample_size": 24,
         "source_scores": {
@@ -1036,6 +1048,7 @@
         0.36,
         0.36,
         0.36,
+        0.27,
         0.27
       ]
     },
@@ -1043,8 +1056,8 @@
       "name": "Caterpillar",
       "sentiment": {
         "overall_score": 0.27,
-        "trend": "improving",
-        "previous_score": 0.18,
+        "trend": "stable",
+        "previous_score": 0.27,
         "confidence": "high",
         "sample_size": 11,
         "source_scores": {
@@ -1121,15 +1134,16 @@
         0.18,
         0.18,
         0.18,
+        0.27,
         0.27
       ]
     },
     {
       "name": "Cisco",
       "sentiment": {
-        "overall_score": 0.53,
-        "trend": "improving",
-        "previous_score": 0.45,
+        "overall_score": 0.46,
+        "trend": "declining",
+        "previous_score": 0.53,
         "confidence": "high",
         "sample_size": 20,
         "source_scores": {
@@ -1142,7 +1156,7 @@
             "count": 5
           },
           "reddit": {
-            "score": 0.79,
+            "score": 0.67,
             "count": 15
           },
           "gdelt": {
@@ -1152,6 +1166,27 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Return to Office policy black- and whitelist.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/ReturntoOffice/",
+          "date": "2026-03-26",
+          "sentiment_score": 0.8271
+        },
+        {
+          "title": "fullyremotework",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/fullyremotework/",
+          "date": "2026-03-26",
+          "sentiment_score": 0.5859
+        },
+        {
+          "title": "NoToRTOCa",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/NoToRTOCa/",
+          "date": "2026-03-26",
+          "sentiment_score": -0.4723
+        },
         {
           "title": "Country that put backdoors in Cisco routers to spy on world bans foreign routers",
           "source": "Hacker News",
@@ -1165,27 +1200,6 @@
           "url": "https://www.reddit.com/r/nfl/comments/1s2hzxn/2026_32_teams32_days_new_york_jets/",
           "date": "2026-03-24",
           "sentiment_score": 0.9999
-        },
-        {
-          "title": "[OC] Arlington is objectively a worse option than Hammond, even without state bill differences. Into the rabbit hole...",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/ChicagoBearsNFL/comments/1s2md0n/oc_arlington_is_objectively_a_worse_option_than/",
-          "date": "2026-03-24",
-          "sentiment_score": 0.9998
-        },
-        {
-          "title": "I\u2019m fucking stupid and never should\u2019ve been in the tech industry. What do I do?",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/careerguidance/comments/1s14so7/im_fucking_stupid_and_never_shouldve_been_in_the/",
-          "date": "2026-03-23",
-          "sentiment_score": 0.8414
-        },
-        {
-          "title": "Need some tech advice",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/ShittyDaystrom/comments/1ryjxgq/need_some_tech_advice/",
-          "date": "2026-03-20",
-          "sentiment_score": 0.7502
         }
       ],
       "sparkline": [
@@ -1206,7 +1220,8 @@
         0.45,
         0.45,
         0.45,
-        0.53
+        0.53,
+        0.46
       ]
     }
   ]
