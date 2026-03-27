@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-03-27T02:30:14.103435Z",
+  "last_updated": "2026-03-27T13:13:41.170670Z",
   "scraper_log": {
-    "duration_sec": 98.66,
-    "total_articles": 306,
+    "duration_sec": 309.9,
+    "total_articles": 307,
     "errors": []
   },
   "companies": [
@@ -71,7 +71,6 @@
         }
       ],
       "sparkline": [
-        -0.25,
         -0.28,
         -0.3,
         -0.33,
@@ -96,6 +95,7 @@
         0.21,
         0.13,
         0.15,
+        0.25,
         0.25,
         0.25,
         0.25,
@@ -187,6 +187,7 @@
         0.22,
         0.22,
         0.22,
+        0.22,
         0.22
       ]
     },
@@ -271,6 +272,7 @@
         0.12,
         0.2,
         0.2,
+        0.12,
         0.12,
         0.12,
         0.12,
@@ -361,15 +363,16 @@
         0.25,
         0.32,
         0.32,
+        0.32,
         0.32
       ]
     },
     {
       "name": "Microsoft",
       "sentiment": {
-        "overall_score": 0.25,
+        "overall_score": 0.23,
         "trend": "stable",
-        "previous_score": 0.26,
+        "previous_score": 0.25,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -378,7 +381,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.1,
+            "score": -0.14,
             "count": 15
           },
           "reddit": {
@@ -392,6 +395,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Ask HN: My website is being attacked by Facebook's bots. Anyone have a contact?",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47539603",
+          "date": "2026-03-27",
+          "sentiment_score": -0.4588
+        },
         {
           "title": "Microsoft Office 365: We all work together.",
           "source": "Reddit",
@@ -419,13 +429,6 @@
           "url": "https://www.reddit.com/r/BORUpdates/comments/1s48h7v/aita_for_telling_my_coworker_she_also_has_thin/",
           "date": "2026-03-26",
           "sentiment_score": 0.9431
-        },
-        {
-          "title": "Show HN: ApiArk \u2013 Open-source, local-first API platform (Postman alternative)",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47517988",
-          "date": "2026-03-25",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
@@ -457,7 +460,8 @@
         0.24,
         0.25,
         0.26,
-        0.25
+        0.25,
+        0.23
       ]
     },
     {
@@ -489,6 +493,7 @@
       },
       "top_headlines": [],
       "sparkline": [
+        0,
         0,
         0,
         0,
@@ -567,6 +572,7 @@
         0.0,
         0.0,
         0.0,
+        0.0,
         0.0
       ]
     },
@@ -626,25 +632,26 @@
         0.21,
         0.0,
         0.0,
+        0.0,
         0.0
       ]
     },
     {
       "name": "Salesforce",
       "sentiment": {
-        "overall_score": 0.41,
+        "overall_score": 0.42,
         "trend": "stable",
         "previous_score": 0.41,
         "confidence": "high",
-        "sample_size": 20,
+        "sample_size": 21,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.07,
-            "count": 5
+            "score": -0.02,
+            "count": 6
           },
           "reddit": {
             "score": 0.69,
@@ -657,6 +664,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "'Empathetic' Salesforce bots to help those fired by uncaring humans",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47539538",
+          "date": "2026-03-27",
+          "sentiment_score": 0.2023
+        },
         {
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
@@ -684,13 +698,6 @@
           "url": "https://www.reddit.com/r/GAMETHEORY/comments/1s4g26l/ai_workforce_adoption_4player_game_w_a_stable/",
           "date": "2026-03-26",
           "sentiment_score": 0.9986
-        },
-        {
-          "title": "The AI Pie-Eating Contest That Workers Are Quietly Resisting",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/self/comments/1s2fov1/the_ai_pieeating_contest_that_workers_are_quietly/",
-          "date": "2026-03-24",
-          "sentiment_score": 0.9916
         }
       ],
       "sparkline": [
@@ -713,15 +720,16 @@
         0.41,
         0.41,
         0.41,
-        0.41
+        0.41,
+        0.42
       ]
     },
     {
       "name": "AT&T",
       "sentiment": {
-        "overall_score": -0.16,
-        "trend": "declining",
-        "previous_score": -0.11,
+        "overall_score": -0.11,
+        "trend": "improving",
+        "previous_score": -0.16,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -730,11 +738,11 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.19,
+            "score": -0.24,
             "count": 15
           },
           "reddit": {
-            "score": -0.14,
+            "score": -0.03,
             "count": 15
           },
           "gdelt": {
@@ -744,6 +752,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "[OC] ICE is actually manning the security check in at JFK",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/pics/comments/1s4wow1/oc_ice_is_actually_manning_the_security_check_in/",
+          "date": "2026-03-27",
+          "sentiment_score": 0.7351
+        },
         {
           "title": "My minute-by-minute response to the LiteLLM malware attack",
           "source": "Hacker News",
@@ -771,13 +786,6 @@
           "url": "https://news.ycombinator.com/item?id=47507150",
           "date": "2026-03-24",
           "sentiment_score": 0.34
-        },
-        {
-          "title": "Explosion at oil refinery in Port Arthur, Texas",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/interestingasfuck/comments/1s1zh9p/explosion_at_oil_refinery_in_port_arthur_texas/",
-          "date": "2026-03-24",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
@@ -800,7 +808,8 @@
         -0.18,
         -0.19,
         -0.11,
-        -0.16
+        -0.16,
+        -0.11
       ]
     },
     {
@@ -887,13 +896,14 @@
         -0.18,
         -0.18,
         -0.18,
+        -0.18,
         -0.18
       ]
     },
     {
       "name": "Dell",
       "sentiment": {
-        "overall_score": 0.42,
+        "overall_score": 0.44,
         "trend": "stable",
         "previous_score": 0.42,
         "confidence": "high",
@@ -904,7 +914,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.15,
+            "score": -0.12,
             "count": 15
           },
           "reddit": {
@@ -918,6 +928,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "What's the Deal with Forward Deployed Engineers?",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47538813",
+          "date": "2026-03-27",
+          "sentiment_score": 0.0
+        },
         {
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
@@ -945,13 +962,6 @@
           "url": "https://news.ycombinator.com/item?id=47536365",
           "date": "2026-03-26",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Playra by a 16 Year Old",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47521655",
-          "date": "2026-03-25",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
@@ -974,15 +984,16 @@
         0.42,
         0.42,
         0.42,
-        0.42
+        0.42,
+        0.44
       ]
     },
     {
       "name": "Tesla",
       "sentiment": {
         "overall_score": 0.2,
-        "trend": "declining",
-        "previous_score": 0.27,
+        "trend": "stable",
+        "previous_score": 0.2,
         "confidence": "high",
         "sample_size": 25,
         "source_scores": {
@@ -1061,6 +1072,7 @@
         0.36,
         0.27,
         0.27,
+        0.2,
         0.2
       ]
     },
@@ -1068,8 +1080,8 @@
       "name": "Caterpillar",
       "sentiment": {
         "overall_score": 0.33,
-        "trend": "improving",
-        "previous_score": 0.27,
+        "trend": "stable",
+        "previous_score": 0.33,
         "confidence": "high",
         "sample_size": 12,
         "source_scores": {
@@ -1148,6 +1160,7 @@
         0.18,
         0.27,
         0.27,
+        0.33,
         0.33
       ]
     },
@@ -1234,6 +1247,7 @@
         0.45,
         0.45,
         0.53,
+        0.46,
         0.46,
         0.46
       ]
