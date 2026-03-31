@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-03-31T02:31:14.782965Z",
+  "last_updated": "2026-03-31T13:25:40.502075Z",
   "scraper_log": {
-    "duration_sec": 130.96,
-    "total_articles": 297,
+    "duration_sec": 277.25,
+    "total_articles": 298,
     "errors": []
   },
   "companies": [
@@ -11,7 +11,7 @@
       "sentiment": {
         "overall_score": 0.17,
         "trend": "stable",
-        "previous_score": 0.16,
+        "previous_score": 0.17,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -34,6 +34,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "OpenClaw vs. Amazon Quick Suite",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47586747",
+          "date": "2026-03-31",
+          "sentiment_score": 0.1779
+        },
         {
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
@@ -61,17 +68,9 @@
           "url": "https://www.reddit.com/r/BestofRedditorUpdates/comments/1s3x6qz/i_24f_think_im_being_stalked_and_i_cant_tell_by/",
           "date": "2026-03-26",
           "sentiment_score": 0.9931
-        },
-        {
-          "title": "Android on Amazon Echo Show 5 2nd Gen \u2013 2021",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47511883",
-          "date": "2026-03-25",
-          "sentiment_score": 0.1779
         }
       ],
       "sparkline": [
-        -0.41,
         -0.42,
         0.31,
         0.32,
@@ -100,6 +99,7 @@
         0.16,
         0.16,
         0.16,
+        0.17,
         0.17
       ]
     },
@@ -108,7 +108,7 @@
       "sentiment": {
         "overall_score": 0.22,
         "trend": "stable",
-        "previous_score": 0.21,
+        "previous_score": 0.22,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -132,6 +132,20 @@
       },
       "top_headlines": [
         {
+          "title": "Tesla Robotaxi",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47582509",
+          "date": "2026-03-31",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Show HN: Opal \u2013 run GitLab pipelines locally using Apple container",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47586759",
+          "date": "2026-03-31",
+          "sentiment_score": 0.0
+        },
+        {
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/ReturntoOffice/",
@@ -151,20 +165,6 @@
           "url": "https://www.reddit.com/r/antiwork/",
           "date": "2026-03-31",
           "sentiment_score": -0.3434
-        },
-        {
-          "title": "Why people are severely underestimating the box office potential of Spider-Man: Brand New Day and Avengers: Doomsday",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/boxoffice/comments/1s580xv/why_people_are_severely_underestimating_the_box/",
-          "date": "2026-03-27",
-          "sentiment_score": 0.9992
-        },
-        {
-          "title": "Ads Are Coming to Apple Maps",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47530646",
-          "date": "2026-03-26",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
@@ -195,6 +195,7 @@
         0.21,
         0.21,
         0.21,
+        0.22,
         0.22
       ]
     },
@@ -290,15 +291,16 @@
         0.14,
         0.14,
         0.14,
+        0.14,
         0.14
       ]
     },
     {
       "name": "Meta",
       "sentiment": {
-        "overall_score": 0.23,
-        "trend": "stable",
-        "previous_score": 0.24,
+        "overall_score": 0.16,
+        "trend": "declining",
+        "previous_score": 0.23,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -311,7 +313,7 @@
             "count": 15
           },
           "reddit": {
-            "score": 0.39,
+            "score": 0.27,
             "count": 15
           },
           "gdelt": {
@@ -350,11 +352,11 @@
           "sentiment_score": 0.9985
         },
         {
-          "title": "I Have Solved the Fertility Crisis [longpost]",
+          "title": "Why scream 7 is the worst scream movie even tho it has the highest box office numbers\u2026..",
           "source": "Reddit",
-          "url": "https://www.reddit.com/r/pinkscare/comments/1s52ntm/i_have_solved_the_fertility_crisis_longpost/",
-          "date": "2026-03-27",
-          "sentiment_score": -0.9903
+          "url": "https://www.reddit.com/r/SocietyofGhostface/comments/1s77db4/why_scream_7_is_the_worst_scream_movie_even_tho/",
+          "date": "2026-03-29",
+          "sentiment_score": -0.9968
         }
       ],
       "sparkline": [
@@ -385,7 +387,8 @@
         0.23,
         0.24,
         0.24,
-        0.23
+        0.23,
+        0.16
       ]
     },
     {
@@ -453,7 +456,6 @@
         }
       ],
       "sparkline": [
-        0.14,
         0.15,
         0.26,
         0.27,
@@ -481,6 +483,7 @@
         0.24,
         0.24,
         0.22,
+        0.23,
         0.23,
         0.23
       ]
@@ -514,6 +517,7 @@
       },
       "top_headlines": [],
       "sparkline": [
+        0,
         0,
         0,
         0,
@@ -608,6 +612,7 @@
         0.0,
         0.0,
         0.0,
+        0.0,
         0.0
       ]
     },
@@ -667,6 +672,7 @@
         0.0,
         0,
         0,
+        0,
         0
       ]
     },
@@ -675,7 +681,7 @@
       "sentiment": {
         "overall_score": 0.33,
         "trend": "stable",
-        "previous_score": 0.35,
+        "previous_score": 0.33,
         "confidence": "high",
         "sample_size": 18,
         "source_scores": {
@@ -762,15 +768,16 @@
         0.35,
         0.35,
         0.35,
+        0.33,
         0.33
       ]
     },
     {
       "name": "AT&T",
       "sentiment": {
-        "overall_score": -0.04,
+        "overall_score": -0.01,
         "trend": "stable",
-        "previous_score": -0.06,
+        "previous_score": -0.04,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -783,7 +790,7 @@
             "count": 15
           },
           "reddit": {
-            "score": 0.06,
+            "score": 0.1,
             "count": 15
           },
           "gdelt": {
@@ -793,6 +800,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Lindsey Graham is at Disney World During Partial Government Shutdown",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/pics/comments/1s84yhr/lindsey_graham_is_at_disney_world_during_partial/",
+          "date": "2026-03-30",
+          "sentiment_score": 0.0
+        },
         {
           "title": "E-3 AWACS at Prince Sultan Air Base in Saudi Arabia.",
           "source": "Reddit",
@@ -819,13 +833,6 @@
           "source": "Reddit",
           "url": "https://www.reddit.com/r/interestingasfuck/comments/1s5sbit/robotic_hands_master_tasks_at_superhuman_speed/",
           "date": "2026-03-28",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "Desk for people who work at home with a cat",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47543943",
-          "date": "2026-03-27",
           "sentiment_score": 0.0
         }
       ],
@@ -857,15 +864,16 @@
         -0.08,
         -0.04,
         -0.06,
-        -0.04
+        -0.04,
+        -0.01
       ]
     },
     {
       "name": "Disney",
       "sentiment": {
-        "overall_score": -0.27,
-        "trend": "declining",
-        "previous_score": -0.18,
+        "overall_score": -0.18,
+        "trend": "improving",
+        "previous_score": -0.27,
         "confidence": "high",
         "sample_size": 17,
         "source_scores": {
@@ -878,7 +886,7 @@
             "count": 2
           },
           "reddit": {
-            "score": -0.24,
+            "score": -0.11,
             "count": 15
           },
           "gdelt": {
@@ -910,18 +918,18 @@
           "sentiment_score": 0.0
         },
         {
+          "title": "March 27-29 Box Office Recap \u2013 'Project Hail Mary' stays at #1, dropping just 33% and crossing $300M worldwide, becoming Amazon MGM's biggest ever film. 'They Will Kill You' flops with just $4.9M domestically and $8.9M worldwide. 'Dhurandhar 2' becomes the biggest Indian film in North America.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/movies/comments/1s86f9f/march_2729_box_office_recap_project_hail_mary/",
+          "date": "2026-03-30",
+          "sentiment_score": 0.9907
+        },
+        {
           "title": "I got tired of a lot of people not understanding just how bad it currently is, so I threw together a document people could share, Please up doot this and don't let it die, I spent more time on this than I probably should have.",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/Destiny/comments/1s3cyke/i_got_tired_of_a_lot_of_people_not_understanding/",
           "date": "2026-03-25",
           "sentiment_score": -0.9999
-        },
-        {
-          "title": "Disney's $1B Investment in OpenAI DOA as Sam Altman Pulls Sora Plug",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47509996",
-          "date": "2026-03-24",
-          "sentiment_score": -0.6166
         }
       ],
       "sparkline": [
@@ -952,7 +960,8 @@
         -0.18,
         -0.18,
         -0.18,
-        -0.27
+        -0.27,
+        -0.18
       ]
     },
     {
@@ -960,7 +969,7 @@
       "sentiment": {
         "overall_score": 0.31,
         "trend": "stable",
-        "previous_score": 0.33,
+        "previous_score": 0.31,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -1047,25 +1056,26 @@
         0.4,
         0.32,
         0.33,
+        0.31,
         0.31
       ]
     },
     {
       "name": "Tesla",
       "sentiment": {
-        "overall_score": 0.28,
-        "trend": "improving",
-        "previous_score": 0.21,
+        "overall_score": 0.27,
+        "trend": "stable",
+        "previous_score": 0.28,
         "confidence": "high",
-        "sample_size": 23,
+        "sample_size": 24,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.07,
-            "count": 8
+            "score": 0.06,
+            "count": 9
           },
           "reddit": {
             "score": 0.4,
@@ -1078,6 +1088,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Tesla Robotaxi",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47582509",
+          "date": "2026-03-31",
+          "sentiment_score": 0.0
+        },
         {
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
@@ -1105,13 +1122,6 @@
           "url": "https://news.ycombinator.com/item?id=47575196",
           "date": "2026-03-30",
           "sentiment_score": -0.296
-        },
-        {
-          "title": "This Week's Top E-commerce News Stories \ud83d\udca5 March 30th, 2026",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/shopify/comments/1s80vtn/this_weeks_top_ecommerce_news_stories_march_30th/",
-          "date": "2026-03-30",
-          "sentiment_score": 0.9999
         }
       ],
       "sparkline": [
@@ -1142,15 +1152,16 @@
         0.19,
         0.21,
         0.21,
-        0.28
+        0.28,
+        0.27
       ]
     },
     {
       "name": "Caterpillar",
       "sentiment": {
         "overall_score": 0.2,
-        "trend": "declining",
-        "previous_score": 0.27,
+        "trend": "stable",
+        "previous_score": 0.2,
         "confidence": "high",
         "sample_size": 10,
         "source_scores": {
@@ -1237,6 +1248,7 @@
         0.27,
         0.27,
         0.27,
+        0.2,
         0.2
       ]
     },
@@ -1329,6 +1341,7 @@
         0.46,
         0.46,
         0.5,
+        0.49,
         0.49,
         0.49,
         0.49,
