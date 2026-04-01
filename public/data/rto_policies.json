@@ -333,8 +333,8 @@
     "policy": "Full Office",
     "daysInOffice": 5,
     "enforcement": "Strict mandate since takeover (confirmed 2025)",
-    "lastUpdate": "2026-03-20",
-    "source": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZGc3NEhzRGlGVlZVVmdBMkp1dFJmaUx6VEdoR2NZZFJsYlZ3YTE1LTJfdDlxY2ozUUtsWmtkMklKNWRJS2kxREZSZm9BdkRFbEFJa0ZSR3JDdTd5RUJoa1pZSVFObWUxS3F4MFQ2dHk3b3VmV0Y3eWJBdUZSc1NBVkt3X0E1V0RSV1hKX0xMYzlzNnJ5a1E?oc=5",
+    "lastUpdate": "2026-03-31",
+    "source": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1OOFZDYzU1QkZsM19RZFgxSG9Wd2ZjTTZhX3JEVENJNVlkODZoY00yWG5QVUhpOWpSRHdiaFZjTjlob1Q2YUxtanBiQlA1elJSYzZQVUNxSHpXMXh4bnFSLWxJS3NSVlZWVmNxZ1lHMGJHN01OTTdLRQ?oc=5",
     "sentiment": -0.57,
     "sentimentTrend": "Declining",
     "mentionVolume": 1080,
@@ -549,6 +549,12 @@
       }
     ],
     "policyHistory": [
+      {
+        "date": "2024-01-30",
+        "policy": "Full Office",
+        "daysInOffice": 5,
+        "source": "https://www.ajc.com/news/business/ups-tells-white-collar-workers-return-to-office-five-days-a-week/"
+      },
       {
         "date": "2024-01-30",
         "policy": "Full Office",
@@ -1480,8 +1486,8 @@
     "policy": "Office-First",
     "daysInOffice": 4,
     "enforcement": "Tightening policy from 2025",
-    "lastUpdate": "2025-04-25",
-    "source": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOV0ZKcVJqTmx5UEp4ZGp3aUFFSTlZNDI3Q1pzTS1TbWdPdUc0NWN1TmxTWE9zTjI1VTBBcUdkdlZXQTFzVWtQMzhrWEJtRTNmelhBQTd3STJ3bWpNeHJDeFNYTl9vM1dMZHV2OFFjX3I5Y190dVZPWVBZQUpDNnJnTEs5NGlrUjhabGJiWVFmNzY?oc=5",
+    "lastUpdate": "2026-03-14",
+    "source": "https://news.google.com/rss/articles/CBMi-wJBVV95cUxObUFVT2ZkM2xxY3ZfOTRVbEJwbDZDTGxzZ0tiXzBJdzJwRWhjcHZRSWRicmtiWXZDZENKamNZUWNxTlpadHRvMU1meXJWeDlSZVdIT0hoeTVtcjVjQlNDMDc0SWRiZG8yVEttYVVVWjNVWWZLaVpMR2xDSFgxMnNTbTJWS1BEWUlZd3hvVldEdl9YakhjelJoUVRSTWtyMjJQdVdWNUVNLXdoNVVYMEExQ2hrT0ZDeXVDcDlGc1QyMkJkakhfbmZWTGhHU21idjFWdnl3R3AxLWVBTFl3QjJtU0NlS1g4eGJqczZRSmRETnlQeFR3ak15S1pFUE5TOGpyRlRGNnBaZUJnTzZYOUozN2pqaGVscXAtOXBpajFHUlFnTHd3NkdZb3A5S3ZLajItWmo3NUpjTllmUG0wQWtubEJuUUd2QmViSF9MMjFNZWtxZHRUbG5aZG5fVmdJRm10TmppSmt3UkVSeXI0R2xKaUJFblRKelJOeDNJ?oc=5",
     "sentiment": 0.84,
     "sentimentTrend": "Improving",
     "mentionVolume": 3724,
@@ -2073,6 +2079,12 @@
       }
     ],
     "policyHistory": [
+      {
+        "date": "2025-01-15",
+        "policy": "Hybrid",
+        "daysInOffice": 3,
+        "source": "https://www.businessinsider.com/meta-zuckerberg-return-to-office-status-quo-2025"
+      },
       {
         "date": "2025-01-15",
         "policy": "Hybrid",
@@ -4142,7 +4154,7 @@
     "policy": "Remote-First",
     "daysInOffice": 0,
     "enforcement": "3d corporate hybrid mandate since 2025",
-    "lastUpdate": "2026-03-31",
+    "lastUpdate": "2026-04-01",
     "source": "https://builtin.com/company/cencora",
     "sentiment": 0.89,
     "sentimentTrend": "Improving",
@@ -4395,6 +4407,12 @@
         "policy": "Hybrid",
         "daysInOffice": 3,
         "source": "https://builtin.com/company/cencora"
+      },
+      {
+        "date": "2026-03-01",
+        "policy": "Hybrid",
+        "daysInOffice": 3,
+        "source": "https://builtin.com/company/cencora"
       }
     ]
   },
@@ -4405,7 +4423,7 @@
     "policy": "Hybrid",
     "daysInOffice": 3,
     "enforcement": "Scraped from BuildRemote",
-    "lastUpdate": "2026-03-31",
+    "lastUpdate": "2026-04-01",
     "source": "https://buildremote.co/companies/return-to-office/",
     "sentiment": 0.63,
     "sentimentTrend": "Improving",
