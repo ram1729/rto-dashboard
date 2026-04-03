@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-04-03T02:31:43.745295Z",
+  "last_updated": "2026-04-03T13:10:03.912347Z",
   "scraper_log": {
-    "duration_sec": 298.95,
-    "total_articles": 287,
+    "duration_sec": 262.65,
+    "total_articles": 294,
     "errors": []
   },
   "companies": [
@@ -71,7 +71,6 @@
         }
       ],
       "sparkline": [
-        0.26,
         0.27,
         0.27,
         0.19,
@@ -99,6 +98,7 @@
         0.17,
         0.17,
         0.17,
+        0.14,
         0.14,
         0.14
       ]
@@ -172,7 +172,6 @@
         0.32,
         0.32,
         0.32,
-        0.32,
         0.23,
         0.22,
         0.3,
@@ -196,6 +195,7 @@
         0.3,
         0.3,
         0.21,
+        0.13,
         0.13,
         0.13
       ]
@@ -265,7 +265,6 @@
         }
       ],
       "sparkline": [
-        0.19,
         0.12,
         0.12,
         0.12,
@@ -290,6 +289,7 @@
         0.14,
         0.14,
         0.14,
+        0.05,
         0.05,
         0.05,
         0.05,
@@ -362,7 +362,6 @@
         }
       ],
       "sparkline": [
-        0.33,
         0.26,
         0.26,
         0.26,
@@ -389,6 +388,7 @@
         0.16,
         0.16,
         0.16,
+        0.15,
         0.15,
         0.15,
         0.15
@@ -397,19 +397,19 @@
     {
       "name": "Microsoft",
       "sentiment": {
-        "overall_score": 0.15,
+        "overall_score": 0.16,
         "trend": "stable",
         "previous_score": 0.15,
         "confidence": "high",
-        "sample_size": 25,
+        "sample_size": 30,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.14,
-            "count": 10
+            "score": -0.12,
+            "count": 15
           },
           "reddit": {
             "score": 0.32,
@@ -423,6 +423,27 @@
       },
       "top_headlines": [
         {
+          "title": "NASA astronauts prove that sending an email is rocket science",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47624352",
+          "date": "2026-04-03",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Microsoft wants Edge to automatically open by default at Windows 11 boot",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47622715",
+          "date": "2026-04-03",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Artemis II astronaut finds two Outlook instances running on computers",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47624564",
+          "date": "2026-04-03",
+          "sentiment_score": 0.0
+        },
+        {
           "title": "Microsoft Office 365: We all work together.",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/Office365/",
@@ -435,31 +456,9 @@
           "url": "https://www.reddit.com/r/ReturntoOffice/",
           "date": "2026-04-03",
           "sentiment_score": 0.8271
-        },
-        {
-          "title": "/r/Technology",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/technology/",
-          "date": "2026-04-03",
-          "sentiment_score": 0.6249
-        },
-        {
-          "title": "Robotics Infra: Deploying DeepMind's MuJoCo on Azure, Part 2: Microsoft Heard Us",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47605301",
-          "date": "2026-04-01",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "AITA for telling my coworker she also has thin hair",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/BestofRedditorUpdates/comments/1s99v28/aita_for_telling_my_coworker_she_also_has_thin/",
-          "date": "2026-04-01",
-          "sentiment_score": 0.9887
         }
       ],
       "sparkline": [
-        0.23,
         0.3,
         0.31,
         0.25,
@@ -488,7 +487,8 @@
         0.26,
         0.19,
         0.15,
-        0.15
+        0.15,
+        0.16
       ]
     },
     {
@@ -624,19 +624,19 @@
     {
       "name": "Bank of America",
       "sentiment": {
-        "overall_score": 0,
-        "trend": "stable",
-        "previous_score": 0.0,
+        "overall_score": -0.57,
+        "trend": "declining",
+        "previous_score": 0,
         "confidence": "low",
-        "sample_size": 0,
+        "sample_size": 1,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0,
-            "count": 0
+            "score": -0.57,
+            "count": 1
           },
           "reddit": {
             "score": 0,
@@ -648,9 +648,16 @@
           }
         }
       },
-      "top_headlines": [],
+      "top_headlines": [
+        {
+          "title": "Ask HN: Does everyone here hate ads?",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47618571",
+          "date": "2026-04-02",
+          "sentiment_score": -0.5719
+        }
+      ],
       "sparkline": [
-        0.28,
         0.0,
         0.19,
         0.19,
@@ -679,15 +686,16 @@
         0,
         0.0,
         0.0,
-        0
+        0,
+        -0.57
       ]
     },
     {
       "name": "Salesforce",
       "sentiment": {
         "overall_score": 0.3,
-        "trend": "declining",
-        "previous_score": 0.35,
+        "trend": "stable",
+        "previous_score": 0.3,
         "confidence": "high",
         "sample_size": 16,
         "source_scores": {
@@ -762,7 +770,6 @@
         0.41,
         0.41,
         0.41,
-        0.41,
         0.42,
         0.41,
         0.41,
@@ -776,6 +783,7 @@
         0.35,
         0.35,
         0.35,
+        0.3,
         0.3
       ]
     },
@@ -784,7 +792,7 @@
       "sentiment": {
         "overall_score": -0.03,
         "trend": "stable",
-        "previous_score": -0.04,
+        "previous_score": -0.03,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -844,7 +852,6 @@
         }
       ],
       "sparkline": [
-        -0.11,
         -0.13,
         -0.13,
         -0.1,
@@ -873,6 +880,7 @@
         -0.09,
         -0.09,
         -0.04,
+        -0.03,
         -0.03
       ]
     },
@@ -951,7 +959,6 @@
         -0.07,
         -0.07,
         -0.07,
-        -0.07,
         -0.18,
         -0.18,
         -0.18,
@@ -970,13 +977,14 @@
         -0.18,
         -0.19,
         -0.18,
+        -0.18,
         -0.18
       ]
     },
     {
       "name": "Dell",
       "sentiment": {
-        "overall_score": 0.34,
+        "overall_score": 0.35,
         "trend": "stable",
         "previous_score": 0.34,
         "confidence": "high",
@@ -987,7 +995,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.08,
+            "score": -0.06,
             "count": 15
           },
           "reddit": {
@@ -1038,7 +1046,6 @@
         }
       ],
       "sparkline": [
-        0.43,
         0.44,
         0.44,
         0.43,
@@ -1067,25 +1074,26 @@
         0.32,
         0.4,
         0.34,
-        0.34
+        0.34,
+        0.35
       ]
     },
     {
       "name": "Tesla",
       "sentiment": {
-        "overall_score": 0.39,
+        "overall_score": 0.38,
         "trend": "stable",
-        "previous_score": 0.36,
+        "previous_score": 0.39,
         "confidence": "high",
-        "sample_size": 22,
+        "sample_size": 23,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.13,
-            "count": 7
+            "score": 0.11,
+            "count": 8
           },
           "reddit": {
             "score": 0.55,
@@ -1120,22 +1128,21 @@
           "sentiment_score": -0.3434
         },
         {
+          "title": "Neuberg, Bloomberg-style AI terminal for stocks, crypto, and prediction markets",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47611900",
+          "date": "2026-04-02",
+          "sentiment_score": 0.0
+        },
+        {
           "title": "Tesla Goes Ahead and Admits Its Robotaxis Are Sometimes Human-Controlled",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=47600615",
           "date": "2026-04-01",
           "sentiment_score": 0.296
-        },
-        {
-          "title": "Tesla Robotaxi",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47582509",
-          "date": "2026-03-31",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.35,
         0.36,
         0.37,
         0.37,
@@ -1164,15 +1171,16 @@
         0.38,
         0.38,
         0.36,
-        0.39
+        0.39,
+        0.38
       ]
     },
     {
       "name": "Caterpillar",
       "sentiment": {
         "overall_score": 0.13,
-        "trend": "declining",
-        "previous_score": 0.2,
+        "trend": "stable",
+        "previous_score": 0.13,
         "confidence": "medium",
         "sample_size": 8,
         "source_scores": {
@@ -1241,7 +1249,6 @@
         0.29,
         0.29,
         0.29,
-        0.29,
         0.18,
         0.18,
         0.18,
@@ -1261,6 +1268,7 @@
         0.2,
         0.2,
         0.2,
+        0.13,
         0.13
       ]
     },
@@ -1268,8 +1276,8 @@
       "name": "Cisco",
       "sentiment": {
         "overall_score": 0.49,
-        "trend": "improving",
-        "previous_score": 0.34,
+        "trend": "stable",
+        "previous_score": 0.49,
         "confidence": "high",
         "sample_size": 18,
         "source_scores": {
@@ -1329,7 +1337,6 @@
         }
       ],
       "sparkline": [
-        0.38,
         0.47,
         0.46,
         0.46,
@@ -1358,6 +1365,7 @@
         0.43,
         0.38,
         0.34,
+        0.49,
         0.49
       ]
     }
