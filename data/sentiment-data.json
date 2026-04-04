@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-04-04T02:13:11.912429Z",
+  "last_updated": "2026-04-04T12:59:04.523308Z",
   "scraper_log": {
-    "duration_sec": 101.65,
+    "duration_sec": 91.48,
     "total_articles": 296,
     "errors": []
   },
@@ -71,7 +71,6 @@
         }
       ],
       "sparkline": [
-        0.27,
         0.19,
         0.19,
         0.19,
@@ -100,6 +99,7 @@
         0.14,
         0.14,
         0.14,
+        0.14,
         0.14
       ]
     },
@@ -121,7 +121,7 @@
             "count": 15
           },
           "reddit": {
-            "score": 0.2,
+            "score": 0.21,
             "count": 15
           },
           "gdelt": {
@@ -170,7 +170,6 @@
       "sparkline": [
         0.32,
         0.32,
-        0.32,
         0.23,
         0.22,
         0.3,
@@ -197,6 +196,7 @@
         0.13,
         0.13,
         0.13,
+        0.13,
         0.13
       ]
     },
@@ -204,8 +204,8 @@
       "name": "Google",
       "sentiment": {
         "overall_score": 0.14,
-        "trend": "improving",
-        "previous_score": 0.05,
+        "trend": "stable",
+        "previous_score": 0.14,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -270,7 +270,6 @@
         0.12,
         0.12,
         0.12,
-        0.12,
         0.03,
         0.12,
         0.2,
@@ -294,6 +293,7 @@
         0.05,
         0.05,
         0.05,
+        0.14,
         0.14
       ]
     },
@@ -366,7 +366,6 @@
         0.26,
         0.26,
         0.26,
-        0.26,
         0.25,
         0.25,
         0.25,
@@ -391,6 +390,7 @@
         0.15,
         0.15,
         0.15,
+        0.15,
         0.15
       ]
     },
@@ -398,8 +398,8 @@
       "name": "Microsoft",
       "sentiment": {
         "overall_score": 0.22,
-        "trend": "improving",
-        "previous_score": 0.16,
+        "trend": "stable",
+        "previous_score": 0.22,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -459,7 +459,6 @@
         }
       ],
       "sparkline": [
-        0.31,
         0.25,
         0.25,
         0.26,
@@ -488,6 +487,7 @@
         0.15,
         0.15,
         0.16,
+        0.22,
         0.22
       ]
     },
@@ -660,7 +660,6 @@
       "sparkline": [
         0.19,
         0.19,
-        0.19,
         0.0,
         0.19,
         0.19,
@@ -686,6 +685,7 @@
         0.0,
         0.0,
         0,
+        -0.57,
         -0.57,
         -0.57
       ]
@@ -768,7 +768,6 @@
         0.41,
         0.41,
         0.41,
-        0.41,
         0.42,
         0.41,
         0.41,
@@ -784,6 +783,7 @@
         0.35,
         0.3,
         0.3,
+        0.3,
         0.3
       ]
     },
@@ -792,7 +792,7 @@
       "sentiment": {
         "overall_score": -0.04,
         "trend": "stable",
-        "previous_score": -0.03,
+        "previous_score": -0.04,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -801,7 +801,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.17,
+            "score": -0.19,
             "count": 15
           },
           "reddit": {
@@ -816,11 +816,25 @@
       },
       "top_headlines": [
         {
+          "title": "The FAA\u2019s flight restriction for drones is an attempt to criminalize filming ICE",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47633947",
+          "date": "2026-04-03",
+          "sentiment_score": -0.2732
+        },
+        {
           "title": "A TikToker attempts to accuse a man at the gym of being a pervert because he looked at her. She then finds out the hard way that actions have consequences.",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/whoathatsinteresting/comments/1sbd73t/a_tiktoker_attempts_to_accuse_a_man_at_the_gym_of/",
           "date": "2026-04-03",
           "sentiment_score": -0.9382
+        },
+        {
+          "title": "We need this separate gyms at this rate",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/SipsTea/comments/1sbinxy/we_need_this_separate_gyms_at_this_rate/",
+          "date": "2026-04-03",
+          "sentiment_score": 0.0
         },
         {
           "title": "Artemis II will use laser beams to live-stream 4K moon footage at 260 Mbps",
@@ -835,24 +849,9 @@
           "url": "https://www.reddit.com/r/SipsTea/comments/1s9y05d/contestant_steals_the_spotlight_at_the_miss_grand/",
           "date": "2026-04-01",
           "sentiment_score": 0.1739
-        },
-        {
-          "title": "OpenAI closes funding round at an $852B valuation",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47592755",
-          "date": "2026-03-31",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "Lindsey Graham is at Disney World During Partial Government Shutdown",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/pics/comments/1s84yhr/lindsey_graham_is_at_disney_world_during_partial/",
-          "date": "2026-03-30",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        -0.13,
         -0.1,
         -0.1,
         -0.1,
@@ -881,14 +880,15 @@
         -0.04,
         -0.03,
         -0.03,
+        -0.04,
         -0.04
       ]
     },
     {
       "name": "Disney",
       "sentiment": {
-        "overall_score": -0.18,
-        "trend": "stable",
+        "overall_score": -0.1,
+        "trend": "improving",
         "previous_score": -0.18,
         "confidence": "high",
         "sample_size": 17,
@@ -902,7 +902,7 @@
             "count": 2
           },
           "reddit": {
-            "score": -0.11,
+            "score": 0.02,
             "count": 15
           },
           "gdelt": {
@@ -941,15 +941,14 @@
           "sentiment_score": -0.999
         },
         {
-          "title": "March 27-29 Box Office Recap \u2013 'Project Hail Mary' stays at #1, dropping just 33% and crossing $300M worldwide, becoming Amazon MGM's biggest ever film. 'They Will Kill You' flops with just $4.9M domestically and $8.9M worldwide. 'Dhurandhar 2' becomes the biggest Indian film in North America.",
+          "title": "'The Super Mario Galaxy Movie' Review Thread",
           "source": "Reddit",
-          "url": "https://www.reddit.com/r/movies/comments/1s86f9f/march_2729_box_office_recap_project_hail_mary/",
-          "date": "2026-03-30",
-          "sentiment_score": 0.9907
+          "url": "https://www.reddit.com/r/boxoffice/comments/1s8wmqd/the_super_mario_galaxy_movie_review_thread/",
+          "date": "2026-03-31",
+          "sentiment_score": 0.9995
         }
       ],
       "sparkline": [
-        -0.07,
         -0.07,
         -0.07,
         -0.07,
@@ -978,7 +977,8 @@
         -0.18,
         -0.18,
         -0.18,
-        -0.18
+        -0.18,
+        -0.1
       ]
     },
     {
@@ -1046,7 +1046,6 @@
         }
       ],
       "sparkline": [
-        0.44,
         0.43,
         0.43,
         0.41,
@@ -1075,6 +1074,7 @@
         0.34,
         0.34,
         0.35,
+        0.35,
         0.35
       ]
     },
@@ -1082,8 +1082,8 @@
       "name": "Tesla",
       "sentiment": {
         "overall_score": 0.47,
-        "trend": "improving",
-        "previous_score": 0.38,
+        "trend": "stable",
+        "previous_score": 0.47,
         "confidence": "high",
         "sample_size": 22,
         "source_scores": {
@@ -1145,7 +1145,6 @@
       "sparkline": [
         0.37,
         0.37,
-        0.37,
         0.36,
         0.36,
         0.35,
@@ -1172,6 +1171,7 @@
         0.36,
         0.39,
         0.38,
+        0.47,
         0.47
       ]
     },
@@ -1179,8 +1179,8 @@
       "name": "Caterpillar",
       "sentiment": {
         "overall_score": 0.3,
-        "trend": "improving",
-        "previous_score": 0.13,
+        "trend": "stable",
+        "previous_score": 0.3,
         "confidence": "high",
         "sample_size": 10,
         "source_scores": {
@@ -1247,7 +1247,6 @@
         0.29,
         0.29,
         0.29,
-        0.29,
         0.18,
         0.18,
         0.18,
@@ -1269,6 +1268,7 @@
         0.2,
         0.13,
         0.13,
+        0.3,
         0.3
       ]
     },
@@ -1276,8 +1276,8 @@
       "name": "Cisco",
       "sentiment": {
         "overall_score": 0.28,
-        "trend": "declining",
-        "previous_score": 0.49,
+        "trend": "stable",
+        "previous_score": 0.28,
         "confidence": "high",
         "sample_size": 19,
         "source_scores": {
@@ -1340,7 +1340,6 @@
         0.46,
         0.46,
         0.46,
-        0.46,
         0.45,
         0.45,
         0.44,
@@ -1366,6 +1365,7 @@
         0.34,
         0.49,
         0.49,
+        0.28,
         0.28
       ]
     }
