@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-04-05T02:35:19.391981Z",
+  "last_updated": "2026-04-05T13:03:50.583696Z",
   "scraper_log": {
-    "duration_sec": 97.28,
-    "total_articles": 288,
+    "duration_sec": 280.08,
+    "total_articles": 294,
     "errors": []
   },
   "companies": [
@@ -10,8 +10,8 @@
       "name": "Amazon",
       "sentiment": {
         "overall_score": 0.08,
-        "trend": "declining",
-        "previous_score": 0.14,
+        "trend": "stable",
+        "previous_score": 0.08,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -73,7 +73,6 @@
       "sparkline": [
         0.19,
         0.19,
-        0.19,
         0.21,
         0.21,
         0.13,
@@ -100,6 +99,7 @@
         0.14,
         0.14,
         0.14,
+        0.08,
         0.08
       ]
     },
@@ -108,7 +108,7 @@
       "sentiment": {
         "overall_score": 0.14,
         "trend": "stable",
-        "previous_score": 0.13,
+        "previous_score": 0.14,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -168,7 +168,6 @@
         }
       ],
       "sparkline": [
-        0.32,
         0.23,
         0.22,
         0.3,
@@ -197,6 +196,7 @@
         0.13,
         0.13,
         0.13,
+        0.14,
         0.14
       ]
     },
@@ -268,7 +268,6 @@
         0.12,
         0.12,
         0.12,
-        0.12,
         0.03,
         0.12,
         0.2,
@@ -292,6 +291,7 @@
         0.05,
         0.05,
         0.05,
+        0.14,
         0.14,
         0.14,
         0.14
@@ -364,7 +364,6 @@
       "sparkline": [
         0.26,
         0.26,
-        0.26,
         0.25,
         0.25,
         0.25,
@@ -391,25 +390,26 @@
         0.15,
         0.15,
         0.15,
+        0.15,
         0.15
       ]
     },
     {
       "name": "Microsoft",
       "sentiment": {
-        "overall_score": 0.24,
+        "overall_score": 0.25,
         "trend": "stable",
-        "previous_score": 0.22,
+        "previous_score": 0.24,
         "confidence": "high",
-        "sample_size": 26,
+        "sample_size": 30,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.13,
-            "count": 11
+            "score": -0.09,
+            "count": 15
           },
           "reddit": {
             "score": 0.46,
@@ -422,6 +422,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Microsoft QDK from .NET to Rust: 100x faster, 100x smaller",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47647556",
+          "date": "2026-04-05",
+          "sentiment_score": 0.0
+        },
         {
           "title": "Microsoft Discontinuing Publisher. Alternatives?",
           "source": "Hacker News",
@@ -449,17 +456,9 @@
           "url": "https://www.reddit.com/r/technology/",
           "date": "2026-04-05",
           "sentiment_score": 0.6249
-        },
-        {
-          "title": "Microsoft to force updates to Windows 11 25H2 for PCs with older OS versions",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47643217",
-          "date": "2026-04-04",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.25,
         0.26,
         0.27,
         0.26,
@@ -488,7 +487,8 @@
         0.16,
         0.22,
         0.22,
-        0.24
+        0.24,
+        0.25
       ]
     },
     {
@@ -555,19 +555,19 @@
     {
       "name": "Goldman Sachs",
       "sentiment": {
-        "overall_score": 0.0,
-        "trend": "stable",
+        "overall_score": -0.31,
+        "trend": "declining",
         "previous_score": 0.0,
         "confidence": "low",
-        "sample_size": 1,
+        "sample_size": 2,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.0,
-            "count": 1
+            "score": -0.31,
+            "count": 2
           },
           "reddit": {
             "score": 0,
@@ -580,6 +580,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Goldman Sachs: biggest oil crisis in history is about to hit",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47647433",
+          "date": "2026-04-05",
+          "sentiment_score": -0.6249
+        },
         {
           "title": "Show HN: Sales Tracking Agent that doubles up as a CRM",
           "source": "Hacker News",
@@ -618,15 +625,15 @@
         0.0,
         0.0,
         0.0,
-        0.0
+        -0.31
       ]
     },
     {
       "name": "Bank of America",
       "sentiment": {
         "overall_score": 0,
-        "trend": "improving",
-        "previous_score": -0.57,
+        "trend": "stable",
+        "previous_score": 0,
         "confidence": "low",
         "sample_size": 0,
         "source_scores": {
@@ -650,7 +657,6 @@
       },
       "top_headlines": [],
       "sparkline": [
-        0.19,
         0.0,
         0.19,
         0.19,
@@ -679,6 +685,7 @@
         -0.57,
         -0.57,
         -0.57,
+        0,
         0
       ]
     },
@@ -758,7 +765,6 @@
         0.41,
         0.41,
         0.41,
-        0.41,
         0.42,
         0.41,
         0.41,
@@ -776,6 +782,7 @@
         0.3,
         0.3,
         0.3,
+        0.3,
         0.3
       ]
     },
@@ -784,7 +791,7 @@
       "sentiment": {
         "overall_score": -0.08,
         "trend": "stable",
-        "previous_score": -0.04,
+        "previous_score": -0.08,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -846,7 +853,6 @@
       "sparkline": [
         -0.1,
         -0.1,
-        -0.1,
         -0.06,
         -0.06,
         -0.15,
@@ -873,6 +879,7 @@
         -0.03,
         -0.04,
         -0.04,
+        -0.08,
         -0.08
       ]
     },
@@ -947,7 +954,6 @@
         -0.07,
         -0.07,
         -0.07,
-        -0.07,
         -0.18,
         -0.18,
         -0.18,
@@ -970,15 +976,16 @@
         -0.18,
         -0.18,
         -0.1,
+        -0.1,
         -0.1
       ]
     },
     {
       "name": "Dell",
       "sentiment": {
-        "overall_score": 0.42,
-        "trend": "improving",
-        "previous_score": 0.35,
+        "overall_score": 0.36,
+        "trend": "declining",
+        "previous_score": 0.42,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -991,7 +998,7 @@
             "count": 15
           },
           "reddit": {
-            "score": 0.71,
+            "score": 0.62,
             "count": 15
           },
           "gdelt": {
@@ -1032,13 +1039,12 @@
         {
           "title": "A Review of Master and Commander: The Far Side of the World (2003), Dir. Peter Weir",
           "source": "Reddit",
-          "url": "https://www.reddit.com/r/movies/comments/1scm3i4/a_review_of_master_and_commander_the_far_side_of/",
+          "url": "https://www.reddit.com/r/TrueFilm/comments/1schdf9/a_review_of_master_and_commander_the_far_side_of/",
           "date": "2026-04-04",
-          "sentiment_score": 0.9974
+          "sentiment_score": 0.9976
         }
       ],
       "sparkline": [
-        0.43,
         0.41,
         0.41,
         0.41,
@@ -1067,7 +1073,8 @@
         0.35,
         0.35,
         0.35,
-        0.42
+        0.42,
+        0.36
       ]
     },
     {
@@ -1075,7 +1082,7 @@
       "sentiment": {
         "overall_score": 0.48,
         "trend": "stable",
-        "previous_score": 0.47,
+        "previous_score": 0.48,
         "confidence": "high",
         "sample_size": 21,
         "source_scores": {
@@ -1135,7 +1142,6 @@
         }
       ],
       "sparkline": [
-        0.37,
         0.36,
         0.36,
         0.35,
@@ -1164,6 +1170,7 @@
         0.38,
         0.47,
         0.47,
+        0.48,
         0.48
       ]
     },
@@ -1237,7 +1244,6 @@
         0.29,
         0.29,
         0.29,
-        0.29,
         0.18,
         0.18,
         0.18,
@@ -1259,6 +1265,7 @@
         0.2,
         0.13,
         0.13,
+        0.3,
         0.3,
         0.3,
         0.3
@@ -1267,19 +1274,19 @@
     {
       "name": "Cisco",
       "sentiment": {
-        "overall_score": 0.45,
-        "trend": "improving",
-        "previous_score": 0.28,
+        "overall_score": 0.37,
+        "trend": "declining",
+        "previous_score": 0.45,
         "confidence": "high",
-        "sample_size": 17,
+        "sample_size": 18,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.26,
-            "count": 2
+            "score": 0.05,
+            "count": 3
           },
           "reddit": {
             "score": 0.57,
@@ -1314,22 +1321,21 @@
           "sentiment_score": -0.4723
         },
         {
+          "title": "IBM, Cisco fighting Colorado right to repair",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47639548",
+          "date": "2026-04-04",
+          "sentiment_score": -0.3612
+        },
+        {
           "title": "The Day AI Died - And Nobody Noticed (Part 8)",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/TechOnion/comments/1s9nc3r/the_day_ai_died_and_nobody_noticed_part_8/",
           "date": "2026-04-01",
           "sentiment_score": 0.9998
-        },
-        {
-          "title": "Country that put backdoors in Cisco routers to spy on world bans foreign routers",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47506279",
-          "date": "2026-03-24",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.46,
         0.46,
         0.45,
         0.45,
@@ -1358,7 +1364,8 @@
         0.49,
         0.28,
         0.28,
-        0.45
+        0.45,
+        0.37
       ]
     }
   ]
