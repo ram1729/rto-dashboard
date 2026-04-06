@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-04-06T02:36:16.884141Z",
+  "last_updated": "2026-04-06T13:14:43.548495Z",
   "scraper_log": {
-    "duration_sec": 90.34,
+    "duration_sec": 97.43,
     "total_articles": 294,
     "errors": []
   },
@@ -71,7 +71,6 @@
         }
       ],
       "sparkline": [
-        0.19,
         0.21,
         0.21,
         0.13,
@@ -98,6 +97,7 @@
         0.14,
         0.14,
         0.14,
+        0.08,
         0.08,
         0.08,
         0.08
@@ -168,7 +168,6 @@
         }
       ],
       "sparkline": [
-        0.22,
         0.3,
         0.22,
         0.22,
@@ -197,6 +196,7 @@
         0.13,
         0.14,
         0.14,
+        0.14,
         0.14
       ]
     },
@@ -214,7 +214,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.01,
+            "score": -0.01,
             "count": 15
           },
           "reddit": {
@@ -250,22 +250,21 @@
           "sentiment_score": -0.3434
         },
         {
+          "title": "How to Burn Through Millions, Torch Your Career and Lose Friends in Hollywood",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/ItEndsWithLawsuits/comments/1sdgvbb/how_to_burn_through_millions_torch_your_career/",
+          "date": "2026-04-05",
+          "sentiment_score": 0.9949
+        },
+        {
           "title": "Google lets you ditch that embarrassing old Gmail username",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=47589901",
           "date": "2026-03-31",
           "sentiment_score": -0.3818
-        },
-        {
-          "title": "Show HN: PhAIL \u2013 Real-robot benchmark for AI models",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47589797",
-          "date": "2026-03-31",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.12,
         0.12,
         0.03,
         0.12,
@@ -290,6 +289,7 @@
         0.05,
         0.05,
         0.05,
+        0.14,
         0.14,
         0.14,
         0.14,
@@ -362,7 +362,6 @@
         }
       ],
       "sparkline": [
-        0.26,
         0.25,
         0.25,
         0.25,
@@ -391,6 +390,7 @@
         0.15,
         0.15,
         0.15,
+        0.15,
         0.15
       ]
     },
@@ -399,7 +399,7 @@
       "sentiment": {
         "overall_score": 0.26,
         "trend": "stable",
-        "previous_score": 0.25,
+        "previous_score": 0.26,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -459,7 +459,6 @@
         }
       ],
       "sparkline": [
-        0.27,
         0.26,
         0.26,
         0.25,
@@ -488,6 +487,7 @@
         0.22,
         0.24,
         0.25,
+        0.26,
         0.26
       ]
     },
@@ -623,7 +623,7 @@
         0.0,
         0.0,
         0.0,
-        0.0,
+        -0.31,
         -0.31,
         -0.31
       ]
@@ -659,7 +659,6 @@
       "sparkline": [
         0.19,
         0.19,
-        0.19,
         0.21,
         0.21,
         0.21,
@@ -684,6 +683,7 @@
         -0.57,
         -0.57,
         -0.57,
+        0,
         0,
         0,
         0
@@ -763,7 +763,6 @@
         0.41,
         0.41,
         0.41,
-        0.41,
         0.42,
         0.41,
         0.41,
@@ -783,6 +782,7 @@
         0.3,
         0.3,
         0.3,
+        0.3,
         0.3
       ]
     },
@@ -791,7 +791,7 @@
       "sentiment": {
         "overall_score": -0.11,
         "trend": "stable",
-        "previous_score": -0.08,
+        "previous_score": -0.11,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -851,7 +851,6 @@
         }
       ],
       "sparkline": [
-        -0.1,
         -0.06,
         -0.06,
         -0.15,
@@ -880,6 +879,7 @@
         -0.04,
         -0.08,
         -0.08,
+        -0.11,
         -0.11
       ]
     },
@@ -887,8 +887,8 @@
       "name": "Disney",
       "sentiment": {
         "overall_score": -0.02,
-        "trend": "improving",
-        "previous_score": -0.1,
+        "trend": "stable",
+        "previous_score": -0.02,
         "confidence": "high",
         "sample_size": 17,
         "source_scores": {
@@ -952,7 +952,6 @@
         -0.07,
         -0.07,
         -0.07,
-        -0.07,
         -0.18,
         -0.18,
         -0.18,
@@ -977,6 +976,7 @@
         -0.1,
         -0.1,
         -0.1,
+        -0.02,
         -0.02
       ]
     },
@@ -985,7 +985,7 @@
       "sentiment": {
         "overall_score": 0.37,
         "trend": "stable",
-        "previous_score": 0.36,
+        "previous_score": 0.37,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -1048,7 +1048,6 @@
         0.41,
         0.41,
         0.41,
-        0.41,
         0.42,
         0.42,
         0.42,
@@ -1074,6 +1073,7 @@
         0.35,
         0.42,
         0.36,
+        0.37,
         0.37
       ]
     },
@@ -1142,7 +1142,6 @@
         }
       ],
       "sparkline": [
-        0.36,
         0.35,
         0.34,
         0.35,
@@ -1169,6 +1168,7 @@
         0.38,
         0.47,
         0.47,
+        0.48,
         0.48,
         0.48,
         0.48
@@ -1242,7 +1242,6 @@
         0.29,
         0.29,
         0.29,
-        0.29,
         0.18,
         0.18,
         0.18,
@@ -1264,6 +1263,7 @@
         0.2,
         0.13,
         0.13,
+        0.3,
         0.3,
         0.3,
         0.3,
@@ -1337,7 +1337,6 @@
       ],
       "sparkline": [
         0.45,
-        0.45,
         0.44,
         0.46,
         0.45,
@@ -1364,6 +1363,7 @@
         0.28,
         0.28,
         0.45,
+        0.37,
         0.37,
         0.37
       ]
