@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-04-06T13:14:43.548495Z",
+  "last_updated": "2026-04-07T02:34:06.721953Z",
   "scraper_log": {
-    "duration_sec": 97.43,
-    "total_articles": 294,
+    "duration_sec": 258.3,
+    "total_articles": 287,
     "errors": []
   },
   "companies": [
@@ -13,7 +13,7 @@
         "trend": "stable",
         "previous_score": 0.08,
         "confidence": "high",
-        "sample_size": 30,
+        "sample_size": 29,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -21,7 +21,7 @@
           },
           "hackernews": {
             "score": 0.04,
-            "count": 15
+            "count": 14
           },
           "reddit": {
             "score": 0.11,
@@ -38,21 +38,21 @@
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-04-06",
+          "date": "2026-04-07",
           "sentiment_score": 0.8271
         },
         {
           "title": "Look Up",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/superman/",
-          "date": "2026-04-06",
+          "date": "2026-04-07",
           "sentiment_score": 0.0
         },
         {
           "title": "Antiwork: Unemployment for all, not just the rich!",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/antiwork/",
-          "date": "2026-04-06",
+          "date": "2026-04-07",
           "sentiment_score": -0.3434
         },
         {
@@ -71,7 +71,6 @@
         }
       ],
       "sparkline": [
-        0.21,
         0.21,
         0.13,
         0.15,
@@ -97,6 +96,7 @@
         0.14,
         0.14,
         0.14,
+        0.08,
         0.08,
         0.08,
         0.08,
@@ -135,22 +135,29 @@
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-04-06",
+          "date": "2026-04-07",
           "sentiment_score": 0.8271
         },
         {
           "title": "PowerPoint Presentation Tips and Examples",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/powerpoint/",
-          "date": "2026-04-06",
+          "date": "2026-04-07",
           "sentiment_score": 0.6369
         },
         {
           "title": "Antiwork: Unemployment for all, not just the rich!",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/antiwork/",
-          "date": "2026-04-06",
+          "date": "2026-04-07",
           "sentiment_score": -0.3434
+        },
+        {
+          "title": "(Selling) 4K & HD Movies Starting at $1 All Genres",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/DigitalCodeSELL/comments/1seg1h2/selling_4k_hd_movies_starting_at_1_all_genres/",
+          "date": "2026-04-07",
+          "sentiment_score": -0.9993
         },
         {
           "title": "Apple continues to roll out age verification around the world",
@@ -158,17 +165,9 @@
           "url": "https://news.ycombinator.com/item?id=47652943",
           "date": "2026-04-05",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Germany's cybersecurity authority (BSI) TLS cert untrusted on Apple devices",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47644820",
-          "date": "2026-04-05",
-          "sentiment_score": 0.0772
         }
       ],
       "sparkline": [
-        0.3,
         0.22,
         0.22,
         0.25,
@@ -197,14 +196,15 @@
         0.14,
         0.14,
         0.14,
+        0.14,
         0.14
       ]
     },
     {
       "name": "Google",
       "sentiment": {
-        "overall_score": 0.14,
-        "trend": "stable",
+        "overall_score": 0.21,
+        "trend": "improving",
         "previous_score": 0.14,
         "confidence": "high",
         "sample_size": 30,
@@ -218,7 +218,7 @@
             "count": 15
           },
           "reddit": {
-            "score": 0.22,
+            "score": 0.34,
             "count": 15
           },
           "gdelt": {
@@ -232,21 +232,21 @@
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-04-06",
+          "date": "2026-04-07",
           "sentiment_score": 0.8271
         },
         {
           "title": "PowerPoint Presentation Tips and Examples",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/powerpoint/",
-          "date": "2026-04-06",
+          "date": "2026-04-07",
           "sentiment_score": 0.6369
         },
         {
           "title": "Antiwork: Unemployment for all, not just the rich!",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/antiwork/",
-          "date": "2026-04-06",
+          "date": "2026-04-07",
           "sentiment_score": -0.3434
         },
         {
@@ -265,7 +265,6 @@
         }
       ],
       "sparkline": [
-        0.12,
         0.03,
         0.12,
         0.2,
@@ -294,14 +293,15 @@
         0.14,
         0.14,
         0.14,
-        0.14
+        0.14,
+        0.21
       ]
     },
     {
       "name": "Meta",
       "sentiment": {
-        "overall_score": 0.15,
-        "trend": "stable",
+        "overall_score": 0.23,
+        "trend": "improving",
         "previous_score": 0.15,
         "confidence": "high",
         "sample_size": 30,
@@ -315,7 +315,7 @@
             "count": 15
           },
           "reddit": {
-            "score": 0.27,
+            "score": 0.39,
             "count": 15
           },
           "gdelt": {
@@ -329,21 +329,21 @@
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-04-06",
+          "date": "2026-04-07",
           "sentiment_score": 0.8271
         },
         {
           "title": "Legal Advice ~ A place to get simple legal advice*",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/legaladvice/",
-          "date": "2026-04-06",
+          "date": "2026-04-07",
           "sentiment_score": 0.3612
         },
         {
           "title": "Saved You a Click: Helping Rid the Internet of Clickbait",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/savedyouaclick/",
-          "date": "2026-04-06",
+          "date": "2026-04-07",
           "sentiment_score": 0.6597
         },
         {
@@ -354,15 +354,14 @@
           "sentiment_score": 0.986
         },
         {
-          "title": "Scott Pilgrim Takes Off isn't an adaptation, a sequel, or a re-examination. It's a ghost story Bryan Lee O'Malley accidentally told about himself. And I think I can prove it. (REPOSTED)",
+          "title": "Stuck at Spearman ~0.05 and 9% exposure on a triple barrier ML model \u2014 what am I missing?",
           "source": "Reddit",
-          "url": "https://www.reddit.com/r/ScottPilgrim/comments/1s7bbgg/scott_pilgrim_takes_off_isnt_an_adaptation_a/",
-          "date": "2026-03-30",
-          "sentiment_score": 0.9985
+          "url": "https://www.reddit.com/r/algotrading/comments/1saqdfu/stuck_at_spearman_005_and_9_exposure_on_a_triple/",
+          "date": "2026-04-02",
+          "sentiment_score": 0.9955
         }
       ],
       "sparkline": [
-        0.25,
         0.25,
         0.25,
         0.33,
@@ -391,25 +390,26 @@
         0.15,
         0.15,
         0.15,
-        0.15
+        0.15,
+        0.23
       ]
     },
     {
       "name": "Microsoft",
       "sentiment": {
-        "overall_score": 0.26,
+        "overall_score": 0.23,
         "trend": "stable",
         "previous_score": 0.26,
         "confidence": "high",
-        "sample_size": 30,
+        "sample_size": 25,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.07,
-            "count": 15
+            "score": -0.14,
+            "count": 10
           },
           "reddit": {
             "score": 0.46,
@@ -423,43 +423,42 @@
       },
       "top_headlines": [
         {
-          "title": "Copilot is 'for entertainment purposes only', per Microsoft's terms of use",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47655329",
-          "date": "2026-04-06",
-          "sentiment_score": 0.4215
-        },
-        {
           "title": "Microsoft Office 365: We all work together.",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/Office365/",
-          "date": "2026-04-06",
+          "date": "2026-04-07",
           "sentiment_score": 0.4019
         },
         {
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-04-06",
+          "date": "2026-04-07",
           "sentiment_score": 0.8271
         },
         {
           "title": "/r/Technology",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/technology/",
-          "date": "2026-04-06",
+          "date": "2026-04-07",
           "sentiment_score": 0.6249
         },
         {
-          "title": "3 New world class MAI models, available in Foundry",
+          "title": "Microsoft Discontinuing Publisher. Alternatives?",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47652212",
+          "url": "https://news.ycombinator.com/item?id=47645035",
           "date": "2026-04-05",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Microsoft to force updates to Windows 11 25H2 for PCs with older OS versions",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47643217",
+          "date": "2026-04-04",
           "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.26,
         0.26,
         0.25,
         0.24,
@@ -488,7 +487,8 @@
         0.24,
         0.25,
         0.26,
-        0.26
+        0.26,
+        0.23
       ]
     },
     {
@@ -555,8 +555,8 @@
     {
       "name": "Goldman Sachs",
       "sentiment": {
-        "overall_score": -0.31,
-        "trend": "stable",
+        "overall_score": -0.16,
+        "trend": "improving",
         "previous_score": -0.31,
         "confidence": "low",
         "sample_size": 2,
@@ -566,7 +566,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.31,
+            "score": -0.16,
             "count": 2
           },
           "reddit": {
@@ -581,11 +581,11 @@
       },
       "top_headlines": [
         {
-          "title": "Goldman Sachs: biggest oil crisis in history is about to hit",
+          "title": "Goldman Sachs to laid-off tech workers: take time, earnings loss to find new job",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47647433",
-          "date": "2026-04-05",
-          "sentiment_score": -0.6249
+          "url": "https://news.ycombinator.com/item?id=47669026",
+          "date": "2026-04-07",
+          "sentiment_score": -0.3182
         },
         {
           "title": "Show HN: Sales Tracking Agent that doubles up as a CRM",
@@ -622,10 +622,10 @@
         0.0,
         0.0,
         0.0,
-        0.0,
         -0.31,
         -0.31,
-        -0.31
+        -0.31,
+        -0.16
       ]
     },
     {
@@ -658,7 +658,6 @@
       "top_headlines": [],
       "sparkline": [
         0.19,
-        0.19,
         0.21,
         0.21,
         0.21,
@@ -683,6 +682,7 @@
         -0.57,
         -0.57,
         -0.57,
+        0,
         0,
         0,
         0,
@@ -721,40 +721,39 @@
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-04-06",
+          "date": "2026-04-07",
           "sentiment_score": 0.8271
         },
         {
           "title": "fullyremotework",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/fullyremotework/",
-          "date": "2026-04-06",
+          "date": "2026-04-07",
           "sentiment_score": 0.5859
         },
         {
           "title": "NoToRTOCa",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/NoToRTOCa/",
-          "date": "2026-04-06",
+          "date": "2026-04-07",
           "sentiment_score": -0.4723
         },
         {
-          "title": "AI workforce adoption = 4-player game w a stable non-cooperative equilibrium where everyone's extracting private value from the bs \"skills gap\" diagnosis",
+          "title": "This Week's Top E-commerce News Stories \ud83d\udca5 April 6th, 2026",
           "source": "Reddit",
-          "url": "https://www.reddit.com/r/GAMETHEORY/comments/1s4g26l/ai_workforce_adoption_4player_game_w_a_stable/",
-          "date": "2026-03-26",
-          "sentiment_score": 0.9986
+          "url": "https://www.reddit.com/r/shopify/comments/1secb6f/this_weeks_top_ecommerce_news_stories_april_6th/",
+          "date": "2026-04-06",
+          "sentiment_score": 0.9997
         },
         {
-          "title": "The AI Pie-Eating Contest That Workers Are Quietly Resisting",
+          "title": "E-commerce Industry News Recap \ud83d\udd25 Week of April 6th, 2026",
           "source": "Reddit",
-          "url": "https://www.reddit.com/r/self/comments/1s2fov1/the_ai_pieeating_contest_that_workers_are_quietly/",
-          "date": "2026-03-24",
-          "sentiment_score": 0.9916
+          "url": "https://www.reddit.com/r/ecommerce/comments/1secags/ecommerce_industry_news_recap_week_of_april_6th/",
+          "date": "2026-04-06",
+          "sentiment_score": 0.9996
         }
       ],
       "sparkline": [
-        0.41,
         0.41,
         0.41,
         0.41,
@@ -783,13 +782,14 @@
         0.3,
         0.3,
         0.3,
+        0.3,
         0.3
       ]
     },
     {
       "name": "AT&T",
       "sentiment": {
-        "overall_score": -0.11,
+        "overall_score": -0.08,
         "trend": "stable",
         "previous_score": -0.11,
         "confidence": "high",
@@ -804,7 +804,7 @@
             "count": 15
           },
           "reddit": {
-            "score": -0.06,
+            "score": -0.0,
             "count": 15
           },
           "gdelt": {
@@ -814,6 +814,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Definition of being at the right place and the right time.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/interesting/comments/1sdq3eb/definition_of_being_at_the_right_place_and_the/",
+          "date": "2026-04-06",
+          "sentiment_score": 0.0
+        },
         {
           "title": "Someone at BrowserStack is leaking users' email addresses",
           "source": "Hacker News",
@@ -841,17 +848,9 @@
           "url": "https://www.reddit.com/r/whoathatsinteresting/comments/1sbd73t/a_tiktoker_attempts_to_accuse_a_man_at_the_gym_of/",
           "date": "2026-04-03",
           "sentiment_score": -0.9382
-        },
-        {
-          "title": "We need this separate gyms at this rate",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/SipsTea/comments/1sbinxy/we_need_this_separate_gyms_at_this_rate/",
-          "date": "2026-04-03",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        -0.06,
         -0.06,
         -0.15,
         -0.2,
@@ -880,14 +879,15 @@
         -0.08,
         -0.08,
         -0.11,
-        -0.11
+        -0.11,
+        -0.08
       ]
     },
     {
       "name": "Disney",
       "sentiment": {
-        "overall_score": -0.02,
-        "trend": "stable",
+        "overall_score": 0.06,
+        "trend": "improving",
         "previous_score": -0.02,
         "confidence": "high",
         "sample_size": 17,
@@ -901,7 +901,7 @@
             "count": 2
           },
           "reddit": {
-            "score": 0.16,
+            "score": 0.29,
             "count": 15
           },
           "gdelt": {
@@ -915,21 +915,21 @@
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-04-06",
+          "date": "2026-04-07",
           "sentiment_score": 0.8271
         },
         {
           "title": "The Book of Boba Fett",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/BookOfBobaFett/",
-          "date": "2026-04-06",
+          "date": "2026-04-07",
           "sentiment_score": -0.5848
         },
         {
           "title": "Box Office - The Business of Movies",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/boxoffice/",
-          "date": "2026-04-06",
+          "date": "2026-04-07",
           "sentiment_score": 0.0
         },
         {
@@ -940,15 +940,14 @@
           "sentiment_score": 0.9998
         },
         {
-          "title": "Every terrible thing the Trump administration did in March 2026",
+          "title": "The next project of every living Blank Check director (or at least speculating on them) (2026 edition)",
           "source": "Reddit",
-          "url": "https://www.reddit.com/r/Keep_Track/comments/1s9hjku/every_terrible_thing_the_trump_administration_did/",
-          "date": "2026-04-01",
-          "sentiment_score": -0.999
+          "url": "https://www.reddit.com/r/blankies/comments/1sdd5pj/the_next_project_of_every_living_blank_check/",
+          "date": "2026-04-05",
+          "sentiment_score": 0.9995
         }
       ],
       "sparkline": [
-        -0.07,
         -0.07,
         -0.07,
         -0.07,
@@ -977,13 +976,14 @@
         -0.1,
         -0.1,
         -0.02,
-        -0.02
+        -0.02,
+        0.06
       ]
     },
     {
       "name": "Dell",
       "sentiment": {
-        "overall_score": 0.37,
+        "overall_score": 0.38,
         "trend": "stable",
         "previous_score": 0.37,
         "confidence": "high",
@@ -994,7 +994,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.04,
+            "score": -0.02,
             "count": 15
           },
           "reddit": {
@@ -1012,21 +1012,21 @@
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-04-06",
+          "date": "2026-04-07",
           "sentiment_score": 0.8271
         },
         {
           "title": "fullyremotework",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/fullyremotework/",
-          "date": "2026-04-06",
+          "date": "2026-04-07",
           "sentiment_score": 0.5859
         },
         {
           "title": "Antiwork: Unemployment for all, not just the rich!",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/antiwork/",
-          "date": "2026-04-06",
+          "date": "2026-04-07",
           "sentiment_score": -0.3434
         },
         {
@@ -1045,7 +1045,6 @@
         }
       ],
       "sparkline": [
-        0.41,
         0.41,
         0.41,
         0.42,
@@ -1074,13 +1073,14 @@
         0.42,
         0.36,
         0.37,
-        0.37
+        0.37,
+        0.38
       ]
     },
     {
       "name": "Tesla",
       "sentiment": {
-        "overall_score": 0.48,
+        "overall_score": 0.53,
         "trend": "stable",
         "previous_score": 0.48,
         "confidence": "high",
@@ -1091,7 +1091,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.07,
+            "score": 0.05,
             "count": 6
           },
           "reddit": {
@@ -1109,29 +1109,29 @@
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-04-06",
+          "date": "2026-04-07",
           "sentiment_score": 0.8271
         },
         {
           "title": "fullyremotework",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/fullyremotework/",
-          "date": "2026-04-06",
+          "date": "2026-04-07",
           "sentiment_score": 0.5859
         },
         {
           "title": "Antiwork: Unemployment for all, not just the rich!",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/antiwork/",
-          "date": "2026-04-06",
+          "date": "2026-04-07",
           "sentiment_score": -0.3434
         },
         {
-          "title": "Tesla's stock suffers steepest drop of 2026 on disappointing deliveries report",
+          "title": "JPMorgan warns Tesla stock could sink 60% in new note",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47654972",
-          "date": "2026-04-05",
-          "sentiment_score": -0.8126
+          "url": "https://news.ycombinator.com/item?id=47664308",
+          "date": "2026-04-06",
+          "sentiment_score": -0.1027
         },
         {
           "title": "Extra! Extra! 4/5, Jess Craven's Weekly Good News",
@@ -1142,7 +1142,6 @@
         }
       ],
       "sparkline": [
-        0.35,
         0.34,
         0.35,
         0.36,
@@ -1171,7 +1170,8 @@
         0.48,
         0.48,
         0.48,
-        0.48
+        0.48,
+        0.53
       ]
     },
     {
@@ -1206,21 +1206,21 @@
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-04-06",
+          "date": "2026-04-07",
           "sentiment_score": 0.8271
         },
         {
           "title": "fullyremotework",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/fullyremotework/",
-          "date": "2026-04-06",
+          "date": "2026-04-07",
           "sentiment_score": 0.5859
         },
         {
           "title": "NoToRTOCa",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/NoToRTOCa/",
-          "date": "2026-04-06",
+          "date": "2026-04-07",
           "sentiment_score": -0.4723
         },
         {
@@ -1241,7 +1241,6 @@
       "sparkline": [
         0.29,
         0.29,
-        0.29,
         0.18,
         0.18,
         0.18,
@@ -1263,6 +1262,7 @@
         0.2,
         0.13,
         0.13,
+        0.3,
         0.3,
         0.3,
         0.3,
@@ -1274,22 +1274,22 @@
     {
       "name": "Cisco",
       "sentiment": {
-        "overall_score": 0.37,
-        "trend": "stable",
+        "overall_score": 0.49,
+        "trend": "improving",
         "previous_score": 0.37,
         "confidence": "high",
-        "sample_size": 18,
+        "sample_size": 17,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.05,
-            "count": 3
+            "score": 0.26,
+            "count": 2
           },
           "reddit": {
-            "score": 0.57,
+            "score": 0.64,
             "count": 15
           },
           "gdelt": {
@@ -1303,29 +1303,22 @@
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-04-06",
+          "date": "2026-04-07",
           "sentiment_score": 0.8271
         },
         {
           "title": "fullyremotework",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/fullyremotework/",
-          "date": "2026-04-06",
+          "date": "2026-04-07",
           "sentiment_score": 0.5859
         },
         {
           "title": "NoToRTOCa",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/NoToRTOCa/",
-          "date": "2026-04-06",
+          "date": "2026-04-07",
           "sentiment_score": -0.4723
-        },
-        {
-          "title": "IBM, Cisco fighting Colorado right to repair",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47639548",
-          "date": "2026-04-04",
-          "sentiment_score": -0.3612
         },
         {
           "title": "The Day AI Died - And Nobody Noticed (Part 8)",
@@ -1333,10 +1326,16 @@
           "url": "https://www.reddit.com/r/TechOnion/comments/1s9nc3r/the_day_ai_died_and_nobody_noticed_part_8/",
           "date": "2026-04-01",
           "sentiment_score": 0.9998
+        },
+        {
+          "title": "No, Israel is not \u201cdragging the U.S. into wars\u201d. 41 Corporations that benefit from Genocide, a staggering 80% of US military aid to Israel returned directly to American weapons manufacturers",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/tankies/comments/1s3qwk2/no_israel_is_not_dragging_the_us_into_wars_41/",
+          "date": "2026-03-25",
+          "sentiment_score": 0.0258
         }
       ],
       "sparkline": [
-        0.45,
         0.44,
         0.46,
         0.45,
@@ -1365,7 +1364,8 @@
         0.45,
         0.37,
         0.37,
-        0.37
+        0.37,
+        0.49
       ]
     }
   ]
