@@ -1,16 +1,16 @@
 {
-  "last_updated": "2026-04-08T02:32:31.637133Z",
+  "last_updated": "2026-04-08T13:23:30.147062Z",
   "scraper_log": {
-    "duration_sec": 121.0,
-    "total_articles": 297,
+    "duration_sec": 97.52,
+    "total_articles": 296,
     "errors": []
   },
   "companies": [
     {
       "name": "Amazon",
       "sentiment": {
-        "overall_score": 0.08,
-        "trend": "stable",
+        "overall_score": 0.16,
+        "trend": "improving",
         "previous_score": 0.08,
         "confidence": "high",
         "sample_size": 30,
@@ -24,7 +24,7 @@
             "count": 15
           },
           "reddit": {
-            "score": 0.11,
+            "score": 0.23,
             "count": 15
           },
           "gdelt": {
@@ -56,22 +56,21 @@
           "sentiment_score": -0.3434
         },
         {
+          "title": "Amazon Australia: Full 5-day return-to-office mandate starting 2025",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/auswfh/comments/1sfoon1/amazon_australia_full_5day_returntooffice_mandate/",
+          "date": "2026-04-08",
+          "sentiment_score": 0.8118
+        },
+        {
           "title": "Show HN: Kindling \u2013 reverse-engineered kindlegen, ~7,000x faster in Rust",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=47676991",
           "date": "2026-04-07",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Can a laptop beat Amazon's last mile routing system?",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47616414",
-          "date": "2026-04-02",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.15,
         0.25,
         0.25,
         0.25,
@@ -100,13 +99,14 @@
         0.08,
         0.08,
         0.08,
-        0.08
+        0.08,
+        0.16
       ]
     },
     {
       "name": "Apple",
       "sentiment": {
-        "overall_score": 0.14,
+        "overall_score": 0.12,
         "trend": "stable",
         "previous_score": 0.14,
         "confidence": "high",
@@ -117,7 +117,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.02,
+            "score": -0.02,
             "count": 15
           },
           "reddit": {
@@ -131,6 +131,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "How the Vision Pro Rollout Inflamed Tensions at Apple",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47685704",
+          "date": "2026-04-08",
+          "sentiment_score": -0.4767
+        },
         {
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
@@ -158,17 +165,9 @@
           "url": "https://www.reddit.com/r/DigitalCodeSELL/comments/1seg1h2/selling_4k_hd_movies_starting_at_1_all_genres/",
           "date": "2026-04-07",
           "sentiment_score": -0.9993
-        },
-        {
-          "title": "Apple continues to roll out age verification around the world",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47652943",
-          "date": "2026-04-05",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.25,
         0.22,
         0.22,
         0.22,
@@ -197,7 +196,8 @@
         0.14,
         0.14,
         0.14,
-        0.14
+        0.14,
+        0.12
       ]
     },
     {
@@ -266,7 +266,6 @@
       ],
       "sparkline": [
         0.2,
-        0.2,
         0.12,
         0.12,
         0.12,
@@ -292,6 +291,7 @@
         0.14,
         0.14,
         0.14,
+        0.21,
         0.21,
         0.21,
         0.21
@@ -362,7 +362,6 @@
         }
       ],
       "sparkline": [
-        0.33,
         0.25,
         0.25,
         0.32,
@@ -391,15 +390,16 @@
         0.15,
         0.23,
         0.22,
+        0.22,
         0.22
       ]
     },
     {
       "name": "Microsoft",
       "sentiment": {
-        "overall_score": 0.23,
+        "overall_score": 0.24,
         "trend": "stable",
-        "previous_score": 0.25,
+        "previous_score": 0.23,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -408,7 +408,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.15,
+            "score": -0.13,
             "count": 15
           },
           "reddit": {
@@ -422,6 +422,20 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Russia Hacked Routers to Steal Microsoft Office Tokens",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47687714",
+          "date": "2026-04-08",
+          "sentiment_score": -0.7096
+        },
+        {
+          "title": "Show HN: I built an open protocol for Agent-to-agent commercial negotiation",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47688116",
+          "date": "2026-04-08",
+          "sentiment_score": 0.0
+        },
         {
           "title": "Microsoft Office 365: We all work together.",
           "source": "Reddit",
@@ -442,24 +456,9 @@
           "url": "https://www.reddit.com/r/technology/",
           "date": "2026-04-08",
           "sentiment_score": 0.6249
-        },
-        {
-          "title": "Russia Hacked Routers to Steal Microsoft Office Tokens",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47678584",
-          "date": "2026-04-07",
-          "sentiment_score": -0.7096
-        },
-        {
-          "title": "Tech companies are axing roles. They're hiring some back as contractors",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47680468",
-          "date": "2026-04-07",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.24,
         0.24,
         0.24,
         0.25,
@@ -488,7 +487,8 @@
         0.26,
         0.23,
         0.25,
-        0.23
+        0.23,
+        0.24
       ]
     },
     {
@@ -556,8 +556,8 @@
       "name": "Goldman Sachs",
       "sentiment": {
         "overall_score": -0.31,
-        "trend": "declining",
-        "previous_score": -0.16,
+        "trend": "stable",
+        "previous_score": -0.31,
         "confidence": "low",
         "sample_size": 3,
         "source_scores": {
@@ -626,12 +626,12 @@
         0.0,
         0.0,
         0.0,
-        0.0,
         -0.31,
         -0.31,
         -0.31,
         -0.16,
         -0.16,
+        -0.31,
         -0.31
       ]
     },
@@ -640,7 +640,7 @@
       "sentiment": {
         "overall_score": 0.0,
         "trend": "stable",
-        "previous_score": 0,
+        "previous_score": 0.0,
         "confidence": "low",
         "sample_size": 1,
         "source_scores": {
@@ -674,7 +674,6 @@
       "sparkline": [
         0.21,
         0.21,
-        0.21,
         0.0,
         0.0,
         0.0,
@@ -701,14 +700,15 @@
         0,
         0,
         0,
+        0.0,
         0.0
       ]
     },
     {
       "name": "Salesforce",
       "sentiment": {
-        "overall_score": 0.3,
-        "trend": "stable",
+        "overall_score": 0.46,
+        "trend": "improving",
         "previous_score": 0.3,
         "confidence": "high",
         "sample_size": 16,
@@ -718,7 +718,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.42,
+            "score": 0.0,
             "count": 1
           },
           "reddit": {
@@ -732,6 +732,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Show HN: I built an open protocol for Agent-to-agent commercial negotiation",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47688116",
+          "date": "2026-04-08",
+          "sentiment_score": 0.0
+        },
         {
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
@@ -759,17 +766,9 @@
           "url": "https://www.reddit.com/r/sports_jobs/comments/1sew0om/latam_customer_support_manager_spanish_speaking/",
           "date": "2026-04-07",
           "sentiment_score": 0.9998
-        },
-        {
-          "title": "This Week's Top E-commerce News Stories \ud83d\udca5 April 6th, 2026",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/shopify/comments/1secb6f/this_weeks_top_ecommerce_news_stories_april_6th/",
-          "date": "2026-04-06",
-          "sentiment_score": 0.9997
         }
       ],
       "sparkline": [
-        0.41,
         0.41,
         0.41,
         0.41,
@@ -798,15 +797,16 @@
         0.3,
         0.3,
         0.3,
-        0.3
+        0.3,
+        0.46
       ]
     },
     {
       "name": "AT&T",
       "sentiment": {
-        "overall_score": -0.14,
+        "overall_score": -0.12,
         "trend": "stable",
-        "previous_score": -0.11,
+        "previous_score": -0.14,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -815,7 +815,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.17,
+            "score": -0.11,
             "count": 15
           },
           "reddit": {
@@ -851,22 +851,21 @@
           "sentiment_score": 0.0
         },
         {
+          "title": "How to get better at guitar",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47650887",
+          "date": "2026-04-05",
+          "sentiment_score": 0.4404
+        },
+        {
           "title": "Someone at BrowserStack is leaking users' email addresses",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=47649117",
           "date": "2026-04-05",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Where are my next generation of drunks at!",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/SipsTea/comments/1scyudj/where_are_my_next_generation_of_drunks_at/",
-          "date": "2026-04-05",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        -0.2,
         -0.18,
         -0.18,
         -0.19,
@@ -895,7 +894,8 @@
         -0.11,
         -0.08,
         -0.11,
-        -0.14
+        -0.14,
+        -0.12
       ]
     },
     {
@@ -963,7 +963,6 @@
         }
       ],
       "sparkline": [
-        -0.07,
         -0.18,
         -0.18,
         -0.18,
@@ -992,6 +991,7 @@
         -0.02,
         0.06,
         0.06,
+        0.06,
         0.06
       ]
     },
@@ -1000,7 +1000,7 @@
       "sentiment": {
         "overall_score": 0.4,
         "trend": "stable",
-        "previous_score": 0.38,
+        "previous_score": 0.4,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -1065,7 +1065,6 @@
         0.42,
         0.42,
         0.42,
-        0.42,
         0.44,
         0.4,
         0.4,
@@ -1089,25 +1088,26 @@
         0.37,
         0.38,
         0.38,
+        0.4,
         0.4
       ]
     },
     {
       "name": "Tesla",
       "sentiment": {
-        "overall_score": 0.51,
+        "overall_score": 0.55,
         "trend": "stable",
-        "previous_score": 0.53,
+        "previous_score": 0.51,
         "confidence": "high",
-        "sample_size": 23,
+        "sample_size": 22,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.0,
-            "count": 8
+            "score": 0.11,
+            "count": 7
           },
           "reddit": {
             "score": 0.81,
@@ -1159,7 +1159,6 @@
       "sparkline": [
         0.36,
         0.36,
-        0.36,
         0.27,
         0.27,
         0.2,
@@ -1186,7 +1185,8 @@
         0.48,
         0.53,
         0.53,
-        0.51
+        0.51,
+        0.55
       ]
     },
     {
@@ -1256,7 +1256,6 @@
       "sparkline": [
         0.18,
         0.18,
-        0.18,
         0.27,
         0.27,
         0.33,
@@ -1275,6 +1274,7 @@
         0.2,
         0.13,
         0.13,
+        0.3,
         0.3,
         0.3,
         0.3,
@@ -1353,7 +1353,6 @@
       "sparkline": [
         0.45,
         0.45,
-        0.45,
         0.53,
         0.46,
         0.46,
@@ -1378,6 +1377,7 @@
         0.37,
         0.37,
         0.37,
+        0.49,
         0.49,
         0.49,
         0.49
