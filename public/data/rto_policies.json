@@ -159,11 +159,11 @@
     "id": 3,
     "company": "Goldman Sachs",
     "sector": "Financials",
-    "policy": "Full Office",
-    "daysInOffice": 5,
+    "policy": "Office-First",
+    "daysInOffice": 4,
     "enforcement": "David Solomon mandate since Feb 2022",
-    "lastUpdate": "2025-12-28",
-    "source": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOOV9YamZpVUE1RVhiSDc3NmRRMTFLNTIyWkk2QUw3MzVQT3ozX0NHVk54SmJ2ekNMQ0RjUGJBV0dWRUFMUmNORTFLT0FSNFpHRXc3RU9ieVdlcERVMUhzcGJOWnNYak5yWTd4OE1paWg3YThUWWdhMWc4YlZ5aUNtQUVDU0lzbEtWRm1sMDVGV3BOSWFjY19lRnVYZUpaSjFJdXRnMmo4Vy03TDRETUhyNw?oc=5",
+    "lastUpdate": "2025-08-04",
+    "source": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQU202NDNLMzYzR3RBemUzU2NBX081TVA1T2xCRmxOZVBzdE5BUUVtUDktUlk1c19zbndENDZEaWRkdUk5TG9oU3M5c0JnR0hCVDlNRnNGYXhHb3pVYWE0UDFhY1ZJVnlxem95XzFucUhhZi0wbXFVbEY5bFFjUlk0WnU2Umg5OENGSVZVOXpvZ3k2a3dhSXc?oc=5",
     "sentiment": -0.43,
     "sentimentTrend": "Declining",
     "mentionVolume": 3310,
@@ -224,6 +224,12 @@
       }
     ],
     "policyHistory": [
+      {
+        "date": "2022-02-01",
+        "policy": "Full Office",
+        "daysInOffice": 5,
+        "source": "https://www.cnbc.com/2022/02/01/goldman-sachs-ceo-solomon-calls-remote-work-an-aberration.html"
+      },
       {
         "date": "2022-02-01",
         "policy": "Full Office",
@@ -333,8 +339,8 @@
     "policy": "Full Office",
     "daysInOffice": 5,
     "enforcement": "Strict mandate since takeover (confirmed 2025)",
-    "lastUpdate": "2026-03-20",
-    "source": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZGc3NEhzRGlGVlZVVmdBMkp1dFJmaUx6VEdoR2NZZFJsYlZ3YTE1LTJfdDlxY2ozUUtsWmtkMklKNWRJS2kxREZSZm9BdkRFbEFJa0ZSR3JDdTd5RUJoa1pZSVFObWUxS3F4MFQ2dHk3b3VmV0Y3eWJBdUZSc1NBVkt3X0E1V0RSV1hKX0xMYzlzNnJ5a1E?oc=5",
+    "lastUpdate": "2026-01-23",
+    "source": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQOGQ0U2h2dk1McXJYSEItSE45NFM4RXNOYlJjRWFzVFRmcEhLS1VEcnVlYnl2M0JSUDRlZ01GYkJZcXRVRWdRRWcyX242bFV1UFk2aUwtSkNuNDc4enRoTHhEblhlbEIxWlRvYmpwblFScWFLbWczVEtiSUVSai1uR1hiWmktZmtmbXhwOVdicEM5Z1lBYm5UUWk2MTMtS21jQWZoamNPUXJjdw?oc=5",
     "sentiment": -0.57,
     "sentimentTrend": "Declining",
     "mentionVolume": 1080,
@@ -484,11 +490,11 @@
     "id": 7,
     "company": "UPS",
     "sector": "Industrials",
-    "policy": "Full Office",
-    "daysInOffice": 5,
+    "policy": "Office-First",
+    "daysInOffice": 4,
     "enforcement": "Full RTO from Mar 4, 2024",
-    "lastUpdate": "2024-02-06",
-    "source": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTGFlazQyUjI2WUk1VGlyQTFmeDdFWFRRaVZZbFdzUy1Mdmk2SmVpLWxFNGJtbDA1WjYwcUVrOThaS2JBTUdORkk1c0Y4QmU1eVZVUUhfSVM3M3UyTkplM2ttNDB3Um1yb0dpcUQyU3YzaVZzR1phRHVzekY5dUp4ZkpFSmthVlpza3RPYlhDMHFjWTBSeWpwNXpZVTdHb212cGRIeDJHZ2w?oc=5",
+    "lastUpdate": "2025-05-29",
+    "source": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBKRDh4OHU0MmZVdW91VV9NQ0tna1V2a1lOU3dDNDlLN3o1LTF6UmNKVmZxZk1nM2x1WjBfcGtVOG1pdjZjOEF4RDNsTWNGQ1ZPLUxrMmRoa0lvOTJOM0lOeTVyX2VvWFRaSWtXLQ?oc=5",
     "sentiment": -0.77,
     "sentimentTrend": "Declining",
     "mentionVolume": 842,
@@ -549,6 +555,12 @@
       }
     ],
     "policyHistory": [
+      {
+        "date": "2024-01-30",
+        "policy": "Full Office",
+        "daysInOffice": 5,
+        "source": "https://www.ajc.com/news/business/ups-tells-white-collar-workers-return-to-office-five-days-a-week/"
+      },
       {
         "date": "2024-01-30",
         "policy": "Full Office",
@@ -2450,6 +2462,12 @@
         "policy": "Hybrid",
         "daysInOffice": 3,
         "source": "https://www.businessinsider.com/meta-zuckerberg-return-to-office-status-quo-2025"
+      },
+      {
+        "date": "2025-01-15",
+        "policy": "Hybrid",
+        "daysInOffice": 3,
+        "source": "https://www.businessinsider.com/meta-zuckerberg-return-to-office-status-quo-2025"
       }
     ]
   },
@@ -3783,8 +3801,8 @@
     "policy": "Hybrid",
     "daysInOffice": 3,
     "enforcement": "Standard hybrid",
-    "lastUpdate": "2026-03-27",
-    "source": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdGtXRjBJRDRMZlJ5cUxwQ1dLZEJsdm9tVTFVc0UwcHpfWnZ2RFF4VGs4dk82VUFvZ1MwbWZRUUxQbjJmVmcyRVp5dkxsclRXbHNlbTdDWVZRQU9US19ITmg3MDZYaXVydmlReU9EcFBQSzNXSXhGXzBBS2Z4dTZYaGplUXZkb3NvckVSQVlLMTMzRjNTWW1SNGIyWkhDZE5CLXBmcEQxeXNaNWV0SGc?oc=5",
+    "lastUpdate": "2023-04-19",
+    "source": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNakdmdWNnOXkzVkNWOHhIbmtsZ1VmYlFERE9aVG5samFwZnkzcUxOOUVwelltTzl2eGRCSnB2cmIyUkVxa2x4MHRaYlctS3dKRUdUemJJaDBfRk9SWDJiY1NfTW9QQWhCR0ptN2dGS3EtT2lVNWpBRkdCRFQyWC1XNFpuSmplekhLQUE?oc=5",
     "sentiment": 0.87,
     "sentimentTrend": "Improving",
     "mentionVolume": 3225,
@@ -4258,8 +4276,8 @@
     "policy": "Remote-First",
     "daysInOffice": 0,
     "enforcement": "Team-driven, no company mandate",
-    "lastUpdate": "2026-04-04",
-    "source": "https://news.google.com/rss/articles/CBMi6gJBVV95cUxQem5uQmtCeFF0ajJ5eHZlZHpFTXZCdy1YNGtQcF9mTGNXWjJtbDRBQVVYR0Zjb2pOV1dXYVdVY2tHbi01TzczTVp0dEI1ZEYzVnhRWHBpdUFrdEF3MVhBeVJfdU96ZVF4UE5RbmtiTzNZeW9yWVlMS1dTZW9lOFhJRThXb0Z0MHhmZG1ycFd5OThub2VVdG84VVZyV0l2dWdoRDctLWxjQ3NsdGNwbWJRRTlpN1FNbmw5NnFjZkFTY21CQ0lhRlRva20yWWJvaFhraGVaNE9RSEVOMXJ2VG1PdDRYRWZsX0ZjeF93OGxjbUoxUE9oNEFlWTMwYW8wTDlpb1NVU0pGazYtdml0MWw4cHVzU3V3RVI2YVFrdXVtVFFtSnpNVmJYMjA1NGFNTTRLdWxzc2VVV1hQWHY2ekZVRWxORmlUZGJBQnFpLTAzdGtudXVsM0Y0SFp2VXRQZmpENHRHYjc0Tk1jQQ?oc=5",
+    "lastUpdate": "2025-08-26",
+    "source": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5vR1I3cEYwaEdNRGxobWFWZzJuLVJjdExjV2JBWTg0cmI1X0RFejY3bEh1a0tkNjlwMW4xalJuUWZRbWN6Wk1QSkJoSDhSR1NrdVZuUFVhY2JoZUlvaDNnczRXQm8yQTRKUXZwbF9UeDliUFdpTEVkeg?oc=5",
     "sentiment": 0.85,
     "sentimentTrend": "Improving",
     "mentionVolume": 2923,
@@ -4342,7 +4360,7 @@
     "policy": "Remote-First",
     "daysInOffice": 0,
     "enforcement": "3d corporate hybrid mandate since 2025",
-    "lastUpdate": "2026-04-08",
+    "lastUpdate": "2026-04-09",
     "source": "https://builtin.com/company/cencora",
     "sentiment": 0.89,
     "sentimentTrend": "Improving",
@@ -4691,6 +4709,12 @@
         "policy": "Hybrid",
         "daysInOffice": 3,
         "source": "https://builtin.com/company/cencora"
+      },
+      {
+        "date": "2026-03-01",
+        "policy": "Hybrid",
+        "daysInOffice": 3,
+        "source": "https://builtin.com/company/cencora"
       }
     ]
   },
@@ -4701,7 +4725,7 @@
     "policy": "Hybrid",
     "daysInOffice": 3,
     "enforcement": "Scraped from BuildRemote",
-    "lastUpdate": "2026-04-08",
+    "lastUpdate": "2026-04-09",
     "source": "https://buildremote.co/companies/return-to-office/",
     "sentiment": 0.63,
     "sentimentTrend": "Improving",
