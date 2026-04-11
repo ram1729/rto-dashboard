@@ -1,27 +1,27 @@
 {
-  "last_updated": "2026-04-10T13:14:01.966666Z",
+  "last_updated": "2026-04-11T02:23:41.776554Z",
   "scraper_log": {
-    "duration_sec": 65.25,
-    "total_articles": 121,
+    "duration_sec": 64.52,
+    "total_articles": 110,
     "errors": []
   },
   "companies": [
     {
       "name": "Amazon",
       "sentiment": {
-        "overall_score": 0.16,
-        "trend": "stable",
-        "previous_score": 0.11,
+        "overall_score": 0.1,
+        "trend": "declining",
+        "previous_score": 0.16,
         "confidence": "high",
-        "sample_size": 15,
+        "sample_size": 13,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.16,
-            "count": 15
+            "score": 0.1,
+            "count": 13
           },
           "reddit": {
             "score": 0,
@@ -34,20 +34,6 @@
         }
       },
       "top_headlines": [
-        {
-          "title": "Amazon to end support for older Kindles",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47717016",
-          "date": "2026-04-10",
-          "sentiment_score": 0.5267
-        },
-        {
-          "title": "Amazon to end support for older Kindles",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47703936",
-          "date": "2026-04-09",
-          "sentiment_score": 0.5267
-        },
         {
           "title": "Show HN: Kindling \u2013 reverse-engineered kindlegen, ~7,000x faster in Rust",
           "source": "Hacker News",
@@ -68,10 +54,23 @@
           "url": "https://news.ycombinator.com/item?id=47613614",
           "date": "2026-04-02",
           "sentiment_score": -0.4588
+        },
+        {
+          "title": "OpenClaw vs. Amazon Quick Suite",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47586747",
+          "date": "2026-03-31",
+          "sentiment_score": 0.1779
+        },
+        {
+          "title": "Android on Amazon Echo Show 5 2nd Gen \u2013 2021",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47511883",
+          "date": "2026-03-25",
+          "sentiment_score": 0.1779
         }
       ],
       "sparkline": [
-        0.25,
         0.25,
         0.17,
         0.17,
@@ -100,15 +99,16 @@
         0.19,
         0.17,
         0.11,
-        0.16
+        0.16,
+        0.1
       ]
     },
     {
       "name": "Apple",
       "sentiment": {
         "overall_score": -0.02,
-        "trend": "declining",
-        "previous_score": 0.04,
+        "trend": "stable",
+        "previous_score": -0.02,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -139,13 +139,6 @@
           "sentiment_score": -0.4767
         },
         {
-          "title": "Show HN: OS Megakernel that match M5 Max Tok/w at 2x the Throughput on RTX 3090",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47691182",
-          "date": "2026-04-08",
-          "sentiment_score": 0.0
-        },
-        {
           "title": "Apple continues to roll out age verification around the world",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=47652943",
@@ -165,11 +158,17 @@
           "url": "https://news.ycombinator.com/item?id=47599831",
           "date": "2026-04-01",
           "sentiment_score": 0.0
+        },
+        {
+          "title": "Tesla Robotaxi",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47582509",
+          "date": "2026-03-31",
+          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
         0.22,
-        0.22,
         0.21,
         0.21,
         0.21,
@@ -197,6 +196,7 @@
         0.12,
         0.04,
         0.04,
+        -0.02,
         -0.02
       ]
     },
@@ -204,8 +204,8 @@
       "name": "Google",
       "sentiment": {
         "overall_score": 0.01,
-        "trend": "declining",
-        "previous_score": 0.13,
+        "trend": "stable",
+        "previous_score": 0.01,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -266,7 +266,6 @@
       ],
       "sparkline": [
         0.12,
-        0.12,
         0.13,
         0.13,
         0.14,
@@ -294,6 +293,7 @@
         0.2,
         0.19,
         0.13,
+        0.01,
         0.01
       ]
     },
@@ -301,8 +301,8 @@
       "name": "Meta",
       "sentiment": {
         "overall_score": -0.03,
-        "trend": "declining",
-        "previous_score": 0.16,
+        "trend": "stable",
+        "previous_score": -0.03,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -325,6 +325,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Contemplating Meta's Homegrown MTIA Compute Engine Roadmap",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47720720",
+          "date": "2026-04-10",
+          "sentiment_score": 0.0
+        },
         {
           "title": "Show HN: Stricline: A meta-framework to easily build robust CLI apps w/stricli",
           "source": "Hacker News",
@@ -352,17 +359,9 @@
           "url": "https://news.ycombinator.com/item?id=47461478",
           "date": "2026-03-20",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Meta Confronts Rogue AI Agents After Data Exposure",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47434843",
-          "date": "2026-03-19",
-          "sentiment_score": -0.2263
         }
       ],
       "sparkline": [
-        0.32,
         0.32,
         0.23,
         0.23,
@@ -391,25 +390,26 @@
         0.14,
         0.18,
         0.16,
+        -0.03,
         -0.03
       ]
     },
     {
       "name": "Microsoft",
       "sentiment": {
-        "overall_score": -0.26,
-        "trend": "declining",
-        "previous_score": 0.19,
+        "overall_score": -0.22,
+        "trend": "stable",
+        "previous_score": -0.26,
         "confidence": "high",
-        "sample_size": 15,
+        "sample_size": 13,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.26,
-            "count": 15
+            "score": -0.22,
+            "count": 13
           },
           "reddit": {
             "score": 0,
@@ -423,25 +423,18 @@
       },
       "top_headlines": [
         {
+          "title": "WireGuard makes new Windows release following Microsoft signing resolution",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47719942",
+          "date": "2026-04-10",
+          "sentiment_score": 0.0
+        },
+        {
           "title": "Show HN: BillSpike \u2013 Root cause analysis for cloud cost spikes",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=47704305",
           "date": "2026-04-09",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Mythos, Glasswing, and the hardware disclosure problem nobody is discussing",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47708711",
-          "date": "2026-04-09",
-          "sentiment_score": -0.4019
-        },
-        {
-          "title": "Old habits die hard: Microsoft tries to limit our options, this time with AI",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47709506",
-          "date": "2026-04-09",
-          "sentiment_score": -0.6486
         },
         {
           "title": "Russia Hacked Routers to Steal Microsoft Office Tokens",
@@ -456,10 +449,16 @@
           "url": "https://news.ycombinator.com/item?id=47692135",
           "date": "2026-04-08",
           "sentiment_score": -0.4404
+        },
+        {
+          "title": "Show HN: I built an open protocol for Agent-to-agent commercial negotiation",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47688116",
+          "date": "2026-04-08",
+          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.25,
         0.23,
         0.22,
         0.24,
@@ -488,7 +487,8 @@
         0.2,
         0.23,
         0.19,
-        -0.26
+        -0.26,
+        -0.22
       ]
     },
     {
@@ -555,19 +555,19 @@
     {
       "name": "Goldman Sachs",
       "sentiment": {
-        "overall_score": -0.32,
-        "trend": "stable",
+        "overall_score": 0,
+        "trend": "improving",
         "previous_score": -0.32,
         "confidence": "low",
-        "sample_size": 1,
+        "sample_size": 0,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.32,
-            "count": 1
+            "score": 0,
+            "count": 0
           },
           "reddit": {
             "score": 0,
@@ -579,17 +579,8 @@
           }
         }
       },
-      "top_headlines": [
-        {
-          "title": "Goldman Sachs to laid-off tech workers: take time, earnings loss to find new job",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47669026",
-          "date": "2026-04-07",
-          "sentiment_score": -0.3182
-        }
-      ],
+      "top_headlines": [],
       "sparkline": [
-        0.0,
         0.0,
         0.0,
         0.0,
@@ -618,11 +609,73 @@
         0,
         -0.32,
         -0.32,
-        -0.32
+        -0.32,
+        0
       ]
     },
     {
       "name": "Bank of America",
+      "sentiment": {
+        "overall_score": 0,
+        "trend": "stable",
+        "previous_score": 0.0,
+        "confidence": "low",
+        "sample_size": 0,
+        "source_scores": {
+          "google_news": {
+            "score": 0,
+            "count": 0
+          },
+          "hackernews": {
+            "score": 0,
+            "count": 0
+          },
+          "reddit": {
+            "score": 0,
+            "count": 0
+          },
+          "gdelt": {
+            "score": 0,
+            "count": 0
+          }
+        }
+      },
+      "top_headlines": [],
+      "sparkline": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.0,
+        0.0,
+        0,
+        -0.57,
+        -0.57,
+        -0.57,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0
+      ]
+    },
+    {
+      "name": "Salesforce",
       "sentiment": {
         "overall_score": 0.0,
         "trend": "stable",
@@ -650,82 +703,6 @@
       },
       "top_headlines": [
         {
-          "title": "Show HN: An interactive map of Tolkien's Middle-earth",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47681112",
-          "date": "2026-04-07",
-          "sentiment_score": 0.0
-        }
-      ],
-      "sparkline": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0.0,
-        0.0,
-        0,
-        -0.57,
-        -0.57,
-        -0.57,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ]
-    },
-    {
-      "name": "Salesforce",
-      "sentiment": {
-        "overall_score": 0.0,
-        "trend": "declining",
-        "previous_score": 0.46,
-        "confidence": "low",
-        "sample_size": 2,
-        "source_scores": {
-          "google_news": {
-            "score": 0,
-            "count": 0
-          },
-          "hackernews": {
-            "score": 0.0,
-            "count": 2
-          },
-          "reddit": {
-            "score": 0,
-            "count": 0
-          },
-          "gdelt": {
-            "score": 0,
-            "count": 0
-          }
-        }
-      },
-      "top_headlines": [
-        {
-          "title": "Ask HN: What should I re-skill in?",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47711279",
-          "date": "2026-04-09",
-          "sentiment_score": 0.0
-        },
-        {
           "title": "Show HN: I built an open protocol for Agent-to-agent commercial negotiation",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=47688116",
@@ -734,7 +711,6 @@
         }
       ],
       "sparkline": [
-        0.41,
         0.42,
         0.41,
         0.41,
@@ -763,15 +739,16 @@
         0.46,
         0.46,
         0.46,
+        0.0,
         0.0
       ]
     },
     {
       "name": "AT&T",
       "sentiment": {
-        "overall_score": -0.06,
-        "trend": "improving",
-        "previous_score": -0.14,
+        "overall_score": -0.05,
+        "trend": "stable",
+        "previous_score": -0.06,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -780,7 +757,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.06,
+            "score": -0.05,
             "count": 15
           },
           "reddit": {
@@ -831,7 +808,6 @@
         }
       ],
       "sparkline": [
-        -0.16,
         -0.11,
         -0.1,
         -0.1,
@@ -860,25 +836,26 @@
         -0.09,
         -0.16,
         -0.14,
-        -0.06
+        -0.06,
+        -0.05
       ]
     },
     {
       "name": "Disney",
       "sentiment": {
-        "overall_score": -0.23,
+        "overall_score": -0.31,
         "trend": "declining",
-        "previous_score": 0.09,
+        "previous_score": -0.23,
         "confidence": "low",
-        "sample_size": 4,
+        "sample_size": 2,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.23,
-            "count": 4
+            "score": -0.31,
+            "count": 2
           },
           "reddit": {
             "score": 0,
@@ -891,20 +868,6 @@
         }
       },
       "top_headlines": [
-        {
-          "title": "Disney to Lay Off Up to 1k Employees in First Cuts Under New CEO Josh D'Amaro",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47698772",
-          "date": "2026-04-09",
-          "sentiment_score": -0.296
-        },
-        {
-          "title": "YouTube now world's largest media company, topping Disney",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47705278",
-          "date": "2026-04-09",
-          "sentiment_score": 0.0
-        },
         {
           "title": "Disney's $1B Investment in OpenAI DOA as Sam Altman Pulls Sora Plug",
           "source": "Hacker News",
@@ -921,7 +884,6 @@
         }
       ],
       "sparkline": [
-        -0.18,
         -0.18,
         -0.18,
         -0.18,
@@ -950,15 +912,16 @@
         -0.02,
         -0.02,
         0.09,
-        -0.23
+        -0.23,
+        -0.31
       ]
     },
     {
       "name": "Dell",
       "sentiment": {
-        "overall_score": 0.01,
-        "trend": "declining",
-        "previous_score": 0.31,
+        "overall_score": 0.1,
+        "trend": "improving",
+        "previous_score": 0.01,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -967,7 +930,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.01,
+            "score": 0.1,
             "count": 15
           },
           "reddit": {
@@ -1018,7 +981,6 @@
         }
       ],
       "sparkline": [
-        0.42,
         0.44,
         0.4,
         0.4,
@@ -1047,25 +1009,26 @@
         0.4,
         0.4,
         0.31,
-        0.01
+        0.01,
+        0.1
       ]
     },
     {
       "name": "Tesla",
       "sentiment": {
-        "overall_score": 0.06,
-        "trend": "declining",
-        "previous_score": 0.46,
-        "confidence": "medium",
-        "sample_size": 5,
+        "overall_score": 0.11,
+        "trend": "stable",
+        "previous_score": 0.06,
+        "confidence": "low",
+        "sample_size": 4,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.06,
-            "count": 5
+            "score": 0.11,
+            "count": 4
           },
           "reddit": {
             "score": 0,
@@ -1078,13 +1041,6 @@
         }
       },
       "top_headlines": [
-        {
-          "title": "JPMorgan warns Tesla stock could sink 60% in new note",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47664308",
-          "date": "2026-04-06",
-          "sentiment_score": -0.1027
-        },
         {
           "title": "Tesla Goes Ahead and Admits Its Robotaxis Are Sometimes Human-Controlled",
           "source": "Hacker News",
@@ -1118,7 +1074,6 @@
         0.2,
         0.2,
         0.2,
-        0.2,
         0.19,
         0.19,
         0.21,
@@ -1144,15 +1099,16 @@
         0.55,
         0.55,
         0.46,
-        0.06
+        0.06,
+        0.11
       ]
     },
     {
       "name": "Caterpillar",
       "sentiment": {
         "overall_score": 0,
-        "trend": "declining",
-        "previous_score": 0.37,
+        "trend": "stable",
+        "previous_score": 0,
         "confidence": "low",
         "sample_size": 0,
         "source_scores": {
@@ -1176,7 +1132,6 @@
       },
       "top_headlines": [],
       "sparkline": [
-        0.33,
         0.33,
         0.27,
         0.27,
@@ -1205,25 +1160,26 @@
         0.36,
         0.37,
         0.37,
+        0,
         0
       ]
     },
     {
       "name": "Cisco",
       "sentiment": {
-        "overall_score": 0.29,
-        "trend": "declining",
-        "previous_score": 0.51,
+        "overall_score": 0.26,
+        "trend": "stable",
+        "previous_score": 0.29,
         "confidence": "low",
-        "sample_size": 3,
+        "sample_size": 2,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.29,
-            "count": 3
+            "score": 0.26,
+            "count": 2
           },
           "reddit": {
             "score": 0,
@@ -1236,13 +1192,6 @@
         }
       },
       "top_headlines": [
-        {
-          "title": "Cisco: Cybersecurity Remains Top Challenge as Industrial AI Adoption Expands",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47700999",
-          "date": "2026-04-09",
-          "sentiment_score": 0.3612
-        },
         {
           "title": "Country that put backdoors in Cisco routers to spy on world bans foreign routers",
           "source": "Hacker News",
@@ -1259,7 +1208,6 @@
         }
       ],
       "sparkline": [
-        0.46,
         0.46,
         0.46,
         0.46,
@@ -1288,7 +1236,8 @@
         0.49,
         0.51,
         0.51,
-        0.29
+        0.29,
+        0.26
       ]
     }
   ]
