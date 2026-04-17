@@ -1,27 +1,27 @@
 {
-  "last_updated": "2026-04-17T02:38:44.593658Z",
+  "last_updated": "2026-04-17T13:23:12.133642Z",
   "scraper_log": {
-    "duration_sec": 64.83,
-    "total_articles": 112,
+    "duration_sec": 69.06,
+    "total_articles": 117,
     "errors": []
   },
   "companies": [
     {
       "name": "Amazon",
       "sentiment": {
-        "overall_score": 0.04,
+        "overall_score": 0.08,
         "trend": "stable",
-        "previous_score": 0.05,
+        "previous_score": 0.04,
         "confidence": "high",
-        "sample_size": 14,
+        "sample_size": 15,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.04,
-            "count": 14
+            "score": 0.08,
+            "count": 15
           },
           "reddit": {
             "score": 0,
@@ -40,6 +40,13 @@
           "url": "https://news.ycombinator.com/item?id=47791293",
           "date": "2026-04-16",
           "sentiment_score": 0.0
+        },
+        {
+          "title": "Amazon to acquire Globalstar and expand Amazon Leo satellite network",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47775183",
+          "date": "2026-04-15",
+          "sentiment_score": 0.5719
         },
         {
           "title": "Amazon rolls out 1-hour, 3-hour delivery",
@@ -61,17 +68,9 @@
           "url": "https://news.ycombinator.com/item?id=47738583",
           "date": "2026-04-12",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Tor Browser on Android leaks IP in desktop mode",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47731361",
-          "date": "2026-04-11",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.14,
         0.14,
         0.14,
         0.14,
@@ -100,7 +99,8 @@
         0.06,
         0.06,
         0.05,
-        0.04
+        0.04,
+        0.08
       ]
     },
     {
@@ -108,7 +108,7 @@
       "sentiment": {
         "overall_score": -0.08,
         "trend": "stable",
-        "previous_score": -0.05,
+        "previous_score": -0.08,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -172,7 +172,6 @@
         0.13,
         0.13,
         0.13,
-        0.13,
         0.14,
         0.14,
         0.14,
@@ -197,6 +196,7 @@
         -0.05,
         -0.05,
         -0.05,
+        -0.08,
         -0.08
       ]
     },
@@ -204,8 +204,8 @@
       "name": "Google",
       "sentiment": {
         "overall_score": -0.08,
-        "trend": "declining",
-        "previous_score": -0.02,
+        "trend": "stable",
+        "previous_score": -0.08,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -267,7 +267,6 @@
       "sparkline": [
         0.05,
         0.05,
-        0.05,
         0.14,
         0.14,
         0.14,
@@ -294,14 +293,15 @@
         -0.03,
         -0.02,
         -0.02,
+        -0.08,
         -0.08
       ]
     },
     {
       "name": "Meta",
       "sentiment": {
-        "overall_score": -0.07,
-        "trend": "stable",
+        "overall_score": -0.02,
+        "trend": "improving",
         "previous_score": -0.07,
         "confidence": "high",
         "sample_size": 15,
@@ -311,7 +311,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.07,
+            "score": -0.02,
             "count": 15
           },
           "reddit": {
@@ -370,7 +370,6 @@
         0.15,
         0.15,
         0.15,
-        0.15,
         0.23,
         0.22,
         0.22,
@@ -391,7 +390,8 @@
         -0.06,
         -0.07,
         -0.07,
-        -0.07
+        -0.07,
+        -0.02
       ]
     },
     {
@@ -460,7 +460,6 @@
       ],
       "sparkline": [
         0.15,
-        0.15,
         0.16,
         0.22,
         0.22,
@@ -484,6 +483,7 @@
         -0.12,
         -0.08,
         -0.11,
+        -0.16,
         -0.16,
         -0.16,
         -0.16,
@@ -586,7 +586,6 @@
         0.0,
         0.0,
         0.0,
-        0.0,
         -0.31,
         -0.31,
         -0.31,
@@ -598,6 +597,7 @@
         -0.32,
         -0.32,
         -0.32,
+        0,
         0,
         0,
         0,
@@ -618,7 +618,7 @@
       "sentiment": {
         "overall_score": 0,
         "trend": "stable",
-        "previous_score": 0.0,
+        "previous_score": 0,
         "confidence": "low",
         "sample_size": 0,
         "source_scores": {
@@ -642,7 +642,6 @@
       },
       "top_headlines": [],
       "sparkline": [
-        0.0,
         0,
         -0.57,
         -0.57,
@@ -671,6 +670,7 @@
         0.0,
         0.0,
         0.0,
+        0,
         0
       ]
     },
@@ -681,7 +681,7 @@
         "trend": "stable",
         "previous_score": 0.0,
         "confidence": "low",
-        "sample_size": 1,
+        "sample_size": 3,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -689,7 +689,7 @@
           },
           "hackernews": {
             "score": 0.0,
-            "count": 1
+            "count": 3
           },
           "reddit": {
             "score": 0,
@@ -703,6 +703,20 @@
       },
       "top_headlines": [
         {
+          "title": "Salesforce Launches Headless 360",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47803510",
+          "date": "2026-04-17",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Show HN: A CLI that writes its own integration code",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47762951",
+          "date": "2026-04-14",
+          "sentiment_score": 0.0
+        },
+        {
           "title": "Show HN: I built an open protocol for Agent-to-agent commercial negotiation",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=47688116",
@@ -711,7 +725,6 @@
         }
       ],
       "sparkline": [
-        0.35,
         0.3,
         0.3,
         0.3,
@@ -740,13 +753,14 @@
         0.0,
         0.0,
         0.0,
+        0.0,
         0.0
       ]
     },
     {
       "name": "AT&T",
       "sentiment": {
-        "overall_score": -0.06,
+        "overall_score": -0.04,
         "trend": "stable",
         "previous_score": -0.06,
         "confidence": "high",
@@ -757,7 +771,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.06,
+            "score": -0.04,
             "count": 15
           },
           "reddit": {
@@ -771,6 +785,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "The \"Passive Income\" trap ate a generation of entrepreneurs",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47799120",
+          "date": "2026-04-16",
+          "sentiment_score": -0.128
+        },
         {
           "title": "447 TB/cm\u00b2 at zero retention energy \u2013 atomic-scale memory on fluorographane",
           "source": "Hacker News",
@@ -798,17 +819,9 @@
           "url": "https://news.ycombinator.com/item?id=47650887",
           "date": "2026-04-05",
           "sentiment_score": 0.4404
-        },
-        {
-          "title": "Someone at BrowserStack is leaking users' email addresses",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47649117",
-          "date": "2026-04-05",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        -0.04,
         -0.03,
         -0.03,
         -0.04,
@@ -837,7 +850,8 @@
         -0.06,
         -0.06,
         -0.06,
-        -0.06
+        -0.06,
+        -0.04
       ]
     },
     {
@@ -887,7 +901,6 @@
         -0.18,
         -0.18,
         -0.18,
-        -0.18,
         -0.1,
         -0.1,
         -0.1,
@@ -913,15 +926,16 @@
         -0.31,
         -0.31,
         -0.31,
+        -0.31,
         -0.31
       ]
     },
     {
       "name": "Dell",
       "sentiment": {
-        "overall_score": 0.11,
-        "trend": "improving",
-        "previous_score": 0.03,
+        "overall_score": 0.06,
+        "trend": "stable",
+        "previous_score": 0.11,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -930,7 +944,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.11,
+            "score": 0.06,
             "count": 15
           },
           "reddit": {
@@ -966,22 +980,21 @@
           "sentiment_score": 0.0
         },
         {
+          "title": "Tell HN: Docker pull fails in Spain due to football Cloudflare block",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47738883",
+          "date": "2026-04-12",
+          "sentiment_score": -0.6908
+        },
+        {
           "title": "Show HN: I built an open protocol for Agent-to-agent commercial negotiation",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=47688116",
           "date": "2026-04-08",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Row looms over Champions League elite's share of EFL deal payments",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47654668",
-          "date": "2026-04-05",
-          "sentiment_score": 0.6124
         }
       ],
       "sparkline": [
-        0.34,
         0.34,
         0.35,
         0.35,
@@ -1010,25 +1023,26 @@
         0.03,
         0.03,
         0.03,
-        0.11
+        0.11,
+        0.06
       ]
     },
     {
       "name": "Tesla",
       "sentiment": {
-        "overall_score": 0.11,
-        "trend": "improving",
-        "previous_score": -0.04,
-        "confidence": "low",
-        "sample_size": 4,
+        "overall_score": -0.03,
+        "trend": "declining",
+        "previous_score": 0.11,
+        "confidence": "medium",
+        "sample_size": 6,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.11,
-            "count": 4
+            "score": -0.03,
+            "count": 6
           },
           "reddit": {
             "score": 0,
@@ -1041,6 +1055,20 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Tesla is facing up to $14.5B in lawsuits \u2013 and it's only getting worse",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47804433",
+          "date": "2026-04-17",
+          "sentiment_score": -0.5719
+        },
+        {
+          "title": "Show HN: Stage \u2013 Putting humans back in control of code review",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47796818",
+          "date": "2026-04-16",
+          "sentiment_score": 0.0
+        },
         {
           "title": "Tesla Goes Ahead and Admits Its Robotaxis Are Sometimes Human-Controlled",
           "source": "Hacker News",
@@ -1061,17 +1089,9 @@
           "url": "https://news.ycombinator.com/item?id=47533191",
           "date": "2026-03-26",
           "sentiment_score": 0.4201
-        },
-        {
-          "title": "Uber's Deal Blitz to Stop a Robotaxi Monopoly",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47485412",
-          "date": "2026-03-23",
-          "sentiment_score": -0.296
         }
       ],
       "sparkline": [
-        0.36,
         0.39,
         0.38,
         0.47,
@@ -1100,7 +1120,8 @@
         -0.04,
         -0.04,
         -0.04,
-        0.11
+        0.11,
+        -0.03
       ]
     },
     {
@@ -1132,7 +1153,6 @@
       },
       "top_headlines": [],
       "sparkline": [
-        0.2,
         0.13,
         0.13,
         0.3,
@@ -1161,6 +1181,7 @@
         0,
         0,
         0,
+        0,
         0
       ]
     },
@@ -1168,8 +1189,8 @@
       "name": "Cisco",
       "sentiment": {
         "overall_score": 0.0,
-        "trend": "improving",
-        "previous_score": -0.43,
+        "trend": "stable",
+        "previous_score": 0.0,
         "confidence": "low",
         "sample_size": 1,
         "source_scores": {
@@ -1201,7 +1222,6 @@
         }
       ],
       "sparkline": [
-        0.34,
         0.49,
         0.49,
         0.28,
@@ -1230,6 +1250,7 @@
         -0.43,
         -0.43,
         -0.43,
+        0.0,
         0.0
       ]
     }
