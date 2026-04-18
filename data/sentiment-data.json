@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-04-17T13:23:12.133642Z",
+  "last_updated": "2026-04-18T02:29:38.624948Z",
   "scraper_log": {
-    "duration_sec": 69.06,
-    "total_articles": 117,
+    "duration_sec": 64.17,
+    "total_articles": 119,
     "errors": []
   },
   "companies": [
     {
       "name": "Amazon",
       "sentiment": {
-        "overall_score": 0.08,
+        "overall_score": 0.06,
         "trend": "stable",
-        "previous_score": 0.04,
+        "previous_score": 0.08,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -20,7 +20,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.08,
+            "score": 0.06,
             "count": 15
           },
           "reddit": {
@@ -35,18 +35,18 @@
       },
       "top_headlines": [
         {
+          "title": "Tell HN: Security Incident at Porter (YC S20)",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47811132",
+          "date": "2026-04-17",
+          "sentiment_score": 0.34
+        },
+        {
           "title": "A brief generational overview of the tech industry",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=47791293",
           "date": "2026-04-16",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Amazon to acquire Globalstar and expand Amazon Leo satellite network",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47775183",
-          "date": "2026-04-15",
-          "sentiment_score": 0.5719
         },
         {
           "title": "Amazon rolls out 1-hour, 3-hour delivery",
@@ -71,7 +71,6 @@
         }
       ],
       "sparkline": [
-        0.14,
         0.14,
         0.14,
         0.14,
@@ -100,7 +99,8 @@
         0.06,
         0.05,
         0.04,
-        0.08
+        0.08,
+        0.06
       ]
     },
     {
@@ -171,7 +171,6 @@
         0.13,
         0.13,
         0.13,
-        0.13,
         0.14,
         0.14,
         0.14,
@@ -196,6 +195,7 @@
         -0.05,
         -0.05,
         -0.05,
+        -0.08,
         -0.08,
         -0.08
       ]
@@ -266,7 +266,6 @@
       ],
       "sparkline": [
         0.05,
-        0.05,
         0.14,
         0.14,
         0.14,
@@ -294,15 +293,16 @@
         -0.02,
         -0.02,
         -0.08,
+        -0.08,
         -0.08
       ]
     },
     {
       "name": "Meta",
       "sentiment": {
-        "overall_score": -0.02,
-        "trend": "improving",
-        "previous_score": -0.07,
+        "overall_score": 0.01,
+        "trend": "stable",
+        "previous_score": -0.02,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -311,7 +311,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.02,
+            "score": 0.01,
             "count": 15
           },
           "reddit": {
@@ -333,6 +333,13 @@
           "sentiment_score": -0.1027
         },
         {
+          "title": "Show HN: A book that builds GPT-2, Llama 3, DeepSeek from scratch in PyTorch",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47779084",
+          "date": "2026-04-15",
+          "sentiment_score": 0.0
+        },
+        {
           "title": "Contemplating Meta's Homegrown MTIA Compute Engine Roadmap",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=47720720",
@@ -352,17 +359,9 @@
           "url": "https://news.ycombinator.com/item?id=47680468",
           "date": "2026-04-07",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "How I'm Using an AI Assistant to Offload the \"Meta-Work\" of My Day",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47618595",
-          "date": "2026-04-02",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.15,
         0.15,
         0.15,
         0.15,
@@ -391,13 +390,14 @@
         -0.07,
         -0.07,
         -0.07,
-        -0.02
+        -0.02,
+        0.01
       ]
     },
     {
       "name": "Microsoft",
       "sentiment": {
-        "overall_score": -0.16,
+        "overall_score": -0.13,
         "trend": "stable",
         "previous_score": -0.16,
         "confidence": "high",
@@ -408,7 +408,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.16,
+            "score": -0.13,
             "count": 15
           },
           "reddit": {
@@ -422,6 +422,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Microsoft closes book on rogue Windows Server 2025 upgrades",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47806248",
+          "date": "2026-04-17",
+          "sentiment_score": 0.0
+        },
         {
           "title": "Russia Hacked Routers to Steal Microsoft Office Tokens",
           "source": "Hacker News",
@@ -449,17 +456,9 @@
           "url": "https://news.ycombinator.com/item?id=47739615",
           "date": "2026-04-12",
           "sentiment_score": 0.5106
-        },
-        {
-          "title": "Show HN: BillSpike \u2013 Root cause analysis for cloud cost spikes",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47704305",
-          "date": "2026-04-09",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.15,
         0.16,
         0.22,
         0.22,
@@ -488,7 +487,8 @@
         -0.16,
         -0.16,
         -0.16,
-        -0.16
+        -0.16,
+        -0.13
       ]
     },
     {
@@ -585,7 +585,6 @@
         0.0,
         0.0,
         0.0,
-        0.0,
         -0.31,
         -0.31,
         -0.31,
@@ -597,6 +596,7 @@
         -0.32,
         -0.32,
         -0.32,
+        0,
         0,
         0,
         0,
@@ -642,7 +642,6 @@
       },
       "top_headlines": [],
       "sparkline": [
-        0,
         -0.57,
         -0.57,
         -0.57,
@@ -670,6 +669,7 @@
         0.0,
         0.0,
         0.0,
+        0,
         0,
         0
       ]
@@ -735,7 +735,6 @@
         0.3,
         0.3,
         0.3,
-        0.3,
         0.46,
         0.46,
         0.46,
@@ -754,6 +753,7 @@
         0.0,
         0.0,
         0.0,
+        0.0,
         0.0
       ]
     },
@@ -762,7 +762,7 @@
       "sentiment": {
         "overall_score": -0.04,
         "trend": "stable",
-        "previous_score": -0.06,
+        "previous_score": -0.04,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -823,7 +823,6 @@
       ],
       "sparkline": [
         -0.03,
-        -0.03,
         -0.04,
         -0.04,
         -0.08,
@@ -851,6 +850,7 @@
         -0.06,
         -0.06,
         -0.06,
+        -0.04,
         -0.04
       ]
     },
@@ -900,7 +900,6 @@
       "sparkline": [
         -0.18,
         -0.18,
-        -0.18,
         -0.1,
         -0.1,
         -0.1,
@@ -927,6 +926,7 @@
         -0.31,
         -0.31,
         -0.31,
+        -0.31,
         -0.31
       ]
     },
@@ -935,7 +935,7 @@
       "sentiment": {
         "overall_score": 0.06,
         "trend": "stable",
-        "previous_score": 0.11,
+        "previous_score": 0.06,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -995,7 +995,6 @@
         }
       ],
       "sparkline": [
-        0.34,
         0.35,
         0.35,
         0.35,
@@ -1024,25 +1023,26 @@
         0.03,
         0.03,
         0.11,
+        0.06,
         0.06
       ]
     },
     {
       "name": "Tesla",
       "sentiment": {
-        "overall_score": -0.03,
-        "trend": "declining",
-        "previous_score": 0.11,
+        "overall_score": 0.04,
+        "trend": "improving",
+        "previous_score": -0.03,
         "confidence": "medium",
-        "sample_size": 6,
+        "sample_size": 8,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.03,
-            "count": 6
+            "score": 0.04,
+            "count": 8
           },
           "reddit": {
             "score": 0,
@@ -1056,11 +1056,25 @@
       },
       "top_headlines": [
         {
+          "title": "Tesla Roadstar does not even have a release date so how is that not real fraud?",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47810471",
+          "date": "2026-04-17",
+          "sentiment_score": 0.4717
+        },
+        {
           "title": "Tesla is facing up to $14.5B in lawsuits \u2013 and it's only getting worse",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=47804433",
           "date": "2026-04-17",
           "sentiment_score": -0.5719
+        },
+        {
+          "title": "Tesla tells HW3 owner to 'be patient' after 7 years of waiting for FSD",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47809347",
+          "date": "2026-04-17",
+          "sentiment_score": 0.0
         },
         {
           "title": "Show HN: Stage \u2013 Putting humans back in control of code review",
@@ -1075,24 +1089,9 @@
           "url": "https://news.ycombinator.com/item?id=47600615",
           "date": "2026-04-01",
           "sentiment_score": 0.296
-        },
-        {
-          "title": "Tesla Robotaxi",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47582509",
-          "date": "2026-03-31",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "California Regulator Says Tesla's 'Robotaxis' Are More Like a Limo in the Law",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47533191",
-          "date": "2026-03-26",
-          "sentiment_score": 0.4201
         }
       ],
       "sparkline": [
-        0.39,
         0.38,
         0.47,
         0.47,
@@ -1121,7 +1120,8 @@
         -0.04,
         -0.04,
         0.11,
-        -0.03
+        -0.03,
+        0.04
       ]
     },
     {
@@ -1154,7 +1154,6 @@
       "top_headlines": [],
       "sparkline": [
         0.13,
-        0.13,
         0.3,
         0.3,
         0.3,
@@ -1174,6 +1173,7 @@
         0.22,
         0.22,
         0.22,
+        0,
         0,
         0,
         0,
@@ -1223,7 +1223,6 @@
       ],
       "sparkline": [
         0.49,
-        0.49,
         0.28,
         0.28,
         0.45,
@@ -1250,6 +1249,7 @@
         -0.43,
         -0.43,
         -0.43,
+        0.0,
         0.0,
         0.0
       ]
