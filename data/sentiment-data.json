@@ -1,27 +1,27 @@
 {
-  "last_updated": "2026-04-19T02:45:09.897991Z",
+  "last_updated": "2026-04-19T13:06:40.297417Z",
   "scraper_log": {
-    "duration_sec": 68.55,
-    "total_articles": 114,
+    "duration_sec": 199.73,
+    "total_articles": 117,
     "errors": []
   },
   "companies": [
     {
       "name": "Amazon",
       "sentiment": {
-        "overall_score": 0.06,
+        "overall_score": 0.09,
         "trend": "stable",
         "previous_score": 0.06,
         "confidence": "high",
-        "sample_size": 14,
+        "sample_size": 15,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.06,
-            "count": 14
+            "score": 0.09,
+            "count": 15
           },
           "reddit": {
             "score": 0,
@@ -49,6 +49,13 @@
           "sentiment_score": 0.0
         },
         {
+          "title": "Amazon to acquire Globalstar and expand Amazon Leo satellite network",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47775183",
+          "date": "2026-04-15",
+          "sentiment_score": 0.5719
+        },
+        {
           "title": "Amazon rolls out 1-hour, 3-hour delivery",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=47764324",
@@ -61,17 +68,9 @@
           "url": "https://news.ycombinator.com/item?id=47766425",
           "date": "2026-04-14",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Show HN: Android AI agent-assistant operating your apps (no adb,PC,root,etc.)",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47738583",
-          "date": "2026-04-12",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.14,
         0.08,
         0.08,
         0.08,
@@ -100,7 +99,8 @@
         0.08,
         0.06,
         0.06,
-        0.06
+        0.06,
+        0.09
       ]
     },
     {
@@ -132,17 +132,17 @@
       },
       "top_headlines": [
         {
+          "title": "Show HN: Yojam \u2013 Route links to the right browser/profile, strip trackers first",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47822198",
+          "date": "2026-04-19",
+          "sentiment_score": 0.0
+        },
+        {
           "title": "Poetical: AI Poetry Feed",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=47817579",
           "date": "2026-04-18",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "Show HN: MacMind \u2013 A transformer neural network in HyperCard on a 1989 Macintosh",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47792525",
-          "date": "2026-04-16",
           "sentiment_score": 0.0
         },
         {
@@ -168,7 +168,6 @@
         }
       ],
       "sparkline": [
-        0.13,
         0.14,
         0.14,
         0.14,
@@ -193,6 +192,7 @@
         -0.05,
         -0.05,
         -0.05,
+        -0.08,
         -0.08,
         -0.08,
         -0.08,
@@ -269,7 +269,6 @@
         0.14,
         0.14,
         0.14,
-        0.14,
         0.21,
         0.21,
         0.21,
@@ -294,15 +293,16 @@
         -0.08,
         -0.08,
         -0.08,
+        -0.08,
         -0.08
       ]
     },
     {
       "name": "Meta",
       "sentiment": {
-        "overall_score": -0.0,
+        "overall_score": 0.01,
         "trend": "stable",
-        "previous_score": 0.02,
+        "previous_score": -0.0,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -311,7 +311,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.0,
+            "score": 0.01,
             "count": 15
           },
           "reddit": {
@@ -326,11 +326,11 @@
       },
       "top_headlines": [
         {
-          "title": "Ran into a fake \"LP\" at a YC after-party and I need to vent",
+          "title": "Meta to cut 8k jobs 10% of workforce in major bloodbath next month",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47821326",
+          "url": "https://news.ycombinator.com/item?id=47822124",
           "date": "2026-04-19",
-          "sentiment_score": -0.4767
+          "sentiment_score": -0.2732
         },
         {
           "title": "EU warns Meta WhatsApp AI fee breaches antitrust rules, orders rollback",
@@ -347,22 +347,21 @@
           "sentiment_score": 0.0
         },
         {
+          "title": "Show HN: HyperFlow \u2013 A self-improving agent framework built on LangGraph",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47727255",
+          "date": "2026-04-11",
+          "sentiment_score": 0.0
+        },
+        {
           "title": "Contemplating Meta's Homegrown MTIA Compute Engine Roadmap",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=47720720",
           "date": "2026-04-10",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Show HN: Stricline: A meta-framework to easily build robust CLI apps w/stricli",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47700105",
-          "date": "2026-04-09",
-          "sentiment_score": 0.5859
         }
       ],
       "sparkline": [
-        0.15,
         0.15,
         0.15,
         0.15,
@@ -391,7 +390,8 @@
         -0.02,
         0.01,
         0.02,
-        -0.0
+        -0.0,
+        0.01
       ]
     },
     {
@@ -459,7 +459,6 @@
         }
       ],
       "sparkline": [
-        0.22,
         0.24,
         0.25,
         0.26,
@@ -486,6 +485,7 @@
         -0.16,
         -0.16,
         -0.16,
+        -0.13,
         -0.13,
         -0.13,
         -0.13
@@ -582,7 +582,6 @@
       "top_headlines": [],
       "sparkline": [
         0.0,
-        0.0,
         -0.31,
         -0.31,
         -0.31,
@@ -594,6 +593,7 @@
         -0.32,
         -0.32,
         -0.32,
+        0,
         0,
         0,
         0,
@@ -642,7 +642,6 @@
       },
       "top_headlines": [],
       "sparkline": [
-        -0.57,
         0,
         0,
         0,
@@ -667,6 +666,7 @@
         0.0,
         0.0,
         0.0,
+        0,
         0,
         0,
         0,
@@ -678,8 +678,8 @@
       "name": "Salesforce",
       "sentiment": {
         "overall_score": 0.0,
-        "trend": "improving",
-        "previous_score": -0.07,
+        "trend": "stable",
+        "previous_score": 0.0,
         "confidence": "low",
         "sample_size": 1,
         "source_scores": {
@@ -718,7 +718,6 @@
         0.3,
         0.3,
         0.3,
-        0.3,
         0.46,
         0.46,
         0.46,
@@ -740,6 +739,7 @@
         0.0,
         0.0,
         -0.07,
+        0.0,
         0.0
       ]
     },
@@ -748,7 +748,7 @@
       "sentiment": {
         "overall_score": -0.09,
         "trend": "stable",
-        "previous_score": -0.04,
+        "previous_score": -0.09,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -808,7 +808,6 @@
         }
       ],
       "sparkline": [
-        -0.04,
         -0.08,
         -0.08,
         -0.11,
@@ -837,25 +836,26 @@
         -0.04,
         -0.04,
         -0.04,
+        -0.09,
         -0.09
       ]
     },
     {
       "name": "Disney",
       "sentiment": {
-        "overall_score": -0.62,
-        "trend": "declining",
-        "previous_score": -0.31,
+        "overall_score": -0.31,
+        "trend": "improving",
+        "previous_score": -0.62,
         "confidence": "low",
-        "sample_size": 1,
+        "sample_size": 2,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.62,
-            "count": 1
+            "score": -0.31,
+            "count": 2
           },
           "reddit": {
             "score": 0,
@@ -869,6 +869,13 @@
       },
       "top_headlines": [
         {
+          "title": "YouTube now world's largest media company, topping Disney",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47705278",
+          "date": "2026-04-09",
+          "sentiment_score": 0.0
+        },
+        {
           "title": "Disney's $1B Investment in OpenAI DOA as Sam Altman Pulls Sora Plug",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=47509996",
@@ -877,7 +884,6 @@
         }
       ],
       "sparkline": [
-        -0.1,
         -0.1,
         -0.1,
         -0.02,
@@ -906,13 +912,14 @@
         -0.31,
         -0.31,
         -0.31,
-        -0.62
+        -0.62,
+        -0.31
       ]
     },
     {
       "name": "Dell",
       "sentiment": {
-        "overall_score": 0.06,
+        "overall_score": 0.04,
         "trend": "stable",
         "previous_score": 0.06,
         "confidence": "high",
@@ -923,7 +930,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.06,
+            "score": 0.04,
             "count": 15
           },
           "reddit": {
@@ -937,13 +944,6 @@
         }
       },
       "top_headlines": [
-        {
-          "title": "Ran into a fake \"LP\" at a YC after-party and I need to vent",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47821326",
-          "date": "2026-04-19",
-          "sentiment_score": -0.4767
-        },
         {
           "title": "Show HN: Early Reader \u2013 Free open source reading app I built for my 4-year-old",
           "source": "Hacker News",
@@ -966,6 +966,13 @@
           "sentiment_score": 0.0
         },
         {
+          "title": "Tell HN: Docker pull fails in Spain due to football Cloudflare block",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47738883",
+          "date": "2026-04-12",
+          "sentiment_score": -0.6908
+        },
+        {
           "title": "Show HN: I built an open protocol for Agent-to-agent commercial negotiation",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=47688116",
@@ -974,7 +981,6 @@
         }
       ],
       "sparkline": [
-        0.35,
         0.42,
         0.36,
         0.37,
@@ -1003,25 +1009,26 @@
         0.06,
         0.06,
         0.06,
-        0.06
+        0.06,
+        0.04
       ]
     },
     {
       "name": "Tesla",
       "sentiment": {
-        "overall_score": 0.13,
-        "trend": "improving",
-        "previous_score": 0.04,
+        "overall_score": 0.11,
+        "trend": "stable",
+        "previous_score": 0.13,
         "confidence": "medium",
-        "sample_size": 7,
+        "sample_size": 8,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.13,
-            "count": 7
+            "score": 0.11,
+            "count": 8
           },
           "reddit": {
             "score": 0,
@@ -1034,6 +1041,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Finland, Tesla, and the Quiet Revolution in How We Touch Electricity",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47821525",
+          "date": "2026-04-19",
+          "sentiment_score": 0.0
+        },
         {
           "title": "Tesla Roadstar does not even have a release date so how is that not real fraud?",
           "source": "Hacker News",
@@ -1061,17 +1075,9 @@
           "url": "https://news.ycombinator.com/item?id=47600615",
           "date": "2026-04-01",
           "sentiment_score": 0.296
-        },
-        {
-          "title": "Tesla Robotaxi",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47582509",
-          "date": "2026-03-31",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.47,
         0.48,
         0.48,
         0.48,
@@ -1100,7 +1106,8 @@
         -0.03,
         0.04,
         0.04,
-        0.13
+        0.13,
+        0.11
       ]
     },
     {
@@ -1140,7 +1147,6 @@
         0.3,
         0.3,
         0.3,
-        0.3,
         0.36,
         0.37,
         0.37,
@@ -1150,6 +1156,7 @@
         0.22,
         0.22,
         0.22,
+        0,
         0,
         0,
         0,
@@ -1201,7 +1208,6 @@
         }
       ],
       "sparkline": [
-        0.28,
         0.45,
         0.37,
         0.37,
@@ -1226,6 +1232,7 @@
         -0.43,
         -0.43,
         -0.43,
+        0.0,
         0.0,
         0.0,
         0.0,
