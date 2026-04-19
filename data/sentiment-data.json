@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-04-18T13:05:25.719282Z",
+  "last_updated": "2026-04-19T02:45:09.897991Z",
   "scraper_log": {
-    "duration_sec": 69.24,
-    "total_articles": 121,
+    "duration_sec": 68.55,
+    "total_articles": 114,
     "errors": []
   },
   "companies": [
@@ -13,7 +13,7 @@
         "trend": "stable",
         "previous_score": 0.06,
         "confidence": "high",
-        "sample_size": 15,
+        "sample_size": 14,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -21,7 +21,7 @@
           },
           "hackernews": {
             "score": 0.06,
-            "count": 15
+            "count": 14
           },
           "reddit": {
             "score": 0,
@@ -72,7 +72,6 @@
       ],
       "sparkline": [
         0.14,
-        0.14,
         0.08,
         0.08,
         0.08,
@@ -99,6 +98,7 @@
         0.05,
         0.04,
         0.08,
+        0.06,
         0.06,
         0.06
       ]
@@ -132,6 +132,13 @@
       },
       "top_headlines": [
         {
+          "title": "Poetical: AI Poetry Feed",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47817579",
+          "date": "2026-04-18",
+          "sentiment_score": 0.0
+        },
+        {
           "title": "Show HN: MacMind \u2013 A transformer neural network in HyperCard on a 1989 Macintosh",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=47792525",
@@ -158,17 +165,9 @@
           "url": "https://news.ycombinator.com/item?id=47652943",
           "date": "2026-04-05",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Germany's cybersecurity authority (BSI) TLS cert untrusted on Apple devices",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47644820",
-          "date": "2026-04-05",
-          "sentiment_score": 0.0772
         }
       ],
       "sparkline": [
-        0.13,
         0.13,
         0.14,
         0.14,
@@ -194,6 +193,7 @@
         -0.05,
         -0.05,
         -0.05,
+        -0.08,
         -0.08,
         -0.08,
         -0.08,
@@ -270,7 +270,6 @@
         0.14,
         0.14,
         0.14,
-        0.14,
         0.21,
         0.21,
         0.21,
@@ -294,15 +293,16 @@
         -0.08,
         -0.08,
         -0.08,
+        -0.08,
         -0.08
       ]
     },
     {
       "name": "Meta",
       "sentiment": {
-        "overall_score": 0.02,
+        "overall_score": -0.0,
         "trend": "stable",
-        "previous_score": 0.01,
+        "previous_score": 0.02,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -311,7 +311,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.02,
+            "score": -0.0,
             "count": 15
           },
           "reddit": {
@@ -325,6 +325,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Ran into a fake \"LP\" at a YC after-party and I need to vent",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47821326",
+          "date": "2026-04-19",
+          "sentiment_score": -0.4767
+        },
         {
           "title": "EU warns Meta WhatsApp AI fee breaches antitrust rules, orders rollback",
           "source": "Hacker News",
@@ -352,17 +359,9 @@
           "url": "https://news.ycombinator.com/item?id=47700105",
           "date": "2026-04-09",
           "sentiment_score": 0.5859
-        },
-        {
-          "title": "Tech companies are axing roles. They're hiring some back as contractors",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47680468",
-          "date": "2026-04-07",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.15,
         0.15,
         0.15,
         0.15,
@@ -391,7 +390,8 @@
         -0.07,
         -0.02,
         0.01,
-        0.02
+        0.02,
+        -0.0
       ]
     },
     {
@@ -460,7 +460,6 @@
       ],
       "sparkline": [
         0.22,
-        0.22,
         0.24,
         0.25,
         0.26,
@@ -487,6 +486,7 @@
         -0.16,
         -0.16,
         -0.16,
+        -0.13,
         -0.13,
         -0.13
       ]
@@ -583,7 +583,6 @@
       "sparkline": [
         0.0,
         0.0,
-        0.0,
         -0.31,
         -0.31,
         -0.31,
@@ -595,6 +594,7 @@
         -0.32,
         -0.32,
         -0.32,
+        0,
         0,
         0,
         0,
@@ -643,7 +643,6 @@
       "top_headlines": [],
       "sparkline": [
         -0.57,
-        -0.57,
         0,
         0,
         0,
@@ -668,6 +667,7 @@
         0.0,
         0.0,
         0.0,
+        0,
         0,
         0,
         0,
@@ -677,19 +677,19 @@
     {
       "name": "Salesforce",
       "sentiment": {
-        "overall_score": -0.07,
-        "trend": "declining",
-        "previous_score": 0.0,
+        "overall_score": 0.0,
+        "trend": "improving",
+        "previous_score": -0.07,
         "confidence": "low",
-        "sample_size": 4,
+        "sample_size": 1,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.07,
-            "count": 4
+            "score": 0.0,
+            "count": 1
           },
           "reddit": {
             "score": 0,
@@ -703,27 +703,6 @@
       },
       "top_headlines": [
         {
-          "title": "Salesforce Headless 360. No Browser Required",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47813754",
-          "date": "2026-04-18",
-          "sentiment_score": -0.296
-        },
-        {
-          "title": "Salesforce Launches Headless 360",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47803510",
-          "date": "2026-04-17",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "Show HN: A CLI that writes its own integration code",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47762951",
-          "date": "2026-04-14",
-          "sentiment_score": 0.0
-        },
-        {
           "title": "Show HN: I built an open protocol for Agent-to-agent commercial negotiation",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=47688116",
@@ -732,7 +711,6 @@
         }
       ],
       "sparkline": [
-        0.3,
         0.3,
         0.3,
         0.3,
@@ -761,13 +739,14 @@
         0.0,
         0.0,
         0.0,
-        -0.07
+        -0.07,
+        0.0
       ]
     },
     {
       "name": "AT&T",
       "sentiment": {
-        "overall_score": -0.04,
+        "overall_score": -0.09,
         "trend": "stable",
         "previous_score": -0.04,
         "confidence": "high",
@@ -778,7 +757,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.04,
+            "score": -0.09,
             "count": 15
           },
           "reddit": {
@@ -793,18 +772,18 @@
       },
       "top_headlines": [
         {
+          "title": "Israel escalates attacks on medics in Lebanon with deadly 'quadruple tap'",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47806596",
+          "date": "2026-04-17",
+          "sentiment_score": -0.4404
+        },
+        {
           "title": "The \"Passive Income\" trap ate a generation of entrepreneurs",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=47799120",
           "date": "2026-04-16",
           "sentiment_score": -0.128
-        },
-        {
-          "title": "447 TB/cm\u00b2 at zero retention energy \u2013 atomic-scale memory on fluorographane",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47733561",
-          "date": "2026-04-11",
-          "sentiment_score": 0.2732
         },
         {
           "title": "Open source security at Astral",
@@ -829,7 +808,6 @@
         }
       ],
       "sparkline": [
-        -0.04,
         -0.04,
         -0.08,
         -0.08,
@@ -858,25 +836,26 @@
         -0.06,
         -0.04,
         -0.04,
-        -0.04
+        -0.04,
+        -0.09
       ]
     },
     {
       "name": "Disney",
       "sentiment": {
-        "overall_score": -0.31,
-        "trend": "stable",
+        "overall_score": -0.62,
+        "trend": "declining",
         "previous_score": -0.31,
         "confidence": "low",
-        "sample_size": 2,
+        "sample_size": 1,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.31,
-            "count": 2
+            "score": -0.62,
+            "count": 1
           },
           "reddit": {
             "score": 0,
@@ -890,13 +869,6 @@
       },
       "top_headlines": [
         {
-          "title": "YouTube now world's largest media company, topping Disney",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47705278",
-          "date": "2026-04-09",
-          "sentiment_score": 0.0
-        },
-        {
           "title": "Disney's $1B Investment in OpenAI DOA as Sam Altman Pulls Sora Plug",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=47509996",
@@ -905,7 +877,6 @@
         }
       ],
       "sparkline": [
-        -0.18,
         -0.1,
         -0.1,
         -0.1,
@@ -934,7 +905,8 @@
         -0.31,
         -0.31,
         -0.31,
-        -0.31
+        -0.31,
+        -0.62
       ]
     },
     {
@@ -966,6 +938,13 @@
       },
       "top_headlines": [
         {
+          "title": "Ran into a fake \"LP\" at a YC after-party and I need to vent",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47821326",
+          "date": "2026-04-19",
+          "sentiment_score": -0.4767
+        },
+        {
           "title": "Show HN: Early Reader \u2013 Free open source reading app I built for my 4-year-old",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=47762556",
@@ -987,13 +966,6 @@
           "sentiment_score": 0.0
         },
         {
-          "title": "Tell HN: Docker pull fails in Spain due to football Cloudflare block",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47738883",
-          "date": "2026-04-12",
-          "sentiment_score": -0.6908
-        },
-        {
           "title": "Show HN: I built an open protocol for Agent-to-agent commercial negotiation",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=47688116",
@@ -1002,7 +974,6 @@
         }
       ],
       "sparkline": [
-        0.35,
         0.35,
         0.42,
         0.36,
@@ -1031,25 +1002,26 @@
         0.11,
         0.06,
         0.06,
+        0.06,
         0.06
       ]
     },
     {
       "name": "Tesla",
       "sentiment": {
-        "overall_score": 0.04,
-        "trend": "stable",
+        "overall_score": 0.13,
+        "trend": "improving",
         "previous_score": 0.04,
         "confidence": "medium",
-        "sample_size": 9,
+        "sample_size": 7,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.04,
-            "count": 9
+            "score": 0.13,
+            "count": 7
           },
           "reddit": {
             "score": 0,
@@ -1063,25 +1035,11 @@
       },
       "top_headlines": [
         {
-          "title": "Why your company will never scale (or maybe why it will)",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47814662",
-          "date": "2026-04-18",
-          "sentiment_score": 0.0
-        },
-        {
           "title": "Tesla Roadstar does not even have a release date so how is that not real fraud?",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=47810471",
           "date": "2026-04-17",
           "sentiment_score": 0.4717
-        },
-        {
-          "title": "Tesla is facing up to $14.5B in lawsuits \u2013 and it's only getting worse",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47804433",
-          "date": "2026-04-17",
-          "sentiment_score": -0.5719
         },
         {
           "title": "Tesla tells HW3 owner to 'be patient' after 7 years of waiting for FSD",
@@ -1096,10 +1054,23 @@
           "url": "https://news.ycombinator.com/item?id=47796818",
           "date": "2026-04-16",
           "sentiment_score": 0.0
+        },
+        {
+          "title": "Tesla Goes Ahead and Admits Its Robotaxis Are Sometimes Human-Controlled",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47600615",
+          "date": "2026-04-01",
+          "sentiment_score": 0.296
+        },
+        {
+          "title": "Tesla Robotaxi",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47582509",
+          "date": "2026-03-31",
+          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.47,
         0.47,
         0.48,
         0.48,
@@ -1128,7 +1099,8 @@
         0.11,
         -0.03,
         0.04,
-        0.04
+        0.04,
+        0.13
       ]
     },
     {
@@ -1169,7 +1141,6 @@
         0.3,
         0.3,
         0.3,
-        0.3,
         0.36,
         0.37,
         0.37,
@@ -1179,6 +1150,7 @@
         0.22,
         0.22,
         0.22,
+        0,
         0,
         0,
         0,
@@ -1230,7 +1202,6 @@
       ],
       "sparkline": [
         0.28,
-        0.28,
         0.45,
         0.37,
         0.37,
@@ -1255,6 +1226,7 @@
         -0.43,
         -0.43,
         -0.43,
+        0.0,
         0.0,
         0.0,
         0.0,
