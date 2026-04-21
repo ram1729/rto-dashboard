@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-04-21T02:43:54.974303Z",
+  "last_updated": "2026-04-21T13:37:38.923221Z",
   "scraper_log": {
-    "duration_sec": 64.04,
-    "total_articles": 116,
+    "duration_sec": 275.87,
+    "total_articles": 119,
     "errors": []
   },
   "companies": [
@@ -11,7 +11,7 @@
       "sentiment": {
         "overall_score": 0.05,
         "trend": "stable",
-        "previous_score": 0.09,
+        "previous_score": 0.05,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -76,7 +76,6 @@
         0.08,
         0.08,
         0.08,
-        0.08,
         0.16,
         0.19,
         0.17,
@@ -100,15 +99,16 @@
         0.06,
         0.06,
         0.09,
+        0.05,
         0.05
       ]
     },
     {
       "name": "Apple",
       "sentiment": {
-        "overall_score": -0.06,
+        "overall_score": -0.09,
         "trend": "stable",
-        "previous_score": -0.08,
+        "previous_score": -0.06,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -117,7 +117,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.06,
+            "score": -0.09,
             "count": 15
           },
           "reddit": {
@@ -131,6 +131,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Tim Cook's Rotten Apple",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47847778",
+          "date": "2026-04-21",
+          "sentiment_score": -0.5106
+        },
         {
           "title": "Show HN: CyberWriter \u2013 a .md editor built on Apple's (barely-used) on-device AI",
           "source": "Hacker News",
@@ -153,13 +160,6 @@
           "sentiment_score": 0.0
         },
         {
-          "title": "Show HN: MacMind \u2013 A transformer neural network in HyperCard on a 1989 Macintosh",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47792525",
-          "date": "2026-04-16",
-          "sentiment_score": 0.0
-        },
-        {
           "title": "How the Vision Pro Rollout Inflamed Tensions at Apple",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=47730166",
@@ -168,7 +168,6 @@
         }
       ],
       "sparkline": [
-        0.14,
         0.14,
         0.14,
         0.14,
@@ -197,7 +196,8 @@
         -0.08,
         -0.08,
         -0.08,
-        -0.06
+        -0.06,
+        -0.09
       ]
     },
     {
@@ -267,7 +267,6 @@
       "sparkline": [
         0.14,
         0.14,
-        0.14,
         0.21,
         0.21,
         0.21,
@@ -294,6 +293,7 @@
         -0.08,
         -0.08,
         -0.08,
+        -0.08,
         -0.08
       ]
     },
@@ -302,9 +302,9 @@
       "sentiment": {
         "overall_score": 0.03,
         "trend": "stable",
-        "previous_score": 0.01,
+        "previous_score": 0.03,
         "confidence": "high",
-        "sample_size": 12,
+        "sample_size": 15,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -312,7 +312,7 @@
           },
           "hackernews": {
             "score": 0.03,
-            "count": 12
+            "count": 15
           },
           "reddit": {
             "score": 0,
@@ -326,6 +326,27 @@
       },
       "top_headlines": [
         {
+          "title": "Show HN: Libredesk \u2013 self-hosted, single binary Intercom/Zendesk alternative",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47833870",
+          "date": "2026-04-20",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Ran into a fake \"LP\" at a YC after-party and I need to vent",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47821326",
+          "date": "2026-04-19",
+          "sentiment_score": -0.4767
+        },
+        {
+          "title": "Focused microwaves allow 3D printers to fuse circuits onto almost anything",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47810531",
+          "date": "2026-04-17",
+          "sentiment_score": 0.5423
+        },
+        {
           "title": "EU warns Meta WhatsApp AI fee breaches antitrust rules, orders rollback",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=47781472",
@@ -338,31 +359,9 @@
           "url": "https://news.ycombinator.com/item?id=47779084",
           "date": "2026-04-15",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Contemplating Meta's Homegrown MTIA Compute Engine Roadmap",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47720720",
-          "date": "2026-04-10",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "Show HN: Stricline: A meta-framework to easily build robust CLI apps w/stricli",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47700105",
-          "date": "2026-04-09",
-          "sentiment_score": 0.5859
-        },
-        {
-          "title": "Tech companies are axing roles. They're hiring some back as contractors",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47680468",
-          "date": "2026-04-07",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.15,
         0.15,
         0.15,
         0.23,
@@ -391,6 +390,7 @@
         0.02,
         -0.0,
         0.01,
+        0.03,
         0.03
       ]
     },
@@ -399,7 +399,7 @@
       "sentiment": {
         "overall_score": -0.16,
         "trend": "stable",
-        "previous_score": -0.13,
+        "previous_score": -0.16,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -459,7 +459,6 @@
         }
       ],
       "sparkline": [
-        0.25,
         0.26,
         0.26,
         0.23,
@@ -488,25 +487,26 @@
         -0.13,
         -0.13,
         -0.13,
+        -0.16,
         -0.16
       ]
     },
     {
       "name": "JPMorgan Chase",
       "sentiment": {
-        "overall_score": 0,
-        "trend": "stable",
+        "overall_score": 0.27,
+        "trend": "improving",
         "previous_score": 0,
         "confidence": "low",
-        "sample_size": 0,
+        "sample_size": 1,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0,
-            "count": 0
+            "score": 0.27,
+            "count": 1
           },
           "reddit": {
             "score": 0,
@@ -518,7 +518,15 @@
           }
         }
       },
-      "top_headlines": [],
+      "top_headlines": [
+        {
+          "title": "Data Center Is Getting a $77M Tax Break to Create One Job",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47835423",
+          "date": "2026-04-20",
+          "sentiment_score": 0.2732
+        }
+      ],
       "sparkline": [
         0,
         0,
@@ -549,7 +557,7 @@
         0,
         0,
         0,
-        0
+        0.27
       ]
     },
     {
@@ -583,7 +591,6 @@
       "sparkline": [
         -0.31,
         -0.31,
-        -0.31,
         -0.16,
         -0.16,
         -0.31,
@@ -592,6 +599,7 @@
         -0.32,
         -0.32,
         -0.32,
+        0,
         0,
         0,
         0,
@@ -616,19 +624,19 @@
     {
       "name": "Bank of America",
       "sentiment": {
-        "overall_score": 0,
+        "overall_score": 0.0,
         "trend": "stable",
         "previous_score": 0,
         "confidence": "low",
-        "sample_size": 0,
+        "sample_size": 1,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0,
-            "count": 0
+            "score": 0.0,
+            "count": 1
           },
           "reddit": {
             "score": 0,
@@ -640,13 +648,20 @@
           }
         }
       },
-      "top_headlines": [],
+      "top_headlines": [
+        {
+          "title": "Show HN: An interactive map of Tolkien's Middle-earth",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47681112",
+          "date": "2026-04-07",
+          "sentiment_score": 0.0
+        }
+      ],
       "sparkline": [
         0,
         0,
         0,
         0,
-        0,
         0.0,
         0.0,
         0.0,
@@ -671,7 +686,8 @@
         0,
         0,
         0,
-        0
+        0,
+        0.0
       ]
     },
     {
@@ -716,7 +732,6 @@
         0.3,
         0.3,
         0.3,
-        0.3,
         0.46,
         0.46,
         0.46,
@@ -740,6 +755,7 @@
         -0.07,
         0.0,
         0.0,
+        0.0,
         0.0
       ]
     },
@@ -747,8 +763,8 @@
       "name": "AT&T",
       "sentiment": {
         "overall_score": -0.03,
-        "trend": "improving",
-        "previous_score": -0.09,
+        "trend": "stable",
+        "previous_score": -0.03,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -808,7 +824,6 @@
         }
       ],
       "sparkline": [
-        -0.08,
         -0.11,
         -0.11,
         -0.08,
@@ -837,6 +852,7 @@
         -0.04,
         -0.09,
         -0.09,
+        -0.03,
         -0.03
       ]
     },
@@ -844,8 +860,8 @@
       "name": "Disney",
       "sentiment": {
         "overall_score": -0.62,
-        "trend": "declining",
-        "previous_score": -0.31,
+        "trend": "stable",
+        "previous_score": -0.62,
         "confidence": "low",
         "sample_size": 1,
         "source_scores": {
@@ -877,7 +893,6 @@
         }
       ],
       "sparkline": [
-        -0.1,
         -0.02,
         -0.02,
         0.06,
@@ -906,15 +921,16 @@
         -0.31,
         -0.62,
         -0.31,
+        -0.62,
         -0.62
       ]
     },
     {
       "name": "Dell",
       "sentiment": {
-        "overall_score": 0.14,
-        "trend": "improving",
-        "previous_score": 0.04,
+        "overall_score": 0.04,
+        "trend": "declining",
+        "previous_score": 0.14,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -923,7 +939,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.14,
+            "score": 0.04,
             "count": 15
           },
           "reddit": {
@@ -938,11 +954,11 @@
       },
       "top_headlines": [
         {
-          "title": "I found a true singularity \u2013 but noone cares? well",
+          "title": "Launch HN: Kampala (YC W26) \u2013 Reverse-Engineer Apps into APIs",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47834286",
-          "date": "2026-04-20",
-          "sentiment_score": 0.8201
+          "url": "https://news.ycombinator.com/item?id=47794514",
+          "date": "2026-04-16",
+          "sentiment_score": 0.0
         },
         {
           "title": "Show HN: Early Reader \u2013 Free open source reading app I built for my 4-year-old",
@@ -966,15 +982,14 @@
           "sentiment_score": 0.0
         },
         {
-          "title": "Show HN: I built an open protocol for Agent-to-agent commercial negotiation",
+          "title": "Tell HN: Docker pull fails in Spain due to football Cloudflare block",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47688116",
-          "date": "2026-04-08",
-          "sentiment_score": 0.0
+          "url": "https://news.ycombinator.com/item?id=47738883",
+          "date": "2026-04-12",
+          "sentiment_score": -0.6908
         }
       ],
       "sparkline": [
-        0.36,
         0.37,
         0.37,
         0.38,
@@ -1003,25 +1018,26 @@
         0.06,
         0.06,
         0.04,
-        0.14
+        0.14,
+        0.04
       ]
     },
     {
       "name": "Tesla",
       "sentiment": {
-        "overall_score": -0.05,
-        "trend": "declining",
-        "previous_score": 0.11,
-        "confidence": "high",
-        "sample_size": 11,
+        "overall_score": -0.02,
+        "trend": "stable",
+        "previous_score": -0.05,
+        "confidence": "medium",
+        "sample_size": 9,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.05,
-            "count": 11
+            "score": -0.02,
+            "count": 9
           },
           "reddit": {
             "score": 0,
@@ -1035,6 +1051,13 @@
       },
       "top_headlines": [
         {
+          "title": "Tesla (TSLA) Q1 2026 earnings preview: the growth story is dead",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47846823",
+          "date": "2026-04-21",
+          "sentiment_score": -0.4019
+        },
+        {
           "title": "Tesla concealed fatal accidents to continue testing autonomous driving",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=47833156",
@@ -1042,36 +1065,28 @@
           "sentiment_score": -0.7003
         },
         {
-          "title": "Tesla owner uses emergency solar to trickle charge battery in desert",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47832646",
-          "date": "2026-04-20",
-          "sentiment_score": -0.3818
-        },
-        {
-          "title": "Tesla owner uses emergency solar to trickle charge after running out of battery",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47825071",
-          "date": "2026-04-19",
-          "sentiment_score": -0.3818
-        },
-        {
-          "title": "Finland, Tesla, and the Quiet Revolution in How We Touch Electricity",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47821525",
-          "date": "2026-04-19",
-          "sentiment_score": 0.0
-        },
-        {
           "title": "Tesla Roadstar does not even have a release date so how is that not real fraud?",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=47810471",
           "date": "2026-04-17",
           "sentiment_score": 0.4717
+        },
+        {
+          "title": "Tesla tells HW3 owner to 'be patient' after 7 years of waiting for FSD",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47809347",
+          "date": "2026-04-17",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Show HN: Stage \u2013 Putting humans back in control of code review",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47796818",
+          "date": "2026-04-16",
+          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.48,
         0.48,
         0.48,
         0.53,
@@ -1100,7 +1115,8 @@
         0.04,
         0.13,
         0.11,
-        -0.05
+        -0.05,
+        -0.02
       ]
     },
     {
@@ -1138,7 +1154,6 @@
         0.3,
         0.3,
         0.3,
-        0.3,
         0.36,
         0.37,
         0.37,
@@ -1148,6 +1163,7 @@
         0.22,
         0.22,
         0.22,
+        0,
         0,
         0,
         0,
@@ -1203,7 +1219,6 @@
       "sparkline": [
         0.37,
         0.37,
-        0.37,
         0.49,
         0.49,
         0.49,
@@ -1224,6 +1239,7 @@
         -0.43,
         -0.43,
         -0.43,
+        0.0,
         0.0,
         0.0,
         0.0,
