@@ -1,15 +1,15 @@
 {
-  "last_updated": "2026-04-21T13:37:38.923221Z",
+  "last_updated": "2026-04-22T13:37:55.819630Z",
   "scraper_log": {
-    "duration_sec": 275.87,
-    "total_articles": 119,
+    "duration_sec": 289.75,
+    "total_articles": 120,
     "errors": []
   },
   "companies": [
     {
       "name": "Amazon",
       "sentiment": {
-        "overall_score": 0.05,
+        "overall_score": 0.06,
         "trend": "stable",
         "previous_score": 0.05,
         "confidence": "high",
@@ -20,7 +20,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.05,
+            "score": 0.06,
             "count": 15
           },
           "reddit": {
@@ -42,6 +42,13 @@
           "sentiment_score": 0.0516
         },
         {
+          "title": "Show HN: TogetherLetters \u2013 Group newsletters with no app, no feed, no login",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47850854",
+          "date": "2026-04-21",
+          "sentiment_score": 0.1471
+        },
+        {
           "title": "Tell HN: Security Incident at Porter (YC S20)",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=47811132",
@@ -61,17 +68,9 @@
           "url": "https://news.ycombinator.com/item?id=47764324",
           "date": "2026-04-14",
           "sentiment_score": 0.1779
-        },
-        {
-          "title": "CVE-2026-5747 \u2013 Out-of-bounds Write in Firecracker virtio-PCI Transport",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47766425",
-          "date": "2026-04-14",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.08,
         0.08,
         0.08,
         0.08,
@@ -100,7 +99,8 @@
         0.06,
         0.09,
         0.05,
-        0.05
+        0.05,
+        0.06
       ]
     },
     {
@@ -108,7 +108,7 @@
       "sentiment": {
         "overall_score": -0.09,
         "trend": "stable",
-        "previous_score": -0.06,
+        "previous_score": -0.09,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -160,15 +160,14 @@
           "sentiment_score": 0.0
         },
         {
-          "title": "How the Vision Pro Rollout Inflamed Tensions at Apple",
+          "title": "Show HN: MacMind \u2013 A transformer neural network in HyperCard on a 1989 Macintosh",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47730166",
-          "date": "2026-04-11",
-          "sentiment_score": -0.4767
+          "url": "https://news.ycombinator.com/item?id=47792525",
+          "date": "2026-04-16",
+          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.14,
         0.14,
         0.14,
         0.14,
@@ -197,6 +196,7 @@
         -0.08,
         -0.08,
         -0.06,
+        -0.09,
         -0.09
       ]
     },
@@ -266,7 +266,6 @@
       ],
       "sparkline": [
         0.14,
-        0.14,
         0.21,
         0.21,
         0.21,
@@ -287,6 +286,7 @@
         -0.03,
         -0.02,
         -0.02,
+        -0.08,
         -0.08,
         -0.08,
         -0.08,
@@ -326,25 +326,25 @@
       },
       "top_headlines": [
         {
-          "title": "Show HN: Libredesk \u2013 self-hosted, single binary Intercom/Zendesk alternative",
+          "title": "Meta to start capturing employee mouse movements, keystrokes for AI training",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47833870",
-          "date": "2026-04-20",
+          "url": "https://news.ycombinator.com/item?id=47851948",
+          "date": "2026-04-21",
           "sentiment_score": 0.0
         },
         {
-          "title": "Ran into a fake \"LP\" at a YC after-party and I need to vent",
+          "title": "Meta to start capturing employee mouse movement, keystrokes for AI training data",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47821326",
-          "date": "2026-04-19",
-          "sentiment_score": -0.4767
+          "url": "https://news.ycombinator.com/item?id=47851086",
+          "date": "2026-04-21",
+          "sentiment_score": 0.0
         },
         {
-          "title": "Focused microwaves allow 3D printers to fuse circuits onto almost anything",
+          "title": "Meta to start capturing employee mouse movements, keystrokes for AI training",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47810531",
-          "date": "2026-04-17",
-          "sentiment_score": 0.5423
+          "url": "https://news.ycombinator.com/item?id=47851242",
+          "date": "2026-04-21",
+          "sentiment_score": 0.0
         },
         {
           "title": "EU warns Meta WhatsApp AI fee breaches antitrust rules, orders rollback",
@@ -362,7 +362,6 @@
         }
       ],
       "sparkline": [
-        0.15,
         0.15,
         0.23,
         0.22,
@@ -391,13 +390,14 @@
         -0.0,
         0.01,
         0.03,
+        0.03,
         0.03
       ]
     },
     {
       "name": "Microsoft",
       "sentiment": {
-        "overall_score": -0.16,
+        "overall_score": -0.14,
         "trend": "stable",
         "previous_score": -0.16,
         "confidence": "high",
@@ -408,7 +408,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.16,
+            "score": -0.14,
             "count": 15
           },
           "reddit": {
@@ -422,6 +422,20 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Flex Routing (EU and EFTA) for Copilot LLM Data Processing",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47854055",
+          "date": "2026-04-21",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Microsoft must face $2.8B UK lawsuit over cloud computing licences",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47851320",
+          "date": "2026-04-21",
+          "sentiment_score": -0.2263
+        },
         {
           "title": "Microsoft closes book on rogue Windows Server 2025 upgrades",
           "source": "Hacker News",
@@ -442,24 +456,9 @@
           "url": "https://news.ycombinator.com/item?id=47752285",
           "date": "2026-04-13",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Troubleshooting Email Delivery to Microsoft Users",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47738962",
-          "date": "2026-04-12",
-          "sentiment_score": 0.1779
-        },
-        {
-          "title": "Ask HN: Is Zero Trust Architecture Overkill?",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47739615",
-          "date": "2026-04-12",
-          "sentiment_score": 0.5106
         }
       ],
       "sparkline": [
-        0.26,
         0.26,
         0.23,
         0.25,
@@ -488,15 +487,16 @@
         -0.13,
         -0.13,
         -0.16,
-        -0.16
+        -0.16,
+        -0.14
       ]
     },
     {
       "name": "JPMorgan Chase",
       "sentiment": {
         "overall_score": 0.27,
-        "trend": "improving",
-        "previous_score": 0,
+        "trend": "stable",
+        "previous_score": 0.27,
         "confidence": "low",
         "sample_size": 1,
         "source_scores": {
@@ -556,7 +556,7 @@
         0,
         0,
         0,
-        0,
+        0.27,
         0.27
       ]
     },
@@ -590,7 +590,6 @@
       "top_headlines": [],
       "sparkline": [
         -0.31,
-        -0.31,
         -0.16,
         -0.16,
         -0.31,
@@ -599,6 +598,7 @@
         -0.32,
         -0.32,
         -0.32,
+        0,
         0,
         0,
         0,
@@ -626,7 +626,7 @@
       "sentiment": {
         "overall_score": 0.0,
         "trend": "stable",
-        "previous_score": 0,
+        "previous_score": 0.0,
         "confidence": "low",
         "sample_size": 1,
         "source_scores": {
@@ -661,7 +661,6 @@
         0,
         0,
         0,
-        0,
         0.0,
         0.0,
         0.0,
@@ -687,6 +686,7 @@
         0,
         0,
         0,
+        0.0,
         0.0
       ]
     },
@@ -731,7 +731,6 @@
         0.3,
         0.3,
         0.3,
-        0.3,
         0.46,
         0.46,
         0.46,
@@ -753,6 +752,7 @@
         0.0,
         0.0,
         -0.07,
+        0.0,
         0.0,
         0.0,
         0.0,
@@ -788,6 +788,13 @@
       },
       "top_headlines": [
         {
+          "title": "The Vercel breach: OAuth attack exposes risk in platform environment variables",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47851634",
+          "date": "2026-04-21",
+          "sentiment_score": -0.6908
+        },
+        {
           "title": "At long last, InfoWars is ours",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=47837611",
@@ -802,29 +809,21 @@
           "sentiment_score": 0.0
         },
         {
+          "title": "Making RAM at Home [video]",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47842569",
+          "date": "2026-04-20",
+          "sentiment_score": 0.0
+        },
+        {
           "title": "The \"Passive Income\" trap ate a generation of entrepreneurs",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=47799120",
           "date": "2026-04-16",
           "sentiment_score": -0.128
-        },
-        {
-          "title": "Open source security at Astral",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47699181",
-          "date": "2026-04-09",
-          "sentiment_score": 0.34
-        },
-        {
-          "title": "Show HN: GovAuctions lets you browse government auctions at once",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47662945",
-          "date": "2026-04-06",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        -0.11,
         -0.11,
         -0.08,
         -0.11,
@@ -853,25 +852,26 @@
         -0.09,
         -0.09,
         -0.03,
+        -0.03,
         -0.03
       ]
     },
     {
       "name": "Disney",
       "sentiment": {
-        "overall_score": -0.62,
-        "trend": "stable",
+        "overall_score": -0.31,
+        "trend": "improving",
         "previous_score": -0.62,
         "confidence": "low",
-        "sample_size": 1,
+        "sample_size": 2,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.62,
-            "count": 1
+            "score": -0.31,
+            "count": 2
           },
           "reddit": {
             "score": 0,
@@ -885,6 +885,13 @@
       },
       "top_headlines": [
         {
+          "title": "YouTube now world's largest media company, topping Disney",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47705278",
+          "date": "2026-04-09",
+          "sentiment_score": 0.0
+        },
+        {
           "title": "Disney's $1B Investment in OpenAI DOA as Sam Altman Pulls Sora Plug",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=47509996",
@@ -893,7 +900,6 @@
         }
       ],
       "sparkline": [
-        -0.02,
         -0.02,
         0.06,
         0.06,
@@ -922,15 +928,16 @@
         -0.62,
         -0.31,
         -0.62,
-        -0.62
+        -0.62,
+        -0.31
       ]
     },
     {
       "name": "Dell",
       "sentiment": {
-        "overall_score": 0.04,
-        "trend": "declining",
-        "previous_score": 0.14,
+        "overall_score": 0.03,
+        "trend": "stable",
+        "previous_score": 0.04,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -939,7 +946,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.04,
+            "score": 0.03,
             "count": 15
           },
           "reddit": {
@@ -954,10 +961,10 @@
       },
       "top_headlines": [
         {
-          "title": "Launch HN: Kampala (YC W26) \u2013 Reverse-Engineer Apps into APIs",
+          "title": "Trump says Anthropic is 'shaping up,' open to deal with Pentagon",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47794514",
-          "date": "2026-04-16",
+          "url": "https://news.ycombinator.com/item?id=47848642",
+          "date": "2026-04-21",
           "sentiment_score": 0.0
         },
         {
@@ -991,7 +998,6 @@
       ],
       "sparkline": [
         0.37,
-        0.37,
         0.38,
         0.38,
         0.4,
@@ -1019,15 +1025,16 @@
         0.06,
         0.04,
         0.14,
-        0.04
+        0.04,
+        0.03
       ]
     },
     {
       "name": "Tesla",
       "sentiment": {
-        "overall_score": -0.02,
+        "overall_score": 0.01,
         "trend": "stable",
-        "previous_score": -0.05,
+        "previous_score": -0.02,
         "confidence": "medium",
         "sample_size": 9,
         "source_scores": {
@@ -1036,7 +1043,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.02,
+            "score": 0.01,
             "count": 9
           },
           "reddit": {
@@ -1050,6 +1057,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Tesla lithium refinery discharge contains toxic metals, district demands halt",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47862684",
+          "date": "2026-04-22",
+          "sentiment_score": 0.0
+        },
         {
           "title": "Tesla (TSLA) Q1 2026 earnings preview: the growth story is dead",
           "source": "Hacker News",
@@ -1077,17 +1091,9 @@
           "url": "https://news.ycombinator.com/item?id=47809347",
           "date": "2026-04-17",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Show HN: Stage \u2013 Putting humans back in control of code review",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47796818",
-          "date": "2026-04-16",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.48,
         0.48,
         0.53,
         0.53,
@@ -1116,7 +1122,8 @@
         0.13,
         0.11,
         -0.05,
-        -0.02
+        -0.02,
+        0.01
       ]
     },
     {
@@ -1153,7 +1160,6 @@
         0.3,
         0.3,
         0.3,
-        0.3,
         0.36,
         0.37,
         0.37,
@@ -1163,6 +1169,7 @@
         0.22,
         0.22,
         0.22,
+        0,
         0,
         0,
         0,
@@ -1218,7 +1225,6 @@
       ],
       "sparkline": [
         0.37,
-        0.37,
         0.49,
         0.49,
         0.49,
@@ -1239,6 +1245,7 @@
         -0.43,
         -0.43,
         -0.43,
+        0.0,
         0.0,
         0.0,
         0.0,
