@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-04-23T02:52:09.990784Z",
+  "last_updated": "2026-04-23T13:55:12.397352Z",
   "scraper_log": {
-    "duration_sec": 289.92,
-    "total_articles": 116,
+    "duration_sec": 288.01,
+    "total_articles": 121,
     "errors": []
   },
   "companies": [
@@ -73,7 +73,6 @@
       "sparkline": [
         0.08,
         0.08,
-        0.08,
         0.16,
         0.19,
         0.17,
@@ -100,6 +99,7 @@
         0.05,
         0.05,
         0.06,
+        0.06,
         0.06
       ]
     },
@@ -108,7 +108,7 @@
       "sentiment": {
         "overall_score": -0.07,
         "trend": "stable",
-        "previous_score": -0.09,
+        "previous_score": -0.07,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -170,7 +170,6 @@
       "sparkline": [
         0.14,
         0.14,
-        0.14,
         0.12,
         0.12,
         0.04,
@@ -197,6 +196,7 @@
         -0.06,
         -0.09,
         -0.09,
+        -0.07,
         -0.07
       ]
     },
@@ -205,7 +205,7 @@
       "sentiment": {
         "overall_score": -0.05,
         "trend": "stable",
-        "previous_score": -0.08,
+        "previous_score": -0.05,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -268,7 +268,6 @@
         0.21,
         0.21,
         0.21,
-        0.21,
         0.2,
         0.19,
         0.13,
@@ -294,6 +293,7 @@
         -0.08,
         -0.08,
         -0.08,
+        -0.05,
         -0.05
       ]
     },
@@ -302,7 +302,7 @@
       "sentiment": {
         "overall_score": 0.01,
         "trend": "stable",
-        "previous_score": 0.03,
+        "previous_score": 0.01,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -333,16 +333,16 @@
           "sentiment_score": -0.296
         },
         {
+          "title": "Meta employees are up in arms over a mandatory program to train AI on their",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47860961",
+          "date": "2026-04-22",
+          "sentiment_score": 0.0772
+        },
+        {
           "title": "Meta to start capturing employee mouse movements, keystrokes for AI training",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=47851948",
-          "date": "2026-04-21",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "Meta to start capturing employee mouse movement, keystrokes for AI training data",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47851086",
           "date": "2026-04-21",
           "sentiment_score": 0.0
         },
@@ -362,7 +362,6 @@
         }
       ],
       "sparkline": [
-        0.23,
         0.22,
         0.22,
         0.22,
@@ -391,6 +390,7 @@
         0.03,
         0.03,
         0.03,
+        0.01,
         0.01
       ]
     },
@@ -459,7 +459,6 @@
         }
       ],
       "sparkline": [
-        0.23,
         0.25,
         0.23,
         0.24,
@@ -488,6 +487,7 @@
         -0.16,
         -0.16,
         -0.14,
+        -0.14,
         -0.14
       ]
     },
@@ -495,8 +495,8 @@
       "name": "JPMorgan Chase",
       "sentiment": {
         "overall_score": 0,
-        "trend": "declining",
-        "previous_score": 0.27,
+        "trend": "stable",
+        "previous_score": 0,
         "confidence": "low",
         "sample_size": 0,
         "source_scores": {
@@ -546,9 +546,9 @@
         0,
         0,
         0,
+        0.27,
+        0.27,
         0,
-        0.27,
-        0.27,
         0
       ]
     },
@@ -582,13 +582,13 @@
       "top_headlines": [],
       "sparkline": [
         -0.16,
-        -0.16,
         -0.31,
         -0.31,
         0,
         -0.32,
         -0.32,
         -0.32,
+        0,
         0,
         0,
         0,
@@ -618,7 +618,7 @@
       "sentiment": {
         "overall_score": 0,
         "trend": "stable",
-        "previous_score": 0.0,
+        "previous_score": 0,
         "confidence": "low",
         "sample_size": 0,
         "source_scores": {
@@ -643,7 +643,6 @@
       "top_headlines": [],
       "sparkline": [
         0,
-        0,
         0.0,
         0.0,
         0.0,
@@ -671,6 +670,7 @@
         0,
         0.0,
         0.0,
+        0,
         0
       ]
     },
@@ -713,7 +713,6 @@
       "sparkline": [
         0.3,
         0.3,
-        0.3,
         0.46,
         0.46,
         0.46,
@@ -735,6 +734,7 @@
         0.0,
         0.0,
         -0.07,
+        0.0,
         0.0,
         0.0,
         0.0,
@@ -786,16 +786,16 @@
           "sentiment_score": 0.0
         },
         {
-          "title": "Atlassian enables default data collection to train AI",
+          "title": "Making RAM at Home [video]",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47833247",
+          "url": "https://news.ycombinator.com/item?id=47842569",
           "date": "2026-04-20",
           "sentiment_score": 0.0
         },
         {
-          "title": "Making RAM at Home [video]",
+          "title": "Atlassian enables default data collection to train AI",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47842569",
+          "url": "https://news.ycombinator.com/item?id=47833247",
           "date": "2026-04-20",
           "sentiment_score": 0.0
         },
@@ -808,7 +808,6 @@
         }
       ],
       "sparkline": [
-        -0.08,
         -0.11,
         -0.14,
         -0.12,
@@ -834,6 +833,7 @@
         -0.04,
         -0.09,
         -0.09,
+        -0.03,
         -0.03,
         -0.03,
         -0.03,
@@ -887,7 +887,6 @@
         0.06,
         0.06,
         0.06,
-        0.06,
         -0.02,
         -0.02,
         0.09,
@@ -913,15 +912,16 @@
         -0.62,
         -0.62,
         -0.31,
+        -0.31,
         -0.31
       ]
     },
     {
       "name": "Dell",
       "sentiment": {
-        "overall_score": 0.04,
+        "overall_score": 0.06,
         "trend": "stable",
-        "previous_score": 0.03,
+        "previous_score": 0.04,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -930,7 +930,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.04,
+            "score": 0.06,
             "count": 15
           },
           "reddit": {
@@ -945,17 +945,17 @@
       },
       "top_headlines": [
         {
-          "title": "Job Is to Give a Shit",
+          "title": "Show HN: OpenDeck \u2013 DIY MIDI Platform Based on Zephyr RTOS",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47871449",
-          "date": "2026-04-23",
-          "sentiment_score": -0.5574
+          "url": "https://news.ycombinator.com/item?id=47869071",
+          "date": "2026-04-22",
+          "sentiment_score": 0.0
         },
         {
-          "title": "Show HN: BigBlueBam, MIT-licensed Work OS where agents are first-class coworkers",
+          "title": "The Onion Says It Has Deal to Take over Alex Jones' InfoWars",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47863418",
-          "date": "2026-04-22",
+          "url": "https://news.ycombinator.com/item?id=47851916",
+          "date": "2026-04-21",
           "sentiment_score": 0.0
         },
         {
@@ -981,7 +981,6 @@
         }
       ],
       "sparkline": [
-        0.38,
         0.38,
         0.4,
         0.4,
@@ -1010,25 +1009,26 @@
         0.14,
         0.04,
         0.03,
-        0.04
+        0.04,
+        0.06
       ]
     },
     {
       "name": "Tesla",
       "sentiment": {
-        "overall_score": 0.27,
-        "trend": "improving",
-        "previous_score": 0.01,
-        "confidence": "medium",
-        "sample_size": 7,
+        "overall_score": 0.07,
+        "trend": "declining",
+        "previous_score": 0.27,
+        "confidence": "high",
+        "sample_size": 12,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.27,
-            "count": 7
+            "score": 0.07,
+            "count": 12
           },
           "reddit": {
             "score": 0,
@@ -1056,29 +1056,28 @@
           "sentiment_score": 0.1779
         },
         {
+          "title": "Tesla announces HW4 Plus with doubled memory \u2013 will HW4 follow HW3 to the grave?",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47874659",
+          "date": "2026-04-23",
+          "sentiment_score": -0.3818
+        },
+        {
+          "title": "Ford pivoting to catch up with his real competitor: China's BYD",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47872413",
+          "date": "2026-04-23",
+          "sentiment_score": 0.0
+        },
+        {
           "title": "Tesla earnings updates: The stock is up after revenue and EPS beat Wall Street's",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=47869011",
           "date": "2026-04-22",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Tesla Roadstar does not even have a release date so how is that not real fraud?",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47810471",
-          "date": "2026-04-17",
-          "sentiment_score": 0.4717
-        },
-        {
-          "title": "Tesla Goes Ahead and Admits Its Robotaxis Are Sometimes Human-Controlled",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47600615",
-          "date": "2026-04-01",
-          "sentiment_score": 0.296
         }
       ],
       "sparkline": [
-        0.53,
         0.53,
         0.51,
         0.55,
@@ -1107,7 +1106,8 @@
         -0.05,
         -0.02,
         0.01,
-        0.27
+        0.27,
+        0.07
       ]
     },
     {
@@ -1142,7 +1142,6 @@
         0.3,
         0.3,
         0.3,
-        0.3,
         0.36,
         0.37,
         0.37,
@@ -1152,6 +1151,7 @@
         0.22,
         0.22,
         0.22,
+        0,
         0,
         0,
         0,
@@ -1212,7 +1212,6 @@
         0.49,
         0.49,
         0.49,
-        0.49,
         0.51,
         0.51,
         0.29,
@@ -1228,6 +1227,7 @@
         -0.43,
         -0.43,
         -0.43,
+        0.0,
         0.0,
         0.0,
         0.0,
