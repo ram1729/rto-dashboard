@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-04-23T13:55:12.397352Z",
+  "last_updated": "2026-04-24T02:50:07.483931Z",
   "scraper_log": {
-    "duration_sec": 288.01,
+    "duration_sec": 282.93,
     "total_articles": 121,
     "errors": []
   },
@@ -9,7 +9,7 @@
     {
       "name": "Amazon",
       "sentiment": {
-        "overall_score": 0.06,
+        "overall_score": 0.04,
         "trend": "stable",
         "previous_score": 0.06,
         "confidence": "high",
@@ -20,7 +20,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.06,
+            "score": 0.04,
             "count": 15
           },
           "reddit": {
@@ -49,29 +49,28 @@
           "sentiment_score": 0.1471
         },
         {
+          "title": "Amazon to invest up to another $25B in Anthropic",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47841683",
+          "date": "2026-04-20",
+          "sentiment_score": 0.1779
+        },
+        {
+          "title": "Amazon's AI boom is creating mess of duplicate tools and data inside the company",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47833134",
+          "date": "2026-04-20",
+          "sentiment_score": -0.0772
+        },
+        {
           "title": "Tell HN: Security Incident at Porter (YC S20)",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=47811132",
           "date": "2026-04-17",
           "sentiment_score": 0.34
-        },
-        {
-          "title": "A brief generational overview of the tech industry",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47791293",
-          "date": "2026-04-16",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "Amazon rolls out 1-hour, 3-hour delivery",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47764324",
-          "date": "2026-04-14",
-          "sentiment_score": 0.1779
         }
       ],
       "sparkline": [
-        0.08,
         0.08,
         0.16,
         0.19,
@@ -100,7 +99,8 @@
         0.05,
         0.06,
         0.06,
-        0.06
+        0.06,
+        0.04
       ]
     },
     {
@@ -169,7 +169,6 @@
       ],
       "sparkline": [
         0.14,
-        0.14,
         0.12,
         0.12,
         0.04,
@@ -196,6 +195,7 @@
         -0.06,
         -0.09,
         -0.09,
+        -0.07,
         -0.07,
         -0.07
       ]
@@ -267,7 +267,6 @@
       "sparkline": [
         0.21,
         0.21,
-        0.21,
         0.2,
         0.19,
         0.13,
@@ -294,13 +293,14 @@
         -0.08,
         -0.08,
         -0.05,
+        -0.05,
         -0.05
       ]
     },
     {
       "name": "Meta",
       "sentiment": {
-        "overall_score": 0.01,
+        "overall_score": -0.01,
         "trend": "stable",
         "previous_score": 0.01,
         "confidence": "high",
@@ -311,7 +311,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.01,
+            "score": -0.01,
             "count": 15
           },
           "reddit": {
@@ -326,6 +326,27 @@
       },
       "top_headlines": [
         {
+          "title": "Meta to cut 10% of jobs to 'offset' Mark Zuckerberg's AI spending",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47882050",
+          "date": "2026-04-23",
+          "sentiment_score": -0.2732
+        },
+        {
+          "title": "Meta to Lay Off 10 Percent of Work Force in A.I. Push",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47882016",
+          "date": "2026-04-23",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Meta to Lay Off 10% of Employees in May",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47880345",
+          "date": "2026-04-23",
+          "sentiment_score": 0.0
+        },
+        {
           "title": "Show HN: Callmux \u2013 MCP multiplexer that cuts tool call context pollution by ~19x",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=47866891",
@@ -338,31 +359,9 @@
           "url": "https://news.ycombinator.com/item?id=47860961",
           "date": "2026-04-22",
           "sentiment_score": 0.0772
-        },
-        {
-          "title": "Meta to start capturing employee mouse movements, keystrokes for AI training",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47851948",
-          "date": "2026-04-21",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "EU warns Meta WhatsApp AI fee breaches antitrust rules, orders rollback",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47781472",
-          "date": "2026-04-15",
-          "sentiment_score": -0.1027
-        },
-        {
-          "title": "Show HN: A book that builds GPT-2, Llama 3, DeepSeek from scratch in PyTorch",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47779084",
-          "date": "2026-04-15",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.22,
         0.22,
         0.22,
         0.14,
@@ -391,7 +390,8 @@
         0.03,
         0.03,
         0.01,
-        0.01
+        0.01,
+        -0.01
       ]
     },
     {
@@ -459,7 +459,6 @@
         }
       ],
       "sparkline": [
-        0.25,
         0.23,
         0.24,
         0.2,
@@ -486,6 +485,7 @@
         -0.13,
         -0.16,
         -0.16,
+        -0.14,
         -0.14,
         -0.14,
         -0.14
@@ -545,9 +545,9 @@
         0,
         0,
         0,
+        0.27,
+        0.27,
         0,
-        0.27,
-        0.27,
         0,
         0
       ]
@@ -581,13 +581,13 @@
       },
       "top_headlines": [],
       "sparkline": [
-        -0.16,
         -0.31,
         -0.31,
         0,
         -0.32,
         -0.32,
         -0.32,
+        0,
         0,
         0,
         0,
@@ -642,7 +642,6 @@
       },
       "top_headlines": [],
       "sparkline": [
-        0,
         0.0,
         0.0,
         0.0,
@@ -670,6 +669,7 @@
         0,
         0.0,
         0.0,
+        0,
         0,
         0
       ]
@@ -712,7 +712,6 @@
       ],
       "sparkline": [
         0.3,
-        0.3,
         0.46,
         0.46,
         0.46,
@@ -740,13 +739,14 @@
         0.0,
         0.0,
         0.0,
+        0.0,
         0.0
       ]
     },
     {
       "name": "AT&T",
       "sentiment": {
-        "overall_score": -0.03,
+        "overall_score": -0.05,
         "trend": "stable",
         "previous_score": -0.03,
         "confidence": "high",
@@ -757,7 +757,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.03,
+            "score": -0.05,
             "count": 15
           },
           "reddit": {
@@ -808,7 +808,6 @@
         }
       ],
       "sparkline": [
-        -0.11,
         -0.14,
         -0.12,
         -0.09,
@@ -837,25 +836,26 @@
         -0.03,
         -0.03,
         -0.03,
-        -0.03
+        -0.03,
+        -0.05
       ]
     },
     {
       "name": "Disney",
       "sentiment": {
-        "overall_score": -0.31,
-        "trend": "stable",
+        "overall_score": 0.0,
+        "trend": "improving",
         "previous_score": -0.31,
         "confidence": "low",
-        "sample_size": 2,
+        "sample_size": 1,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.31,
-            "count": 2
+            "score": 0.0,
+            "count": 1
           },
           "reddit": {
             "score": 0,
@@ -874,17 +874,9 @@
           "url": "https://news.ycombinator.com/item?id=47705278",
           "date": "2026-04-09",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Disney's $1B Investment in OpenAI DOA as Sam Altman Pulls Sora Plug",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47509996",
-          "date": "2026-03-24",
-          "sentiment_score": -0.6166
         }
       ],
       "sparkline": [
-        0.06,
         0.06,
         0.06,
         -0.02,
@@ -913,15 +905,16 @@
         -0.62,
         -0.31,
         -0.31,
-        -0.31
+        -0.31,
+        0.0
       ]
     },
     {
       "name": "Dell",
       "sentiment": {
-        "overall_score": 0.06,
+        "overall_score": 0.09,
         "trend": "stable",
-        "previous_score": 0.04,
+        "previous_score": 0.06,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -930,7 +923,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.06,
+            "score": 0.09,
             "count": 15
           },
           "reddit": {
@@ -945,17 +938,24 @@
       },
       "top_headlines": [
         {
+          "title": "Ask HN: How much AI slop do you deal with at work?",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47878425",
+          "date": "2026-04-23",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "A McDonald's cheeseburger is a better deal today than it was in 1948",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47883737",
+          "date": "2026-04-23",
+          "sentiment_score": 0.4404
+        },
+        {
           "title": "Show HN: OpenDeck \u2013 DIY MIDI Platform Based on Zephyr RTOS",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=47869071",
           "date": "2026-04-22",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "The Onion Says It Has Deal to Take over Alex Jones' InfoWars",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47851916",
-          "date": "2026-04-21",
           "sentiment_score": 0.0
         },
         {
@@ -971,17 +971,9 @@
           "url": "https://news.ycombinator.com/item?id=47758203",
           "date": "2026-04-13",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Tell HN: Claude-code prompt-cache fix",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47754795",
-          "date": "2026-04-13",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.38,
         0.4,
         0.4,
         0.4,
@@ -1010,25 +1002,26 @@
         0.04,
         0.03,
         0.04,
-        0.06
+        0.06,
+        0.09
       ]
     },
     {
       "name": "Tesla",
       "sentiment": {
-        "overall_score": 0.07,
-        "trend": "declining",
-        "previous_score": 0.27,
+        "overall_score": 0.08,
+        "trend": "stable",
+        "previous_score": 0.07,
         "confidence": "high",
-        "sample_size": 12,
+        "sample_size": 13,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.07,
-            "count": 12
+            "score": 0.08,
+            "count": 13
           },
           "reddit": {
             "score": 0,
@@ -1041,6 +1034,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Tesla Never Stopped Developing the Model S [video]",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47884435",
+          "date": "2026-04-24",
+          "sentiment_score": 0.1695
+        },
         {
           "title": "Tesla basically cooked the books to show one last quarter of positive cash flow",
           "source": "Hacker News",
@@ -1056,13 +1056,6 @@
           "sentiment_score": 0.1779
         },
         {
-          "title": "Tesla announces HW4 Plus with doubled memory \u2013 will HW4 follow HW3 to the grave?",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47874659",
-          "date": "2026-04-23",
-          "sentiment_score": -0.3818
-        },
-        {
           "title": "Ford pivoting to catch up with his real competitor: China's BYD",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=47872413",
@@ -1070,15 +1063,14 @@
           "sentiment_score": 0.0
         },
         {
-          "title": "Tesla earnings updates: The stock is up after revenue and EPS beat Wall Street's",
+          "title": "Tesla announces HW4 Plus with doubled memory \u2013 will HW4 follow HW3 to the grave?",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47869011",
-          "date": "2026-04-22",
-          "sentiment_score": 0.0
+          "url": "https://news.ycombinator.com/item?id=47874659",
+          "date": "2026-04-23",
+          "sentiment_score": -0.3818
         }
       ],
       "sparkline": [
-        0.53,
         0.51,
         0.55,
         0.55,
@@ -1107,7 +1099,8 @@
         -0.02,
         0.01,
         0.27,
-        0.07
+        0.07,
+        0.08
       ]
     },
     {
@@ -1141,7 +1134,6 @@
       "sparkline": [
         0.3,
         0.3,
-        0.3,
         0.36,
         0.37,
         0.37,
@@ -1168,14 +1160,15 @@
         0,
         0,
         0,
+        0,
         0
       ]
     },
     {
       "name": "Cisco",
       "sentiment": {
-        "overall_score": 0.0,
-        "trend": "stable",
+        "overall_score": 0.13,
+        "trend": "improving",
         "previous_score": 0.0,
         "confidence": "low",
         "sample_size": 1,
@@ -1185,7 +1178,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.0,
+            "score": 0.13,
             "count": 1
           },
           "reddit": {
@@ -1200,15 +1193,14 @@
       },
       "top_headlines": [
         {
-          "title": "Country that put backdoors in Cisco routers to spy on world bans foreign routers",
+          "title": "The \"AI Vulnerability Storm\": Building a \"Mythos-Ready\" Security Program",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47506279",
-          "date": "2026-03-24",
-          "sentiment_score": 0.0
+          "url": "https://news.ycombinator.com/item?id=47876379",
+          "date": "2026-04-23",
+          "sentiment_score": 0.128
         }
       ],
       "sparkline": [
-        0.49,
         0.49,
         0.49,
         0.49,
@@ -1237,7 +1229,8 @@
         0.0,
         0.0,
         0.0,
-        0.0
+        0.0,
+        0.13
       ]
     }
   ]
