@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-04-24T02:50:07.483931Z",
+  "last_updated": "2026-04-24T13:34:03.299571Z",
   "scraper_log": {
-    "duration_sec": 282.93,
-    "total_articles": 121,
+    "duration_sec": 285.07,
+    "total_articles": 122,
     "errors": []
   },
   "companies": [
     {
       "name": "Amazon",
       "sentiment": {
-        "overall_score": 0.04,
+        "overall_score": 0.08,
         "trend": "stable",
-        "previous_score": 0.06,
+        "previous_score": 0.04,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -20,7 +20,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.04,
+            "score": 0.08,
             "count": 15
           },
           "reddit": {
@@ -56,22 +56,21 @@
           "sentiment_score": 0.1779
         },
         {
-          "title": "Amazon's AI boom is creating mess of duplicate tools and data inside the company",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47833134",
-          "date": "2026-04-20",
-          "sentiment_score": -0.0772
-        },
-        {
           "title": "Tell HN: Security Incident at Porter (YC S20)",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=47811132",
           "date": "2026-04-17",
           "sentiment_score": 0.34
+        },
+        {
+          "title": "A brief generational overview of the tech industry",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47791293",
+          "date": "2026-04-16",
+          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.08,
         0.16,
         0.19,
         0.17,
@@ -100,7 +99,8 @@
         0.06,
         0.06,
         0.06,
-        0.04
+        0.04,
+        0.08
       ]
     },
     {
@@ -168,7 +168,6 @@
         }
       ],
       "sparkline": [
-        0.14,
         0.12,
         0.12,
         0.04,
@@ -197,13 +196,14 @@
         -0.09,
         -0.07,
         -0.07,
+        -0.07,
         -0.07
       ]
     },
     {
       "name": "Google",
       "sentiment": {
-        "overall_score": -0.05,
+        "overall_score": -0.02,
         "trend": "stable",
         "previous_score": -0.05,
         "confidence": "high",
@@ -214,7 +214,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.05,
+            "score": -0.02,
             "count": 15
           },
           "reddit": {
@@ -266,7 +266,6 @@
       ],
       "sparkline": [
         0.21,
-        0.21,
         0.2,
         0.19,
         0.13,
@@ -294,7 +293,8 @@
         -0.08,
         -0.05,
         -0.05,
-        -0.05
+        -0.05,
+        -0.02
       ]
     },
     {
@@ -302,7 +302,7 @@
       "sentiment": {
         "overall_score": -0.01,
         "trend": "stable",
-        "previous_score": 0.01,
+        "previous_score": -0.01,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -363,7 +363,6 @@
       ],
       "sparkline": [
         0.22,
-        0.22,
         0.14,
         0.18,
         0.16,
@@ -391,6 +390,7 @@
         0.03,
         0.01,
         0.01,
+        -0.01,
         -0.01
       ]
     },
@@ -459,7 +459,6 @@
         }
       ],
       "sparkline": [
-        0.23,
         0.24,
         0.2,
         0.23,
@@ -485,6 +484,7 @@
         -0.13,
         -0.16,
         -0.16,
+        -0.14,
         -0.14,
         -0.14,
         -0.14,
@@ -544,9 +544,9 @@
         0,
         0,
         0,
+        0.27,
+        0.27,
         0,
-        0.27,
-        0.27,
         0,
         0,
         0
@@ -582,11 +582,11 @@
       "top_headlines": [],
       "sparkline": [
         -0.31,
-        -0.31,
         0,
         -0.32,
         -0.32,
         -0.32,
+        0,
         0,
         0,
         0,
@@ -647,7 +647,6 @@
         0.0,
         0.0,
         0.0,
-        0.0,
         0,
         0.0,
         -0.29,
@@ -669,6 +668,7 @@
         0,
         0.0,
         0.0,
+        0,
         0,
         0,
         0
@@ -711,7 +711,6 @@
         }
       ],
       "sparkline": [
-        0.3,
         0.46,
         0.46,
         0.46,
@@ -740,6 +739,7 @@
         0.0,
         0.0,
         0.0,
+        0.0,
         0.0
       ]
     },
@@ -748,7 +748,7 @@
       "sentiment": {
         "overall_score": -0.05,
         "trend": "stable",
-        "previous_score": -0.03,
+        "previous_score": -0.05,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -808,7 +808,6 @@
         }
       ],
       "sparkline": [
-        -0.14,
         -0.12,
         -0.09,
         -0.16,
@@ -837,6 +836,7 @@
         -0.03,
         -0.03,
         -0.03,
+        -0.05,
         -0.05
       ]
     },
@@ -844,8 +844,8 @@
       "name": "Disney",
       "sentiment": {
         "overall_score": 0.0,
-        "trend": "improving",
-        "previous_score": -0.31,
+        "trend": "stable",
+        "previous_score": 0.0,
         "confidence": "low",
         "sample_size": 1,
         "source_scores": {
@@ -878,7 +878,6 @@
       ],
       "sparkline": [
         0.06,
-        0.06,
         -0.02,
         -0.02,
         0.09,
@@ -906,15 +905,16 @@
         -0.31,
         -0.31,
         -0.31,
+        0.0,
         0.0
       ]
     },
     {
       "name": "Dell",
       "sentiment": {
-        "overall_score": 0.09,
+        "overall_score": 0.06,
         "trend": "stable",
-        "previous_score": 0.06,
+        "previous_score": 0.09,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -923,7 +923,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.09,
+            "score": 0.06,
             "count": 15
           },
           "reddit": {
@@ -938,18 +938,18 @@
       },
       "top_headlines": [
         {
+          "title": "The Key Lime Pie Benchmark",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47889789",
+          "date": "2026-04-24",
+          "sentiment_score": 0.0
+        },
+        {
           "title": "Ask HN: How much AI slop do you deal with at work?",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=47878425",
           "date": "2026-04-23",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "A McDonald's cheeseburger is a better deal today than it was in 1948",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47883737",
-          "date": "2026-04-23",
-          "sentiment_score": 0.4404
         },
         {
           "title": "Show HN: OpenDeck \u2013 DIY MIDI Platform Based on Zephyr RTOS",
@@ -974,7 +974,6 @@
         }
       ],
       "sparkline": [
-        0.4,
         0.4,
         0.4,
         0.4,
@@ -1003,25 +1002,26 @@
         0.03,
         0.04,
         0.06,
-        0.09
+        0.09,
+        0.06
       ]
     },
     {
       "name": "Tesla",
       "sentiment": {
-        "overall_score": 0.08,
+        "overall_score": 0.07,
         "trend": "stable",
-        "previous_score": 0.07,
+        "previous_score": 0.08,
         "confidence": "high",
-        "sample_size": 13,
+        "sample_size": 14,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.08,
-            "count": 13
+            "score": 0.07,
+            "count": 14
           },
           "reddit": {
             "score": 0,
@@ -1034,6 +1034,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Tremendous Iranian Invasion: A Text Misadventure",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47885689",
+          "date": "2026-04-24",
+          "sentiment_score": 0.0
+        },
         {
           "title": "Tesla Never Stopped Developing the Model S [video]",
           "source": "Hacker News",
@@ -1061,17 +1068,9 @@
           "url": "https://news.ycombinator.com/item?id=47872413",
           "date": "2026-04-23",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Tesla announces HW4 Plus with doubled memory \u2013 will HW4 follow HW3 to the grave?",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47874659",
-          "date": "2026-04-23",
-          "sentiment_score": -0.3818
         }
       ],
       "sparkline": [
-        0.51,
         0.55,
         0.55,
         0.55,
@@ -1100,7 +1099,8 @@
         0.01,
         0.27,
         0.07,
-        0.08
+        0.08,
+        0.07
       ]
     },
     {
@@ -1133,7 +1133,6 @@
       "top_headlines": [],
       "sparkline": [
         0.3,
-        0.3,
         0.36,
         0.37,
         0.37,
@@ -1161,6 +1160,7 @@
         0,
         0,
         0,
+        0,
         0
       ]
     },
@@ -1168,8 +1168,8 @@
       "name": "Cisco",
       "sentiment": {
         "overall_score": 0.13,
-        "trend": "improving",
-        "previous_score": 0.0,
+        "trend": "stable",
+        "previous_score": 0.13,
         "confidence": "low",
         "sample_size": 1,
         "source_scores": {
@@ -1203,7 +1203,6 @@
       "sparkline": [
         0.49,
         0.49,
-        0.49,
         0.51,
         0.51,
         0.29,
@@ -1230,6 +1229,7 @@
         0.0,
         0.0,
         0.0,
+        0.13,
         0.13
       ]
     }
