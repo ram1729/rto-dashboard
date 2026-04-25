@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-04-25T02:39:10.105521Z",
+  "last_updated": "2026-04-25T13:15:40.678999Z",
   "scraper_log": {
-    "duration_sec": 281.96,
-    "total_articles": 123,
+    "duration_sec": 301.94,
+    "total_articles": 114,
     "errors": []
   },
   "companies": [
     {
       "name": "Amazon",
       "sentiment": {
-        "overall_score": 0.1,
+        "overall_score": 0.09,
         "trend": "stable",
-        "previous_score": 0.08,
+        "previous_score": 0.1,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -20,7 +20,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.1,
+            "score": 0.09,
             "count": 15
           },
           "reddit": {
@@ -34,6 +34,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Meta signs agreement with AWS to power agentic AI on Amazon's Graviton chips",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47900251",
+          "date": "2026-04-25",
+          "sentiment_score": 0.4939
+        },
         {
           "title": "SHOW HN: I built a marketplace agency that treats profit as the actual metric",
           "source": "Hacker News",
@@ -61,17 +68,9 @@
           "url": "https://news.ycombinator.com/item?id=47811132",
           "date": "2026-04-17",
           "sentiment_score": 0.34
-        },
-        {
-          "title": "A brief generational overview of the tech industry",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47791293",
-          "date": "2026-04-16",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.19,
         0.17,
         0.11,
         0.16,
@@ -100,7 +99,8 @@
         0.06,
         0.04,
         0.08,
-        0.1
+        0.1,
+        0.09
       ]
     },
     {
@@ -168,7 +168,6 @@
         }
       ],
       "sparkline": [
-        0.12,
         0.04,
         0.04,
         -0.02,
@@ -197,15 +196,16 @@
         -0.07,
         -0.07,
         -0.07,
+        -0.07,
         -0.07
       ]
     },
     {
       "name": "Google",
       "sentiment": {
-        "overall_score": -0.05,
+        "overall_score": -0.0,
         "trend": "stable",
-        "previous_score": -0.02,
+        "previous_score": -0.05,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -214,7 +214,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.05,
+            "score": -0.0,
             "count": 15
           },
           "reddit": {
@@ -265,7 +265,6 @@
         }
       ],
       "sparkline": [
-        0.2,
         0.19,
         0.13,
         0.01,
@@ -294,13 +293,14 @@
         -0.05,
         -0.05,
         -0.02,
-        -0.05
+        -0.05,
+        -0.0
       ]
     },
     {
       "name": "Meta",
       "sentiment": {
-        "overall_score": -0.01,
+        "overall_score": 0.0,
         "trend": "stable",
         "previous_score": -0.01,
         "confidence": "high",
@@ -311,7 +311,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.01,
+            "score": 0.0,
             "count": 15
           },
           "reddit": {
@@ -326,30 +326,30 @@
       },
       "top_headlines": [
         {
-          "title": "Meta to ax 8k jobs as Zuckerberg doubles down on AI",
+          "title": "Show HN: Agent MCP Studio \u2013 build multi-agent MCP systems in a browser tab",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47890680",
+          "url": "https://news.ycombinator.com/item?id=47899375",
+          "date": "2026-04-25",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Meta signs agreement with AWS to power agentic AI on Amazon's Graviton chips",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47900251",
+          "date": "2026-04-25",
+          "sentiment_score": 0.4939
+        },
+        {
+          "title": "Tell HN: Claude 4.7 is ignoring stop hooks",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47895029",
           "date": "2026-04-24",
-          "sentiment_score": 0.0
+          "sentiment_score": -0.5994
         },
         {
-          "title": "Meta to cut 10% of jobs to 'offset' Mark Zuckerberg's AI spending",
+          "title": "Ask HN: Incoming Meta layoffs, what now?",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47882050",
-          "date": "2026-04-23",
-          "sentiment_score": -0.2732
-        },
-        {
-          "title": "Meta to Lay Off 10 Percent of Work Force in A.I. Push",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47882016",
-          "date": "2026-04-23",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "Meta to Lay Off 10% of Employees in May",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47880345",
+          "url": "https://news.ycombinator.com/item?id=47881769",
           "date": "2026-04-23",
           "sentiment_score": 0.0
         },
@@ -362,7 +362,6 @@
         }
       ],
       "sparkline": [
-        0.14,
         0.18,
         0.16,
         -0.03,
@@ -391,7 +390,8 @@
         0.01,
         -0.01,
         -0.01,
-        -0.01
+        -0.01,
+        0.0
       ]
     },
     {
@@ -459,7 +459,6 @@
         }
       ],
       "sparkline": [
-        0.2,
         0.23,
         0.19,
         -0.26,
@@ -488,25 +487,26 @@
         -0.14,
         -0.14,
         -0.14,
+        -0.14,
         -0.14
       ]
     },
     {
       "name": "JPMorgan Chase",
       "sentiment": {
-        "overall_score": 0.27,
-        "trend": "improving",
-        "previous_score": 0,
+        "overall_score": 0,
+        "trend": "declining",
+        "previous_score": 0.27,
         "confidence": "low",
-        "sample_size": 1,
+        "sample_size": 0,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.27,
-            "count": 1
+            "score": 0,
+            "count": 0
           },
           "reddit": {
             "score": 0,
@@ -518,15 +518,7 @@
           }
         }
       },
-      "top_headlines": [
-        {
-          "title": "Data Center Is Getting a $77M Tax Break to Create One Job",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47835423",
-          "date": "2026-04-20",
-          "sentiment_score": 0.2732
-        }
-      ],
+      "top_headlines": [],
       "sparkline": [
         0,
         0,
@@ -550,14 +542,14 @@
         0,
         0,
         0,
-        0,
         0.27,
         0.27,
         0,
         0,
         0,
         0,
-        0.27
+        0.27,
+        0
       ]
     },
     {
@@ -589,10 +581,10 @@
       },
       "top_headlines": [],
       "sparkline": [
+        -0.32,
+        -0.32,
+        -0.32,
         0,
-        -0.32,
-        -0.32,
-        -0.32,
         0,
         0,
         0,
@@ -653,7 +645,6 @@
         0.0,
         0.0,
         0.0,
-        0.0,
         0,
         0.0,
         -0.29,
@@ -675,6 +666,7 @@
         0,
         0.0,
         0.0,
+        0,
         0,
         0,
         0,
@@ -721,7 +713,6 @@
       "sparkline": [
         0.46,
         0.46,
-        0.46,
         0.0,
         0.0,
         0.0,
@@ -739,6 +730,7 @@
         0.0,
         0.0,
         -0.07,
+        0.0,
         0.0,
         0.0,
         0.0,
@@ -816,7 +808,6 @@
         }
       ],
       "sparkline": [
-        -0.09,
         -0.16,
         -0.14,
         -0.06,
@@ -845,25 +836,26 @@
         -0.03,
         -0.05,
         -0.05,
+        -0.05,
         -0.05
       ]
     },
     {
       "name": "Disney",
       "sentiment": {
-        "overall_score": 0.0,
+        "overall_score": 0,
         "trend": "stable",
         "previous_score": 0.0,
         "confidence": "low",
-        "sample_size": 1,
+        "sample_size": 0,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.0,
-            "count": 1
+            "score": 0,
+            "count": 0
           },
           "reddit": {
             "score": 0,
@@ -875,17 +867,8 @@
           }
         }
       },
-      "top_headlines": [
-        {
-          "title": "YouTube now world's largest media company, topping Disney",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47705278",
-          "date": "2026-04-09",
-          "sentiment_score": 0.0
-        }
-      ],
+      "top_headlines": [],
       "sparkline": [
-        -0.02,
         -0.02,
         0.09,
         -0.23,
@@ -914,13 +897,14 @@
         -0.31,
         0.0,
         0.0,
-        0.0
+        0.0,
+        0
       ]
     },
     {
       "name": "Dell",
       "sentiment": {
-        "overall_score": 0.06,
+        "overall_score": 0.01,
         "trend": "stable",
         "previous_score": 0.06,
         "confidence": "high",
@@ -931,7 +915,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.06,
+            "score": 0.01,
             "count": 15
           },
           "reddit": {
@@ -953,6 +937,13 @@
           "sentiment_score": 0.0
         },
         {
+          "title": "Netherlands reaches deal to cut reliance on U.S. cloud tech",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47887448",
+          "date": "2026-04-24",
+          "sentiment_score": -0.2263
+        },
+        {
           "title": "Ask HN: How much AI slop do you deal with at work?",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=47878425",
@@ -960,17 +951,10 @@
           "sentiment_score": 0.0
         },
         {
-          "title": "Show HN: OpenDeck \u2013 DIY MIDI Platform Based on Zephyr RTOS",
+          "title": "Launch HN: Kampala (YC W26) \u2013 Reverse-Engineer Apps into APIs",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47869071",
-          "date": "2026-04-22",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "Show HN: Sift \u2013 a minimal news app (looking for UI/UX feedback)",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47863881",
-          "date": "2026-04-22",
+          "url": "https://news.ycombinator.com/item?id=47794514",
+          "date": "2026-04-16",
           "sentiment_score": 0.0
         },
         {
@@ -982,7 +966,6 @@
         }
       ],
       "sparkline": [
-        0.4,
         0.4,
         0.31,
         0.01,
@@ -1011,25 +994,26 @@
         0.06,
         0.09,
         0.06,
-        0.06
+        0.06,
+        0.01
       ]
     },
     {
       "name": "Tesla",
       "sentiment": {
-        "overall_score": 0.07,
-        "trend": "stable",
+        "overall_score": 0.13,
+        "trend": "improving",
         "previous_score": 0.07,
-        "confidence": "high",
-        "sample_size": 14,
+        "confidence": "medium",
+        "sample_size": 8,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.07,
-            "count": 14
+            "score": 0.13,
+            "count": 8
           },
           "reddit": {
             "score": 0,
@@ -1050,13 +1034,6 @@
           "sentiment_score": 0.0
         },
         {
-          "title": "Tesla Never Stopped Developing the Model S [video]",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47884435",
-          "date": "2026-04-24",
-          "sentiment_score": 0.1695
-        },
-        {
           "title": "Tesla basically cooked the books to show one last quarter of positive cash flow",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=47870794",
@@ -1064,22 +1041,28 @@
           "sentiment_score": 0.5574
         },
         {
-          "title": "Tesla (TSLA) pulled questionable levers to make Q1 2026 financials look good",
+          "title": "Tesla earnings updates: The stock is up after revenue and EPS beat Wall Street's",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47870866",
-          "date": "2026-04-23",
-          "sentiment_score": 0.1779
+          "url": "https://news.ycombinator.com/item?id=47869011",
+          "date": "2026-04-22",
+          "sentiment_score": 0.0
         },
         {
-          "title": "Ford pivoting to catch up with his real competitor: China's BYD",
+          "title": "Tesla concealed fatal accidents to continue testing autonomous driving",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47872413",
-          "date": "2026-04-23",
-          "sentiment_score": 0.0
+          "url": "https://news.ycombinator.com/item?id=47833156",
+          "date": "2026-04-20",
+          "sentiment_score": -0.7003
+        },
+        {
+          "title": "Tesla Roadstar does not even have a release date so how is that not real fraud?",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47810471",
+          "date": "2026-04-17",
+          "sentiment_score": 0.4717
         }
       ],
       "sparkline": [
-        0.55,
         0.55,
         0.46,
         0.06,
@@ -1108,7 +1091,8 @@
         0.07,
         0.08,
         0.07,
-        0.07
+        0.07,
+        0.13
       ]
     },
     {
@@ -1140,7 +1124,6 @@
       },
       "top_headlines": [],
       "sparkline": [
-        0.36,
         0.37,
         0.37,
         0,
@@ -1149,6 +1132,7 @@
         0.22,
         0.22,
         0.22,
+        0,
         0,
         0,
         0,
@@ -1175,19 +1159,19 @@
     {
       "name": "Cisco",
       "sentiment": {
-        "overall_score": 0.13,
-        "trend": "stable",
+        "overall_score": 0,
+        "trend": "declining",
         "previous_score": 0.13,
         "confidence": "low",
-        "sample_size": 1,
+        "sample_size": 0,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.13,
-            "count": 1
+            "score": 0,
+            "count": 0
           },
           "reddit": {
             "score": 0,
@@ -1199,17 +1183,8 @@
           }
         }
       },
-      "top_headlines": [
-        {
-          "title": "The \"AI Vulnerability Storm\": Building a \"Mythos-Ready\" Security Program",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47876379",
-          "date": "2026-04-23",
-          "sentiment_score": 0.128
-        }
-      ],
+      "top_headlines": [],
       "sparkline": [
-        0.49,
         0.51,
         0.51,
         0.29,
@@ -1238,7 +1213,8 @@
         0.0,
         0.13,
         0.13,
-        0.13
+        0.13,
+        0
       ]
     }
   ]
