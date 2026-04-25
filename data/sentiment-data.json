@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-04-24T13:34:03.299571Z",
+  "last_updated": "2026-04-25T02:39:10.105521Z",
   "scraper_log": {
-    "duration_sec": 285.07,
-    "total_articles": 122,
+    "duration_sec": 281.96,
+    "total_articles": 123,
     "errors": []
   },
   "companies": [
     {
       "name": "Amazon",
       "sentiment": {
-        "overall_score": 0.08,
+        "overall_score": 0.1,
         "trend": "stable",
-        "previous_score": 0.04,
+        "previous_score": 0.08,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -20,7 +20,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.08,
+            "score": 0.1,
             "count": 15
           },
           "reddit": {
@@ -35,6 +35,13 @@
       },
       "top_headlines": [
         {
+          "title": "SHOW HN: I built a marketplace agency that treats profit as the actual metric",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47891388",
+          "date": "2026-04-24",
+          "sentiment_score": 0.4404
+        },
+        {
           "title": "Ask HN: Has AWS Support fallen off?",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=47843490",
@@ -47,13 +54,6 @@
           "url": "https://news.ycombinator.com/item?id=47850854",
           "date": "2026-04-21",
           "sentiment_score": 0.1471
-        },
-        {
-          "title": "Amazon to invest up to another $25B in Anthropic",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47841683",
-          "date": "2026-04-20",
-          "sentiment_score": 0.1779
         },
         {
           "title": "Tell HN: Security Incident at Porter (YC S20)",
@@ -71,7 +71,6 @@
         }
       ],
       "sparkline": [
-        0.16,
         0.19,
         0.17,
         0.11,
@@ -100,7 +99,8 @@
         0.06,
         0.06,
         0.04,
-        0.08
+        0.08,
+        0.1
       ]
     },
     {
@@ -169,7 +169,6 @@
       ],
       "sparkline": [
         0.12,
-        0.12,
         0.04,
         0.04,
         -0.02,
@@ -197,15 +196,16 @@
         -0.07,
         -0.07,
         -0.07,
+        -0.07,
         -0.07
       ]
     },
     {
       "name": "Google",
       "sentiment": {
-        "overall_score": -0.02,
+        "overall_score": -0.05,
         "trend": "stable",
-        "previous_score": -0.05,
+        "previous_score": -0.02,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -214,7 +214,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.02,
+            "score": -0.05,
             "count": 15
           },
           "reddit": {
@@ -228,6 +228,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Show HN: God.ad \u2013 Real-time BGP routing data and DNS/IP lookups",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47878836",
+          "date": "2026-04-23",
+          "sentiment_score": 0.0
+        },
         {
           "title": "Show HN: Physics-accurate 3D assets for robotics simulations from any input",
           "source": "Hacker News",
@@ -255,17 +262,9 @@
           "url": "https://news.ycombinator.com/item?id=47776638",
           "date": "2026-04-15",
           "sentiment_score": -0.128
-        },
-        {
-          "title": "Gemini Robotics-ER 1.6: Embodied reasoning for real-world robotics tasks",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47766946",
-          "date": "2026-04-14",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.21,
         0.2,
         0.19,
         0.13,
@@ -294,7 +293,8 @@
         -0.05,
         -0.05,
         -0.05,
-        -0.02
+        -0.02,
+        -0.05
       ]
     },
     {
@@ -326,6 +326,13 @@
       },
       "top_headlines": [
         {
+          "title": "Meta to ax 8k jobs as Zuckerberg doubles down on AI",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47890680",
+          "date": "2026-04-24",
+          "sentiment_score": 0.0
+        },
+        {
           "title": "Meta to cut 10% of jobs to 'offset' Mark Zuckerberg's AI spending",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=47882050",
@@ -352,17 +359,9 @@
           "url": "https://news.ycombinator.com/item?id=47866891",
           "date": "2026-04-22",
           "sentiment_score": -0.296
-        },
-        {
-          "title": "Meta employees are up in arms over a mandatory program to train AI on their",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47860961",
-          "date": "2026-04-22",
-          "sentiment_score": 0.0772
         }
       ],
       "sparkline": [
-        0.22,
         0.14,
         0.18,
         0.16,
@@ -390,6 +389,7 @@
         0.03,
         0.01,
         0.01,
+        -0.01,
         -0.01,
         -0.01
       ]
@@ -459,7 +459,6 @@
         }
       ],
       "sparkline": [
-        0.24,
         0.2,
         0.23,
         0.19,
@@ -488,25 +487,26 @@
         -0.14,
         -0.14,
         -0.14,
+        -0.14,
         -0.14
       ]
     },
     {
       "name": "JPMorgan Chase",
       "sentiment": {
-        "overall_score": 0,
-        "trend": "stable",
+        "overall_score": 0.27,
+        "trend": "improving",
         "previous_score": 0,
         "confidence": "low",
-        "sample_size": 0,
+        "sample_size": 1,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0,
-            "count": 0
+            "score": 0.27,
+            "count": 1
           },
           "reddit": {
             "score": 0,
@@ -518,7 +518,15 @@
           }
         }
       },
-      "top_headlines": [],
+      "top_headlines": [
+        {
+          "title": "Data Center Is Getting a $77M Tax Break to Create One Job",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47835423",
+          "date": "2026-04-20",
+          "sentiment_score": 0.2732
+        }
+      ],
       "sparkline": [
         0,
         0,
@@ -543,13 +551,13 @@
         0,
         0,
         0,
-        0,
         0.27,
         0.27,
         0,
         0,
         0,
-        0
+        0,
+        0.27
       ]
     },
     {
@@ -581,11 +589,11 @@
       },
       "top_headlines": [],
       "sparkline": [
-        -0.31,
         0,
         -0.32,
         -0.32,
         -0.32,
+        0,
         0,
         0,
         0,
@@ -646,7 +654,6 @@
         0.0,
         0.0,
         0.0,
-        0.0,
         0,
         0.0,
         -0.29,
@@ -668,6 +675,7 @@
         0,
         0.0,
         0.0,
+        0,
         0,
         0,
         0,
@@ -714,7 +722,6 @@
         0.46,
         0.46,
         0.46,
-        0.46,
         0.0,
         0.0,
         0.0,
@@ -732,6 +739,7 @@
         0.0,
         0.0,
         -0.07,
+        0.0,
         0.0,
         0.0,
         0.0,
@@ -808,7 +816,6 @@
         }
       ],
       "sparkline": [
-        -0.12,
         -0.09,
         -0.16,
         -0.14,
@@ -836,6 +843,7 @@
         -0.03,
         -0.03,
         -0.03,
+        -0.05,
         -0.05,
         -0.05
       ]
@@ -877,7 +885,6 @@
         }
       ],
       "sparkline": [
-        0.06,
         -0.02,
         -0.02,
         0.09,
@@ -906,6 +913,7 @@
         -0.31,
         -0.31,
         0.0,
+        0.0,
         0.0
       ]
     },
@@ -914,7 +922,7 @@
       "sentiment": {
         "overall_score": 0.06,
         "trend": "stable",
-        "previous_score": 0.09,
+        "previous_score": 0.06,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -959,22 +967,21 @@
           "sentiment_score": 0.0
         },
         {
+          "title": "Show HN: Sift \u2013 a minimal news app (looking for UI/UX feedback)",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47863881",
+          "date": "2026-04-22",
+          "sentiment_score": 0.0
+        },
+        {
           "title": "Show HN: Early Reader \u2013 Free open source reading app I built for my 4-year-old",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=47762556",
           "date": "2026-04-14",
           "sentiment_score": 0.5106
-        },
-        {
-          "title": "Show HN: I reverse-engineered the driver for my 15 year old printer (Dell 1320c)",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47758203",
-          "date": "2026-04-13",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.4,
         0.4,
         0.4,
         0.31,
@@ -1003,6 +1010,7 @@
         0.04,
         0.06,
         0.09,
+        0.06,
         0.06
       ]
     },
@@ -1011,7 +1019,7 @@
       "sentiment": {
         "overall_score": 0.07,
         "trend": "stable",
-        "previous_score": 0.08,
+        "previous_score": 0.07,
         "confidence": "high",
         "sample_size": 14,
         "source_scores": {
@@ -1073,7 +1081,6 @@
       "sparkline": [
         0.55,
         0.55,
-        0.55,
         0.46,
         0.06,
         0.11,
@@ -1100,6 +1107,7 @@
         0.27,
         0.07,
         0.08,
+        0.07,
         0.07
       ]
     },
@@ -1132,7 +1140,6 @@
       },
       "top_headlines": [],
       "sparkline": [
-        0.3,
         0.36,
         0.37,
         0.37,
@@ -1142,6 +1149,7 @@
         0.22,
         0.22,
         0.22,
+        0,
         0,
         0,
         0,
@@ -1202,7 +1210,6 @@
       ],
       "sparkline": [
         0.49,
-        0.49,
         0.51,
         0.51,
         0.29,
@@ -1229,6 +1236,7 @@
         0.0,
         0.0,
         0.0,
+        0.13,
         0.13,
         0.13
       ]
