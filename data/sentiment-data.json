@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-04-25T13:15:40.678999Z",
+  "last_updated": "2026-04-26T02:57:59.172488Z",
   "scraper_log": {
-    "duration_sec": 301.94,
-    "total_articles": 114,
+    "duration_sec": 297.16,
+    "total_articles": 115,
     "errors": []
   },
   "companies": [
     {
       "name": "Amazon",
       "sentiment": {
-        "overall_score": 0.09,
+        "overall_score": 0.07,
         "trend": "stable",
-        "previous_score": 0.1,
+        "previous_score": 0.09,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -20,7 +20,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.09,
+            "score": 0.07,
             "count": 15
           },
           "reddit": {
@@ -34,13 +34,6 @@
         }
       },
       "top_headlines": [
-        {
-          "title": "Meta signs agreement with AWS to power agentic AI on Amazon's Graviton chips",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47900251",
-          "date": "2026-04-25",
-          "sentiment_score": 0.4939
-        },
         {
           "title": "SHOW HN: I built a marketplace agency that treats profit as the actual metric",
           "source": "Hacker News",
@@ -63,6 +56,13 @@
           "sentiment_score": 0.1471
         },
         {
+          "title": "Emails show Amazon colluded to raise prices, California authorities allege",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47842784",
+          "date": "2026-04-20",
+          "sentiment_score": 0.1779
+        },
+        {
           "title": "Tell HN: Security Incident at Porter (YC S20)",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=47811132",
@@ -71,7 +71,6 @@
         }
       ],
       "sparkline": [
-        0.17,
         0.11,
         0.16,
         0.1,
@@ -100,7 +99,8 @@
         0.04,
         0.08,
         0.1,
-        0.09
+        0.09,
+        0.07
       ]
     },
     {
@@ -146,6 +146,13 @@
           "sentiment_score": -0.5106
         },
         {
+          "title": "My file access workaround for cron in Tahoe",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47847257",
+          "date": "2026-04-21",
+          "sentiment_score": 0.0
+        },
+        {
           "title": "Show HN: CyberWriter \u2013 a .md editor built on Apple's (barely-used) on-device AI",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=47833747",
@@ -158,17 +165,9 @@
           "url": "https://news.ycombinator.com/item?id=47822198",
           "date": "2026-04-19",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Poetical: AI Poetry Feed",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47817579",
-          "date": "2026-04-18",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.04,
         0.04,
         -0.02,
         -0.02,
@@ -197,15 +196,16 @@
         -0.07,
         -0.07,
         -0.07,
+        -0.07,
         -0.07
       ]
     },
     {
       "name": "Google",
       "sentiment": {
-        "overall_score": -0.0,
+        "overall_score": -0.03,
         "trend": "stable",
-        "previous_score": -0.05,
+        "previous_score": -0.0,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -214,7 +214,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.0,
+            "score": -0.03,
             "count": 15
           },
           "reddit": {
@@ -228,6 +228,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "LLM-Rosetta: Zero-Dep API Translator for OpenAI, Anthropic, Google and Streaming",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47904073",
+          "date": "2026-04-25",
+          "sentiment_score": 0.0
+        },
         {
           "title": "Show HN: God.ad \u2013 Real-time BGP routing data and DNS/IP lookups",
           "source": "Hacker News",
@@ -255,17 +262,9 @@
           "url": "https://news.ycombinator.com/item?id=47779094",
           "date": "2026-04-15",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Google Broke Its Promise to Me. Now ICE Has My Data",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47776638",
-          "date": "2026-04-15",
-          "sentiment_score": -0.128
         }
       ],
       "sparkline": [
-        0.19,
         0.13,
         0.01,
         0.01,
@@ -294,15 +293,16 @@
         -0.05,
         -0.02,
         -0.05,
-        -0.0
+        -0.0,
+        -0.03
       ]
     },
     {
       "name": "Meta",
       "sentiment": {
-        "overall_score": 0.0,
+        "overall_score": 0.03,
         "trend": "stable",
-        "previous_score": -0.01,
+        "previous_score": 0.0,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -311,7 +311,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.0,
+            "score": 0.03,
             "count": 15
           },
           "reddit": {
@@ -325,6 +325,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "DrP: Meta's Root Cause Analysis Platform at Scale",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47901864",
+          "date": "2026-04-25",
+          "sentiment_score": 0.0
+        },
         {
           "title": "Show HN: Agent MCP Studio \u2013 build multi-agent MCP systems in a browser tab",
           "source": "Hacker News",
@@ -340,29 +347,21 @@
           "sentiment_score": 0.4939
         },
         {
-          "title": "Tell HN: Claude 4.7 is ignoring stop hooks",
+          "title": "Meta to cut 10% of jobs to 'offset' Mark Zuckerberg's AI spending",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47895029",
-          "date": "2026-04-24",
-          "sentiment_score": -0.5994
+          "url": "https://news.ycombinator.com/item?id=47882050",
+          "date": "2026-04-23",
+          "sentiment_score": -0.2732
         },
         {
-          "title": "Ask HN: Incoming Meta layoffs, what now?",
+          "title": "Meta to Lay Off 10 Percent of Work Force in A.I. Push",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47881769",
+          "url": "https://news.ycombinator.com/item?id=47882016",
           "date": "2026-04-23",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Show HN: Callmux \u2013 MCP multiplexer that cuts tool call context pollution by ~19x",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47866891",
-          "date": "2026-04-22",
-          "sentiment_score": -0.296
         }
       ],
       "sparkline": [
-        0.18,
         0.16,
         -0.03,
         -0.03,
@@ -391,7 +390,8 @@
         -0.01,
         -0.01,
         -0.01,
-        0.0
+        0.0,
+        0.03
       ]
     },
     {
@@ -459,7 +459,6 @@
         }
       ],
       "sparkline": [
-        0.23,
         0.19,
         -0.26,
         -0.22,
@@ -488,6 +487,7 @@
         -0.14,
         -0.14,
         -0.14,
+        -0.14,
         -0.14
       ]
     },
@@ -495,8 +495,8 @@
       "name": "JPMorgan Chase",
       "sentiment": {
         "overall_score": 0,
-        "trend": "declining",
-        "previous_score": 0.27,
+        "trend": "stable",
+        "previous_score": 0,
         "confidence": "low",
         "sample_size": 0,
         "source_scores": {
@@ -541,7 +541,6 @@
         0,
         0,
         0,
-        0,
         0.27,
         0.27,
         0,
@@ -549,6 +548,7 @@
         0,
         0,
         0.27,
+        0,
         0
       ]
     },
@@ -583,7 +583,7 @@
       "sparkline": [
         -0.32,
         -0.32,
-        -0.32,
+        0,
         0,
         0,
         0,
@@ -644,7 +644,6 @@
       "sparkline": [
         0.0,
         0.0,
-        0.0,
         0,
         0.0,
         -0.29,
@@ -666,6 +665,7 @@
         0,
         0.0,
         0.0,
+        0,
         0,
         0,
         0,
@@ -712,7 +712,6 @@
       ],
       "sparkline": [
         0.46,
-        0.46,
         0.0,
         0.0,
         0.0,
@@ -740,13 +739,14 @@
         0.0,
         0.0,
         0.0,
+        0.0,
         0.0
       ]
     },
     {
       "name": "AT&T",
       "sentiment": {
-        "overall_score": -0.05,
+        "overall_score": -0.08,
         "trend": "stable",
         "previous_score": -0.05,
         "confidence": "high",
@@ -757,7 +757,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.05,
+            "score": -0.08,
             "count": 15
           },
           "reddit": {
@@ -800,15 +800,14 @@
           "sentiment_score": 0.0
         },
         {
-          "title": "The \"Passive Income\" trap ate a generation of entrepreneurs",
+          "title": "Israel escalates attacks on medics in Lebanon with deadly 'quadruple tap'",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47799120",
-          "date": "2026-04-16",
-          "sentiment_score": -0.128
+          "url": "https://news.ycombinator.com/item?id=47806596",
+          "date": "2026-04-17",
+          "sentiment_score": -0.4404
         }
       ],
       "sparkline": [
-        -0.16,
         -0.14,
         -0.06,
         -0.05,
@@ -837,7 +836,8 @@
         -0.05,
         -0.05,
         -0.05,
-        -0.05
+        -0.05,
+        -0.08
       ]
     },
     {
@@ -845,7 +845,7 @@
       "sentiment": {
         "overall_score": 0,
         "trend": "stable",
-        "previous_score": 0.0,
+        "previous_score": 0,
         "confidence": "low",
         "sample_size": 0,
         "source_scores": {
@@ -869,7 +869,6 @@
       },
       "top_headlines": [],
       "sparkline": [
-        -0.02,
         0.09,
         -0.23,
         -0.31,
@@ -898,6 +897,7 @@
         0.0,
         0.0,
         0.0,
+        0,
         0
       ]
     },
@@ -906,7 +906,7 @@
       "sentiment": {
         "overall_score": 0.01,
         "trend": "stable",
-        "previous_score": 0.06,
+        "previous_score": 0.01,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -944,6 +944,13 @@
           "sentiment_score": -0.2263
         },
         {
+          "title": "Ask HN: Scaling a targeted web crawler beyond 500M pages/day",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47888857",
+          "date": "2026-04-24",
+          "sentiment_score": 0.0
+        },
+        {
           "title": "Ask HN: How much AI slop do you deal with at work?",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=47878425",
@@ -956,17 +963,9 @@
           "url": "https://news.ycombinator.com/item?id=47794514",
           "date": "2026-04-16",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Show HN: Early Reader \u2013 Free open source reading app I built for my 4-year-old",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47762556",
-          "date": "2026-04-14",
-          "sentiment_score": 0.5106
         }
       ],
       "sparkline": [
-        0.4,
         0.31,
         0.01,
         0.1,
@@ -995,25 +994,26 @@
         0.09,
         0.06,
         0.06,
+        0.01,
         0.01
       ]
     },
     {
       "name": "Tesla",
       "sentiment": {
-        "overall_score": 0.13,
-        "trend": "improving",
-        "previous_score": 0.07,
+        "overall_score": 0.09,
+        "trend": "stable",
+        "previous_score": 0.13,
         "confidence": "medium",
-        "sample_size": 8,
+        "sample_size": 9,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.13,
-            "count": 8
+            "score": 0.09,
+            "count": 9
           },
           "reddit": {
             "score": 0,
@@ -1041,6 +1041,13 @@
           "sentiment_score": 0.5574
         },
         {
+          "title": "Tesla (TSLA) pulled questionable levers to make Q1 2026 financials look good",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47870866",
+          "date": "2026-04-23",
+          "sentiment_score": 0.1779
+        },
+        {
           "title": "Tesla earnings updates: The stock is up after revenue and EPS beat Wall Street's",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=47869011",
@@ -1053,17 +1060,9 @@
           "url": "https://news.ycombinator.com/item?id=47833156",
           "date": "2026-04-20",
           "sentiment_score": -0.7003
-        },
-        {
-          "title": "Tesla Roadstar does not even have a release date so how is that not real fraud?",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47810471",
-          "date": "2026-04-17",
-          "sentiment_score": 0.4717
         }
       ],
       "sparkline": [
-        0.55,
         0.46,
         0.06,
         0.11,
@@ -1092,7 +1091,8 @@
         0.08,
         0.07,
         0.07,
-        0.13
+        0.13,
+        0.09
       ]
     },
     {
@@ -1125,13 +1125,13 @@
       "top_headlines": [],
       "sparkline": [
         0.37,
-        0.37,
         0,
         0,
         0,
         0.22,
         0.22,
         0.22,
+        0,
         0,
         0,
         0,
@@ -1160,8 +1160,8 @@
       "name": "Cisco",
       "sentiment": {
         "overall_score": 0,
-        "trend": "declining",
-        "previous_score": 0.13,
+        "trend": "stable",
+        "previous_score": 0,
         "confidence": "low",
         "sample_size": 0,
         "source_scores": {
@@ -1185,7 +1185,6 @@
       },
       "top_headlines": [],
       "sparkline": [
-        0.51,
         0.51,
         0.29,
         0.26,
@@ -1214,6 +1213,7 @@
         0.13,
         0.13,
         0.13,
+        0,
         0
       ]
     }
