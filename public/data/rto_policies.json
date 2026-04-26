@@ -276,7 +276,7 @@
     "daysInOffice": 5,
     "enforcement": "Strict 5-day mandate since 2022 (confirmed 2025)",
     "lastUpdate": "2025-07-16",
-    "source": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOckR2allWS3FabHlQXzh0Y25uWGl2WmczYXh5N2x6eWpKS1ZfbjhZQWVYaUk3eU5aYzBtZ0llVTNsZTA5UnVGamtMeS1LaGNQWXBRRnpoS2VFb1c0MnhQQWoyQ285b3hmOHpmbVV1bHNhMnI5eHVMTVlrMHBWSjRRY0ZTbUR6anc?oc=5",
+    "source": "https://www.theguardian.com/technology/2022/jun/01/elon-musk-tesla-return-office-or-resign",
     "sentiment": -0.38,
     "sentimentTrend": "Declining",
     "mentionVolume": 1410,
@@ -502,11 +502,11 @@
     "id": 7,
     "company": "UPS",
     "sector": "Industrials",
-    "policy": "Office-First",
-    "daysInOffice": 4,
+    "policy": "Full Office",
+    "daysInOffice": 5,
     "enforcement": "Full RTO from Mar 4, 2024",
-    "lastUpdate": "2025-05-29",
-    "source": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBKRDh4OHU0MmZVdW91VV9NQ0tna1V2a1lOU3dDNDlLN3o1LTF6UmNKVmZxZk1nM2x1WjBfcGtVOG1pdjZjOEF4RDNsTWNGQ1ZPLUxrMmRoa0lvOTJOM0lOeTVyX2VvWFRaSWtXLQ?oc=5",
+    "lastUpdate": "2024-02-06",
+    "source": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTGFlazQyUjI2WUk1VGlyQTFmeDdFWFRRaVZZbFdzUy1Mdmk2SmVpLWxFNGJtbDA1WjYwcUVrOThaS2JBTUdORkk1c0Y4QmU1eVZVUUhfSVM3M3UyTkplM2ttNDB3Um1yb0dpcUQyU3YzaVZzR1phRHVzekY5dUp4ZkpFSmthVlpza3RPYlhDMHFjWTBSeWpwNXpZVTdHb212cGRIeDJHZ2w?oc=5",
     "sentiment": -0.77,
     "sentimentTrend": "Declining",
     "mentionVolume": 842,
@@ -2048,8 +2048,8 @@
     "policy": "Hybrid",
     "daysInOffice": 3,
     "enforcement": "3-day hybrid (Tue/Thu + Team Day) confirmed 2025",
-    "lastUpdate": "2025-07-13",
-    "source": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPWVUyb2FoYzY1UDFiU05xeHpkQWt3Q2E1TDVOVWtLOEd1aWg5ajUxakpvOXlXalF1VkNUM3VQVXh3cGd0TDZjbXNSSDNsUDdRbmx5VkdqZEZlY1BxbC1FaUpvb3FUU3V2VXFLZU9WY1J1WWtURHZyVkpja2RldXowdjB5b1laTWw1WjVfSV9hMUJxNS1EV3otOWNJVmNNaTRaenVz?oc=5",
+    "lastUpdate": "2025-11-28",
+    "source": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZFQtR1NMNHN1TUdGeWpWRmQ3MlMtX0RndXRUWlRsWk1KMkFZYzFZOWFSbG5XZnBDWmVyazBVbEp0RG9xTkFoV1dGTTdWLXhtNjA0MTNUNkRZN2ZRQ0dqZmFUVU1fbjlyRVJjbnFJZUp2Zy1WeXZJb0hTdktzQzhPby1xZ0x3SXhMdi1mSU5DYlE4eER4aEtWTGxn?oc=5",
     "sentiment": 0.66,
     "sentimentTrend": "Improving",
     "mentionVolume": 2074,
@@ -2349,6 +2349,12 @@
       }
     ],
     "policyHistory": [
+      {
+        "date": "2025-01-15",
+        "policy": "Hybrid",
+        "daysInOffice": 3,
+        "source": "https://www.businessinsider.com/meta-zuckerberg-return-to-office-status-quo-2025"
+      },
       {
         "date": "2025-01-15",
         "policy": "Hybrid",
@@ -3503,8 +3509,8 @@
     "policy": "Hybrid",
     "daysInOffice": 3,
     "enforcement": "Manager discretion",
-    "lastUpdate": "2026-04-25",
-    "source": "https://news.google.com/rss/articles/CBMi_gJBVV95cUxQQmF1cG9reXdaTVlaWWFjR01rSzBDb2xXRjZkVWltc1dYdUk4bUt1NXdTRFhxOW4yUkZaLUF5ejdSRk9VQ0VYRm9pby1KXzZLclFmeU1HWHFrSTEtcF82UEVlaFBxTE13aVVXbDJKczF2alJNaWEwWkdiMlBaTllhdmtkMnd4Vm0xZFdzem9rWjdWMlVsZGItc0VHblowa0M3UHU3OXR6eWJZRXktZmVkMjJSZlN1NmFIMzVhYUlVQ0dKeFFuYkVVcUZnZ1g1ZFhWSWNsMUFQaWw0c2o2TGdXNVk4ck9mM3dRODRCeUhjRWFnTW5ScU5fZkVlank3WjV6Y0twMXdhN3BOdkQ5WXAyWWt1dUdtQmlUNE80cGpGbUFtZ0d0Y2pTcHlMb2dzcllMbGZXT01IcHNranpaUVE2akZVd2tQSjFGalc3QmtxVm1VZmg5THNXQU9HZ2tyYTBWbmlIRXpPWVdhNklYbnpOcjl3RENJN1k1MFpLUDdn?oc=5",
+    "lastUpdate": "2026-04-24",
+    "source": "https://news.google.com/rss/articles/CBMi_AJBVV95cUxOdnotU052V2V2UlN4NlhwVUZXQnVJUVlkWDJDVExFSFZhMDRVbUJycUxmelV3d0ZTd2VxTW02alJCd1hmS0RmZnQzNVVUUG9MTnJ5MWdJS2QyZUFaUk1PcTdmc05yY1RfWXcwOTVkSUNkWTR1b1N5cndDbDZ2bVU2M3JFUUVGbFVvZ19qcjgwTjRVOE1XcG8xeGxqVHhrb2NXc1puWXI5a1Y2YzZONVpwVzJuQ01oZkVtMko0SDBiTlJIbkJYYnV4aUgxNHFhRlc5QzNGbThDTnkyenZtMDZaRkxpVWRkdHNjdTdyUmZxb2YtMk5COHlMVnJsTmRCc0doVlNBR3V6dlM3VTFVaGV1VUFwRHBQSUpQMlo5bTMxbmU1S3F1aVNGX0p6ZUh2d3pEb0lmT1lIeEJjMjI3UUNLNFdaRUtSUHVKRS1iUE1ZOUJXcHVQbFBkcUpEZEtRZlJWem5IU0d2aXltSmN6TzZTVHZqRzlSX2hWT0lvbg?oc=5",
     "sentiment": 0.64,
     "sentimentTrend": "Improving",
     "mentionVolume": 3848,
@@ -3572,7 +3578,7 @@
     "policy": "Hybrid",
     "daysInOffice": 3,
     "enforcement": "Standard hybrid",
-    "lastUpdate": "2026-04-25",
+    "lastUpdate": "2026-04-26",
     "source": "https://news.google.com/rss/articles/CBMi6AJBVV95cUxQRjcwdkJEQXJkdGFEZzBLZTZMalZUT0NFR3pSb0duVGViVUlDWUhJYUpnS3huMWxtblFZejhSbE9fcjRTblJoX1RRN2RZVWhWZVJoV2ZlcnFRLTA2VkNVMUlZcHpoNGduVEV2QXg4a1JlQmJYcURldHdScnA1dHItdGhNSWxhSGhmZ281QnV2dUVJOTNMb2ZSYVZNRW9xYWl3RXNoajR2NDFwRWhCYnJHWW9OZ3pLNWZfRlhzV1hDR1hvMFQydERYNzNPY19rMmo5S19kZkExcEhobUpBSHprLTNGM1BsM19CTlVGN2NRYTdFQWFPQU1NY2UtcXRFV2dKVVF0OXlrTmNXTWE0eXhyZ2ZRWWNrdFpvSjh4VlNBRWw1ODBFZWNRYkg5X1B3a3BIWk5ZejE1MWFqX2cyaWVJQ054bGNFMkRfQmFUR1djZDJfb0duWUtWN1BVUFR6M0VndnVfbnp3VU8?oc=5",
     "sentiment": 0.79,
     "sentimentTrend": "Improving",
@@ -4102,8 +4108,8 @@
     "policy": "Hybrid",
     "daysInOffice": 3,
     "enforcement": "Standard hybrid",
-    "lastUpdate": "2025-11-07",
-    "source": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNTDZpODVlX3Q4TEVnNEJ1TGxFTE9TSDVFRlRVQy00aWxZU2hKeEhOdmZPN0Jnd2hxaU9ISFFVckZuOGRvNkhTWHhraGRKTThNdm5mUlJtV0gzNzJqcTUyZ0hVQWZLWExBTVREcGtFc0l3UzBUYkRyUFgzUWloR1VzeWV4elhkQ25VMkd1b3o5TlpOU1VlcmtDR0hQMmktYURfVUZUcnEyNlJyVl9x?oc=5",
+    "lastUpdate": "2025-09-09",
+    "source": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNXVNcklfWVJ6aGtGYkVkLXZQWmc2UjFwblNrajVlUGE0b0J0UFJxUWdxeHBwNmpjb2NHdFgyNG1BUGMtYk5CVlVhWDBLVUZCazZ6TjBCWlRqc01NRjg3Mm5ZV3JEeXJ4MXNFTHkyNnpPeGVIQTVJOGwySlBlSWkxRXdBd0hJVTBzZGZ1QWMwZngtNGZIWWFEaUlpWEJPbVB6dmVYUURmNNIBuwFBVV95cUxPenVjYnlPcHVVOEhyN2tuWXAxc0lpRXNIaHZGN2I4STh2LThjM0U4RUI5ajVVYXJqTFhnTjh0akZXTjVOZVJZRHhULW1vSFhRVm5KakprcGFNUFYzcXB5d2owZE82dEZqNGZxd2FlenlmUkVBSnRfSzd1cU40RUJoRVBUT0JzUlZyZXRldTd4OU5xcHBLbU11T0tPU0N1Zjhya3paZGFIRHpwSTVxeXdxd0xCaFdoLURkRzVj?oc=5",
     "sentiment": 0.64,
     "sentimentTrend": "Improving",
     "mentionVolume": 5295,
@@ -4182,11 +4188,11 @@
     "id": 43,
     "company": "Oracle",
     "sector": "Technology",
-    "policy": "Hybrid",
-    "daysInOffice": 3,
+    "policy": "Full Office",
+    "daysInOffice": 5,
     "enforcement": "Standard hybrid",
-    "lastUpdate": "2026-04-25",
-    "source": "https://news.google.com/rss/articles/CBMiwwNBVV95cUxPUWpzNWV6ZUdoblBtSWpoREN6anNEcHBVaTNqWFBGWjZwd2ZHRThHY0NqeVE0U1ZVNS12YkxkbjQwdXJaQjVkMy1tV3JRVlVvckpMRTI3dHRzczJadlFPZ3hZeGxQSDhySGxpLVJ0aGFST1FDNk9oWmNUWmt1bXNRQ0RUakJCWDdUME40dlhobmFzWWlNZkRZOTR4Z2ZoTEE2ZE5HN2k3QXVtTFpLS1hUa0ZMS25PRDBJem5FN1E4Sm0tMmpWRXNEazVWcGRsWHpmMm9iNmt0Rms5Y295VmZDOXhTRzJhU3ZLQUZLcjNVV3I3WWtDSE11dFhJejFwOXRNaUVEaXhueDROckdwRUhOTi1aOFJ0aVVpVUJnTnVvcEhDbUsydFhGcUFFbFlZMzRUMGJ1NnAxQUVab3pDRUhwdXpGTEdRUGVOaXRudUNfeXloLXYzM2NnVE5VYU5rVExfXzJfQnBoa04xRW1EcUI0Vzk1ZHA3NEdXSWtIVUlYNFFLV21lTzJfOXZDYk9GUHNETlRINTItSnc2TmVqUkFOU195YXZMbWhydjgxelF2bDVKV3ZLVmdPaC1DUThyZnJjekVZ?oc=5",
+    "lastUpdate": "2025-12-01",
+    "source": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1MREx5MUlnTVh6VldGRm5qRGxMWndVV0JwM2JQdWk3TFJ2WDJVZ2sxTndPNEhySWVUbGpvSUVQU0lhck1mNEtrZVRxQnFGVVFsY3FLZWNUSU1PQ3BUNGx6RmNieTlDak1weXFZeDRha0tsVHRKMEJNdXFFeFHSAYIBQVVfeXFMTVVMVWhmc1dJaWVNLVBJeFhVMkp1SWFWdE1wc3luejZnMXdZNlIyNGRhaUJrQUNFX0FGS0FsSTJWc1FFR05ESlE5dVBkN1VMa0hfS0JLaVJnb2ZiVUhVUUk4djUxVVlxYkpPMkNXUVJnUjV6YTlDVVRYblNxZkg0VnBUZw?oc=5",
     "sentiment": 0.87,
     "sentimentTrend": "Improving",
     "mentionVolume": 3225,
@@ -4254,6 +4260,12 @@
       }
     ],
     "policyHistory": [
+      {
+        "date": "2023-01-01",
+        "policy": "Hybrid",
+        "daysInOffice": 3,
+        "source": "https://www.businessinsider.com/oracle-hybrid-work-return-to-office"
+      },
       {
         "date": "2023-01-01",
         "policy": "Hybrid",
@@ -4827,6 +4839,12 @@
       }
     ],
     "policyHistory": [
+      {
+        "date": "2024-01-01",
+        "policy": "Remote-First",
+        "daysInOffice": 0,
+        "source": "https://www.timesnownews.com/technology/nvidia-flexible-work-policy-no-rto-mandate"
+      },
       {
         "date": "2024-01-01",
         "policy": "Remote-First",
