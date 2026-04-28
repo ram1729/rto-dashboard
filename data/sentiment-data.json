@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-04-27T14:04:24.401542Z",
+  "last_updated": "2026-04-28T03:07:12.003692Z",
   "scraper_log": {
-    "duration_sec": 264.36,
-    "total_articles": 119,
+    "duration_sec": 253.57,
+    "total_articles": 120,
     "errors": []
   },
   "companies": [
@@ -35,9 +35,9 @@
       },
       "top_headlines": [
         {
-          "title": "Google banks on AI edge to catch up to cloud rivals Amazon and Microsoft",
+          "title": "Live coverage: ULA to launch 29 Amazon Leo satellites on Atlas 5 LIVE in ~2hrs",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47916410",
+          "url": "https://news.ycombinator.com/item?id=47927921",
           "date": "2026-04-27",
           "sentiment_score": 0.1779
         },
@@ -71,7 +71,6 @@
         }
       ],
       "sparkline": [
-        0.05,
         0.04,
         0.03,
         0.02,
@@ -97,6 +96,7 @@
         0.08,
         0.1,
         0.09,
+        0.07,
         0.07,
         0.07,
         0.07,
@@ -132,6 +132,13 @@
       },
       "top_headlines": [
         {
+          "title": "Show HN: Boredroom, An app for men who stare at walls",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47926461",
+          "date": "2026-04-27",
+          "sentiment_score": 0.0
+        },
+        {
           "title": "Show HN: I ported OmniAID image detection model to Apple's Neural Engine",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=47921042",
@@ -153,13 +160,6 @@
           "sentiment_score": -0.5106
         },
         {
-          "title": "My file access workaround for cron in Tahoe",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47847257",
-          "date": "2026-04-21",
-          "sentiment_score": 0.0
-        },
-        {
           "title": "Show HN: CyberWriter \u2013 a .md editor built on Apple's (barely-used) on-device AI",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=47833747",
@@ -168,7 +168,6 @@
         }
       ],
       "sparkline": [
-        -0.05,
         0.11,
         0.11,
         0.2,
@@ -188,6 +187,7 @@
         -0.06,
         -0.09,
         -0.09,
+        -0.07,
         -0.07,
         -0.07,
         -0.07,
@@ -265,7 +265,6 @@
         }
       ],
       "sparkline": [
-        0.01,
         0.14,
         0.14,
         0.13,
@@ -294,6 +293,7 @@
         -0.03,
         -0.03,
         -0.03,
+        -0.03,
         -0.03
       ]
     },
@@ -302,7 +302,7 @@
       "sentiment": {
         "overall_score": -0.0,
         "trend": "stable",
-        "previous_score": -0.01,
+        "previous_score": -0.0,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -362,7 +362,6 @@
         }
       ],
       "sparkline": [
-        -0.03,
         0.15,
         0.15,
         0.15,
@@ -391,6 +390,7 @@
         0.03,
         -0.01,
         -0.01,
+        -0.0,
         -0.0
       ]
     },
@@ -459,7 +459,6 @@
         }
       ],
       "sparkline": [
-        -0.16,
         0.14,
         0.14,
         0.22,
@@ -478,6 +477,7 @@
         -0.13,
         -0.16,
         -0.16,
+        -0.14,
         -0.14,
         -0.14,
         -0.14,
@@ -537,7 +537,6 @@
         0,
         0,
         0,
-        0,
         0.27,
         0.27,
         0,
@@ -545,6 +544,7 @@
         0,
         0,
         0.27,
+        0,
         0,
         0,
         0,
@@ -618,7 +618,7 @@
       "sentiment": {
         "overall_score": 0.0,
         "trend": "stable",
-        "previous_score": 0,
+        "previous_score": 0.0,
         "confidence": "low",
         "sample_size": 1,
         "source_scores": {
@@ -650,7 +650,6 @@
         }
       ],
       "sparkline": [
-        0.0,
         -0.29,
         -0.29,
         0,
@@ -679,6 +678,7 @@
         0,
         0,
         0,
+        0.0,
         0.0
       ]
     },
@@ -719,7 +719,6 @@
         }
       ],
       "sparkline": [
-        0.0,
         0.46,
         0.46,
         0.54,
@@ -748,13 +747,14 @@
         0.0,
         0.0,
         0.0,
+        0.0,
         0.0
       ]
     },
     {
       "name": "AT&T",
       "sentiment": {
-        "overall_score": -0.07,
+        "overall_score": -0.04,
         "trend": "stable",
         "previous_score": -0.07,
         "confidence": "high",
@@ -765,7 +765,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.07,
+            "score": -0.04,
             "count": 15
           },
           "reddit": {
@@ -779,6 +779,20 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Men who stare at walls",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47920074",
+          "date": "2026-04-27",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "4TB of voice samples just stolen from 40k AI contractors at Mercor",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47919630",
+          "date": "2026-04-27",
+          "sentiment_score": -0.4939
+        },
         {
           "title": "Sawe becomes first athlete to run a sub-two-hour marathon in a competitive race",
           "source": "Hacker News",
@@ -799,24 +813,9 @@
           "url": "https://news.ycombinator.com/item?id=47837611",
           "date": "2026-04-20",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Making RAM at Home [video]",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47842569",
-          "date": "2026-04-20",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "Atlassian enables default data collection to train AI",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47833247",
-          "date": "2026-04-20",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        -0.05,
         -0.2,
         -0.2,
         -0.2,
@@ -845,7 +844,8 @@
         -0.08,
         -0.08,
         -0.07,
-        -0.07
+        -0.07,
+        -0.04
       ]
     },
     {
@@ -885,7 +885,6 @@
         }
       ],
       "sparkline": [
-        -0.31,
         0.06,
         0.06,
         -0.06,
@@ -914,6 +913,7 @@
         0,
         0,
         0.0,
+        0.0,
         0.0
       ]
     },
@@ -921,8 +921,8 @@
       "name": "Dell",
       "sentiment": {
         "overall_score": 0.07,
-        "trend": "improving",
-        "previous_score": -0.03,
+        "trend": "stable",
+        "previous_score": 0.07,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -982,7 +982,6 @@
         }
       ],
       "sparkline": [
-        0.1,
         0.3,
         0.28,
         0.25,
@@ -1011,25 +1010,26 @@
         0.01,
         -0.01,
         -0.03,
+        0.07,
         0.07
       ]
     },
     {
       "name": "Tesla",
       "sentiment": {
-        "overall_score": 0.15,
-        "trend": "improving",
-        "previous_score": 0.09,
+        "overall_score": 0.07,
+        "trend": "declining",
+        "previous_score": 0.15,
         "confidence": "high",
-        "sample_size": 10,
+        "sample_size": 11,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.15,
-            "count": 10
+            "score": 0.07,
+            "count": 11
           },
           "reddit": {
             "score": 0,
@@ -1079,7 +1079,6 @@
         }
       ],
       "sparkline": [
-        0.17,
         0.33,
         0.33,
         0.31,
@@ -1108,7 +1107,8 @@
         0.09,
         0.09,
         0.09,
-        0.15
+        0.15,
+        0.07
       ]
     },
     {
@@ -1140,10 +1140,10 @@
       },
       "top_headlines": [],
       "sparkline": [
+        0.22,
+        0.22,
+        0.22,
         0,
-        0.22,
-        0.22,
-        0.22,
         0,
         0,
         0,
@@ -1177,7 +1177,7 @@
       "sentiment": {
         "overall_score": 0.0,
         "trend": "stable",
-        "previous_score": 0,
+        "previous_score": 0.0,
         "confidence": "low",
         "sample_size": 1,
         "source_scores": {
@@ -1209,7 +1209,6 @@
         }
       ],
       "sparkline": [
-        0.0,
         0.36,
         0.36,
         0.44,
@@ -1238,6 +1237,7 @@
         0,
         0,
         0,
+        0.0,
         0.0
       ]
     }
