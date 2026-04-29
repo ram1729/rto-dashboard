@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-04-29T03:01:09.722111Z",
+  "last_updated": "2026-04-29T14:08:31.111547Z",
   "scraper_log": {
-    "duration_sec": 132.78,
-    "total_articles": 293,
+    "duration_sec": 277.7,
+    "total_articles": 286,
     "errors": []
   },
   "companies": [
     {
       "name": "Amazon",
       "sentiment": {
-        "overall_score": 0.07,
+        "overall_score": 0.08,
         "trend": "stable",
-        "previous_score": 0.08,
+        "previous_score": 0.07,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -20,7 +20,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.04,
+            "score": 0.05,
             "count": 15
           },
           "reddit": {
@@ -34,6 +34,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Amazon rolls out AI hiring software to automate job interviews",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47946570",
+          "date": "2026-04-29",
+          "sentiment_score": 0.1779
+        },
         {
           "title": "Look Up",
           "source": "Reddit",
@@ -61,17 +68,9 @@
           "url": "https://news.ycombinator.com/item?id=47934956",
           "date": "2026-04-28",
           "sentiment_score": -0.4404
-        },
-        {
-          "title": "Live coverage: ULA to launch 29 Amazon Leo satellites on Atlas 5 LIVE in ~2hrs",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47927921",
-          "date": "2026-04-27",
-          "sentiment_score": 0.1779
         }
       ],
       "sparkline": [
-        0.02,
         0.09,
         0.09,
         0.06,
@@ -100,7 +99,8 @@
         0.07,
         0.07,
         0.08,
-        0.07
+        0.07,
+        0.08
       ]
     },
     {
@@ -168,7 +168,6 @@
         }
       ],
       "sparkline": [
-        0.2,
         -0.05,
         -0.05,
         -0.05,
@@ -196,6 +195,7 @@
         -0.07,
         -0.07,
         -0.07,
+        -0.05,
         -0.05,
         -0.05
       ]
@@ -265,7 +265,6 @@
         }
       ],
       "sparkline": [
-        0.13,
         -0.0,
         -0.05,
         -0.05,
@@ -293,6 +292,7 @@
         -0.03,
         -0.03,
         -0.03,
+        -0.05,
         -0.05,
         -0.05
       ]
@@ -301,8 +301,8 @@
       "name": "Meta",
       "sentiment": {
         "overall_score": 0.24,
-        "trend": "declining",
-        "previous_score": 0.3,
+        "trend": "stable",
+        "previous_score": 0.24,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -362,7 +362,6 @@
         }
       ],
       "sparkline": [
-        0.15,
         -0.06,
         -0.06,
         -0.06,
@@ -391,6 +390,7 @@
         -0.0,
         -0.0,
         0.3,
+        0.24,
         0.24
       ]
     },
@@ -398,8 +398,8 @@
       "name": "Microsoft",
       "sentiment": {
         "overall_score": 0.17,
-        "trend": "declining",
-        "previous_score": 0.24,
+        "trend": "stable",
+        "previous_score": 0.17,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -459,7 +459,6 @@
         }
       ],
       "sparkline": [
-        0.22,
         -0.12,
         -0.08,
         -0.11,
@@ -488,6 +487,7 @@
         -0.14,
         -0.14,
         0.24,
+        0.17,
         0.17
       ]
     },
@@ -534,7 +534,6 @@
         0,
         0,
         0,
-        0,
         0.27,
         0.27,
         0,
@@ -542,6 +541,7 @@
         0,
         0,
         0.27,
+        0,
         0,
         0,
         0,
@@ -616,19 +616,19 @@
     {
       "name": "Bank of America",
       "sentiment": {
-        "overall_score": 0.0,
+        "overall_score": 0,
         "trend": "stable",
         "previous_score": 0.0,
         "confidence": "low",
-        "sample_size": 1,
+        "sample_size": 0,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.0,
-            "count": 1
+            "score": 0,
+            "count": 0
           },
           "reddit": {
             "score": 0,
@@ -640,17 +640,8 @@
           }
         }
       },
-      "top_headlines": [
-        {
-          "title": "AI gives back more equality than it takes away",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47920530",
-          "date": "2026-04-27",
-          "sentiment_score": 0.0
-        }
-      ],
+      "top_headlines": [],
       "sparkline": [
-        0,
         0.0,
         0.0,
         0.0,
@@ -679,7 +670,8 @@
         0.0,
         0.0,
         0.0,
-        0.0
+        0.0,
+        0
       ]
     },
     {
@@ -687,7 +679,7 @@
       "sentiment": {
         "overall_score": 0.51,
         "trend": "stable",
-        "previous_score": 0.54,
+        "previous_score": 0.51,
         "confidence": "high",
         "sample_size": 16,
         "source_scores": {
@@ -747,7 +739,6 @@
         }
       ],
       "sparkline": [
-        0.54,
         0.0,
         0.0,
         0.0,
@@ -776,15 +767,16 @@
         0.0,
         0.0,
         0.54,
+        0.51,
         0.51
       ]
     },
     {
       "name": "AT&T",
       "sentiment": {
-        "overall_score": -0.08,
+        "overall_score": -0.05,
         "trend": "stable",
-        "previous_score": -0.05,
+        "previous_score": -0.08,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -797,7 +789,7 @@
             "count": 15
           },
           "reddit": {
-            "score": -0.11,
+            "score": -0.06,
             "count": 15
           },
           "gdelt": {
@@ -844,7 +836,6 @@
         }
       ],
       "sparkline": [
-        -0.2,
         -0.05,
         -0.05,
         -0.0,
@@ -873,14 +864,15 @@
         -0.07,
         -0.04,
         -0.05,
-        -0.08
+        -0.08,
+        -0.05
       ]
     },
     {
       "name": "Disney",
       "sentiment": {
-        "overall_score": 0.01,
-        "trend": "stable",
+        "overall_score": 0.12,
+        "trend": "improving",
         "previous_score": 0.01,
         "confidence": "high",
         "sample_size": 16,
@@ -890,7 +882,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.0,
+            "score": 0.3,
             "count": 1
           },
           "reddit": {
@@ -904,6 +896,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "US regulator to review Disney licences after Jimmy Kimmel joke about Melania",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47944471",
+          "date": "2026-04-29",
+          "sentiment_score": 0.296
+        },
         {
           "title": "The Book of Boba Fett",
           "source": "Reddit",
@@ -931,17 +930,9 @@
           "url": "https://www.reddit.com/r/movies/comments/1sxi4ag/april_2426_box_office_recap_michael_opens_with_a/",
           "date": "2026-04-27",
           "sentiment_score": 0.9981
-        },
-        {
-          "title": "(Selling) Over 800 Movies. Disney 4k Movies, Star Wars 4k, Lilo and Stitch, Ratatouille, Dogma, Up, Wreck it Ralph.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/DigitalCodeSELL/comments/1sq7k9c/selling_over_800_movies_disney_4k_movies_star/",
-          "date": "2026-04-19",
-          "sentiment_score": -0.9996
         }
       ],
       "sparkline": [
-        -0.06,
         -0.62,
         -0.31,
         -0.31,
@@ -970,13 +961,14 @@
         0.0,
         0.0,
         0.01,
-        0.01
+        0.01,
+        0.12
       ]
     },
     {
       "name": "Dell",
       "sentiment": {
-        "overall_score": 0.34,
+        "overall_score": 0.33,
         "trend": "stable",
         "previous_score": 0.34,
         "confidence": "high",
@@ -987,7 +979,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.08,
+            "score": 0.07,
             "count": 15
           },
           "reddit": {
@@ -1001,6 +993,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Palantir inks $300M deal with USDA to safeguard food supply",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47947123",
+          "date": "2026-04-29",
+          "sentiment_score": 0.3818
+        },
         {
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
@@ -1023,22 +1022,14 @@
           "sentiment_score": -0.3434
         },
         {
-          "title": "CATL says sodium batteries are mainstream-ready, signs 60 GWh deal",
+          "title": "Microsoft and OpenAI end their exclusive and revenue-sharing deal",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47931055",
-          "date": "2026-04-28",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "Meta's $2B Deal to Buy AI Startup Manus Blocked by China",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47920043",
+          "url": "https://news.ycombinator.com/item?id=47921248",
           "date": "2026-04-27",
-          "sentiment_score": -0.2732
+          "sentiment_score": 0.128
         }
       ],
       "sparkline": [
-        0.25,
         0.02,
         -0.0,
         -0.0,
@@ -1067,25 +1058,26 @@
         0.07,
         0.07,
         0.34,
-        0.34
+        0.34,
+        0.33
       ]
     },
     {
       "name": "Tesla",
       "sentiment": {
-        "overall_score": 0.15,
+        "overall_score": 0.18,
         "trend": "stable",
         "previous_score": 0.15,
         "confidence": "high",
-        "sample_size": 26,
+        "sample_size": 22,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.07,
-            "count": 11
+            "score": 0.13,
+            "count": 7
           },
           "reddit": {
             "score": 0.2,
@@ -1135,7 +1127,6 @@
         }
       ],
       "sparkline": [
-        0.31,
         0.05,
         0.05,
         -0.04,
@@ -1164,7 +1155,8 @@
         0.15,
         0.07,
         0.15,
-        0.15
+        0.15,
+        0.18
       ]
     },
     {
@@ -1232,7 +1224,6 @@
         }
       ],
       "sparkline": [
-        0.22,
         0,
         0,
         0,
@@ -1261,25 +1252,26 @@
         0,
         0,
         0.16,
+        0.16,
         0.16
       ]
     },
     {
       "name": "Cisco",
       "sentiment": {
-        "overall_score": 0.37,
-        "trend": "stable",
+        "overall_score": 0.59,
+        "trend": "improving",
         "previous_score": 0.37,
         "confidence": "high",
-        "sample_size": 12,
+        "sample_size": 10,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.0,
-            "count": 2
+            "score": 0,
+            "count": 0
           },
           "reddit": {
             "score": 0.59,
@@ -1314,22 +1306,21 @@
           "sentiment_score": -0.4723
         },
         {
-          "title": "Cisco Introduces Universal Quantum Switch",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47930126",
-          "date": "2026-04-28",
-          "sentiment_score": 0.0
+          "title": "[PIL] #2014 4/22/2026",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/Purtle/comments/1sswh64/pil_2014_4222026/",
+          "date": "2026-04-22",
+          "sentiment_score": -0.9992
         },
         {
-          "title": "Cisco Introduces Universal Quantum Switch Advancing the Path to Quantum Network",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47917278",
-          "date": "2026-04-27",
-          "sentiment_score": 0.0
+          "title": "SILENT DISCO \u2014 THE BRAINCHILD INCEPTION",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/Music/comments/1spvjkx/silent_disco_the_brainchild_inception/",
+          "date": "2026-04-19",
+          "sentiment_score": 0.9996
         }
       ],
       "sparkline": [
-        0.44,
         0.0,
         0.0,
         0.0,
@@ -1358,7 +1349,8 @@
         0.0,
         0.0,
         0.37,
-        0.37
+        0.37,
+        0.59
       ]
     }
   ]
