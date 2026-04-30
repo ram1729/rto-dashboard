@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-04-30T03:05:50.330709Z",
+  "last_updated": "2026-04-30T14:05:21.393483Z",
   "scraper_log": {
-    "duration_sec": 186.55,
+    "duration_sec": 230.98,
     "total_articles": 288,
     "errors": []
   },
@@ -9,7 +9,7 @@
     {
       "name": "Amazon",
       "sentiment": {
-        "overall_score": 0.08,
+        "overall_score": 0.07,
         "trend": "stable",
         "previous_score": 0.08,
         "confidence": "high",
@@ -20,7 +20,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.05,
+            "score": 0.04,
             "count": 15
           },
           "reddit": {
@@ -56,22 +56,21 @@
           "sentiment_score": -0.3434
         },
         {
+          "title": "D4vd bought 2 Chainsaws, Body bag, Burn Cage & Shovel After Killing Celeste",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/popculturechat/comments/1szi72b/d4vd_bought_2_chainsaws_body_bag_burn_cage_shovel/",
+          "date": "2026-04-30",
+          "sentiment_score": -0.9892
+        },
+        {
           "title": "Amazon rolls out AI hiring software to automate job interviews",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=47946570",
           "date": "2026-04-29",
           "sentiment_score": 0.1779
-        },
-        {
-          "title": "Amazon Gets Exemption from Trump FCC Router (Extortion) Ban, Doesn't Say How",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47934956",
-          "date": "2026-04-28",
-          "sentiment_score": -0.4404
         }
       ],
       "sparkline": [
-        0.09,
         0.06,
         0.06,
         0.06,
@@ -100,15 +99,16 @@
         0.08,
         0.07,
         0.08,
-        0.08
+        0.08,
+        0.07
       ]
     },
     {
       "name": "Apple",
       "sentiment": {
         "overall_score": -0.12,
-        "trend": "declining",
-        "previous_score": -0.05,
+        "trend": "stable",
+        "previous_score": -0.12,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -173,7 +173,6 @@
         -0.05,
         -0.05,
         -0.05,
-        -0.05,
         -0.08,
         -0.08,
         -0.08,
@@ -197,6 +196,7 @@
         -0.05,
         -0.05,
         -0.05,
+        -0.12,
         -0.12
       ]
     },
@@ -204,8 +204,8 @@
       "name": "Google",
       "sentiment": {
         "overall_score": -0.13,
-        "trend": "declining",
-        "previous_score": -0.05,
+        "trend": "stable",
+        "previous_score": -0.13,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -266,7 +266,6 @@
       ],
       "sparkline": [
         -0.05,
-        -0.05,
         -0.03,
         -0.03,
         -0.02,
@@ -294,6 +293,7 @@
         -0.05,
         -0.05,
         -0.05,
+        -0.13,
         -0.13
       ]
     },
@@ -301,8 +301,8 @@
       "name": "Meta",
       "sentiment": {
         "overall_score": 0.32,
-        "trend": "improving",
-        "previous_score": 0.24,
+        "trend": "stable",
+        "previous_score": 0.32,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -311,7 +311,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.03,
+            "score": 0.01,
             "count": 15
           },
           "reddit": {
@@ -325,6 +325,20 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Meta in row after workers who saw smart glasses users having sex lose jobs",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47961838",
+          "date": "2026-04-30",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Meta bumped 2026 capex forecast up to $145B for AI boom investors flinched",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47958683",
+          "date": "2026-04-30",
+          "sentiment_score": 0.0
+        },
         {
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
@@ -345,24 +359,9 @@
           "url": "https://www.reddit.com/r/savedyouaclick/",
           "date": "2026-04-30",
           "sentiment_score": 0.6597
-        },
-        {
-          "title": "Meta, Microsoft look to trim workforces amid heavy AI spending",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47935987",
-          "date": "2026-04-28",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "Period tracking app, Flo, found to be selling user data to Meta",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47932990",
-          "date": "2026-04-28",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        -0.06,
         -0.06,
         -0.06,
         -0.06,
@@ -391,6 +390,7 @@
         0.3,
         0.24,
         0.24,
+        0.32,
         0.32
       ]
     },
@@ -399,7 +399,7 @@
       "sentiment": {
         "overall_score": 0.19,
         "trend": "stable",
-        "previous_score": 0.17,
+        "previous_score": 0.19,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -459,7 +459,6 @@
         }
       ],
       "sparkline": [
-        -0.08,
         -0.11,
         -0.16,
         -0.16,
@@ -488,6 +487,7 @@
         0.24,
         0.17,
         0.17,
+        0.19,
         0.19
       ]
     },
@@ -532,7 +532,6 @@
         0,
         0,
         0,
-        0,
         0.27,
         0.27,
         0,
@@ -540,6 +539,7 @@
         0,
         0,
         0.27,
+        0,
         0,
         0,
         0,
@@ -643,7 +643,6 @@
       "top_headlines": [],
       "sparkline": [
         0.0,
-        0.0,
         0,
         0.0,
         0.0,
@@ -670,6 +669,7 @@
         0.0,
         0.0,
         0.0,
+        0,
         0,
         0
       ]
@@ -747,7 +747,6 @@
         0.0,
         0.0,
         0.0,
-        0.0,
         -0.07,
         0.0,
         0.0,
@@ -768,15 +767,16 @@
         0.54,
         0.51,
         0.51,
+        0.51,
         0.51
       ]
     },
     {
       "name": "AT&T",
       "sentiment": {
-        "overall_score": -0.13,
-        "trend": "declining",
-        "previous_score": -0.05,
+        "overall_score": -0.06,
+        "trend": "improving",
+        "previous_score": -0.13,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -789,7 +789,7 @@
             "count": 15
           },
           "reddit": {
-            "score": -0.18,
+            "score": -0.07,
             "count": 15
           },
           "gdelt": {
@@ -799,6 +799,20 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "California store prices items at $951sp shoplifters can be charged with grand theft",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/interesting/comments/1szi3lu/california_store_prices_items_at_951sp/",
+          "date": "2026-04-30",
+          "sentiment_score": 0.6808
+        },
+        {
+          "title": "Kyoto cherry blossoms now bloom earlier than at any point in 1,200 years",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47953275",
+          "date": "2026-04-29",
+          "sentiment_score": 0.0
+        },
         {
           "title": "Men who stare at walls",
           "source": "Hacker News",
@@ -819,24 +833,9 @@
           "url": "https://www.reddit.com/r/StupidFood/comments/1sx9h88/7069_for_bland_tacos_at_coachella/",
           "date": "2026-04-27",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "This is the second time that my \u201c15 inch\u201d pizza measured at under 12",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1sxib6a/this_is_the_second_time_that_my_15_inch_pizza/",
-          "date": "2026-04-27",
-          "sentiment_score": -0.9483
-        },
-        {
-          "title": "Sawe becomes first athlete to run a sub-two-hour marathon in a competitive race",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47914350",
-          "date": "2026-04-26",
-          "sentiment_score": 0.1779
         }
       ],
       "sparkline": [
-        -0.05,
         -0.0,
         -0.0,
         -0.06,
@@ -865,7 +864,8 @@
         -0.05,
         -0.08,
         -0.05,
-        -0.13
+        -0.13,
+        -0.06
       ]
     },
     {
@@ -942,7 +942,6 @@
         -0.31,
         -0.31,
         -0.31,
-        -0.31,
         -0.62,
         -0.31,
         -0.62,
@@ -962,13 +961,14 @@
         0.01,
         0.01,
         0.12,
+        0.12,
         0.12
       ]
     },
     {
       "name": "Dell",
       "sentiment": {
-        "overall_score": 0.33,
+        "overall_score": 0.32,
         "trend": "stable",
         "previous_score": 0.33,
         "confidence": "high",
@@ -979,7 +979,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.05,
+            "score": 0.03,
             "count": 15
           },
           "reddit": {
@@ -1031,7 +1031,6 @@
       ],
       "sparkline": [
         -0.0,
-        -0.0,
         0.03,
         0.03,
         0.03,
@@ -1059,28 +1058,29 @@
         0.34,
         0.34,
         0.33,
-        0.33
+        0.33,
+        0.32
       ]
     },
     {
       "name": "Tesla",
       "sentiment": {
-        "overall_score": 0.19,
+        "overall_score": 0.18,
         "trend": "stable",
-        "previous_score": 0.18,
+        "previous_score": 0.19,
         "confidence": "high",
-        "sample_size": 23,
+        "sample_size": 24,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.16,
-            "count": 8
+            "score": 0.14,
+            "count": 9
           },
           "reddit": {
-            "score": 0.2,
+            "score": 0.21,
             "count": 15
           },
           "gdelt": {
@@ -1090,6 +1090,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Tesla Semi: first truck rolls off high-volume production line",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47958337",
+          "date": "2026-04-30",
+          "sentiment_score": 0.0
+        },
         {
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
@@ -1112,22 +1119,14 @@
           "sentiment_score": -0.3434
         },
         {
-          "title": "Ask HN: Anyone feel like they're just opting out of tech these days?",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47955552",
-          "date": "2026-04-29",
-          "sentiment_score": 0.3612
-        },
-        {
-          "title": "Let's get down to it!",
+          "title": "D4vd bought 2 Chainsaws, Body bag, Burn Cage & Shovel After Killing Celeste",
           "source": "Reddit",
-          "url": "https://www.reddit.com/r/shivonzilis/comments/1swz43p/lets_get_down_to_it/",
-          "date": "2026-04-27",
-          "sentiment_score": 0.9918
+          "url": "https://www.reddit.com/r/popculturechat/comments/1szi72b/d4vd_bought_2_chainsaws_body_bag_burn_cage_shovel/",
+          "date": "2026-04-30",
+          "sentiment_score": -0.9892
         }
       ],
       "sparkline": [
-        0.05,
         -0.04,
         0.11,
         -0.04,
@@ -1156,7 +1155,8 @@
         0.15,
         0.15,
         0.18,
-        0.19
+        0.19,
+        0.18
       ]
     },
     {
@@ -1249,7 +1249,7 @@
         0,
         0,
         0,
-        0,
+        0.16,
         0.16,
         0.16,
         0.16,
@@ -1259,11 +1259,11 @@
     {
       "name": "Cisco",
       "sentiment": {
-        "overall_score": 0.37,
-        "trend": "declining",
-        "previous_score": 0.59,
+        "overall_score": 0.34,
+        "trend": "stable",
+        "previous_score": 0.37,
         "confidence": "high",
-        "sample_size": 11,
+        "sample_size": 10,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -1274,8 +1274,8 @@
             "count": 1
           },
           "reddit": {
-            "score": 0.59,
-            "count": 10
+            "score": 0.55,
+            "count": 9
           },
           "gdelt": {
             "score": 0,
@@ -1323,7 +1323,6 @@
       "sparkline": [
         0.0,
         0.0,
-        0.0,
         -0.43,
         -0.43,
         -0.43,
@@ -1350,7 +1349,8 @@
         0.37,
         0.37,
         0.59,
-        0.37
+        0.37,
+        0.34
       ]
     }
   ]
