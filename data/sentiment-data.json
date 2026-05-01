@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-05-01T03:34:37.490192Z",
+  "last_updated": "2026-05-01T13:25:33.115289Z",
   "scraper_log": {
-    "duration_sec": 141.47,
-    "total_articles": 275,
+    "duration_sec": 109.66,
+    "total_articles": 285,
     "errors": []
   },
   "companies": [
@@ -10,8 +10,8 @@
       "name": "Amazon",
       "sentiment": {
         "overall_score": -0.01,
-        "trend": "declining",
-        "previous_score": 0.07,
+        "trend": "stable",
+        "previous_score": -0.01,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -73,7 +73,6 @@
       "sparkline": [
         0.06,
         0.06,
-        0.06,
         0.05,
         0.04,
         0.08,
@@ -100,14 +99,15 @@
         0.08,
         0.08,
         0.07,
+        -0.01,
         -0.01
       ]
     },
     {
       "name": "Apple",
       "sentiment": {
-        "overall_score": -0.12,
-        "trend": "stable",
+        "overall_score": -0.04,
+        "trend": "improving",
         "previous_score": -0.12,
         "confidence": "high",
         "sample_size": 30,
@@ -121,7 +121,7 @@
             "count": 15
           },
           "reddit": {
-            "score": -0.19,
+            "score": -0.06,
             "count": 15
           },
           "gdelt": {
@@ -171,7 +171,6 @@
         -0.05,
         -0.05,
         -0.05,
-        -0.05,
         -0.08,
         -0.08,
         -0.08,
@@ -197,7 +196,8 @@
         -0.05,
         -0.12,
         -0.12,
-        -0.12
+        -0.12,
+        -0.04
       ]
     },
     {
@@ -205,7 +205,7 @@
       "sentiment": {
         "overall_score": -0.11,
         "trend": "stable",
-        "previous_score": -0.13,
+        "previous_score": -0.11,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -266,7 +266,6 @@
       ],
       "sparkline": [
         -0.03,
-        -0.03,
         -0.02,
         -0.02,
         -0.08,
@@ -294,6 +293,7 @@
         -0.05,
         -0.13,
         -0.13,
+        -0.11,
         -0.11
       ]
     },
@@ -301,8 +301,8 @@
       "name": "Meta",
       "sentiment": {
         "overall_score": 0.24,
-        "trend": "declining",
-        "previous_score": 0.32,
+        "trend": "stable",
+        "previous_score": 0.24,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -363,7 +363,6 @@
       ],
       "sparkline": [
         -0.06,
-        -0.06,
         -0.07,
         -0.07,
         -0.07,
@@ -391,6 +390,7 @@
         0.24,
         0.32,
         0.32,
+        0.24,
         0.24
       ]
     },
@@ -398,8 +398,8 @@
       "name": "Microsoft",
       "sentiment": {
         "overall_score": 0.27,
-        "trend": "improving",
-        "previous_score": 0.19,
+        "trend": "stable",
+        "previous_score": 0.27,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -422,6 +422,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Microsoft rolls out Xbox Mode, bringing a console-like experience to any PC",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47974231",
+          "date": "2026-05-01",
+          "sentiment_score": 0.0
+        },
         {
           "title": "Microsoft Office 365: We all work together.",
           "source": "Reddit",
@@ -449,17 +456,9 @@
           "url": "https://news.ycombinator.com/item?id=47966184",
           "date": "2026-04-30",
           "sentiment_score": 0.4939
-        },
-        {
-          "title": "I'm the CPA & Former IRS Agent Who Went Solo A Year Ago--Here's How I Did",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/taxpros/comments/1t033xm/im_the_cpa_former_irs_agent_who_went_solo_a_year/",
-          "date": "2026-04-30",
-          "sentiment_score": 0.9997
         }
       ],
       "sparkline": [
-        -0.16,
         -0.16,
         -0.16,
         -0.16,
@@ -488,6 +487,7 @@
         0.17,
         0.19,
         0.19,
+        0.27,
         0.27
       ]
     },
@@ -530,7 +530,6 @@
         0,
         0,
         0,
-        0,
         0.27,
         0.27,
         0,
@@ -538,6 +537,7 @@
         0,
         0,
         0.27,
+        0,
         0,
         0,
         0,
@@ -642,7 +642,6 @@
       },
       "top_headlines": [],
       "sparkline": [
-        0,
         0.0,
         0.0,
         0.0,
@@ -668,6 +667,7 @@
         0.0,
         0.0,
         0.0,
+        0,
         0,
         0,
         0,
@@ -745,7 +745,6 @@
         0.0,
         0.0,
         0.0,
-        0.0,
         -0.07,
         0.0,
         0.0,
@@ -768,6 +767,7 @@
         0.51,
         0.51,
         0.51,
+        0.51,
         0.51
       ]
     },
@@ -776,7 +776,7 @@
       "sentiment": {
         "overall_score": -0.03,
         "trend": "stable",
-        "previous_score": -0.06,
+        "previous_score": -0.03,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -836,7 +836,6 @@
         }
       ],
       "sparkline": [
-        -0.0,
         -0.06,
         -0.06,
         -0.06,
@@ -865,6 +864,7 @@
         -0.05,
         -0.13,
         -0.06,
+        -0.03,
         -0.03
       ]
     },
@@ -872,8 +872,8 @@
       "name": "Disney",
       "sentiment": {
         "overall_score": -0.12,
-        "trend": "declining",
-        "previous_score": 0.12,
+        "trend": "stable",
+        "previous_score": -0.12,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -940,7 +940,6 @@
         -0.31,
         -0.31,
         -0.31,
-        -0.31,
         -0.62,
         -0.31,
         -0.62,
@@ -962,25 +961,26 @@
         0.12,
         0.12,
         0.12,
+        -0.12,
         -0.12
       ]
     },
     {
       "name": "Dell",
       "sentiment": {
-        "overall_score": 0.44,
-        "trend": "improving",
-        "previous_score": 0.32,
+        "overall_score": 0.45,
+        "trend": "stable",
+        "previous_score": 0.44,
         "confidence": "high",
-        "sample_size": 23,
+        "sample_size": 30,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.14,
-            "count": 8
+            "score": 0.15,
+            "count": 15
           },
           "reddit": {
             "score": 0.62,
@@ -993,6 +993,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "SpaceX rocket set for unintentional Moon landing \u2013 well, a piece of it anyway",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47973547",
+          "date": "2026-05-01",
+          "sentiment_score": 0.2732
+        },
         {
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
@@ -1015,22 +1022,14 @@
           "sentiment_score": -0.3434
         },
         {
-          "title": "[Request] [Steam] Wagotabi: A Japanese journey",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/GiftofGames/comments/1t0avc5/request_steam_wagotabi_a_japanese_journey/",
+          "title": "Show HN: I built the missing layer between email and DocuSign",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47967458",
           "date": "2026-04-30",
-          "sentiment_score": 0.9998
-        },
-        {
-          "title": "The 2026 Untouchable Leaders Report: 10 Stocks With Monopolistic Positions Across Every Sector",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/ai_trading/comments/1sxar7i/the_2026_untouchable_leaders_report_10_stocks/",
-          "date": "2026-04-27",
-          "sentiment_score": 0.9998
+          "sentiment_score": -0.296
         }
       ],
       "sparkline": [
-        0.03,
         0.03,
         0.03,
         0.03,
@@ -1059,28 +1058,29 @@
         0.33,
         0.33,
         0.32,
-        0.44
+        0.44,
+        0.45
       ]
     },
     {
       "name": "Tesla",
       "sentiment": {
-        "overall_score": 0.1,
-        "trend": "declining",
-        "previous_score": 0.18,
+        "overall_score": 0.15,
+        "trend": "stable",
+        "previous_score": 0.1,
         "confidence": "high",
-        "sample_size": 20,
+        "sample_size": 23,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.15,
-            "count": 5
+            "score": 0.05,
+            "count": 8
           },
           "reddit": {
-            "score": 0.07,
+            "score": 0.2,
             "count": 15
           },
           "gdelt": {
@@ -1127,7 +1127,6 @@
         }
       ],
       "sparkline": [
-        0.11,
         -0.04,
         -0.04,
         -0.04,
@@ -1156,7 +1155,8 @@
         0.18,
         0.19,
         0.18,
-        0.1
+        0.1,
+        0.15
       ]
     },
     {
@@ -1247,7 +1247,7 @@
         0,
         0,
         0,
-        0,
+        0.16,
         0.16,
         0.16,
         0.16,
@@ -1260,8 +1260,8 @@
       "name": "Cisco",
       "sentiment": {
         "overall_score": 0.55,
-        "trend": "improving",
-        "previous_score": 0.34,
+        "trend": "stable",
+        "previous_score": 0.55,
         "confidence": "medium",
         "sample_size": 9,
         "source_scores": {
@@ -1321,7 +1321,6 @@
         }
       ],
       "sparkline": [
-        0.0,
         -0.43,
         -0.43,
         -0.43,
@@ -1350,6 +1349,7 @@
         0.59,
         0.37,
         0.34,
+        0.55,
         0.55
       ]
     }
