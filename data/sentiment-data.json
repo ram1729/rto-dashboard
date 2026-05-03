@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-05-03T03:04:08.358558Z",
+  "last_updated": "2026-05-03T13:17:48.670178Z",
   "scraper_log": {
-    "duration_sec": 183.98,
-    "total_articles": 285,
+    "duration_sec": 103.15,
+    "total_articles": 284,
     "errors": []
   },
   "companies": [
     {
       "name": "Amazon",
       "sentiment": {
-        "overall_score": 0.08,
+        "overall_score": 0.13,
         "trend": "improving",
-        "previous_score": 0.0,
+        "previous_score": 0.08,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -20,11 +20,11 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.08,
+            "score": 0.01,
             "count": 15
           },
           "reddit": {
-            "score": 0.07,
+            "score": 0.21,
             "count": 15
           },
           "gdelt": {
@@ -56,22 +56,21 @@
           "sentiment_score": -0.3434
         },
         {
+          "title": "Is it worth returning to Amazon?",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/amazonemployees/comments/1t2ku62/is_it_worth_returning_to_amazon/",
+          "date": "2026-05-03",
+          "sentiment_score": 0.9954
+        },
+        {
           "title": "dropping off amazon return of 2 out of 4 identical items at post office. qr code . receipt??",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/royalmail/comments/1t1xiqr/dropping_off_amazon_return_of_2_out_of_4/",
           "date": "2026-05-02",
           "sentiment_score": 0.7306
-        },
-        {
-          "title": "D4vd bought 2 Chainsaws, Body bag, Burn Cage & Shovel After Killing Celeste",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/popculturechat/comments/1szi72b/d4vd_bought_2_chainsaws_body_bag_burn_cage_shovel/",
-          "date": "2026-04-30",
-          "sentiment_score": -0.9892
         }
       ],
       "sparkline": [
-        0.05,
         0.04,
         0.08,
         0.06,
@@ -100,15 +99,16 @@
         -0.01,
         -0.01,
         0.0,
-        0.08
+        0.08,
+        0.13
       ]
     },
     {
       "name": "Apple",
       "sentiment": {
         "overall_score": -0.04,
-        "trend": "improving",
-        "previous_score": -0.12,
+        "trend": "stable",
+        "previous_score": -0.04,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -168,7 +168,6 @@
         }
       ],
       "sparkline": [
-        -0.05,
         -0.08,
         -0.08,
         -0.08,
@@ -197,6 +196,7 @@
         -0.12,
         -0.04,
         -0.12,
+        -0.04,
         -0.04
       ]
     },
@@ -265,7 +265,6 @@
         }
       ],
       "sparkline": [
-        -0.02,
         -0.08,
         -0.08,
         -0.08,
@@ -294,6 +293,7 @@
         -0.11,
         -0.11,
         -0.02,
+        -0.02,
         -0.02
       ]
     },
@@ -302,7 +302,7 @@
       "sentiment": {
         "overall_score": 0.25,
         "trend": "stable",
-        "previous_score": 0.24,
+        "previous_score": 0.25,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -363,7 +363,6 @@
       ],
       "sparkline": [
         -0.07,
-        -0.07,
         -0.02,
         0.01,
         0.02,
@@ -391,6 +390,7 @@
         0.24,
         0.24,
         0.24,
+        0.25,
         0.25
       ]
     },
@@ -398,8 +398,8 @@
       "name": "Microsoft",
       "sentiment": {
         "overall_score": 0.26,
-        "trend": "improving",
-        "previous_score": 0.19,
+        "trend": "stable",
+        "previous_score": 0.26,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -461,7 +461,6 @@
       "sparkline": [
         -0.16,
         -0.16,
-        -0.16,
         -0.13,
         -0.13,
         -0.13,
@@ -488,6 +487,7 @@
         0.27,
         0.27,
         0.19,
+        0.26,
         0.26
       ]
     },
@@ -527,7 +527,6 @@
         0,
         0,
         0,
-        0,
         0.27,
         0.27,
         0,
@@ -535,6 +534,7 @@
         0,
         0,
         0.27,
+        0,
         0,
         0,
         0,
@@ -650,7 +650,6 @@
         }
       ],
       "sparkline": [
-        0.0,
         0,
         0,
         0,
@@ -678,6 +677,7 @@
         0,
         0,
         0,
+        0.0,
         0.0,
         0.0
       ]
@@ -750,7 +750,6 @@
         0.0,
         0.0,
         0.0,
-        0.0,
         -0.07,
         0.0,
         0.0,
@@ -776,6 +775,7 @@
         0.51,
         0.51,
         0.51,
+        0.51,
         0.51
       ]
     },
@@ -784,7 +784,7 @@
       "sentiment": {
         "overall_score": -0.04,
         "trend": "stable",
-        "previous_score": -0.03,
+        "previous_score": -0.04,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -845,7 +845,6 @@
       ],
       "sparkline": [
         -0.06,
-        -0.06,
         -0.04,
         -0.04,
         -0.04,
@@ -873,15 +872,16 @@
         -0.03,
         -0.03,
         -0.03,
+        -0.04,
         -0.04
       ]
     },
     {
       "name": "Disney",
       "sentiment": {
-        "overall_score": -0.12,
-        "trend": "improving",
-        "previous_score": -0.25,
+        "overall_score": -0.25,
+        "trend": "declining",
+        "previous_score": -0.12,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -894,7 +894,7 @@
             "count": 0
           },
           "reddit": {
-            "score": -0.12,
+            "score": -0.25,
             "count": 15
           },
           "gdelt": {
@@ -945,7 +945,6 @@
         -0.31,
         -0.31,
         -0.31,
-        -0.31,
         -0.62,
         -0.31,
         -0.62,
@@ -970,7 +969,8 @@
         -0.12,
         -0.12,
         -0.25,
-        -0.12
+        -0.12,
+        -0.25
       ]
     },
     {
@@ -978,7 +978,7 @@
       "sentiment": {
         "overall_score": 0.4,
         "trend": "stable",
-        "previous_score": 0.42,
+        "previous_score": 0.4,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -987,7 +987,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.02,
+            "score": 0.03,
             "count": 15
           },
           "reddit": {
@@ -1001,6 +1001,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "US Navy signs deal with AI firm for training underwater drones",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47992542",
+          "date": "2026-05-03",
+          "sentiment_score": 0.0
+        },
         {
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
@@ -1028,17 +1035,9 @@
           "url": "https://news.ycombinator.com/item?id=47984614",
           "date": "2026-05-02",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Ask HN: Is the Job Market Actually Bad?",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47988268",
-          "date": "2026-05-02",
-          "sentiment_score": -0.5423
         }
       ],
       "sparkline": [
-        0.03,
         0.11,
         0.06,
         0.06,
@@ -1067,25 +1066,26 @@
         0.44,
         0.45,
         0.42,
+        0.4,
         0.4
       ]
     },
     {
       "name": "Tesla",
       "sentiment": {
-        "overall_score": 0.05,
+        "overall_score": 0.09,
         "trend": "stable",
         "previous_score": 0.05,
         "confidence": "high",
-        "sample_size": 23,
+        "sample_size": 22,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.02,
-            "count": 8
+            "score": 0.12,
+            "count": 7
           },
           "reddit": {
             "score": 0.07,
@@ -1135,7 +1135,6 @@
         }
       ],
       "sparkline": [
-        -0.04,
         0.11,
         -0.03,
         0.04,
@@ -1164,7 +1163,8 @@
         0.1,
         0.15,
         0.05,
-        0.05
+        0.05,
+        0.09
       ]
     },
     {
@@ -1252,7 +1252,7 @@
         0,
         0,
         0,
-        0,
+        0.16,
         0.16,
         0.16,
         0.16,
@@ -1268,8 +1268,8 @@
       "name": "Cisco",
       "sentiment": {
         "overall_score": 0.49,
-        "trend": "declining",
-        "previous_score": 0.55,
+        "trend": "stable",
+        "previous_score": 0.49,
         "confidence": "medium",
         "sample_size": 8,
         "source_scores": {
@@ -1329,7 +1329,6 @@
         }
       ],
       "sparkline": [
-        -0.43,
         0.0,
         0.0,
         0.0,
@@ -1358,6 +1357,7 @@
         0.55,
         0.55,
         0.55,
+        0.49,
         0.49
       ]
     }
