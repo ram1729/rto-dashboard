@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-05-09T02:56:45.245123Z",
+  "last_updated": "2026-05-09T13:26:37.914385Z",
   "scraper_log": {
-    "duration_sec": 89.93,
-    "total_articles": 296,
+    "duration_sec": 224.13,
+    "total_articles": 286,
     "errors": []
   },
   "companies": [
     {
       "name": "Amazon",
       "sentiment": {
-        "overall_score": 0.16,
-        "trend": "improving",
-        "previous_score": 0.08,
+        "overall_score": 0.17,
+        "trend": "stable",
+        "previous_score": 0.16,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -20,7 +20,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.08,
+            "score": 0.1,
             "count": 15
           },
           "reddit": {
@@ -34,6 +34,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "What is Amazon Linux 2023?",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48071735",
+          "date": "2026-05-09",
+          "sentiment_score": 0.1779
+        },
         {
           "title": "Look Up",
           "source": "Reddit",
@@ -56,13 +63,6 @@
           "sentiment_score": 0.6249
         },
         {
-          "title": "\"Surface\" a Governed AI-Agentic Surface",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48056969",
-          "date": "2026-05-08",
-          "sentiment_score": 0.0
-        },
-        {
           "title": "What kindle did I look at on display?",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/kindle/comments/1t4x08n/what_kindle_did_i_look_at_on_display/",
@@ -71,7 +71,6 @@
         }
       ],
       "sparkline": [
-        0.05,
         0.05,
         0.06,
         0.06,
@@ -100,15 +99,16 @@
         0.08,
         0.12,
         0.08,
-        0.16
+        0.16,
+        0.17
       ]
     },
     {
       "name": "Apple",
       "sentiment": {
         "overall_score": 0.1,
-        "trend": "improving",
-        "previous_score": 0.01,
+        "trend": "stable",
+        "previous_score": 0.1,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -168,7 +168,6 @@
         }
       ],
       "sparkline": [
-        -0.06,
         -0.09,
         -0.09,
         -0.07,
@@ -197,6 +196,7 @@
         -0.07,
         0.01,
         0.01,
+        0.1,
         0.1
       ]
     },
@@ -204,8 +204,8 @@
       "name": "Google",
       "sentiment": {
         "overall_score": 0.11,
-        "trend": "improving",
-        "previous_score": 0.04,
+        "trend": "stable",
+        "previous_score": 0.11,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -267,7 +267,6 @@
       "sparkline": [
         -0.08,
         -0.08,
-        -0.08,
         -0.05,
         -0.05,
         -0.05,
@@ -294,15 +293,16 @@
         0.06,
         0.03,
         0.04,
+        0.11,
         0.11
       ]
     },
     {
       "name": "Meta",
       "sentiment": {
-        "overall_score": 0.23,
-        "trend": "improving",
-        "previous_score": 0.15,
+        "overall_score": 0.22,
+        "trend": "stable",
+        "previous_score": 0.23,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -311,7 +311,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.01,
+            "score": -0.03,
             "count": 15
           },
           "reddit": {
@@ -364,7 +364,6 @@
       "sparkline": [
         0.03,
         0.03,
-        0.03,
         0.01,
         0.01,
         -0.01,
@@ -391,7 +390,8 @@
         0.24,
         0.16,
         0.15,
-        0.23
+        0.23,
+        0.22
       ]
     },
     {
@@ -399,7 +399,7 @@
       "sentiment": {
         "overall_score": 0.27,
         "trend": "stable",
-        "previous_score": 0.24,
+        "previous_score": 0.27,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -460,7 +460,6 @@
       ],
       "sparkline": [
         -0.16,
-        -0.16,
         -0.14,
         -0.14,
         -0.14,
@@ -488,6 +487,7 @@
         0.21,
         0.21,
         0.24,
+        0.27,
         0.27
       ]
     },
@@ -520,7 +520,6 @@
       },
       "top_headlines": [],
       "sparkline": [
-        0,
         0.27,
         0.27,
         0,
@@ -528,6 +527,7 @@
         0,
         0,
         0.27,
+        0,
         0,
         0,
         0,
@@ -555,19 +555,19 @@
     {
       "name": "Goldman Sachs",
       "sentiment": {
-        "overall_score": 0.25,
-        "trend": "stable",
+        "overall_score": 0,
+        "trend": "declining",
         "previous_score": 0.25,
         "confidence": "low",
-        "sample_size": 1,
+        "sample_size": 0,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.25,
-            "count": 1
+            "score": 0,
+            "count": 0
           },
           "reddit": {
             "score": 0,
@@ -579,15 +579,7 @@
           }
         }
       },
-      "top_headlines": [
-        {
-          "title": "'FOMO has proven a stronger incentive than poor stock performance' Goldman Sachs",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48045635",
-          "date": "2026-05-07",
-          "sentiment_score": 0.25
-        }
-      ],
+      "top_headlines": [],
       "sparkline": [
         0,
         0,
@@ -615,20 +607,81 @@
         0,
         0,
         0,
-        0,
         0.25,
         0.25,
-        0.25
+        0.25,
+        0
       ]
     },
     {
       "name": "Bank of America",
       "sentiment": {
-        "overall_score": 0.0,
+        "overall_score": 0,
         "trend": "stable",
         "previous_score": 0.0,
         "confidence": "low",
-        "sample_size": 1,
+        "sample_size": 0,
+        "source_scores": {
+          "google_news": {
+            "score": 0,
+            "count": 0
+          },
+          "hackernews": {
+            "score": 0,
+            "count": 0
+          },
+          "reddit": {
+            "score": 0,
+            "count": 0
+          },
+          "gdelt": {
+            "score": 0,
+            "count": 0
+          }
+        }
+      },
+      "top_headlines": [],
+      "sparkline": [
+        0.0,
+        0.0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0
+      ]
+    },
+    {
+      "name": "Salesforce",
+      "sentiment": {
+        "overall_score": 0.51,
+        "trend": "stable",
+        "previous_score": 0.55,
+        "confidence": "high",
+        "sample_size": 16,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -637,75 +690,6 @@
           "hackernews": {
             "score": 0.0,
             "count": 1
-          },
-          "reddit": {
-            "score": 0,
-            "count": 0
-          },
-          "gdelt": {
-            "score": 0,
-            "count": 0
-          }
-        }
-      },
-      "top_headlines": [
-        {
-          "title": "AI gives back more equality than it takes away",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=47920530",
-          "date": "2026-04-27",
-          "sentiment_score": 0.0
-        }
-      ],
-      "sparkline": [
-        0,
-        0.0,
-        0.0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ]
-    },
-    {
-      "name": "Salesforce",
-      "sentiment": {
-        "overall_score": 0.55,
-        "trend": "stable",
-        "previous_score": 0.51,
-        "confidence": "high",
-        "sample_size": 17,
-        "source_scores": {
-          "google_news": {
-            "score": 0,
-            "count": 0
-          },
-          "hackernews": {
-            "score": 0.1,
-            "count": 2
           },
           "reddit": {
             "score": 0.82,
@@ -740,22 +724,21 @@
           "sentiment_score": -0.4723
         },
         {
-          "title": "The $50B Layer Sitting on Top of Salesforce That Nobody's Built Yet",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48062488",
-          "date": "2026-05-08",
-          "sentiment_score": 0.2023
-        },
-        {
           "title": "Show HN: Airbyte Agents \u2013 context for agents across multiple data sources",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=48023496",
           "date": "2026-05-05",
           "sentiment_score": 0.0
+        },
+        {
+          "title": "Top 10 Best AI Agent Development Companies in USA [2026]",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/AppGrowthLab/comments/1t0sb1y/top_10_best_ai_agent_development_companies_in_usa/",
+          "date": "2026-05-01",
+          "sentiment_score": 0.9997
         }
       ],
       "sparkline": [
-        0.0,
         0.0,
         0.0,
         0.0,
@@ -784,7 +767,8 @@
         0.56,
         0.51,
         0.51,
-        0.55
+        0.55,
+        0.51
       ]
     },
     {
@@ -792,7 +776,7 @@
       "sentiment": {
         "overall_score": 0.1,
         "trend": "stable",
-        "previous_score": 0.11,
+        "previous_score": 0.1,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -856,7 +840,6 @@
         -0.03,
         -0.03,
         -0.03,
-        -0.03,
         -0.05,
         -0.05,
         -0.05,
@@ -881,6 +864,7 @@
         0.04,
         0.11,
         0.11,
+        0.1,
         0.1
       ]
     },
@@ -888,8 +872,8 @@
       "name": "Disney",
       "sentiment": {
         "overall_score": -0.16,
-        "trend": "improving",
-        "previous_score": -0.25,
+        "trend": "stable",
+        "previous_score": -0.16,
         "confidence": "high",
         "sample_size": 17,
         "source_scores": {
@@ -950,7 +934,6 @@
       ],
       "sparkline": [
         -0.62,
-        -0.62,
         -0.31,
         -0.31,
         -0.31,
@@ -978,15 +961,16 @@
         -0.37,
         -0.03,
         -0.25,
+        -0.16,
         -0.16
       ]
     },
     {
       "name": "Dell",
       "sentiment": {
-        "overall_score": 0.15,
+        "overall_score": 0.16,
         "trend": "stable",
-        "previous_score": 0.14,
+        "previous_score": 0.15,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -995,7 +979,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.1,
+            "score": -0.06,
             "count": 15
           },
           "reddit": {
@@ -1010,6 +994,27 @@
       },
       "top_headlines": [
         {
+          "title": "Intel shares soar on Apple chip deal report",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48072777",
+          "date": "2026-05-09",
+          "sentiment_score": 0.296
+        },
+        {
+          "title": "Rough Week Thank God for Fridays",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48071692",
+          "date": "2026-05-09",
+          "sentiment_score": 0.5574
+        },
+        {
+          "title": "SoC 2 has no real edge",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48071158",
+          "date": "2026-05-09",
+          "sentiment_score": -0.296
+        },
+        {
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/ReturntoOffice/",
@@ -1022,31 +1027,9 @@
           "url": "https://www.reddit.com/r/fullyremotework/",
           "date": "2026-05-09",
           "sentiment_score": 0.5859
-        },
-        {
-          "title": "/r/Technology",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/technology/",
-          "date": "2026-05-09",
-          "sentiment_score": 0.6249
-        },
-        {
-          "title": "Show HN: I made a tool to search your video footage and it's on GitHub",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48063062",
-          "date": "2026-05-08",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "Mouse suggestions under 6k",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/techIndia/comments/1t6zh4g/mouse_suggestions_under_6k/",
-          "date": "2026-05-08",
-          "sentiment_score": 0.9747
         }
       ],
       "sparkline": [
-        0.14,
         0.04,
         0.03,
         0.04,
@@ -1075,25 +1058,26 @@
         0.14,
         0.16,
         0.14,
-        0.15
+        0.15,
+        0.16
       ]
     },
     {
       "name": "Tesla",
       "sentiment": {
-        "overall_score": 0.13,
-        "trend": "improving",
-        "previous_score": 0.06,
+        "overall_score": 0.15,
+        "trend": "stable",
+        "previous_score": 0.13,
         "confidence": "high",
-        "sample_size": 26,
+        "sample_size": 22,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.02,
-            "count": 11
+            "score": 0.09,
+            "count": 7
           },
           "reddit": {
             "score": 0.19,
@@ -1128,22 +1112,21 @@
           "sentiment_score": -0.3434
         },
         {
-          "title": "Tesla's screwup involves making the font size of braking system too small (2024)",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48063790",
-          "date": "2026-05-08",
-          "sentiment_score": -0.4019
-        },
-        {
           "title": "New grad interview experiences",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/leetcode/comments/1t71pgm/new_grad_interview_experiences/",
           "date": "2026-05-08",
           "sentiment_score": 0.9906
+        },
+        {
+          "title": "Only 173? Tesla Cybertruck RWD Recall Reveals Low Sales",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48051408",
+          "date": "2026-05-07",
+          "sentiment_score": -0.2732
         }
       ],
       "sparkline": [
-        -0.05,
         -0.02,
         0.01,
         0.27,
@@ -1172,15 +1155,16 @@
         -0.04,
         0.25,
         0.06,
-        0.13
+        0.13,
+        0.15
       ]
     },
     {
       "name": "Caterpillar",
       "sentiment": {
         "overall_score": -0.09,
-        "trend": "declining",
-        "previous_score": -0.01,
+        "trend": "stable",
+        "previous_score": -0.09,
         "confidence": "high",
         "sample_size": 11,
         "source_scores": {
@@ -1253,7 +1237,6 @@
         0,
         0,
         0,
-        0,
         0.16,
         0.16,
         0.16,
@@ -1269,25 +1252,26 @@
         -0.01,
         -0.01,
         -0.01,
+        -0.09,
         -0.09
       ]
     },
     {
       "name": "Cisco",
       "sentiment": {
-        "overall_score": 0.44,
+        "overall_score": 0.59,
         "trend": "improving",
-        "previous_score": 0.31,
+        "previous_score": 0.44,
         "confidence": "high",
-        "sample_size": 13,
+        "sample_size": 10,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.19,
-            "count": 3
+            "score": 0,
+            "count": 0
           },
           "reddit": {
             "score": 0.59,
@@ -1329,15 +1313,14 @@
           "sentiment_score": 0.9589
         },
         {
-          "title": "Cisco to buy unit 8200 affiliated company that tracks all your API keys",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48058467",
+          "title": "The Daily Market Flux - Your Complete Market Rundown (5/8/2026)",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/MarketFluxHub/comments/1t7mhw7/the_daily_market_flux_your_complete_market/",
           "date": "2026-05-08",
-          "sentiment_score": 0.0
+          "sentiment_score": 0.9987
         }
       ],
       "sparkline": [
-        0.0,
         0.0,
         0.0,
         0.0,
@@ -1366,7 +1349,8 @@
         0.49,
         0.31,
         0.31,
-        0.44
+        0.44,
+        0.59
       ]
     }
   ]
