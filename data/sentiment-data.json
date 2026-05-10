@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-05-10T03:05:52.221854Z",
+  "last_updated": "2026-05-10T13:25:17.838505Z",
   "scraper_log": {
-    "duration_sec": 180.14,
-    "total_articles": 286,
+    "duration_sec": 90.72,
+    "total_articles": 288,
     "errors": []
   },
   "companies": [
     {
       "name": "Amazon",
       "sentiment": {
-        "overall_score": 0.16,
+        "overall_score": 0.17,
         "trend": "stable",
-        "previous_score": 0.17,
+        "previous_score": 0.16,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -20,7 +20,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.05,
+            "score": 0.08,
             "count": 15
           },
           "reddit": {
@@ -56,22 +56,21 @@
           "sentiment_score": 0.6249
         },
         {
-          "title": "AWS to also block ipcomp and xfrm modules in DirtyFrag mitigation",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48075132",
+          "title": "LEGION GO: Out-of-box: impressive. After tweaks: insane. Here\u2019s the full setup!",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/LegionGo/comments/1t81rs3/legion_go_outofbox_impressive_after_tweaks_insane/",
           "date": "2026-05-09",
-          "sentiment_score": -0.4404
+          "sentiment_score": 0.9952
         },
         {
-          "title": "What kindle did I look at on display?",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/kindle/comments/1t4x08n/what_kindle_did_i_look_at_on_display/",
-          "date": "2026-05-06",
+          "title": "\"Surface\" a Governed AI-Agentic Surface",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48056969",
+          "date": "2026-05-08",
           "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.06,
         0.06,
         0.06,
         0.04,
@@ -100,14 +99,15 @@
         0.08,
         0.16,
         0.17,
-        0.16
+        0.16,
+        0.17
       ]
     },
     {
       "name": "Apple",
       "sentiment": {
-        "overall_score": 0.1,
-        "trend": "stable",
+        "overall_score": 0.18,
+        "trend": "improving",
         "previous_score": 0.1,
         "confidence": "high",
         "sample_size": 30,
@@ -121,7 +121,7 @@
             "count": 15
           },
           "reddit": {
-            "score": 0.14,
+            "score": 0.27,
             "count": 15
           },
           "gdelt": {
@@ -131,6 +131,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Suits in 5 Nations Allege Apple Quashed \"Watch Room\" Competition",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48083456",
+          "date": "2026-05-10",
+          "sentiment_score": 0.0
+        },
         {
           "title": "PowerPoint Presentation Tips and Examples",
           "source": "Reddit",
@@ -153,22 +160,14 @@
           "sentiment_score": 0.6249
         },
         {
-          "title": "The birth of the Birmingham bid and the secrecy surrounding it.",
+          "title": "LEGION GO: Out-of-box: impressive. After tweaks: insane. Here\u2019s the full setup!",
           "source": "Reddit",
-          "url": "https://www.reddit.com/r/SaintMeghanMarkle/comments/1t7c14y/the_birth_of_the_birmingham_bid_and_the_secrecy/",
-          "date": "2026-05-08",
-          "sentiment_score": 0.9489
-        },
-        {
-          "title": "This is funny.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/Superstonk/comments/1t5knp7/this_is_funny/",
-          "date": "2026-05-06",
-          "sentiment_score": 0.9103
+          "url": "https://www.reddit.com/r/LegionGo/comments/1t81rs3/legion_go_outofbox_impressive_after_tweaks_insane/",
+          "date": "2026-05-09",
+          "sentiment_score": 0.9952
         }
       ],
       "sparkline": [
-        -0.09,
         -0.07,
         -0.07,
         -0.07,
@@ -197,15 +196,16 @@
         0.01,
         0.1,
         0.1,
-        0.1
+        0.1,
+        0.18
       ]
     },
     {
       "name": "Google",
       "sentiment": {
-        "overall_score": 0.1,
-        "trend": "stable",
-        "previous_score": 0.11,
+        "overall_score": 0.18,
+        "trend": "improving",
+        "previous_score": 0.1,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -218,7 +218,7 @@
             "count": 15
           },
           "reddit": {
-            "score": 0.14,
+            "score": 0.27,
             "count": 15
           },
           "gdelt": {
@@ -250,22 +250,21 @@
           "sentiment_score": 0.6249
         },
         {
+          "title": "LEGION GO: Out-of-box: impressive. After tweaks: insane. Here\u2019s the full setup!",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/LegionGo/comments/1t81rs3/legion_go_outofbox_impressive_after_tweaks_insane/",
+          "date": "2026-05-09",
+          "sentiment_score": 0.9952
+        },
+        {
           "title": "Tell HN: Class action investigation into Google withholding Play developer funds",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=48051604",
           "date": "2026-05-07",
           "sentiment_score": 0.34
-        },
-        {
-          "title": "AITAH For Not Signing a POA?",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/AITAH/comments/1t603l7/aitah_for_not_signing_a_poa/",
-          "date": "2026-05-07",
-          "sentiment_score": 0.9943
         }
       ],
       "sparkline": [
-        -0.08,
         -0.05,
         -0.05,
         -0.05,
@@ -294,7 +293,8 @@
         0.04,
         0.11,
         0.11,
-        0.1
+        0.1,
+        0.18
       ]
     },
     {
@@ -362,7 +362,6 @@
         }
       ],
       "sparkline": [
-        0.03,
         0.01,
         0.01,
         -0.01,
@@ -391,13 +390,14 @@
         0.15,
         0.23,
         0.22,
+        0.22,
         0.22
       ]
     },
     {
       "name": "Microsoft",
       "sentiment": {
-        "overall_score": 0.27,
+        "overall_score": 0.29,
         "trend": "stable",
         "previous_score": 0.27,
         "confidence": "high",
@@ -412,7 +412,7 @@
             "count": 15
           },
           "reddit": {
-            "score": 0.5,
+            "score": 0.53,
             "count": 15
           },
           "gdelt": {
@@ -444,22 +444,21 @@
           "sentiment_score": 0.6249
         },
         {
+          "title": "LEGION GO: Out-of-box: impressive. After tweaks: insane. Here\u2019s the full setup!",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/LegionGo/comments/1t81rs3/legion_go_outofbox_impressive_after_tweaks_insane/",
+          "date": "2026-05-09",
+          "sentiment_score": 0.9952
+        },
+        {
           "title": "I designed Microsoft's EA channel in 2001. It's being dismantled in 2026",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=48067402",
           "date": "2026-05-08",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Microsoft is hiding Windows 11's 'eyes'",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48030635",
-          "date": "2026-05-06",
-          "sentiment_score": -0.296
         }
       ],
       "sparkline": [
-        -0.14,
         -0.14,
         -0.14,
         -0.14,
@@ -488,7 +487,8 @@
         0.24,
         0.27,
         0.27,
-        0.27
+        0.27,
+        0.29
       ]
     },
     {
@@ -520,12 +520,12 @@
       },
       "top_headlines": [],
       "sparkline": [
-        0.27,
         0,
         0,
         0,
         0,
         0.27,
+        0,
         0,
         0,
         0,
@@ -605,10 +605,10 @@
         0,
         0,
         0,
+        0.25,
+        0.25,
+        0.25,
         0,
-        0.25,
-        0.25,
-        0.25,
         0,
         0
       ]
@@ -618,9 +618,9 @@
       "sentiment": {
         "overall_score": 0.0,
         "trend": "stable",
-        "previous_score": 0,
+        "previous_score": 0.0,
         "confidence": "low",
-        "sample_size": 1,
+        "sample_size": 2,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -628,7 +628,7 @@
           },
           "hackernews": {
             "score": 0.0,
-            "count": 1
+            "count": 2
           },
           "reddit": {
             "score": 0,
@@ -642,6 +642,13 @@
       },
       "top_headlines": [
         {
+          "title": "Mystery of G Hackman",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48083009",
+          "date": "2026-05-10",
+          "sentiment_score": 0.0
+        },
+        {
           "title": "AI gives back more equality than it takes away",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=47920530",
@@ -650,7 +657,6 @@
         }
       ],
       "sparkline": [
-        0.0,
         0,
         0,
         0,
@@ -679,6 +685,7 @@
         0.0,
         0.0,
         0,
+        0.0,
         0.0
       ]
     },
@@ -758,7 +765,6 @@
         0.0,
         0.0,
         0.0,
-        0.0,
         0.54,
         0.51,
         0.51,
@@ -776,6 +782,7 @@
         0.51,
         0.55,
         0.51,
+        0.51,
         0.51
       ]
     },
@@ -784,7 +791,7 @@
       "sentiment": {
         "overall_score": 0.11,
         "trend": "stable",
-        "previous_score": 0.1,
+        "previous_score": 0.11,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -846,7 +853,6 @@
       "sparkline": [
         -0.03,
         -0.03,
-        -0.03,
         -0.05,
         -0.05,
         -0.05,
@@ -873,6 +879,7 @@
         0.11,
         0.1,
         0.1,
+        0.11,
         0.11
       ]
     },
@@ -943,7 +950,6 @@
       "sparkline": [
         -0.31,
         -0.31,
-        -0.31,
         0.0,
         0.0,
         0.0,
@@ -970,15 +976,16 @@
         -0.25,
         -0.16,
         -0.16,
+        -0.16,
         -0.16
       ]
     },
     {
       "name": "Dell",
       "sentiment": {
-        "overall_score": 0.17,
+        "overall_score": 0.18,
         "trend": "stable",
-        "previous_score": 0.16,
+        "previous_score": 0.17,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -987,7 +994,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.04,
+            "score": -0.02,
             "count": 15
           },
           "reddit": {
@@ -1038,7 +1045,6 @@
         }
       ],
       "sparkline": [
-        0.03,
         0.04,
         0.06,
         0.09,
@@ -1067,25 +1073,26 @@
         0.14,
         0.15,
         0.16,
-        0.17
+        0.17,
+        0.18
       ]
     },
     {
       "name": "Tesla",
       "sentiment": {
-        "overall_score": 0.15,
+        "overall_score": 0.14,
         "trend": "stable",
         "previous_score": 0.15,
         "confidence": "high",
-        "sample_size": 22,
+        "sample_size": 23,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.09,
-            "count": 7
+            "score": 0.08,
+            "count": 8
           },
           "reddit": {
             "score": 0.18,
@@ -1135,7 +1142,6 @@
         }
       ],
       "sparkline": [
-        0.01,
         0.27,
         0.07,
         0.08,
@@ -1164,15 +1170,16 @@
         0.06,
         0.13,
         0.15,
-        0.15
+        0.15,
+        0.14
       ]
     },
     {
       "name": "Caterpillar",
       "sentiment": {
         "overall_score": -0.2,
-        "trend": "declining",
-        "previous_score": -0.09,
+        "trend": "stable",
+        "previous_score": -0.2,
         "confidence": "high",
         "sample_size": 10,
         "source_scores": {
@@ -1243,7 +1250,6 @@
         0,
         0,
         0,
-        0,
         0.16,
         0.16,
         0.16,
@@ -1261,6 +1267,7 @@
         -0.01,
         -0.09,
         -0.09,
+        -0.2,
         -0.2
       ]
     },
@@ -1331,7 +1338,6 @@
       "sparkline": [
         0.0,
         0.0,
-        0.0,
         0.13,
         0.13,
         0.13,
@@ -1357,6 +1363,7 @@
         0.31,
         0.31,
         0.44,
+        0.59,
         0.59,
         0.59
       ]
