@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-12T03:06:43.918594Z",
+  "last_updated": "2026-05-12T14:35:21.815652Z",
   "scraper_log": {
-    "duration_sec": 235.38,
+    "duration_sec": 247.7,
     "total_articles": 285,
     "errors": []
   },
@@ -10,8 +10,8 @@
       "name": "Amazon",
       "sentiment": {
         "overall_score": 0.14,
-        "trend": "declining",
-        "previous_score": 0.2,
+        "trend": "stable",
+        "previous_score": 0.14,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -35,6 +35,20 @@
       },
       "top_headlines": [
         {
+          "title": "Amazon staff use AI tool for unnecessary tasks to inflate usage scores",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48104999",
+          "date": "2026-05-12",
+          "sentiment_score": 0.1779
+        },
+        {
+          "title": "Europe to block Microsoft, Amazon, and Google from handling government health",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48106079",
+          "date": "2026-05-12",
+          "sentiment_score": -0.296
+        },
+        {
           "title": "Look Up",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/superman/",
@@ -54,24 +68,9 @@
           "url": "https://www.reddit.com/r/technology/",
           "date": "2026-05-12",
           "sentiment_score": 0.6249
-        },
-        {
-          "title": "Amazon to stop selling 'hooligan e-bikes' in California",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48097203",
-          "date": "2026-05-11",
-          "sentiment_score": -0.4588
-        },
-        {
-          "title": "Accelerating Android Builds on AWS: From 3 Hours to Under 5 Mins with SourceFS",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48099180",
-          "date": "2026-05-11",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.04,
         0.08,
         0.1,
         0.09,
@@ -100,6 +99,7 @@
         0.16,
         0.17,
         0.2,
+        0.14,
         0.14
       ]
     },
@@ -108,7 +108,7 @@
       "sentiment": {
         "overall_score": 0.19,
         "trend": "stable",
-        "previous_score": 0.18,
+        "previous_score": 0.19,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -176,7 +176,6 @@
         -0.07,
         -0.07,
         -0.07,
-        -0.07,
         -0.05,
         -0.05,
         -0.05,
@@ -197,14 +196,15 @@
         0.1,
         0.18,
         0.18,
+        0.19,
         0.19
       ]
     },
     {
       "name": "Google",
       "sentiment": {
-        "overall_score": 0.18,
-        "trend": "stable",
+        "overall_score": 0.26,
+        "trend": "improving",
         "previous_score": 0.18,
         "confidence": "high",
         "sample_size": 30,
@@ -218,7 +218,7 @@
             "count": 15
           },
           "reddit": {
-            "score": 0.27,
+            "score": 0.4,
             "count": 15
           },
           "gdelt": {
@@ -228,6 +228,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "End-to-end encrypted RCS messaging rolling out for Android and iPhone users",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48103864",
+          "date": "2026-05-12",
+          "sentiment_score": 0.0
+        },
         {
           "title": "PowerPoint Presentation Tips and Examples",
           "source": "Reddit",
@@ -255,17 +262,9 @@
           "url": "https://news.ycombinator.com/item?id=48098170",
           "date": "2026-05-11",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "LEGION GO: Out-of-box: impressive. After tweaks: insane. Here\u2019s the full setup!",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/LegionGo/comments/1t81rs3/legion_go_outofbox_impressive_after_tweaks_insane/",
-          "date": "2026-05-09",
-          "sentiment_score": 0.9952
         }
       ],
       "sparkline": [
-        -0.05,
         -0.02,
         -0.05,
         -0.0,
@@ -294,7 +293,8 @@
         0.1,
         0.18,
         0.18,
-        0.18
+        0.18,
+        0.26
       ]
     },
     {
@@ -364,7 +364,6 @@
       "sparkline": [
         -0.01,
         -0.01,
-        -0.01,
         0.0,
         0.03,
         -0.01,
@@ -391,13 +390,14 @@
         0.22,
         0.22,
         0.21,
+        0.21,
         0.21
       ]
     },
     {
       "name": "Microsoft",
       "sentiment": {
-        "overall_score": 0.29,
+        "overall_score": 0.33,
         "trend": "stable",
         "previous_score": 0.29,
         "confidence": "high",
@@ -408,11 +408,11 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.1,
+            "score": -0.12,
             "count": 15
           },
           "reddit": {
-            "score": 0.53,
+            "score": 0.6,
             "count": 15
           },
           "gdelt": {
@@ -467,7 +467,6 @@
         -0.14,
         -0.14,
         -0.14,
-        -0.14,
         0.24,
         0.17,
         0.17,
@@ -488,15 +487,16 @@
         0.27,
         0.29,
         0.29,
-        0.29
+        0.29,
+        0.33
       ]
     },
     {
       "name": "JPMorgan Chase",
       "sentiment": {
         "overall_score": 0,
-        "trend": "declining",
-        "previous_score": 0.27,
+        "trend": "stable",
+        "previous_score": 0,
         "confidence": "low",
         "sample_size": 0,
         "source_scores": {
@@ -521,7 +521,6 @@
       "top_headlines": [],
       "sparkline": [
         0,
-        0,
         0.27,
         0,
         0,
@@ -549,6 +548,7 @@
         0,
         0,
         0.27,
+        0,
         0
       ]
     },
@@ -602,10 +602,10 @@
         0,
         0,
         0,
+        0.25,
+        0.25,
+        0.25,
         0,
-        0.25,
-        0.25,
-        0.25,
         0,
         0,
         0,
@@ -618,7 +618,7 @@
       "sentiment": {
         "overall_score": 0,
         "trend": "stable",
-        "previous_score": 0.0,
+        "previous_score": 0,
         "confidence": "low",
         "sample_size": 0,
         "source_scores": {
@@ -648,7 +648,6 @@
         0,
         0,
         0,
-        0,
         0.0,
         0.0,
         0.0,
@@ -671,6 +670,7 @@
         0.0,
         0.0,
         0.0,
+        0,
         0
       ]
     },
@@ -747,7 +747,6 @@
         0.0,
         0.0,
         0.0,
-        0.0,
         0.54,
         0.51,
         0.51,
@@ -764,6 +763,7 @@
         0.51,
         0.51,
         0.55,
+        0.51,
         0.51,
         0.51,
         0.51,
@@ -839,7 +839,6 @@
         -0.05,
         -0.05,
         -0.05,
-        -0.05,
         -0.08,
         -0.08,
         -0.07,
@@ -865,6 +864,7 @@
         0.11,
         0.11,
         0.11,
+        0.11,
         0.11
       ]
     },
@@ -872,8 +872,8 @@
       "name": "Disney",
       "sentiment": {
         "overall_score": -0.04,
-        "trend": "improving",
-        "previous_score": -0.25,
+        "trend": "stable",
+        "previous_score": -0.04,
         "confidence": "high",
         "sample_size": 16,
         "source_scores": {
@@ -935,7 +935,6 @@
       "sparkline": [
         0.0,
         0.0,
-        0.0,
         0,
         0,
         0,
@@ -962,13 +961,14 @@
         -0.16,
         -0.16,
         -0.25,
+        -0.04,
         -0.04
       ]
     },
     {
       "name": "Dell",
       "sentiment": {
-        "overall_score": 0.15,
+        "overall_score": 0.16,
         "trend": "stable",
         "previous_score": 0.15,
         "confidence": "high",
@@ -979,7 +979,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.09,
+            "score": -0.06,
             "count": 15
           },
           "reddit": {
@@ -994,11 +994,18 @@
       },
       "top_headlines": [
         {
-          "title": "Ask HN: How do you deal with AI fatigue?",
+          "title": "Instructure Reaches Deal with Hackers to Return Canvas User Data",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48102760",
+          "url": "https://news.ycombinator.com/item?id=48107756",
           "date": "2026-05-12",
-          "sentiment_score": -0.25
+          "sentiment_score": 0.0516
+        },
+        {
+          "title": "Maker of Canvas Learning Platform Strikes Deal for Hackers to Return Data",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48107262",
+          "date": "2026-05-12",
+          "sentiment_score": -0.3612
         },
         {
           "title": "Return to Office policy black- and whitelist.",
@@ -1020,17 +1027,9 @@
           "url": "https://www.reddit.com/r/technology/",
           "date": "2026-05-12",
           "sentiment_score": 0.6249
-        },
-        {
-          "title": "Ask HN: How to deal with everybody rushing to implement?",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48096408",
-          "date": "2026-05-11",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.09,
         0.06,
         0.06,
         0.01,
@@ -1059,7 +1058,8 @@
         0.17,
         0.18,
         0.15,
-        0.15
+        0.15,
+        0.16
       ]
     },
     {
@@ -1067,7 +1067,7 @@
       "sentiment": {
         "overall_score": 0.25,
         "trend": "stable",
-        "previous_score": 0.23,
+        "previous_score": 0.25,
         "confidence": "high",
         "sample_size": 24,
         "source_scores": {
@@ -1127,7 +1127,6 @@
         }
       ],
       "sparkline": [
-        0.08,
         0.07,
         0.07,
         0.13,
@@ -1156,6 +1155,7 @@
         0.15,
         0.14,
         0.23,
+        0.25,
         0.25
       ]
     },
@@ -1232,7 +1232,6 @@
         0,
         0,
         0,
-        0,
         0.16,
         0.16,
         0.16,
@@ -1250,6 +1249,7 @@
         -0.01,
         -0.09,
         -0.09,
+        -0.2,
         -0.2,
         -0.2,
         -0.2,
@@ -1261,7 +1261,7 @@
       "sentiment": {
         "overall_score": 0.54,
         "trend": "stable",
-        "previous_score": 0.59,
+        "previous_score": 0.54,
         "confidence": "medium",
         "sample_size": 9,
         "source_scores": {
@@ -1323,7 +1323,6 @@
       "sparkline": [
         0.13,
         0.13,
-        0.13,
         0,
         0,
         0,
@@ -1350,6 +1349,7 @@
         0.59,
         0.59,
         0.59,
+        0.54,
         0.54
       ]
     }
