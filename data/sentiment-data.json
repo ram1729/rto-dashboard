@@ -1,27 +1,27 @@
 {
-  "last_updated": "2026-05-13T03:40:10.539883Z",
+  "last_updated": "2026-05-13T14:41:20.584372Z",
   "scraper_log": {
-    "duration_sec": 298.71,
-    "total_articles": 292,
+    "duration_sec": 128.75,
+    "total_articles": 288,
     "errors": []
   },
   "companies": [
     {
       "name": "Amazon",
       "sentiment": {
-        "overall_score": 0.13,
+        "overall_score": 0.16,
         "trend": "stable",
-        "previous_score": 0.14,
+        "previous_score": 0.13,
         "confidence": "high",
-        "sample_size": 30,
+        "sample_size": 28,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.04,
-            "count": 15
+            "score": 0.11,
+            "count": 13
           },
           "reddit": {
             "score": 0.19,
@@ -63,15 +63,14 @@
           "sentiment_score": -0.128
         },
         {
-          "title": "Amazon staff use AI tool for unnecessary tasks to inflate usage scores",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48104999",
-          "date": "2026-05-12",
-          "sentiment_score": 0.1779
+          "title": "Amazon India has my money AND the returned watch. They lied to NCH saying it was \"intact\" after picking it up. Need legal advice.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1ta7mvn/amazon_india_has_my_money_and_the_returned_watch/",
+          "date": "2026-05-11",
+          "sentiment_score": -0.6311
         }
       ],
       "sparkline": [
-        0.1,
         0.09,
         0.07,
         0.07,
@@ -100,7 +99,8 @@
         0.2,
         0.14,
         0.14,
-        0.13
+        0.13,
+        0.16
       ]
     },
     {
@@ -174,7 +174,6 @@
         -0.07,
         -0.07,
         -0.07,
-        -0.07,
         -0.05,
         -0.05,
         -0.05,
@@ -195,6 +194,7 @@
         0.1,
         0.18,
         0.18,
+        0.19,
         0.19,
         0.19,
         0.19
@@ -265,7 +265,6 @@
         }
       ],
       "sparkline": [
-        -0.05,
         -0.0,
         -0.03,
         -0.03,
@@ -293,6 +292,7 @@
         0.18,
         0.18,
         0.18,
+        0.26,
         0.26,
         0.26
       ]
@@ -362,7 +362,6 @@
         }
       ],
       "sparkline": [
-        -0.01,
         0.0,
         0.03,
         -0.01,
@@ -391,15 +390,16 @@
         0.21,
         0.21,
         0.21,
+        0.21,
         0.21
       ]
     },
     {
       "name": "Microsoft",
       "sentiment": {
-        "overall_score": 0.35,
+        "overall_score": 0.38,
         "trend": "stable",
-        "previous_score": 0.33,
+        "previous_score": 0.35,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -408,11 +408,11 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.12,
+            "score": -0.08,
             "count": 15
           },
           "reddit": {
-            "score": 0.63,
+            "score": 0.65,
             "count": 15
           },
           "gdelt": {
@@ -430,11 +430,11 @@
           "sentiment_score": 0.4019
         },
         {
-          "title": "Microsoft",
+          "title": "Microsoft Teams",
           "source": "Reddit",
-          "url": "https://www.reddit.com/r/microsoft/",
+          "url": "https://www.reddit.com/r/MicrosoftTeams/",
           "date": "2026-05-13",
-          "sentiment_score": 0.4588
+          "sentiment_score": 0.8622
         },
         {
           "title": "/r/Technology",
@@ -465,7 +465,6 @@
         -0.14,
         -0.14,
         -0.14,
-        -0.14,
         0.24,
         0.17,
         0.17,
@@ -488,7 +487,8 @@
         0.29,
         0.29,
         0.33,
-        0.35
+        0.35,
+        0.38
       ]
     },
     {
@@ -520,7 +520,6 @@
       },
       "top_headlines": [],
       "sparkline": [
-        0.27,
         0,
         0,
         0,
@@ -547,6 +546,7 @@
         0,
         0,
         0.27,
+        0,
         0,
         0,
         0
@@ -600,10 +600,10 @@
         0,
         0,
         0,
+        0.25,
+        0.25,
+        0.25,
         0,
-        0.25,
-        0.25,
-        0.25,
         0,
         0,
         0,
@@ -618,7 +618,7 @@
       "sentiment": {
         "overall_score": 0.0,
         "trend": "stable",
-        "previous_score": 0,
+        "previous_score": 0.0,
         "confidence": "low",
         "sample_size": 1,
         "source_scores": {
@@ -654,7 +654,6 @@
         0,
         0,
         0,
-        0,
         0.0,
         0.0,
         0.0,
@@ -679,6 +678,7 @@
         0.0,
         0,
         0,
+        0.0,
         0.0
       ]
     },
@@ -753,7 +753,6 @@
         0.0,
         0.0,
         0.0,
-        0.0,
         0.54,
         0.51,
         0.51,
@@ -770,6 +769,7 @@
         0.51,
         0.51,
         0.55,
+        0.51,
         0.51,
         0.51,
         0.51,
@@ -845,7 +845,6 @@
       ],
       "sparkline": [
         -0.05,
-        -0.05,
         -0.08,
         -0.08,
         -0.07,
@@ -868,6 +867,7 @@
         0.11,
         0.1,
         0.1,
+        0.11,
         0.11,
         0.11,
         0.11,
@@ -941,7 +941,6 @@
         }
       ],
       "sparkline": [
-        0.0,
         0,
         0,
         0,
@@ -970,15 +969,16 @@
         -0.25,
         -0.04,
         -0.04,
+        -0.04,
         -0.04
       ]
     },
     {
       "name": "Dell",
       "sentiment": {
-        "overall_score": 0.2,
+        "overall_score": 0.22,
         "trend": "stable",
-        "previous_score": 0.16,
+        "previous_score": 0.2,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -987,7 +987,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.01,
+            "score": 0.04,
             "count": 15
           },
           "reddit": {
@@ -1001,6 +1001,20 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Show HN: SelfCertForge, manage root CAs and self-signed certs on macOS/Windows",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48117476",
+          "date": "2026-05-13",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Unitree will sell you a 'transformable mecha' for $650k",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48121661",
+          "date": "2026-05-13",
+          "sentiment_score": 0.0
+        },
         {
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
@@ -1021,24 +1035,9 @@
           "url": "https://www.reddit.com/r/technology/",
           "date": "2026-05-13",
           "sentiment_score": 0.6249
-        },
-        {
-          "title": "Show HN: Gigacatalyst \u2013 Extend your SaaS with an embedded AI builder",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48110593",
-          "date": "2026-05-12",
-          "sentiment_score": 0.1779
-        },
-        {
-          "title": "Show HN: GIF Pile. a site to make piles of GIFs",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48114649",
-          "date": "2026-05-12",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.06,
         0.01,
         0.01,
         -0.01,
@@ -1067,25 +1066,26 @@
         0.15,
         0.15,
         0.16,
-        0.2
+        0.2,
+        0.22
       ]
     },
     {
       "name": "Tesla",
       "sentiment": {
-        "overall_score": 0.24,
+        "overall_score": 0.22,
         "trend": "stable",
-        "previous_score": 0.25,
+        "previous_score": 0.24,
         "confidence": "high",
-        "sample_size": 26,
+        "sample_size": 24,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.12,
-            "count": 11
+            "score": 0.07,
+            "count": 9
           },
           "reddit": {
             "score": 0.32,
@@ -1120,22 +1120,21 @@
           "sentiment_score": -0.3434
         },
         {
-          "title": "Tesla moves Basic Autopilot features to paid FSD where available",
+          "title": "Launch HN: Voker (YC S24) \u2013 Analytics for AI Agents",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48116046",
+          "url": "https://news.ycombinator.com/item?id=48109962",
           "date": "2026-05-12",
           "sentiment_score": 0.0
         },
         {
-          "title": "Tesla's New AI Tech Could Save Lives, Thanks to Quicker Airbags",
+          "title": "Tesla recalls every Cybertruck RWD ever sold because the wheels could fall off",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48103644",
-          "date": "2026-05-12",
-          "sentiment_score": 0.7269
+          "url": "https://news.ycombinator.com/item?id=48100996",
+          "date": "2026-05-11",
+          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.07,
         0.13,
         0.09,
         0.09,
@@ -1164,15 +1163,16 @@
         0.23,
         0.25,
         0.25,
-        0.24
+        0.24,
+        0.22
       ]
     },
     {
       "name": "Caterpillar",
       "sentiment": {
         "overall_score": 0.14,
-        "trend": "improving",
-        "previous_score": -0.2,
+        "trend": "stable",
+        "previous_score": 0.14,
         "confidence": "high",
         "sample_size": 14,
         "source_scores": {
@@ -1226,7 +1226,7 @@
         {
           "title": "I\u2019ve Been Living Out of Motels for Four Months. Something Keeps Following Me.",
           "source": "Reddit",
-          "url": "https://www.reddit.com/r/TheMidnightArchives/comments/1tb5s1b/ive_been_living_out_of_motels_for_four_months/",
+          "url": "https://www.reddit.com/r/horrorstories/comments/1tb5rm5/ive_been_living_out_of_motels_for_four_months/",
           "date": "2026-05-12",
           "sentiment_score": 0.9802
         }
@@ -1238,7 +1238,6 @@
         0,
         0,
         0,
-        0,
         0.16,
         0.16,
         0.16,
@@ -1261,6 +1260,7 @@
         -0.2,
         -0.2,
         -0.2,
+        0.14,
         0.14
       ]
     },
@@ -1329,7 +1329,6 @@
         }
       ],
       "sparkline": [
-        0.13,
         0,
         0,
         0,
@@ -1356,6 +1355,7 @@
         0.59,
         0.59,
         0.59,
+        0.54,
         0.54,
         0.54,
         0.54
