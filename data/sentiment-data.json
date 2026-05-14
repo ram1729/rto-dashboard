@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-05-14T03:37:36.172729Z",
+  "last_updated": "2026-05-14T14:21:49.405040Z",
   "scraper_log": {
-    "duration_sec": 248.68,
-    "total_articles": 293,
+    "duration_sec": 282.14,
+    "total_articles": 298,
     "errors": []
   },
   "companies": [
     {
       "name": "Amazon",
       "sentiment": {
-        "overall_score": 0.15,
+        "overall_score": 0.18,
         "trend": "stable",
-        "previous_score": 0.16,
+        "previous_score": 0.15,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -20,11 +20,11 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.08,
+            "score": 0.07,
             "count": 15
           },
           "reddit": {
-            "score": 0.19,
+            "score": 0.24,
             "count": 15
           },
           "gdelt": {
@@ -35,16 +35,16 @@
       },
       "top_headlines": [
         {
+          "title": "Return to Office policy black- and whitelist.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/ReturntoOffice/",
+          "date": "2026-05-14",
+          "sentiment_score": 0.8271
+        },
+        {
           "title": "Look Up",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/superman/",
-          "date": "2026-05-14",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "DC Animated Universe",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/DCAU/",
           "date": "2026-05-14",
           "sentiment_score": 0.0
         },
@@ -56,22 +56,21 @@
           "sentiment_score": 0.6249
         },
         {
+          "title": "CloudFront's flat-rate plan (CDN+WAF+DNS) now scales to 6B req and 600TB/mo",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48123812",
+          "date": "2026-05-13",
+          "sentiment_score": 0.0
+        },
+        {
           "title": "Amazon employees are \"tokenmaxxing\" due to pressure to use AI tools",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=48110529",
           "date": "2026-05-12",
           "sentiment_score": -0.128
-        },
-        {
-          "title": "Amazon staff use AI tool for unnecessary tasks to inflate usage scores",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48104999",
-          "date": "2026-05-12",
-          "sentiment_score": 0.1779
         }
       ],
       "sparkline": [
-        0.07,
         0.07,
         0.07,
         0.07,
@@ -100,15 +99,16 @@
         0.14,
         0.13,
         0.16,
-        0.15
+        0.15,
+        0.18
       ]
     },
     {
       "name": "Apple",
       "sentiment": {
         "overall_score": 0.28,
-        "trend": "improving",
-        "previous_score": 0.19,
+        "trend": "stable",
+        "previous_score": 0.28,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -132,18 +132,18 @@
       },
       "top_headlines": [
         {
-          "title": "PowerPoint Presentation Tips and Examples",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/powerpoint/",
-          "date": "2026-05-14",
-          "sentiment_score": 0.6369
-        },
-        {
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/ReturntoOffice/",
           "date": "2026-05-14",
           "sentiment_score": 0.8271
+        },
+        {
+          "title": "PowerPoint Presentation Tips and Examples",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/powerpoint/",
+          "date": "2026-05-14",
+          "sentiment_score": 0.6369
         },
         {
           "title": "/r/Technology",
@@ -172,7 +172,6 @@
         -0.07,
         -0.07,
         -0.07,
-        -0.07,
         -0.05,
         -0.05,
         -0.05,
@@ -197,6 +196,7 @@
         0.19,
         0.19,
         0.19,
+        0.28,
         0.28
       ]
     },
@@ -229,18 +229,18 @@
       },
       "top_headlines": [
         {
-          "title": "PowerPoint Presentation Tips and Examples",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/powerpoint/",
-          "date": "2026-05-14",
-          "sentiment_score": 0.6369
-        },
-        {
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/ReturntoOffice/",
           "date": "2026-05-14",
           "sentiment_score": 0.8271
+        },
+        {
+          "title": "PowerPoint Presentation Tips and Examples",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/powerpoint/",
+          "date": "2026-05-14",
+          "sentiment_score": 0.6369
         },
         {
           "title": "/r/Technology",
@@ -269,7 +269,6 @@
         -0.03,
         -0.03,
         -0.03,
-        -0.03,
         -0.05,
         -0.05,
         -0.05,
@@ -294,6 +293,7 @@
         0.26,
         0.26,
         0.26,
+        0.26,
         0.26
       ]
     },
@@ -302,7 +302,7 @@
       "sentiment": {
         "overall_score": 0.22,
         "trend": "stable",
-        "previous_score": 0.21,
+        "previous_score": 0.22,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -362,7 +362,6 @@
         }
       ],
       "sparkline": [
-        0.03,
         -0.01,
         -0.01,
         -0.0,
@@ -391,15 +390,16 @@
         0.21,
         0.21,
         0.21,
+        0.22,
         0.22
       ]
     },
     {
       "name": "Microsoft",
       "sentiment": {
-        "overall_score": 0.37,
+        "overall_score": 0.36,
         "trend": "stable",
-        "previous_score": 0.38,
+        "previous_score": 0.37,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -430,11 +430,11 @@
           "sentiment_score": 0.4019
         },
         {
-          "title": "Microsoft Teams",
+          "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
-          "url": "https://www.reddit.com/r/MicrosoftTeams/",
+          "url": "https://www.reddit.com/r/ReturntoOffice/",
           "date": "2026-05-14",
-          "sentiment_score": 0.8622
+          "sentiment_score": 0.8271
         },
         {
           "title": "/r/Technology",
@@ -463,7 +463,6 @@
         -0.14,
         -0.14,
         -0.14,
-        -0.14,
         0.24,
         0.17,
         0.17,
@@ -488,7 +487,8 @@
         0.33,
         0.35,
         0.38,
-        0.37
+        0.37,
+        0.36
       ]
     },
     {
@@ -543,8 +543,8 @@
         0,
         0,
         0,
-        0,
         0.27,
+        0,
         0,
         0,
         0,
@@ -598,10 +598,10 @@
         0,
         0,
         0,
+        0.25,
+        0.25,
+        0.25,
         0,
-        0.25,
-        0.25,
-        0.25,
         0,
         0,
         0,
@@ -652,7 +652,6 @@
       "sparkline": [
         0,
         0,
-        0,
         0.0,
         0.0,
         0.0,
@@ -677,6 +676,7 @@
         0.0,
         0,
         0,
+        0.0,
         0.0,
         0.0,
         0.0
@@ -751,7 +751,6 @@
         0.0,
         0.0,
         0.0,
-        0.0,
         0.54,
         0.51,
         0.51,
@@ -776,6 +775,7 @@
         0.51,
         0.51,
         0.51,
+        0.51,
         0.51
       ]
     },
@@ -784,7 +784,7 @@
       "sentiment": {
         "overall_score": 0.12,
         "trend": "stable",
-        "previous_score": 0.11,
+        "previous_score": 0.12,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -793,7 +793,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.05,
+            "score": -0.04,
             "count": 15
           },
           "reddit": {
@@ -822,6 +822,13 @@
           "sentiment_score": 0.0
         },
         {
+          "title": "A History of IDEs at Google",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48073979",
+          "date": "2026-05-09",
+          "sentiment_score": 0.0
+        },
+        {
           "title": "David Attenborough's 100th Birthday",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=48061884",
@@ -834,17 +841,9 @@
           "url": "https://news.ycombinator.com/item?id=48047981",
           "date": "2026-05-07",
           "sentiment_score": -0.34
-        },
-        {
-          "title": "Actress Rachel Zegler at the Met Gala, after a skiing trip.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/SipsTea/comments/1t5hrma/actress_rachel_zegler_at_the_met_gala_after_a/",
-          "date": "2026-05-06",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        -0.08,
         -0.08,
         -0.07,
         -0.07,
@@ -873,6 +872,7 @@
         0.11,
         0.11,
         0.11,
+        0.12,
         0.12
       ]
     },
@@ -905,18 +905,18 @@
       },
       "top_headlines": [
         {
-          "title": "The Book of Boba Fett",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/BookOfBobaFett/",
-          "date": "2026-05-14",
-          "sentiment_score": -0.5848
-        },
-        {
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/ReturntoOffice/",
           "date": "2026-05-14",
           "sentiment_score": 0.8271
+        },
+        {
+          "title": "The Book of Boba Fett",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/BookOfBobaFett/",
+          "date": "2026-05-14",
+          "sentiment_score": -0.5848
         },
         {
           "title": "Box Office - The Business of Movies",
@@ -941,7 +941,6 @@
         }
       ],
       "sparkline": [
-        0,
         0,
         0.0,
         0.0,
@@ -970,15 +969,16 @@
         -0.04,
         -0.04,
         -0.04,
+        -0.04,
         -0.04
       ]
     },
     {
       "name": "Dell",
       "sentiment": {
-        "overall_score": 0.23,
+        "overall_score": 0.22,
         "trend": "stable",
-        "previous_score": 0.22,
+        "previous_score": 0.23,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -987,7 +987,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.02,
+            "score": -0.01,
             "count": 15
           },
           "reddit": {
@@ -1038,7 +1038,6 @@
         }
       ],
       "sparkline": [
-        0.01,
         -0.01,
         -0.03,
         0.07,
@@ -1067,7 +1066,8 @@
         0.16,
         0.2,
         0.22,
-        0.23
+        0.23,
+        0.22
       ]
     },
     {
@@ -1075,9 +1075,9 @@
       "sentiment": {
         "overall_score": 0.24,
         "trend": "stable",
-        "previous_score": 0.22,
+        "previous_score": 0.24,
         "confidence": "high",
-        "sample_size": 25,
+        "sample_size": 26,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -1085,7 +1085,7 @@
           },
           "hackernews": {
             "score": 0.11,
-            "count": 10
+            "count": 11
           },
           "reddit": {
             "score": 0.32,
@@ -1137,7 +1137,6 @@
       "sparkline": [
         0.09,
         0.09,
-        0.09,
         0.15,
         0.07,
         0.15,
@@ -1164,17 +1163,18 @@
         0.25,
         0.24,
         0.22,
+        0.24,
         0.24
       ]
     },
     {
       "name": "Caterpillar",
       "sentiment": {
-        "overall_score": 0.14,
-        "trend": "stable",
+        "overall_score": 0.06,
+        "trend": "declining",
         "previous_score": 0.14,
         "confidence": "high",
-        "sample_size": 14,
+        "sample_size": 15,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -1185,8 +1185,8 @@
             "count": 0
           },
           "reddit": {
-            "score": 0.14,
-            "count": 14
+            "score": 0.06,
+            "count": 15
           },
           "gdelt": {
             "score": 0,
@@ -1217,18 +1217,18 @@
           "sentiment_score": -0.4723
         },
         {
-          "title": "I\u2019ve Been Living Out of Motels for Four Months. Something Keeps Following Me.",
+          "title": "4.8 is live",
           "source": "Reddit",
-          "url": "https://www.reddit.com/r/TheDarkArchive/comments/1tb5qo8/ive_been_living_out_of_motels_for_four_months/",
-          "date": "2026-05-12",
-          "sentiment_score": 0.9802
+          "url": "https://www.reddit.com/r/starcitizen/comments/1tcy0eh/48_is_live/",
+          "date": "2026-05-14",
+          "sentiment_score": -0.989
         },
         {
-          "title": "I\u2019ve Been Living Out of Motels for Four Months. Something Keeps Following Me.",
+          "title": "4.8 is Live!!",
           "source": "Reddit",
-          "url": "https://www.reddit.com/r/horrorstories/comments/1tb5rm5/ive_been_living_out_of_motels_for_four_months/",
-          "date": "2026-05-12",
-          "sentiment_score": 0.9802
+          "url": "https://www.reddit.com/r/LowSodiumStarCitizen/comments/1tcxo1c/48_is_live/",
+          "date": "2026-05-14",
+          "sentiment_score": -0.9993
         }
       ],
       "sparkline": [
@@ -1236,7 +1236,6 @@
         0,
         0,
         0,
-        0,
         0.16,
         0.16,
         0.16,
@@ -1261,25 +1260,26 @@
         -0.2,
         0.14,
         0.14,
-        0.14
+        0.14,
+        0.06
       ]
     },
     {
       "name": "Cisco",
       "sentiment": {
-        "overall_score": 0.18,
-        "trend": "declining",
-        "previous_score": 0.54,
+        "overall_score": 0.3,
+        "trend": "improving",
+        "previous_score": 0.18,
         "confidence": "high",
-        "sample_size": 10,
+        "sample_size": 13,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.44,
-            "count": 1
+            "score": -0.11,
+            "count": 4
           },
           "reddit": {
             "score": 0.54,
@@ -1331,7 +1331,6 @@
       "sparkline": [
         0,
         0,
-        0,
         0.0,
         0.0,
         0.37,
@@ -1358,7 +1357,8 @@
         0.54,
         0.54,
         0.54,
-        0.18
+        0.18,
+        0.3
       ]
     }
   ]
