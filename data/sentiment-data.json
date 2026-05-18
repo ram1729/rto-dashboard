@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-05-18T03:51:08.523817Z",
+  "last_updated": "2026-05-18T15:42:05.271989Z",
   "scraper_log": {
-    "duration_sec": 278.37,
-    "total_articles": 287,
+    "duration_sec": 261.59,
+    "total_articles": 289,
     "errors": []
   },
   "companies": [
     {
       "name": "Amazon",
       "sentiment": {
-        "overall_score": 0.2,
-        "trend": "declining",
-        "previous_score": 0.28,
+        "overall_score": 0.41,
+        "trend": "improving",
+        "previous_score": 0.2,
         "confidence": "high",
         "sample_size": 26,
         "source_scores": {
@@ -24,7 +24,7 @@
             "count": 11
           },
           "reddit": {
-            "score": 0.3,
+            "score": 0.63,
             "count": 15
           },
           "gdelt": {
@@ -56,22 +56,21 @@
           "sentiment_score": -0.3434
         },
         {
-          "title": "Show HN: Amazon-ready books from simple HTML: EPublish",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48171170",
-          "date": "2026-05-17",
-          "sentiment_score": 0.0
+          "title": "Prior Service Veteran Seeking Advice on Returning to Active Duty Officer Service",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/uscg/comments/1tgk2vn/prior_service_veteran_seeking_advice_on_returning/",
+          "date": "2026-05-18",
+          "sentiment_score": 0.9897
         },
         {
-          "title": "Account Terminated",
+          "title": "Returning items to Amazon made very difficult",
           "source": "Reddit",
-          "url": "https://www.reddit.com/r/amazonprime/comments/1tf36a0/account_terminated/",
-          "date": "2026-05-16",
-          "sentiment_score": -0.7477
+          "url": "https://www.reddit.com/r/amazonprime/comments/1tgmtd6/returning_items_to_amazon_made_very_difficult/",
+          "date": "2026-05-18",
+          "sentiment_score": 0.3536
         }
       ],
       "sparkline": [
-        0.08,
         0.07,
         0.08,
         0.08,
@@ -100,15 +99,16 @@
         0.18,
         0.14,
         0.28,
-        0.2
+        0.2,
+        0.41
       ]
     },
     {
       "name": "Apple",
       "sentiment": {
         "overall_score": 0.29,
-        "trend": "improving",
-        "previous_score": 0.2,
+        "trend": "stable",
+        "previous_score": 0.29,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -170,7 +170,6 @@
       "sparkline": [
         -0.05,
         -0.05,
-        -0.05,
         -0.12,
         -0.12,
         -0.12,
@@ -197,6 +196,7 @@
         0.19,
         0.2,
         0.2,
+        0.29,
         0.29
       ]
     },
@@ -205,7 +205,7 @@
       "sentiment": {
         "overall_score": 0.31,
         "trend": "stable",
-        "previous_score": 0.32,
+        "previous_score": 0.31,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -214,7 +214,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.01,
+            "score": 0.0,
             "count": 15
           },
           "reddit": {
@@ -228,6 +228,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Ex-Google CEO Eric Schmidt Fails to Read Room on AI, Gets Booed into Oblivion",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48175564",
+          "date": "2026-05-18",
+          "sentiment_score": -0.4215
+        },
         {
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
@@ -255,17 +262,9 @@
           "url": "https://news.ycombinator.com/item?id=48170730",
           "date": "2026-05-17",
           "sentiment_score": -0.34
-        },
-        {
-          "title": "100% EU complaint OnlyFans German edition",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/2westerneurope4u/comments/1tdo9u2/100_eu_complaint_onlyfans_german_edition/",
-          "date": "2026-05-15",
-          "sentiment_score": -0.6808
         }
       ],
       "sparkline": [
-        -0.05,
         -0.05,
         -0.05,
         -0.13,
@@ -294,6 +293,7 @@
         0.22,
         0.22,
         0.32,
+        0.31,
         0.31
       ]
     },
@@ -302,7 +302,7 @@
       "sentiment": {
         "overall_score": 0.21,
         "trend": "stable",
-        "previous_score": 0.22,
+        "previous_score": 0.21,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -362,7 +362,6 @@
         }
       ],
       "sparkline": [
-        0.3,
         0.24,
         0.24,
         0.32,
@@ -391,6 +390,7 @@
         0.25,
         0.21,
         0.22,
+        0.21,
         0.21
       ]
     },
@@ -399,7 +399,7 @@
       "sentiment": {
         "overall_score": 0.31,
         "trend": "stable",
-        "previous_score": 0.29,
+        "previous_score": 0.31,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -459,7 +459,6 @@
         }
       ],
       "sparkline": [
-        0.24,
         0.17,
         0.17,
         0.19,
@@ -488,6 +487,7 @@
         0.38,
         0.37,
         0.29,
+        0.31,
         0.31
       ]
     },
@@ -538,8 +538,8 @@
         0,
         0,
         0,
-        0,
         0.27,
+        0,
         0,
         0,
         0,
@@ -557,7 +557,7 @@
       "sentiment": {
         "overall_score": 0,
         "trend": "stable",
-        "previous_score": 0.0,
+        "previous_score": 0,
         "confidence": "low",
         "sample_size": 0,
         "source_scores": {
@@ -593,7 +593,6 @@
         0,
         0,
         0,
-        0,
         0.25,
         0.25,
         0.25,
@@ -610,6 +609,7 @@
         0,
         0,
         0.0,
+        0,
         0
       ]
     },
@@ -643,7 +643,6 @@
       "top_headlines": [],
       "sparkline": [
         0.0,
-        0.0,
         0,
         0,
         0,
@@ -669,6 +668,7 @@
         0.0,
         0.0,
         0.0,
+        0,
         0,
         0,
         0
@@ -724,22 +724,21 @@
           "sentiment_score": -0.4723
         },
         {
+          "title": "Will I still get a job after instability?",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/IndiaCareers/comments/1tge1h9/will_i_still_get_a_job_after_instability/",
+          "date": "2026-05-18",
+          "sentiment_score": 0.938
+        },
+        {
           "title": "We Pay Salesforce 83% More Than Last Year. But Stopped Using Notion",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=48158058",
           "date": "2026-05-16",
           "sentiment_score": -0.3716
-        },
-        {
-          "title": "Would appreciate honest CV feedback for HR/Operati",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/CVwriting/comments/1telj1m/would_appreciate_honest_cv_feedback_for_hroperati/",
-          "date": "2026-05-16",
-          "sentiment_score": 0.9938
         }
       ],
       "sparkline": [
-        0.54,
         0.51,
         0.51,
         0.51,
@@ -768,13 +767,14 @@
         0.51,
         0.51,
         0.43,
+        0.43,
         0.43
       ]
     },
     {
       "name": "AT&T",
       "sentiment": {
-        "overall_score": 0.12,
+        "overall_score": 0.11,
         "trend": "stable",
         "previous_score": 0.12,
         "confidence": "high",
@@ -785,7 +785,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.04,
+            "score": -0.08,
             "count": 15
           },
           "reddit": {
@@ -799,6 +799,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "At least 25 Flock cameras have been destroyed in five states since April 2025",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48170798",
+          "date": "2026-05-17",
+          "sentiment_score": -0.4939
+        },
         {
           "title": "Guy at Dunkin took my VIP card",
           "source": "Reddit",
@@ -821,13 +828,6 @@
           "sentiment_score": 0.9325
         },
         {
-          "title": "Tell NYT, Atlantic, USA Today to keep Wayback Machine",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48115807",
-          "date": "2026-05-12",
-          "sentiment_score": 0.0
-        },
-        {
           "title": "Hardware Attestation as Monopoly Enabler",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=48086190",
@@ -836,7 +836,6 @@
         }
       ],
       "sparkline": [
-        -0.05,
         -0.08,
         -0.05,
         -0.13,
@@ -865,15 +864,16 @@
         0.12,
         0.12,
         0.12,
-        0.12
+        0.12,
+        0.11
       ]
     },
     {
       "name": "Disney",
       "sentiment": {
         "overall_score": 0.12,
-        "trend": "improving",
-        "previous_score": 0.05,
+        "trend": "stable",
+        "previous_score": 0.12,
         "confidence": "high",
         "sample_size": 16,
         "source_scores": {
@@ -934,7 +934,6 @@
       ],
       "sparkline": [
         0.01,
-        0.01,
         0.12,
         0.12,
         0.12,
@@ -962,6 +961,7 @@
         0.05,
         0.05,
         0.05,
+        0.12,
         0.12
       ]
     },
@@ -970,7 +970,7 @@
       "sentiment": {
         "overall_score": 0.25,
         "trend": "stable",
-        "previous_score": 0.21,
+        "previous_score": 0.25,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -994,6 +994,27 @@
       },
       "top_headlines": [
         {
+          "title": "Show HN: I built a marketplace where AI agents can hire humans (& other agents)",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48179202",
+          "date": "2026-05-18",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Prompt eval cues predicted refusal shifts across 32k LLM rollouts",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48179337",
+          "date": "2026-05-18",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Show HN: Alder: Dynamic Code Execution Without Roslyn",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48177992",
+          "date": "2026-05-18",
+          "sentiment_score": 0.3818
+        },
+        {
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/ReturntoOffice/",
@@ -1006,31 +1027,9 @@
           "url": "https://www.reddit.com/r/fullyremotework/",
           "date": "2026-05-18",
           "sentiment_score": 0.5859
-        },
-        {
-          "title": "Antiwork: Unemployment for all, not just the rich!",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/antiwork/",
-          "date": "2026-05-18",
-          "sentiment_score": -0.3434
-        },
-        {
-          "title": "AI Poop Analysis App Offered to Sell Me Database of Its Users' Poops",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48165984",
-          "date": "2026-05-17",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "How to Tell If You're Living in a Binary Crisis",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48167099",
-          "date": "2026-05-17",
-          "sentiment_score": -0.6249
         }
       ],
       "sparkline": [
-        0.34,
         0.34,
         0.33,
         0.33,
@@ -1059,6 +1058,7 @@
         0.2,
         0.15,
         0.21,
+        0.25,
         0.25
       ]
     },
@@ -1067,17 +1067,17 @@
       "sentiment": {
         "overall_score": 0.29,
         "trend": "stable",
-        "previous_score": 0.3,
+        "previous_score": 0.29,
         "confidence": "high",
-        "sample_size": 23,
+        "sample_size": 24,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.02,
-            "count": 8
+            "score": 0.01,
+            "count": 9
           },
           "reddit": {
             "score": 0.45,
@@ -1090,6 +1090,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Show HN: Teslog \u2013 Self-hosted Tesla telemetry",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48180583",
+          "date": "2026-05-18",
+          "sentiment_score": 0.0
+        },
         {
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
@@ -1117,17 +1124,9 @@
           "url": "https://news.ycombinator.com/item?id=48165980",
           "date": "2026-05-17",
           "sentiment_score": 0.4019
-        },
-        {
-          "title": "Tesla reveals two Robotaxi crashes involving teleoperators",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48160991",
-          "date": "2026-05-16",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.15,
         0.15,
         0.18,
         0.19,
@@ -1156,17 +1155,18 @@
         0.24,
         0.22,
         0.3,
+        0.29,
         0.29
       ]
     },
     {
       "name": "Caterpillar",
       "sentiment": {
-        "overall_score": 0.28,
-        "trend": "stable",
+        "overall_score": 0.2,
+        "trend": "declining",
         "previous_score": 0.28,
         "confidence": "high",
-        "sample_size": 14,
+        "sample_size": 15,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -1177,8 +1177,8 @@
             "count": 0
           },
           "reddit": {
-            "score": 0.28,
-            "count": 14
+            "score": 0.2,
+            "count": 15
           },
           "gdelt": {
             "score": 0,
@@ -1209,22 +1209,21 @@
           "sentiment_score": -0.4723
         },
         {
+          "title": "Michael has returned to the top spot in New Zealand, earning $655k in its fourth weekend in cinemas. Its box office total now stands at $4.69M. \ud83c\udf9f\ufe0f The Devil Wears Prada 2 is now in 2nd place with $554k, bringing its total to $4.20M.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/boxoffice/comments/1tgcqko/michael_has_returned_to_the_top_spot_in_new/",
+          "date": "2026-05-18",
+          "sentiment_score": -0.9078
+        },
+        {
           "title": "4.8 is live",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/starcitizen/comments/1tcy0eh/48_is_live/",
           "date": "2026-05-14",
           "sentiment_score": -0.989
-        },
-        {
-          "title": "I\u2019ve Been Living Out of Motels for Four Months. Something Keeps Following Me. Part 2",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/TheDarkArchive/comments/1tddz7r/ive_been_living_out_of_motels_for_four_months/",
-          "date": "2026-05-14",
-          "sentiment_score": 0.9969
         }
       ],
       "sparkline": [
-        0.16,
         0.16,
         0.16,
         0.16,
@@ -1253,15 +1252,16 @@
         0.19,
         0.19,
         0.28,
-        0.28
+        0.28,
+        0.2
       ]
     },
     {
       "name": "Cisco",
       "sentiment": {
         "overall_score": 0.01,
-        "trend": "declining",
-        "previous_score": 0.29,
+        "trend": "stable",
+        "previous_score": 0.01,
         "confidence": "high",
         "sample_size": 10,
         "source_scores": {
@@ -1322,7 +1322,6 @@
       ],
       "sparkline": [
         0.37,
-        0.37,
         0.59,
         0.37,
         0.34,
@@ -1350,6 +1349,7 @@
         0.2,
         0.47,
         0.29,
+        0.01,
         0.01
       ]
     }
