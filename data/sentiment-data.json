@@ -1,27 +1,27 @@
 {
-  "last_updated": "2026-05-19T03:45:00.441693Z",
+  "last_updated": "2026-05-19T15:31:55.083796Z",
   "scraper_log": {
-    "duration_sec": 214.83,
-    "total_articles": 289,
+    "duration_sec": 228.68,
+    "total_articles": 290,
     "errors": []
   },
   "companies": [
     {
       "name": "Amazon",
       "sentiment": {
-        "overall_score": 0.41,
+        "overall_score": 0.43,
         "trend": "stable",
         "previous_score": 0.41,
         "confidence": "high",
-        "sample_size": 26,
+        "sample_size": 27,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.04,
-            "count": 11
+            "score": 0.1,
+            "count": 12
           },
           "reddit": {
             "score": 0.63,
@@ -34,6 +34,20 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Amazon Cuts Affiliate Commissions Up to 50% for Publishers",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48189886",
+          "date": "2026-05-19",
+          "sentiment_score": -0.128
+        },
+        {
+          "title": "Users turn to jailbreaking their older Kindles as Amazon ends support",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48189869",
+          "date": "2026-05-19",
+          "sentiment_score": 0.5267
+        },
         {
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
@@ -54,24 +68,9 @@
           "url": "https://www.reddit.com/r/antiwork/",
           "date": "2026-05-19",
           "sentiment_score": -0.3434
-        },
-        {
-          "title": "May 15-17 Box Office Recap \u2013 'Michael' returns to the top spot on its fourth weekend, crossing $700M worldwide. 'The Devil Wears Prada 2' hits $545M worldwide. 'Obsession' over-performs with $17.1M domestically, $24.8M worldwide and an \"A\u2013\" on CinemaScore. 'In the Grey' and 'Is God Is' flop.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/movies/comments/1th3iw3/may_1517_box_office_recap_michael_returns_to_the/",
-          "date": "2026-05-18",
-          "sentiment_score": 0.9918
-        },
-        {
-          "title": "Returning items to Amazon made very difficult",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/amazonprime/comments/1tgmtd6/returning_items_to_amazon_made_very_difficult/",
-          "date": "2026-05-18",
-          "sentiment_score": 0.3536
         }
       ],
       "sparkline": [
-        0.08,
         0.08,
         0.07,
         -0.01,
@@ -100,15 +99,16 @@
         0.28,
         0.2,
         0.41,
-        0.41
+        0.41,
+        0.43
       ]
     },
     {
       "name": "Apple",
       "sentiment": {
-        "overall_score": 0.38,
-        "trend": "improving",
-        "previous_score": 0.29,
+        "overall_score": 0.37,
+        "trend": "stable",
+        "previous_score": 0.38,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -117,7 +117,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.09,
+            "score": 0.06,
             "count": 15
           },
           "reddit": {
@@ -131,6 +131,20 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Apple vs. EU Commission: DMA second round",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48190142",
+          "date": "2026-05-19",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Apple Silicon costs less than OpenRouter",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48189026",
+          "date": "2026-05-19",
+          "sentiment_score": 0.0
+        },
         {
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
@@ -151,24 +165,9 @@
           "url": "https://www.reddit.com/r/technology/",
           "date": "2026-05-19",
           "sentiment_score": 0.6249
-        },
-        {
-          "title": "Scott Commentary from JP Morgan TMT Conference",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/ASTSpaceMobile/comments/1tgykw6/scott_commentary_from_jp_morgan_tmt_conference/",
-          "date": "2026-05-18",
-          "sentiment_score": 0.9999
-        },
-        {
-          "title": "I was hired as an extra for an indie film. There's something seriously wrong on set",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/nosleep/comments/1tee917/i_was_hired_as_an_extra_for_an_indie_film_theres/",
-          "date": "2026-05-16",
-          "sentiment_score": 0.9728
         }
       ],
       "sparkline": [
-        -0.05,
         -0.12,
         -0.12,
         -0.12,
@@ -197,14 +196,15 @@
         0.2,
         0.29,
         0.29,
-        0.38
+        0.38,
+        0.37
       ]
     },
     {
       "name": "Google",
       "sentiment": {
-        "overall_score": 0.31,
-        "trend": "stable",
+        "overall_score": 0.23,
+        "trend": "declining",
         "previous_score": 0.31,
         "confidence": "high",
         "sample_size": 30,
@@ -218,7 +218,7 @@
             "count": 15
           },
           "reddit": {
-            "score": 0.5,
+            "score": 0.37,
             "count": 15
           },
           "gdelt": {
@@ -250,22 +250,21 @@
           "sentiment_score": -0.3434
         },
         {
-          "title": "Ex-Google CEO Eric Schmidt Fails to Read Room on AI, Gets Booed into Oblivion",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48175564",
-          "date": "2026-05-18",
-          "sentiment_score": -0.4215
+          "title": "Can You Use An Older Tax Return To Apply For New York Essential Plan 1 In Office?",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/HealthInsurance/comments/1the2qx/can_you_use_an_older_tax_return_to_apply_for_new/",
+          "date": "2026-05-19",
+          "sentiment_score": 0.9826
         },
         {
-          "title": "Google Maps Satellite Imagery of Palisades Fire Area Reverts",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48170730",
-          "date": "2026-05-17",
-          "sentiment_score": -0.34
+          "title": "THE JACE-UGIN DIALECTIC, WUXING COSMOLOGY, AND WHY REALITY FRACTURE IS LITERALLY THE DAO TE JING: A COMPLETE ANALYSIS",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/mtg/comments/1tha14e/the_jaceugin_dialectic_wuxing_cosmology_and_why/",
+          "date": "2026-05-19",
+          "sentiment_score": -0.9988
         }
       ],
       "sparkline": [
-        -0.05,
         -0.13,
         -0.13,
         -0.11,
@@ -294,15 +293,16 @@
         0.32,
         0.31,
         0.31,
-        0.31
+        0.31,
+        0.23
       ]
     },
     {
       "name": "Meta",
       "sentiment": {
-        "overall_score": 0.3,
-        "trend": "improving",
-        "previous_score": 0.21,
+        "overall_score": 0.29,
+        "trend": "stable",
+        "previous_score": 0.3,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -311,7 +311,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.02,
+            "score": -0.04,
             "count": 15
           },
           "reddit": {
@@ -325,6 +325,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Show HN: Guitar Guru \u2013 A guitar valuation app using ML",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48194112",
+          "date": "2026-05-19",
+          "sentiment_score": 0.0
+        },
         {
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
@@ -352,17 +359,9 @@
           "url": "https://www.reddit.com/r/csMajors/comments/1tdncuf/cant_program_anymore_bc_of_ai_killing_it_in_new/",
           "date": "2026-05-15",
           "sentiment_score": 0.9614
-        },
-        {
-          "title": "FRMI will be the next APLD",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/wallstreetbets/comments/1tdz6eb/frmi_will_be_the_next_apld/",
-          "date": "2026-05-15",
-          "sentiment_score": 0.9989
         }
       ],
       "sparkline": [
-        0.24,
         0.32,
         0.32,
         0.24,
@@ -391,14 +390,15 @@
         0.22,
         0.21,
         0.21,
-        0.3
+        0.3,
+        0.29
       ]
     },
     {
       "name": "Microsoft",
       "sentiment": {
-        "overall_score": 0.31,
-        "trend": "stable",
+        "overall_score": 0.23,
+        "trend": "declining",
         "previous_score": 0.31,
         "confidence": "high",
         "sample_size": 30,
@@ -412,7 +412,7 @@
             "count": 15
           },
           "reddit": {
-            "score": 0.53,
+            "score": 0.4,
             "count": 15
           },
           "gdelt": {
@@ -444,22 +444,21 @@
           "sentiment_score": 0.6249
         },
         {
+          "title": "Built a free OneDrive/SharePoint drive-letter sync client with thumbnails, real cloud quota in Explorer, local-first, and no telemetry",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/sysadmin/comments/1tgotce/built_a_free_onedrivesharepoint_driveletter_sync/",
+          "date": "2026-05-18",
+          "sentiment_score": -0.8503
+        },
+        {
           "title": "A fork() in the road (2019) [pdf]",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=48161070",
           "date": "2026-05-16",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Microsoft to automatically roll back faulty Windows drivers",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48147975",
-          "date": "2026-05-15",
-          "sentiment_score": -0.3182
         }
       ],
       "sparkline": [
-        0.17,
         0.19,
         0.19,
         0.27,
@@ -488,7 +487,8 @@
         0.29,
         0.31,
         0.31,
-        0.31
+        0.31,
+        0.23
       ]
     },
     {
@@ -536,8 +536,8 @@
         0,
         0,
         0,
-        0,
         0.27,
+        0,
         0,
         0,
         0,
@@ -555,19 +555,19 @@
     {
       "name": "Goldman Sachs",
       "sentiment": {
-        "overall_score": 0,
+        "overall_score": 0.0,
         "trend": "stable",
         "previous_score": 0,
         "confidence": "low",
-        "sample_size": 0,
+        "sample_size": 1,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0,
-            "count": 0
+            "score": 0.0,
+            "count": 1
           },
           "reddit": {
             "score": 0,
@@ -579,9 +579,16 @@
           }
         }
       },
-      "top_headlines": [],
+      "top_headlines": [
+        {
+          "title": "AI is likely to widen the gap between corporate giants and everyone else",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48191639",
+          "date": "2026-05-19",
+          "sentiment_score": 0.0
+        }
+      ],
       "sparkline": [
-        0,
         0,
         0,
         0,
@@ -610,7 +617,8 @@
         0.0,
         0,
         0,
-        0
+        0,
+        0.0
       ]
     },
     {
@@ -646,7 +654,6 @@
         0,
         0,
         0,
-        0,
         0.0,
         0.0,
         0.0,
@@ -667,6 +674,7 @@
         0.0,
         0.0,
         0.0,
+        0,
         0,
         0,
         0,
@@ -677,19 +685,19 @@
     {
       "name": "Salesforce",
       "sentiment": {
-        "overall_score": 0.43,
+        "overall_score": 0.46,
         "trend": "stable",
         "previous_score": 0.43,
         "confidence": "high",
-        "sample_size": 18,
+        "sample_size": 17,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.22,
-            "count": 3
+            "score": -0.15,
+            "count": 2
           },
           "reddit": {
             "score": 0.82,
@@ -724,22 +732,21 @@
           "sentiment_score": -0.4723
         },
         {
-          "title": "Will I still get a job after instability?",
+          "title": "WhatsApp Chatbot for Business: Automate Customer Conversations",
           "source": "Reddit",
-          "url": "https://www.reddit.com/r/IndiaCareers/comments/1tge1h9/will_i_still_get_a_job_after_instability/",
-          "date": "2026-05-18",
-          "sentiment_score": 0.938
+          "url": "https://www.reddit.com/r/Entrepreneurs/comments/1thja40/whatsapp_chatbot_for_business_automate_customer/",
+          "date": "2026-05-19",
+          "sentiment_score": 0.9884
         },
         {
-          "title": "We Pay Salesforce 83% More Than Last Year. But Stopped Using Notion",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48158058",
+          "title": "Would appreciate honest CV feedback for HR/Operati",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/CVwriting/comments/1telj1m/would_appreciate_honest_cv_feedback_for_hroperati/",
           "date": "2026-05-16",
-          "sentiment_score": -0.3716
+          "sentiment_score": 0.9938
         }
       ],
       "sparkline": [
-        0.51,
         0.51,
         0.51,
         0.51,
@@ -768,13 +775,14 @@
         0.43,
         0.43,
         0.43,
-        0.43
+        0.43,
+        0.46
       ]
     },
     {
       "name": "AT&T",
       "sentiment": {
-        "overall_score": 0.11,
+        "overall_score": 0.08,
         "trend": "stable",
         "previous_score": 0.11,
         "confidence": "high",
@@ -789,7 +797,7 @@
             "count": 15
           },
           "reddit": {
-            "score": 0.22,
+            "score": 0.18,
             "count": 15
           },
           "gdelt": {
@@ -800,6 +808,13 @@
       },
       "top_headlines": [
         {
+          "title": "Trump says he's postponing 'scheduled attack of Iran tomorrow' at Middle East leaders' request",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/worldnews/comments/1tgxnx9/trump_says_hes_postponing_scheduled_attack_of/",
+          "date": "2026-05-18",
+          "sentiment_score": -0.8957
+        },
+        {
           "title": "At least 25 Flock cameras have been destroyed in five states since April 2025",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=48170798",
@@ -807,7 +822,7 @@
           "sentiment_score": -0.4939
         },
         {
-          "title": "The Quiet Renovation at Bitwarden",
+          "title": "The quiet renovation at Bitwarden",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=48163389",
           "date": "2026-05-16",
@@ -826,17 +841,9 @@
           "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1tdrob3/blind_guy_here_guess_im_just_fucking_stuck_at/",
           "date": "2026-05-15",
           "sentiment_score": -0.943
-        },
-        {
-          "title": "The \"Peace President\" Donald Trump dozes off at Board of Peace meeting",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/pics/comments/1tcieyp/the_peace_president_donald_trump_dozes_off_at/",
-          "date": "2026-05-14",
-          "sentiment_score": 0.9325
         }
       ],
       "sparkline": [
-        -0.05,
         -0.13,
         -0.06,
         -0.03,
@@ -865,7 +872,8 @@
         0.12,
         0.12,
         0.11,
-        0.11
+        0.11,
+        0.08
       ]
     },
     {
@@ -935,7 +943,6 @@
       "sparkline": [
         0.12,
         0.12,
-        0.12,
         -0.12,
         -0.12,
         -0.25,
@@ -962,6 +969,7 @@
         0.05,
         0.12,
         0.12,
+        0.12,
         0.12
       ]
     },
@@ -970,7 +978,7 @@
       "sentiment": {
         "overall_score": 0.24,
         "trend": "stable",
-        "previous_score": 0.25,
+        "previous_score": 0.24,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -994,6 +1002,20 @@
       },
       "top_headlines": [
         {
+          "title": "Show HN: Guitar Guru \u2013 A guitar valuation app using ML",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48194112",
+          "date": "2026-05-19",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Hunting orphan objects: 45% off our ClickHouse storage bill and a near data-loss",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48191347",
+          "date": "2026-05-19",
+          "sentiment_score": 0.0
+        },
+        {
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/ReturntoOffice/",
@@ -1013,24 +1035,9 @@
           "url": "https://www.reddit.com/r/antiwork/",
           "date": "2026-05-19",
           "sentiment_score": -0.3434
-        },
-        {
-          "title": "How to deal with your kid leaving",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48182215",
-          "date": "2026-05-18",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "Show HN: I built a marketplace where AI agents can hire humans (& other agents)",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48179202",
-          "date": "2026-05-18",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.33,
         0.33,
         0.32,
         0.44,
@@ -1059,6 +1066,7 @@
         0.21,
         0.25,
         0.25,
+        0.24,
         0.24
       ]
     },
@@ -1091,6 +1099,13 @@
       },
       "top_headlines": [
         {
+          "title": "Ask HN: What are your plans for the AI future?",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48193860",
+          "date": "2026-05-19",
+          "sentiment_score": 0.0
+        },
+        {
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/ReturntoOffice/",
@@ -1112,13 +1127,6 @@
           "sentiment_score": -0.3434
         },
         {
-          "title": "Show HN: Teslog \u2013 Self-hosted Tesla telemetry",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48180583",
-          "date": "2026-05-18",
-          "sentiment_score": 0.0
-        },
-        {
           "title": "Tesla Solar Roof is on life support as it pivot to panels",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=48165980",
@@ -1127,7 +1135,6 @@
         }
       ],
       "sparkline": [
-        0.18,
         0.19,
         0.18,
         0.1,
@@ -1154,6 +1161,7 @@
         0.24,
         0.22,
         0.3,
+        0.29,
         0.29,
         0.29,
         0.29
@@ -1231,7 +1239,6 @@
         0.16,
         0.16,
         0.16,
-        0.16,
         0,
         -0.01,
         -0.01,
@@ -1252,6 +1259,7 @@
         0.19,
         0.28,
         0.28,
+        0.2,
         0.2,
         0.2
       ]
@@ -1321,7 +1329,6 @@
         }
       ],
       "sparkline": [
-        0.59,
         0.37,
         0.34,
         0.55,
@@ -1348,6 +1355,7 @@
         0.2,
         0.47,
         0.29,
+        0.01,
         0.01,
         0.01,
         0.01
