@@ -351,8 +351,8 @@
     "policy": "Full Office",
     "daysInOffice": 5,
     "enforcement": "Strict mandate since takeover (confirmed 2025)",
-    "lastUpdate": "2026-04-22",
-    "source": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBkMFI4OVI1Q3FnUVlUSXUyUm1fNUtKcXA4cEh5b0g2OXVjSjZWWk9BSUZUSEdEdXVnNTRFc2NYUm1saEF5VkFvanhPdk9NYjNOQnlqNDRPQS14bkJZaGM3QVd0MkwxQXVza2JYT0NDSVYzTzdFNndlbw?oc=5",
+    "lastUpdate": "2026-03-20",
+    "source": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZGc3NEhzRGlGVlZVVmdBMkp1dFJmaUx6VEdoR2NZZFJsYlZ3YTE1LTJfdDlxY2ozUUtsWmtkMklKNWRJS2kxREZSZm9BdkRFbEFJa0ZSR3JDdTd5RUJoa1pZSVFObWUxS3F4MFQ2dHk3b3VmV0Y3eWJBdUZSc1NBVkt3X0E1V0RSV1hKX0xMYzlzNnJ5a1E?oc=5",
     "sentiment": -0.57,
     "sentimentTrend": "Declining",
     "mentionVolume": 1080,
@@ -567,6 +567,12 @@
       }
     ],
     "policyHistory": [
+      {
+        "date": "2024-01-30",
+        "policy": "Full Office",
+        "daysInOffice": 5,
+        "source": "https://www.ajc.com/news/business/ups-tells-white-collar-workers-return-to-office-five-days-a-week/"
+      },
       {
         "date": "2024-01-30",
         "policy": "Full Office",
@@ -3236,6 +3242,12 @@
         "policy": "Hybrid",
         "daysInOffice": 3,
         "source": "https://www.businessinsider.com/meta-zuckerberg-return-to-office-status-quo-2025"
+      },
+      {
+        "date": "2025-01-15",
+        "policy": "Hybrid",
+        "daysInOffice": 3,
+        "source": "https://www.businessinsider.com/meta-zuckerberg-return-to-office-status-quo-2025"
       }
     ]
   },
@@ -3320,11 +3332,11 @@
     "id": 27,
     "company": "Bank of America",
     "sector": "Financials",
-    "policy": "Full Office",
-    "daysInOffice": 5,
+    "policy": "Hybrid",
+    "daysInOffice": 3,
     "enforcement": "Office-first hybrid, senior staff 5d",
-    "lastUpdate": "2026-01-27",
-    "source": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1VSE0zM1laTVZTNnBCQ1U5NGZUZ1lrbjMwUFZIdnpnVU81aGhhY1VkajRKaGNpUUs5RHhMT2E5R3FWUUdyTzlfZTBSNnBWcVR5elgyczdFNzNsMVN3bU4wMER2SnhqaUFxcUh6Rmg1dw?oc=5",
+    "lastUpdate": "2025-06-24",
+    "source": "https://news.google.com/rss/articles/CBMimgFBVV95cUxORjJCODl0djdqU0ZxckZ5T1U2NDFBejhuNVloa29DaUFhY25ncFU5MTRCRnR2V1VPQkJtVWVFTnR3Z2tJV0VrajhldFBpN0MyeEtEbDZySzV3WFRJNWJCRTFReHRadzYwVlBQYm0tMC0ycTMwUUpjd2xpR2FwSU1uc2w3M3JIa0E4NnAwaFpLdm5HeERaTENfVFlR?oc=5",
     "sentiment": 0.89,
     "sentimentTrend": "Improving",
     "mentionVolume": 5441,
@@ -3947,8 +3959,8 @@
     "policy": "Hybrid",
     "daysInOffice": 3,
     "enforcement": "Manager discretion",
-    "lastUpdate": "2025-12-06",
-    "source": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNRnNkMkEwTUFDVTFoQlNLLWlQel81TWFjc0hNd2RDYUVGQmRxeTBOMWVqRXE3V2VoamhZODgyLV9wa2pVNUdaNm9Ic0dYQlZsNHpPRGkzNlhPVkJrMVIybU1ubWdiOVZ2TFltbkIzdHBmeE9POEpLMmhvb0duYnpubllaMFR1MW5QWi1zNnF6T0VPSzkzY25XQ0NLbXo?oc=5",
+    "lastUpdate": "2025-10-10",
+    "source": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNc2huR25ibzRDUzd4bXZsNnBlRk5Kdm5mM3FPeE5OS0tWTTl3NFZwVHpsb2RPdmMzcnFvQ09yZ0EyREVKQmpDbVhxb2ZHVEpjNzJBTnVyeEtiWEluSU1BcWZUWTYwZGZSNnVJY0NPcklvZjRFTkJ2cU5uSVV1RUEzTGpiR1ZkbElkT2MwOXJuMHdnaEJtb0NwZ19OQ01TZktoOC1fOXZsYTBSTEJJeHdPVjBVWjcxdw?oc=5",
     "sentiment": 0.64,
     "sentimentTrend": "Improving",
     "mentionVolume": 3848,
@@ -4384,6 +4396,12 @@
       }
     ],
     "policyHistory": [
+      {
+        "date": "2025-12-15",
+        "policy": "Hybrid",
+        "daysInOffice": 3,
+        "source": "https://www.thestreet.com/lifestyle/pepsico-reportedly-asks-some-staff-to-work-from-home"
+      },
       {
         "date": "2025-12-15",
         "policy": "Hybrid",
@@ -5281,11 +5299,11 @@
     "id": 49,
     "company": "NVIDIA",
     "sector": "Technology",
-    "policy": "Full Office",
-    "daysInOffice": 5,
+    "policy": "Remote-First",
+    "daysInOffice": 0,
     "enforcement": "Team-driven, no company mandate",
-    "lastUpdate": "2025-12-01",
-    "source": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOcDI3ZDNyYWxUSFBUMjRjRDNEdW1mWHNYX0xXd0NFbVNVRmdKQTFJRnNINXdaSUplOWpVdUUxNkIzQWNOQ3dYdmhwS1dJa3BIejdzVFZNb29kVnJHbURqWW9ucDZ1eXUtNTVrcktnVFFWODN2M0FsUC0zQjk2WTBkODRMZTZKYUdXY1lKM0tWcHlPaG84cmU3S1I0V2M3LWVRanVCZmY4dVV2ZExpX3NPMjUwYzZVMDdmTWtiYlhTMVlScDZWRWQ0?oc=5",
+    "lastUpdate": "2025-08-26",
+    "source": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5vR1I3cEYwaEdNRGxobWFWZzJuLVJjdExjV2JBWTg0cmI1X0RFejY3bEh1a0tkNjlwMW4xalJuUWZRbWN6Wk1QSkJoSDhSR1NrdVZuUFVhY2JoZUlvaDNnczRXQm8yQTRKUXZwbF9UeDliUFdpTEVkeg?oc=5",
     "sentiment": 0.85,
     "sentimentTrend": "Improving",
     "mentionVolume": 2923,
