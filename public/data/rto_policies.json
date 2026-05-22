@@ -429,8 +429,8 @@
     "policy": "Full Office",
     "daysInOffice": 5,
     "enforcement": "5 days from Jan 2025, 9 office hubs",
-    "lastUpdate": "2026-03-22",
-    "source": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONUJKdGNOUWdSa3FhM3N5M3RmcC1WaDdsUUt4Vmh2Q1BKa1JacDlfbjNtSnNuR2N4RzlBdlRSN1ZLNnVycjBDTmtBbFpTOUg0TTgyY1NHTjl1SHNnVGppQ2JreGRjQy1nV19WRmpxZ1FVRGo5VlJ3QnVVeXFwdmNodU5VMkl0ODBFb3FEYUZaZkNRcjFzNG1PZUYtUXduclp2UHp4NXhiazlkYzg?oc=5",
+    "lastUpdate": "2026-04-07",
+    "source": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPWktVWk5VTVZqNFNPUC1XVk90TGN4NDBxeUI0QkxUVkdWVkU0TVI2SVNON3I3M05VNzhZbExFbDBMdkZIWkhxV0gzTkFnRGUyb1lsbWJ5aDU2aVlzbmJlbGh1RVZtbldGME5EQS0wZFJ1ZkRhQmRmeVNEaXpCQm9HV3kwSDF1RkYwa1hqbVhKQm5WaVFjZU5oRnpzSlIxQkRNMlgxRW1EQ25nSmhrN1dISFo5ZlFaS28zWXBMNkNIRTlDR2xUOHBzRE8xOHZ6OVV5SDdFTXR3?oc=5",
     "sentiment": -0.35,
     "sentimentTrend": "Declining",
     "mentionVolume": 1836,
@@ -502,11 +502,11 @@
     "id": 7,
     "company": "UPS",
     "sector": "Industrials",
-    "policy": "Office-First",
-    "daysInOffice": 4,
+    "policy": "Full Office",
+    "daysInOffice": 5,
     "enforcement": "Full RTO from Mar 4, 2024",
-    "lastUpdate": "2025-07-14",
-    "source": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVGRpVlBiQi1GdXY3TWVwWU5xOUYzbVhZdEUzTmhXZVZsVGMwUXV2YnBta2M1VG1QZ0gwa1ZzNXQ3VktkLUpDU1Q2ZFBaS3RlMUVNVUdReERXX2d6cUh4YU5rcUU1TG5sQk16QVZXTy1YdlE5eEtKdktHcG5XVW45ckRWNVVxSXoyRmZZUjExczQyR0FwX0J1Xzh2Zm9wSWIx?oc=5",
+    "lastUpdate": "2024-03-04",
+    "source": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQQWEzRzJhS3NZT29DeFo1bDV6aDViLXUxdm9zakQ5ZDBhN1loLTV2aXVjMGlEMXZNbmFCbFlQbnBGOEJ5SWxoQW1ZNGNGajBhWHItNXhmTS1yMUJaY2lZVDI2UFBzYmxhbXhIRHZvQUs5a2JmSVcyWkMyQ3VVMFc1UnN0ek9zVGw3UU1abHFHUVE4bDUyRllyLWxVaFNUbUxJck1IVjlSSEhXcEdGOVJ5VTlsZHhTUGhfNVA3dU9KTE1GeDI1QnNobFlzbDJsOVl3YmE5Q1d3UWVnUVVxaFBDaEZvOA?oc=5",
     "sentiment": -0.77,
     "sentimentTrend": "Declining",
     "mentionVolume": 842,
@@ -2388,8 +2388,8 @@
     "policy": "Hybrid",
     "daysInOffice": 3,
     "enforcement": "3d phased rollout from Feb 2026",
-    "lastUpdate": "2026-03-10",
-    "source": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOWWJRX2pSdWk5VnFFczk2X0NmRXVBZlUxUzBDZGxIMWpHbVRlU3U5YTM1cWJlMDVtbnBXeEJhdEtPOV8wQVhTZDNjVjc0WURFUEQ0TzZXTXRKYWg3RF9abW9Qdm9BYXlFbHZSS1dNbkltU0tMSzNJTFVLbDZBMy03Vnl6RFVTZjVBdjhjUlNSY052bXNGOFBHaDFZaWpMOGdDMjJQVXBRSkZuaElMRXhXQ3BCWTlxOVNGd19wVVJ0WUt1Zw?oc=5",
+    "lastUpdate": "2025-09-09",
+    "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9UaE00OUhTV2N6MkxyNFctSktLb282dzF2d3R4ZmNiXzdEX3JrdktKLWhmUllpNG5SNUVDM1JLLXFsZE96eGNPcUdNS2ZmYURlMnBPSDJvQ2pXZnRvZl9kZ1ZFWUlwdjZvcmlfWlZIc0RkRkE?oc=5",
     "sentiment": 0.75,
     "sentimentTrend": "Improving",
     "mentionVolume": 3074,
@@ -2535,6 +2535,12 @@
       }
     ],
     "policyHistory": [
+      {
+        "date": "2025-01-15",
+        "policy": "Hybrid",
+        "daysInOffice": 3,
+        "source": "https://www.businessinsider.com/meta-zuckerberg-return-to-office-status-quo-2025"
+      },
       {
         "date": "2025-01-15",
         "policy": "Hybrid",
@@ -3735,8 +3741,8 @@
     "policy": "Hybrid",
     "daysInOffice": 0,
     "enforcement": "Trust-based, no company-wide mandate",
-    "lastUpdate": "2026-05-11",
-    "source": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOaHdFSDNmNE85dFloc29uUmNqMkhxbEpqSUFndUU4NXNmbWdmYzV3SFRJUjg3ZFNTQXNiRHhndGVpTFFMdUVDbmVncnpKdjI3aEJiMHdTdTBKc0lEbVFJUnRZQ2tMV2phb3paWmZPMzZTQnI2UjBacTdJZU5zNWhQSl9fN3FxTU83bW9VX1ZiNjJJQzhTNTFN?oc=5",
+    "lastUpdate": "2025-06-11",
+    "source": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZUx1dlI4d3Aya0tveXFzRWQzZ1NPTkVjWDQ5QUVBeE9HZFhHWEFSelg1MlVjNldJV3N3LU4zTmRDZ01MbmZERGlSWGNxLS1qYk15X2M2MkVUVU5JWDlJbDA0cEIyOERRNk5oZEdCa2pzUTg2LXRON2ZsMFh2UXVOanpQMVBVMV9DTThZOWI0TndBQnVwa3pjMzl3VW41ZnVLWmx6d1pLdjZUSmY5?oc=5",
     "sentiment": 0.61,
     "sentimentTrend": "Improving",
     "mentionVolume": 4459,
@@ -4407,6 +4413,12 @@
         "policy": "Hybrid",
         "daysInOffice": 3,
         "source": "https://www.thestreet.com/lifestyle/pepsico-reportedly-asks-some-staff-to-work-from-home"
+      },
+      {
+        "date": "2025-12-15",
+        "policy": "Hybrid",
+        "daysInOffice": 3,
+        "source": "https://www.thestreet.com/lifestyle/pepsico-reportedly-asks-some-staff-to-work-from-home"
       }
     ]
   },
@@ -4572,8 +4584,8 @@
     "policy": "Hybrid",
     "daysInOffice": 3,
     "enforcement": "Standard hybrid",
-    "lastUpdate": "2025-09-09",
-    "source": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNXVNcklfWVJ6aGtGYkVkLXZQWmc2UjFwblNrajVlUGE0b0J0UFJxUWdxeHBwNmpjb2NHdFgyNG1BUGMtYk5CVlVhWDBLVUZCazZ6TjBCWlRqc01NRjg3Mm5ZV3JEeXJ4MXNFTHkyNnpPeGVIQTVJOGwySlBlSWkxRXdBd0hJVTBzZGZ1QWMwZngtNGZIWWFEaUlpWEJPbVB6dmVYUURmNNIBuwFBVV95cUxPenVjYnlPcHVVOEhyN2tuWXAxc0lpRXNIaHZGN2I4STh2LThjM0U4RUI5ajVVYXJqTFhnTjh0akZXTjVOZVJZRHhULW1vSFhRVm5KakprcGFNUFYzcXB5d2owZE82dEZqNGZxd2FlenlmUkVBSnRfSzd1cU40RUJoRVBUT0JzUlZyZXRldTd4OU5xcHBLbU11T0tPU0N1Zjhya3paZGFIRHpwSTVxeXdxd0xCaFdoLURkRzVj?oc=5",
+    "lastUpdate": "2025-11-07",
+    "source": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNTDZpODVlX3Q4TEVnNEJ1TGxFTE9TSDVFRlRVQy00aWxZU2hKeEhOdmZPN0Jnd2hxaU9ISFFVckZuOGRvNkhTWHhraGRKTThNdm5mUlJtV0gzNzJqcTUyZ0hVQWZLWExBTVREcGtFc0l3UzBUYkRyUFgzUWloR1VzeWV4elhkQ25VMkd1b3o5TlpOU1VlcmtDR0hQMmktYURfVUZUcnEyNlJyVl9x?oc=5",
     "sentiment": 0.64,
     "sentimentTrend": "Improving",
     "mentionVolume": 5295,
@@ -4820,11 +4832,11 @@
     "id": 44,
     "company": "Eli Lilly",
     "sector": "Healthcare",
-    "policy": "Hybrid",
-    "daysInOffice": 3,
+    "policy": "Full Office",
+    "daysInOffice": 5,
     "enforcement": "Standard hybrid",
-    "lastUpdate": "2025-09-10",
-    "source": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNaE1oWHNwb1hIY0daWVY0V3VKTjFGbWFROVVPeUdzcjhvTDFUMDdwOF9pRXNSem1QT2FnQlhrbGFpNThCN25BUkdPSm1BSFhaWW5kbkZscFFRQXFhZUFQYnBKbzRna25XU0RRLUZOcTlpMzJjQjFmaklYQkhzb1JfdUlTaHFiNmZqRUZQY1gybXNHWWxsQXlhLXF3cXpTX0I1Y3VGdnlnNTFJcWdOaEllYUV3?oc=5",
+    "lastUpdate": "2025-09-11",
+    "source": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNaWU3cXA4b1pxaFZmeGtjazhDVXFEd3F0bkJmRnJaLURsNWwxYUttV3pPN2dPOFBBa2NMN09kTUt2M2sxdGd3c3VCc0o1NTMyTVJoczNlbDExYldNNXo1Q1lhekpmUkRQRkpTcHA3YnpjeVlGVUoxRTRhYXVPTmFoeTZkZWFqQjhPd2VWQ0RfMHg4N004Y0HSAZsBQVVfeXFMT2p2UmtaR05STmNvZFdTRU41QzdVbWU5dTJpejdKOGR4UXR0NVRYUjZYWUFqV0FtTjR0dUcxTVJUS19iWFF6X3JGdm4xQnRUOHgxUHZ6S3lMOWhmN1gyTzc3LU1YZ1hrR0p1c2xFRktvMWl1Z29yNHdDbm5mVE43U1ZUSXFkSXZRd3FVMTJrX2JKOUstbzZvUF8wMEU?oc=5",
     "sentiment": 0.84,
     "sentimentTrend": "Improving",
     "mentionVolume": 1243,
@@ -4894,6 +4906,12 @@
       }
     ],
     "policyHistory": [
+      {
+        "date": "2023-01-01",
+        "policy": "Hybrid",
+        "daysInOffice": 3,
+        "source": "https://www.indystar.com/story/money/eli-lilly-hybrid-work-policy"
+      },
       {
         "date": "2023-01-01",
         "policy": "Hybrid",
@@ -5299,11 +5317,11 @@
     "id": 49,
     "company": "NVIDIA",
     "sector": "Technology",
-    "policy": "Remote-First",
-    "daysInOffice": 0,
+    "policy": "Full Office",
+    "daysInOffice": 5,
     "enforcement": "Team-driven, no company mandate",
-    "lastUpdate": "2025-08-26",
-    "source": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5vR1I3cEYwaEdNRGxobWFWZzJuLVJjdExjV2JBWTg0cmI1X0RFejY3bEh1a0tkNjlwMW4xalJuUWZRbWN6Wk1QSkJoSDhSR1NrdVZuUFVhY2JoZUlvaDNnczRXQm8yQTRKUXZwbF9UeDliUFdpTEVkeg?oc=5",
+    "lastUpdate": "2025-12-01",
+    "source": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1MREx5MUlnTVh6VldGRm5qRGxMWndVV0JwM2JQdWk3TFJ2WDJVZ2sxTndPNEhySWVUbGpvSUVQU0lhck1mNEtrZVRxQnFGVVFsY3FLZWNUSU1PQ3BUNGx6RmNieTlDak1weXFZeDRha0tsVHRKMEJNdXFFeFHSAYIBQVVfeXFMTVVMVWhmc1dJaWVNLVBJeFhVMkp1SWFWdE1wc3luejZnMXdZNlIyNGRhaUJrQUNFX0FGS0FsSTJWc1FFR05ESlE5dVBkN1VMa0hfS0JLaVJnb2ZiVUhVUUk4djUxVVlxYkpPMkNXUVJnUjV6YTlDVVRYblNxZkg0VnBUZw?oc=5",
     "sentiment": 0.85,
     "sentimentTrend": "Improving",
     "mentionVolume": 2923,
@@ -5371,6 +5389,12 @@
       }
     ],
     "policyHistory": [
+      {
+        "date": "2024-01-01",
+        "policy": "Remote-First",
+        "daysInOffice": 0,
+        "source": "https://www.timesnownews.com/technology/nvidia-flexible-work-policy-no-rto-mandate"
+      },
       {
         "date": "2024-01-01",
         "policy": "Remote-First",
