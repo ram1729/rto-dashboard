@@ -1,27 +1,27 @@
 {
-  "last_updated": "2026-05-23T03:07:03.043868Z",
+  "last_updated": "2026-05-23T13:35:15.272322Z",
   "scraper_log": {
-    "duration_sec": 302.28,
-    "total_articles": 299,
+    "duration_sec": 258.25,
+    "total_articles": 290,
     "errors": []
   },
   "companies": [
     {
       "name": "Amazon",
       "sentiment": {
-        "overall_score": 0.44,
+        "overall_score": 0.45,
         "trend": "stable",
-        "previous_score": 0.42,
+        "previous_score": 0.44,
         "confidence": "high",
-        "sample_size": 30,
+        "sample_size": 25,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.12,
-            "count": 15
+            "score": 0.16,
+            "count": 10
           },
           "reddit": {
             "score": 0.63,
@@ -35,11 +35,11 @@
       },
       "top_headlines": [
         {
-          "title": "Ask HN: Has anyone solved Amazon's animated GIF captcha programmatically?",
+          "title": "Building Self-Extending CLI Tools with Strands Agent",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48243979",
+          "url": "https://news.ycombinator.com/item?id=48246964",
           "date": "2026-05-23",
-          "sentiment_score": 0.2732
+          "sentiment_score": 0.0
         },
         {
           "title": "Return to Office policy black- and whitelist.",
@@ -71,7 +71,6 @@
         }
       ],
       "sparkline": [
-        0.0,
         0.08,
         0.13,
         0.08,
@@ -100,7 +99,8 @@
         0.42,
         0.43,
         0.42,
-        0.44
+        0.44,
+        0.45
       ]
     },
     {
@@ -108,7 +108,7 @@
       "sentiment": {
         "overall_score": 0.47,
         "trend": "stable",
-        "previous_score": 0.48,
+        "previous_score": 0.47,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -168,7 +168,6 @@
         }
       ],
       "sparkline": [
-        -0.12,
         -0.04,
         -0.04,
         -0.01,
@@ -197,6 +196,7 @@
         0.45,
         0.45,
         0.48,
+        0.47,
         0.47
       ]
     },
@@ -267,7 +267,6 @@
       "sparkline": [
         -0.02,
         -0.02,
-        -0.02,
         0.01,
         0.06,
         0.06,
@@ -291,6 +290,7 @@
         0.31,
         0.31,
         0.23,
+        0.4,
         0.4,
         0.4,
         0.4,
@@ -362,7 +362,6 @@
         }
       ],
       "sparkline": [
-        0.24,
         0.25,
         0.25,
         0.04,
@@ -391,6 +390,7 @@
         0.29,
         0.37,
         0.37,
+        0.37,
         0.37
       ]
     },
@@ -399,7 +399,7 @@
       "sentiment": {
         "overall_score": 0.32,
         "trend": "stable",
-        "previous_score": 0.31,
+        "previous_score": 0.32,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -423,18 +423,18 @@
       },
       "top_headlines": [
         {
-          "title": "Return to Office policy black- and whitelist.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-05-23",
-          "sentiment_score": 0.8271
-        },
-        {
           "title": "Microsoft Office 365: We all work together.",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/Office365/",
           "date": "2026-05-23",
           "sentiment_score": 0.4019
+        },
+        {
+          "title": "Return to Office policy black- and whitelist.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/ReturntoOffice/",
+          "date": "2026-05-23",
+          "sentiment_score": 0.8271
         },
         {
           "title": "/r/Technology",
@@ -459,7 +459,6 @@
         }
       ],
       "sparkline": [
-        0.19,
         0.26,
         0.26,
         -0.14,
@@ -488,6 +487,7 @@
         0.31,
         0.31,
         0.31,
+        0.32,
         0.32
       ]
     },
@@ -531,8 +531,8 @@
         0,
         0,
         0,
-        0,
         0.27,
+        0,
         0,
         0,
         0,
@@ -586,7 +586,6 @@
         0,
         0,
         0,
-        0,
         0.25,
         0.25,
         0.25,
@@ -609,6 +608,7 @@
         0.0,
         0.0,
         0.0,
+        0,
         0,
         0
       ]
@@ -616,19 +616,19 @@
     {
       "name": "Bank of America",
       "sentiment": {
-        "overall_score": 0.0,
+        "overall_score": 0,
         "trend": "stable",
-        "previous_score": 0,
+        "previous_score": 0.0,
         "confidence": "low",
-        "sample_size": 1,
+        "sample_size": 0,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.0,
-            "count": 1
+            "score": 0,
+            "count": 0
           },
           "reddit": {
             "score": 0,
@@ -640,15 +640,7 @@
           }
         }
       },
-      "top_headlines": [
-        {
-          "title": "A nightmare experience: Trying to open a bank account with Bank of America",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48233210",
-          "date": "2026-05-22",
-          "sentiment_score": 0.0
-        }
-      ],
+      "top_headlines": [],
       "sparkline": [
         0.0,
         0.0,
@@ -658,7 +650,6 @@
         0.0,
         0.0,
         0.0,
-        0.0,
         0,
         0.0,
         0.0,
@@ -679,25 +670,26 @@
         0,
         0,
         0,
-        0.0
+        0.0,
+        0
       ]
     },
     {
       "name": "Salesforce",
       "sentiment": {
-        "overall_score": 0.46,
+        "overall_score": 0.44,
         "trend": "stable",
         "previous_score": 0.46,
         "confidence": "high",
-        "sample_size": 17,
+        "sample_size": 18,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.15,
-            "count": 2
+            "score": -0.19,
+            "count": 3
           },
           "reddit": {
             "score": 0.82,
@@ -710,6 +702,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Ask HN: Is $300/HR too low these days for custom full stack?",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48245259",
+          "date": "2026-05-23",
+          "sentiment_score": -0.2732
+        },
         {
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
@@ -737,17 +736,9 @@
           "url": "https://www.reddit.com/r/Entrepreneurs/comments/1thja40/whatsapp_chatbot_for_business_automate_customer/",
           "date": "2026-05-19",
           "sentiment_score": 0.9884
-        },
-        {
-          "title": "Would appreciate honest CV feedback for HR/Operati",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/CVwriting/comments/1telj1m/would_appreciate_honest_cv_feedback_for_hroperati/",
-          "date": "2026-05-16",
-          "sentiment_score": 0.9938
         }
       ],
       "sparkline": [
-        0.51,
         0.51,
         0.51,
         0.0,
@@ -776,7 +767,8 @@
         0.46,
         0.46,
         0.46,
-        0.46
+        0.46,
+        0.44
       ]
     },
     {
@@ -784,7 +776,7 @@
       "sentiment": {
         "overall_score": 0.07,
         "trend": "stable",
-        "previous_score": 0.12,
+        "previous_score": 0.07,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -844,7 +836,6 @@
         }
       ],
       "sparkline": [
-        -0.03,
         -0.04,
         -0.04,
         -0.05,
@@ -873,6 +864,7 @@
         0.05,
         0.03,
         0.12,
+        0.07,
         0.07
       ]
     },
@@ -941,7 +933,6 @@
         }
       ],
       "sparkline": [
-        -0.25,
         -0.12,
         -0.25,
         -0.56,
@@ -970,15 +961,16 @@
         0.12,
         0.12,
         0.12,
+        0.12,
         0.12
       ]
     },
     {
       "name": "Dell",
       "sentiment": {
-        "overall_score": 0.19,
-        "trend": "declining",
-        "previous_score": 0.25,
+        "overall_score": 0.16,
+        "trend": "stable",
+        "previous_score": 0.19,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -987,7 +979,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.03,
+            "score": -0.1,
             "count": 15
           },
           "reddit": {
@@ -1001,6 +993,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Tell HN: Stop building software for people, build it for agents instead",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48244732",
+          "date": "2026-05-23",
+          "sentiment_score": -0.296
+        },
         {
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
@@ -1028,17 +1027,9 @@
           "url": "https://news.ycombinator.com/item?id=48234306",
           "date": "2026-05-22",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Spotify and Universal Music agree deal to let subscribers create AI remixes",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48234355",
-          "date": "2026-05-22",
-          "sentiment_score": 0.5574
         }
       ],
       "sparkline": [
-        0.42,
         0.4,
         0.4,
         0.03,
@@ -1067,25 +1058,26 @@
         0.23,
         0.23,
         0.25,
-        0.19
+        0.19,
+        0.16
       ]
     },
     {
       "name": "Tesla",
       "sentiment": {
-        "overall_score": 0.17,
-        "trend": "improving",
-        "previous_score": 0.09,
+        "overall_score": 0.18,
+        "trend": "stable",
+        "previous_score": 0.17,
         "confidence": "high",
-        "sample_size": 27,
+        "sample_size": 24,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.07,
-            "count": 12
+            "score": -0.04,
+            "count": 9
           },
           "reddit": {
             "score": 0.32,
@@ -1136,7 +1128,6 @@
       ],
       "sparkline": [
         0.05,
-        0.05,
         0.09,
         0.09,
         -0.03,
@@ -1164,7 +1155,8 @@
         0.11,
         0.11,
         0.09,
-        0.17
+        0.17,
+        0.18
       ]
     },
     {
@@ -1234,7 +1226,6 @@
       "sparkline": [
         0.16,
         0.16,
-        0.16,
         0,
         -0.01,
         -0.01,
@@ -1261,25 +1252,26 @@
         0.08,
         0.14,
         0.01,
+        0.01,
         0.01
       ]
     },
     {
       "name": "Cisco",
       "sentiment": {
-        "overall_score": 0.1,
-        "trend": "improving",
-        "previous_score": 0.01,
+        "overall_score": 0.05,
+        "trend": "stable",
+        "previous_score": 0.1,
         "confidence": "high",
-        "sample_size": 14,
+        "sample_size": 13,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.11,
-            "count": 3
+            "score": 0.0,
+            "count": 2
           },
           "reddit": {
             "score": 0.09,
@@ -1292,6 +1284,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Show HN: Source screen for congressional stock disclosure claims",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48245052",
+          "date": "2026-05-23",
+          "sentiment_score": 0.0
+        },
         {
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
@@ -1314,22 +1313,14 @@
           "sentiment_score": -0.4723
         },
         {
-          "title": "Cisco used AI to write security incident reports, with mixed results",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48232985",
+          "title": "Certainty in uncertain times - ready to move in a 3BHK in the ORR tech belt. Book today",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/BangaloreRealEstates/comments/1tkdz8l/certainty_in_uncertain_times_ready_to_move_in_a/",
           "date": "2026-05-22",
-          "sentiment_score": 0.34
-        },
-        {
-          "title": "Show HN: An open source tool that checks for post-quantum crypto",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48233866",
-          "date": "2026-05-22",
-          "sentiment_score": 0.0
+          "sentiment_score": 0.8599
         }
       ],
       "sparkline": [
-        0.55,
         0.49,
         0.49,
         0,
@@ -1358,7 +1349,8 @@
         0.01,
         0.01,
         0.01,
-        0.1
+        0.1,
+        0.05
       ]
     }
   ]
