@@ -2388,8 +2388,8 @@
     "policy": "Hybrid",
     "daysInOffice": 3,
     "enforcement": "3d phased rollout from Feb 2026",
-    "lastUpdate": "2026-03-25",
-    "source": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWW5Rd3JqM0F5dHVyVXRqWkhJMTlaOEtfdUtPdmJQNjdQNGNrMlhBQmZjQUJDQzAtSXZPcUxlVnRON2Q5dWhoUm0xM0VRcGtPQ1labU1zWmU2SUNpTnZ6RkNNRkc0WDBwNnZGeUxQejNwOWpFV0VTMW9hbjgwVXBuZVBYNVg4Vk1jYTNSRGVjMlBTZmdOVDdBN1oxYmJtd2w1dWgwX0w4VG9yaE0?oc=5",
+    "lastUpdate": "2025-09-09",
+    "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9UaE00OUhTV2N6MkxyNFctSktLb282dzF2d3R4ZmNiXzdEX3JrdktKLWhmUllpNG5SNUVDM1JLLXFsZE96eGNPcUdNS2ZmYURlMnBPSDJvQ2pXZnRvZl9kZ1ZFWUlwdjZvcmlfWlZIc0RkRkE?oc=5",
     "sentiment": 0.75,
     "sentimentTrend": "Improving",
     "mentionVolume": 3074,
@@ -2535,6 +2535,12 @@
       }
     ],
     "policyHistory": [
+      {
+        "date": "2025-01-15",
+        "policy": "Hybrid",
+        "daysInOffice": 3,
+        "source": "https://www.businessinsider.com/meta-zuckerberg-return-to-office-status-quo-2025"
+      },
       {
         "date": "2025-01-15",
         "policy": "Hybrid",
@@ -3765,8 +3771,8 @@
     "policy": "Hybrid",
     "daysInOffice": 0,
     "enforcement": "Trust-based, no company-wide mandate",
-    "lastUpdate": "2026-05-11",
-    "source": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOaHdFSDNmNE85dFloc29uUmNqMkhxbEpqSUFndUU4NXNmbWdmYzV3SFRJUjg3ZFNTQXNiRHhndGVpTFFMdUVDbmVncnpKdjI3aEJiMHdTdTBKc0lEbVFJUnRZQ2tMV2phb3paWmZPMzZTQnI2UjBacTdJZU5zNWhQSl9fN3FxTU83bW9VX1ZiNjJJQzhTNTFN?oc=5",
+    "lastUpdate": "2025-12-03",
+    "source": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOLWZvNTh5eTVUbFdYMFU1azVnekE2dmc4MGU0ZXQxMWZXVHpNcFJvR2ZxblZIZlF6NE11WjFpcmFJbUdJY2FMdnl4bmhqNS1zd2MzNHUyRFRoMkE5V0dTNmMtSHNid1BlZU13Rk9KaFotSGx3WkZxTTZmak1KMDg5YzRFVG5XWVYyaXJqdHBxaFY4T0NOWjdQNkZFZkhhdU9S?oc=5",
     "sentiment": 0.61,
     "sentimentTrend": "Improving",
     "mentionVolume": 4459,
@@ -4467,6 +4473,12 @@
         "policy": "Hybrid",
         "daysInOffice": 3,
         "source": "https://www.thestreet.com/lifestyle/pepsico-reportedly-asks-some-staff-to-work-from-home"
+      },
+      {
+        "date": "2025-12-15",
+        "policy": "Hybrid",
+        "daysInOffice": 3,
+        "source": "https://www.thestreet.com/lifestyle/pepsico-reportedly-asks-some-staff-to-work-from-home"
       }
     ]
   },
@@ -5026,11 +5038,11 @@
     "id": 45,
     "company": "Berkshire Hathaway",
     "sector": "Financials",
-    "policy": "Hybrid",
-    "daysInOffice": 3,
+    "policy": "Office-First",
+    "daysInOffice": 4,
     "enforcement": "Standard, varies by subsidiary",
-    "lastUpdate": "2024-05-01",
-    "source": "https://www.reuters.com/business/finance/berkshire-hathaway-shareholders-meeting-rto-2024",
+    "lastUpdate": "2025-06-25",
+    "source": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQM3JEYTRmeFBvTHdJN3hZbE81RlpOdzJGMTMxeXRBR1BwRVhpbko0WGxNV0V4SGxsM2lERlpsU084SnI5UXp2SllJcFVFaG1yTG1HRWtDNzA0VzFNdDJ0blNOMWU0US04WGI5YVdTa2FFNFpFbHZZSTQtLXk4dGw0V19tNEVUNmdwdDRyb2d4bkVGLWp4el9IX3lHbEJtaFZSdU51U01yWEIxUlBZN1huc2xmRkE?oc=5",
     "sentiment": 0.58,
     "sentimentTrend": "Improving",
     "mentionVolume": 3977,
@@ -5091,6 +5103,12 @@
       }
     ],
     "policyHistory": [
+      {
+        "date": "2024-05-01",
+        "policy": "Hybrid",
+        "daysInOffice": 3,
+        "source": "https://www.reuters.com/business/finance/berkshire-hathaway-shareholders-meeting-rto-2024"
+      },
       {
         "date": "2024-05-01",
         "policy": "Hybrid",
@@ -5437,6 +5455,12 @@
       }
     ],
     "policyHistory": [
+      {
+        "date": "2024-01-01",
+        "policy": "Remote-First",
+        "daysInOffice": 0,
+        "source": "https://www.timesnownews.com/technology/nvidia-flexible-work-policy-no-rto-mandate"
+      },
       {
         "date": "2024-01-01",
         "policy": "Remote-First",
