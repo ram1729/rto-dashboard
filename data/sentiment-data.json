@@ -1,27 +1,27 @@
 {
-  "last_updated": "2026-05-28T03:48:58.856514Z",
+  "last_updated": "2026-05-28T16:04:23.367480Z",
   "scraper_log": {
-    "duration_sec": 251.38,
-    "total_articles": 291,
+    "duration_sec": 219.08,
+    "total_articles": 296,
     "errors": []
   },
   "companies": [
     {
       "name": "Amazon",
       "sentiment": {
-        "overall_score": 0.26,
+        "overall_score": 0.27,
         "trend": "stable",
-        "previous_score": 0.27,
+        "previous_score": 0.26,
         "confidence": "high",
-        "sample_size": 25,
+        "sample_size": 28,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.13,
-            "count": 10
+            "score": 0.14,
+            "count": 13
           },
           "reddit": {
             "score": 0.34,
@@ -35,6 +35,27 @@
       },
       "top_headlines": [
         {
+          "title": "Amazon to Acquire Apple's Globalstar Stake in Satellite Deal",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48305075",
+          "date": "2026-05-28",
+          "sentiment_score": 0.1779
+        },
+        {
+          "title": "AWS publishes its new random graph network topology",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48309312",
+          "date": "2026-05-28",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Motorola stops its phones from hijacking the Amazon app, which was 'unintended'",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48306788",
+          "date": "2026-05-28",
+          "sentiment_score": 0.0258
+        },
+        {
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/ReturntoOffice/",
@@ -47,31 +68,9 @@
           "url": "https://www.reddit.com/r/superman/",
           "date": "2026-05-28",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Antiwork: Unemployment for all, not just the rich!",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/antiwork/",
-          "date": "2026-05-28",
-          "sentiment_score": -0.3434
-        },
-        {
-          "title": "Amazon starts selling its AI shopping technology to other retailers",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48295196",
-          "date": "2026-05-27",
-          "sentiment_score": 0.1779
-        },
-        {
-          "title": "Show HN: Posthorn, self-hosted mail gateway",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48289624",
-          "date": "2026-05-27",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.17,
         0.16,
         0.17,
         0.2,
@@ -100,15 +99,16 @@
         0.4,
         0.41,
         0.27,
-        0.26
+        0.26,
+        0.27
       ]
     },
     {
       "name": "Apple",
       "sentiment": {
-        "overall_score": 0.19,
-        "trend": "declining",
-        "previous_score": 0.26,
+        "overall_score": 0.3,
+        "trend": "improving",
+        "previous_score": 0.19,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -117,11 +117,11 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.12,
+            "score": 0.09,
             "count": 15
           },
           "reddit": {
-            "score": 0.24,
+            "score": 0.43,
             "count": 15
           },
           "gdelt": {
@@ -146,11 +146,11 @@
           "sentiment_score": 0.6369
         },
         {
-          "title": "Antiwork: Unemployment for all, not just the rich!",
+          "title": "/r/Technology",
           "source": "Reddit",
-          "url": "https://www.reddit.com/r/antiwork/",
+          "url": "https://www.reddit.com/r/technology/",
           "date": "2026-05-28",
-          "sentiment_score": -0.3434
+          "sentiment_score": 0.6249
         },
         {
           "title": "'Backrooms' - Review Thread",
@@ -160,15 +160,14 @@
           "sentiment_score": -0.9889
         },
         {
-          "title": "[The Washington Post][Gift Article] Trump administration begins making new requests of green-card applicants",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/USCIS/comments/1tplcok/the_washington_postgift_article_trump/",
-          "date": "2026-05-27",
-          "sentiment_score": -0.8442
+          "title": "ATV1sm: Bypass for the original Apple TV's EFI verification to boot any EFI OS",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48263551",
+          "date": "2026-05-25",
+          "sentiment_score": 0.3182
         }
       ],
       "sparkline": [
-        0.1,
         0.1,
         0.18,
         0.18,
@@ -197,7 +196,8 @@
         0.39,
         0.39,
         0.26,
-        0.19
+        0.19,
+        0.3
       ]
     },
     {
@@ -218,7 +218,7 @@
             "count": 15
           },
           "reddit": {
-            "score": 0.48,
+            "score": 0.49,
             "count": 15
           },
           "gdelt": {
@@ -250,22 +250,21 @@
           "sentiment_score": -0.3434
         },
         {
+          "title": "I Found a Weird House-Sitting Ad. It Might Be the Best Gig I'll Ever Get.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/nosleep/comments/1tnspm1/i_found_a_weird_housesitting_ad_it_might_be_the/",
+          "date": "2026-05-26",
+          "sentiment_score": 0.9995
+        },
+        {
           "title": "Google is cannibalizing the web to feed AI",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=48269119",
           "date": "2026-05-25",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "EU border officer to me, a trans Russian asylum seeker: \u201cIf I see you dressed like a woman in my country, I will hit you too.\u201d Refused 3 times in 36 hours. Now in a reception centre denied my psychiatric meds. Documents exist.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/MtF/comments/1tmhog4/eu_border_officer_to_me_a_trans_russian_asylum/",
-          "date": "2026-05-24",
-          "sentiment_score": -0.9974
         }
       ],
       "sparkline": [
-        0.11,
         0.1,
         0.18,
         0.18,
@@ -294,15 +293,16 @@
         0.3,
         0.3,
         0.3,
+        0.3,
         0.3
       ]
     },
     {
       "name": "Meta",
       "sentiment": {
-        "overall_score": 0.32,
-        "trend": "declining",
-        "previous_score": 0.4,
+        "overall_score": 0.4,
+        "trend": "improving",
+        "previous_score": 0.32,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -315,7 +315,7 @@
             "count": 15
           },
           "reddit": {
-            "score": 0.52,
+            "score": 0.64,
             "count": 15
           },
           "gdelt": {
@@ -354,15 +354,14 @@
           "sentiment_score": 0.0
         },
         {
-          "title": "[The Washington Post][Gift Article] Trump administration begins making new requests of green-card applicants",
+          "title": "A response to the crypto FUD",
           "source": "Reddit",
-          "url": "https://www.reddit.com/r/USCIS/comments/1tplcok/the_washington_postgift_article_trump/",
-          "date": "2026-05-27",
-          "sentiment_score": -0.8442
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tnmq6f/a_response_to_the_crypto_fud/",
+          "date": "2026-05-25",
+          "sentiment_score": 0.9986
         }
       ],
       "sparkline": [
-        0.22,
         0.22,
         0.22,
         0.21,
@@ -391,15 +390,16 @@
         0.4,
         0.4,
         0.4,
-        0.32
+        0.32,
+        0.4
       ]
     },
     {
       "name": "Microsoft",
       "sentiment": {
-        "overall_score": 0.3,
-        "trend": "declining",
-        "previous_score": 0.38,
+        "overall_score": 0.39,
+        "trend": "improving",
+        "previous_score": 0.3,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -408,11 +408,11 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.03,
+            "score": 0.01,
             "count": 15
           },
           "reddit": {
-            "score": 0.5,
+            "score": 0.62,
             "count": 15
           },
           "gdelt": {
@@ -444,22 +444,21 @@
           "sentiment_score": 0.6249
         },
         {
-          "title": "[The Washington Post][Gift Article] Trump administration begins making new requests of green-card applicants",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/USCIS/comments/1tplcok/the_washington_postgift_article_trump/",
-          "date": "2026-05-27",
-          "sentiment_score": -0.8442
-        },
-        {
           "title": "A response to the crypto FUD",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tnmq6f/a_response_to_the_crypto_fud/",
           "date": "2026-05-25",
           "sentiment_score": 0.9986
+        },
+        {
+          "title": "Secure Boot and Microsoft CA Rollover \u2013 a heads-up for distributions",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48256064",
+          "date": "2026-05-24",
+          "sentiment_score": 0.34
         }
       ],
       "sparkline": [
-        0.27,
         0.27,
         0.29,
         0.29,
@@ -488,7 +487,8 @@
         0.36,
         0.36,
         0.38,
-        0.3
+        0.3,
+        0.39
       ]
     },
     {
@@ -522,8 +522,8 @@
       "sparkline": [
         0,
         0,
-        0,
         0.27,
+        0,
         0,
         0,
         0,
@@ -592,7 +592,6 @@
         0,
         0,
         0,
-        0,
         0.0,
         0,
         0,
@@ -600,6 +599,7 @@
         0.0,
         0.0,
         0.0,
+        0,
         0,
         0,
         0,
@@ -616,19 +616,19 @@
     {
       "name": "Bank of America",
       "sentiment": {
-        "overall_score": 0,
+        "overall_score": 0.0,
         "trend": "stable",
         "previous_score": 0,
         "confidence": "low",
-        "sample_size": 0,
+        "sample_size": 1,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0,
-            "count": 0
+            "score": 0.0,
+            "count": 1
           },
           "reddit": {
             "score": 0,
@@ -640,9 +640,16 @@
           }
         }
       },
-      "top_headlines": [],
+      "top_headlines": [
+        {
+          "title": "Thousands of Miles, 100 No's, and Our First User",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48257336",
+          "date": "2026-05-24",
+          "sentiment_score": 0.0
+        }
+      ],
       "sparkline": [
-        0,
         0.0,
         0.0,
         0.0,
@@ -671,15 +678,16 @@
         0,
         0,
         0,
-        0
+        0,
+        0.0
       ]
     },
     {
       "name": "Salesforce",
       "sentiment": {
-        "overall_score": 0.45,
+        "overall_score": 0.46,
         "trend": "stable",
-        "previous_score": 0.46,
+        "previous_score": 0.45,
         "confidence": "high",
         "sample_size": 19,
         "source_scores": {
@@ -692,7 +700,7 @@
             "count": 4
           },
           "reddit": {
-            "score": 0.81,
+            "score": 0.82,
             "count": 15
           },
           "gdelt": {
@@ -710,13 +718,6 @@
           "sentiment_score": 0.8271
         },
         {
-          "title": "fullyremotework",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/fullyremotework/",
-          "date": "2026-05-28",
-          "sentiment_score": 0.5859
-        },
-        {
           "title": "NoToRTOCa",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/NoToRTOCa/",
@@ -724,11 +725,18 @@
           "sentiment_score": -0.4723
         },
         {
-          "title": "Updated my CV, any advice would be appreciated",
+          "title": "fullyremotework",
           "source": "Reddit",
-          "url": "https://www.reddit.com/r/FinancialCareers/comments/1tpgt3m/updated_my_cv_any_advice_would_be_appreciated/",
+          "url": "https://www.reddit.com/r/fullyremotework/",
+          "date": "2026-05-28",
+          "sentiment_score": 0.5859
+        },
+        {
+          "title": "Looking to Hire Full stack Developers in Pennsylvania? 10 Philly + Pittsburgh options ranked",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/fullstackdeveloperUSA/comments/1tozxm4/looking_to_hire_full_stack_developers_in/",
           "date": "2026-05-27",
-          "sentiment_score": 0.8164
+          "sentiment_score": 0.9993
         },
         {
           "title": "Launch HN: Chert (YC P26) \u2013 Twilio for iMessage",
@@ -739,7 +747,6 @@
         }
       ],
       "sparkline": [
-        0.51,
         0.51,
         0.51,
         0.51,
@@ -768,7 +775,8 @@
         0.47,
         0.47,
         0.46,
-        0.45
+        0.45,
+        0.46
       ]
     },
     {
@@ -776,7 +784,7 @@
       "sentiment": {
         "overall_score": -0.01,
         "trend": "stable",
-        "previous_score": 0.02,
+        "previous_score": -0.01,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -836,7 +844,6 @@
         }
       ],
       "sparkline": [
-        0.1,
         0.11,
         0.11,
         0.11,
@@ -865,6 +872,7 @@
         0.07,
         0.02,
         0.02,
+        -0.01,
         -0.01
       ]
     },
@@ -872,8 +880,8 @@
       "name": "Disney",
       "sentiment": {
         "overall_score": 0.3,
-        "trend": "improving",
-        "previous_score": 0.15,
+        "trend": "stable",
+        "previous_score": 0.3,
         "confidence": "high",
         "sample_size": 16,
         "source_scores": {
@@ -935,7 +943,6 @@
       "sparkline": [
         -0.16,
         -0.16,
-        -0.16,
         -0.25,
         -0.04,
         -0.04,
@@ -962,13 +969,14 @@
         0.15,
         0.15,
         0.15,
+        0.3,
         0.3
       ]
     },
     {
       "name": "Dell",
       "sentiment": {
-        "overall_score": 0.25,
+        "overall_score": 0.26,
         "trend": "stable",
         "previous_score": 0.25,
         "confidence": "high",
@@ -979,7 +987,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.08,
+            "score": -0.06,
             "count": 15
           },
           "reddit": {
@@ -1030,7 +1038,6 @@
         }
       ],
       "sparkline": [
-        0.16,
         0.17,
         0.18,
         0.15,
@@ -1059,15 +1066,16 @@
         0.24,
         0.27,
         0.25,
-        0.25
+        0.25,
+        0.26
       ]
     },
     {
       "name": "Tesla",
       "sentiment": {
         "overall_score": 0.27,
-        "trend": "improving",
-        "previous_score": 0.16,
+        "trend": "stable",
+        "previous_score": 0.27,
         "confidence": "high",
         "sample_size": 25,
         "source_scores": {
@@ -1128,7 +1136,6 @@
       ],
       "sparkline": [
         0.15,
-        0.15,
         0.14,
         0.23,
         0.25,
@@ -1156,17 +1163,18 @@
         0.11,
         0.19,
         0.16,
+        0.27,
         0.27
       ]
     },
     {
       "name": "Caterpillar",
       "sentiment": {
-        "overall_score": 0.05,
+        "overall_score": 0.09,
         "trend": "stable",
         "previous_score": 0.05,
         "confidence": "high",
-        "sample_size": 14,
+        "sample_size": 15,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -1177,8 +1185,8 @@
             "count": 1
           },
           "reddit": {
-            "score": 0.09,
-            "count": 13
+            "score": 0.15,
+            "count": 14
           },
           "gdelt": {
             "score": 0,
@@ -1209,22 +1217,21 @@
           "sentiment_score": -0.4723
         },
         {
+          "title": "Can't keep my mind from the circling skies. Tongue-tied and twisted, just an earth-bound misfit, I. Part 2",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/Rocknocker/comments/1tq1mb1/cant_keep_my_mind_from_the_circling_skies/",
+          "date": "2026-05-28",
+          "sentiment_score": 0.9995
+        },
+        {
           "title": "Show HN: I made Pok\u00e9mon but with real animals in the real world",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=48270848",
           "date": "2026-05-25",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Michael returned to the top spot in its fourth week in New Zealand cinemas, earning $854k and bringing its total to $4.89M. \ud83c\udf9f\ufe0fThe Devil Wears Prada 2 took 2nd place with $726k, bringing its total to $4.37M. \ud83c\udf9f\ufe0fThe Sheep Detectives remains in 3rd spot with $328k, lifting its total to $796k.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/boxoffice/comments/1tjalhl/michael_returned_to_the_top_spot_in_its_fourth/",
-          "date": "2026-05-21",
-          "sentiment_score": -0.9078
         }
       ],
       "sparkline": [
-        -0.09,
         -0.2,
         -0.2,
         -0.2,
@@ -1253,7 +1260,8 @@
         0.05,
         0.05,
         0.05,
-        0.05
+        0.05,
+        0.09
       ]
     },
     {
@@ -1324,7 +1332,6 @@
         0.59,
         0.59,
         0.59,
-        0.59,
         0.54,
         0.54,
         0.54,
@@ -1349,6 +1356,7 @@
         0.12,
         0.19,
         0.13,
+        0.06,
         0.06,
         0.06
       ]
