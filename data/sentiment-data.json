@@ -1,30 +1,30 @@
 {
-  "last_updated": "2026-06-02T04:08:01.276754Z",
+  "last_updated": "2026-06-02T16:33:49.399738Z",
   "scraper_log": {
-    "duration_sec": 197.93,
-    "total_articles": 299,
+    "duration_sec": 225.53,
+    "total_articles": 291,
     "errors": []
   },
   "companies": [
     {
       "name": "Amazon",
       "sentiment": {
-        "overall_score": 0.34,
+        "overall_score": 0.32,
         "trend": "stable",
         "previous_score": 0.34,
         "confidence": "high",
-        "sample_size": 30,
+        "sample_size": 23,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.11,
-            "count": 15
+            "score": 0.16,
+            "count": 8
           },
           "reddit": {
-            "score": 0.48,
+            "score": 0.42,
             "count": 15
           },
           "gdelt": {
@@ -35,16 +35,23 @@
       },
       "top_headlines": [
         {
-          "title": "Return to Office policy black- and whitelist.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/ReturntoOffice/",
+          "title": "Amazon joins Microsoft in sending message to employees",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48371952",
           "date": "2026-06-02",
-          "sentiment_score": 0.8271
+          "sentiment_score": 0.1779
         },
         {
           "title": "Look Up",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/superman/",
+          "date": "2026-06-02",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "DC Animated Universe",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/DCAU/",
           "date": "2026-06-02",
           "sentiment_score": 0.0
         },
@@ -61,17 +68,9 @@
           "url": "https://news.ycombinator.com/item?id=48356001",
           "date": "2026-06-01",
           "sentiment_score": 0.1779
-        },
-        {
-          "title": "Amazon Thinks the Future of Data Centers Is a Technical Problem It Just Solved",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48353733",
-          "date": "2026-06-01",
-          "sentiment_score": 0.0258
         }
       ],
       "sparkline": [
-        0.16,
         0.15,
         0.18,
         0.18,
@@ -100,7 +99,8 @@
         0.25,
         0.4,
         0.34,
-        0.34
+        0.34,
+        0.32
       ]
     },
     {
@@ -132,18 +132,18 @@
       },
       "top_headlines": [
         {
-          "title": "Return to Office policy black- and whitelist.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-06-02",
-          "sentiment_score": 0.8271
-        },
-        {
           "title": "PowerPoint Presentation Tips and Examples",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/powerpoint/",
           "date": "2026-06-02",
           "sentiment_score": 0.6369
+        },
+        {
+          "title": "Return to Office policy black- and whitelist.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/ReturntoOffice/",
+          "date": "2026-06-02",
+          "sentiment_score": 0.8271
         },
         {
           "title": "/r/Technology",
@@ -153,22 +153,21 @@
           "sentiment_score": 0.6249
         },
         {
-          "title": "Nvidia Challenges Apple Silicon with New RTX Spark PC Chip",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48355182",
-          "date": "2026-06-01",
-          "sentiment_score": 0.296
-        },
-        {
           "title": "Nvidia RTX Spark",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=48352939",
           "date": "2026-06-01",
           "sentiment_score": 0.2263
+        },
+        {
+          "title": "(Selling) 4K Codes \u2013 Prices Firm | 2/$6, 2/$8, 2/$10, 2/$12 | Bundles & New Releases | HD in Separate Post | PPFF/CashApp/Venmo |",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/DigitalCodeSELL/comments/1trp4bm/selling_4k_codes_prices_firm_26_28_210_212/",
+          "date": "2026-05-30",
+          "sentiment_score": 1.0
         }
       ],
       "sparkline": [
-        0.19,
         0.28,
         0.28,
         0.19,
@@ -196,6 +195,7 @@
         0.29,
         0.29,
         0.29,
+        0.3,
         0.3,
         0.3
       ]
@@ -229,18 +229,18 @@
       },
       "top_headlines": [
         {
-          "title": "Return to Office policy black- and whitelist.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-06-02",
-          "sentiment_score": 0.8271
-        },
-        {
           "title": "PowerPoint Presentation Tips and Examples",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/powerpoint/",
           "date": "2026-06-02",
           "sentiment_score": 0.6369
+        },
+        {
+          "title": "Return to Office policy black- and whitelist.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/ReturntoOffice/",
+          "date": "2026-06-02",
+          "sentiment_score": 0.8271
         },
         {
           "title": "Antiwork: Unemployment for all, not just the rich!",
@@ -265,7 +265,6 @@
         }
       ],
       "sparkline": [
-        0.26,
         0.26,
         0.26,
         0.22,
@@ -293,6 +292,7 @@
         0.32,
         0.32,
         0.29,
+        0.25,
         0.25,
         0.25
       ]
@@ -362,7 +362,6 @@
         }
       ],
       "sparkline": [
-        0.21,
         0.22,
         0.22,
         0.25,
@@ -391,15 +390,16 @@
         0.37,
         0.47,
         0.46,
+        0.46,
         0.46
       ]
     },
     {
       "name": "Microsoft",
       "sentiment": {
-        "overall_score": 0.46,
-        "trend": "stable",
-        "previous_score": 0.45,
+        "overall_score": 0.35,
+        "trend": "declining",
+        "previous_score": 0.46,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -408,11 +408,11 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.05,
+            "score": -0.09,
             "count": 15
           },
           "reddit": {
-            "score": 0.76,
+            "score": 0.61,
             "count": 15
           },
           "gdelt": {
@@ -430,11 +430,11 @@
           "sentiment_score": 0.4019
         },
         {
-          "title": "Return to Office policy black- and whitelist.",
+          "title": "Microsoft",
           "source": "Reddit",
-          "url": "https://www.reddit.com/r/ReturntoOffice/",
+          "url": "https://www.reddit.com/r/microsoft/",
           "date": "2026-06-02",
-          "sentiment_score": 0.8271
+          "sentiment_score": 0.4588
         },
         {
           "title": "/r/Technology",
@@ -444,22 +444,21 @@
           "sentiment_score": 0.6249
         },
         {
-          "title": "Nvidia and Microsoft Reinvent Windows PCs for the Age of Personal AI",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48352705",
-          "date": "2026-06-01",
-          "sentiment_score": 0.0
+          "title": "Fallout 76: Infestations Release Notes",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/fo76/comments/1tus4in/fallout_76_infestations_release_notes/",
+          "date": "2026-06-02",
+          "sentiment_score": -0.996
         },
         {
-          "title": "Nvidia RTX Spark Laptops",
+          "title": "Microsoft Dev Box moved into maintenance mode",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48357233",
+          "url": "https://news.ycombinator.com/item?id=48361411",
           "date": "2026-06-01",
-          "sentiment_score": 0.2263
+          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.38,
         0.37,
         0.36,
         0.38,
@@ -488,7 +487,8 @@
         0.39,
         0.44,
         0.45,
-        0.46
+        0.46,
+        0.35
       ]
     },
     {
@@ -585,7 +585,6 @@
         0,
         0,
         0,
-        0,
         0.0,
         0,
         0,
@@ -593,6 +592,7 @@
         0.0,
         0.0,
         0.0,
+        0,
         0,
         0,
         0,
@@ -645,7 +645,6 @@
         0.0,
         0.0,
         0.0,
-        0.0,
         0,
         0,
         0,
@@ -666,6 +665,7 @@
         0,
         0,
         0.0,
+        0,
         0,
         0,
         0,
@@ -677,19 +677,19 @@
     {
       "name": "Salesforce",
       "sentiment": {
-        "overall_score": 0.44,
+        "overall_score": 0.47,
         "trend": "stable",
         "previous_score": 0.44,
         "confidence": "high",
-        "sample_size": 20,
+        "sample_size": 19,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.02,
-            "count": 5
+            "score": 0.05,
+            "count": 4
           },
           "reddit": {
             "score": 0.72,
@@ -702,6 +702,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Salesforce Signs Definitive Agreement to Acquire Contentful",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48366420",
+          "date": "2026-06-02",
+          "sentiment_score": 0.4939
+        },
         {
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
@@ -724,13 +731,6 @@
           "sentiment_score": -0.4723
         },
         {
-          "title": "Salesforce Signs Definitive Agreement to Acquire Contentful",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48356192",
-          "date": "2026-06-01",
-          "sentiment_score": 0.4939
-        },
-        {
           "title": "Remote Job - UpGuard - Marketing Analytics Lead",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/jobhuntify/comments/1tu2h02/remote_job_upguard_marketing_analytics_lead/",
@@ -739,7 +739,6 @@
         }
       ],
       "sparkline": [
-        0.51,
         0.51,
         0.51,
         0.51,
@@ -768,15 +767,16 @@
         0.42,
         0.4,
         0.44,
-        0.44
+        0.44,
+        0.47
       ]
     },
     {
       "name": "AT&T",
       "sentiment": {
-        "overall_score": -0.02,
+        "overall_score": 0.02,
         "trend": "stable",
-        "previous_score": -0.04,
+        "previous_score": -0.02,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -789,7 +789,7 @@
             "count": 15
           },
           "reddit": {
-            "score": 0.02,
+            "score": 0.09,
             "count": 15
           },
           "gdelt": {
@@ -814,13 +814,6 @@
           "sentiment_score": 0.6229
         },
         {
-          "title": "Police bodycam of the moment a woman who killed stepdaughter almost 50 years ago is arrested at Heathrow",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/interestingasfuck/comments/1tqzeyd/police_bodycam_of_the_moment_a_woman_who_killed/",
-          "date": "2026-05-29",
-          "sentiment_score": -0.9744
-        },
-        {
           "title": "Anthropic raises $65B in Series H funding at $965B post-money valuation",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=48313048",
@@ -833,10 +826,16 @@
           "url": "https://www.reddit.com/r/news/comments/1tp3zne/lawyer_says_tourist_accused_of_hurling_rock_at/",
           "date": "2026-05-27",
           "sentiment_score": -0.6369
+        },
+        {
+          "title": "What\u2019s something attractive at 18 but embarrassing at 30?",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/AskReddit/comments/1tkzgwx/whats_something_attractive_at_18_but_embarrassing/",
+          "date": "2026-05-22",
+          "sentiment_score": -0.3506
         }
       ],
       "sparkline": [
-        0.11,
         0.12,
         0.12,
         0.12,
@@ -865,7 +864,8 @@
         -0.05,
         -0.05,
         -0.04,
-        -0.02
+        -0.02,
+        0.02
       ]
     },
     {
@@ -897,18 +897,18 @@
       },
       "top_headlines": [
         {
-          "title": "Return to Office policy black- and whitelist.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-06-02",
-          "sentiment_score": 0.8271
-        },
-        {
           "title": "The Book of Boba Fett",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/BookOfBobaFett/",
           "date": "2026-06-02",
           "sentiment_score": -0.5848
+        },
+        {
+          "title": "Return to Office policy black- and whitelist.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/ReturntoOffice/",
+          "date": "2026-06-02",
+          "sentiment_score": 0.8271
         },
         {
           "title": "Box Office - The Business of Movies",
@@ -935,7 +935,6 @@
       "sparkline": [
         -0.04,
         -0.04,
-        -0.04,
         0.05,
         0.05,
         0.05,
@@ -960,6 +959,7 @@
         0.22,
         0.22,
         0.22,
+        0.31,
         0.31,
         0.31,
         0.31
@@ -968,9 +968,9 @@
     {
       "name": "Dell",
       "sentiment": {
-        "overall_score": 0.27,
-        "trend": "declining",
-        "previous_score": 0.35,
+        "overall_score": 0.34,
+        "trend": "improving",
+        "previous_score": 0.27,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -979,11 +979,11 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.04,
+            "score": -0.08,
             "count": 15
           },
           "reddit": {
-            "score": 0.45,
+            "score": 0.59,
             "count": 15
           },
           "gdelt": {
@@ -993,6 +993,20 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Ask HN: ZealPHP \u2013 Dangers Isolating Request-State in Coroutines?",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48371722",
+          "date": "2026-06-02",
+          "sentiment_score": -0.4939
+        },
+        {
+          "title": "US Department of Energy will give weapons-grade plutonium to energy companies",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48372488",
+          "date": "2026-06-02",
+          "sentiment_score": 0.4939
+        },
         {
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
@@ -1013,24 +1027,9 @@
           "url": "https://www.reddit.com/r/antiwork/",
           "date": "2026-06-02",
           "sentiment_score": -0.3434
-        },
-        {
-          "title": "Nvidia jumps into PCs with new chip debuting in laptops from Microsoft, Dell, HP",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48352820",
-          "date": "2026-06-01",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "FCA's Palantir deal could expose UK financial data to Trump's US, critics fear",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48354120",
-          "date": "2026-06-01",
-          "sentiment_score": -0.7184
         }
       ],
       "sparkline": [
-        0.22,
         0.23,
         0.22,
         0.2,
@@ -1059,28 +1058,29 @@
         0.33,
         0.34,
         0.35,
-        0.27
+        0.27,
+        0.34
       ]
     },
     {
       "name": "Tesla",
       "sentiment": {
-        "overall_score": 0.53,
-        "trend": "improving",
-        "previous_score": 0.44,
+        "overall_score": 0.47,
+        "trend": "declining",
+        "previous_score": 0.53,
         "confidence": "high",
-        "sample_size": 24,
+        "sample_size": 23,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.02,
-            "count": 9
+            "score": 0.04,
+            "count": 8
           },
           "reddit": {
-            "score": 0.86,
+            "score": 0.73,
             "count": 15
           },
           "gdelt": {
@@ -1112,22 +1112,21 @@
           "sentiment_score": -0.3434
         },
         {
+          "title": "Fallout 76: Infestations Release Notes",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/fo76/comments/1tus4in/fallout_76_infestations_release_notes/",
+          "date": "2026-06-02",
+          "sentiment_score": -0.996
+        },
+        {
           "title": "How I Converted to an EV & 3,000 Miles of the Cheapest Polestar 2 in the Country",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/cars/comments/1tubvxr/how_i_converted_to_an_ev_3000_miles_of_the/",
           "date": "2026-06-02",
           "sentiment_score": 0.9984
-        },
-        {
-          "title": "Breaking Down Bates",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/BringingUpBates/comments/1tu7o47/breaking_down_bates/",
-          "date": "2026-06-01",
-          "sentiment_score": 0.9993
         }
       ],
       "sparkline": [
-        0.22,
         0.24,
         0.24,
         0.24,
@@ -1156,7 +1155,8 @@
         0.22,
         0.36,
         0.44,
-        0.53
+        0.53,
+        0.47
       ]
     },
     {
@@ -1225,7 +1225,6 @@
       ],
       "sparkline": [
         0.14,
-        0.14,
         0.06,
         0.19,
         0.19,
@@ -1253,25 +1252,26 @@
         0.05,
         0.05,
         0.0,
+        0.0,
         0.0
       ]
     },
     {
       "name": "Cisco",
       "sentiment": {
-        "overall_score": 0.11,
+        "overall_score": 0.15,
         "trend": "stable",
         "previous_score": 0.11,
         "confidence": "high",
-        "sample_size": 14,
+        "sample_size": 15,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.0,
-            "count": 2
+            "score": 0.13,
+            "count": 3
           },
           "reddit": {
             "score": 0.17,
@@ -1284,6 +1284,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Cisco rolls out software tools to protect IT systems from AI agents",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48370220",
+          "date": "2026-06-02",
+          "sentiment_score": 0.3818
+        },
         {
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
@@ -1311,17 +1318,9 @@
           "url": "https://news.ycombinator.com/item?id=48342117",
           "date": "2026-05-31",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Apple Tree- a 3bhk Gated community flat Ready to move in.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/BangaloreRealEstates/comments/1trqwo4/apple_tree_a_3bhk_gated_community_flat_ready_to/",
-          "date": "2026-05-30",
-          "sentiment_score": 0.8802
         }
       ],
       "sparkline": [
-        0.54,
         0.18,
         0.3,
         0.2,
@@ -1350,7 +1349,8 @@
         0.11,
         0.11,
         0.11,
-        0.11
+        0.11,
+        0.15
       ]
     }
   ]
