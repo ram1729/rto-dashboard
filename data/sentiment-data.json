@@ -1,30 +1,30 @@
 {
-  "last_updated": "2026-06-04T04:11:51.807304Z",
+  "last_updated": "2026-06-04T15:23:40.743600Z",
   "scraper_log": {
-    "duration_sec": 212.62,
-    "total_articles": 302,
+    "duration_sec": 193.12,
+    "total_articles": 284,
     "errors": []
   },
   "companies": [
     {
       "name": "Amazon",
       "sentiment": {
-        "overall_score": 0.27,
-        "trend": "stable",
-        "previous_score": 0.28,
+        "overall_score": 0.34,
+        "trend": "improving",
+        "previous_score": 0.27,
         "confidence": "high",
-        "sample_size": 29,
+        "sample_size": 26,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.06,
-            "count": 14
+            "score": 0.13,
+            "count": 11
           },
           "reddit": {
-            "score": 0.4,
+            "score": 0.46,
             "count": 15
           },
           "gdelt": {
@@ -35,16 +35,30 @@
       },
       "top_headlines": [
         {
-          "title": "Look Up",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/superman/",
+          "title": "Amazon Ring's Familiar Faces \u2013 Perfect Privacy and Environmental Storm",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48396991",
+          "date": "2026-06-04",
+          "sentiment_score": 0.6597
+        },
+        {
+          "title": "How flat is replacing fat in AWS data center networks",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48399011",
           "date": "2026-06-04",
           "sentiment_score": 0.0
         },
         {
-          "title": "DC Animated Universe",
+          "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
-          "url": "https://www.reddit.com/r/DCAU/",
+          "url": "https://www.reddit.com/r/ReturntoOffice/",
+          "date": "2026-06-04",
+          "sentiment_score": 0.8271
+        },
+        {
+          "title": "Look Up",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/superman/",
           "date": "2026-06-04",
           "sentiment_score": 0.0
         },
@@ -54,24 +68,9 @@
           "url": "https://www.reddit.com/r/antiwork/",
           "date": "2026-06-04",
           "sentiment_score": -0.3434
-        },
-        {
-          "title": "ExtendDB \u2013 DynamoDB compatible adapter with pluggable storage back ends",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48385177",
-          "date": "2026-06-03",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "Looks like we\u2019ve officially lost Amazon call tag returns to USPS.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/UPSers/comments/1tva70m/looks_like_weve_officially_lost_amazon_call_tag/",
-          "date": "2026-06-03",
-          "sentiment_score": 0.4738
         }
       ],
       "sparkline": [
-        0.18,
         0.14,
         0.28,
         0.2,
@@ -100,15 +99,16 @@
         0.34,
         0.32,
         0.28,
-        0.27
+        0.27,
+        0.34
       ]
     },
     {
       "name": "Apple",
       "sentiment": {
-        "overall_score": 0.31,
+        "overall_score": 0.3,
         "trend": "stable",
-        "previous_score": 0.3,
+        "previous_score": 0.31,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -117,7 +117,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.11,
+            "score": 0.09,
             "count": 15
           },
           "reddit": {
@@ -132,11 +132,11 @@
       },
       "top_headlines": [
         {
-          "title": "PowerPoint Presentation Tips and Examples",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/powerpoint/",
+          "title": "Show HN: iPhone ANE holds LLM tok/s while MLX and LiteRT thermal-throttle",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48394262",
           "date": "2026-06-04",
-          "sentiment_score": 0.6369
+          "sentiment_score": 0.0
         },
         {
           "title": "Return to Office policy black- and whitelist.",
@@ -144,6 +144,13 @@
           "url": "https://www.reddit.com/r/ReturntoOffice/",
           "date": "2026-06-04",
           "sentiment_score": 0.8271
+        },
+        {
+          "title": "PowerPoint Presentation Tips and Examples",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/powerpoint/",
+          "date": "2026-06-04",
+          "sentiment_score": 0.6369
         },
         {
           "title": "/r/Technology",
@@ -158,17 +165,9 @@
           "url": "https://news.ycombinator.com/item?id=48352939",
           "date": "2026-06-01",
           "sentiment_score": 0.2263
-        },
-        {
-          "title": "(Selling) 4K Codes \u2013 Prices Firm | 2/$6, 2/$8, 2/$10, 2/$12 | Bundles & New Releases | HD in Separate Post | PPFF/CashApp/Venmo |",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/DigitalCodeSELL/comments/1trp4bm/selling_4k_codes_prices_firm_26_28_210_212/",
-          "date": "2026-05-30",
-          "sentiment_score": 1.0
         }
       ],
       "sparkline": [
-        0.19,
         0.2,
         0.2,
         0.29,
@@ -197,7 +196,8 @@
         0.3,
         0.3,
         0.3,
-        0.31
+        0.31,
+        0.3
       ]
     },
     {
@@ -205,7 +205,7 @@
       "sentiment": {
         "overall_score": 0.13,
         "trend": "stable",
-        "previous_score": 0.16,
+        "previous_score": 0.13,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -229,11 +229,11 @@
       },
       "top_headlines": [
         {
-          "title": "PowerPoint Presentation Tips and Examples",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/powerpoint/",
+          "title": "Companies Are Using Reddit to Manipulate ChatGPT and Google AI Search",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48395905",
           "date": "2026-06-04",
-          "sentiment_score": 0.6369
+          "sentiment_score": 0.0
         },
         {
           "title": "Return to Office policy black- and whitelist.",
@@ -241,6 +241,13 @@
           "url": "https://www.reddit.com/r/ReturntoOffice/",
           "date": "2026-06-04",
           "sentiment_score": 0.8271
+        },
+        {
+          "title": "PowerPoint Presentation Tips and Examples",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/powerpoint/",
+          "date": "2026-06-04",
+          "sentiment_score": 0.6369
         },
         {
           "title": "Antiwork: Unemployment for all, not just the rich!",
@@ -255,17 +262,9 @@
           "url": "https://www.reddit.com/r/WFH/comments/1tw902r/lansing_city_employees_to_return_to_office/",
           "date": "2026-06-04",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Show HN: Easy Server Side Tracking, Server-Side GTM for WordPress",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48383613",
-          "date": "2026-06-03",
-          "sentiment_score": 0.4404
         }
       ],
       "sparkline": [
-        0.22,
         0.22,
         0.32,
         0.31,
@@ -294,6 +293,7 @@
         0.25,
         0.25,
         0.16,
+        0.13,
         0.13
       ]
     },
@@ -301,8 +301,8 @@
       "name": "Meta",
       "sentiment": {
         "overall_score": 0.37,
-        "trend": "declining",
-        "previous_score": 0.46,
+        "trend": "stable",
+        "previous_score": 0.37,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -362,7 +362,6 @@
         }
       ],
       "sparkline": [
-        0.25,
         0.21,
         0.22,
         0.21,
@@ -391,29 +390,30 @@
         0.46,
         0.46,
         0.46,
+        0.37,
         0.37
       ]
     },
     {
       "name": "Microsoft",
       "sentiment": {
-        "overall_score": 0.31,
-        "trend": "declining",
-        "previous_score": 0.36,
+        "overall_score": 0.37,
+        "trend": "improving",
+        "previous_score": 0.31,
         "confidence": "high",
-        "sample_size": 30,
+        "sample_size": 18,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.01,
+            "score": -0.04,
             "count": 15
           },
           "reddit": {
-            "score": 0.5,
-            "count": 15
+            "score": 0.62,
+            "count": 3
           },
           "gdelt": {
             "score": 0,
@@ -423,6 +423,13 @@
       },
       "top_headlines": [
         {
+          "title": "A discovery about GCC's unidirectional rotation algorithm",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48394587",
+          "date": "2026-06-04",
+          "sentiment_score": 0.0
+        },
+        {
           "title": "Microsoft Office 365: We all work together.",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/Office365/",
@@ -430,11 +437,11 @@
           "sentiment_score": 0.4019
         },
         {
-          "title": "Microsoft",
+          "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
-          "url": "https://www.reddit.com/r/microsoft/",
+          "url": "https://www.reddit.com/r/ReturntoOffice/",
           "date": "2026-06-04",
-          "sentiment_score": 0.4588
+          "sentiment_score": 0.8271
         },
         {
           "title": "/r/Technology",
@@ -444,22 +451,14 @@
           "sentiment_score": 0.6249
         },
         {
-          "title": "Nvidia RTX Spark",
+          "title": "Surface RTX Spark Dev Box",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48380800",
-          "date": "2026-06-03",
+          "url": "https://news.ycombinator.com/item?id=48372811",
+          "date": "2026-06-02",
           "sentiment_score": 0.2263
-        },
-        {
-          "title": "So, I just ordered a new PC",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/pcmasterrace/comments/1tvzjyc/so_i_just_ordered_a_new_pc/",
-          "date": "2026-06-03",
-          "sentiment_score": 0.9388
         }
       ],
       "sparkline": [
-        0.38,
         0.37,
         0.29,
         0.31,
@@ -488,7 +487,8 @@
         0.46,
         0.35,
         0.36,
-        0.31
+        0.31,
+        0.37
       ]
     },
     {
@@ -582,7 +582,6 @@
       "top_headlines": [],
       "sparkline": [
         0,
-        0,
         0.0,
         0,
         0,
@@ -590,6 +589,7 @@
         0.0,
         0.0,
         0.0,
+        0,
         0,
         0,
         0,
@@ -642,7 +642,6 @@
       },
       "top_headlines": [],
       "sparkline": [
-        0.0,
         0,
         0,
         0,
@@ -663,6 +662,7 @@
         0,
         0,
         0.0,
+        0,
         0,
         0,
         0,
@@ -677,19 +677,19 @@
     {
       "name": "Salesforce",
       "sentiment": {
-        "overall_score": 0.47,
-        "trend": "stable",
+        "overall_score": 0.39,
+        "trend": "declining",
         "previous_score": 0.47,
         "confidence": "high",
-        "sample_size": 19,
+        "sample_size": 17,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.05,
-            "count": 4
+            "score": -0.15,
+            "count": 2
           },
           "reddit": {
             "score": 0.72,
@@ -724,11 +724,11 @@
           "sentiment_score": -0.4723
         },
         {
-          "title": "Salesforce Signs Definitive Agreement to Acquire Contentful",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48366420",
-          "date": "2026-06-02",
-          "sentiment_score": 0.4939
+          "title": "How to secure your firebase app?",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/Firebase/comments/1twdpti/how_to_secure_your_firebase_app/",
+          "date": "2026-06-04",
+          "sentiment_score": 0.9944
         },
         {
           "title": "Remote Job - UpGuard - Marketing Analytics Lead",
@@ -739,7 +739,6 @@
         }
       ],
       "sparkline": [
-        0.51,
         0.51,
         0.43,
         0.43,
@@ -768,15 +767,16 @@
         0.44,
         0.47,
         0.47,
-        0.47
+        0.47,
+        0.39
       ]
     },
     {
       "name": "AT&T",
       "sentiment": {
-        "overall_score": -0.06,
-        "trend": "stable",
-        "previous_score": -0.02,
+        "overall_score": 0.01,
+        "trend": "improving",
+        "previous_score": -0.06,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -785,11 +785,11 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.11,
+            "score": -0.12,
             "count": 15
           },
           "reddit": {
-            "score": -0.03,
+            "score": 0.09,
             "count": 15
           },
           "gdelt": {
@@ -799,6 +799,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "U.S. to dismantle system tracking Atlantic currents that are at risk of collapse",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48392232",
+          "date": "2026-06-04",
+          "sentiment_score": -0.6486
+        },
         {
           "title": "Meta workers can opt out of being tracked at work up to 30 min",
           "source": "Hacker News",
@@ -826,17 +833,9 @@
           "url": "https://www.reddit.com/r/SipsTea/comments/1ttbbp3/at_some_point_we_owe_cubicles_an_apology/",
           "date": "2026-05-31",
           "sentiment_score": 0.6229
-        },
-        {
-          "title": "Proposed new US funding rules: We can cancel any grant at any time",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48335135",
-          "date": "2026-05-30",
-          "sentiment_score": 0.128
         }
       ],
       "sparkline": [
-        0.12,
         0.12,
         0.12,
         0.12,
@@ -865,7 +864,8 @@
         -0.02,
         0.02,
         -0.02,
-        -0.06
+        -0.06,
+        0.01
       ]
     },
     {
@@ -897,18 +897,18 @@
       },
       "top_headlines": [
         {
-          "title": "The Book of Boba Fett",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/BookOfBobaFett/",
-          "date": "2026-06-04",
-          "sentiment_score": -0.5848
-        },
-        {
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/ReturntoOffice/",
           "date": "2026-06-04",
           "sentiment_score": 0.8271
+        },
+        {
+          "title": "The Book of Boba Fett",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/BookOfBobaFett/",
+          "date": "2026-06-04",
+          "sentiment_score": -0.5848
         },
         {
           "title": "Box Office - The Business of Movies",
@@ -935,7 +935,6 @@
       "sparkline": [
         0.05,
         0.05,
-        0.05,
         0.12,
         0.12,
         0.12,
@@ -957,6 +956,7 @@
         0.22,
         0.22,
         0.22,
+        0.31,
         0.31,
         0.31,
         0.31,
@@ -968,9 +968,9 @@
     {
       "name": "Dell",
       "sentiment": {
-        "overall_score": 0.24,
+        "overall_score": 0.26,
         "trend": "stable",
-        "previous_score": 0.25,
+        "previous_score": 0.24,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -979,7 +979,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.12,
+            "score": -0.08,
             "count": 15
           },
           "reddit": {
@@ -1015,22 +1015,21 @@
           "sentiment_score": -0.3434
         },
         {
+          "title": "October Sky pt2",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/teenagers/comments/1tweqru/october_sky_pt2/",
+          "date": "2026-06-04",
+          "sentiment_score": 0.9998
+        },
+        {
           "title": "Dell inks $9.7B Pentagon contract after Trump acquires stock",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=48383625",
           "date": "2026-06-03",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Every terrible thing the Trump administration did in May 2026",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/Keep_Track/comments/1tvm9i7/every_terrible_thing_the_trump_administration_did/",
-          "date": "2026-06-03",
-          "sentiment_score": -0.9995
         }
       ],
       "sparkline": [
-        0.2,
         0.15,
         0.21,
         0.25,
@@ -1059,7 +1058,8 @@
         0.27,
         0.34,
         0.25,
-        0.24
+        0.24,
+        0.26
       ]
     },
     {
@@ -1069,15 +1069,15 @@
         "trend": "stable",
         "previous_score": 0.45,
         "confidence": "high",
-        "sample_size": 26,
+        "sample_size": 25,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.0,
-            "count": 11
+            "score": -0.01,
+            "count": 10
           },
           "reddit": {
             "score": 0.73,
@@ -1127,7 +1127,6 @@
         }
       ],
       "sparkline": [
-        0.24,
         0.22,
         0.3,
         0.29,
@@ -1155,6 +1154,7 @@
         0.44,
         0.53,
         0.47,
+        0.45,
         0.45,
         0.45
       ]
@@ -1225,7 +1225,6 @@
       ],
       "sparkline": [
         0.19,
-        0.19,
         0.28,
         0.28,
         0.2,
@@ -1253,6 +1252,7 @@
         0.0,
         0.0,
         0.0,
+        0.0,
         0.0
       ]
     },
@@ -1260,8 +1260,8 @@
       "name": "Cisco",
       "sentiment": {
         "overall_score": 0.06,
-        "trend": "declining",
-        "previous_score": 0.15,
+        "trend": "stable",
+        "previous_score": 0.06,
         "confidence": "high",
         "sample_size": 17,
         "source_scores": {
@@ -1321,7 +1321,6 @@
         }
       ],
       "sparkline": [
-        0.2,
         0.47,
         0.29,
         0.01,
@@ -1350,6 +1349,7 @@
         0.11,
         0.15,
         0.15,
+        0.06,
         0.06
       ]
     }
