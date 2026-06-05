@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-06-05T03:56:48.081227Z",
+  "last_updated": "2026-06-05T14:59:43.373555Z",
   "scraper_log": {
-    "duration_sec": 175.42,
-    "total_articles": 299,
+    "duration_sec": 163.5,
+    "total_articles": 304,
     "errors": []
   },
   "companies": [
@@ -13,7 +13,7 @@
         "trend": "stable",
         "previous_score": 0.34,
         "confidence": "high",
-        "sample_size": 28,
+        "sample_size": 29,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -21,7 +21,7 @@
           },
           "hackernews": {
             "score": 0.14,
-            "count": 13
+            "count": 14
           },
           "reddit": {
             "score": 0.46,
@@ -34,6 +34,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Show HN: Browse PC Parts on Amazon.com without distractions",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48411076",
+          "date": "2026-06-05",
+          "sentiment_score": 0.1877
+        },
         {
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
@@ -61,17 +68,9 @@
           "url": "https://news.ycombinator.com/item?id=48400082",
           "date": "2026-06-04",
           "sentiment_score": 0.1779
-        },
-        {
-          "title": "Amazon Ring's Familiar Faces \u2013 Perfect Privacy and Environmental Storm",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48396991",
-          "date": "2026-06-04",
-          "sentiment_score": 0.6597
         }
       ],
       "sparkline": [
-        0.28,
         0.2,
         0.41,
         0.41,
@@ -100,6 +99,7 @@
         0.28,
         0.27,
         0.34,
+        0.34,
         0.34
       ]
     },
@@ -107,8 +107,8 @@
       "name": "Apple",
       "sentiment": {
         "overall_score": 0.39,
-        "trend": "improving",
-        "previous_score": 0.3,
+        "trend": "stable",
+        "previous_score": 0.39,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -153,22 +153,21 @@
           "sentiment_score": 0.6249
         },
         {
+          "title": "Lots of information in a small space (Neil Sean's gossip)",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/SaintMeghanMarkle/comments/1tx7kgj/lots_of_information_in_a_small_space_neil_seans/",
+          "date": "2026-06-05",
+          "sentiment_score": 0.9962
+        },
+        {
           "title": "Show HN: iPhone ANE holds LLM tok/s while MLX and LiteRT thermal-throttle",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=48394262",
           "date": "2026-06-04",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Show HN: Kyu Launcher \u2013 Roku Interface on Your Android and Google TV",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48400305",
-          "date": "2026-06-04",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.2,
         0.29,
         0.29,
         0.38,
@@ -197,13 +196,14 @@
         0.3,
         0.31,
         0.3,
+        0.39,
         0.39
       ]
     },
     {
       "name": "Google",
       "sentiment": {
-        "overall_score": 0.13,
+        "overall_score": 0.12,
         "trend": "stable",
         "previous_score": 0.13,
         "confidence": "high",
@@ -214,7 +214,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.04,
+            "score": 0.02,
             "count": 15
           },
           "reddit": {
@@ -228,6 +228,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Bit Rot Doesn't Always Increase Entropy",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48409916",
+          "date": "2026-06-05",
+          "sentiment_score": -0.2411
+        },
         {
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
@@ -255,17 +262,9 @@
           "url": "https://news.ycombinator.com/item?id=48400305",
           "date": "2026-06-04",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Companies Are Using Reddit to Manipulate ChatGPT and Google AI Search",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48395905",
-          "date": "2026-06-04",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.32,
         0.31,
         0.31,
         0.31,
@@ -294,7 +293,8 @@
         0.16,
         0.13,
         0.13,
-        0.13
+        0.13,
+        0.12
       ]
     },
     {
@@ -362,7 +362,6 @@
         }
       ],
       "sparkline": [
-        0.22,
         0.21,
         0.21,
         0.3,
@@ -391,15 +390,16 @@
         0.46,
         0.37,
         0.37,
+        0.37,
         0.37
       ]
     },
     {
       "name": "Microsoft",
       "sentiment": {
-        "overall_score": 0.32,
+        "overall_score": 0.34,
         "trend": "stable",
-        "previous_score": 0.37,
+        "previous_score": 0.32,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -408,7 +408,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.01,
+            "score": 0.02,
             "count": 15
           },
           "reddit": {
@@ -451,15 +451,14 @@
           "sentiment_score": 0.0
         },
         {
-          "title": "So, I just ordered a new PC",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/pcmasterrace/comments/1tvzjyc/so_i_just_ordered_a_new_pc/",
+          "title": "Nvidia RTX Spark",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48380800",
           "date": "2026-06-03",
-          "sentiment_score": 0.9388
+          "sentiment_score": 0.2263
         }
       ],
       "sparkline": [
-        0.29,
         0.31,
         0.31,
         0.31,
@@ -488,7 +487,8 @@
         0.36,
         0.31,
         0.37,
-        0.32
+        0.32,
+        0.34
       ]
     },
     {
@@ -556,8 +556,8 @@
       "name": "Goldman Sachs",
       "sentiment": {
         "overall_score": 0.32,
-        "trend": "improving",
-        "previous_score": 0,
+        "trend": "stable",
+        "previous_score": 0.32,
         "confidence": "low",
         "sample_size": 1,
         "source_scores": {
@@ -589,7 +589,6 @@
         }
       ],
       "sparkline": [
-        0.0,
         0,
         0,
         0,
@@ -618,6 +617,7 @@
         0,
         0,
         0,
+        0.32,
         0.32
       ]
     },
@@ -657,7 +657,6 @@
         0,
         0,
         0,
-        0,
         0.0,
         0,
         0,
@@ -669,6 +668,7 @@
         0,
         0,
         0.0,
+        0,
         0,
         0,
         0,
@@ -685,19 +685,19 @@
     {
       "name": "Salesforce",
       "sentiment": {
-        "overall_score": 0.39,
+        "overall_score": 0.38,
         "trend": "stable",
         "previous_score": 0.39,
         "confidence": "high",
-        "sample_size": 17,
+        "sample_size": 18,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.15,
-            "count": 2
+            "score": -0.19,
+            "count": 3
           },
           "reddit": {
             "score": 0.72,
@@ -750,7 +750,6 @@
         0.43,
         0.43,
         0.43,
-        0.43,
         0.46,
         0.46,
         0.46,
@@ -776,15 +775,16 @@
         0.47,
         0.47,
         0.39,
-        0.39
+        0.39,
+        0.38
       ]
     },
     {
       "name": "AT&T",
       "sentiment": {
-        "overall_score": -0.07,
-        "trend": "declining",
-        "previous_score": 0.01,
+        "overall_score": -0.04,
+        "trend": "stable",
+        "previous_score": -0.07,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -793,11 +793,11 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.13,
+            "score": -0.09,
             "count": 15
           },
           "reddit": {
-            "score": -0.03,
+            "score": -0.01,
             "count": 15
           },
           "gdelt": {
@@ -845,7 +845,6 @@
       ],
       "sparkline": [
         0.12,
-        0.12,
         0.11,
         0.11,
         0.08,
@@ -873,7 +872,8 @@
         -0.02,
         -0.06,
         0.01,
-        -0.07
+        -0.07,
+        -0.04
       ]
     },
     {
@@ -941,7 +941,6 @@
         }
       ],
       "sparkline": [
-        0.05,
         0.12,
         0.12,
         0.12,
@@ -963,6 +962,7 @@
         0.22,
         0.22,
         0.22,
+        0.31,
         0.31,
         0.31,
         0.31,
@@ -978,7 +978,7 @@
       "sentiment": {
         "overall_score": 0.24,
         "trend": "stable",
-        "previous_score": 0.26,
+        "previous_score": 0.24,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -1038,7 +1038,6 @@
         }
       ],
       "sparkline": [
-        0.21,
         0.25,
         0.25,
         0.24,
@@ -1067,25 +1066,26 @@
         0.25,
         0.24,
         0.26,
+        0.24,
         0.24
       ]
     },
     {
       "name": "Tesla",
       "sentiment": {
-        "overall_score": 0.45,
+        "overall_score": 0.44,
         "trend": "stable",
         "previous_score": 0.45,
         "confidence": "high",
-        "sample_size": 25,
+        "sample_size": 27,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.01,
-            "count": 10
+            "score": -0.04,
+            "count": 12
           },
           "reddit": {
             "score": 0.73,
@@ -1135,7 +1135,6 @@
         }
       ],
       "sparkline": [
-        0.3,
         0.29,
         0.29,
         0.29,
@@ -1164,17 +1163,18 @@
         0.45,
         0.45,
         0.45,
-        0.45
+        0.45,
+        0.44
       ]
     },
     {
       "name": "Caterpillar",
       "sentiment": {
-        "overall_score": 0.0,
+        "overall_score": 0.05,
         "trend": "stable",
         "previous_score": 0.0,
         "confidence": "high",
-        "sample_size": 15,
+        "sample_size": 16,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -1185,8 +1185,8 @@
             "count": 1
           },
           "reddit": {
-            "score": 0.01,
-            "count": 14
+            "score": 0.07,
+            "count": 15
           },
           "gdelt": {
             "score": 0,
@@ -1217,22 +1217,21 @@
           "sentiment_score": -0.4723
         },
         {
+          "title": "Events for Fri 6/5 - Sun 6/7",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/Pensacola/comments/1tx9uqy/events_for_fri_65_sun_67/",
+          "date": "2026-06-05",
+          "sentiment_score": 1.0
+        },
+        {
           "title": "Full list of made-for-TV horror movies, primarily from the 1970s (plus a few from 1969 and the early \u201980s), based on comments on my original post",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/u_woodpile3/comments/1tts36n/full_list_of_madefortv_horror_movies_primarily/",
           "date": "2026-06-01",
           "sentiment_score": -0.9969
-        },
-        {
-          "title": "Can't keep my mind from the circling skies. Tongue-tied and twisted, just an earth-bound misfit, I. Part 2",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/Rocknocker/comments/1tq1mb1/cant_keep_my_mind_from_the_circling_skies/",
-          "date": "2026-05-28",
-          "sentiment_score": 0.9995
         }
       ],
       "sparkline": [
-        0.28,
         0.28,
         0.2,
         0.2,
@@ -1261,7 +1260,8 @@
         0.0,
         0.0,
         0.0,
-        0.0
+        0.0,
+        0.05
       ]
     },
     {
@@ -1329,7 +1329,6 @@
         }
       ],
       "sparkline": [
-        0.29,
         0.01,
         0.01,
         0.01,
@@ -1356,6 +1355,7 @@
         0.11,
         0.15,
         0.15,
+        0.06,
         0.06,
         0.06,
         0.06
