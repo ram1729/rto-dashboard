@@ -1,27 +1,27 @@
 {
-  "last_updated": "2026-06-06T03:39:32.682467Z",
+  "last_updated": "2026-06-06T13:50:45.698508Z",
   "scraper_log": {
-    "duration_sec": 187.01,
-    "total_articles": 304,
+    "duration_sec": 150.29,
+    "total_articles": 292,
     "errors": []
   },
   "companies": [
     {
       "name": "Amazon",
       "sentiment": {
-        "overall_score": 0.42,
-        "trend": "improving",
-        "previous_score": 0.34,
+        "overall_score": 0.39,
+        "trend": "stable",
+        "previous_score": 0.42,
         "confidence": "high",
-        "sample_size": 30,
+        "sample_size": 24,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.13,
-            "count": 15
+            "score": 0.07,
+            "count": 9
           },
           "reddit": {
             "score": 0.59,
@@ -56,22 +56,21 @@
           "sentiment_score": -0.3434
         },
         {
-          "title": "Amazon Employees Show Up to City Council Meetings, Demand Limits on Data Centers",
+          "title": "Ask HN: What is your (AI) dev tech stack / workflow?",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48416644",
+          "url": "https://news.ycombinator.com/item?id=48413629",
           "date": "2026-06-05",
-          "sentiment_score": 0.0516
+          "sentiment_score": 0.0
         },
         {
-          "title": "Show HN: Browse PC Parts on Amazon.com without distractions",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48411076",
-          "date": "2026-06-05",
-          "sentiment_score": 0.1877
+          "title": "Looks like we\u2019ve officially lost Amazon call tag returns to USPS.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/UPSers/comments/1tva70m/looks_like_weve_officially_lost_amazon_call_tag/",
+          "date": "2026-06-03",
+          "sentiment_score": 0.4738
         }
       ],
       "sparkline": [
-        0.41,
         0.41,
         0.43,
         0.42,
@@ -100,15 +99,16 @@
         0.34,
         0.34,
         0.34,
-        0.42
+        0.42,
+        0.39
       ]
     },
     {
       "name": "Apple",
       "sentiment": {
-        "overall_score": 0.38,
+        "overall_score": 0.34,
         "trend": "stable",
-        "previous_score": 0.39,
+        "previous_score": 0.38,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -121,7 +121,7 @@
             "count": 15
           },
           "reddit": {
-            "score": 0.55,
+            "score": 0.49,
             "count": 15
           },
           "gdelt": {
@@ -146,11 +146,11 @@
           "sentiment_score": 0.6369
         },
         {
-          "title": "/r/Technology",
+          "title": "Antiwork: Unemployment for all, not just the rich!",
           "source": "Reddit",
-          "url": "https://www.reddit.com/r/technology/",
+          "url": "https://www.reddit.com/r/antiwork/",
           "date": "2026-06-06",
-          "sentiment_score": 0.6249
+          "sentiment_score": -0.3434
         },
         {
           "title": "Lots of information in a small space (Neil Sean's gossip)",
@@ -168,7 +168,6 @@
         }
       ],
       "sparkline": [
-        0.29,
         0.38,
         0.37,
         0.45,
@@ -197,7 +196,8 @@
         0.3,
         0.39,
         0.39,
-        0.38
+        0.38,
+        0.34
       ]
     },
     {
@@ -266,7 +266,6 @@
       ],
       "sparkline": [
         0.31,
-        0.31,
         0.23,
         0.4,
         0.4,
@@ -293,6 +292,7 @@
         0.13,
         0.13,
         0.13,
+        0.12,
         0.12,
         0.12
       ]
@@ -362,7 +362,6 @@
         }
       ],
       "sparkline": [
-        0.21,
         0.3,
         0.29,
         0.29,
@@ -391,13 +390,14 @@
         0.37,
         0.37,
         0.37,
+        0.37,
         0.37
       ]
     },
     {
       "name": "Microsoft",
       "sentiment": {
-        "overall_score": 0.34,
+        "overall_score": 0.32,
         "trend": "stable",
         "previous_score": 0.34,
         "confidence": "high",
@@ -408,7 +408,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.02,
+            "score": -0.02,
             "count": 15
           },
           "reddit": {
@@ -451,15 +451,14 @@
           "sentiment_score": 0.0
         },
         {
-          "title": "Nvidia RTX Spark",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48380800",
+          "title": "So, I just ordered a new PC",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/pcmasterrace/comments/1tvzjyc/so_i_just_ordered_a_new_pc/",
           "date": "2026-06-03",
-          "sentiment_score": 0.2263
+          "sentiment_score": 0.9388
         }
       ],
       "sparkline": [
-        0.31,
         0.31,
         0.23,
         0.31,
@@ -488,7 +487,8 @@
         0.37,
         0.32,
         0.34,
-        0.34
+        0.34,
+        0.32
       ]
     },
     {
@@ -555,19 +555,19 @@
     {
       "name": "Goldman Sachs",
       "sentiment": {
-        "overall_score": 0.32,
-        "trend": "stable",
+        "overall_score": 0,
+        "trend": "declining",
         "previous_score": 0.32,
         "confidence": "low",
-        "sample_size": 1,
+        "sample_size": 0,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.32,
-            "count": 1
+            "score": 0,
+            "count": 0
           },
           "reddit": {
             "score": 0,
@@ -579,18 +579,9 @@
           }
         }
       },
-      "top_headlines": [
-        {
-          "title": "Goldman Sachs expects SpaceX's AI revenue to increase 100-fold by 2030",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48401860",
-          "date": "2026-06-04",
-          "sentiment_score": 0.3182
-        }
-      ],
+      "top_headlines": [],
       "sparkline": [
         0,
-        0,
         0.0,
         0.0,
         0.0,
@@ -618,7 +609,8 @@
         0,
         0.32,
         0.32,
-        0.32
+        0.32,
+        0
       ]
     },
     {
@@ -655,7 +647,6 @@
         0,
         0,
         0,
-        0,
         0.0,
         0,
         0,
@@ -667,6 +658,7 @@
         0,
         0,
         0.0,
+        0,
         0,
         0,
         0,
@@ -685,19 +677,19 @@
     {
       "name": "Salesforce",
       "sentiment": {
-        "overall_score": 0.38,
+        "overall_score": 0.39,
         "trend": "stable",
         "previous_score": 0.38,
         "confidence": "high",
-        "sample_size": 18,
+        "sample_size": 17,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.19,
-            "count": 3
+            "score": -0.15,
+            "count": 2
           },
           "reddit": {
             "score": 0.72,
@@ -748,7 +740,6 @@
       ],
       "sparkline": [
         0.43,
-        0.43,
         0.46,
         0.46,
         0.46,
@@ -776,15 +767,16 @@
         0.39,
         0.39,
         0.38,
-        0.38
+        0.38,
+        0.39
       ]
     },
     {
       "name": "AT&T",
       "sentiment": {
-        "overall_score": -0.0,
+        "overall_score": 0.0,
         "trend": "stable",
-        "previous_score": -0.04,
+        "previous_score": -0.0,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -793,11 +785,11 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.09,
+            "score": -0.1,
             "count": 15
           },
           "reddit": {
-            "score": 0.05,
+            "score": 0.07,
             "count": 15
           },
           "gdelt": {
@@ -807,6 +799,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "How come Joe Biden was \"sleepy\", but Trump gets to pass out at all kinds of meetings?",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/allthequestions/comments/1txn3md/how_come_joe_biden_was_sleepy_but_trump_gets_to/",
+          "date": "2026-06-05",
+          "sentiment_score": 0.837
+        },
         {
           "title": "U.S. to dismantle system tracking Atlantic currents that are at risk of collapse",
           "source": "Hacker News",
@@ -829,13 +828,6 @@
           "sentiment_score": 0.0
         },
         {
-          "title": "The dad who let his kid use his phone at full brightness during a Weird Al concert",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1tvpmqf/the_dad_who_let_his_kid_use_his_phone_at_full/",
-          "date": "2026-06-03",
-          "sentiment_score": 0.5719
-        },
-        {
           "title": "Don't leave your car unattended at the airport.",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/VideosAmazing/comments/1turrju/dont_leave_your_car_unattended_at_the_airport/",
@@ -844,7 +836,6 @@
         }
       ],
       "sparkline": [
-        0.11,
         0.11,
         0.08,
         0.05,
@@ -873,15 +864,16 @@
         0.01,
         -0.07,
         -0.04,
-        -0.0
+        -0.0,
+        0.0
       ]
     },
     {
       "name": "Disney",
       "sentiment": {
         "overall_score": 0.16,
-        "trend": "declining",
-        "previous_score": 0.31,
+        "trend": "stable",
+        "previous_score": 0.16,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -949,7 +941,6 @@
         0.12,
         0.12,
         0.12,
-        0.12,
         0.21,
         0.21,
         0.15,
@@ -970,13 +961,14 @@
         0.31,
         0.31,
         0.31,
+        0.16,
         0.16
       ]
     },
     {
       "name": "Dell",
       "sentiment": {
-        "overall_score": 0.24,
+        "overall_score": 0.26,
         "trend": "stable",
         "previous_score": 0.24,
         "confidence": "high",
@@ -987,7 +979,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.11,
+            "score": -0.08,
             "count": 15
           },
           "reddit": {
@@ -1038,7 +1030,6 @@
         }
       ],
       "sparkline": [
-        0.25,
         0.24,
         0.24,
         0.23,
@@ -1067,25 +1058,26 @@
         0.26,
         0.24,
         0.24,
-        0.24
+        0.24,
+        0.26
       ]
     },
     {
       "name": "Tesla",
       "sentiment": {
-        "overall_score": 0.44,
+        "overall_score": 0.45,
         "trend": "stable",
         "previous_score": 0.44,
         "confidence": "high",
-        "sample_size": 27,
+        "sample_size": 23,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.04,
-            "count": 12
+            "score": -0.01,
+            "count": 8
           },
           "reddit": {
             "score": 0.73,
@@ -1120,22 +1112,21 @@
           "sentiment_score": -0.3434
         },
         {
-          "title": "Tesla retroactively added 'supervised' to FSD contracts owners signed years ago",
+          "title": "Tesla patents camera wiper for self-driving resulting in more doubts FSD owners",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48384810",
-          "date": "2026-06-03",
-          "sentiment_score": 0.0
+          "url": "https://news.ycombinator.com/item?id=48373526",
+          "date": "2026-06-02",
+          "sentiment_score": -0.3597
         },
         {
-          "title": "SpaceX's IPO is set to be the biggest ever: $75B",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48390059",
-          "date": "2026-06-03",
-          "sentiment_score": 0.0
+          "title": "Fallout 76: Infestations Release Notes",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/fo76/comments/1tus4in/fallout_76_infestations_release_notes/",
+          "date": "2026-06-02",
+          "sentiment_score": -0.996
         }
       ],
       "sparkline": [
-        0.29,
         0.29,
         0.29,
         0.11,
@@ -1164,14 +1155,15 @@
         0.45,
         0.45,
         0.44,
-        0.44
+        0.44,
+        0.45
       ]
     },
     {
       "name": "Caterpillar",
       "sentiment": {
-        "overall_score": 0.05,
-        "trend": "stable",
+        "overall_score": 0.12,
+        "trend": "improving",
         "previous_score": 0.05,
         "confidence": "high",
         "sample_size": 16,
@@ -1185,7 +1177,7 @@
             "count": 1
           },
           "reddit": {
-            "score": 0.07,
+            "score": 0.2,
             "count": 15
           },
           "gdelt": {
@@ -1217,22 +1209,21 @@
           "sentiment_score": -0.4723
         },
         {
+          "title": "NO SIMPLE HIGHWAY - A memoir- Coming soon to bookstores near you",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/BookPromotion/comments/1ty8p3z/no_simple_highway_a_memoir_coming_soon_to/",
+          "date": "2026-06-06",
+          "sentiment_score": 0.9792
+        },
+        {
           "title": "Events for Fri 6/5 - Sun 6/7",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/Pensacola/comments/1tx9uqy/events_for_fri_65_sun_67/",
           "date": "2026-06-05",
           "sentiment_score": 1.0
-        },
-        {
-          "title": "Full list of made-for-TV horror movies, primarily from the 1970s (plus a few from 1969 and the early \u201980s), based on comments on my original post",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/u_woodpile3/comments/1tts36n/full_list_of_madefortv_horror_movies_primarily/",
-          "date": "2026-06-01",
-          "sentiment_score": -0.9969
         }
       ],
       "sparkline": [
-        0.2,
         0.2,
         0.2,
         0.08,
@@ -1261,7 +1252,8 @@
         0.0,
         0.0,
         0.05,
-        0.05
+        0.05,
+        0.12
       ]
     },
     {
@@ -1334,7 +1326,6 @@
         0.01,
         0.01,
         0.01,
-        0.01,
         0.1,
         0.05,
         0.12,
@@ -1354,6 +1345,7 @@
         0.11,
         0.15,
         0.15,
+        0.06,
         0.06,
         0.06,
         0.06,
