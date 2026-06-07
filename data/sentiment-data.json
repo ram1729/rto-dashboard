@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-06-07T04:05:32.109165Z",
+  "last_updated": "2026-06-07T13:59:24.771129Z",
   "scraper_log": {
-    "duration_sec": 184.38,
+    "duration_sec": 106.89,
     "total_articles": 294,
     "errors": []
   },
@@ -71,7 +71,6 @@
         }
       ],
       "sparkline": [
-        0.43,
         0.42,
         0.43,
         0.42,
@@ -99,6 +98,7 @@
         0.34,
         0.34,
         0.42,
+        0.39,
         0.39,
         0.39
       ]
@@ -168,7 +168,6 @@
         }
       ],
       "sparkline": [
-        0.37,
         0.45,
         0.45,
         0.48,
@@ -197,6 +196,7 @@
         0.39,
         0.38,
         0.34,
+        0.34,
         0.34
       ]
     },
@@ -204,8 +204,8 @@
       "name": "Google",
       "sentiment": {
         "overall_score": 0.18,
-        "trend": "improving",
-        "previous_score": 0.12,
+        "trend": "stable",
+        "previous_score": 0.18,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -257,15 +257,14 @@
           "sentiment_score": 0.9996
         },
         {
-          "title": "Bit Rot Doesn't Always Increase Entropy",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48409916",
-          "date": "2026-06-05",
-          "sentiment_score": -0.2411
+          "title": "Day 11 of 28 days later. I will be doing 28 posts, each post will be one day. Starting from the first day of infection. It will focus on one character",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/28dayslater/comments/1tyanrz/day_11_of_28_days_later_i_will_be_doing_28_posts/",
+          "date": "2026-06-06",
+          "sentiment_score": -0.9994
         }
       ],
       "sparkline": [
-        0.23,
         0.4,
         0.4,
         0.4,
@@ -294,6 +293,7 @@
         0.12,
         0.12,
         0.12,
+        0.18,
         0.18
       ]
     },
@@ -301,8 +301,8 @@
       "name": "Meta",
       "sentiment": {
         "overall_score": 0.47,
-        "trend": "improving",
-        "previous_score": 0.37,
+        "trend": "stable",
+        "previous_score": 0.47,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -311,7 +311,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.02,
+            "score": -0.03,
             "count": 15
           },
           "reddit": {
@@ -325,6 +325,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Meta to give staff 30min breaks from keylogging",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48432479",
+          "date": "2026-06-07",
+          "sentiment_score": 0.0
+        },
         {
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
@@ -352,17 +359,9 @@
           "url": "https://news.ycombinator.com/item?id=48420519",
           "date": "2026-06-06",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Show HN: TuringLLM \u2013 a LLM-powered Universal Turing machine",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48416857",
-          "date": "2026-06-05",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.29,
         0.29,
         0.37,
         0.37,
@@ -391,6 +390,7 @@
         0.37,
         0.37,
         0.37,
+        0.47,
         0.47
       ]
     },
@@ -459,7 +459,6 @@
         }
       ],
       "sparkline": [
-        0.23,
         0.31,
         0.31,
         0.31,
@@ -487,6 +486,7 @@
         0.32,
         0.34,
         0.34,
+        0.32,
         0.32,
         0.32
       ]
@@ -583,7 +583,6 @@
       "sparkline": [
         0.0,
         0.0,
-        0.0,
         0,
         0,
         0,
@@ -609,6 +608,7 @@
         0.32,
         0.32,
         0.32,
+        0,
         0,
         0
       ]
@@ -645,7 +645,6 @@
         0,
         0,
         0,
-        0,
         0.0,
         0,
         0,
@@ -657,6 +656,7 @@
         0,
         0,
         0.0,
+        0,
         0,
         0,
         0,
@@ -679,7 +679,7 @@
       "sentiment": {
         "overall_score": 0.38,
         "trend": "stable",
-        "previous_score": 0.39,
+        "previous_score": 0.38,
         "confidence": "high",
         "sample_size": 18,
         "source_scores": {
@@ -743,7 +743,6 @@
         0.46,
         0.46,
         0.46,
-        0.46,
         0.44,
         0.44,
         0.44,
@@ -768,15 +767,16 @@
         0.38,
         0.38,
         0.39,
+        0.38,
         0.38
       ]
     },
     {
       "name": "AT&T",
       "sentiment": {
-        "overall_score": -0.0,
+        "overall_score": 0.01,
         "trend": "stable",
-        "previous_score": 0.0,
+        "previous_score": -0.0,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -785,7 +785,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.1,
+            "score": -0.07,
             "count": 15
           },
           "reddit": {
@@ -836,7 +836,6 @@
         }
       ],
       "sparkline": [
-        0.08,
         0.05,
         0.03,
         0.12,
@@ -865,15 +864,16 @@
         -0.04,
         -0.0,
         0.0,
-        -0.0
+        -0.0,
+        0.01
       ]
     },
     {
       "name": "Disney",
       "sentiment": {
         "overall_score": 0.03,
-        "trend": "declining",
-        "previous_score": 0.16,
+        "trend": "stable",
+        "previous_score": 0.03,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -939,7 +939,6 @@
         0.12,
         0.12,
         0.12,
-        0.12,
         0.21,
         0.21,
         0.15,
@@ -962,15 +961,16 @@
         0.31,
         0.16,
         0.16,
+        0.03,
         0.03
       ]
     },
     {
       "name": "Dell",
       "sentiment": {
-        "overall_score": 0.3,
+        "overall_score": 0.34,
         "trend": "stable",
-        "previous_score": 0.26,
+        "previous_score": 0.3,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -983,7 +983,7 @@
             "count": 15
           },
           "reddit": {
-            "score": 0.52,
+            "score": 0.59,
             "count": 15
           },
           "gdelt": {
@@ -1001,11 +1001,11 @@
           "sentiment_score": 0.8271
         },
         {
-          "title": "NoToRTOCa",
+          "title": "fullyremotework",
           "source": "Reddit",
-          "url": "https://www.reddit.com/r/NoToRTOCa/",
+          "url": "https://www.reddit.com/r/fullyremotework/",
           "date": "2026-06-07",
-          "sentiment_score": -0.4723
+          "sentiment_score": 0.5859
         },
         {
           "title": "Antiwork: Unemployment for all, not just the rich!",
@@ -1030,7 +1030,6 @@
         }
       ],
       "sparkline": [
-        0.24,
         0.23,
         0.23,
         0.25,
@@ -1059,7 +1058,8 @@
         0.24,
         0.24,
         0.26,
-        0.3
+        0.3,
+        0.34
       ]
     },
     {
@@ -1127,7 +1127,6 @@
         }
       ],
       "sparkline": [
-        0.29,
         0.11,
         0.11,
         0.09,
@@ -1156,6 +1155,7 @@
         0.44,
         0.44,
         0.45,
+        0.45,
         0.45
       ]
     },
@@ -1163,8 +1163,8 @@
       "name": "Caterpillar",
       "sentiment": {
         "overall_score": 0.2,
-        "trend": "improving",
-        "previous_score": 0.12,
+        "trend": "stable",
+        "previous_score": 0.2,
         "confidence": "high",
         "sample_size": 16,
         "source_scores": {
@@ -1224,7 +1224,6 @@
         }
       ],
       "sparkline": [
-        0.2,
         0.08,
         0.14,
         0.01,
@@ -1253,6 +1252,7 @@
         0.05,
         0.05,
         0.12,
+        0.2,
         0.2
       ]
     },
@@ -1324,7 +1324,6 @@
         0.01,
         0.01,
         0.01,
-        0.01,
         0.1,
         0.05,
         0.12,
@@ -1344,6 +1343,7 @@
         0.11,
         0.15,
         0.15,
+        0.06,
         0.06,
         0.06,
         0.06,
