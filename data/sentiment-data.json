@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-06-09T03:41:02.356688Z",
+  "last_updated": "2026-06-09T14:58:23.297594Z",
   "scraper_log": {
-    "duration_sec": 167.19,
-    "total_articles": 292,
+    "duration_sec": 139.05,
+    "total_articles": 293,
     "errors": []
   },
   "companies": [
@@ -71,7 +71,6 @@
         }
       ],
       "sparkline": [
-        0.44,
         0.45,
         0.44,
         0.44,
@@ -99,6 +98,7 @@
         0.39,
         0.39,
         0.39,
+        0.41,
         0.41,
         0.41
       ]
@@ -132,6 +132,13 @@
       },
       "top_headlines": [
         {
+          "title": "WWDC 2026: every Apple Wallet announcement",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48460121",
+          "date": "2026-06-09",
+          "sentiment_score": 0.0
+        },
+        {
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/ReturntoOffice/",
@@ -158,17 +165,9 @@
           "url": "https://www.reddit.com/r/SaintMeghanMarkle/comments/1tx7kgj/lots_of_information_in_a_small_space_neil_seans/",
           "date": "2026-06-05",
           "sentiment_score": 0.9962
-        },
-        {
-          "title": "Show HN: iPhone ANE holds LLM tok/s while MLX and LiteRT thermal-throttle",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48394262",
-          "date": "2026-06-04",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.47,
         0.47,
         0.47,
         0.47,
@@ -197,14 +196,15 @@
         0.34,
         0.34,
         0.34,
+        0.34,
         0.34
       ]
     },
     {
       "name": "Google",
       "sentiment": {
-        "overall_score": 0.1,
-        "trend": "stable",
+        "overall_score": 0.18,
+        "trend": "improving",
         "previous_score": 0.1,
         "confidence": "high",
         "sample_size": 30,
@@ -218,7 +218,7 @@
             "count": 15
           },
           "reddit": {
-            "score": 0.16,
+            "score": 0.29,
             "count": 15
           },
           "gdelt": {
@@ -250,22 +250,21 @@
           "sentiment_score": -0.3434
         },
         {
+          "title": "[New Update]: AIO - a little kid keeps coming into my house",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/BestofRedditorUpdates/comments/1u0ubuj/new_update_aio_a_little_kid_keeps_coming_into_my/",
+          "date": "2026-06-09",
+          "sentiment_score": 0.9891
+        },
+        {
           "title": "Travelling in China : my observations and some photos.",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/travel/comments/1tymi4w/travelling_in_china_my_observations_and_some/",
           "date": "2026-06-06",
           "sentiment_score": 0.9996
-        },
-        {
-          "title": "Day 11 of 28 days later. I will be doing 28 posts, each post will be one day. Starting from the first day of infection. It will focus on one character",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/28dayslater/comments/1tyanrz/day_11_of_28_days_later_i_will_be_doing_28_posts/",
-          "date": "2026-06-06",
-          "sentiment_score": -0.9994
         }
       ],
       "sparkline": [
-        0.4,
         0.4,
         0.38,
         0.38,
@@ -294,7 +293,8 @@
         0.18,
         0.1,
         0.1,
-        0.1
+        0.1,
+        0.18
       ]
     },
     {
@@ -302,7 +302,7 @@
       "sentiment": {
         "overall_score": 0.48,
         "trend": "stable",
-        "previous_score": 0.47,
+        "previous_score": 0.48,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -363,7 +363,6 @@
       ],
       "sparkline": [
         0.37,
-        0.37,
         0.31,
         0.31,
         0.31,
@@ -391,6 +390,7 @@
         0.47,
         0.47,
         0.47,
+        0.48,
         0.48
       ]
     },
@@ -460,7 +460,6 @@
       ],
       "sparkline": [
         0.32,
-        0.32,
         0.38,
         0.38,
         0.38,
@@ -487,6 +486,7 @@
         0.32,
         0.32,
         0.32,
+        0.34,
         0.34,
         0.34
       ]
@@ -601,10 +601,10 @@
         0,
         0,
         0,
+        0.32,
+        0.32,
+        0.32,
         0,
-        0.32,
-        0.32,
-        0.32,
         0,
         0,
         0,
@@ -642,7 +642,6 @@
       },
       "top_headlines": [],
       "sparkline": [
-        0.0,
         0,
         0,
         0,
@@ -653,6 +652,7 @@
         0,
         0,
         0.0,
+        0,
         0,
         0,
         0,
@@ -733,13 +733,12 @@
         {
           "title": "A Response to Bernie's AI Wealth Fund Plan",
           "source": "Reddit",
-          "url": "https://www.reddit.com/r/LeftistsForAI/comments/1tzel0d/a_response_to_bernies_ai_wealth_fund_plan/",
+          "url": "https://www.reddit.com/r/singularity/comments/1tyzqft/a_response_to_bernies_ai_wealth_fund_plan/",
           "date": "2026-06-07",
-          "sentiment_score": 0.9957
+          "sentiment_score": 0.9936
         }
       ],
       "sparkline": [
-        0.46,
         0.44,
         0.44,
         0.44,
@@ -768,14 +767,15 @@
         0.38,
         0.38,
         0.41,
+        0.41,
         0.41
       ]
     },
     {
       "name": "AT&T",
       "sentiment": {
-        "overall_score": -0.02,
-        "trend": "stable",
+        "overall_score": 0.04,
+        "trend": "improving",
         "previous_score": -0.02,
         "confidence": "high",
         "sample_size": 30,
@@ -785,11 +785,11 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.08,
+            "score": -0.11,
             "count": 15
           },
           "reddit": {
-            "score": 0.02,
+            "score": 0.13,
             "count": 15
           },
           "gdelt": {
@@ -807,36 +807,35 @@
           "sentiment_score": 0.0
         },
         {
+          "title": "Donald Trump Booed at Game 3 of the NBA Finals at MSG",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/sports/comments/1u0q5r8/donald_trump_booed_at_game_3_of_the_nba_finals_at/",
+          "date": "2026-06-09",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Switzerland wil have a referendum to cap population at 10M",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48450059",
+          "date": "2026-06-08",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "poster my boss hung up at work",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1u0loq2/poster_my_boss_hung_up_at_work/",
+          "date": "2026-06-08",
+          "sentiment_score": 0.0
+        },
+        {
           "title": "Iran fires missiles at northern Israel",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/worldnews/comments/1tzkynh/iran_fires_missiles_at_northern_israel/",
           "date": "2026-06-07",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "This pop up warning at an all you can eat sushi restaurant",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1tyt15y/this_pop_up_warning_at_an_all_you_can_eat_sushi/",
-          "date": "2026-06-06",
-          "sentiment_score": -0.7351
-        },
-        {
-          "title": "Google to pay SpaceX $920M a month for compute capacity at xAI data centers",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48417490",
-          "date": "2026-06-05",
-          "sentiment_score": -0.1027
-        },
-        {
-          "title": "How come Joe Biden was \"sleepy\", but Trump gets to pass out at all kinds of meetings?",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/allthequestions/comments/1txn3md/how_come_joe_biden_was_sleepy_but_trump_gets_to/",
-          "date": "2026-06-05",
-          "sentiment_score": 0.837
         }
       ],
       "sparkline": [
-        0.07,
         0.07,
         0.07,
         0.07,
@@ -865,7 +864,8 @@
         0.01,
         -0.03,
         -0.02,
-        -0.02
+        -0.02,
+        0.04
       ]
     },
     {
@@ -935,7 +935,6 @@
       "sparkline": [
         0.12,
         0.12,
-        0.12,
         0.21,
         0.21,
         0.15,
@@ -961,6 +960,7 @@
         0.03,
         0.03,
         -0.0,
+        -0.09,
         -0.09,
         -0.09
       ]
@@ -1030,7 +1030,6 @@
         }
       ],
       "sparkline": [
-        0.19,
         0.16,
         0.25,
         0.25,
@@ -1059,25 +1058,26 @@
         0.34,
         0.36,
         0.35,
+        0.35,
         0.35
       ]
     },
     {
       "name": "Tesla",
       "sentiment": {
-        "overall_score": 0.47,
+        "overall_score": 0.44,
         "trend": "stable",
         "previous_score": 0.47,
         "confidence": "high",
-        "sample_size": 22,
+        "sample_size": 23,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.03,
-            "count": 7
+            "score": -0.03,
+            "count": 8
           },
           "reddit": {
             "score": 0.73,
@@ -1127,7 +1127,6 @@
         }
       ],
       "sparkline": [
-        0.17,
         0.18,
         0.17,
         0.17,
@@ -1156,14 +1155,15 @@
         0.45,
         0.45,
         0.47,
-        0.47
+        0.47,
+        0.44
       ]
     },
     {
       "name": "Caterpillar",
       "sentiment": {
-        "overall_score": 0.12,
-        "trend": "stable",
+        "overall_score": 0.2,
+        "trend": "improving",
         "previous_score": 0.12,
         "confidence": "high",
         "sample_size": 16,
@@ -1177,7 +1177,7 @@
             "count": 1
           },
           "reddit": {
-            "score": 0.19,
+            "score": 0.32,
             "count": 15
           },
           "gdelt": {
@@ -1216,16 +1216,15 @@
           "sentiment_score": 0.9984
         },
         {
-          "title": "[HR] School's Out",
+          "title": "\ud83d\udd6f\ufe0f Horror Anthology Episodes of the Golden Age",
           "source": "Reddit",
-          "url": "https://www.reddit.com/r/shortstories/comments/1u04trk/hr_schools_out/",
-          "date": "2026-06-08",
-          "sentiment_score": -0.9999
+          "url": "https://www.reddit.com/r/u_woodpile3/comments/1tzrf8n/horror_anthology_episodes_of_the_golden_age/",
+          "date": "2026-06-07",
+          "sentiment_score": -0.999
         }
       ],
       "sparkline": [
         0.01,
-        0.01,
         0.09,
         0.09,
         0.09,
@@ -1253,7 +1252,8 @@
         0.2,
         0.2,
         0.12,
-        0.12
+        0.12,
+        0.2
       ]
     },
     {
@@ -1321,7 +1321,6 @@
         }
       ],
       "sparkline": [
-        0.1,
         0.05,
         0.12,
         0.12,
@@ -1349,6 +1348,7 @@
         0.06,
         0.06,
         0.06,
+        0.01,
         0.01,
         0.01
       ]
