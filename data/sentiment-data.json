@@ -1,27 +1,27 @@
 {
-  "last_updated": "2026-06-10T03:51:34.341874Z",
+  "last_updated": "2026-06-10T15:43:10.806015Z",
   "scraper_log": {
-    "duration_sec": 166.49,
-    "total_articles": 296,
+    "duration_sec": 183.65,
+    "total_articles": 293,
     "errors": []
   },
   "companies": [
     {
       "name": "Amazon",
       "sentiment": {
-        "overall_score": 0.41,
+        "overall_score": 0.42,
         "trend": "stable",
         "previous_score": 0.41,
         "confidence": "high",
-        "sample_size": 27,
+        "sample_size": 25,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.13,
-            "count": 12
+            "score": 0.16,
+            "count": 10
           },
           "reddit": {
             "score": 0.58,
@@ -35,11 +35,11 @@
       },
       "top_headlines": [
         {
-          "title": "How to Rule the World (Book)",
+          "title": "AWS Bedrock to require sharing data with Anthropic for Mythos and future models",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48470702",
+          "url": "https://news.ycombinator.com/item?id=48473166",
           "date": "2026-06-10",
-          "sentiment_score": 0.0
+          "sentiment_score": 0.4215
         },
         {
           "title": "Return to Office policy black- and whitelist.",
@@ -72,7 +72,6 @@
       ],
       "sparkline": [
         0.44,
-        0.44,
         0.43,
         0.4,
         0.4,
@@ -100,15 +99,16 @@
         0.41,
         0.41,
         0.41,
-        0.41
+        0.41,
+        0.42
       ]
     },
     {
       "name": "Apple",
       "sentiment": {
-        "overall_score": 0.33,
-        "trend": "stable",
-        "previous_score": 0.34,
+        "overall_score": 0.27,
+        "trend": "declining",
+        "previous_score": 0.33,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -121,7 +121,7 @@
             "count": 15
           },
           "reddit": {
-            "score": 0.49,
+            "score": 0.4,
             "count": 15
           },
           "gdelt": {
@@ -146,11 +146,18 @@
           "sentiment_score": 0.6369
         },
         {
-          "title": "Antiwork: Unemployment for all, not just the rich!",
+          "title": "r/Apple: Unofficial Apple Community",
           "source": "Reddit",
-          "url": "https://www.reddit.com/r/antiwork/",
+          "url": "https://www.reddit.com/r/apple/",
           "date": "2026-06-10",
-          "sentiment_score": -0.3434
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Severely regret buying an iPad",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/ipad/comments/1u1pb0e/severely_regret_buying_an_ipad/",
+          "date": "2026-06-10",
+          "sentiment_score": -0.7876
         },
         {
           "title": "Apple decided not to roll out Siri in EU after denied request for exemption",
@@ -158,17 +165,9 @@
           "url": "https://news.ycombinator.com/item?id=48463024",
           "date": "2026-06-09",
           "sentiment_score": -0.4404
-        },
-        {
-          "title": "WWDC 2026: every Apple Wallet announcement",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48460121",
-          "date": "2026-06-09",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.47,
         0.47,
         0.39,
         0.39,
@@ -197,15 +196,16 @@
         0.34,
         0.34,
         0.34,
-        0.33
+        0.33,
+        0.27
       ]
     },
     {
       "name": "Google",
       "sentiment": {
-        "overall_score": 0.1,
-        "trend": "declining",
-        "previous_score": 0.18,
+        "overall_score": 0.11,
+        "trend": "stable",
+        "previous_score": 0.1,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -218,7 +218,7 @@
             "count": 15
           },
           "reddit": {
-            "score": 0.16,
+            "score": 0.17,
             "count": 15
           },
           "gdelt": {
@@ -250,22 +250,21 @@
           "sentiment_score": -0.3434
         },
         {
+          "title": "Severely regret buying an iPad",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/ipad/comments/1u1pb0e/severely_regret_buying_an_ipad/",
+          "date": "2026-06-10",
+          "sentiment_score": -0.7876
+        },
+        {
           "title": "NYC Founders Looking for Startup Office Hardware",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=48466614",
           "date": "2026-06-09",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "[New Update]: AIO - a little kid keeps coming into my house",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/BestofRedditorUpdates/comments/1u0ubuj/new_update_aio_a_little_kid_keeps_coming_into_my/",
-          "date": "2026-06-09",
-          "sentiment_score": 0.9891
         }
       ],
       "sparkline": [
-        0.38,
         0.38,
         0.38,
         0.3,
@@ -294,7 +293,8 @@
         0.1,
         0.1,
         0.18,
-        0.1
+        0.1,
+        0.11
       ]
     },
     {
@@ -311,7 +311,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.0,
+            "score": -0.01,
             "count": 15
           },
           "reddit": {
@@ -325,6 +325,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Meta's attempts to play catch-up with AI",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48475762",
+          "date": "2026-06-10",
+          "sentiment_score": 0.34
+        },
         {
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
@@ -347,13 +354,6 @@
           "sentiment_score": 0.3612
         },
         {
-          "title": "Meta Deletes Face-Recognition System from Smart Glasses App After Wired Report",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48454036",
-          "date": "2026-06-08",
-          "sentiment_score": 0.4019
-        },
-        {
           "title": "Ask HN: What is happening with the Meta Ads dashboard?",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=48437824",
@@ -362,7 +362,6 @@
         }
       ],
       "sparkline": [
-        0.31,
         0.31,
         0.31,
         0.4,
@@ -391,13 +390,14 @@
         0.47,
         0.48,
         0.48,
+        0.48,
         0.48
       ]
     },
     {
       "name": "Microsoft",
       "sentiment": {
-        "overall_score": 0.34,
+        "overall_score": 0.35,
         "trend": "stable",
         "previous_score": 0.34,
         "confidence": "high",
@@ -408,7 +408,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.03,
+            "score": 0.06,
             "count": 15
           },
           "reddit": {
@@ -461,7 +461,6 @@
       "sparkline": [
         0.38,
         0.38,
-        0.38,
         0.35,
         0.36,
         0.36,
@@ -488,7 +487,8 @@
         0.34,
         0.34,
         0.34,
-        0.34
+        0.34,
+        0.35
       ]
     },
     {
@@ -599,10 +599,10 @@
         0,
         0,
         0,
+        0.32,
+        0.32,
+        0.32,
         0,
-        0.32,
-        0.32,
-        0.32,
         0,
         0,
         0,
@@ -643,7 +643,6 @@
       "top_headlines": [],
       "sparkline": [
         0,
-        0,
         0.0,
         0,
         0,
@@ -651,6 +650,7 @@
         0,
         0,
         0.0,
+        0,
         0,
         0,
         0,
@@ -677,19 +677,19 @@
     {
       "name": "Salesforce",
       "sentiment": {
-        "overall_score": 0.47,
-        "trend": "improving",
-        "previous_score": 0.41,
+        "overall_score": 0.37,
+        "trend": "declining",
+        "previous_score": 0.47,
         "confidence": "high",
-        "sample_size": 19,
+        "sample_size": 18,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.05,
-            "count": 4
+            "score": -0.2,
+            "count": 3
           },
           "reddit": {
             "score": 0.72,
@@ -702,6 +702,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Salesforce lays off employees in a new round of cuts",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48471384",
+          "date": "2026-06-10",
+          "sentiment_score": -0.296
+        },
         {
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
@@ -729,17 +736,9 @@
           "url": "https://www.reddit.com/r/u_BusySeedAgency/comments/1u1d3nk/expanding_lead_generation_channels_to_drive_40/",
           "date": "2026-06-09",
           "sentiment_score": 0.9999
-        },
-        {
-          "title": "Substrate vs. Broker: Two Emerging Strategies for Enterprise AI",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48442889",
-          "date": "2026-06-08",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.44,
         0.44,
         0.45,
         0.46,
@@ -768,15 +767,16 @@
         0.41,
         0.41,
         0.41,
-        0.47
+        0.47,
+        0.37
       ]
     },
     {
       "name": "AT&T",
       "sentiment": {
         "overall_score": -0.09,
-        "trend": "declining",
-        "previous_score": 0.04,
+        "trend": "stable",
+        "previous_score": -0.09,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -840,7 +840,6 @@
         0.07,
         0.07,
         0.07,
-        0.07,
         0.02,
         0.02,
         -0.01,
@@ -865,6 +864,7 @@
         -0.02,
         -0.02,
         0.04,
+        -0.09,
         -0.09
       ]
     },
@@ -933,7 +933,6 @@
         }
       ],
       "sparkline": [
-        0.12,
         0.21,
         0.21,
         0.15,
@@ -962,15 +961,16 @@
         -0.09,
         -0.09,
         -0.09,
+        -0.09,
         -0.09
       ]
     },
     {
       "name": "Dell",
       "sentiment": {
-        "overall_score": 0.43,
-        "trend": "improving",
-        "previous_score": 0.35,
+        "overall_score": 0.42,
+        "trend": "stable",
+        "previous_score": 0.43,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -983,7 +983,7 @@
             "count": 15
           },
           "reddit": {
-            "score": 0.72,
+            "score": 0.71,
             "count": 15
           },
           "gdelt": {
@@ -993,6 +993,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Acquiring a startup: what to do AFTER the deal closes: Dan Moore from FusionAuth",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48475377",
+          "date": "2026-06-10",
+          "sentiment_score": 0.0
+        },
         {
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
@@ -1015,22 +1022,14 @@
           "sentiment_score": -0.3434
         },
         {
-          "title": "Show HN: Persist.chat \u2013 Outreach and Sales Agents",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48468642",
-          "date": "2026-06-09",
-          "sentiment_score": 0.2732
-        },
-        {
-          "title": "Show HN: Get your website roasted within a week",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48464538",
-          "date": "2026-06-09",
-          "sentiment_score": 0.0
+          "title": "My theory on RTO: I\u2019d really love to be proven wrong on this.l.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/remotework/comments/1u1tc7y/my_theory_on_rto_id_really_love_to_be_proven/",
+          "date": "2026-06-10",
+          "sentiment_score": 0.9833
         }
       ],
       "sparkline": [
-        0.25,
         0.25,
         0.25,
         0.23,
@@ -1059,15 +1058,16 @@
         0.35,
         0.35,
         0.35,
-        0.43
+        0.43,
+        0.42
       ]
     },
     {
       "name": "Tesla",
       "sentiment": {
         "overall_score": 0.35,
-        "trend": "declining",
-        "previous_score": 0.44,
+        "trend": "stable",
+        "previous_score": 0.35,
         "confidence": "high",
         "sample_size": 24,
         "source_scores": {
@@ -1129,7 +1129,6 @@
       "sparkline": [
         0.17,
         0.17,
-        0.17,
         0.19,
         0.11,
         0.19,
@@ -1156,14 +1155,15 @@
         0.47,
         0.47,
         0.44,
+        0.35,
         0.35
       ]
     },
     {
       "name": "Caterpillar",
       "sentiment": {
-        "overall_score": 0.2,
-        "trend": "stable",
+        "overall_score": 0.12,
+        "trend": "declining",
         "previous_score": 0.2,
         "confidence": "high",
         "sample_size": 16,
@@ -1177,7 +1177,7 @@
             "count": 1
           },
           "reddit": {
-            "score": 0.32,
+            "score": 0.19,
             "count": 15
           },
           "gdelt": {
@@ -1209,25 +1209,24 @@
           "sentiment_score": -0.4723
         },
         {
+          "title": "Made a timeline of the franchise (excluding the 5th film cuz it's garbage)",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/ScaryMovieSeries/comments/1u1z2or/made_a_timeline_of_the_franchise_excluding_the/",
+          "date": "2026-06-10",
+          "sentiment_score": -0.9999
+        },
+        {
           "title": "Tri-Cities Events for the Week of 8\u201314 June \ud83c\udf08",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/TriCitiesWA/comments/1tzv32s/tricities_events_for_the_week_of_814_june/",
           "date": "2026-06-08",
           "sentiment_score": 0.9984
-        },
-        {
-          "title": "\ud83d\udd6f\ufe0f Horror Anthology Episodes of the Golden Age",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/u_woodpile3/comments/1tzrf8n/horror_anthology_episodes_of_the_golden_age/",
-          "date": "2026-06-07",
-          "sentiment_score": -0.999
         }
       ],
       "sparkline": [
         0.09,
         0.09,
         0.09,
-        0.09,
         0.05,
         0.05,
         0.05,
@@ -1253,15 +1252,16 @@
         0.12,
         0.12,
         0.2,
-        0.2
+        0.2,
+        0.12
       ]
     },
     {
       "name": "Cisco",
       "sentiment": {
         "overall_score": -0.04,
-        "trend": "declining",
-        "previous_score": 0.01,
+        "trend": "stable",
+        "previous_score": -0.04,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -1324,7 +1324,6 @@
         0.12,
         0.12,
         0.12,
-        0.12,
         0.19,
         0.13,
         0.06,
@@ -1350,6 +1349,7 @@
         0.01,
         0.01,
         0.01,
+        -0.04,
         -0.04
       ]
     }
