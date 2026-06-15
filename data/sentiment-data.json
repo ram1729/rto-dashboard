@@ -1,27 +1,27 @@
 {
-  "last_updated": "2026-06-14T14:09:45.228296Z",
+  "last_updated": "2026-06-15T04:25:58.652839Z",
   "scraper_log": {
-    "duration_sec": 130.29,
-    "total_articles": 161,
+    "duration_sec": 154.2,
+    "total_articles": 165,
     "errors": []
   },
   "companies": [
     {
       "name": "Amazon",
       "sentiment": {
-        "overall_score": 0.35,
+        "overall_score": 0.34,
         "trend": "stable",
         "previous_score": 0.35,
         "confidence": "high",
-        "sample_size": 26,
+        "sample_size": 28,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.1,
-            "count": 11
+            "score": 0.09,
+            "count": 13
           },
           "reddit": {
             "score": 0.49,
@@ -38,40 +38,39 @@
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-06-14",
+          "date": "2026-06-15",
           "sentiment_score": 0.8271
         },
         {
           "title": "Look Up",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/superman/",
-          "date": "2026-06-14",
+          "date": "2026-06-15",
           "sentiment_score": 0.0
         },
         {
           "title": "Antiwork: Unemployment for all, not just the rich!",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/antiwork/",
-          "date": "2026-06-14",
+          "date": "2026-06-15",
           "sentiment_score": -0.3434
         },
         {
-          "title": "US ban on Mythos is related to a jailbreak research by Amazon researchers",
+          "title": "Amazon says its datacenters used about 2.5B gallons of water last year",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48518776",
-          "date": "2026-06-13",
-          "sentiment_score": -0.4404
+          "url": "https://news.ycombinator.com/item?id=48527981",
+          "date": "2026-06-14",
+          "sentiment_score": 0.1779
         },
         {
-          "title": "Summary of recent buggy Kindle updates since Nov 2025: dictionary, fonts, manga",
+          "title": "Amazon security research reportedly led to the White House's Anthropic Fable ban",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48478292",
-          "date": "2026-06-10",
-          "sentiment_score": 0.0
+          "url": "https://news.ycombinator.com/item?id=48522072",
+          "date": "2026-06-13",
+          "sentiment_score": -0.128
         }
       ],
       "sparkline": [
-        0.27,
         0.26,
         0.27,
         0.26,
@@ -100,7 +99,8 @@
         0.36,
         0.36,
         0.35,
-        0.35
+        0.35,
+        0.34
       ]
     },
     {
@@ -168,7 +168,6 @@
         }
       ],
       "sparkline": [
-        0.26,
         0.19,
         0.3,
         0.3,
@@ -196,6 +195,7 @@
         0.01,
         0.01,
         0.25,
+        0.0,
         0.0,
         0.0
       ]
@@ -267,7 +267,6 @@
       "sparkline": [
         0.3,
         0.3,
-        0.3,
         0.32,
         0.32,
         0.32,
@@ -294,17 +293,18 @@
         -0.0,
         -0.0,
         0.02,
+        0.02,
         0.02
       ]
     },
     {
       "name": "Meta",
       "sentiment": {
-        "overall_score": 0.41,
-        "trend": "improving",
-        "previous_score": -0.02,
+        "overall_score": -0.02,
+        "trend": "declining",
+        "previous_score": 0.41,
         "confidence": "high",
-        "sample_size": 30,
+        "sample_size": 15,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -315,8 +315,8 @@
             "count": 15
           },
           "reddit": {
-            "score": 0.67,
-            "count": 15
+            "score": 0,
+            "count": 0
           },
           "gdelt": {
             "score": 0,
@@ -326,43 +326,42 @@
       },
       "top_headlines": [
         {
-          "title": "Return to Office policy black- and whitelist.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-06-14",
-          "sentiment_score": 0.8271
-        },
-        {
-          "title": "Bloodborne",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/bloodborne/",
-          "date": "2026-06-14",
-          "sentiment_score": 0.4588
-        },
-        {
-          "title": "Legal Advice ~ A place to get simple legal advice*",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/legaladvice/",
-          "date": "2026-06-14",
-          "sentiment_score": 0.3612
-        },
-        {
-          "title": "I love Supernatural but some things I tend to over think",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/Supernatural/comments/1u4szla/i_love_supernatural_but_some_things_i_tend_to/",
-          "date": "2026-06-13",
-          "sentiment_score": 0.9994
-        },
-        {
           "title": "Laid off from Meta, so a few of us built the safest AI-assisted cheating tool",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=48506986",
           "date": "2026-06-12",
           "sentiment_score": -0.2263
+        },
+        {
+          "title": "DevRel is becoming a freelance job now? (India specific)",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48499909",
+          "date": "2026-06-12",
+          "sentiment_score": 0.296
+        },
+        {
+          "title": "Ask HN: What is happening with the Meta Ads dashboard?",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48437824",
+          "date": "2026-06-07",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Ask HN: Will your company be doing \"LeetCode\" interviews a year from now?",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48420519",
+          "date": "2026-06-06",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Show HN: TuringLLM \u2013 a LLM-powered Universal Turing machine",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48416857",
+          "date": "2026-06-05",
+          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.4,
         0.32,
         0.4,
         0.3,
@@ -391,17 +390,18 @@
         -0.01,
         -0.02,
         -0.02,
-        0.41
+        0.41,
+        -0.02
       ]
     },
     {
       "name": "Microsoft",
       "sentiment": {
-        "overall_score": 0.09,
-        "trend": "stable",
-        "previous_score": 0.07,
+        "overall_score": 0.3,
+        "trend": "improving",
+        "previous_score": 0.09,
         "confidence": "high",
-        "sample_size": 15,
+        "sample_size": 30,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -412,8 +412,8 @@
             "count": 15
           },
           "reddit": {
-            "score": 0,
-            "count": 0
+            "score": 0.42,
+            "count": 15
           },
           "gdelt": {
             "score": 0,
@@ -423,43 +423,42 @@
       },
       "top_headlines": [
         {
-          "title": "Microsoft taps Alt Carbon in sign of India's growing role in carbon removal",
+          "title": "CoCoMS (Construction Correspondence Management System)",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48509903",
-          "date": "2026-06-12",
-          "sentiment_score": 0.1779
-        },
-        {
-          "title": "Nightmare Eclipse drops 'RoguePlanet' zero-day granting SYSTEM privileges",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48494779",
-          "date": "2026-06-11",
-          "sentiment_score": 0.5994
-        },
-        {
-          "title": "Microsoft Defender 'RoguePlanet' zero-day grants SYSTEM privileges",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48469638",
-          "date": "2026-06-10",
-          "sentiment_score": 0.5994
-        },
-        {
-          "title": "Launch HN: Transload (YC P26) \u2013 Measuring freight items with CCTV",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48463273",
-          "date": "2026-06-09",
+          "url": "https://news.ycombinator.com/item?id=48535569",
+          "date": "2026-06-15",
           "sentiment_score": 0.0
         },
         {
-          "title": "A discovery about GCC's unidirectional rotation algorithm",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48394587",
-          "date": "2026-06-04",
-          "sentiment_score": 0.0
+          "title": "Microsoft Office 365: We all work together.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/Office365/",
+          "date": "2026-06-15",
+          "sentiment_score": 0.4019
+        },
+        {
+          "title": "Return to Office policy black- and whitelist.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/ReturntoOffice/",
+          "date": "2026-06-15",
+          "sentiment_score": 0.8271
+        },
+        {
+          "title": "/r/Technology",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/technology/",
+          "date": "2026-06-15",
+          "sentiment_score": 0.6249
+        },
+        {
+          "title": "Is this a good build for Houdini?",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/Houdini/comments/1u50x9k/is_this_a_good_build_for_houdini/",
+          "date": "2026-06-13",
+          "sentiment_score": 0.9699
         }
       ],
       "sparkline": [
-        0.38,
         0.3,
         0.39,
         0.4,
@@ -488,25 +487,26 @@
         0.06,
         0.07,
         0.07,
-        0.09
+        0.09,
+        0.3
       ]
     },
     {
       "name": "JPMorgan Chase",
       "sentiment": {
-        "overall_score": 0,
-        "trend": "stable",
+        "overall_score": 0.53,
+        "trend": "improving",
         "previous_score": 0,
         "confidence": "low",
-        "sample_size": 0,
+        "sample_size": 1,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0,
-            "count": 0
+            "score": 0.53,
+            "count": 1
           },
           "reddit": {
             "score": 0,
@@ -518,7 +518,15 @@
           }
         }
       },
-      "top_headlines": [],
+      "top_headlines": [
+        {
+          "title": "Is Musk the richest American ever now? No, except as a consumer",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48531834",
+          "date": "2026-06-14",
+          "sentiment_score": 0.5267
+        }
+      ],
       "sparkline": [
         0,
         0,
@@ -549,7 +557,7 @@
         0,
         0,
         0,
-        0
+        0.53
       ]
     },
     {
@@ -593,10 +601,10 @@
         0,
         0,
         0,
+        0.32,
+        0.32,
+        0.32,
         0,
-        0.32,
-        0.32,
-        0.32,
         0,
         0,
         0,
@@ -643,8 +651,8 @@
       "top_headlines": [],
       "sparkline": [
         0,
-        0,
         0.0,
+        0,
         0,
         0,
         0,
@@ -677,19 +685,19 @@
     {
       "name": "Salesforce",
       "sentiment": {
-        "overall_score": -0.2,
-        "trend": "declining",
-        "previous_score": 0.36,
+        "overall_score": -0.15,
+        "trend": "improving",
+        "previous_score": -0.2,
         "confidence": "low",
-        "sample_size": 3,
+        "sample_size": 2,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.2,
-            "count": 3
+            "score": -0.15,
+            "count": 2
           },
           "reddit": {
             "score": 0,
@@ -715,17 +723,9 @@
           "url": "https://news.ycombinator.com/item?id=48267829",
           "date": "2026-05-25",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "There's a $50B company hiding inside Salesforce",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48148868",
-          "date": "2026-05-15",
-          "sentiment_score": -0.296
         }
       ],
       "sparkline": [
-        0.46,
         0.45,
         0.46,
         0.39,
@@ -754,13 +754,14 @@
         0.37,
         0.36,
         0.36,
-        -0.2
+        -0.2,
+        -0.15
       ]
     },
     {
       "name": "AT&T",
       "sentiment": {
-        "overall_score": -0.07,
+        "overall_score": -0.05,
         "trend": "stable",
         "previous_score": -0.07,
         "confidence": "high",
@@ -771,7 +772,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.07,
+            "score": -0.05,
             "count": 15
           },
           "reddit": {
@@ -785,6 +786,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "AI coding at home without going broke",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48518969",
+          "date": "2026-06-13",
+          "sentiment_score": 0.3252
+        },
         {
           "title": "If you are asking for human attention, demonstrate human effort",
           "source": "Hacker News",
@@ -807,13 +815,6 @@
           "sentiment_score": 0.0
         },
         {
-          "title": "Switzerland wil have a referendum to cap population at 10M",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48450059",
-          "date": "2026-06-08",
-          "sentiment_score": 0.0
-        },
-        {
           "title": "Google to pay SpaceX $920M a month for compute capacity at xAI data centers",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=48417490",
@@ -822,7 +823,6 @@
         }
       ],
       "sparkline": [
-        0.02,
         -0.01,
         -0.01,
         0.02,
@@ -851,17 +851,18 @@
         -0.07,
         -0.07,
         -0.07,
-        -0.07
+        -0.07,
+        -0.05
       ]
     },
     {
       "name": "Disney",
       "sentiment": {
-        "overall_score": -0.09,
-        "trend": "declining",
-        "previous_score": 0,
-        "confidence": "high",
-        "sample_size": 15,
+        "overall_score": 0,
+        "trend": "improving",
+        "previous_score": -0.09,
+        "confidence": "low",
+        "sample_size": 0,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -872,8 +873,8 @@
             "count": 0
           },
           "reddit": {
-            "score": -0.09,
-            "count": 15
+            "score": 0,
+            "count": 0
           },
           "gdelt": {
             "score": 0,
@@ -881,45 +882,8 @@
           }
         }
       },
-      "top_headlines": [
-        {
-          "title": "Return to Office policy black- and whitelist.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-06-14",
-          "sentiment_score": 0.8271
-        },
-        {
-          "title": "The Book of Boba Fett",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/BookOfBobaFett/",
-          "date": "2026-06-14",
-          "sentiment_score": -0.5848
-        },
-        {
-          "title": "Box Office - The Business of Movies",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/boxoffice/",
-          "date": "2026-06-14",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "The Biggest Cause of Star Wars' Negative Discourse Isn't Disney",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/StarWars/comments/1tyl7g7/the_biggest_cause_of_star_wars_negative_discourse/",
-          "date": "2026-06-06",
-          "sentiment_score": -0.995
-        },
-        {
-          "title": "(Selling) Over 900 Movies. Disney 4k, Lilo and Stitch, Ratatouille, Up, Wall- e. Prices are Firm and Non-Negotiable, will take $1 for every $10 spent (Purchase 2 Movies for Discount). Codes are split, please only redeem the portion you paid for. Please attach the price with the movie in your list.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/DigitalCodeSELL/comments/1tyvtoq/selling_over_900_movies_disney_4k_lilo_and_stitch/",
-          "date": "2026-06-06",
-          "sentiment_score": -0.9994
-        }
-      ],
+      "top_headlines": [],
       "sparkline": [
-        0.15,
         0.3,
         0.3,
         0.22,
@@ -948,29 +912,30 @@
         0,
         0,
         0,
-        -0.09
+        -0.09,
+        0
       ]
     },
     {
       "name": "Dell",
       "sentiment": {
-        "overall_score": -0.14,
-        "trend": "declining",
-        "previous_score": 0.4,
+        "overall_score": 0.42,
+        "trend": "improving",
+        "previous_score": -0.14,
         "confidence": "high",
-        "sample_size": 15,
+        "sample_size": 30,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.14,
+            "score": -0.09,
             "count": 15
           },
           "reddit": {
-            "score": 0,
-            "count": 0
+            "score": 0.73,
+            "count": 15
           },
           "gdelt": {
             "score": 0,
@@ -980,43 +945,42 @@
       },
       "top_headlines": [
         {
-          "title": "Ask HN: How to deal with App Store rejections?",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48515589",
-          "date": "2026-06-13",
-          "sentiment_score": -0.4767
+          "title": "Return to Office policy black- and whitelist.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/ReturntoOffice/",
+          "date": "2026-06-15",
+          "sentiment_score": 0.8271
         },
         {
-          "title": "Sophia NLU Home Assistant \u2013 On Device, Low Compute, No Internet, Voice Assistant",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48499703",
-          "date": "2026-06-12",
-          "sentiment_score": -0.5106
+          "title": "fullyremotework",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/fullyremotework/",
+          "date": "2026-06-15",
+          "sentiment_score": 0.5859
         },
         {
-          "title": "Show HN: Persist.chat \u2013 Outreach and Sales Agents",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48468642",
-          "date": "2026-06-09",
-          "sentiment_score": 0.2732
+          "title": "Antiwork: Unemployment for all, not just the rich!",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/antiwork/",
+          "date": "2026-06-15",
+          "sentiment_score": -0.3434
         },
         {
-          "title": "Dell inks $9.7B Pentagon contract after Trump acquires stock",
+          "title": "Rome Fell and Nobody Noticed",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48383625",
-          "date": "2026-06-03",
+          "url": "https://news.ycombinator.com/item?id=48530841",
+          "date": "2026-06-14",
           "sentiment_score": 0.0
         },
         {
-          "title": "Korea's Hanwha offers rockets in bid for Canadian submarine deal",
+          "title": "US and Iran announce deal to end military operations",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48376484",
-          "date": "2026-06-02",
+          "url": "https://news.ycombinator.com/item?id=48533976",
+          "date": "2026-06-14",
           "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.25,
         0.25,
         0.26,
         0.28,
@@ -1045,25 +1009,26 @@
         -0.14,
         -0.13,
         0.4,
-        -0.14
+        -0.14,
+        0.42
       ]
     },
     {
       "name": "Tesla",
       "sentiment": {
-        "overall_score": 0.0,
+        "overall_score": -0.01,
         "trend": "stable",
-        "previous_score": -0.04,
-        "confidence": "medium",
-        "sample_size": 8,
+        "previous_score": 0.0,
+        "confidence": "high",
+        "sample_size": 10,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.0,
-            "count": 8
+            "score": -0.01,
+            "count": 10
           },
           "reddit": {
             "score": 0,
@@ -1076,6 +1041,20 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Chinese Drivers Are Using Tiny Plastic Heads to Fool Tesla Autopilot Safeguards",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48533737",
+          "date": "2026-06-14",
+          "sentiment_score": -0.128
+        },
+        {
+          "title": "Rivian's CEO on Tesla's Cybertruck, Ferrari's Luce, and What Happens If the R2",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48519193",
+          "date": "2026-06-13",
+          "sentiment_score": 0.0
+        },
         {
           "title": "Tesla robotaxis stall as Musk's self-driving hype hits real-world traffic",
           "source": "Hacker News",
@@ -1096,24 +1075,9 @@
           "url": "https://news.ycombinator.com/item?id=48295347",
           "date": "2026-05-27",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Show HN: Hm \u2013 a task runner with a Python DSL, growing into a CI/CD system",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48296828",
-          "date": "2026-05-27",
-          "sentiment_score": 0.1779
-        },
-        {
-          "title": "Tesla Announces Rollout of Fully Self-Driving Tech in China",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48229363",
-          "date": "2026-05-21",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.16,
         0.27,
         0.27,
         0.26,
@@ -1142,7 +1106,8 @@
         0.0,
         0.44,
         -0.04,
-        0.0
+        0.0,
+        -0.01
       ]
     },
     {
@@ -1183,7 +1148,6 @@
       ],
       "sparkline": [
         0.05,
-        0.05,
         0.09,
         0.05,
         0.05,
@@ -1209,6 +1173,7 @@
         0.12,
         0.12,
         0.12,
+        0.0,
         0.0,
         0.0,
         0.0
@@ -1269,7 +1234,6 @@
         0.06,
         0.06,
         0.06,
-        0.06,
         0.11,
         0.11,
         0.11,
@@ -1290,6 +1254,7 @@
         0.01,
         -0.04,
         -0.04,
+        0.13,
         0.13,
         0.13,
         0.13,
