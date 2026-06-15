@@ -1,27 +1,27 @@
 {
-  "last_updated": "2026-06-15T04:25:58.652839Z",
+  "last_updated": "2026-06-15T17:22:04.478269Z",
   "scraper_log": {
-    "duration_sec": 154.2,
-    "total_articles": 165,
+    "duration_sec": 166.55,
+    "total_articles": 171,
     "errors": []
   },
   "companies": [
     {
       "name": "Amazon",
       "sentiment": {
-        "overall_score": 0.34,
+        "overall_score": 0.35,
         "trend": "stable",
-        "previous_score": 0.35,
+        "previous_score": 0.34,
         "confidence": "high",
-        "sample_size": 28,
+        "sample_size": 30,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.09,
-            "count": 13
+            "score": 0.1,
+            "count": 15
           },
           "reddit": {
             "score": 0.49,
@@ -34,6 +34,20 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Amazon Boosts India Automation, Robotics and EV Logistics",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48542163",
+          "date": "2026-06-15",
+          "sentiment_score": 0.4588
+        },
+        {
+          "title": "Tell HN: Forget selectors and screenshots. The agentic web lives in your shell",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48540019",
+          "date": "2026-06-15",
+          "sentiment_score": -0.2263
+        },
         {
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
@@ -54,24 +68,9 @@
           "url": "https://www.reddit.com/r/antiwork/",
           "date": "2026-06-15",
           "sentiment_score": -0.3434
-        },
-        {
-          "title": "Amazon says its datacenters used about 2.5B gallons of water last year",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48527981",
-          "date": "2026-06-14",
-          "sentiment_score": 0.1779
-        },
-        {
-          "title": "Amazon security research reportedly led to the White House's Anthropic Fable ban",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48522072",
-          "date": "2026-06-13",
-          "sentiment_score": -0.128
         }
       ],
       "sparkline": [
-        0.26,
         0.27,
         0.26,
         0.24,
@@ -100,7 +99,8 @@
         0.36,
         0.35,
         0.35,
-        0.34
+        0.34,
+        0.35
       ]
     },
     {
@@ -168,7 +168,6 @@
         }
       ],
       "sparkline": [
-        0.19,
         0.3,
         0.3,
         0.29,
@@ -195,6 +194,7 @@
         0.01,
         0.01,
         0.25,
+        0.0,
         0.0,
         0.0,
         0.0
@@ -266,7 +266,6 @@
       ],
       "sparkline": [
         0.3,
-        0.3,
         0.32,
         0.32,
         0.32,
@@ -294,6 +293,7 @@
         -0.0,
         0.02,
         0.02,
+        0.02,
         0.02
       ]
     },
@@ -301,8 +301,8 @@
       "name": "Meta",
       "sentiment": {
         "overall_score": -0.02,
-        "trend": "declining",
-        "previous_score": 0.41,
+        "trend": "stable",
+        "previous_score": -0.02,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -362,7 +362,6 @@
         }
       ],
       "sparkline": [
-        0.32,
         0.4,
         0.3,
         0.38,
@@ -391,6 +390,7 @@
         -0.02,
         -0.02,
         0.41,
+        -0.02,
         -0.02
       ]
     },
@@ -398,8 +398,8 @@
       "name": "Microsoft",
       "sentiment": {
         "overall_score": 0.3,
-        "trend": "improving",
-        "previous_score": 0.09,
+        "trend": "stable",
+        "previous_score": 0.3,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -422,6 +422,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "See Anthropic Orchestrate the Narrative",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48540028",
+          "date": "2026-06-15",
+          "sentiment_score": 0.0
+        },
         {
           "title": "CoCoMS (Construction Correspondence Management System)",
           "source": "Hacker News",
@@ -449,17 +456,9 @@
           "url": "https://www.reddit.com/r/technology/",
           "date": "2026-06-15",
           "sentiment_score": 0.6249
-        },
-        {
-          "title": "Is this a good build for Houdini?",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/Houdini/comments/1u50x9k/is_this_a_good_build_for_houdini/",
-          "date": "2026-06-13",
-          "sentiment_score": 0.9699
         }
       ],
       "sparkline": [
-        0.3,
         0.39,
         0.4,
         0.39,
@@ -488,6 +487,7 @@
         0.07,
         0.07,
         0.09,
+        0.3,
         0.3
       ]
     },
@@ -495,8 +495,8 @@
       "name": "JPMorgan Chase",
       "sentiment": {
         "overall_score": 0.53,
-        "trend": "improving",
-        "previous_score": 0,
+        "trend": "stable",
+        "previous_score": 0.53,
         "confidence": "low",
         "sample_size": 1,
         "source_scores": {
@@ -556,7 +556,7 @@
         0,
         0,
         0,
-        0,
+        0.53,
         0.53
       ]
     },
@@ -600,10 +600,10 @@
         0,
         0,
         0,
+        0.32,
+        0.32,
+        0.32,
         0,
-        0.32,
-        0.32,
-        0.32,
         0,
         0,
         0,
@@ -650,8 +650,8 @@
       },
       "top_headlines": [],
       "sparkline": [
-        0,
         0.0,
+        0,
         0,
         0,
         0,
@@ -685,19 +685,19 @@
     {
       "name": "Salesforce",
       "sentiment": {
-        "overall_score": -0.15,
+        "overall_score": 0.14,
         "trend": "improving",
-        "previous_score": -0.2,
-        "confidence": "low",
-        "sample_size": 2,
+        "previous_score": -0.15,
+        "confidence": "medium",
+        "sample_size": 5,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.15,
-            "count": 2
+            "score": 0.14,
+            "count": 5
           },
           "reddit": {
             "score": 0,
@@ -710,6 +710,27 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Salesforce to Acquire Fin (formerly Intercom) for $3.6B",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48540126",
+          "date": "2026-06-15",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Salesforce Signs Definitive Agreement to Acquire Fin (Formely Intercom))",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48540472",
+          "date": "2026-06-15",
+          "sentiment_score": 0.4939
+        },
+        {
+          "title": "Salesforce signs definitive agreement to acquire Fin",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48540418",
+          "date": "2026-06-15",
+          "sentiment_score": 0.4939
+        },
         {
           "title": "Salesforce lays off employees in a new round of cuts",
           "source": "Hacker News",
@@ -726,7 +747,6 @@
         }
       ],
       "sparkline": [
-        0.45,
         0.46,
         0.39,
         0.42,
@@ -755,17 +775,18 @@
         0.36,
         0.36,
         -0.2,
-        -0.15
+        -0.15,
+        0.14
       ]
     },
     {
       "name": "AT&T",
       "sentiment": {
-        "overall_score": -0.05,
+        "overall_score": -0.07,
         "trend": "stable",
-        "previous_score": -0.07,
+        "previous_score": -0.05,
         "confidence": "high",
-        "sample_size": 15,
+        "sample_size": 30,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -776,8 +797,8 @@
             "count": 15
           },
           "reddit": {
-            "score": 0,
-            "count": 0
+            "score": -0.09,
+            "count": 15
           },
           "gdelt": {
             "score": 0,
@@ -787,6 +808,20 @@
       },
       "top_headlines": [
         {
+          "title": "Just throw the whole tv out at this point",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/WatchPeopleDieInside/comments/1u5n9b8/just_throw_the_whole_tv_out_at_this_point/",
+          "date": "2026-06-14",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "The Amount of Waste at Ulta",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1u564gi/the_amount_of_waste_at_ulta/",
+          "date": "2026-06-14",
+          "sentiment_score": -0.8126
+        },
+        {
           "title": "AI coding at home without going broke",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=48518969",
@@ -794,36 +829,21 @@
           "sentiment_score": 0.3252
         },
         {
-          "title": "If you are asking for human attention, demonstrate human effort",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48497609",
-          "date": "2026-06-11",
-          "sentiment_score": 0.0
+          "title": "Fireworks celebrating the completion of the 566ft Tower of Jesus Christ at the Sagrada Fam\u00edlia",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/Damnthatsinteresting/comments/1u3w8v4/fireworks_celebrating_the_completion_of_the_566ft/",
+          "date": "2026-06-12",
+          "sentiment_score": 0.9022
         },
         {
-          "title": "Doing nothing at work",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48442880",
-          "date": "2026-06-08",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "Developer gets Half-Life running at 30 FPS on a Nokia N95",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48452001",
-          "date": "2026-06-08",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "Google to pay SpaceX $920M a month for compute capacity at xAI data centers",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48417490",
-          "date": "2026-06-05",
-          "sentiment_score": -0.1027
+          "title": "My husband asked to break up this morning at 7 am and went to work to ask his coworker out at 9 am. We have 3 year old and I am 3 months pregnant.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/GirlDinnerDiaries/comments/1u3gd8f/my_husband_asked_to_break_up_this_morning_at_7_am/",
+          "date": "2026-06-12",
+          "sentiment_score": -0.1984
         }
       ],
       "sparkline": [
-        -0.01,
         -0.01,
         0.02,
         0.02,
@@ -852,15 +872,16 @@
         -0.07,
         -0.07,
         -0.07,
-        -0.05
+        -0.05,
+        -0.07
       ]
     },
     {
       "name": "Disney",
       "sentiment": {
         "overall_score": 0,
-        "trend": "improving",
-        "previous_score": -0.09,
+        "trend": "stable",
+        "previous_score": 0,
         "confidence": "low",
         "sample_size": 0,
         "source_scores": {
@@ -884,7 +905,6 @@
       },
       "top_headlines": [],
       "sparkline": [
-        0.3,
         0.3,
         0.22,
         0.22,
@@ -913,29 +933,30 @@
         0,
         0,
         -0.09,
+        0,
         0
       ]
     },
     {
       "name": "Dell",
       "sentiment": {
-        "overall_score": 0.42,
-        "trend": "improving",
-        "previous_score": -0.14,
+        "overall_score": -0.03,
+        "trend": "declining",
+        "previous_score": 0.42,
         "confidence": "high",
-        "sample_size": 30,
+        "sample_size": 15,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.09,
+            "score": -0.03,
             "count": 15
           },
           "reddit": {
-            "score": 0.73,
-            "count": 15
+            "score": 0,
+            "count": 0
           },
           "gdelt": {
             "score": 0,
@@ -945,43 +966,42 @@
       },
       "top_headlines": [
         {
-          "title": "Return to Office policy black- and whitelist.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-06-15",
-          "sentiment_score": 0.8271
-        },
-        {
-          "title": "fullyremotework",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/fullyremotework/",
-          "date": "2026-06-15",
-          "sentiment_score": 0.5859
-        },
-        {
-          "title": "Antiwork: Unemployment for all, not just the rich!",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/antiwork/",
-          "date": "2026-06-15",
-          "sentiment_score": -0.3434
-        },
-        {
-          "title": "Rome Fell and Nobody Noticed",
+          "title": "Fox to buy Roku",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48530841",
-          "date": "2026-06-14",
+          "url": "https://news.ycombinator.com/item?id=48540499",
+          "date": "2026-06-15",
           "sentiment_score": 0.0
         },
         {
-          "title": "US and Iran announce deal to end military operations",
+          "title": "Fox to Acquire Roku in $22B Deal",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48533976",
-          "date": "2026-06-14",
+          "url": "https://news.ycombinator.com/item?id=48540360",
+          "date": "2026-06-15",
           "sentiment_score": 0.0
+        },
+        {
+          "title": "Fox buying streaming platform Roku in cash-and-stock deal worth $22B",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48540011",
+          "date": "2026-06-15",
+          "sentiment_score": 0.2263
+        },
+        {
+          "title": "Sophia NLU Home Assistant \u2013 On Device, Low Compute, No Internet, Voice Assistant",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48499703",
+          "date": "2026-06-12",
+          "sentiment_score": -0.5106
+        },
+        {
+          "title": "Show HN: Persist.chat \u2013 Outreach and Sales Agents",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48468642",
+          "date": "2026-06-09",
+          "sentiment_score": 0.2732
         }
       ],
       "sparkline": [
-        0.25,
         0.26,
         0.28,
         0.24,
@@ -1010,7 +1030,8 @@
         -0.13,
         0.4,
         -0.14,
-        0.42
+        0.42,
+        -0.03
       ]
     },
     {
@@ -1018,9 +1039,9 @@
       "sentiment": {
         "overall_score": -0.01,
         "trend": "stable",
-        "previous_score": 0.0,
+        "previous_score": -0.01,
         "confidence": "high",
-        "sample_size": 10,
+        "sample_size": 11,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -1028,7 +1049,7 @@
           },
           "hackernews": {
             "score": -0.01,
-            "count": 10
+            "count": 11
           },
           "reddit": {
             "score": 0,
@@ -1041,6 +1062,20 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Tell HN: The bloatification of SpaceX stock has started",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48543304",
+          "date": "2026-06-15",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Tesla presented misleading 'Full Self-Driving' safety data to European regulator",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48540428",
+          "date": "2026-06-15",
+          "sentiment_score": 0.0258
+        },
         {
           "title": "Chinese Drivers Are Using Tiny Plastic Heads to Fool Tesla Autopilot Safeguards",
           "source": "Hacker News",
@@ -1061,24 +1096,9 @@
           "url": "https://news.ycombinator.com/item?id=48486477",
           "date": "2026-06-11",
           "sentiment_score": -0.2023
-        },
-        {
-          "title": "Tesla patents camera wiper for self-driving resulting in more doubts FSD owners",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48373526",
-          "date": "2026-06-02",
-          "sentiment_score": -0.3597
-        },
-        {
-          "title": "SpaceX-Tesla merger chatter reignites as Musk pushes rocket company to Nasdaq",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48295347",
-          "date": "2026-05-27",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.27,
         0.27,
         0.26,
         0.26,
@@ -1107,6 +1127,7 @@
         0.44,
         -0.04,
         0.0,
+        -0.01,
         -0.01
       ]
     },
@@ -1147,7 +1168,6 @@
         }
       ],
       "sparkline": [
-        0.05,
         0.09,
         0.05,
         0.05,
@@ -1173,6 +1193,7 @@
         0.12,
         0.12,
         0.12,
+        0.0,
         0.0,
         0.0,
         0.0,
@@ -1233,7 +1254,6 @@
         0.06,
         0.06,
         0.06,
-        0.06,
         0.11,
         0.11,
         0.11,
@@ -1254,6 +1274,7 @@
         0.01,
         -0.04,
         -0.04,
+        0.13,
         0.13,
         0.13,
         0.13,
