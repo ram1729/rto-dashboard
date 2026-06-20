@@ -1,30 +1,30 @@
 {
-  "last_updated": "2026-06-19T04:27:38.019282Z",
+  "last_updated": "2026-06-20T14:12:50.493796Z",
   "scraper_log": {
-    "duration_sec": 164.87,
-    "total_articles": 177,
+    "duration_sec": 179.74,
+    "total_articles": 180,
     "errors": []
   },
   "companies": [
     {
       "name": "Amazon",
       "sentiment": {
-        "overall_score": 0.33,
-        "trend": "declining",
-        "previous_score": 0.39,
+        "overall_score": 0.3,
+        "trend": "stable",
+        "previous_score": 0.33,
         "confidence": "high",
-        "sample_size": 29,
+        "sample_size": 30,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.11,
-            "count": 14
+            "score": 0.09,
+            "count": 15
           },
           "reddit": {
-            "score": 0.46,
+            "score": 0.42,
             "count": 15
           },
           "gdelt": {
@@ -35,43 +35,42 @@
       },
       "top_headlines": [
         {
-          "title": "Amazon Workers Say They're Under Investigation for Speaking About Data Centers",
+          "title": "QuEra's Libra Fault-Tolerant Quantum System Heading to Amazon Braket Service",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48594036",
-          "date": "2026-06-19",
+          "url": "https://news.ycombinator.com/item?id=48607576",
+          "date": "2026-06-20",
           "sentiment_score": 0.1779
         },
         {
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-06-19",
+          "date": "2026-06-20",
           "sentiment_score": 0.8271
         },
         {
           "title": "Look Up",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/superman/",
-          "date": "2026-06-19",
+          "date": "2026-06-20",
           "sentiment_score": 0.0
         },
         {
-          "title": "Amazon",
+          "title": "Antiwork: Unemployment for all, not just the rich!",
           "source": "Reddit",
-          "url": "https://www.reddit.com/r/amazon/",
-          "date": "2026-06-19",
-          "sentiment_score": 0.5255
+          "url": "https://www.reddit.com/r/antiwork/",
+          "date": "2026-06-20",
+          "sentiment_score": -0.3434
         },
         {
-          "title": "Show HN: Language1 \u2013 Benchmarking LLM comprehension of vague prompts via Taboo",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48586263",
-          "date": "2026-06-18",
-          "sentiment_score": -0.1027
+          "title": "Amazon announced it had turned \"water positive\" in India this year - meaning it returns more water to communities than it uses across \u200bits operations, which include data centres, corporate offices and warehouses",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/technology/comments/1uasf9x/amazon_announced_it_had_turned_water_positive_in/",
+          "date": "2026-06-20",
+          "sentiment_score": 0.6486
         }
       ],
       "sparkline": [
-        0.34,
         0.32,
         0.28,
         0.27,
@@ -100,15 +99,16 @@
         0.36,
         0.38,
         0.39,
-        0.33
+        0.33,
+        0.3
       ]
     },
     {
       "name": "Apple",
       "sentiment": {
-        "overall_score": 0.34,
-        "trend": "improving",
-        "previous_score": 0.02,
+        "overall_score": 0.33,
+        "trend": "stable",
+        "previous_score": 0.34,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -117,7 +117,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.02,
+            "score": -0.01,
             "count": 15
           },
           "reddit": {
@@ -135,20 +135,27 @@
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-06-19",
+          "date": "2026-06-20",
           "sentiment_score": 0.8271
         },
         {
           "title": "PowerPoint Presentation Tips and Examples",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/powerpoint/",
-          "date": "2026-06-19",
+          "date": "2026-06-20",
           "sentiment_score": 0.6369
         },
         {
           "title": "r/Apple: Unofficial Apple Community",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/apple/",
+          "date": "2026-06-20",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Show HN: Tracking iCal feed latency across O365/Google/Apple",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48596526",
           "date": "2026-06-19",
           "sentiment_score": 0.0
         },
@@ -158,17 +165,9 @@
           "url": "https://news.ycombinator.com/item?id=48577259",
           "date": "2026-06-17",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Show HN: Noject \u2013 menubar app to stop drive ejections on macOS",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48569320",
-          "date": "2026-06-17",
-          "sentiment_score": -0.296
         }
       ],
       "sparkline": [
-        0.3,
         0.3,
         0.3,
         0.31,
@@ -197,15 +196,16 @@
         0.39,
         0.41,
         0.02,
-        0.34
+        0.34,
+        0.33
       ]
     },
     {
       "name": "Google",
       "sentiment": {
-        "overall_score": 0.09,
+        "overall_score": 0.11,
         "trend": "stable",
-        "previous_score": 0.07,
+        "previous_score": 0.09,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -214,7 +214,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.09,
+            "score": 0.11,
             "count": 15
           },
           "reddit": {
@@ -228,6 +228,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Show HN: NetSentinel \u2013 a local network security scanner and connectivity monitor",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48596331",
+          "date": "2026-06-19",
+          "sentiment_score": 0.34
+        },
         {
           "title": "Android verification coming: Google confirms timeline and supported app stores",
           "source": "Hacker News",
@@ -255,17 +262,9 @@
           "url": "https://news.ycombinator.com/item?id=48475061",
           "date": "2026-06-10",
           "sentiment_score": 0.6124
-        },
-        {
-          "title": "NYC Founders Looking for Startup Office Hardware",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48466614",
-          "date": "2026-06-09",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.25,
         0.25,
         0.16,
         0.13,
@@ -294,15 +293,16 @@
         0.07,
         0.07,
         0.07,
-        0.09
+        0.09,
+        0.11
       ]
     },
     {
       "name": "Meta",
       "sentiment": {
-        "overall_score": -0.02,
+        "overall_score": -0.0,
         "trend": "stable",
-        "previous_score": 0.02,
+        "previous_score": -0.02,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -311,7 +311,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.02,
+            "score": -0.0,
             "count": 15
           },
           "reddit": {
@@ -333,6 +333,13 @@
           "sentiment_score": 0.0
         },
         {
+          "title": "Meta CTO Andrew Bosworth Admits the Company's AI Reorg Was 'Atrocious'",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48548461",
+          "date": "2026-06-15",
+          "sentiment_score": 0.296
+        },
+        {
           "title": "Laid off from Meta, so a few of us built the safest AI-assisted cheating tool",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=48506986",
@@ -352,17 +359,9 @@
           "url": "https://news.ycombinator.com/item?id=48437824",
           "date": "2026-06-07",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Ask HN: Will your company be doing \"LeetCode\" interviews a year from now?",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48420519",
-          "date": "2026-06-06",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.46,
         0.46,
         0.46,
         0.37,
@@ -391,15 +390,16 @@
         0.02,
         0.02,
         0.02,
-        -0.02
+        -0.02,
+        -0.0
       ]
     },
     {
       "name": "Microsoft",
       "sentiment": {
         "overall_score": 0.13,
-        "trend": "declining",
-        "previous_score": 0.39,
+        "trend": "stable",
+        "previous_score": 0.13,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -459,7 +459,6 @@
         }
       ],
       "sparkline": [
-        0.46,
         0.35,
         0.36,
         0.31,
@@ -488,6 +487,7 @@
         0.38,
         0.13,
         0.39,
+        0.13,
         0.13
       ]
     },
@@ -549,7 +549,7 @@
         0,
         0,
         0,
-        0,
+        0.53,
         0.53,
         0.53,
         0.53,
@@ -593,10 +593,10 @@
         0,
         0,
         0,
+        0.32,
+        0.32,
+        0.32,
         0,
-        0.32,
-        0.32,
-        0.32,
         0,
         0,
         0,
@@ -685,19 +685,19 @@
     {
       "name": "Salesforce",
       "sentiment": {
-        "overall_score": 0.47,
+        "overall_score": 0.48,
         "trend": "stable",
         "previous_score": 0.47,
         "confidence": "high",
-        "sample_size": 18,
+        "sample_size": 19,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.1,
-            "count": 3
+            "score": -0.07,
+            "count": 4
           },
           "reddit": {
             "score": 0.81,
@@ -714,40 +714,39 @@
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-06-19",
+          "date": "2026-06-20",
           "sentiment_score": 0.8271
         },
         {
           "title": "fullyremotework",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/fullyremotework/",
-          "date": "2026-06-19",
+          "date": "2026-06-20",
           "sentiment_score": 0.5859
         },
         {
           "title": "NoToRTOCa",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/NoToRTOCa/",
-          "date": "2026-06-19",
+          "date": "2026-06-20",
           "sentiment_score": -0.4723
         },
         {
-          "title": "Remote Job - GN Group - Regional Sales Manager | Medical Eastern Territory",
+          "title": "Remote Job - CrowdStrike - Workflow Automation Engineer",
           "source": "Reddit",
-          "url": "https://www.reddit.com/r/jobhuntify/comments/1u9qncp/remote_job_gn_group_regional_sales_manager/",
-          "date": "2026-06-19",
-          "sentiment_score": 0.9999
+          "url": "https://www.reddit.com/r/jobhuntify/comments/1uamqlt/remote_job_crowdstrike_workflow_automation/",
+          "date": "2026-06-20",
+          "sentiment_score": 0.9955
         },
         {
-          "title": "PLTR | Full Chronological Event Timeline",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/Palantir_Investors/comments/1u9kyz8/pltr_full_chronological_event_timeline/",
-          "date": "2026-06-18",
-          "sentiment_score": 0.9986
+          "title": "Trillions of dollars spent just to work on customer services?",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48596176",
+          "date": "2026-06-19",
+          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.44,
         0.47,
         0.47,
         0.47,
@@ -776,15 +775,16 @@
         -0.1,
         0.47,
         0.47,
-        0.47
+        0.47,
+        0.48
       ]
     },
     {
       "name": "AT&T",
       "sentiment": {
-        "overall_score": -0.04,
+        "overall_score": -0.06,
         "trend": "stable",
-        "previous_score": -0.02,
+        "previous_score": -0.04,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -793,7 +793,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.04,
+            "score": -0.06,
             "count": 15
           },
           "reddit": {
@@ -807,6 +807,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "There are no instances in ATProto",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48599515",
+          "date": "2026-06-19",
+          "sentiment_score": -0.296
+        },
         {
           "title": "Hospitals and universities repurposing drugs at lower cost",
           "source": "Hacker News",
@@ -834,17 +841,9 @@
           "url": "https://news.ycombinator.com/item?id=48442880",
           "date": "2026-06-08",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Developer gets Half-Life running at 30 FPS on a Nokia N95",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48452001",
-          "date": "2026-06-08",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        -0.02,
         0.02,
         -0.02,
         -0.06,
@@ -873,7 +872,8 @@
         0.08,
         -0.02,
         -0.02,
-        -0.04
+        -0.04,
+        -0.06
       ]
     },
     {
@@ -911,7 +911,6 @@
         0.31,
         0.31,
         0.31,
-        0.31,
         0.16,
         0.16,
         0.03,
@@ -934,29 +933,30 @@
         0,
         -0.09,
         0,
+        0,
         0
       ]
     },
     {
       "name": "Dell",
       "sentiment": {
-        "overall_score": -0.11,
-        "trend": "stable",
-        "previous_score": -0.08,
+        "overall_score": 0.34,
+        "trend": "improving",
+        "previous_score": -0.11,
         "confidence": "high",
-        "sample_size": 15,
+        "sample_size": 30,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.11,
+            "score": -0.07,
             "count": 15
           },
           "reddit": {
-            "score": 0,
-            "count": 0
+            "score": 0.59,
+            "count": 15
           },
           "gdelt": {
             "score": 0,
@@ -966,43 +966,42 @@
       },
       "top_headlines": [
         {
-          "title": "Ask HN: Conflicted about founding engineer role",
+          "title": "Building a Dense Agentic AI CPU Rack Today",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48588920",
-          "date": "2026-06-18",
+          "url": "https://news.ycombinator.com/item?id=48608400",
+          "date": "2026-06-20",
           "sentiment_score": 0.0
         },
         {
-          "title": "Show HN: RewardHackBench: Using sandboxes to stop agents from cheating",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48568923",
-          "date": "2026-06-17",
-          "sentiment_score": -0.7003
+          "title": "Return to Office policy black- and whitelist.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/ReturntoOffice/",
+          "date": "2026-06-20",
+          "sentiment_score": 0.8271
         },
         {
-          "title": "Show HN: BlitzGraph \u2013 Supabase for graphs, built for LLM agents",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48557002",
-          "date": "2026-06-16",
-          "sentiment_score": 0.0
+          "title": "fullyremotework",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/fullyremotework/",
+          "date": "2026-06-20",
+          "sentiment_score": 0.5859
         },
         {
-          "title": "Fox to buy Roku",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48540499",
-          "date": "2026-06-15",
-          "sentiment_score": 0.0
+          "title": "Antiwork: Unemployment for all, not just the rich!",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/antiwork/",
+          "date": "2026-06-20",
+          "sentiment_score": -0.3434
         },
         {
-          "title": "Fox to Acquire Roku in $22B Deal",
+          "title": "Rolls-Royce secures deal to build small nuclear reactors for Sweden",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48540360",
-          "date": "2026-06-15",
-          "sentiment_score": 0.0
+          "url": "https://news.ycombinator.com/item?id=48596612",
+          "date": "2026-06-19",
+          "sentiment_score": 0.3182
         }
       ],
       "sparkline": [
-        0.27,
         0.34,
         0.25,
         0.24,
@@ -1031,29 +1030,30 @@
         -0.08,
         -0.08,
         -0.08,
-        -0.11
+        -0.11,
+        0.34
       ]
     },
     {
       "name": "Tesla",
       "sentiment": {
-        "overall_score": 0.43,
-        "trend": "stable",
-        "previous_score": 0.46,
-        "confidence": "high",
-        "sample_size": 21,
+        "overall_score": -0.05,
+        "trend": "declining",
+        "previous_score": 0.43,
+        "confidence": "medium",
+        "sample_size": 7,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.06,
-            "count": 6
+            "score": -0.05,
+            "count": 7
           },
           "reddit": {
-            "score": 0.73,
-            "count": 15
+            "score": 0,
+            "count": 0
           },
           "gdelt": {
             "score": 0,
@@ -1063,25 +1063,11 @@
       },
       "top_headlines": [
         {
-          "title": "Return to Office policy black- and whitelist.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/ReturntoOffice/",
+          "title": "Tesla HW3 claim grows to 7,000 owners, gets backing for collective action",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48596928",
           "date": "2026-06-19",
-          "sentiment_score": 0.8271
-        },
-        {
-          "title": "fullyremotework",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/fullyremotework/",
-          "date": "2026-06-19",
-          "sentiment_score": 0.5859
-        },
-        {
-          "title": "Antiwork: Unemployment for all, not just the rich!",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/antiwork/",
-          "date": "2026-06-19",
-          "sentiment_score": -0.3434
+          "sentiment_score": 0.0258
         },
         {
           "title": "Tell HN: Musk doesn't \"have\" a Trillion, he has the leverage",
@@ -1091,15 +1077,28 @@
           "sentiment_score": 0.0
         },
         {
-          "title": "OpenAI and Anthropic IPO is the ripoff of this century.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/AIBubble/comments/1u3yw2k/openai_and_anthropic_ipo_is_the_ripoff_of_this/",
-          "date": "2026-06-12",
-          "sentiment_score": 0.9996
+          "title": "Tesla robotaxis stall as Musk's self-driving hype hits real-world traffic",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48486477",
+          "date": "2026-06-11",
+          "sentiment_score": -0.2023
+        },
+        {
+          "title": "Tesla patents camera wiper for self-driving resulting in more doubts FSD owners",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48373526",
+          "date": "2026-06-02",
+          "sentiment_score": -0.3597
+        },
+        {
+          "title": "SpaceX-Tesla merger chatter reignites as Musk pushes rocket company to Nasdaq",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48295347",
+          "date": "2026-05-27",
+          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.53,
         0.47,
         0.45,
         0.45,
@@ -1128,7 +1127,8 @@
         0.0,
         0.01,
         0.46,
-        0.43
+        0.43,
+        -0.05
       ]
     },
     {
@@ -1173,7 +1173,6 @@
         0.0,
         0.0,
         0.0,
-        0.0,
         0.05,
         0.05,
         0.12,
@@ -1197,6 +1196,7 @@
         0.04,
         0.0,
         0.0,
+        0.0,
         0.0
       ]
     },
@@ -1204,8 +1204,8 @@
       "name": "Cisco",
       "sentiment": {
         "overall_score": 0.19,
-        "trend": "improving",
-        "previous_score": 0.13,
+        "trend": "stable",
+        "previous_score": 0.19,
         "confidence": "low",
         "sample_size": 2,
         "source_scores": {
@@ -1244,7 +1244,6 @@
         }
       ],
       "sparkline": [
-        0.11,
         0.15,
         0.15,
         0.06,
@@ -1273,6 +1272,7 @@
         0.13,
         -0.02,
         0.13,
+        0.19,
         0.19
       ]
     }
