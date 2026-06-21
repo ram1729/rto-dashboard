@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-06-21T04:24:16.395668Z",
+  "last_updated": "2026-06-21T14:18:25.742298Z",
   "scraper_log": {
-    "duration_sec": 155.25,
-    "total_articles": 173,
+    "duration_sec": 170.94,
+    "total_articles": 177,
     "errors": []
   },
   "companies": [
@@ -11,7 +11,7 @@
       "sentiment": {
         "overall_score": 0.31,
         "trend": "stable",
-        "previous_score": 0.3,
+        "previous_score": 0.31,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -71,7 +71,6 @@
         }
       ],
       "sparkline": [
-        0.28,
         0.27,
         0.34,
         0.34,
@@ -100,6 +99,7 @@
         0.39,
         0.33,
         0.3,
+        0.31,
         0.31
       ]
     },
@@ -107,8 +107,8 @@
       "name": "Apple",
       "sentiment": {
         "overall_score": -0.03,
-        "trend": "declining",
-        "previous_score": 0.33,
+        "trend": "stable",
+        "previous_score": -0.03,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -168,7 +168,6 @@
         }
       ],
       "sparkline": [
-        0.3,
         0.31,
         0.3,
         0.39,
@@ -197,6 +196,7 @@
         0.02,
         0.34,
         0.33,
+        -0.03,
         -0.03
       ]
     },
@@ -204,8 +204,8 @@
       "name": "Google",
       "sentiment": {
         "overall_score": 0.23,
-        "trend": "improving",
-        "previous_score": 0.11,
+        "trend": "stable",
+        "previous_score": 0.23,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -218,7 +218,7 @@
             "count": 15
           },
           "reddit": {
-            "score": 0.3,
+            "score": 0.31,
             "count": 15
           },
           "gdelt": {
@@ -250,22 +250,21 @@
           "sentiment_score": -0.3434
         },
         {
+          "title": "An alternative ending to the digital circus",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/digitalcircusfandom/comments/1ubbzrp/an_alternative_ending_to_the_digital_circus/",
+          "date": "2026-06-21",
+          "sentiment_score": -0.9615
+        },
+        {
           "title": "Show HN: NetSentinel \u2013 a local network security scanner and connectivity monitor",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=48596331",
           "date": "2026-06-19",
           "sentiment_score": 0.34
-        },
-        {
-          "title": "9 Days in Morocco",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/travel/comments/1ua0p2b/9_days_in_morocco/",
-          "date": "2026-06-19",
-          "sentiment_score": 0.9951
         }
       ],
       "sparkline": [
-        0.16,
         0.13,
         0.13,
         0.13,
@@ -294,6 +293,7 @@
         0.07,
         0.09,
         0.11,
+        0.23,
         0.23
       ]
     },
@@ -302,7 +302,7 @@
       "sentiment": {
         "overall_score": -0.02,
         "trend": "stable",
-        "previous_score": -0.0,
+        "previous_score": -0.02,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -362,7 +362,6 @@
         }
       ],
       "sparkline": [
-        0.46,
         0.37,
         0.37,
         0.37,
@@ -391,6 +390,7 @@
         0.02,
         -0.02,
         -0.0,
+        -0.02,
         -0.02
       ]
     },
@@ -459,7 +459,6 @@
         }
       ],
       "sparkline": [
-        0.36,
         0.31,
         0.37,
         0.32,
@@ -486,6 +485,7 @@
         0.38,
         0.13,
         0.39,
+        0.13,
         0.13,
         0.13,
         0.13
@@ -547,7 +547,7 @@
         0,
         0,
         0,
-        0,
+        0.53,
         0.53,
         0.53,
         0.53,
@@ -591,10 +591,10 @@
       "sparkline": [
         0,
         0,
+        0.32,
+        0.32,
+        0.32,
         0,
-        0.32,
-        0.32,
-        0.32,
         0,
         0,
         0,
@@ -687,7 +687,7 @@
       "sentiment": {
         "overall_score": 0.47,
         "trend": "stable",
-        "previous_score": 0.48,
+        "previous_score": 0.47,
         "confidence": "high",
         "sample_size": 18,
         "source_scores": {
@@ -718,13 +718,6 @@
           "sentiment_score": 0.8271
         },
         {
-          "title": "NoToRTOCa",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/NoToRTOCa/",
-          "date": "2026-06-21",
-          "sentiment_score": -0.4723
-        },
-        {
           "title": "fullyremotework",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/fullyremotework/",
@@ -732,22 +725,28 @@
           "sentiment_score": 0.5859
         },
         {
-          "title": "Remote Job - CrowdStrike - Workflow Automation Engineer",
+          "title": "NoToRTOCa",
           "source": "Reddit",
-          "url": "https://www.reddit.com/r/jobhuntify/comments/1uamqlt/remote_job_crowdstrike_workflow_automation/",
-          "date": "2026-06-20",
-          "sentiment_score": 0.9955
+          "url": "https://www.reddit.com/r/NoToRTOCa/",
+          "date": "2026-06-21",
+          "sentiment_score": -0.4723
         },
         {
-          "title": "Trillions of dollars spent just to work on customer services?",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48596176",
-          "date": "2026-06-19",
-          "sentiment_score": 0.0
+          "title": "Remote Job - Oyster - Director, Demand Generation & Growth Marketing",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/jobhuntify/comments/1ubpbl3/remote_job_oyster_director_demand_generation/",
+          "date": "2026-06-21",
+          "sentiment_score": 0.9997
+        },
+        {
+          "title": "Remote Job - Outreach - Forward Deployed Engineer \u2013 AI Revenue Agents",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/jobhuntify/comments/1ubozpz/remote_job_outreach_forward_deployed_engineer_ai/",
+          "date": "2026-06-21",
+          "sentiment_score": 0.9992
         }
       ],
       "sparkline": [
-        0.47,
         0.47,
         0.39,
         0.39,
@@ -776,15 +775,16 @@
         0.47,
         0.47,
         0.48,
+        0.47,
         0.47
       ]
     },
     {
       "name": "AT&T",
       "sentiment": {
-        "overall_score": -0.08,
+        "overall_score": -0.1,
         "trend": "stable",
-        "previous_score": -0.06,
+        "previous_score": -0.08,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -793,7 +793,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.08,
+            "score": -0.1,
             "count": 15
           },
           "reddit": {
@@ -808,16 +808,16 @@
       },
       "top_headlines": [
         {
+          "title": "VPN ban update for UK households as government looks at 'age-gate'",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48609385",
+          "date": "2026-06-20",
+          "sentiment_score": -0.5574
+        },
+        {
           "title": "There are no instances in ATProto",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=48599515",
-          "date": "2026-06-19",
-          "sentiment_score": -0.296
-        },
-        {
-          "title": "A new bill takes aim at government pressure to silence lawful online speech",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48600950",
           "date": "2026-06-19",
           "sentiment_score": -0.296
         },
@@ -844,7 +844,6 @@
         }
       ],
       "sparkline": [
-        -0.02,
         -0.06,
         0.01,
         -0.07,
@@ -873,7 +872,8 @@
         -0.02,
         -0.04,
         -0.06,
-        -0.08
+        -0.08,
+        -0.1
       ]
     },
     {
@@ -909,7 +909,6 @@
         0.31,
         0.31,
         0.31,
-        0.31,
         0.16,
         0.16,
         0.03,
@@ -934,15 +933,16 @@
         0,
         0,
         0,
+        0,
         0
       ]
     },
     {
       "name": "Dell",
       "sentiment": {
-        "overall_score": -0.11,
-        "trend": "declining",
-        "previous_score": 0.34,
+        "overall_score": -0.08,
+        "trend": "stable",
+        "previous_score": -0.11,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -951,7 +951,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.11,
+            "score": -0.08,
             "count": 15
           },
           "reddit": {
@@ -1002,7 +1002,6 @@
         }
       ],
       "sparkline": [
-        0.25,
         0.24,
         0.26,
         0.24,
@@ -1031,15 +1030,16 @@
         -0.08,
         -0.11,
         0.34,
-        -0.11
+        -0.11,
+        -0.08
       ]
     },
     {
       "name": "Tesla",
       "sentiment": {
         "overall_score": -0.21,
-        "trend": "declining",
-        "previous_score": -0.05,
+        "trend": "stable",
+        "previous_score": -0.21,
         "confidence": "medium",
         "sample_size": 5,
         "source_scores": {
@@ -1102,7 +1102,6 @@
         0.45,
         0.45,
         0.45,
-        0.45,
         0.44,
         0.44,
         0.45,
@@ -1128,17 +1127,18 @@
         0.46,
         0.43,
         -0.05,
+        -0.21,
         -0.21
       ]
     },
     {
       "name": "Caterpillar",
       "sentiment": {
-        "overall_score": 0.0,
-        "trend": "stable",
+        "overall_score": 0.12,
+        "trend": "improving",
         "previous_score": 0.0,
-        "confidence": "low",
-        "sample_size": 1,
+        "confidence": "high",
+        "sample_size": 16,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -1149,8 +1149,8 @@
             "count": 1
           },
           "reddit": {
-            "score": 0,
-            "count": 0
+            "score": 0.18,
+            "count": 15
           },
           "gdelt": {
             "score": 0,
@@ -1160,15 +1160,42 @@
       },
       "top_headlines": [
         {
-          "title": "Show HN: I made Pok\u00e9mon but with real animals in the real world",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48270848",
-          "date": "2026-05-25",
-          "sentiment_score": 0.0
+          "title": "Return to Office policy black- and whitelist.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/ReturntoOffice/",
+          "date": "2026-06-21",
+          "sentiment_score": 0.8271
+        },
+        {
+          "title": "fullyremotework",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/fullyremotework/",
+          "date": "2026-06-21",
+          "sentiment_score": 0.5859
+        },
+        {
+          "title": "NoToRTOCa",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/NoToRTOCa/",
+          "date": "2026-06-21",
+          "sentiment_score": -0.4723
+        },
+        {
+          "title": "A sci-fi short story I am working on",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/writingcritiques/comments/1ub1qeu/a_scifi_short_story_i_am_working_on/",
+          "date": "2026-06-20",
+          "sentiment_score": 0.8996
+        },
+        {
+          "title": "Asthma symptoms only in enclosed indoor spaces at home \u2013 completely fine outdoors. Severe reaction after allergen exposure. Has anyone experienced this pattern?",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/Asthma/comments/1u7lob1/asthma_symptoms_only_in_enclosed_indoor_spaces_at/",
+          "date": "2026-06-16",
+          "sentiment_score": 0.9795
         }
       ],
       "sparkline": [
-        0.0,
         0.0,
         0.0,
         0.0,
@@ -1197,17 +1224,18 @@
         0.0,
         0.0,
         0.0,
-        0.0
+        0.0,
+        0.12
       ]
     },
     {
       "name": "Cisco",
       "sentiment": {
-        "overall_score": 0.05,
-        "trend": "declining",
-        "previous_score": 0.19,
-        "confidence": "high",
-        "sample_size": 13,
+        "overall_score": 0.19,
+        "trend": "improving",
+        "previous_score": 0.05,
+        "confidence": "low",
+        "sample_size": 2,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -1218,8 +1246,8 @@
             "count": 2
           },
           "reddit": {
-            "score": -0.03,
-            "count": 11
+            "score": 0,
+            "count": 0
           },
           "gdelt": {
             "score": 0,
@@ -1229,43 +1257,21 @@
       },
       "top_headlines": [
         {
-          "title": "Return to Office policy black- and whitelist.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-06-21",
-          "sentiment_score": 0.8271
+          "title": "Cisco rolls out software tools to protect IT systems from AI agents",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48370220",
+          "date": "2026-06-02",
+          "sentiment_score": 0.3818
         },
         {
-          "title": "NoToRTOCa",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/NoToRTOCa/",
-          "date": "2026-06-21",
-          "sentiment_score": -0.4723
-        },
-        {
-          "title": "fullyremotework",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/fullyremotework/",
-          "date": "2026-06-21",
-          "sentiment_score": 0.5859
-        },
-        {
-          "title": "Avoid this study",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/ProlificAc/comments/1u7p0r9/avoid_this_study/",
-          "date": "2026-06-16",
-          "sentiment_score": -0.3987
-        },
-        {
-          "title": "TRB: Arrowverse Season by Season Review 2: Arrow Season 2",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/ArrowVDisscussions/comments/1u6jdtm/trb_arrowverse_season_by_season_review_2_arrow/",
-          "date": "2026-06-15",
-          "sentiment_score": -0.9969
+          "title": "Anyone seen a CC- serial prefix on legacy networking hardware?",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48342117",
+          "date": "2026-05-31",
+          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.15,
         0.06,
         0.06,
         0.06,
@@ -1294,7 +1300,8 @@
         0.13,
         0.19,
         0.19,
-        0.05
+        0.05,
+        0.19
       ]
     }
   ]
