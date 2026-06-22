@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-06-22T04:24:31.239888Z",
+  "last_updated": "2026-06-22T17:06:24.653977Z",
   "scraper_log": {
-    "duration_sec": 223.29,
-    "total_articles": 193,
+    "duration_sec": 204.33,
+    "total_articles": 178,
     "errors": []
   },
   "companies": [
@@ -10,8 +10,8 @@
       "name": "Amazon",
       "sentiment": {
         "overall_score": 0.37,
-        "trend": "improving",
-        "previous_score": 0.31,
+        "trend": "stable",
+        "previous_score": 0.37,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -73,7 +73,6 @@
       "sparkline": [
         0.34,
         0.34,
-        0.34,
         0.42,
         0.39,
         0.39,
@@ -100,17 +99,18 @@
         0.3,
         0.31,
         0.31,
+        0.37,
         0.37
       ]
     },
     {
       "name": "Apple",
       "sentiment": {
-        "overall_score": 0.26,
-        "trend": "improving",
-        "previous_score": -0.03,
+        "overall_score": 0.02,
+        "trend": "declining",
+        "previous_score": 0.26,
         "confidence": "high",
-        "sample_size": 30,
+        "sample_size": 15,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -121,8 +121,8 @@
             "count": 15
           },
           "reddit": {
-            "score": 0.4,
-            "count": 15
+            "score": 0,
+            "count": 0
           },
           "gdelt": {
             "score": 0,
@@ -131,27 +131,6 @@
         }
       },
       "top_headlines": [
-        {
-          "title": "Return to Office policy black- and whitelist.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-06-22",
-          "sentiment_score": 0.8271
-        },
-        {
-          "title": "PowerPoint Presentation Tips and Examples",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/powerpoint/",
-          "date": "2026-06-22",
-          "sentiment_score": 0.6369
-        },
-        {
-          "title": "r/Apple: Unofficial Apple Community",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/apple/",
-          "date": "2026-06-22",
-          "sentiment_score": 0.0
-        },
         {
           "title": "Show HN: Tracking iCal feed latency across O365/Google/Apple",
           "source": "Hacker News",
@@ -165,10 +144,30 @@
           "url": "https://news.ycombinator.com/item?id=48577259",
           "date": "2026-06-17",
           "sentiment_score": 0.0
+        },
+        {
+          "title": "Show HN: Noject \u2013 menubar app to stop drive ejections on macOS",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48569320",
+          "date": "2026-06-17",
+          "sentiment_score": -0.296
+        },
+        {
+          "title": "See Anthropic Orchestrate the Narrative",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48540028",
+          "date": "2026-06-15",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Show HN: I ported 11 model families to Apple's new on-device AI framework",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48501723",
+          "date": "2026-06-12",
+          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.3,
         0.39,
         0.39,
         0.38,
@@ -197,15 +196,16 @@
         0.33,
         -0.03,
         -0.03,
-        0.26
+        0.26,
+        0.02
       ]
     },
     {
       "name": "Google",
       "sentiment": {
         "overall_score": 0.13,
-        "trend": "declining",
-        "previous_score": 0.23,
+        "trend": "stable",
+        "previous_score": 0.13,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -266,7 +266,6 @@
       ],
       "sparkline": [
         0.13,
-        0.13,
         0.12,
         0.12,
         0.12,
@@ -294,6 +293,7 @@
         0.11,
         0.23,
         0.23,
+        0.13,
         0.13
       ]
     },
@@ -366,7 +366,6 @@
         0.37,
         0.37,
         0.37,
-        0.37,
         0.47,
         0.47,
         0.47,
@@ -391,6 +390,7 @@
         -0.0,
         -0.02,
         -0.02,
+        -0.02,
         -0.02
       ]
     },
@@ -399,7 +399,7 @@
       "sentiment": {
         "overall_score": 0.11,
         "trend": "stable",
-        "previous_score": 0.13,
+        "previous_score": 0.11,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -459,7 +459,6 @@
         }
       ],
       "sparkline": [
-        0.37,
         0.32,
         0.34,
         0.34,
@@ -488,6 +487,7 @@
         0.13,
         0.13,
         0.13,
+        0.11,
         0.11
       ]
     },
@@ -545,7 +545,7 @@
         0,
         0,
         0,
-        0,
+        0.53,
         0.53,
         0.53,
         0.53,
@@ -589,10 +589,10 @@
       },
       "top_headlines": [],
       "sparkline": [
+        0.32,
+        0.32,
+        0.32,
         0,
-        0.32,
-        0.32,
-        0.32,
         0,
         0,
         0,
@@ -687,7 +687,7 @@
       "sentiment": {
         "overall_score": 0.48,
         "trend": "stable",
-        "previous_score": 0.47,
+        "previous_score": 0.48,
         "confidence": "high",
         "sample_size": 19,
         "source_scores": {
@@ -718,18 +718,18 @@
           "sentiment_score": 0.8271
         },
         {
-          "title": "NoToRTOCa",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/NoToRTOCa/",
-          "date": "2026-06-22",
-          "sentiment_score": -0.4723
-        },
-        {
           "title": "fullyremotework",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/fullyremotework/",
           "date": "2026-06-22",
           "sentiment_score": 0.5859
+        },
+        {
+          "title": "NoToRTOCa",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/NoToRTOCa/",
+          "date": "2026-06-22",
+          "sentiment_score": -0.4723
         },
         {
           "title": "Process Street vs DIY research for cora AI compliance agent regulation",
@@ -747,7 +747,6 @@
         }
       ],
       "sparkline": [
-        0.39,
         0.39,
         0.38,
         0.38,
@@ -776,6 +775,7 @@
         0.48,
         0.47,
         0.47,
+        0.48,
         0.48
       ]
     },
@@ -783,8 +783,8 @@
       "name": "AT&T",
       "sentiment": {
         "overall_score": 0.01,
-        "trend": "improving",
-        "previous_score": -0.1,
+        "trend": "stable",
+        "previous_score": 0.01,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -844,7 +844,6 @@
         }
       ],
       "sparkline": [
-        0.01,
         -0.07,
         -0.04,
         -0.0,
@@ -873,6 +872,7 @@
         -0.06,
         -0.08,
         -0.1,
+        0.01,
         0.01
       ]
     },
@@ -907,7 +907,6 @@
       "sparkline": [
         0.31,
         0.31,
-        0.31,
         0.16,
         0.16,
         0.03,
@@ -929,6 +928,7 @@
         0,
         0,
         -0.09,
+        0,
         0,
         0,
         0,
@@ -1002,7 +1002,6 @@
         }
       ],
       "sparkline": [
-        0.26,
         0.24,
         0.24,
         0.24,
@@ -1031,25 +1030,26 @@
         0.34,
         -0.11,
         -0.08,
+        -0.08,
         -0.08
       ]
     },
     {
       "name": "Tesla",
       "sentiment": {
-        "overall_score": -0.18,
+        "overall_score": -0.15,
         "trend": "stable",
-        "previous_score": -0.21,
+        "previous_score": -0.18,
         "confidence": "medium",
-        "sample_size": 6,
+        "sample_size": 9,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.18,
-            "count": 6
+            "score": -0.15,
+            "count": 9
           },
           "reddit": {
             "score": 0,
@@ -1062,6 +1062,20 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Tata Electronics cyber breach claiming to expose Apple, Tesla trade secrets",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48632833",
+          "date": "2026-06-22",
+          "sentiment_score": -0.1531
+        },
+        {
+          "title": "Tata Electronics cyber breach claiming to expose Apple, Tesla trade secrets",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48632037",
+          "date": "2026-06-22",
+          "sentiment_score": -0.1531
+        },
         {
           "title": "Tesla plans to sell modular AI data center hardware called 'Megapod'",
           "source": "Hacker News",
@@ -1077,29 +1091,14 @@
           "sentiment_score": -0.6705
         },
         {
-          "title": "Tesla robotaxis stall as Musk's self-driving hype hits real-world traffic",
+          "title": "Tesla presented misleading 'Full Self-Driving' safety data to European regulator",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48486477",
-          "date": "2026-06-11",
-          "sentiment_score": -0.2023
-        },
-        {
-          "title": "Tesla patents camera wiper for self-driving resulting in more doubts FSD owners",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48373526",
-          "date": "2026-06-02",
-          "sentiment_score": -0.3597
-        },
-        {
-          "title": "SpaceX-Tesla merger chatter reignites as Musk pushes rocket company to Nasdaq",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48295347",
-          "date": "2026-05-27",
-          "sentiment_score": 0.0
+          "url": "https://news.ycombinator.com/item?id=48540428",
+          "date": "2026-06-15",
+          "sentiment_score": 0.0258
         }
       ],
       "sparkline": [
-        0.45,
         0.45,
         0.44,
         0.44,
@@ -1128,17 +1127,18 @@
         -0.05,
         -0.21,
         -0.21,
-        -0.18
+        -0.18,
+        -0.15
       ]
     },
     {
       "name": "Caterpillar",
       "sentiment": {
-        "overall_score": 0.16,
-        "trend": "stable",
-        "previous_score": 0.12,
-        "confidence": "high",
-        "sample_size": 15,
+        "overall_score": 0.0,
+        "trend": "declining",
+        "previous_score": 0.16,
+        "confidence": "low",
+        "sample_size": 1,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -1149,8 +1149,77 @@
             "count": 1
           },
           "reddit": {
-            "score": 0.26,
-            "count": 14
+            "score": 0,
+            "count": 0
+          },
+          "gdelt": {
+            "score": 0,
+            "count": 0
+          }
+        }
+      },
+      "top_headlines": [
+        {
+          "title": "Show HN: I made Pok\u00e9mon but with real animals in the real world",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48270848",
+          "date": "2026-05-25",
+          "sentiment_score": 0.0
+        }
+      ],
+      "sparkline": [
+        0.0,
+        0.05,
+        0.05,
+        0.12,
+        0.2,
+        0.2,
+        0.2,
+        0.12,
+        0.12,
+        0.2,
+        0.2,
+        0.12,
+        0.12,
+        0.12,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.04,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.12,
+        0.16,
+        0.0
+      ]
+    },
+    {
+      "name": "Cisco",
+      "sentiment": {
+        "overall_score": 0.05,
+        "trend": "declining",
+        "previous_score": 0.19,
+        "confidence": "high",
+        "sample_size": 13,
+        "source_scores": {
+          "google_news": {
+            "score": 0,
+            "count": 0
+          },
+          "hackernews": {
+            "score": 0.19,
+            "count": 2
+          },
+          "reddit": {
+            "score": -0.03,
+            "count": 11
           },
           "gdelt": {
             "score": 0,
@@ -1181,98 +1250,21 @@
           "sentiment_score": -0.4723
         },
         {
-          "title": "A sci-fi short story I am working on",
+          "title": "Avoid this study",
           "source": "Reddit",
-          "url": "https://www.reddit.com/r/writingcritiques/comments/1ub1qeu/a_scifi_short_story_i_am_working_on/",
-          "date": "2026-06-20",
-          "sentiment_score": 0.8996
-        },
-        {
-          "title": "Asthma symptoms only in enclosed indoor spaces at home \u2013 completely fine outdoors. Severe reaction after allergen exposure. Has anyone experienced this pattern?",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/Asthma/comments/1u7lob1/asthma_symptoms_only_in_enclosed_indoor_spaces_at/",
+          "url": "https://www.reddit.com/r/ProlificAc/comments/1u7p0r9/avoid_this_study/",
           "date": "2026-06-16",
-          "sentiment_score": 0.9795
-        }
-      ],
-      "sparkline": [
-        0.0,
-        0.0,
-        0.05,
-        0.05,
-        0.12,
-        0.2,
-        0.2,
-        0.2,
-        0.12,
-        0.12,
-        0.2,
-        0.2,
-        0.12,
-        0.12,
-        0.12,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.04,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.12,
-        0.16
-      ]
-    },
-    {
-      "name": "Cisco",
-      "sentiment": {
-        "overall_score": 0.19,
-        "trend": "stable",
-        "previous_score": 0.19,
-        "confidence": "low",
-        "sample_size": 2,
-        "source_scores": {
-          "google_news": {
-            "score": 0,
-            "count": 0
-          },
-          "hackernews": {
-            "score": 0.19,
-            "count": 2
-          },
-          "reddit": {
-            "score": 0,
-            "count": 0
-          },
-          "gdelt": {
-            "score": 0,
-            "count": 0
-          }
-        }
-      },
-      "top_headlines": [
-        {
-          "title": "Cisco rolls out software tools to protect IT systems from AI agents",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48370220",
-          "date": "2026-06-02",
-          "sentiment_score": 0.3818
+          "sentiment_score": -0.3987
         },
         {
-          "title": "Anyone seen a CC- serial prefix on legacy networking hardware?",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48342117",
-          "date": "2026-05-31",
-          "sentiment_score": 0.0
+          "title": "TRB: Arrowverse Season by Season Review 2: Arrow Season 2",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/ArrowVDisscussions/comments/1u6jdtm/trb_arrowverse_season_by_season_review_2_arrow/",
+          "date": "2026-06-15",
+          "sentiment_score": -0.9969
         }
       ],
       "sparkline": [
-        0.06,
         0.06,
         0.06,
         0.06,
@@ -1301,7 +1293,8 @@
         0.19,
         0.05,
         0.19,
-        0.19
+        0.19,
+        0.05
       ]
     }
   ]
