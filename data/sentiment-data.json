@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-06-23T14:56:20.379333Z",
+  "last_updated": "2026-06-24T03:45:09.405406Z",
   "scraper_log": {
-    "duration_sec": 174.14,
-    "total_articles": 177,
+    "duration_sec": 251.33,
+    "total_articles": 194,
     "errors": []
   },
   "companies": [
     {
       "name": "Amazon",
       "sentiment": {
-        "overall_score": 0.4,
+        "overall_score": 0.42,
         "trend": "stable",
-        "previous_score": 0.37,
+        "previous_score": 0.4,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -20,7 +20,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.06,
+            "score": 0.11,
             "count": 15
           },
           "reddit": {
@@ -38,21 +38,21 @@
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-06-23",
+          "date": "2026-06-24",
           "sentiment_score": 0.8271
         },
         {
           "title": "Look Up",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/superman/",
-          "date": "2026-06-23",
+          "date": "2026-06-24",
           "sentiment_score": 0.0
         },
         {
           "title": "Amazon",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/amazon/",
-          "date": "2026-06-23",
+          "date": "2026-06-24",
           "sentiment_score": 0.5255
         },
         {
@@ -71,7 +71,6 @@
         }
       ],
       "sparkline": [
-        0.34,
         0.42,
         0.39,
         0.39,
@@ -100,17 +99,18 @@
         0.31,
         0.37,
         0.37,
-        0.4
+        0.4,
+        0.42
       ]
     },
     {
       "name": "Apple",
       "sentiment": {
-        "overall_score": 0.02,
-        "trend": "stable",
+        "overall_score": 0.35,
+        "trend": "improving",
         "previous_score": 0.02,
         "confidence": "high",
-        "sample_size": 15,
+        "sample_size": 30,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -121,8 +121,8 @@
             "count": 15
           },
           "reddit": {
-            "score": 0,
-            "count": 0
+            "score": 0.54,
+            "count": 15
           },
           "gdelt": {
             "score": 0,
@@ -132,43 +132,42 @@
       },
       "top_headlines": [
         {
+          "title": "Return to Office policy black- and whitelist.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/ReturntoOffice/",
+          "date": "2026-06-24",
+          "sentiment_score": 0.8271
+        },
+        {
+          "title": "PowerPoint Presentation Tips and Examples",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/powerpoint/",
+          "date": "2026-06-24",
+          "sentiment_score": 0.6369
+        },
+        {
+          "title": "r/Apple: Unofficial Apple Community",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/apple/",
+          "date": "2026-06-24",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "NYT Article: The Secret Reason Bosses Want Everyone Back in the Office, Every Day of the Week (It's not productivity)",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/Accounting/comments/1ucmr8a/nyt_article_the_secret_reason_bosses_want/",
+          "date": "2026-06-22",
+          "sentiment_score": 0.9982
+        },
+        {
           "title": "Show HN: Tracking iCal feed latency across O365/Google/Apple",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=48596526",
           "date": "2026-06-19",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Show HN: I built a spelling app for kids with my 7-year-old",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48577259",
-          "date": "2026-06-17",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "Show HN: Noject \u2013 menubar app to stop drive ejections on macOS",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48569320",
-          "date": "2026-06-17",
-          "sentiment_score": -0.296
-        },
-        {
-          "title": "See Anthropic Orchestrate the Narrative",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48540028",
-          "date": "2026-06-15",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "Show HN: I ported 11 model families to Apple's new on-device AI framework",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48501723",
-          "date": "2026-06-12",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.39,
         0.38,
         0.34,
         0.34,
@@ -197,7 +196,8 @@
         -0.03,
         0.26,
         0.02,
-        0.02
+        0.02,
+        0.35
       ]
     },
     {
@@ -267,7 +267,6 @@
       "sparkline": [
         0.12,
         0.12,
-        0.12,
         0.18,
         0.18,
         0.1,
@@ -294,15 +293,16 @@
         0.23,
         0.13,
         0.13,
+        0.13,
         0.13
       ]
     },
     {
       "name": "Meta",
       "sentiment": {
-        "overall_score": 0.41,
-        "trend": "improving",
-        "previous_score": -0.02,
+        "overall_score": 0.4,
+        "trend": "stable",
+        "previous_score": 0.41,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -311,7 +311,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.02,
+            "score": -0.06,
             "count": 15
           },
           "reddit": {
@@ -326,24 +326,31 @@
       },
       "top_headlines": [
         {
+          "title": "'The Worst It's Ever Been': Why Meta's AI Reorg Backfired Spectacularly",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48653507",
+          "date": "2026-06-24",
+          "sentiment_score": -0.6249
+        },
+        {
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-06-23",
+          "date": "2026-06-24",
           "sentiment_score": 0.8271
         },
         {
           "title": "Bloodborne",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/bloodborne/",
-          "date": "2026-06-23",
+          "date": "2026-06-24",
           "sentiment_score": 0.4588
         },
         {
           "title": "Legal Advice ~ A place to get simple legal advice*",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/legaladvice/",
-          "date": "2026-06-23",
+          "date": "2026-06-24",
           "sentiment_score": 0.3612
         },
         {
@@ -352,17 +359,9 @@
           "url": "https://news.ycombinator.com/item?id=48632909",
           "date": "2026-06-22",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Meta's Threads Reaches 500M Monthly Users, Rolls Out New Features",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48609581",
-          "date": "2026-06-20",
-          "sentiment_score": 0.0516
         }
       ],
       "sparkline": [
-        0.37,
         0.37,
         0.37,
         0.47,
@@ -391,7 +390,8 @@
         -0.02,
         -0.02,
         -0.02,
-        0.41
+        0.41,
+        0.4
       ]
     },
     {
@@ -399,7 +399,7 @@
       "sentiment": {
         "overall_score": 0.08,
         "trend": "stable",
-        "previous_score": 0.11,
+        "previous_score": 0.08,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -423,6 +423,13 @@
       },
       "top_headlines": [
         {
+          "title": "Access begins rollout of Big Forms for Modern Monitors feature",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48647326",
+          "date": "2026-06-23",
+          "sentiment_score": 0.0
+        },
+        {
           "title": "How a secret Microsoft tool fixed Windows Performance",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=48582169",
@@ -435,13 +442,6 @@
           "url": "https://news.ycombinator.com/item?id=48572337",
           "date": "2026-06-17",
           "sentiment_score": 0.3182
-        },
-        {
-          "title": "Show HN: A policy gate that runs before your AI coding agent's tool calls",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48558502",
-          "date": "2026-06-16",
-          "sentiment_score": 0.0
         },
         {
           "title": "Bundling of Microsoft Windows",
@@ -459,7 +459,6 @@
         }
       ],
       "sparkline": [
-        0.34,
         0.34,
         0.32,
         0.32,
@@ -488,6 +487,7 @@
         0.13,
         0.11,
         0.11,
+        0.08,
         0.08
       ]
     },
@@ -543,7 +543,7 @@
         0,
         0,
         0,
-        0,
+        0.53,
         0.53,
         0.53,
         0.53,
@@ -590,7 +590,7 @@
       "top_headlines": [],
       "sparkline": [
         0.32,
-        0.32,
+        0,
         0,
         0,
         0,
@@ -685,11 +685,11 @@
     {
       "name": "Salesforce",
       "sentiment": {
-        "overall_score": -0.07,
-        "trend": "declining",
-        "previous_score": 0.48,
-        "confidence": "low",
-        "sample_size": 4,
+        "overall_score": 0.48,
+        "trend": "improving",
+        "previous_score": -0.07,
+        "confidence": "high",
+        "sample_size": 19,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -700,8 +700,8 @@
             "count": 4
           },
           "reddit": {
-            "score": 0,
-            "count": 0
+            "score": 0.81,
+            "count": 15
           },
           "gdelt": {
             "score": 0,
@@ -711,36 +711,42 @@
       },
       "top_headlines": [
         {
-          "title": "Trillions of dollars spent just to work on customer services?",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48596176",
-          "date": "2026-06-19",
-          "sentiment_score": 0.0
+          "title": "Return to Office policy black- and whitelist.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/ReturntoOffice/",
+          "date": "2026-06-24",
+          "sentiment_score": 0.8271
         },
         {
-          "title": "Salesforce to Acquire Fin (formerly Intercom) for $3.6B",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48540126",
-          "date": "2026-06-15",
-          "sentiment_score": 0.0
+          "title": "NoToRTOCa",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/NoToRTOCa/",
+          "date": "2026-06-24",
+          "sentiment_score": -0.4723
         },
         {
-          "title": "Salesforce lays off employees in a new round of cuts",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48471384",
-          "date": "2026-06-10",
-          "sentiment_score": -0.296
+          "title": "fullyremotework",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/fullyremotework/",
+          "date": "2026-06-24",
+          "sentiment_score": 0.5859
         },
         {
-          "title": "Launch HN: Chert (YC P26) \u2013 Twilio for iMessage",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48267829",
-          "date": "2026-05-25",
-          "sentiment_score": 0.0
+          "title": "This Week's Top E-commerce News Stories \ud83d\udca5 June 22nd, 2026 Shopify General Discussion",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/shopify/comments/1ucyh0w/this_weeks_top_ecommerce_news_stories_june_22nd/",
+          "date": "2026-06-22",
+          "sentiment_score": 0.9997
+        },
+        {
+          "title": "E-commerce Industry News Recap \ud83d\udd25 Week of June 22nd, 2026",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/ecommerce/comments/1ucyd3n/ecommerce_industry_news_recap_week_of_june_22nd/",
+          "date": "2026-06-22",
+          "sentiment_score": 0.9997
         }
       ],
       "sparkline": [
-        0.38,
         0.38,
         0.39,
         0.38,
@@ -769,17 +775,18 @@
         0.47,
         0.48,
         0.48,
-        -0.07
+        -0.07,
+        0.48
       ]
     },
     {
       "name": "AT&T",
       "sentiment": {
-        "overall_score": 0.03,
-        "trend": "stable",
-        "previous_score": 0.01,
+        "overall_score": -0.1,
+        "trend": "declining",
+        "previous_score": 0.03,
         "confidence": "high",
-        "sample_size": 30,
+        "sample_size": 15,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -790,8 +797,8 @@
             "count": 15
           },
           "reddit": {
-            "score": 0.1,
-            "count": 15
+            "score": 0,
+            "count": 0
           },
           "gdelt": {
             "score": 0,
@@ -801,20 +808,6 @@
       },
       "top_headlines": [
         {
-          "title": "To the woman that called me an animal abuser at Trader Joe\u2019s",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1udfv0q/to_the_woman_that_called_me_an_animal_abuser_at/",
-          "date": "2026-06-23",
-          "sentiment_score": -0.3987
-        },
-        {
-          "title": "My wife's boss has been texting her all day while we're at Disney",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1ubxfjb/my_wifes_boss_has_been_texting_her_all_day_while/",
-          "date": "2026-06-21",
-          "sentiment_score": 0.7588
-        },
-        {
           "title": "VPN ban update for UK households as government looks at 'age-gate'",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=48609385",
@@ -822,22 +815,35 @@
           "sentiment_score": -0.5574
         },
         {
-          "title": "This is crazy but not surprising at all if actually true",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/SipsTea/comments/1ub39l6/this_is_crazy_but_not_surprising_at_all_if/",
-          "date": "2026-06-20",
-          "sentiment_score": -0.1187
-        },
-        {
           "title": "There are no instances in ATProto",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=48599515",
           "date": "2026-06-19",
           "sentiment_score": -0.296
+        },
+        {
+          "title": "Hospitals and universities repurposing drugs at lower cost",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48583386",
+          "date": "2026-06-18",
+          "sentiment_score": -0.296
+        },
+        {
+          "title": "AI coding at home without going broke",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48518969",
+          "date": "2026-06-13",
+          "sentiment_score": 0.3252
+        },
+        {
+          "title": "If you are asking for human attention, demonstrate human effort",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48497609",
+          "date": "2026-06-11",
+          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        -0.04,
         -0.0,
         0.0,
         -0.0,
@@ -866,17 +872,18 @@
         -0.1,
         0.01,
         0.01,
-        0.03
+        0.03,
+        -0.1
       ]
     },
     {
       "name": "Disney",
       "sentiment": {
-        "overall_score": 0,
-        "trend": "stable",
+        "overall_score": -0.09,
+        "trend": "declining",
         "previous_score": 0,
-        "confidence": "low",
-        "sample_size": 0,
+        "confidence": "high",
+        "sample_size": 15,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -887,8 +894,8 @@
             "count": 0
           },
           "reddit": {
-            "score": 0,
-            "count": 0
+            "score": -0.09,
+            "count": 15
           },
           "gdelt": {
             "score": 0,
@@ -896,9 +903,44 @@
           }
         }
       },
-      "top_headlines": [],
+      "top_headlines": [
+        {
+          "title": "Return to Office policy black- and whitelist.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/ReturntoOffice/",
+          "date": "2026-06-24",
+          "sentiment_score": 0.8271
+        },
+        {
+          "title": "The Book of Boba Fett",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/BookOfBobaFett/",
+          "date": "2026-06-24",
+          "sentiment_score": -0.5848
+        },
+        {
+          "title": "Box Office - The Business of Movies",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/boxoffice/",
+          "date": "2026-06-24",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "[Loved Trope] Scary Fairies",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/TopCharacterTropes/comments/1ubdveb/loved_trope_scary_fairies/",
+          "date": "2026-06-21",
+          "sentiment_score": -0.9952
+        },
+        {
+          "title": "r/BoxOffice Long Range Forecast: 'The Odyssey'",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/boxoffice/comments/1u8cqm3/rboxoffice_long_range_forecast_the_odyssey/",
+          "date": "2026-06-17",
+          "sentiment_score": 0.9982
+        }
+      ],
       "sparkline": [
-        0.31,
         0.16,
         0.16,
         0.03,
@@ -927,7 +969,8 @@
         0,
         0,
         0,
-        0
+        0,
+        -0.09
       ]
     },
     {
@@ -996,7 +1039,6 @@
       ],
       "sparkline": [
         0.24,
-        0.24,
         0.26,
         0.3,
         0.34,
@@ -1024,6 +1066,7 @@
         -0.08,
         -0.08,
         -0.08,
+        -0.08,
         -0.08
       ]
     },
@@ -1031,8 +1074,8 @@
       "name": "Tesla",
       "sentiment": {
         "overall_score": -0.2,
-        "trend": "declining",
-        "previous_score": -0.15,
+        "trend": "stable",
+        "previous_score": -0.2,
         "confidence": "medium",
         "sample_size": 6,
         "source_scores": {
@@ -1093,7 +1136,6 @@
       ],
       "sparkline": [
         0.44,
-        0.44,
         0.45,
         0.45,
         0.45,
@@ -1121,6 +1163,7 @@
         -0.21,
         -0.18,
         -0.15,
+        -0.2,
         -0.2
       ]
     },
@@ -1162,7 +1205,6 @@
       ],
       "sparkline": [
         0.05,
-        0.05,
         0.12,
         0.2,
         0.2,
@@ -1190,17 +1232,18 @@
         0.12,
         0.16,
         0.0,
+        0.0,
         0.0
       ]
     },
     {
       "name": "Cisco",
       "sentiment": {
-        "overall_score": 0.02,
-        "trend": "stable",
-        "previous_score": 0.05,
-        "confidence": "high",
-        "sample_size": 15,
+        "overall_score": 0.19,
+        "trend": "improving",
+        "previous_score": 0.02,
+        "confidence": "low",
+        "sample_size": 2,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -1211,8 +1254,8 @@
             "count": 2
           },
           "reddit": {
-            "score": -0.08,
-            "count": 13
+            "score": 0,
+            "count": 0
           },
           "gdelt": {
             "score": 0,
@@ -1222,43 +1265,21 @@
       },
       "top_headlines": [
         {
-          "title": "Return to Office policy black- and whitelist.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-06-23",
-          "sentiment_score": 0.8271
+          "title": "Cisco rolls out software tools to protect IT systems from AI agents",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48370220",
+          "date": "2026-06-02",
+          "sentiment_score": 0.3818
         },
         {
-          "title": "fullyremotework",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/fullyremotework/",
-          "date": "2026-06-23",
-          "sentiment_score": 0.5859
-        },
-        {
-          "title": "NoToRTOCa",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/NoToRTOCa/",
-          "date": "2026-06-23",
-          "sentiment_score": -0.4723
-        },
-        {
-          "title": "The Lincoln Lawyer | S03E07 \"Relevance\" | [REVIEW]",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/TheLincolnLawyer/comments/1ud7noh/the_lincoln_lawyer_s03e07_relevance_review/",
-          "date": "2026-06-23",
-          "sentiment_score": -0.8168
-        },
-        {
-          "title": "The Lincoln Lawyer | S03E07 \"Relevance\" | [REVIEW]",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/screen_stack/comments/1ud7n87/the_lincoln_lawyer_s03e07_relevance_review/",
-          "date": "2026-06-23",
+          "title": "Anyone seen a CC- serial prefix on legacy networking hardware?",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48342117",
+          "date": "2026-05-31",
           "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.06,
         0.06,
         0.06,
         0.06,
@@ -1287,7 +1308,8 @@
         0.19,
         0.19,
         0.05,
-        0.02
+        0.02,
+        0.19
       ]
     }
   ]
