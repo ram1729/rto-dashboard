@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-06-26T03:50:09.461661Z",
+  "last_updated": "2026-06-26T14:33:56.482430Z",
   "scraper_log": {
-    "duration_sec": 213.54,
-    "total_articles": 178,
+    "duration_sec": 246.85,
+    "total_articles": 193,
     "errors": []
   },
   "companies": [
@@ -72,7 +72,6 @@
       ],
       "sparkline": [
         0.39,
-        0.39,
         0.41,
         0.41,
         0.41,
@@ -100,17 +99,18 @@
         0.42,
         0.42,
         0.4,
+        0.4,
         0.4
       ]
     },
     {
       "name": "Apple",
       "sentiment": {
-        "overall_score": -0.03,
-        "trend": "declining",
-        "previous_score": 0.32,
+        "overall_score": 0.25,
+        "trend": "improving",
+        "previous_score": -0.03,
         "confidence": "high",
-        "sample_size": 15,
+        "sample_size": 30,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -121,8 +121,8 @@
             "count": 15
           },
           "reddit": {
-            "score": 0,
-            "count": 0
+            "score": 0.41,
+            "count": 15
           },
           "gdelt": {
             "score": 0,
@@ -132,43 +132,42 @@
       },
       "top_headlines": [
         {
-          "title": "Show HN: Tracking iCal feed latency across O365/Google/Apple",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48596526",
-          "date": "2026-06-19",
+          "title": "Return to Office policy black- and whitelist.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/ReturntoOffice/",
+          "date": "2026-06-26",
+          "sentiment_score": 0.8271
+        },
+        {
+          "title": "PowerPoint Presentation Tips and Examples",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/powerpoint/",
+          "date": "2026-06-26",
+          "sentiment_score": 0.6369
+        },
+        {
+          "title": "r/Apple: Unofficial Apple Community",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/apple/",
+          "date": "2026-06-26",
           "sentiment_score": 0.0
         },
         {
-          "title": "Show HN: Language1 \u2013 Benchmarking LLM comprehension of vague prompts via Taboo",
+          "title": "Show HN: SwitchBoard \u2013 route macOS links to different browsers/profiles by app",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48586263",
-          "date": "2026-06-18",
-          "sentiment_score": -0.1027
-        },
-        {
-          "title": "Show HN: I built a spelling app for kids with my 7-year-old",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48577259",
-          "date": "2026-06-17",
+          "url": "https://news.ycombinator.com/item?id=48673139",
+          "date": "2026-06-25",
           "sentiment_score": 0.0
         },
         {
-          "title": "Show HN: Noject \u2013 menubar app to stop drive ejections on macOS",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48569320",
-          "date": "2026-06-17",
-          "sentiment_score": -0.296
-        },
-        {
-          "title": "Struggling for My Startup",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48570641",
-          "date": "2026-06-17",
-          "sentiment_score": -0.4215
+          "title": "My parents just sabotaged my fall semester, ran $2,300 of unauthorized LionPATH charges, and left me stranded with $0 because of my orientation.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/PennStateUniversity/comments/1uevbg3/my_parents_just_sabotaged_my_fall_semester_ran/",
+          "date": "2026-06-25",
+          "sentiment_score": -0.9535
         }
       ],
       "sparkline": [
-        0.34,
         0.34,
         0.34,
         0.34,
@@ -197,29 +196,30 @@
         0.35,
         -0.03,
         0.32,
-        -0.03
+        -0.03,
+        0.25
       ]
     },
     {
       "name": "Google",
       "sentiment": {
-        "overall_score": 0.26,
-        "trend": "improving",
-        "previous_score": 0.09,
+        "overall_score": 0.04,
+        "trend": "declining",
+        "previous_score": 0.26,
         "confidence": "high",
-        "sample_size": 30,
+        "sample_size": 15,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.09,
+            "score": 0.04,
             "count": 15
           },
           "reddit": {
-            "score": 0.36,
-            "count": 15
+            "score": 0,
+            "count": 0
           },
           "gdelt": {
             "score": 0,
@@ -229,27 +229,6 @@
       },
       "top_headlines": [
         {
-          "title": "Return to Office policy black- and whitelist.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-06-26",
-          "sentiment_score": 0.8271
-        },
-        {
-          "title": "PowerPoint Presentation Tips and Examples",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/powerpoint/",
-          "date": "2026-06-26",
-          "sentiment_score": 0.6369
-        },
-        {
-          "title": "/r/Technology",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/technology/",
-          "date": "2026-06-26",
-          "sentiment_score": 0.6249
-        },
-        {
           "title": "Show HN: PostgreSQL backup tool Databasus moved to PG 17 native physical backups",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=48672314",
@@ -257,15 +236,35 @@
           "sentiment_score": 0.0
         },
         {
-          "title": "My brother tried to pull a fast one on his wife and she did an uno reverse and I am laughing watching him scramble.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/BORUpdates/comments/1ufeq9l/my_brother_tried_to_pull_a_fast_one_on_his_wife/",
+          "title": "Trying to recover from thin content penalty from Google",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48678398",
           "date": "2026-06-25",
-          "sentiment_score": -0.9948
+          "sentiment_score": -0.4588
+        },
+        {
+          "title": "Show HN: PostgreSQL backup tool Databasus moved to PG 17 native physical backups",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48658787",
+          "date": "2026-06-24",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "EU Member States (and Google) suddenly want to keep cookie banners",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48641245",
+          "date": "2026-06-23",
+          "sentiment_score": 0.0772
+        },
+        {
+          "title": "Show HN: NetSentinel \u2013 a local network security scanner and connectivity monitor",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48596331",
+          "date": "2026-06-19",
+          "sentiment_score": 0.34
         }
       ],
       "sparkline": [
-        0.18,
         0.1,
         0.1,
         0.1,
@@ -294,7 +293,8 @@
         0.13,
         0.13,
         0.09,
-        0.26
+        0.26,
+        0.04
       ]
     },
     {
@@ -326,6 +326,13 @@
       },
       "top_headlines": [
         {
+          "title": "Show HN: Contraband \u2013 Ticketed VR cinema for indie and AI-made films",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48674827",
+          "date": "2026-06-25",
+          "sentiment_score": 0.0
+        },
+        {
           "title": "Meta releases a new AI app for creators",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=48663343",
@@ -352,17 +359,9 @@
           "url": "https://news.ycombinator.com/item?id=48506986",
           "date": "2026-06-12",
           "sentiment_score": -0.2263
-        },
-        {
-          "title": "DevRel is becoming a freelance job now? (India specific)",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48499909",
-          "date": "2026-06-12",
-          "sentiment_score": 0.296
         }
       ],
       "sparkline": [
-        0.47,
         0.47,
         0.47,
         0.48,
@@ -391,17 +390,18 @@
         0.4,
         -0.06,
         -0.02,
+        -0.02,
         -0.02
       ]
     },
     {
       "name": "Microsoft",
       "sentiment": {
-        "overall_score": 0.08,
-        "trend": "stable",
+        "overall_score": 0.18,
+        "trend": "improving",
         "previous_score": 0.08,
         "confidence": "high",
-        "sample_size": 15,
+        "sample_size": 30,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -412,8 +412,8 @@
             "count": 15
           },
           "reddit": {
-            "score": 0,
-            "count": 0
+            "score": 0.23,
+            "count": 15
           },
           "gdelt": {
             "score": 0,
@@ -423,6 +423,27 @@
       },
       "top_headlines": [
         {
+          "title": "Return to Office policy black- and whitelist.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/ReturntoOffice/",
+          "date": "2026-06-26",
+          "sentiment_score": 0.8271
+        },
+        {
+          "title": "Office: Where common sense and your sanity goes to die",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/office/",
+          "date": "2026-06-26",
+          "sentiment_score": -0.508
+        },
+        {
+          "title": "/r/Technology",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/technology/",
+          "date": "2026-06-26",
+          "sentiment_score": 0.6249
+        },
+        {
           "title": "Show HN: DeepSeek Flash inverted the economics of agent products",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=48680260",
@@ -430,36 +451,14 @@
           "sentiment_score": 0.0
         },
         {
-          "title": "Access begins rollout of Big Forms for Modern Monitors feature",
+          "title": "A 30 Year OG Application Developer Available",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48647326",
-          "date": "2026-06-23",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "How a secret Microsoft tool fixed Windows Performance",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48582169",
-          "date": "2026-06-18",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "Zero-Day 'RoguePlanet' in Microsoft Defender Grants System-Level Control",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48572337",
-          "date": "2026-06-17",
-          "sentiment_score": 0.3182
-        },
-        {
-          "title": "Bundling of Microsoft Windows",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48545483",
-          "date": "2026-06-15",
+          "url": "https://news.ycombinator.com/item?id=48668766",
+          "date": "2026-06-25",
           "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.32,
         0.32,
         0.34,
         0.34,
@@ -488,7 +487,8 @@
         0.08,
         0.22,
         0.08,
-        0.08
+        0.08,
+        0.18
       ]
     },
     {
@@ -539,7 +539,7 @@
         0,
         0,
         0,
-        0,
+        0.53,
         0.53,
         0.53,
         0.53,
@@ -685,7 +685,7 @@
         0,
         0,
         0,
-        0,
+        0.0,
         0.0,
         0.0
       ]
@@ -756,7 +756,6 @@
       ],
       "sparkline": [
         0.38,
-        0.38,
         0.41,
         0.41,
         0.41,
@@ -783,6 +782,7 @@
         -0.07,
         0.48,
         0.48,
+        0.45,
         0.45,
         0.45
       ]
@@ -852,7 +852,6 @@
         }
       ],
       "sparkline": [
-        0.01,
         -0.03,
         -0.02,
         -0.02,
@@ -878,6 +877,7 @@
         0.01,
         0.01,
         0.03,
+        -0.1,
         -0.1,
         -0.1,
         -0.1,
@@ -913,7 +913,6 @@
       },
       "top_headlines": [],
       "sparkline": [
-        0.03,
         -0.0,
         -0.09,
         -0.09,
@@ -942,15 +941,16 @@
         -0.09,
         0,
         0,
+        0,
         0
       ]
     },
     {
       "name": "Dell",
       "sentiment": {
-        "overall_score": 0.35,
-        "trend": "declining",
-        "previous_score": 0.4,
+        "overall_score": 0.39,
+        "trend": "stable",
+        "previous_score": 0.35,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -963,7 +963,7 @@
             "count": 15
           },
           "reddit": {
-            "score": 0.6,
+            "score": 0.67,
             "count": 15
           },
           "gdelt": {
@@ -981,11 +981,11 @@
           "sentiment_score": 0.8271
         },
         {
-          "title": "NoToRTOCa",
+          "title": "fullyremotework",
           "source": "Reddit",
-          "url": "https://www.reddit.com/r/NoToRTOCa/",
+          "url": "https://www.reddit.com/r/fullyremotework/",
           "date": "2026-06-26",
-          "sentiment_score": -0.4723
+          "sentiment_score": 0.5859
         },
         {
           "title": "/r/Technology",
@@ -1010,7 +1010,6 @@
         }
       ],
       "sparkline": [
-        0.34,
         0.36,
         0.35,
         0.35,
@@ -1039,7 +1038,8 @@
         -0.08,
         -0.11,
         0.4,
-        0.35
+        0.35,
+        0.39
       ]
     },
     {
@@ -1108,7 +1108,6 @@
       ],
       "sparkline": [
         0.45,
-        0.45,
         0.47,
         0.47,
         0.44,
@@ -1135,6 +1134,7 @@
         -0.2,
         -0.2,
         0.38,
+        -0.1,
         -0.1,
         -0.1
       ]
@@ -1169,7 +1169,6 @@
       "top_headlines": [],
       "sparkline": [
         0.2,
-        0.2,
         0.12,
         0.12,
         0.2,
@@ -1196,6 +1195,7 @@
         0.0,
         0.0,
         0.0,
+        0,
         0,
         0
       ]
@@ -1245,7 +1245,6 @@
       ],
       "sparkline": [
         0.06,
-        0.06,
         0.01,
         0.01,
         0.01,
@@ -1270,6 +1269,7 @@
         0.19,
         0.05,
         0.02,
+        0.19,
         0.19,
         0.19,
         0.19,
