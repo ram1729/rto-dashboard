@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-06-25T14:41:13.958866Z",
+  "last_updated": "2026-06-26T03:50:09.461661Z",
   "scraper_log": {
-    "duration_sec": 200.26,
+    "duration_sec": 213.54,
     "total_articles": 178,
     "errors": []
   },
@@ -11,7 +11,7 @@
       "sentiment": {
         "overall_score": 0.4,
         "trend": "stable",
-        "previous_score": 0.42,
+        "previous_score": 0.4,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -35,32 +35,32 @@
       },
       "top_headlines": [
         {
-          "title": "AWS Lambda Introduces MicroVMs",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48670836",
-          "date": "2026-06-25",
-          "sentiment_score": 0.0
-        },
-        {
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-06-25",
+          "date": "2026-06-26",
           "sentiment_score": 0.8271
         },
         {
           "title": "Look Up",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/superman/",
-          "date": "2026-06-25",
+          "date": "2026-06-26",
           "sentiment_score": 0.0
         },
         {
           "title": "/r/Technology",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/technology/",
-          "date": "2026-06-25",
+          "date": "2026-06-26",
           "sentiment_score": 0.6249
+        },
+        {
+          "title": "AWS Lambda Introduces MicroVMs",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48670836",
+          "date": "2026-06-25",
+          "sentiment_score": 0.0
         },
         {
           "title": "Show HN: PostgreSQL backup tool Databasus moved to PG 17 native physical backups",
@@ -71,7 +71,6 @@
         }
       ],
       "sparkline": [
-        0.39,
         0.39,
         0.39,
         0.41,
@@ -100,17 +99,18 @@
         0.4,
         0.42,
         0.42,
+        0.4,
         0.4
       ]
     },
     {
       "name": "Apple",
       "sentiment": {
-        "overall_score": 0.32,
-        "trend": "improving",
-        "previous_score": -0.03,
+        "overall_score": -0.03,
+        "trend": "declining",
+        "previous_score": 0.32,
         "confidence": "high",
-        "sample_size": 30,
+        "sample_size": 15,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -121,8 +121,8 @@
             "count": 15
           },
           "reddit": {
-            "score": 0.54,
-            "count": 15
+            "score": 0,
+            "count": 0
           },
           "gdelt": {
             "score": 0,
@@ -132,43 +132,42 @@
       },
       "top_headlines": [
         {
-          "title": "Return to Office policy black- and whitelist.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-06-25",
-          "sentiment_score": 0.8271
-        },
-        {
-          "title": "PowerPoint Presentation Tips and Examples",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/powerpoint/",
-          "date": "2026-06-25",
-          "sentiment_score": 0.6369
-        },
-        {
-          "title": "r/Apple: Unofficial Apple Community",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/apple/",
-          "date": "2026-06-25",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "NYT Article: The Secret Reason Bosses Want Everyone Back in the Office, Every Day of the Week (It's not productivity)",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/Accounting/comments/1ucmr8a/nyt_article_the_secret_reason_bosses_want/",
-          "date": "2026-06-22",
-          "sentiment_score": 0.9982
-        },
-        {
           "title": "Show HN: Tracking iCal feed latency across O365/Google/Apple",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=48596526",
           "date": "2026-06-19",
           "sentiment_score": 0.0
+        },
+        {
+          "title": "Show HN: Language1 \u2013 Benchmarking LLM comprehension of vague prompts via Taboo",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48586263",
+          "date": "2026-06-18",
+          "sentiment_score": -0.1027
+        },
+        {
+          "title": "Show HN: I built a spelling app for kids with my 7-year-old",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48577259",
+          "date": "2026-06-17",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Show HN: Noject \u2013 menubar app to stop drive ejections on macOS",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48569320",
+          "date": "2026-06-17",
+          "sentiment_score": -0.296
+        },
+        {
+          "title": "Struggling for My Startup",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48570641",
+          "date": "2026-06-17",
+          "sentiment_score": -0.4215
         }
       ],
       "sparkline": [
-        0.34,
         0.34,
         0.34,
         0.34,
@@ -197,17 +196,18 @@
         0.02,
         0.35,
         -0.03,
-        0.32
+        0.32,
+        -0.03
       ]
     },
     {
       "name": "Google",
       "sentiment": {
-        "overall_score": 0.09,
-        "trend": "stable",
-        "previous_score": 0.13,
+        "overall_score": 0.26,
+        "trend": "improving",
+        "previous_score": 0.09,
         "confidence": "high",
-        "sample_size": 15,
+        "sample_size": 30,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -218,8 +218,8 @@
             "count": 15
           },
           "reddit": {
-            "score": 0,
-            "count": 0
+            "score": 0.36,
+            "count": 15
           },
           "gdelt": {
             "score": 0,
@@ -229,6 +229,27 @@
       },
       "top_headlines": [
         {
+          "title": "Return to Office policy black- and whitelist.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/ReturntoOffice/",
+          "date": "2026-06-26",
+          "sentiment_score": 0.8271
+        },
+        {
+          "title": "PowerPoint Presentation Tips and Examples",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/powerpoint/",
+          "date": "2026-06-26",
+          "sentiment_score": 0.6369
+        },
+        {
+          "title": "/r/Technology",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/technology/",
+          "date": "2026-06-26",
+          "sentiment_score": 0.6249
+        },
+        {
           "title": "Show HN: PostgreSQL backup tool Databasus moved to PG 17 native physical backups",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=48672314",
@@ -236,36 +257,14 @@
           "sentiment_score": 0.0
         },
         {
-          "title": "Show HN: PostgreSQL backup tool Databasus moved to PG 17 native physical backups",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48658787",
-          "date": "2026-06-24",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "EU Member States (and Google) suddenly want to keep cookie banners",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48641245",
-          "date": "2026-06-23",
-          "sentiment_score": 0.0772
-        },
-        {
-          "title": "Hop.Earth \u2013 Google Maps and Need For Speed. World around created while driving",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48614787",
-          "date": "2026-06-21",
-          "sentiment_score": 0.25
-        },
-        {
-          "title": "Show HN: NetSentinel \u2013 a local network security scanner and connectivity monitor",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48596331",
-          "date": "2026-06-19",
-          "sentiment_score": 0.34
+          "title": "My brother tried to pull a fast one on his wife and she did an uno reverse and I am laughing watching him scramble.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/BORUpdates/comments/1ufeq9l/my_brother_tried_to_pull_a_fast_one_on_his_wife/",
+          "date": "2026-06-25",
+          "sentiment_score": -0.9948
         }
       ],
       "sparkline": [
-        0.18,
         0.18,
         0.1,
         0.1,
@@ -294,7 +293,8 @@
         0.13,
         0.13,
         0.13,
-        0.09
+        0.09,
+        0.26
       ]
     },
     {
@@ -302,7 +302,7 @@
       "sentiment": {
         "overall_score": -0.02,
         "trend": "stable",
-        "previous_score": -0.06,
+        "previous_score": -0.02,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -365,7 +365,6 @@
         0.47,
         0.47,
         0.47,
-        0.47,
         0.48,
         0.48,
         0.48,
@@ -391,6 +390,7 @@
         0.41,
         0.4,
         -0.06,
+        -0.02,
         -0.02
       ]
     },
@@ -398,8 +398,8 @@
       "name": "Microsoft",
       "sentiment": {
         "overall_score": 0.08,
-        "trend": "declining",
-        "previous_score": 0.22,
+        "trend": "stable",
+        "previous_score": 0.08,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -422,6 +422,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Show HN: DeepSeek Flash inverted the economics of agent products",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48680260",
+          "date": "2026-06-25",
+          "sentiment_score": 0.0
+        },
         {
           "title": "Access begins rollout of Big Forms for Modern Monitors feature",
           "source": "Hacker News",
@@ -449,17 +456,9 @@
           "url": "https://news.ycombinator.com/item?id=48545483",
           "date": "2026-06-15",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "See Anthropic Orchestrate the Narrative",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48540028",
-          "date": "2026-06-15",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.32,
         0.32,
         0.32,
         0.34,
@@ -488,6 +487,7 @@
         0.08,
         0.08,
         0.22,
+        0.08,
         0.08
       ]
     },
@@ -540,7 +540,7 @@
         0,
         0,
         0,
-        0,
+        0.53,
         0.53,
         0.53,
         0.53,
@@ -626,7 +626,7 @@
       "sentiment": {
         "overall_score": 0.0,
         "trend": "stable",
-        "previous_score": 0,
+        "previous_score": 0.0,
         "confidence": "low",
         "sample_size": 1,
         "source_scores": {
@@ -686,7 +686,7 @@
         0,
         0,
         0,
-        0,
+        0.0,
         0.0
       ]
     },
@@ -695,7 +695,7 @@
       "sentiment": {
         "overall_score": 0.45,
         "trend": "stable",
-        "previous_score": 0.48,
+        "previous_score": 0.45,
         "confidence": "high",
         "sample_size": 17,
         "source_scores": {
@@ -722,21 +722,21 @@
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-06-25",
+          "date": "2026-06-26",
           "sentiment_score": 0.8271
         },
         {
           "title": "fullyremotework",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/fullyremotework/",
-          "date": "2026-06-25",
+          "date": "2026-06-26",
           "sentiment_score": 0.5859
         },
         {
           "title": "NoToRTOCa",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/NoToRTOCa/",
-          "date": "2026-06-25",
+          "date": "2026-06-26",
           "sentiment_score": -0.4723
         },
         {
@@ -755,7 +755,6 @@
         }
       ],
       "sparkline": [
-        0.38,
         0.38,
         0.38,
         0.41,
@@ -784,6 +783,7 @@
         -0.07,
         0.48,
         0.48,
+        0.45,
         0.45
       ]
     },
@@ -852,7 +852,6 @@
         }
       ],
       "sparkline": [
-        -0.0,
         0.01,
         -0.03,
         -0.02,
@@ -879,6 +878,7 @@
         0.01,
         0.01,
         0.03,
+        -0.1,
         -0.1,
         -0.1,
         -0.1
@@ -914,7 +914,6 @@
       "top_headlines": [],
       "sparkline": [
         0.03,
-        0.03,
         -0.0,
         -0.09,
         -0.09,
@@ -942,15 +941,16 @@
         0,
         -0.09,
         0,
+        0,
         0
       ]
     },
     {
       "name": "Dell",
       "sentiment": {
-        "overall_score": 0.4,
-        "trend": "improving",
-        "previous_score": -0.11,
+        "overall_score": 0.35,
+        "trend": "declining",
+        "previous_score": 0.4,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -959,11 +959,11 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.04,
+            "score": -0.07,
             "count": 15
           },
           "reddit": {
-            "score": 0.67,
+            "score": 0.6,
             "count": 15
           },
           "gdelt": {
@@ -974,32 +974,32 @@
       },
       "top_headlines": [
         {
-          "title": "'Digit' maker Agility Robotics to go public in $2.5B deal",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48671899",
-          "date": "2026-06-25",
-          "sentiment_score": 0.0
-        },
-        {
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-06-25",
+          "date": "2026-06-26",
           "sentiment_score": 0.8271
         },
         {
-          "title": "fullyremotework",
+          "title": "NoToRTOCa",
           "source": "Reddit",
-          "url": "https://www.reddit.com/r/fullyremotework/",
-          "date": "2026-06-25",
-          "sentiment_score": 0.5859
+          "url": "https://www.reddit.com/r/NoToRTOCa/",
+          "date": "2026-06-26",
+          "sentiment_score": -0.4723
         },
         {
           "title": "/r/Technology",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/technology/",
-          "date": "2026-06-25",
+          "date": "2026-06-26",
           "sentiment_score": 0.6249
+        },
+        {
+          "title": "'Digit' maker Agility Robotics to go public in $2.5B deal",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48671899",
+          "date": "2026-06-25",
+          "sentiment_score": 0.0
         },
         {
           "title": "Agility Robotics plans to go public via SPAC in a $2.5B deal",
@@ -1010,7 +1010,6 @@
         }
       ],
       "sparkline": [
-        0.3,
         0.34,
         0.36,
         0.35,
@@ -1039,15 +1038,16 @@
         -0.08,
         -0.08,
         -0.11,
-        0.4
+        0.4,
+        0.35
       ]
     },
     {
       "name": "Tesla",
       "sentiment": {
         "overall_score": -0.1,
-        "trend": "declining",
-        "previous_score": 0.38,
+        "trend": "stable",
+        "previous_score": -0.1,
         "confidence": "medium",
         "sample_size": 7,
         "source_scores": {
@@ -1109,7 +1109,6 @@
       "sparkline": [
         0.45,
         0.45,
-        0.45,
         0.47,
         0.47,
         0.44,
@@ -1136,6 +1135,7 @@
         -0.2,
         -0.2,
         0.38,
+        -0.1,
         -0.1
       ]
     },
@@ -1144,7 +1144,7 @@
       "sentiment": {
         "overall_score": 0,
         "trend": "stable",
-        "previous_score": 0.0,
+        "previous_score": 0,
         "confidence": "low",
         "sample_size": 0,
         "source_scores": {
@@ -1168,7 +1168,6 @@
       },
       "top_headlines": [],
       "sparkline": [
-        0.2,
         0.2,
         0.2,
         0.12,
@@ -1197,6 +1196,7 @@
         0.0,
         0.0,
         0.0,
+        0,
         0
       ]
     },
@@ -1246,7 +1246,6 @@
       "sparkline": [
         0.06,
         0.06,
-        0.06,
         0.01,
         0.01,
         0.01,
@@ -1271,6 +1270,7 @@
         0.19,
         0.05,
         0.02,
+        0.19,
         0.19,
         0.19,
         0.19
