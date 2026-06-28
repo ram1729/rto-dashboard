@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-06-27T13:50:51.156932Z",
+  "last_updated": "2026-06-28T03:59:02.284995Z",
   "scraper_log": {
-    "duration_sec": 158.04,
-    "total_articles": 159,
+    "duration_sec": 129.42,
+    "total_articles": 161,
     "errors": []
   },
   "companies": [
@@ -38,21 +38,21 @@
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-06-27",
+          "date": "2026-06-28",
           "sentiment_score": 0.8271
         },
         {
           "title": "Look Up",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/superman/",
-          "date": "2026-06-27",
+          "date": "2026-06-28",
           "sentiment_score": 0.0
         },
         {
           "title": "/r/Technology",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/technology/",
-          "date": "2026-06-27",
+          "date": "2026-06-28",
           "sentiment_score": 0.6249
         },
         {
@@ -71,7 +71,6 @@
         }
       ],
       "sparkline": [
-        0.41,
         0.41,
         0.41,
         0.42,
@@ -100,17 +99,18 @@
         0.4,
         0.4,
         0.4,
+        0.4,
         0.4
       ]
     },
     {
       "name": "Apple",
       "sentiment": {
-        "overall_score": 0.03,
+        "overall_score": 0.35,
         "trend": "improving",
-        "previous_score": -0.03,
+        "previous_score": 0.03,
         "confidence": "high",
-        "sample_size": 15,
+        "sample_size": 30,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -121,8 +121,8 @@
             "count": 15
           },
           "reddit": {
-            "score": 0,
-            "count": 0
+            "score": 0.55,
+            "count": 15
           },
           "gdelt": {
             "score": 0,
@@ -132,6 +132,27 @@
       },
       "top_headlines": [
         {
+          "title": "Return to Office policy black- and whitelist.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/ReturntoOffice/",
+          "date": "2026-06-28",
+          "sentiment_score": 0.8271
+        },
+        {
+          "title": "PowerPoint Presentation Tips and Examples",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/powerpoint/",
+          "date": "2026-06-28",
+          "sentiment_score": 0.6369
+        },
+        {
+          "title": "r/Apple: Unofficial Apple Community",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/apple/",
+          "date": "2026-06-28",
+          "sentiment_score": 0.0
+        },
+        {
           "title": "Apple seeks approval to buy chips from blacklisted Chinese company, FT reports",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=48698112",
@@ -139,36 +160,14 @@
           "sentiment_score": 0.4767
         },
         {
-          "title": "Show HN: SwitchBoard \u2013 route macOS links to different browsers/profiles by app",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48673139",
-          "date": "2026-06-25",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "Show HN: Tracking iCal feed latency across O365/Google/Apple",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48596526",
-          "date": "2026-06-19",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "Show HN: I built a spelling app for kids with my 7-year-old",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48577259",
-          "date": "2026-06-17",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "Show HN: Noject \u2013 menubar app to stop drive ejections on macOS",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48569320",
-          "date": "2026-06-17",
-          "sentiment_score": -0.296
+          "title": "The Lamelo trade vs letting Kemba walk (errrr): A comparison that shows our FO's heads are in the right place, even if this trade stings",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/CharlotteHornets/comments/1ufs2a6/the_lamelo_trade_vs_letting_kemba_walk_errrr_a/",
+          "date": "2026-06-26",
+          "sentiment_score": 0.9766
         }
       ],
       "sparkline": [
-        0.34,
         0.34,
         0.33,
         0.27,
@@ -197,7 +196,8 @@
         -0.03,
         0.25,
         -0.03,
-        0.03
+        0.03,
+        0.35
       ]
     },
     {
@@ -265,7 +265,6 @@
         }
       ],
       "sparkline": [
-        0.1,
         0.18,
         0.1,
         0.11,
@@ -294,13 +293,14 @@
         0.26,
         0.04,
         0.04,
+        0.04,
         0.04
       ]
     },
     {
       "name": "Meta",
       "sentiment": {
-        "overall_score": -0.02,
+        "overall_score": 0.02,
         "trend": "stable",
         "previous_score": -0.02,
         "confidence": "high",
@@ -311,7 +311,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.02,
+            "score": 0.02,
             "count": 15
           },
           "reddit": {
@@ -354,15 +354,14 @@
           "sentiment_score": 0.0516
         },
         {
-          "title": "Laid off from Meta, so a few of us built the safest AI-assisted cheating tool",
+          "title": "Show HN: Ghostty in-browser with real client-side back end",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48506986",
-          "date": "2026-06-12",
-          "sentiment_score": -0.2263
+          "url": "https://news.ycombinator.com/item?id=48552087",
+          "date": "2026-06-16",
+          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.48,
         0.48,
         0.48,
         0.48,
@@ -391,7 +390,8 @@
         -0.02,
         -0.02,
         -0.02,
-        -0.02
+        -0.02,
+        0.02
       ]
     },
     {
@@ -399,7 +399,7 @@
       "sentiment": {
         "overall_score": 0.15,
         "trend": "stable",
-        "previous_score": 0.18,
+        "previous_score": 0.15,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -461,7 +461,6 @@
       "sparkline": [
         0.34,
         0.34,
-        0.34,
         0.35,
         0.06,
         0.06,
@@ -488,6 +487,7 @@
         0.08,
         0.18,
         0.18,
+        0.15,
         0.15
       ]
     },
@@ -536,7 +536,7 @@
         0,
         0,
         0,
-        0,
+        0.53,
         0.53,
         0.53,
         0.53,
@@ -674,10 +674,10 @@
         0,
         0,
         0,
+        0.0,
+        0.0,
+        0.0,
         0,
-        0.0,
-        0.0,
-        0.0,
         0,
         0
       ]
@@ -685,9 +685,9 @@
     {
       "name": "Salesforce",
       "sentiment": {
-        "overall_score": 0.45,
-        "trend": "improving",
-        "previous_score": -0.15,
+        "overall_score": 0.37,
+        "trend": "declining",
+        "previous_score": 0.45,
         "confidence": "high",
         "sample_size": 17,
         "source_scores": {
@@ -700,7 +700,7 @@
             "count": 2
           },
           "reddit": {
-            "score": 0.81,
+            "score": 0.68,
             "count": 15
           },
           "gdelt": {
@@ -714,22 +714,29 @@
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-06-27",
+          "date": "2026-06-28",
           "sentiment_score": 0.8271
         },
         {
           "title": "fullyremotework",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/fullyremotework/",
-          "date": "2026-06-27",
+          "date": "2026-06-28",
           "sentiment_score": 0.5859
         },
         {
           "title": "NoToRTOCa",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/NoToRTOCa/",
-          "date": "2026-06-27",
+          "date": "2026-06-28",
           "sentiment_score": -0.4723
+        },
+        {
+          "title": "Expeditors, I'm Not Here to Make a Dollar. I'm Here to Make a Difference.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/TheWrongLedger/comments/1uhmj8e/expeditors_im_not_here_to_make_a_dollar_im_here/",
+          "date": "2026-06-28",
+          "sentiment_score": -0.9959
         },
         {
           "title": "Remote Job - Tide - CRM Manager - Member Activation",
@@ -737,17 +744,9 @@
           "url": "https://www.reddit.com/r/jobhuntify/comments/1ugs0du/remote_job_tide_crm_manager_member_activation/",
           "date": "2026-06-27",
           "sentiment_score": 0.9991
-        },
-        {
-          "title": "This Week's Top E-commerce News Stories \ud83d\udca5 June 22nd, 2026 Shopify General Discussion",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/shopify/comments/1ucyh0w/this_weeks_top_ecommerce_news_stories_june_22nd/",
-          "date": "2026-06-22",
-          "sentiment_score": 0.9997
         }
       ],
       "sparkline": [
-        0.41,
         0.41,
         0.47,
         0.37,
@@ -776,15 +775,16 @@
         0.45,
         0.45,
         -0.15,
-        0.45
+        0.45,
+        0.37
       ]
     },
     {
       "name": "AT&T",
       "sentiment": {
         "overall_score": -0.1,
-        "trend": "declining",
-        "previous_score": -0.04,
+        "trend": "stable",
+        "previous_score": -0.1,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -807,6 +807,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Slate EV truck starts at $24,950",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48659451",
+          "date": "2026-06-24",
+          "sentiment_score": 0.0
+        },
         {
           "title": "VPN ban update for UK households as government looks at 'age-gate'",
           "source": "Hacker News",
@@ -834,17 +841,9 @@
           "url": "https://news.ycombinator.com/item?id=48518969",
           "date": "2026-06-13",
           "sentiment_score": 0.3252
-        },
-        {
-          "title": "If you are asking for human attention, demonstrate human effort",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48497609",
-          "date": "2026-06-11",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        -0.02,
         0.04,
         -0.09,
         -0.09,
@@ -873,6 +872,7 @@
         -0.1,
         -0.1,
         -0.04,
+        -0.1,
         -0.1
       ]
     },
@@ -908,7 +908,6 @@
         -0.09,
         -0.09,
         -0.09,
-        -0.09,
         0,
         0,
         0,
@@ -929,6 +928,7 @@
         0,
         0,
         -0.09,
+        0,
         0,
         0,
         0,
@@ -940,11 +940,11 @@
     {
       "name": "Dell",
       "sentiment": {
-        "overall_score": 0.46,
-        "trend": "improving",
-        "previous_score": -0.06,
+        "overall_score": -0.06,
+        "trend": "declining",
+        "previous_score": 0.46,
         "confidence": "high",
-        "sample_size": 30,
+        "sample_size": 15,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -955,8 +955,8 @@
             "count": 15
           },
           "reddit": {
-            "score": 0.77,
-            "count": 15
+            "score": 0,
+            "count": 0
           },
           "gdelt": {
             "score": 0,
@@ -966,27 +966,6 @@
       },
       "top_headlines": [
         {
-          "title": "Return to Office policy black- and whitelist.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-06-27",
-          "sentiment_score": 0.8271
-        },
-        {
-          "title": "fullyremotework",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/fullyremotework/",
-          "date": "2026-06-27",
-          "sentiment_score": 0.5859
-        },
-        {
-          "title": "/r/Technology",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/technology/",
-          "date": "2026-06-27",
-          "sentiment_score": 0.6249
-        },
-        {
           "title": "SpaceX bonds sell off days after AI and rocket group's $25B debt deal",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=48692128",
@@ -994,15 +973,35 @@
           "sentiment_score": -0.3612
         },
         {
-          "title": "Over the past 2 years I've been following Copernicus\u2019 trail around Europe: I\u2019ve visited where he was born, where he lived, studied, worked, and died. Here's my Great Copernicus Tour! (Part 1)",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/travel/comments/1ug8fpu/over_the_past_2_years_ive_been_following/",
-          "date": "2026-06-26",
-          "sentiment_score": 0.9998
+          "title": "'Digit' maker Agility Robotics to go public in $2.5B deal",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48671899",
+          "date": "2026-06-25",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Agility Robotics plans to go public via SPAC in a $2.5B deal",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48664085",
+          "date": "2026-06-24",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Agility, Maker of Humanlike Robots, to Go Public in $2.5B SPAC Deal",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48658563",
+          "date": "2026-06-24",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Rolls-Royce secures deal to build small nuclear reactors for Sweden",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48596612",
+          "date": "2026-06-19",
+          "sentiment_score": 0.3182
         }
       ],
       "sparkline": [
-        0.35,
         0.35,
         0.43,
         0.42,
@@ -1031,17 +1030,18 @@
         0.35,
         0.39,
         -0.06,
-        0.46
+        0.46,
+        -0.06
       ]
     },
     {
       "name": "Tesla",
       "sentiment": {
         "overall_score": -0.39,
-        "trend": "declining",
-        "previous_score": -0.3,
-        "confidence": "low",
-        "sample_size": 4,
+        "trend": "stable",
+        "previous_score": -0.39,
+        "confidence": "medium",
+        "sample_size": 6,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -1049,7 +1049,7 @@
           },
           "hackernews": {
             "score": -0.39,
-            "count": 4
+            "count": 6
           },
           "reddit": {
             "score": 0,
@@ -1062,6 +1062,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Tesla settles lawsuit over fatal FSD pedestrian crash tied to 3.2M-vehicle probe",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48702326",
+          "date": "2026-06-27",
+          "sentiment_score": -0.7964
+        },
         {
           "title": "A Tesla Crashed Through a Harris County Home. Is the Car to Blame?",
           "source": "Hacker News",
@@ -1077,22 +1084,21 @@
           "sentiment_score": -0.6705
         },
         {
+          "title": "Tell HN: Musk doesn't \"have\" a Trillion, he has the leverage",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48567212",
+          "date": "2026-06-17",
+          "sentiment_score": 0.0
+        },
+        {
           "title": "Tesla robotaxis stall as Musk's self-driving hype hits real-world traffic",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=48486477",
           "date": "2026-06-11",
           "sentiment_score": -0.2023
-        },
-        {
-          "title": "Tesla patents camera wiper for self-driving resulting in more doubts FSD owners",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48373526",
-          "date": "2026-06-02",
-          "sentiment_score": -0.3597
         }
       ],
       "sparkline": [
-        0.47,
         0.44,
         0.35,
         0.35,
@@ -1121,6 +1127,7 @@
         -0.1,
         -0.1,
         -0.3,
+        -0.39,
         -0.39
       ]
     },
@@ -1153,7 +1160,6 @@
       },
       "top_headlines": [],
       "sparkline": [
-        0.12,
         0.2,
         0.2,
         0.12,
@@ -1182,6 +1188,7 @@
         0,
         0,
         0,
+        0,
         0
       ]
     },
@@ -1189,8 +1196,8 @@
       "name": "Cisco",
       "sentiment": {
         "overall_score": 0.19,
-        "trend": "improving",
-        "previous_score": 0.1,
+        "trend": "stable",
+        "previous_score": 0.19,
         "confidence": "low",
         "sample_size": 2,
         "source_scores": {
@@ -1230,7 +1237,6 @@
       ],
       "sparkline": [
         0.01,
-        0.01,
         -0.04,
         -0.04,
         0.13,
@@ -1258,6 +1264,7 @@
         0.19,
         0.19,
         0.1,
+        0.19,
         0.19
       ]
     }
