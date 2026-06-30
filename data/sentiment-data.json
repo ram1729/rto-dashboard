@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-06-30T03:48:42.917080Z",
+  "last_updated": "2026-06-30T14:28:44.614456Z",
   "scraper_log": {
-    "duration_sec": 208.8,
-    "total_articles": 175,
+    "duration_sec": 206.88,
+    "total_articles": 176,
     "errors": []
   },
   "companies": [
     {
       "name": "Amazon",
       "sentiment": {
-        "overall_score": 0.31,
-        "trend": "declining",
-        "previous_score": 0.4,
+        "overall_score": 0.32,
+        "trend": "stable",
+        "previous_score": 0.31,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -20,7 +20,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.02,
+            "score": 0.04,
             "count": 15
           },
           "reddit": {
@@ -34,6 +34,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Australia's competition regulator sues Amazon over Prime subscription terms",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48728477",
+          "date": "2026-06-30",
+          "sentiment_score": 0.1779
+        },
         {
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
@@ -56,22 +63,14 @@
           "sentiment_score": 0.6249
         },
         {
-          "title": "June 26-28 Box Office Recap \u2013 'Toy Story 5' stays at #1, hitting $589M worldwide. However, 'Supergirl' massively flops with just $37.1M domestically and $62.6M worldwide, against a $170M budget. 'Jackass: Best and Last' underwhelms with just $8.4M domestically, the weakest debut in the franchise.",
+          "title": "YOLO - Market Doesn't Understand Mattel (MAT)",
           "source": "Reddit",
-          "url": "https://www.reddit.com/r/movies/comments/1uj7d07/june_2628_box_office_recap_toy_story_5_stays_at_1/",
-          "date": "2026-06-29",
-          "sentiment_score": -0.9693
-        },
-        {
-          "title": "AWS Lambda Introduces MicroVMs",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48670836",
-          "date": "2026-06-25",
-          "sentiment_score": 0.0
+          "url": "https://www.reddit.com/r/wallstreetbets/comments/1ujbst8/yolo_market_doesnt_understand_mattel_mat/",
+          "date": "2026-06-30",
+          "sentiment_score": 0.9784
         }
       ],
       "sparkline": [
-        0.36,
         0.36,
         0.35,
         0.35,
@@ -100,7 +99,8 @@
         0.4,
         0.4,
         0.4,
-        0.31
+        0.31,
+        0.32
       ]
     },
     {
@@ -168,7 +168,6 @@
         }
       ],
       "sparkline": [
-        0.01,
         0.25,
         0.0,
         0.0,
@@ -196,6 +195,7 @@
         0.35,
         0.07,
         0.37,
+        0.07,
         0.07,
         0.07
       ]
@@ -266,7 +266,6 @@
       ],
       "sparkline": [
         -0.0,
-        -0.0,
         0.02,
         0.02,
         0.02,
@@ -294,6 +293,7 @@
         0.21,
         0.07,
         0.07,
+        0.07,
         0.07
       ]
     },
@@ -301,8 +301,8 @@
       "name": "Meta",
       "sentiment": {
         "overall_score": 0.41,
-        "trend": "improving",
-        "previous_score": -0.02,
+        "trend": "stable",
+        "previous_score": 0.41,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -362,7 +362,6 @@
         }
       ],
       "sparkline": [
-        -0.01,
         -0.02,
         -0.02,
         0.41,
@@ -391,6 +390,7 @@
         0.02,
         0.02,
         -0.02,
+        0.41,
         0.41
       ]
     },
@@ -398,8 +398,8 @@
       "name": "Microsoft",
       "sentiment": {
         "overall_score": 0.13,
-        "trend": "declining",
-        "previous_score": 0.28,
+        "trend": "stable",
+        "previous_score": 0.13,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -459,7 +459,6 @@
         }
       ],
       "sparkline": [
-        0.06,
         0.07,
         0.07,
         0.09,
@@ -488,6 +487,7 @@
         0.15,
         0.29,
         0.28,
+        0.13,
         0.13
       ]
     },
@@ -531,7 +531,7 @@
         0,
         0,
         0,
-        0,
+        0.53,
         0.53,
         0.53,
         0.53,
@@ -669,10 +669,10 @@
         0,
         0,
         0,
+        0.0,
+        0.0,
+        0.0,
         0,
-        0.0,
-        0.0,
-        0.0,
         0,
         0,
         0,
@@ -685,22 +685,22 @@
     {
       "name": "Salesforce",
       "sentiment": {
-        "overall_score": 0.46,
+        "overall_score": 0.54,
         "trend": "improving",
-        "previous_score": -0.15,
+        "previous_score": 0.46,
         "confidence": "high",
-        "sample_size": 17,
+        "sample_size": 18,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.15,
-            "count": 2
+            "score": 0.01,
+            "count": 3
           },
           "reddit": {
-            "score": 0.83,
+            "score": 0.85,
             "count": 15
           },
           "gdelt": {
@@ -710,6 +710,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Show HN: Valmis, an OpenClaw alternative built for work, with security in mind",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48732702",
+          "date": "2026-06-30",
+          "sentiment_score": 0.34
+        },
         {
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
@@ -737,17 +744,9 @@
           "url": "https://www.reddit.com/r/ecommerce/comments/1uj69yf/ecommerce_industry_news_recap_week_of_june_29th/",
           "date": "2026-06-29",
           "sentiment_score": 0.9998
-        },
-        {
-          "title": "Things to Do / Events This Week (6/29/26 - 7/5/26)",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/StLouis/comments/1uirxcq/things_to_do_events_this_week_62926_7526/",
-          "date": "2026-06-29",
-          "sentiment_score": 1.0
         }
       ],
       "sparkline": [
-        0.37,
         0.36,
         0.36,
         -0.2,
@@ -776,7 +775,8 @@
         0.45,
         -0.15,
         -0.15,
-        0.46
+        0.46,
+        0.54
       ]
     },
     {
@@ -808,18 +808,18 @@
       },
       "top_headlines": [
         {
-          "title": "HackerRank open sourced its ATS. My resume scored 90/100. Oh wait 74. No \u2013 88",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48713832",
-          "date": "2026-06-29",
-          "sentiment_score": -0.296
-        },
-        {
           "title": "Age verification is just a precursor to automated attribution of speech",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=48714529",
           "date": "2026-06-29",
           "sentiment_score": 0.0
+        },
+        {
+          "title": "HackerRank open sourced its ATS. My resume scored 90/100. Oh wait 74. No \u2013 88",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48713832",
+          "date": "2026-06-29",
+          "sentiment_score": -0.296
         },
         {
           "title": "Professor denounces mass AI fraud on an exam at Brown",
@@ -844,7 +844,6 @@
         }
       ],
       "sparkline": [
-        -0.07,
         -0.07,
         -0.07,
         -0.07,
@@ -873,6 +872,7 @@
         -0.1,
         -0.08,
         -0.14,
+        -0.14,
         -0.14
       ]
     },
@@ -880,8 +880,8 @@
       "name": "Disney",
       "sentiment": {
         "overall_score": 0,
-        "trend": "improving",
-        "previous_score": -0.12,
+        "trend": "stable",
+        "previous_score": 0,
         "confidence": "low",
         "sample_size": 0,
         "source_scores": {
@@ -905,7 +905,6 @@
       },
       "top_headlines": [],
       "sparkline": [
-        0,
         0,
         0,
         -0.09,
@@ -934,6 +933,7 @@
         0,
         0,
         -0.12,
+        0,
         0
       ]
     },
@@ -1002,7 +1002,6 @@
         }
       ],
       "sparkline": [
-        -0.14,
         -0.13,
         0.4,
         -0.14,
@@ -1031,6 +1030,7 @@
         -0.06,
         -0.06,
         0.0,
+        0.0,
         0.0
       ]
     },
@@ -1038,8 +1038,8 @@
       "name": "Tesla",
       "sentiment": {
         "overall_score": 0.19,
-        "trend": "improving",
-        "previous_score": -0.36,
+        "trend": "stable",
+        "previous_score": 0.19,
         "confidence": "high",
         "sample_size": 20,
         "source_scores": {
@@ -1099,7 +1099,6 @@
         }
       ],
       "sparkline": [
-        0.0,
         0.44,
         -0.04,
         0.0,
@@ -1128,6 +1127,7 @@
         -0.25,
         -0.28,
         -0.36,
+        0.19,
         0.19
       ]
     },
@@ -1160,7 +1160,6 @@
       },
       "top_headlines": [],
       "sparkline": [
-        0.12,
         0.0,
         0.0,
         0.0,
@@ -1189,6 +1188,7 @@
         0,
         0.05,
         0,
+        0,
         0
       ]
     },
@@ -1196,8 +1196,8 @@
       "name": "Cisco",
       "sentiment": {
         "overall_score": 0.19,
-        "trend": "improving",
-        "previous_score": 0.1,
+        "trend": "stable",
+        "previous_score": 0.19,
         "confidence": "low",
         "sample_size": 2,
         "source_scores": {
@@ -1241,7 +1241,6 @@
         0.13,
         0.13,
         0.13,
-        0.13,
         -0.01,
         0.13,
         0.13,
@@ -1265,6 +1264,7 @@
         0.1,
         0.19,
         0.1,
+        0.19,
         0.19
       ]
     }
