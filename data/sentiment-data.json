@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-07-04T03:04:26.411662Z",
+  "last_updated": "2026-07-04T13:34:12.823487Z",
   "scraper_log": {
-    "duration_sec": 248.47,
-    "total_articles": 192,
+    "duration_sec": 229.02,
+    "total_articles": 179,
     "errors": []
   },
   "companies": [
@@ -72,7 +72,6 @@
       ],
       "sparkline": [
         0.35,
-        0.35,
         0.49,
         0.36,
         0.38,
@@ -100,15 +99,16 @@
         0.32,
         0.32,
         0.32,
+        0.32,
         0.32
       ]
     },
     {
       "name": "Apple",
       "sentiment": {
-        "overall_score": 0.07,
-        "trend": "declining",
-        "previous_score": 0.37,
+        "overall_score": 0.05,
+        "trend": "stable",
+        "previous_score": 0.07,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -117,7 +117,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.07,
+            "score": 0.05,
             "count": 15
           },
           "reddit": {
@@ -146,6 +146,13 @@
           "sentiment_score": 0.0
         },
         {
+          "title": "Show HN: Clinch \u2013 I intercept iOS app opens to interrupt doomscrolling",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48764568",
+          "date": "2026-07-02",
+          "sentiment_score": -0.34
+        },
+        {
           "title": "Free The Icons: Apple should end their prohibition on shapes in macOS app icons",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=48706290",
@@ -158,17 +165,9 @@
           "url": "https://news.ycombinator.com/item?id=48698112",
           "date": "2026-06-27",
           "sentiment_score": 0.4767
-        },
-        {
-          "title": "Show HN: SwitchBoard \u2013 route macOS links to different browsers/profiles by app",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48673139",
-          "date": "2026-06-25",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.0,
         0.4,
         0.39,
         0.39,
@@ -197,7 +196,8 @@
         0.08,
         0.04,
         0.37,
-        0.07
+        0.07,
+        0.05
       ]
     },
     {
@@ -205,7 +205,7 @@
       "sentiment": {
         "overall_score": 0.06,
         "trend": "stable",
-        "previous_score": 0.09,
+        "previous_score": 0.06,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -266,7 +266,6 @@
       ],
       "sparkline": [
         0.02,
-        0.02,
         0.04,
         0.07,
         0.07,
@@ -294,6 +293,7 @@
         0.01,
         0.27,
         0.09,
+        0.06,
         0.06
       ]
     },
@@ -301,8 +301,8 @@
       "name": "Meta",
       "sentiment": {
         "overall_score": 0.35,
-        "trend": "improving",
-        "previous_score": 0.02,
+        "trend": "stable",
+        "previous_score": 0.35,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -362,7 +362,6 @@
         }
       ],
       "sparkline": [
-        -0.02,
         -0.0,
         -0.0,
         0.02,
@@ -391,6 +390,7 @@
         0.43,
         0.04,
         0.02,
+        0.35,
         0.35
       ]
     },
@@ -423,6 +423,13 @@
       },
       "top_headlines": [
         {
+          "title": "Show HN: Local privacy-first Microsoft Recall alternative with Gemma 4",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48782406",
+          "date": "2026-07-04",
+          "sentiment_score": 0.0
+        },
+        {
           "title": "Order a burned CD of your own public GitHub repo",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=48768997",
@@ -449,17 +456,9 @@
           "url": "https://news.ycombinator.com/item?id=48582169",
           "date": "2026-06-18",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Zero-Day 'RoguePlanet' in Microsoft Defender Grants System-Level Control",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48572337",
-          "date": "2026-06-17",
-          "sentiment_score": 0.3182
         }
       ],
       "sparkline": [
-        0.3,
         0.09,
         0.09,
         0.38,
@@ -487,6 +486,7 @@
         0.13,
         0.15,
         0.14,
+        0.15,
         0.15,
         0.15
       ]
@@ -664,10 +664,10 @@
         0,
         0,
         0,
+        0.0,
+        0.0,
+        0.0,
         0,
-        0.0,
-        0.0,
-        0.0,
         0,
         0,
         0,
@@ -748,7 +748,6 @@
       ],
       "sparkline": [
         0.14,
-        0.14,
         0.16,
         -0.1,
         0.47,
@@ -776,15 +775,16 @@
         0.48,
         0.5,
         0.49,
+        0.49,
         0.49
       ]
     },
     {
       "name": "AT&T",
       "sentiment": {
-        "overall_score": -0.1,
-        "trend": "improving",
-        "previous_score": -0.21,
+        "overall_score": -0.14,
+        "trend": "stable",
+        "previous_score": -0.1,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -793,7 +793,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.1,
+            "score": -0.14,
             "count": 15
           },
           "reddit": {
@@ -844,7 +844,6 @@
         }
       ],
       "sparkline": [
-        -0.07,
         -0.04,
         -0.02,
         0.08,
@@ -873,15 +872,16 @@
         -0.14,
         -0.15,
         -0.21,
-        -0.1
+        -0.1,
+        -0.14
       ]
     },
     {
       "name": "Disney",
       "sentiment": {
         "overall_score": -0.16,
-        "trend": "declining",
-        "previous_score": 0.21,
+        "trend": "stable",
+        "previous_score": -0.16,
         "confidence": "high",
         "sample_size": 16,
         "source_scores": {
@@ -926,22 +926,21 @@
           "sentiment_score": 0.0
         },
         {
+          "title": "I fucking hate Portland Oregon...",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/redscarepod/comments/1un3l0g/i_fucking_hate_portland_oregon/",
+          "date": "2026-07-04",
+          "sentiment_score": -0.9977
+        },
+        {
           "title": "Show HN: I built custom movie dashboards for Apple TV",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=48764661",
           "date": "2026-07-02",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Things you can do with Jailbroken PS5",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/ps5india/comments/1uiofz1/things_you_can_do_with_jailbroken_ps5/",
-          "date": "2026-06-29",
-          "sentiment_score": -0.9997
         }
       ],
       "sparkline": [
-        0,
         0,
         0,
         0,
@@ -970,6 +969,7 @@
         -0.12,
         0.42,
         0.21,
+        -0.16,
         -0.16
       ]
     },
@@ -978,7 +978,7 @@
       "sentiment": {
         "overall_score": 0.0,
         "trend": "stable",
-        "previous_score": 0.05,
+        "previous_score": 0.0,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -1038,7 +1038,6 @@
         }
       ],
       "sparkline": [
-        -0.03,
         -0.0,
         -0.03,
         -0.08,
@@ -1067,6 +1066,7 @@
         -0.01,
         0.04,
         0.05,
+        0.0,
         0.0
       ]
     },
@@ -1074,8 +1074,8 @@
       "name": "Tesla",
       "sentiment": {
         "overall_score": -0.34,
-        "trend": "declining",
-        "previous_score": -0.26,
+        "trend": "stable",
+        "previous_score": -0.34,
         "confidence": "medium",
         "sample_size": 8,
         "source_scores": {
@@ -1135,7 +1135,6 @@
         }
       ],
       "sparkline": [
-        -0.01,
         -0.05,
         0.44,
         0.0,
@@ -1164,6 +1163,7 @@
         0.01,
         0.24,
         -0.26,
+        -0.34,
         -0.34
       ]
     },
@@ -1172,7 +1172,7 @@
       "sentiment": {
         "overall_score": 0,
         "trend": "stable",
-        "previous_score": 0.05,
+        "previous_score": 0,
         "confidence": "low",
         "sample_size": 0,
         "source_scores": {
@@ -1196,7 +1196,6 @@
       },
       "top_headlines": [],
       "sparkline": [
-        0.0,
         0.0,
         0.0,
         0.04,
@@ -1225,29 +1224,30 @@
         -0.09,
         0,
         0.05,
+        0,
         0
       ]
     },
     {
       "name": "Cisco",
       "sentiment": {
-        "overall_score": -0.09,
-        "trend": "declining",
-        "previous_score": 0,
-        "confidence": "high",
-        "sample_size": 14,
+        "overall_score": 0.0,
+        "trend": "improving",
+        "previous_score": -0.09,
+        "confidence": "low",
+        "sample_size": 1,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0,
-            "count": 0
+            "score": 0.0,
+            "count": 1
           },
           "reddit": {
-            "score": -0.09,
-            "count": 14
+            "score": 0,
+            "count": 0
           },
           "gdelt": {
             "score": 0,
@@ -1257,43 +1257,14 @@
       },
       "top_headlines": [
         {
-          "title": "Return to Office policy black- and whitelist.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-07-04",
-          "sentiment_score": 0.8271
-        },
-        {
-          "title": "fullyremotework",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/fullyremotework/",
-          "date": "2026-07-04",
-          "sentiment_score": 0.5859
-        },
-        {
-          "title": "NoToRTOCa",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/NoToRTOCa/",
-          "date": "2026-07-04",
-          "sentiment_score": -0.4723
-        },
-        {
-          "title": "[3 YoE, IT entry levels, unemployed, FL, USA] Not hearing anything back and not getting any interview after submitting my job applications",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/resumes/comments/1ukpf6z/3_yoe_it_entry_levels_unemployed_fl_usa_not/",
-          "date": "2026-07-01",
+          "title": "Show HN: Skill Federation \u2013private search across 87k skills for AI coding agents",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48760839",
+          "date": "2026-07-02",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "TRB: Arrowverse Season by Season Review 4: Arrow Season 3",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/ArrowVDisscussions/comments/1uiwqk3/trb_arrowverse_season_by_season_review_4_arrow/",
-          "date": "2026-06-29",
-          "sentiment_score": -0.9999
         }
       ],
       "sparkline": [
-        0.13,
         -0.01,
         0.13,
         0.13,
@@ -1322,7 +1293,8 @@
         0.38,
         0.0,
         0,
-        -0.09
+        -0.09,
+        0.0
       ]
     }
   ]
