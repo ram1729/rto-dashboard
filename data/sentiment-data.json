@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-07-21T02:49:00.201208Z",
+  "last_updated": "2026-07-21T14:00:07.282817Z",
   "scraper_log": {
-    "duration_sec": 236.37,
+    "duration_sec": 218.32,
     "total_articles": 178,
     "errors": []
   },
@@ -9,7 +9,7 @@
     {
       "name": "Amazon",
       "sentiment": {
-        "overall_score": 0.23,
+        "overall_score": 0.24,
         "trend": "stable",
         "previous_score": 0.23,
         "confidence": "high",
@@ -20,7 +20,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.06,
+            "score": 0.09,
             "count": 15
           },
           "reddit": {
@@ -34,6 +34,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Interesting Audio Recorder",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48990180",
+          "date": "2026-07-21",
+          "sentiment_score": 0.4019
+        },
         {
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
@@ -56,13 +63,6 @@
           "sentiment_score": 0.6249
         },
         {
-          "title": "Japan logistics provider for Amazon to use JPYC stablecoin in operations",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48974290",
-          "date": "2026-07-20",
-          "sentiment_score": 0.1779
-        },
-        {
           "title": "Is return-to-office really about productivity, or is it about power?",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/SaveTheCBC/comments/1v219bw/is_returntooffice_really_about_productivity_or_is/",
@@ -71,7 +71,6 @@
         }
       ],
       "sparkline": [
-        0.4,
         0.4,
         0.31,
         0.32,
@@ -100,7 +99,8 @@
         0.23,
         0.24,
         0.23,
-        0.23
+        0.23,
+        0.24
       ]
     },
     {
@@ -168,7 +168,6 @@
         }
       ],
       "sparkline": [
-        0.37,
         0.07,
         0.07,
         0.07,
@@ -197,17 +196,18 @@
         -0.02,
         0.33,
         -0.02,
+        -0.02,
         -0.02
       ]
     },
     {
       "name": "Google",
       "sentiment": {
-        "overall_score": -0.05,
-        "trend": "declining",
-        "previous_score": 0.16,
+        "overall_score": 0.06,
+        "trend": "improving",
+        "previous_score": -0.05,
         "confidence": "high",
-        "sample_size": 15,
+        "sample_size": 30,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -218,8 +218,8 @@
             "count": 15
           },
           "reddit": {
-            "score": 0,
-            "count": 0
+            "score": 0.13,
+            "count": 15
           },
           "gdelt": {
             "score": 0,
@@ -228,6 +228,27 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Return to Office policy black- and whitelist.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/ReturntoOffice/",
+          "date": "2026-07-21",
+          "sentiment_score": 0.8271
+        },
+        {
+          "title": "PowerPoint Presentation Tips and Examples",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/powerpoint/",
+          "date": "2026-07-21",
+          "sentiment_score": 0.6369
+        },
+        {
+          "title": "Google",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/google/",
+          "date": "2026-07-21",
+          "sentiment_score": 0.0
+        },
         {
           "title": "Google Is Censoring Reviews of ICE Detention Centers",
           "source": "Hacker News",
@@ -241,31 +262,9 @@
           "url": "https://news.ycombinator.com/item?id=48975273",
           "date": "2026-07-20",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Show HN: FlexInference LLM Router",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48965552",
-          "date": "2026-07-19",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "How Google decided to Destroy its Search Monopoly",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48945074",
-          "date": "2026-07-17",
-          "sentiment_score": -0.5423
-        },
-        {
-          "title": "Show HN: Made a Free LLM Router",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48900735",
-          "date": "2026-07-14",
-          "sentiment_score": 0.5106
         }
       ],
       "sparkline": [
-        0.07,
         0.07,
         0.07,
         0.07,
@@ -294,7 +293,8 @@
         0.08,
         -0.01,
         0.16,
-        -0.05
+        -0.05,
+        0.06
       ]
     },
     {
@@ -362,7 +362,6 @@
         }
       ],
       "sparkline": [
-        0.02,
         -0.02,
         0.41,
         0.41,
@@ -391,17 +390,18 @@
         -0.11,
         -0.11,
         -0.11,
+        -0.11,
         -0.11
       ]
     },
     {
       "name": "Microsoft",
       "sentiment": {
-        "overall_score": 0.3,
-        "trend": "improving",
-        "previous_score": 0.09,
+        "overall_score": 0.09,
+        "trend": "declining",
+        "previous_score": 0.3,
         "confidence": "high",
-        "sample_size": 30,
+        "sample_size": 15,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -412,8 +412,8 @@
             "count": 15
           },
           "reddit": {
-            "score": 0.42,
-            "count": 15
+            "score": 0,
+            "count": 0
           },
           "gdelt": {
             "score": 0,
@@ -423,27 +423,6 @@
       },
       "top_headlines": [
         {
-          "title": "Microsoft Office 365: We all work together.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/Office365/",
-          "date": "2026-07-21",
-          "sentiment_score": 0.4019
-        },
-        {
-          "title": "Return to Office policy black- and whitelist.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-07-21",
-          "sentiment_score": 0.8271
-        },
-        {
-          "title": "/r/Technology",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/technology/",
-          "date": "2026-07-21",
-          "sentiment_score": 0.6249
-        },
-        {
           "title": "Amsterdam activists throw acid at Microsoft datacenter project",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=48948349",
@@ -451,15 +430,35 @@
           "sentiment_score": 0.0
         },
         {
-          "title": "Microsoft is a massive corporate monopoly built on Azure, Office, and AI integration. With a 39% net margin and huge recurring revenue, the recent correction dropped its forward P/E to an attractive 19 \u2014 cheaper than Apple. It is a flawless stock to safely target a 50-70% return this year.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/MarketVibe/comments/1uz3qk1/microsoft_is_a_massive_corporate_monopoly_built/",
-          "date": "2026-07-17",
-          "sentiment_score": 0.9862
+          "title": "Microsoft Confirms Windows GDID Device Identifier That Cannot Be Disabled",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48920338",
+          "date": "2026-07-15",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Microsoft has released software updates to plug at least 570 security holes",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48913190",
+          "date": "2026-07-14",
+          "sentiment_score": 0.34
+        },
+        {
+          "title": "A Study of Microsoft's Early 2026 Rollout of Claude Code and GitHub Copilot CLI",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48899321",
+          "date": "2026-07-13",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48900288",
+          "date": "2026-07-13",
+          "sentiment_score": 0.34
         }
       ],
       "sparkline": [
-        0.29,
         0.28,
         0.13,
         0.13,
@@ -488,7 +487,8 @@
         0.09,
         0.09,
         0.09,
-        0.3
+        0.3,
+        0.09
       ]
     },
     {
@@ -530,7 +530,6 @@
         0.53,
         0.53,
         0.53,
-        0.53,
         0,
         0.53,
         0.53,
@@ -543,6 +542,7 @@
         0.53,
         0.53,
         0.53,
+        0,
         0,
         0,
         0,
@@ -618,9 +618,9 @@
       "sentiment": {
         "overall_score": 0.0,
         "trend": "stable",
-        "previous_score": 0,
+        "previous_score": 0.0,
         "confidence": "low",
-        "sample_size": 2,
+        "sample_size": 1,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -628,7 +628,7 @@
           },
           "hackernews": {
             "score": 0.0,
-            "count": 2
+            "count": 1
           },
           "reddit": {
             "score": 0,
@@ -647,13 +647,6 @@
           "url": "https://news.ycombinator.com/item?id=48981136",
           "date": "2026-07-20",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Show HN: Riace \u2013 a hands-free interval timer I built while getting back in shape",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48984701",
-          "date": "2026-07-20",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
@@ -666,7 +659,6 @@
         0,
         0,
         0,
-        0,
         -0.3,
         -0.15,
         -0.15,
@@ -686,15 +678,16 @@
         -0.3,
         0,
         0,
+        0.0,
         0.0
       ]
     },
     {
       "name": "Salesforce",
       "sentiment": {
-        "overall_score": 0.19,
-        "trend": "declining",
-        "previous_score": 0.58,
+        "overall_score": 0.33,
+        "trend": "improving",
+        "previous_score": 0.19,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -707,7 +700,7 @@
             "count": 0
           },
           "reddit": {
-            "score": 0.19,
+            "score": 0.33,
             "count": 15
           },
           "gdelt": {
@@ -739,11 +732,11 @@
           "sentiment_score": -0.4723
         },
         {
-          "title": "Honest opinions, Looking for honest opinions on this report about former work place, how well does it read and does it make, sense and is viable",
+          "title": "Big Tech's Fear Sale: MSFT",
           "source": "Reddit",
-          "url": "https://www.reddit.com/r/HumanResourcesUK/comments/1v20r7t/honest_opinions_looking_for_honest_opinions_on/",
-          "date": "2026-07-20",
-          "sentiment_score": -0.9994
+          "url": "https://www.reddit.com/r/investingforbeginners/comments/1v2h9qy/big_techs_fear_sale_msft/",
+          "date": "2026-07-21",
+          "sentiment_score": 0.9984
         },
         {
           "title": "E-commerce Industry News Recap \ud83d\udd25 Week of July 20th, 2026",
@@ -754,7 +747,6 @@
         }
       ],
       "sparkline": [
-        -0.15,
         -0.15,
         0.46,
         0.54,
@@ -783,15 +775,16 @@
         0.28,
         0.58,
         0.58,
-        0.19
+        0.19,
+        0.33
       ]
     },
     {
       "name": "AT&T",
       "sentiment": {
         "overall_score": -0.18,
-        "trend": "declining",
-        "previous_score": -0.07,
+        "trend": "stable",
+        "previous_score": -0.18,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -851,7 +844,6 @@
         }
       ],
       "sparkline": [
-        -0.08,
         -0.14,
         -0.14,
         -0.14,
@@ -880,6 +872,7 @@
         -0.1,
         -0.2,
         -0.07,
+        -0.18,
         -0.18
       ]
     },
@@ -920,7 +913,6 @@
         }
       ],
       "sparkline": [
-        0,
         -0.12,
         0,
         0,
@@ -949,6 +941,7 @@
         0.0,
         -0.24,
         0.0,
+        0.0,
         0.0
       ]
     },
@@ -956,8 +949,8 @@
       "name": "Dell",
       "sentiment": {
         "overall_score": 0.24,
-        "trend": "improving",
-        "previous_score": 0.01,
+        "trend": "stable",
+        "previous_score": 0.24,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -1017,7 +1010,6 @@
         }
       ],
       "sparkline": [
-        -0.06,
         0.0,
         0.0,
         0.0,
@@ -1046,13 +1038,14 @@
         0.04,
         0.01,
         0.01,
+        0.24,
         0.24
       ]
     },
     {
       "name": "Tesla",
       "sentiment": {
-        "overall_score": -0.22,
+        "overall_score": -0.17,
         "trend": "stable",
         "previous_score": -0.22,
         "confidence": "medium",
@@ -1063,7 +1056,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.22,
+            "score": -0.17,
             "count": 9
           },
           "reddit": {
@@ -1077,6 +1070,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Tesla cash burn to test investor faith in AI bets",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48990821",
+          "date": "2026-07-21",
+          "sentiment_score": 0.4215
+        },
         {
           "title": "Tesla Robotaxis: 22 Collisions in 12 Months",
           "source": "Hacker News",
@@ -1104,17 +1104,9 @@
           "url": "https://news.ycombinator.com/item?id=48882667",
           "date": "2026-07-12",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "The robotaxi law that could ban Tesla",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48842394",
-          "date": "2026-07-09",
-          "sentiment_score": -0.5574
         }
       ],
       "sparkline": [
-        -0.28,
         -0.36,
         0.19,
         0.19,
@@ -1143,7 +1135,8 @@
         -0.31,
         -0.24,
         -0.22,
-        -0.22
+        -0.22,
+        -0.17
       ]
     },
     {
@@ -1151,7 +1144,7 @@
       "sentiment": {
         "overall_score": 0,
         "trend": "stable",
-        "previous_score": -0.02,
+        "previous_score": 0,
         "confidence": "low",
         "sample_size": 0,
         "source_scores": {
@@ -1175,7 +1168,6 @@
       },
       "top_headlines": [],
       "sparkline": [
-        0.05,
         0,
         0,
         0,
@@ -1204,25 +1196,26 @@
         -0.02,
         0,
         -0.02,
+        0,
         0
       ]
     },
     {
       "name": "Cisco",
       "sentiment": {
-        "overall_score": -0.23,
+        "overall_score": -0.25,
         "trend": "stable",
         "previous_score": -0.23,
         "confidence": "low",
-        "sample_size": 1,
+        "sample_size": 2,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.23,
-            "count": 1
+            "score": -0.25,
+            "count": 2
           },
           "reddit": {
             "score": 0,
@@ -1236,6 +1229,13 @@
       },
       "top_headlines": [
         {
+          "title": "Zero risk isn't the job: a CISO's guide to agentic AI",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48989995",
+          "date": "2026-07-21",
+          "sentiment_score": -0.2732
+        },
+        {
           "title": "Show HN: 0day Rubbish \u2013 AI Vulnerability Discovery Platform (0day-Rubbish.com)",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=48827283",
@@ -1244,7 +1244,6 @@
         }
       ],
       "sparkline": [
-        0.19,
         0.1,
         0.19,
         0.19,
@@ -1273,7 +1272,8 @@
         -0.23,
         -0.22,
         -0.23,
-        -0.23
+        -0.23,
+        -0.25
       ]
     }
   ]
