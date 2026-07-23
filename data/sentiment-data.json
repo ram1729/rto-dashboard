@@ -1,27 +1,27 @@
 {
-  "last_updated": "2026-07-23T02:54:20.035987Z",
+  "last_updated": "2026-07-23T14:07:44.494908Z",
   "scraper_log": {
-    "duration_sec": 224.33,
-    "total_articles": 195,
+    "duration_sec": 250.07,
+    "total_articles": 160,
     "errors": []
   },
   "companies": [
     {
       "name": "Amazon",
       "sentiment": {
-        "overall_score": 0.09,
-        "trend": "declining",
-        "previous_score": 0.16,
+        "overall_score": 0.1,
+        "trend": "stable",
+        "previous_score": 0.09,
         "confidence": "high",
-        "sample_size": 30,
+        "sample_size": 29,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.09,
-            "count": 15
+            "score": 0.11,
+            "count": 14
           },
           "reddit": {
             "score": 0.1,
@@ -76,7 +76,6 @@
         0.32,
         0.32,
         0.32,
-        0.32,
         0.26,
         0.17,
         0.18,
@@ -100,7 +99,8 @@
         0.23,
         0.24,
         0.16,
-        0.09
+        0.09,
+        0.1
       ]
     },
     {
@@ -168,7 +168,6 @@
         }
       ],
       "sparkline": [
-        0.07,
         0.08,
         0.04,
         0.37,
@@ -193,6 +192,7 @@
         -0.02,
         -0.02,
         0.33,
+        -0.02,
         -0.02,
         -0.02,
         -0.02,
@@ -229,6 +229,20 @@
       },
       "top_headlines": [
         {
+          "title": "European Commission: 'Guidance to Google for AI Interoperability'",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49017682",
+          "date": "2026-07-23",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Ask HN: Google BotGuard is blocking my web browser (Northstar), how I get help?",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49020606",
+          "date": "2026-07-23",
+          "sentiment_score": 0.0258
+        },
+        {
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/ReturntoOffice/",
@@ -248,24 +262,9 @@
           "url": "https://www.reddit.com/r/google/",
           "date": "2026-07-23",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Ancient Rome's version of Google Maps: how long to reach the beach",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49012754",
-          "date": "2026-07-22",
-          "sentiment_score": 0.0258
-        },
-        {
-          "title": "Google Is Censoring Reviews of ICE Detention Centers",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48979974",
-          "date": "2026-07-20",
-          "sentiment_score": -0.3612
         }
       ],
       "sparkline": [
-        0.07,
         0.01,
         0.27,
         0.09,
@@ -294,6 +293,7 @@
         -0.05,
         0.06,
         0.06,
+        0.06,
         0.06
       ]
     },
@@ -302,7 +302,7 @@
       "sentiment": {
         "overall_score": -0.14,
         "trend": "stable",
-        "previous_score": -0.11,
+        "previous_score": -0.14,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -362,7 +362,6 @@
         }
       ],
       "sparkline": [
-        0.41,
         0.43,
         0.04,
         0.02,
@@ -391,6 +390,7 @@
         -0.11,
         -0.11,
         -0.11,
+        -0.14,
         -0.14
       ]
     },
@@ -459,7 +459,6 @@
         }
       ],
       "sparkline": [
-        0.13,
         0.15,
         0.14,
         0.15,
@@ -486,6 +485,7 @@
         0.09,
         0.09,
         0.3,
+        0.09,
         0.09,
         0.09,
         0.09
@@ -527,7 +527,6 @@
         0.53,
         0.53,
         0.53,
-        0.53,
         0,
         0.53,
         0.53,
@@ -540,6 +539,7 @@
         0.53,
         0.53,
         0.53,
+        0,
         0,
         0,
         0,
@@ -656,7 +656,6 @@
         0,
         0,
         0,
-        0,
         -0.3,
         -0.15,
         -0.15,
@@ -676,6 +675,7 @@
         -0.3,
         0,
         0,
+        0.0,
         0.0,
         0.0,
         0.0,
@@ -685,23 +685,23 @@
     {
       "name": "Salesforce",
       "sentiment": {
-        "overall_score": 0.42,
-        "trend": "stable",
+        "overall_score": 0.31,
+        "trend": "declining",
         "previous_score": 0.42,
-        "confidence": "high",
-        "sample_size": 16,
+        "confidence": "low",
+        "sample_size": 3,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.36,
-            "count": 1
+            "score": 0,
+            "count": 0
           },
           "reddit": {
-            "score": 0.45,
-            "count": 15
+            "score": 0.31,
+            "count": 3
           },
           "gdelt": {
             "score": 0,
@@ -730,24 +730,9 @@
           "url": "https://www.reddit.com/r/NoToRTOCa/",
           "date": "2026-07-23",
           "sentiment_score": -0.4723
-        },
-        {
-          "title": "Show HN: Aeon.WorX \u2013 A generic object lifecycle management system (like PLM/PDM)",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48992492",
-          "date": "2026-07-21",
-          "sentiment_score": 0.3612
-        },
-        {
-          "title": "[5 YoE, Customer Care Lead, Marketing/Content/Event Production, USA]",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/resumes/comments/1v2uu4k/5_yoe_customer_care_lead_marketingcontentevent/",
-          "date": "2026-07-21",
-          "sentiment_score": 0.9164
         }
       ],
       "sparkline": [
-        0.54,
         0.48,
         0.5,
         0.49,
@@ -776,7 +761,8 @@
         0.19,
         0.33,
         0.42,
-        0.42
+        0.42,
+        0.31
       ]
     },
     {
@@ -845,7 +831,6 @@
       ],
       "sparkline": [
         -0.14,
-        -0.14,
         -0.15,
         -0.21,
         -0.1,
@@ -873,17 +858,18 @@
         -0.18,
         -0.18,
         -0.18,
+        -0.18,
         -0.18
       ]
     },
     {
       "name": "Disney",
       "sentiment": {
-        "overall_score": -0.07,
-        "trend": "declining",
-        "previous_score": 0.0,
-        "confidence": "high",
-        "sample_size": 17,
+        "overall_score": 0.0,
+        "trend": "improving",
+        "previous_score": -0.07,
+        "confidence": "low",
+        "sample_size": 1,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -891,11 +877,11 @@
           },
           "hackernews": {
             "score": 0.0,
-            "count": 2
+            "count": 1
           },
           "reddit": {
-            "score": -0.11,
-            "count": 15
+            "score": 0,
+            "count": 0
           },
           "gdelt": {
             "score": 0,
@@ -905,43 +891,14 @@
       },
       "top_headlines": [
         {
-          "title": "Return to Office policy black- and whitelist.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-07-23",
-          "sentiment_score": 0.8271
-        },
-        {
-          "title": "The Book of Boba Fett",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/BookOfBobaFett/",
-          "date": "2026-07-23",
-          "sentiment_score": -0.5848
-        },
-        {
-          "title": "Box Office - The Business of Movies",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/boxoffice/",
-          "date": "2026-07-23",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "DNS Bypass Tweets Keep Uptobox Employee's \u20ac197K Frozen in Disney Piracy Case",
+          "title": "Show HN: I built custom movie dashboards for Apple TV",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49013743",
-          "date": "2026-07-22",
+          "url": "https://news.ycombinator.com/item?id=48764661",
+          "date": "2026-07-02",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "The downfall of star wars under disney",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/FIlm/comments/1v39u31/the_downfall_of_star_wars_under_disney/",
-          "date": "2026-07-22",
-          "sentiment_score": -0.9379
         }
       ],
       "sparkline": [
-        0,
         -0.12,
         0.42,
         0.21,
@@ -970,15 +927,16 @@
         0.0,
         0.0,
         0.0,
-        -0.07
+        -0.07,
+        0.0
       ]
     },
     {
       "name": "Dell",
       "sentiment": {
         "overall_score": 0.01,
-        "trend": "declining",
-        "previous_score": 0.24,
+        "trend": "stable",
+        "previous_score": 0.01,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -1038,7 +996,6 @@
         }
       ],
       "sparkline": [
-        0.0,
         -0.01,
         0.04,
         0.05,
@@ -1067,25 +1024,26 @@
         0.24,
         0.24,
         0.24,
+        0.01,
         0.01
       ]
     },
     {
       "name": "Tesla",
       "sentiment": {
-        "overall_score": -0.17,
+        "overall_score": -0.2,
         "trend": "stable",
         "previous_score": -0.17,
         "confidence": "high",
-        "sample_size": 12,
+        "sample_size": 11,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.17,
-            "count": 12
+            "score": -0.2,
+            "count": 11
           },
           "reddit": {
             "score": 0,
@@ -1098,6 +1056,20 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Robotaxi law could ban Tesla in N.J",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49017867",
+          "date": "2026-07-23",
+          "sentiment_score": -0.5574
+        },
+        {
+          "title": "Tesla falls 10%, Alphabet sinks 5% as AI spending concerns spook investors",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49021494",
+          "date": "2026-07-23",
+          "sentiment_score": 0.0
+        },
         {
           "title": "Tesla says 'Robotaxi' is expanding \u2013 its own chart shows it's not",
           "source": "Hacker News",
@@ -1113,29 +1085,14 @@
           "sentiment_score": 0.3361
         },
         {
-          "title": "Tesla cash burn to test investor faith in AI bets",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48990821",
-          "date": "2026-07-21",
-          "sentiment_score": 0.4215
-        },
-        {
           "title": "Tesla Robotaxis: 22 Collisions in 12 Months",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=48968504",
           "date": "2026-07-19",
           "sentiment_score": -0.2732
-        },
-        {
-          "title": "Launch HN: Agnost AI (YC S26) \u2013 Extract user feedback from agent conversations",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48908950",
-          "date": "2026-07-14",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.19,
         0.01,
         0.24,
         -0.26,
@@ -1164,17 +1121,18 @@
         -0.22,
         -0.17,
         -0.17,
-        -0.17
+        -0.17,
+        -0.2
       ]
     },
     {
       "name": "Caterpillar",
       "sentiment": {
-        "overall_score": 0.44,
-        "trend": "stable",
+        "overall_score": 0.16,
+        "trend": "declining",
         "previous_score": 0.44,
-        "confidence": "low",
-        "sample_size": 1,
+        "confidence": "medium",
+        "sample_size": 9,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -1185,77 +1143,8 @@
             "count": 1
           },
           "reddit": {
-            "score": 0,
-            "count": 0
-          },
-          "gdelt": {
-            "score": 0,
-            "count": 0
-          }
-        }
-      },
-      "top_headlines": [
-        {
-          "title": "Show HN: A game to get people out in nature and appreciating wild animals",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48995508",
-          "date": "2026-07-21",
-          "sentiment_score": 0.4404
-        }
-      ],
-      "sparkline": [
-        0,
-        -0.09,
-        0,
-        0.05,
-        0,
-        0,
-        0.05,
-        0,
-        -0.18,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        -0.13,
-        0,
-        0,
-        0,
-        0,
-        0,
-        -0.02,
-        0,
-        -0.02,
-        0,
-        0,
-        0.44,
-        0.44
-      ]
-    },
-    {
-      "name": "Cisco",
-      "sentiment": {
-        "overall_score": -0.23,
-        "trend": "stable",
-        "previous_score": -0.23,
-        "confidence": "high",
-        "sample_size": 13,
-        "source_scores": {
-          "google_news": {
-            "score": 0,
-            "count": 0
-          },
-          "hackernews": {
-            "score": -0.25,
-            "count": 2
-          },
-          "reddit": {
-            "score": -0.22,
-            "count": 11
+            "score": -0.01,
+            "count": 8
           },
           "gdelt": {
             "score": 0,
@@ -1286,22 +1175,90 @@
           "sentiment_score": -0.4723
         },
         {
-          "title": "Zero risk isn't the job: a CISO's guide to agentic AI",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48989995",
-          "date": "2026-07-21",
-          "sentiment_score": -0.2732
+          "title": "RTO Attendance Report Information Gathering",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/caterpillar/comments/1v41tkl/rto_attendance_report_information_gathering/",
+          "date": "2026-07-23",
+          "sentiment_score": 0.9484
         },
         {
-          "title": "State workers stage picket in Oakland to refute Newsom\u2019s return-to-office mandate",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/eastbay/comments/1uxucqx/state_workers_stage_picket_in_oakland_to_refute/",
-          "date": "2026-07-16",
-          "sentiment_score": -0.5837
+          "title": "Show HN: A game to get people out in nature and appreciating wild animals",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48995508",
+          "date": "2026-07-21",
+          "sentiment_score": 0.4404
         }
       ],
       "sparkline": [
-        0.19,
+        -0.09,
+        0,
+        0.05,
+        0,
+        0,
+        0.05,
+        0,
+        -0.18,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -0.13,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -0.02,
+        0,
+        -0.02,
+        0,
+        0,
+        0.44,
+        0.44,
+        0.16
+      ]
+    },
+    {
+      "name": "Cisco",
+      "sentiment": {
+        "overall_score": -0.23,
+        "trend": "stable",
+        "previous_score": -0.23,
+        "confidence": "low",
+        "sample_size": 1,
+        "source_scores": {
+          "google_news": {
+            "score": 0,
+            "count": 0
+          },
+          "hackernews": {
+            "score": -0.23,
+            "count": 1
+          },
+          "reddit": {
+            "score": 0,
+            "count": 0
+          },
+          "gdelt": {
+            "score": 0,
+            "count": 0
+          }
+        }
+      },
+      "top_headlines": [
+        {
+          "title": "Show HN: 0day Rubbish \u2013 AI Vulnerability Discovery Platform (0day-Rubbish.com)",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48827283",
+          "date": "2026-07-08",
+          "sentiment_score": -0.2263
+        }
+      ],
+      "sparkline": [
         0.38,
         0.0,
         0,
@@ -1329,6 +1286,7 @@
         -0.23,
         -0.23,
         -0.25,
+        -0.23,
         -0.23,
         -0.23
       ]
