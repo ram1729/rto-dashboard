@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-07-24T02:48:57.381287Z",
+  "last_updated": "2026-07-24T13:53:35.650441Z",
   "scraper_log": {
-    "duration_sec": 247.45,
-    "total_articles": 199,
+    "duration_sec": 243.15,
+    "total_articles": 195,
     "errors": []
   },
   "companies": [
@@ -20,7 +20,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.1,
+            "score": 0.11,
             "count": 15
           },
           "reddit": {
@@ -74,7 +74,6 @@
         0.32,
         0.32,
         0.32,
-        0.32,
         0.26,
         0.17,
         0.18,
@@ -100,29 +99,30 @@
         0.16,
         0.09,
         0.1,
+        0.1,
         0.1
       ]
     },
     {
       "name": "Apple",
       "sentiment": {
-        "overall_score": 0.39,
-        "trend": "improving",
-        "previous_score": -0.02,
+        "overall_score": -0.01,
+        "trend": "declining",
+        "previous_score": 0.39,
         "confidence": "high",
-        "sample_size": 30,
+        "sample_size": 15,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.02,
+            "score": -0.01,
             "count": 15
           },
           "reddit": {
-            "score": 0.64,
-            "count": 15
+            "score": 0,
+            "count": 0
           },
           "gdelt": {
             "score": 0,
@@ -132,32 +132,11 @@
       },
       "top_headlines": [
         {
-          "title": "Return to Office policy black- and whitelist.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-07-24",
-          "sentiment_score": 0.8271
-        },
-        {
-          "title": "PowerPoint Presentation Tips and Examples",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/powerpoint/",
-          "date": "2026-07-24",
-          "sentiment_score": 0.6369
-        },
-        {
-          "title": "r/Apple: Unofficial Apple Community",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/apple/",
+          "title": "Lock TF IN: an AI drill sergeant that roasts skipped workouts",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49031206",
           "date": "2026-07-24",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "[OC] 2026 NBA All-Adjective Team. I went through each NBA roster to find every player whose name is, or should be, an adjective (plus more)",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/nba/comments/1v32scq/oc_2026_nba_alladjective_team_i_went_through_each/",
-          "date": "2026-07-22",
-          "sentiment_score": 0.9999
         },
         {
           "title": "Nvidia Parakeet and MOSS vs. Apple's SpeechAnalyzer: benchmark round 2",
@@ -165,10 +144,30 @@
           "url": "https://news.ycombinator.com/item?id=48994854",
           "date": "2026-07-21",
           "sentiment_score": 0.0
+        },
+        {
+          "title": "Show HN: Roll Solver \u2013 daily multiplayer word puzzle PWA",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48982389",
+          "date": "2026-07-20",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Running Gemma4 on Apple Neural Engine",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48929747",
+          "date": "2026-07-16",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Show HN: An MCP server that frames screen recordings and shots in Apple bezels",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48934991",
+          "date": "2026-07-16",
+          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.04,
         0.37,
         0.07,
         0.05,
@@ -197,17 +196,18 @@
         -0.02,
         -0.02,
         -0.02,
-        0.39
+        0.39,
+        -0.01
       ]
     },
     {
       "name": "Google",
       "sentiment": {
-        "overall_score": -0.05,
-        "trend": "declining",
-        "previous_score": 0.06,
+        "overall_score": 0.06,
+        "trend": "improving",
+        "previous_score": -0.05,
         "confidence": "high",
-        "sample_size": 15,
+        "sample_size": 30,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -218,8 +218,8 @@
             "count": 15
           },
           "reddit": {
-            "score": 0,
-            "count": 0
+            "score": 0.13,
+            "count": 15
           },
           "gdelt": {
             "score": 0,
@@ -228,6 +228,27 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Return to Office policy black- and whitelist.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/ReturntoOffice/",
+          "date": "2026-07-24",
+          "sentiment_score": 0.8271
+        },
+        {
+          "title": "PowerPoint Presentation Tips and Examples",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/powerpoint/",
+          "date": "2026-07-24",
+          "sentiment_score": 0.6369
+        },
+        {
+          "title": "Google",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/google/",
+          "date": "2026-07-24",
+          "sentiment_score": 0.0
+        },
         {
           "title": "European Commission: 'Guidance to Google for AI Interoperability'",
           "source": "Hacker News",
@@ -241,31 +262,9 @@
           "url": "https://news.ycombinator.com/item?id=49020606",
           "date": "2026-07-23",
           "sentiment_score": 0.0258
-        },
-        {
-          "title": "Ancient Rome's version of Google Maps: how long to reach the beach",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49012754",
-          "date": "2026-07-22",
-          "sentiment_score": 0.0258
-        },
-        {
-          "title": "Google Is Censoring Reviews of ICE Detention Centers",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48979974",
-          "date": "2026-07-20",
-          "sentiment_score": -0.3612
-        },
-        {
-          "title": "Ask HN: Are there any new competitors to Google search in 2026?",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48975273",
-          "date": "2026-07-20",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.27,
         0.09,
         0.06,
         0.06,
@@ -294,7 +293,8 @@
         0.06,
         0.06,
         0.06,
-        -0.05
+        -0.05,
+        0.06
       ]
     },
     {
@@ -362,7 +362,6 @@
         }
       ],
       "sparkline": [
-        0.04,
         0.02,
         0.35,
         0.35,
@@ -391,17 +390,18 @@
         -0.11,
         -0.14,
         -0.14,
+        -0.14,
         -0.14
       ]
     },
     {
       "name": "Microsoft",
       "sentiment": {
-        "overall_score": 0.38,
-        "trend": "improving",
-        "previous_score": 0.09,
+        "overall_score": 0.09,
+        "trend": "declining",
+        "previous_score": 0.38,
         "confidence": "high",
-        "sample_size": 30,
+        "sample_size": 15,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -412,8 +412,8 @@
             "count": 15
           },
           "reddit": {
-            "score": 0.55,
-            "count": 15
+            "score": 0,
+            "count": 0
           },
           "gdelt": {
             "score": 0,
@@ -423,43 +423,42 @@
       },
       "top_headlines": [
         {
-          "title": "Return to Office policy black- and whitelist.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-07-24",
-          "sentiment_score": 0.8271
+          "title": "Amsterdam activists throw acid at Microsoft datacenter project",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48948349",
+          "date": "2026-07-17",
+          "sentiment_score": 0.0
         },
         {
-          "title": "Microsoft",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/microsoft/",
-          "date": "2026-07-24",
-          "sentiment_score": 0.4588
+          "title": "Microsoft Confirms Windows GDID Device Identifier That Cannot Be Disabled",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48920338",
+          "date": "2026-07-15",
+          "sentiment_score": 0.0
         },
         {
-          "title": "/r/Technology",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/technology/",
-          "date": "2026-07-24",
-          "sentiment_score": 0.6249
+          "title": "Microsoft has released software updates to plug at least 570 security holes",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48913190",
+          "date": "2026-07-14",
+          "sentiment_score": 0.34
         },
         {
-          "title": "My Manager Turned My Resignation Into a Public \u201cYou\u2019re Fired\u201d Joke After I Agreed to Help With the Transition",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/talesfromthejob/comments/1v3m1ig/my_manager_turned_my_resignation_into_a_public/",
-          "date": "2026-07-22",
-          "sentiment_score": 0.9908
+          "title": "A Study of Microsoft's Early 2026 Rollout of Claude Code and GitHub Copilot CLI",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48899321",
+          "date": "2026-07-13",
+          "sentiment_score": 0.0
         },
         {
-          "title": "Best Way To Setup A Replacement For My Wife?",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/linuxmint/comments/1v3tmr3/best_way_to_setup_a_replacement_for_my_wife/",
-          "date": "2026-07-22",
-          "sentiment_score": 0.9565
+          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48900288",
+          "date": "2026-07-13",
+          "sentiment_score": 0.34
         }
       ],
       "sparkline": [
-        0.14,
         0.15,
         0.15,
         0.15,
@@ -488,7 +487,8 @@
         0.09,
         0.09,
         0.09,
-        0.38
+        0.38,
+        0.09
       ]
     },
     {
@@ -525,7 +525,6 @@
         0.53,
         0.53,
         0.53,
-        0.53,
         0,
         0.53,
         0.53,
@@ -538,6 +537,7 @@
         0.53,
         0.53,
         0.53,
+        0,
         0,
         0,
         0,
@@ -616,19 +616,19 @@
     {
       "name": "Bank of America",
       "sentiment": {
-        "overall_score": 0.0,
-        "trend": "stable",
+        "overall_score": 0.12,
+        "trend": "improving",
         "previous_score": 0.0,
         "confidence": "low",
-        "sample_size": 1,
+        "sample_size": 2,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.0,
-            "count": 1
+            "score": 0.12,
+            "count": 2
           },
           "reddit": {
             "score": 0,
@@ -642,6 +642,13 @@
       },
       "top_headlines": [
         {
+          "title": "Ask HN: Convince me to not to shelve my app (I've decided to)",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49032342",
+          "date": "2026-07-24",
+          "sentiment_score": 0.25
+        },
+        {
           "title": "Launch HN: Bloomy (YC S26) \u2013 AI-powered mastery learning for K-12",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=48981136",
@@ -654,7 +661,6 @@
         0,
         0,
         0,
-        0,
         -0.3,
         -0.15,
         -0.15,
@@ -679,7 +685,8 @@
         0.0,
         0.0,
         0.0,
-        0.0
+        0.0,
+        0.12
       ]
     },
     {
@@ -687,7 +694,7 @@
       "sentiment": {
         "overall_score": 0.28,
         "trend": "stable",
-        "previous_score": 0.31,
+        "previous_score": 0.28,
         "confidence": "high",
         "sample_size": 16,
         "source_scores": {
@@ -747,7 +754,6 @@
         }
       ],
       "sparkline": [
-        0.5,
         0.49,
         0.49,
         0.49,
@@ -776,6 +782,7 @@
         0.42,
         0.42,
         0.31,
+        0.28,
         0.28
       ]
     },
@@ -784,7 +791,7 @@
       "sentiment": {
         "overall_score": -0.19,
         "trend": "stable",
-        "previous_score": -0.18,
+        "previous_score": -0.19,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -815,6 +822,13 @@
           "sentiment_score": -0.1531
         },
         {
+          "title": "Show HN: Echo \u2013 Fable-level results at 1/3 the cost using open-weight models",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49026810",
+          "date": "2026-07-23",
+          "sentiment_score": 0.0
+        },
+        {
           "title": "First atmosphere found on Earth-like planet in habitable zone of distant star",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=48947560",
@@ -834,17 +848,9 @@
           "url": "https://news.ycombinator.com/item?id=48922434",
           "date": "2026-07-15",
           "sentiment_score": -0.296
-        },
-        {
-          "title": "OpenAI loses trademark dispute at EU court",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48921461",
-          "date": "2026-07-15",
-          "sentiment_score": -0.6124
         }
       ],
       "sparkline": [
-        -0.15,
         -0.21,
         -0.1,
         -0.14,
@@ -873,17 +879,18 @@
         -0.18,
         -0.18,
         -0.18,
+        -0.19,
         -0.19
       ]
     },
     {
       "name": "Disney",
       "sentiment": {
-        "overall_score": 0.0,
-        "trend": "stable",
+        "overall_score": -0.07,
+        "trend": "declining",
         "previous_score": 0.0,
-        "confidence": "low",
-        "sample_size": 1,
+        "confidence": "high",
+        "sample_size": 16,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -894,8 +901,8 @@
             "count": 1
           },
           "reddit": {
-            "score": 0,
-            "count": 0
+            "score": -0.11,
+            "count": 15
           },
           "gdelt": {
             "score": 0,
@@ -905,15 +912,42 @@
       },
       "top_headlines": [
         {
-          "title": "Show HN: I built custom movie dashboards for Apple TV",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48764661",
-          "date": "2026-07-02",
+          "title": "Return to Office policy black- and whitelist.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/ReturntoOffice/",
+          "date": "2026-07-24",
+          "sentiment_score": 0.8271
+        },
+        {
+          "title": "The Book of Boba Fett",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/BookOfBobaFett/",
+          "date": "2026-07-24",
+          "sentiment_score": -0.5848
+        },
+        {
+          "title": "Box Office - The Business of Movies",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/boxoffice/",
+          "date": "2026-07-24",
           "sentiment_score": 0.0
+        },
+        {
+          "title": "My (25F) stepmom (44F) has blocked me from seeing anything involving my dad (59M) and says she will unblock me when she feels ready. I feel shut out.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/BestofRedditorUpdates/comments/1v42uie/my_25f_stepmom_44f_has_blocked_me_from_seeing/",
+          "date": "2026-07-23",
+          "sentiment_score": 0.9833
+        },
+        {
+          "title": "The downfall of star wars under disney",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/FIlm/comments/1v39u31/the_downfall_of_star_wars_under_disney/",
+          "date": "2026-07-22",
+          "sentiment_score": -0.9379
         }
       ],
       "sparkline": [
-        0.42,
         0.21,
         -0.16,
         -0.16,
@@ -942,14 +976,15 @@
         0.0,
         -0.07,
         0.0,
-        0.0
+        0.0,
+        -0.07
       ]
     },
     {
       "name": "Dell",
       "sentiment": {
-        "overall_score": 0.01,
-        "trend": "stable",
+        "overall_score": 0.06,
+        "trend": "improving",
         "previous_score": 0.01,
         "confidence": "high",
         "sample_size": 15,
@@ -959,7 +994,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.01,
+            "score": 0.06,
             "count": 15
           },
           "reddit": {
@@ -973,6 +1008,20 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "A Great Deal of Information About Hacker News",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49031115",
+          "date": "2026-07-24",
+          "sentiment_score": 0.6249
+        },
+        {
+          "title": "Show HN: RefurbAlert \u2013 Never miss a refurbished deal again",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49030890",
+          "date": "2026-07-24",
+          "sentiment_score": 0.1139
+        },
         {
           "title": "US oil firms sign deals with Iraq to develop alternative shipping routes",
           "source": "Hacker News",
@@ -993,24 +1042,9 @@
           "url": "https://news.ycombinator.com/item?id=48919489",
           "date": "2026-07-15",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "UK-Switzerland deal to scrap roaming charges and allow Britons to use e-gates",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48895508",
-          "date": "2026-07-13",
-          "sentiment_score": -0.0516
-        },
-        {
-          "title": "Syria deal gives Trump potential route to bypass Hormuz",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48852211",
-          "date": "2026-07-09",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.04,
         0.05,
         0.0,
         0.0,
@@ -1039,29 +1073,30 @@
         0.24,
         0.01,
         0.01,
-        0.01
+        0.01,
+        0.06
       ]
     },
     {
       "name": "Tesla",
       "sentiment": {
-        "overall_score": 0.11,
-        "trend": "improving",
-        "previous_score": -0.2,
+        "overall_score": -0.12,
+        "trend": "declining",
+        "previous_score": 0.11,
         "confidence": "high",
-        "sample_size": 29,
+        "sample_size": 15,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.16,
-            "count": 14
+            "score": -0.12,
+            "count": 15
           },
           "reddit": {
-            "score": 0.27,
-            "count": 15
+            "score": 0,
+            "count": 0
           },
           "gdelt": {
             "score": 0,
@@ -1071,25 +1106,11 @@
       },
       "top_headlines": [
         {
-          "title": "Return to Office policy black- and whitelist.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/ReturntoOffice/",
+          "title": "Reality Bites Elon Musk and His Tesla, SpaceX Believers",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49033778",
           "date": "2026-07-24",
-          "sentiment_score": 0.8271
-        },
-        {
-          "title": "fullyremotework",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/fullyremotework/",
-          "date": "2026-07-24",
-          "sentiment_score": 0.5859
-        },
-        {
-          "title": "Antiwork: Unemployment for all, not just the rich!",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/antiwork/",
-          "date": "2026-07-24",
-          "sentiment_score": -0.3434
+          "sentiment_score": 0.0
         },
         {
           "title": "Tesla says Robotaxi is expanding \u2013 its own chart shows it's not",
@@ -1104,10 +1125,23 @@
           "url": "https://news.ycombinator.com/item?id=49028783",
           "date": "2026-07-23",
           "sentiment_score": 0.0
+        },
+        {
+          "title": "Robotaxi law could ban Tesla in N.J",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49017867",
+          "date": "2026-07-23",
+          "sentiment_score": -0.5574
+        },
+        {
+          "title": "Tesla falls 10%, Alphabet sinks 5% as AI spending concerns spook investors",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49021494",
+          "date": "2026-07-23",
+          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.24,
         -0.26,
         -0.34,
         -0.34,
@@ -1136,17 +1170,18 @@
         -0.17,
         -0.17,
         -0.2,
-        0.11
+        0.11,
+        -0.12
       ]
     },
     {
       "name": "Caterpillar",
       "sentiment": {
-        "overall_score": 0.44,
-        "trend": "improving",
-        "previous_score": 0.16,
-        "confidence": "low",
-        "sample_size": 1,
+        "overall_score": 0.16,
+        "trend": "declining",
+        "previous_score": 0.44,
+        "confidence": "medium",
+        "sample_size": 9,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -1157,8 +1192,8 @@
             "count": 1
           },
           "reddit": {
-            "score": 0,
-            "count": 0
+            "score": -0.01,
+            "count": 8
           },
           "gdelt": {
             "score": 0,
@@ -1168,6 +1203,34 @@
       },
       "top_headlines": [
         {
+          "title": "Return to Office policy black- and whitelist.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/ReturntoOffice/",
+          "date": "2026-07-24",
+          "sentiment_score": 0.8271
+        },
+        {
+          "title": "fullyremotework",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/fullyremotework/",
+          "date": "2026-07-24",
+          "sentiment_score": 0.5859
+        },
+        {
+          "title": "NoToRTOCa",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/NoToRTOCa/",
+          "date": "2026-07-24",
+          "sentiment_score": -0.4723
+        },
+        {
+          "title": "RTO Attendance Report Information Gathering",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/caterpillar/comments/1v41tkl/rto_attendance_report_information_gathering/",
+          "date": "2026-07-23",
+          "sentiment_score": 0.9484
+        },
+        {
           "title": "Show HN: A game to get people out in nature and appreciating wild animals",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=48995508",
@@ -1176,7 +1239,6 @@
         }
       ],
       "sparkline": [
-        0,
         0.05,
         0,
         0,
@@ -1205,25 +1267,26 @@
         0.44,
         0.44,
         0.16,
-        0.44
+        0.44,
+        0.16
       ]
     },
     {
       "name": "Cisco",
       "sentiment": {
-        "overall_score": -0.23,
-        "trend": "stable",
+        "overall_score": -0.11,
+        "trend": "improving",
         "previous_score": -0.23,
         "confidence": "low",
-        "sample_size": 1,
+        "sample_size": 2,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.23,
-            "count": 1
+            "score": -0.11,
+            "count": 2
           },
           "reddit": {
             "score": 0,
@@ -1237,6 +1300,13 @@
       },
       "top_headlines": [
         {
+          "title": "Show HN: Audio Player with \"Binaural Beats\" tuned to the same key as your music",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49033302",
+          "date": "2026-07-24",
+          "sentiment_score": 0.0
+        },
+        {
           "title": "Show HN: 0day Rubbish \u2013 AI Vulnerability Discovery Platform (0day-Rubbish.com)",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=48827283",
@@ -1245,7 +1315,6 @@
         }
       ],
       "sparkline": [
-        0.0,
         0,
         -0.09,
         0.0,
@@ -1274,7 +1343,8 @@
         -0.23,
         -0.23,
         -0.23,
-        -0.23
+        -0.23,
+        -0.11
       ]
     }
   ]
