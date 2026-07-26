@@ -1,30 +1,30 @@
 {
-  "last_updated": "2026-07-26T02:54:34.845123Z",
+  "last_updated": "2026-07-26T13:29:59.951585Z",
   "scraper_log": {
-    "duration_sec": 193.51,
-    "total_articles": 179,
+    "duration_sec": 202.7,
+    "total_articles": 185,
     "errors": []
   },
   "companies": [
     {
       "name": "Amazon",
       "sentiment": {
-        "overall_score": 0.1,
+        "overall_score": 0.06,
         "trend": "stable",
         "previous_score": 0.1,
         "confidence": "high",
-        "sample_size": 29,
+        "sample_size": 30,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.11,
-            "count": 14
+            "score": 0.1,
+            "count": 15
           },
           "reddit": {
-            "score": 0.1,
+            "score": 0.04,
             "count": 15
           },
           "gdelt": {
@@ -42,16 +42,16 @@
           "sentiment_score": 0.1779
         },
         {
-          "title": "Return to Office policy black- and whitelist.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-07-26",
-          "sentiment_score": 0.8271
-        },
-        {
           "title": "Look Up",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/superman/",
+          "date": "2026-07-26",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "DC Animated Universe",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/DCAU/",
           "date": "2026-07-26",
           "sentiment_score": 0.0
         },
@@ -71,7 +71,6 @@
         }
       ],
       "sparkline": [
-        0.32,
         0.26,
         0.17,
         0.18,
@@ -100,7 +99,8 @@
         0.1,
         0.1,
         0.1,
-        0.1
+        0.1,
+        0.06
       ]
     },
     {
@@ -168,7 +168,6 @@
         }
       ],
       "sparkline": [
-        0.05,
         0.41,
         0.03,
         0.03,
@@ -197,17 +196,18 @@
         0.39,
         -0.01,
         -0.01,
+        -0.01,
         -0.01
       ]
     },
     {
       "name": "Google",
       "sentiment": {
-        "overall_score": -0.04,
-        "trend": "declining",
-        "previous_score": 0.05,
+        "overall_score": 0.15,
+        "trend": "improving",
+        "previous_score": -0.04,
         "confidence": "high",
-        "sample_size": 15,
+        "sample_size": 30,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -218,8 +218,8 @@
             "count": 15
           },
           "reddit": {
-            "score": 0,
-            "count": 0
+            "score": 0.26,
+            "count": 15
           },
           "gdelt": {
             "score": 0,
@@ -228,6 +228,27 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "PowerPoint Presentation Tips and Examples",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/powerpoint/",
+          "date": "2026-07-26",
+          "sentiment_score": 0.6369
+        },
+        {
+          "title": "Return to Office policy black- and whitelist.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/ReturntoOffice/",
+          "date": "2026-07-26",
+          "sentiment_score": 0.8271
+        },
+        {
+          "title": "Google",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/google/",
+          "date": "2026-07-26",
+          "sentiment_score": 0.0
+        },
         {
           "title": "Google Rolls Out Selfie Video Sign-In for Account Recovery \u2013 MeshWorld",
           "source": "Hacker News",
@@ -241,31 +262,9 @@
           "url": "https://news.ycombinator.com/item?id=49038628",
           "date": "2026-07-24",
           "sentiment_score": -0.2263
-        },
-        {
-          "title": "Ask HN: Google BotGuard is blocking my web browser (Northstar), how I get help?",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49020606",
-          "date": "2026-07-23",
-          "sentiment_score": 0.0258
-        },
-        {
-          "title": "Ancient Rome's version of Google Maps: how long to reach the beach",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49012754",
-          "date": "2026-07-22",
-          "sentiment_score": 0.0258
-        },
-        {
-          "title": "Show HN: MonteSheet \u2013 100k Monte Carlo runs in ~1.9s in Google Sheets",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48993198",
-          "date": "2026-07-21",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.06,
         0.09,
         0.1,
         0.1,
@@ -294,17 +293,18 @@
         -0.05,
         0.06,
         0.05,
-        -0.04
+        -0.04,
+        0.15
       ]
     },
     {
       "name": "Meta",
       "sentiment": {
-        "overall_score": 0.22,
-        "trend": "improving",
-        "previous_score": -0.14,
+        "overall_score": -0.14,
+        "trend": "declining",
+        "previous_score": 0.22,
         "confidence": "high",
-        "sample_size": 30,
+        "sample_size": 15,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -315,8 +315,8 @@
             "count": 15
           },
           "reddit": {
-            "score": 0.44,
-            "count": 15
+            "score": 0,
+            "count": 0
           },
           "gdelt": {
             "score": 0,
@@ -325,27 +325,6 @@
         }
       },
       "top_headlines": [
-        {
-          "title": "Return to Office policy black- and whitelist.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-07-26",
-          "sentiment_score": 0.8271
-        },
-        {
-          "title": "Bloodborne",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/bloodborne/",
-          "date": "2026-07-26",
-          "sentiment_score": 0.4588
-        },
-        {
-          "title": "Legal Advice ~ A place to get simple legal advice*",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/legaladvice/",
-          "date": "2026-07-26",
-          "sentiment_score": 0.3612
-        },
         {
           "title": "Meta's New Feel-Good AI Ad Uses a Song About the World Ending",
           "source": "Hacker News",
@@ -359,10 +338,30 @@
           "url": "https://news.ycombinator.com/item?id=49040345",
           "date": "2026-07-24",
           "sentiment_score": 0.0
+        },
+        {
+          "title": "Build a website for AI pics for dating apps in 20 hours, launched ads, failed",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49013715",
+          "date": "2026-07-22",
+          "sentiment_score": -0.4215
+        },
+        {
+          "title": "Show HN: Update on my media editor in browser no back end",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48919147",
+          "date": "2026-07-15",
+          "sentiment_score": -0.296
+        },
+        {
+          "title": "We asked Meta's new model to build things its team had rejected",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48907873",
+          "date": "2026-07-14",
+          "sentiment_score": -0.5106
         }
       ],
       "sparkline": [
-        0.35,
         -0.0,
         0.03,
         0.03,
@@ -391,7 +390,8 @@
         -0.14,
         -0.14,
         -0.14,
-        0.22
+        0.22,
+        -0.14
       ]
     },
     {
@@ -460,7 +460,6 @@
       ],
       "sparkline": [
         0.15,
-        0.15,
         0.39,
         0.37,
         0.08,
@@ -486,6 +485,7 @@
         0.09,
         0.09,
         0.38,
+        0.09,
         0.09,
         0.09,
         0.09
@@ -522,7 +522,6 @@
       "sparkline": [
         0.53,
         0.53,
-        0.53,
         0,
         0.53,
         0.53,
@@ -535,6 +534,7 @@
         0.53,
         0.53,
         0.53,
+        0,
         0,
         0,
         0,
@@ -618,7 +618,7 @@
       "sentiment": {
         "overall_score": 0.0,
         "trend": "stable",
-        "previous_score": 0,
+        "previous_score": 0.0,
         "confidence": "low",
         "sample_size": 1,
         "source_scores": {
@@ -651,7 +651,6 @@
       ],
       "sparkline": [
         0,
-        0,
         -0.3,
         -0.15,
         -0.15,
@@ -679,6 +678,7 @@
         0.0,
         0.12,
         0,
+        0.0,
         0.0
       ]
     },
@@ -732,22 +732,21 @@
           "sentiment_score": -0.4723
         },
         {
+          "title": "Passed the Google Cloud Generative AI Leader exam!",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/googlecloud/comments/1v6tf9g/passed_the_google_cloud_generative_ai_leader_exam/",
+          "date": "2026-07-26",
+          "sentiment_score": 0.9968
+        },
+        {
           "title": "Lebenslauf Verbesserungsvorschl\u00e4ge",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/Karriereratschlag/comments/1v5lh2x/lebenslauf_verbesserungsvorschl\u00e4ge/",
           "date": "2026-07-24",
           "sentiment_score": -0.3987
-        },
-        {
-          "title": "Service Now (NOW): The Good, the Bad, and the Ugly from NOW's Earnings Call",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/EarningsCalls/comments/1v3zpyt/service_now_now_the_good_the_bad_and_the_ugly/",
-          "date": "2026-07-23",
-          "sentiment_score": 0.993
         }
       ],
       "sparkline": [
-        0.49,
         0.47,
         0.54,
         0.01,
@@ -776,6 +775,7 @@
         0.28,
         0.28,
         0.38,
+        0.38,
         0.38
       ]
     },
@@ -784,7 +784,7 @@
       "sentiment": {
         "overall_score": -0.19,
         "trend": "stable",
-        "previous_score": -0.24,
+        "previous_score": -0.19,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -845,7 +845,6 @@
       ],
       "sparkline": [
         -0.14,
-        -0.14,
         -0.13,
         -0.05,
         -0.05,
@@ -873,6 +872,7 @@
         -0.19,
         -0.19,
         -0.24,
+        -0.19,
         -0.19
       ]
     },
@@ -913,7 +913,6 @@
         }
       ],
       "sparkline": [
-        -0.16,
         0.0,
         0.0,
         -0.17,
@@ -942,17 +941,18 @@
         0.0,
         -0.07,
         0.0,
+        0.0,
         0.0
       ]
     },
     {
       "name": "Dell",
       "sentiment": {
-        "overall_score": 0.1,
-        "trend": "stable",
+        "overall_score": 0.22,
+        "trend": "improving",
         "previous_score": 0.1,
         "confidence": "high",
-        "sample_size": 15,
+        "sample_size": 30,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -963,8 +963,8 @@
             "count": 15
           },
           "reddit": {
-            "score": 0,
-            "count": 0
+            "score": 0.29,
+            "count": 15
           },
           "gdelt": {
             "score": 0,
@@ -974,43 +974,42 @@
       },
       "top_headlines": [
         {
+          "title": "ASK HN: Why has technology become so unreliable?",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49056900",
+          "date": "2026-07-26",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Return to Office policy black- and whitelist.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/ReturntoOffice/",
+          "date": "2026-07-26",
+          "sentiment_score": 0.8271
+        },
+        {
+          "title": "fullyremotework",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/fullyremotework/",
+          "date": "2026-07-26",
+          "sentiment_score": 0.5859
+        },
+        {
+          "title": "/r/Technology",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/technology/",
+          "date": "2026-07-26",
+          "sentiment_score": 0.6249
+        },
+        {
           "title": "A Great Deal of Information About Hacker News",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=49043484",
           "date": "2026-07-25",
           "sentiment_score": 0.6249
-        },
-        {
-          "title": "The Cost of Seamlessness",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49048352",
-          "date": "2026-07-25",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "A Great Deal of Information About Hacker News",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49031115",
-          "date": "2026-07-24",
-          "sentiment_score": 0.6249
-        },
-        {
-          "title": "US oil firms sign deals with Iraq to develop alternative shipping routes",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48956032",
-          "date": "2026-07-18",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "Dell Is on a Roll with the XPS",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48915543",
-          "date": "2026-07-15",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.0,
         0.0,
         0.07,
         0.07,
@@ -1039,15 +1038,16 @@
         0.01,
         0.06,
         0.1,
-        0.1
+        0.1,
+        0.22
       ]
     },
     {
       "name": "Tesla",
       "sentiment": {
         "overall_score": -0.19,
-        "trend": "declining",
-        "previous_score": -0.13,
+        "trend": "stable",
+        "previous_score": -0.19,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -1107,7 +1107,6 @@
         }
       ],
       "sparkline": [
-        -0.34,
         -0.26,
         -0.03,
         -0.25,
@@ -1136,17 +1135,18 @@
         0.11,
         -0.12,
         -0.13,
+        -0.19,
         -0.19
       ]
     },
     {
       "name": "Caterpillar",
       "sentiment": {
-        "overall_score": 0.28,
-        "trend": "stable",
+        "overall_score": 0.44,
+        "trend": "improving",
         "previous_score": 0.28,
-        "confidence": "high",
-        "sample_size": 11,
+        "confidence": "low",
+        "sample_size": 1,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -1157,8 +1157,8 @@
             "count": 1
           },
           "reddit": {
-            "score": 0.19,
-            "count": 10
+            "score": 0,
+            "count": 0
           },
           "gdelt": {
             "score": 0,
@@ -1168,43 +1168,14 @@
       },
       "top_headlines": [
         {
-          "title": "Return to Office policy black- and whitelist.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-07-26",
-          "sentiment_score": 0.8271
-        },
-        {
-          "title": "fullyremotework",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/fullyremotework/",
-          "date": "2026-07-26",
-          "sentiment_score": 0.5859
-        },
-        {
-          "title": "NoToRTOCa",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/NoToRTOCa/",
-          "date": "2026-07-26",
-          "sentiment_score": -0.4723
-        },
-        {
-          "title": "Chapter 7: Elements of Style - John Neff on Investing",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/u_raytoei/comments/1v6598h/chapter_7_elements_of_style_john_neff_on_investing/",
-          "date": "2026-07-25",
-          "sentiment_score": 1.0
-        },
-        {
-          "title": "[~2800 words] [Chapter 1] Request for feedback",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/WritersGroup/comments/1v5djop/2800_words_chapter_1_request_for_feedback/",
-          "date": "2026-07-24",
-          "sentiment_score": 0.971
+          "title": "Show HN: A game to get people out in nature and appreciating wild animals",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48995508",
+          "date": "2026-07-21",
+          "sentiment_score": 0.4404
         }
       ],
       "sparkline": [
-        0,
         0.05,
         0,
         -0.18,
@@ -1233,7 +1204,8 @@
         0.44,
         0.16,
         0.28,
-        0.28
+        0.28,
+        0.44
       ]
     },
     {
@@ -1280,7 +1252,6 @@
         }
       ],
       "sparkline": [
-        0.0,
         0,
         0.0,
         0.0,
@@ -1307,6 +1278,7 @@
         -0.23,
         -0.23,
         -0.23,
+        -0.11,
         -0.11,
         -0.11,
         -0.11

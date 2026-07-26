@@ -84,8 +84,8 @@
     "policy": "Full Office",
     "daysInOffice": 5,
     "enforcement": "Full RTO from Mar 2025, badge tracking",
-    "lastUpdate": "2026-04-02",
-    "source": "https://news.google.com/rss/articles/CBMickFVX3lxTE5OY3N2WWxMTTVpZ3Y0RnB0QXlLT3RpMzFwWnBRQ2xwQm5sbGhDS3YzM0VHMUh0cmZjVVdBa0ZtaTVfNXVwSkgtTUszOWsydERQYjFzbXFzMXYyM3pkOEVZQk5LSms1S09tclg5RWMxVUM5UQ?oc=5",
+    "lastUpdate": "2026-06-30",
+    "source": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOb0xJaTdCYVpaNmhIenBZZng3ZDZFX21aV0J5MDhPZVZpdVdpQV9RTUV1M1FodFcxdXFXa25yVEVrSjZrY1EyUWtjYUhwZ2R4UXJkTlk2VWswM2xLdVI0ZHNEMVZHdG5lNm0xVmdGbUNEclh3YUIyV3BoRklNOUZWQTZBVXpKU0xxeUZZS21xNE9DcmY0b09LUnpR?oc=5",
     "sentiment": -0.72,
     "sentimentTrend": "Declining",
     "mentionVolume": 794,
@@ -2414,8 +2414,8 @@
     "policy": "Hybrid",
     "daysInOffice": 3,
     "enforcement": "3-day hybrid (Tue/Thu + Team Day) confirmed 2025",
-    "lastUpdate": "2025-07-13",
-    "source": "https://www.theguardian.com/technology/2022/aug/20/apple-workers-return-to-office-three-days-a-week",
+    "lastUpdate": "2025-09-26",
+    "source": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbkFSa3FZZzlYX043ZU94dkJ2ejB1Z3pxLTMybkd3a0RzNWp2ZEd1ZTJ5ZDBEZ3pLWF9FSG1CRjU2b3NKUUVkQVJIY3Ftc01majlyT3UtNTV5NTZrT1VWTVpTU3VuZW9uUng3YjZrVWRMaFVNbUtJX0NrRnlvUWJKTE5BOHJDVUN0ZUJXaXQ4Q1EzTm8?oc=5",
     "sentiment": 0.66,
     "sentimentTrend": "Improving",
     "mentionVolume": 2074,
@@ -2646,7 +2646,7 @@
     "daysInOffice": 5,
     "enforcement": "3d mandate; Instagram 5d from Feb 2026",
     "lastUpdate": "2025-12-01",
-    "source": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1MREx5MUlnTVh6VldGRm5qRGxMWndVV0JwM2JQdWk3TFJ2WDJVZ2sxTndPNEhySWVUbGpvSUVQU0lhck1mNEtrZVRxQnFGVVFsY3FLZWNUSU1PQ3BUNGx6RmNieTlDak1weXFZeDRha0tsVHRKMEJNdXFFeFHSAYIBQVVfeXFMTVVMVWhmc1dJaWVNLVBJeFhVMkp1SWFWdE1wc3luejZnMXdZNlIyNGRhaUJrQUNFX0FGS0FsSTJWc1FFR05ESlE5dVBkN1VMa0hfS0JLaVJnb2ZiVUhVUUk4djUxVVlxYkpPMkNXUVJnUjV6YTlDVVRYblNxZkg0VnBUZw?oc=5",
+    "source": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1MREx5MUlnTVh6VldGRm5qRGxMWndVV0JwM2JQdWk3TFJ2WDJVZ2sxTndPNEhySWVUbGpvSUVQU0lhck1mNEtrZVRxQnFGVVFsY3FLZWNUSU1PQ3BUNGx6RmNieTlDak1weXFZeDRha0tsVHRKMEJNdXFFeFE?oc=5",
     "sentiment": 0.66,
     "sentimentTrend": "Improving",
     "mentionVolume": 3604,
@@ -2715,6 +2715,12 @@
       }
     ],
     "policyHistory": [
+      {
+        "date": "2025-01-15",
+        "policy": "Hybrid",
+        "daysInOffice": 3,
+        "source": "https://www.businessinsider.com/meta-zuckerberg-return-to-office-status-quo-2025"
+      },
       {
         "date": "2025-01-15",
         "policy": "Hybrid",
@@ -4584,6 +4590,12 @@
         "policy": "Hybrid",
         "daysInOffice": 3,
         "source": "https://www.businessinsider.com/bank-of-america-return-to-office-hybrid-2024"
+      },
+      {
+        "date": "2024-01-15",
+        "policy": "Hybrid",
+        "daysInOffice": 3,
+        "source": "https://www.businessinsider.com/bank-of-america-return-to-office-hybrid-2024"
       }
     ]
   },
@@ -5099,11 +5111,11 @@
     "id": 35,
     "company": "Verizon",
     "sector": "Communication Services",
-    "policy": "Full Office",
-    "daysInOffice": 5,
+    "policy": "Hybrid",
+    "daysInOffice": 3,
     "enforcement": "Standard hybrid",
-    "lastUpdate": "2025-02-25",
-    "source": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTldBREM3RnROcVBhanM0S0w1Ni04LVpZcW5lTEpnV0ZYbWp4VHE3UW5HdTkwS01SVi10WHVBb3BPZjFEUzVqWjQ5STVIcW40QnphajJPV1lFNUlBQXNLMXEtWnF3Wmd6VlpQOU1hZDEtaTRPQ3Fnb0FtNnJUUVBBLVJ3RXRtdDhhRWwwRDJrWTVKOEZQODZYWTRyaXZDLTc2dW5JTw?oc=5",
+    "lastUpdate": "2025-11-24",
+    "source": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdTFfNXpUS3V3Yy1CNGpqeTEyb0xoSUp4NHJvQTBES2hscEpvaWZlUzVZc3ZBa2ZKVUdnWElYOFFMb3prYTJ4TEdybGcwM2R3RHVkVGd2Z0hmc1RKc1dOMHlSNXFWazRfRVI1LWdVaVBHTjJNbk5iQTFNUGp6aW5lV21fbGNvaDBneWxwdHVaMU5NMlo4Z2N2TGtOYmpoMjJ4VlNTS3B0RUtKSGdlQ3ozT1pMSQ?oc=5",
     "sentiment": 0.79,
     "sentimentTrend": "Improving",
     "mentionVolume": 926,
@@ -6051,8 +6063,8 @@
     "policy": "Hybrid",
     "daysInOffice": 3,
     "enforcement": "Standard hybrid",
-    "lastUpdate": "2026-07-20",
-    "source": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9vU1o1SG9hQ0xNRGNmVmNqajNRQWFQT3M3VllvWThjaExGWUU1Qk41WkZpWXhzNDBoTXZONV9pRzFSbW41X01WMWpjeE14YlRVaTRJa2lwVWNmZ1RWUXpNLQ?oc=5",
+    "lastUpdate": "2025-09-10",
+    "source": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNaE1oWHNwb1hIY0daWVY0V3VKTjFGbWFROVVPeUdzcjhvTDFUMDdwOF9pRXNSem1QT2FnQlhrbGFpNThCN25BUkdPSm1BSFhaWW5kbkZscFFRQXFhZUFQYnBKbzRna25XU0RRLUZOcTlpMzJjQjFmaklYQkhzb1JfdUlTaHFiNmZqRUZQY1gybXNHWWxsQXlhLXF3cXpTX0I1Y3VGdnlnNTFJcWdOaEllYUV3?oc=5",
     "sentiment": 0.84,
     "sentimentTrend": "Improving",
     "mentionVolume": 1243,
