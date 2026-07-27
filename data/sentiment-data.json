@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-07-27T03:03:35.665421Z",
+  "last_updated": "2026-07-27T14:42:41.933690Z",
   "scraper_log": {
-    "duration_sec": 262.38,
-    "total_articles": 196,
+    "duration_sec": 255.12,
+    "total_articles": 192,
     "errors": []
   },
   "companies": [
@@ -13,15 +13,15 @@
         "trend": "stable",
         "previous_score": 0.06,
         "confidence": "high",
-        "sample_size": 30,
+        "sample_size": 26,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.1,
-            "count": 15
+            "score": 0.09,
+            "count": 11
           },
           "reddit": {
             "score": 0.04,
@@ -56,11 +56,11 @@
           "sentiment_score": 0.6249
         },
         {
-          "title": "The hidden cost of AI: Why your town is negotiating with Amazon and Microsoft",
+          "title": "Show HN: The Occult Gatsby",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49053787",
+          "url": "https://news.ycombinator.com/item?id=49060998",
           "date": "2026-07-26",
-          "sentiment_score": 0.1779
+          "sentiment_score": 0.0
         },
         {
           "title": "Show HN: Millwright \u2013 Rust-based, self-hosted LLM router",
@@ -71,7 +71,6 @@
         }
       ],
       "sparkline": [
-        0.17,
         0.18,
         0.14,
         0.19,
@@ -100,13 +99,14 @@
         0.1,
         0.1,
         0.06,
+        0.06,
         0.06
       ]
     },
     {
       "name": "Apple",
       "sentiment": {
-        "overall_score": -0.01,
+        "overall_score": -0.04,
         "trend": "stable",
         "previous_score": -0.01,
         "confidence": "high",
@@ -117,7 +117,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.01,
+            "score": -0.04,
             "count": 15
           },
           "reddit": {
@@ -146,6 +146,13 @@
           "sentiment_score": 0.0
         },
         {
+          "title": "Lock TF IN: an AI drill sergeant that roasts skipped workouts",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49031206",
+          "date": "2026-07-24",
+          "sentiment_score": 0.0
+        },
+        {
           "title": "Nvidia Parakeet and MOSS vs. Apple's SpeechAnalyzer: benchmark round 2",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=48994854",
@@ -158,17 +165,9 @@
           "url": "https://news.ycombinator.com/item?id=48982389",
           "date": "2026-07-20",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Running Gemma4 on Apple Neural Engine",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48929747",
-          "date": "2026-07-16",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.03,
         0.03,
         0.03,
         0.03,
@@ -197,17 +196,18 @@
         -0.01,
         -0.01,
         -0.01,
-        -0.01
+        -0.01,
+        -0.04
       ]
     },
     {
       "name": "Google",
       "sentiment": {
-        "overall_score": -0.04,
-        "trend": "declining",
-        "previous_score": 0.15,
+        "overall_score": 0.23,
+        "trend": "improving",
+        "previous_score": -0.04,
         "confidence": "high",
-        "sample_size": 15,
+        "sample_size": 30,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -218,8 +218,8 @@
             "count": 15
           },
           "reddit": {
-            "score": 0,
-            "count": 0
+            "score": 0.39,
+            "count": 15
           },
           "gdelt": {
             "score": 0,
@@ -229,11 +229,25 @@
       },
       "top_headlines": [
         {
-          "title": "Show HN: A client side PDF and article reader backed by Google Drive",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49059390",
-          "date": "2026-07-26",
-          "sentiment_score": 0.0258
+          "title": "PowerPoint Presentation Tips and Examples",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/powerpoint/",
+          "date": "2026-07-27",
+          "sentiment_score": 0.6369
+        },
+        {
+          "title": "Return to Office policy black- and whitelist.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/ReturntoOffice/",
+          "date": "2026-07-27",
+          "sentiment_score": 0.8271
+        },
+        {
+          "title": "Google",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/google/",
+          "date": "2026-07-27",
+          "sentiment_score": 0.0
         },
         {
           "title": "Google Rolls Out Selfie Video Sign-In for Account Recovery \u2013 MeshWorld",
@@ -248,24 +262,9 @@
           "url": "https://news.ycombinator.com/item?id=49038628",
           "date": "2026-07-24",
           "sentiment_score": -0.2263
-        },
-        {
-          "title": "Ask HN: Google BotGuard is blocking my web browser (Northstar), how I get help?",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49020606",
-          "date": "2026-07-23",
-          "sentiment_score": 0.0258
-        },
-        {
-          "title": "Ancient Rome's version of Google Maps: how long to reach the beach",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49012754",
-          "date": "2026-07-22",
-          "sentiment_score": 0.0258
         }
       ],
       "sparkline": [
-        0.1,
         0.1,
         0.23,
         0.23,
@@ -294,13 +293,14 @@
         0.05,
         -0.04,
         0.15,
-        -0.04
+        -0.04,
+        0.23
       ]
     },
     {
       "name": "Meta",
       "sentiment": {
-        "overall_score": -0.14,
+        "overall_score": -0.1,
         "trend": "stable",
         "previous_score": -0.14,
         "confidence": "high",
@@ -311,7 +311,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.14,
+            "score": -0.1,
             "count": 15
           },
           "reddit": {
@@ -326,17 +326,17 @@
       },
       "top_headlines": [
         {
-          "title": "Meta's New Feel-Good AI Ad Uses a Song About the World Ending",
+          "title": "Meta launched a new AI optimism ad set to a song about human extinction",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49037222",
-          "date": "2026-07-24",
-          "sentiment_score": 0.0
+          "url": "https://news.ycombinator.com/item?id=49066519",
+          "date": "2026-07-27",
+          "sentiment_score": 0.6124
         },
         {
-          "title": "Show HN: Twigg \u2013 open-source big-tech-like version control and software forge",
+          "title": "Show HN: Browser CAD for stock-tube structures with generated 3D-printed joints",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49040345",
-          "date": "2026-07-24",
+          "url": "https://news.ycombinator.com/item?id=49068406",
+          "date": "2026-07-27",
           "sentiment_score": 0.0
         },
         {
@@ -362,7 +362,6 @@
         }
       ],
       "sparkline": [
-        0.03,
         0.03,
         0.03,
         -0.02,
@@ -391,17 +390,18 @@
         -0.14,
         0.22,
         -0.14,
-        -0.14
+        -0.14,
+        -0.1
       ]
     },
     {
       "name": "Microsoft",
       "sentiment": {
-        "overall_score": 0.36,
-        "trend": "improving",
-        "previous_score": 0.09,
+        "overall_score": 0.09,
+        "trend": "declining",
+        "previous_score": 0.36,
         "confidence": "high",
-        "sample_size": 30,
+        "sample_size": 15,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -412,8 +412,8 @@
             "count": 15
           },
           "reddit": {
-            "score": 0.52,
-            "count": 15
+            "score": 0,
+            "count": 0
           },
           "gdelt": {
             "score": 0,
@@ -423,27 +423,6 @@
       },
       "top_headlines": [
         {
-          "title": "Microsoft Office 365: We all work together.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/Office365/",
-          "date": "2026-07-27",
-          "sentiment_score": 0.4019
-        },
-        {
-          "title": "Microsoft",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/microsoft/",
-          "date": "2026-07-27",
-          "sentiment_score": 0.4588
-        },
-        {
-          "title": "/r/Technology",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/technology/",
-          "date": "2026-07-27",
-          "sentiment_score": 0.6249
-        },
-        {
           "title": "Show HN: I rebuilt Microsoft Comic Chat's layout engine in one HTML file",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=49042872",
@@ -451,15 +430,35 @@
           "sentiment_score": 0.0
         },
         {
-          "title": "MSFT will print post earnings",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/ValueInvesting/comments/1v531s0/msft_will_print_post_earnings/",
-          "date": "2026-07-24",
-          "sentiment_score": 0.9824
+          "title": "Amsterdam activists throw acid at Microsoft datacenter project",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48948349",
+          "date": "2026-07-17",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Microsoft confirms Windows GDID device identifier that cannot be disabled",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48920338",
+          "date": "2026-07-15",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Microsoft has released software updates to plug at least 570 security holes",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48913190",
+          "date": "2026-07-14",
+          "sentiment_score": 0.34
+        },
+        {
+          "title": "A Study of Microsoft's Early 2026 Rollout of Claude Code and GitHub Copilot CLI",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48899321",
+          "date": "2026-07-13",
+          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.39,
         0.37,
         0.08,
         0.09,
@@ -488,7 +487,8 @@
         0.09,
         0.09,
         0.09,
-        0.36
+        0.36,
+        0.09
       ]
     },
     {
@@ -520,7 +520,6 @@
       },
       "top_headlines": [],
       "sparkline": [
-        0.53,
         0,
         0.53,
         0.53,
@@ -533,6 +532,7 @@
         0.53,
         0.53,
         0.53,
+        0,
         0,
         0,
         0,
@@ -650,7 +650,6 @@
         }
       ],
       "sparkline": [
-        -0.3,
         -0.15,
         -0.15,
         0.0,
@@ -679,6 +678,7 @@
         0,
         0.0,
         0.0,
+        0.0,
         0.0
       ]
     },
@@ -686,8 +686,8 @@
       "name": "Salesforce",
       "sentiment": {
         "overall_score": 0.48,
-        "trend": "improving",
-        "previous_score": 0.38,
+        "trend": "stable",
+        "previous_score": 0.48,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -747,7 +747,6 @@
         }
       ],
       "sparkline": [
-        0.54,
         0.01,
         0.53,
         0.47,
@@ -776,6 +775,7 @@
         0.38,
         0.38,
         0.38,
+        0.48,
         0.48
       ]
     },
@@ -844,7 +844,6 @@
         }
       ],
       "sparkline": [
-        -0.13,
         -0.05,
         -0.05,
         -0.18,
@@ -873,6 +872,7 @@
         -0.24,
         -0.19,
         -0.19,
+        -0.19,
         -0.19
       ]
     },
@@ -880,8 +880,8 @@
       "name": "Disney",
       "sentiment": {
         "overall_score": -0.07,
-        "trend": "declining",
-        "previous_score": 0.0,
+        "trend": "stable",
+        "previous_score": -0.07,
         "confidence": "high",
         "sample_size": 16,
         "source_scores": {
@@ -941,7 +941,6 @@
         }
       ],
       "sparkline": [
-        0.0,
         -0.17,
         -0.17,
         0.0,
@@ -970,6 +969,7 @@
         0.0,
         0.0,
         0.0,
+        -0.07,
         -0.07
       ]
     },
@@ -977,8 +977,8 @@
       "name": "Dell",
       "sentiment": {
         "overall_score": 0.12,
-        "trend": "declining",
-        "previous_score": 0.22,
+        "trend": "stable",
+        "previous_score": 0.12,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -1040,7 +1040,6 @@
       "sparkline": [
         0.07,
         0.07,
-        0.07,
         0.37,
         0.07,
         0.29,
@@ -1067,14 +1066,15 @@
         0.1,
         0.1,
         0.22,
+        0.12,
         0.12
       ]
     },
     {
       "name": "Tesla",
       "sentiment": {
-        "overall_score": -0.19,
-        "trend": "stable",
+        "overall_score": -0.13,
+        "trend": "improving",
         "previous_score": -0.19,
         "confidence": "high",
         "sample_size": 15,
@@ -1084,7 +1084,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.19,
+            "score": -0.13,
             "count": 15
           },
           "reddit": {
@@ -1135,7 +1135,6 @@
         }
       ],
       "sparkline": [
-        -0.03,
         -0.25,
         -0.02,
         -0.42,
@@ -1164,17 +1163,18 @@
         -0.13,
         -0.19,
         -0.19,
-        -0.19
+        -0.19,
+        -0.13
       ]
     },
     {
       "name": "Caterpillar",
       "sentiment": {
-        "overall_score": 0.33,
+        "overall_score": 0.26,
         "trend": "declining",
-        "previous_score": 0.44,
+        "previous_score": 0.33,
         "confidence": "high",
-        "sample_size": 12,
+        "sample_size": 13,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -1185,8 +1185,8 @@
             "count": 1
           },
           "reddit": {
-            "score": 0.26,
-            "count": 11
+            "score": 0.16,
+            "count": 12
           },
           "gdelt": {
             "score": 0,
@@ -1224,15 +1224,14 @@
           "sentiment_score": 0.995
         },
         {
-          "title": "I think I need to bury my daughter, or else things will get worse",
+          "title": "Fatherhood is rewarding, but I think I need to bury my daughter... She's only getting worse.",
           "source": "Reddit",
-          "url": "https://www.reddit.com/r/TalesFromTheCreeps/comments/1v7crq8/i_think_i_need_to_bury_my_daughter_or_else_things/",
-          "date": "2026-07-26",
-          "sentiment_score": -0.9906
+          "url": "https://www.reddit.com/r/nosleep/comments/1v7rd5z/fatherhood_is_rewarding_but_i_think_i_need_to/",
+          "date": "2026-07-27",
+          "sentiment_score": -0.9873
         }
       ],
       "sparkline": [
-        0,
         -0.18,
         0,
         0,
@@ -1261,25 +1260,26 @@
         0.28,
         0.28,
         0.44,
-        0.33
+        0.33,
+        0.26
       ]
     },
     {
       "name": "Cisco",
       "sentiment": {
-        "overall_score": -0.11,
-        "trend": "stable",
+        "overall_score": -0.23,
+        "trend": "declining",
         "previous_score": -0.11,
         "confidence": "low",
-        "sample_size": 2,
+        "sample_size": 1,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.11,
-            "count": 2
+            "score": -0.23,
+            "count": 1
           },
           "reddit": {
             "score": 0,
@@ -1293,13 +1293,6 @@
       },
       "top_headlines": [
         {
-          "title": "Show HN: Audio Player with \"Binaural Beats\" tuned to the same key as your music",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49033302",
-          "date": "2026-07-24",
-          "sentiment_score": 0.0
-        },
-        {
           "title": "Show HN: 0day Rubbish \u2013 AI Vulnerability Discovery Platform (0day-Rubbish.com)",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=48827283",
@@ -1308,7 +1301,6 @@
         }
       ],
       "sparkline": [
-        0.0,
         0.0,
         -0.11,
         -0.23,
@@ -1337,7 +1329,8 @@
         -0.11,
         -0.11,
         -0.11,
-        -0.11
+        -0.11,
+        -0.23
       ]
     }
   ]
