@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-07-30T02:33:14.976473Z",
+  "last_updated": "2026-07-30T14:10:06.527020Z",
   "scraper_log": {
-    "duration_sec": 258.57,
-    "total_articles": 200,
+    "duration_sec": 254.62,
+    "total_articles": 188,
     "errors": []
   },
   "companies": [
     {
       "name": "Amazon",
       "sentiment": {
-        "overall_score": 0.06,
+        "overall_score": 0.08,
         "trend": "stable",
-        "previous_score": 0.07,
+        "previous_score": 0.06,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -20,7 +20,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.09,
+            "score": 0.15,
             "count": 15
           },
           "reddit": {
@@ -34,6 +34,20 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Amazon's Zoox wins first US approval for paid robotaxis with no human controls",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49109581",
+          "date": "2026-07-30",
+          "sentiment_score": 0.6808
+        },
+        {
+          "title": "Every Amazon SaaS claims to use AI",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49107723",
+          "date": "2026-07-30",
+          "sentiment_score": 0.1779
+        },
         {
           "title": "Look Up",
           "source": "Reddit",
@@ -54,24 +68,9 @@
           "url": "https://www.reddit.com/r/technology/",
           "date": "2026-07-30",
           "sentiment_score": 0.6249
-        },
-        {
-          "title": "SpringBreak \u2013 Root code execution on Amazon Kindles",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49103440",
-          "date": "2026-07-29",
-          "sentiment_score": 0.1779
-        },
-        {
-          "title": "Show HN: Data structures as containers \u2013 sample chapter from my Big O book [pdf]",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49103507",
-          "date": "2026-07-29",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.19,
         0.12,
         0.12,
         0.15,
@@ -100,17 +99,18 @@
         0.06,
         0.06,
         0.07,
-        0.06
+        0.06,
+        0.08
       ]
     },
     {
       "name": "Apple",
       "sentiment": {
-        "overall_score": 0.37,
-        "trend": "improving",
-        "previous_score": -0.09,
+        "overall_score": 0.29,
+        "trend": "declining",
+        "previous_score": 0.37,
         "confidence": "high",
-        "sample_size": 30,
+        "sample_size": 18,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -121,8 +121,8 @@
             "count": 15
           },
           "reddit": {
-            "score": 0.63,
-            "count": 15
+            "score": 0.49,
+            "count": 3
           },
           "gdelt": {
             "score": 0,
@@ -168,7 +168,6 @@
         }
       ],
       "sparkline": [
-        0.41,
         0.04,
         -0.01,
         0.48,
@@ -197,7 +196,8 @@
         -0.04,
         0.36,
         -0.09,
-        0.37
+        0.37,
+        0.29
       ]
     },
     {
@@ -265,7 +265,6 @@
         }
       ],
       "sparkline": [
-        0.1,
         0.06,
         0.21,
         0.06,
@@ -294,6 +293,7 @@
         0.23,
         -0.05,
         -0.01,
+        -0.01,
         -0.01
       ]
     },
@@ -302,7 +302,7 @@
       "sentiment": {
         "overall_score": -0.06,
         "trend": "stable",
-        "previous_score": -0.1,
+        "previous_score": -0.06,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -362,7 +362,6 @@
         }
       ],
       "sparkline": [
-        0.0,
         0.43,
         -0.02,
         -0.02,
@@ -391,6 +390,7 @@
         -0.1,
         -0.1,
         -0.1,
+        -0.06,
         -0.06
       ]
     },
@@ -459,7 +459,6 @@
         }
       ],
       "sparkline": [
-        0.37,
         0.09,
         0.09,
         0.05,
@@ -487,6 +486,7 @@
         0.36,
         0.09,
         0.11,
+        0.36,
         0.36,
         0.36
       ]
@@ -528,7 +528,7 @@
         0.53,
         0.53,
         0.53,
-        0.53,
+        0,
         0,
         0,
         0,
@@ -618,7 +618,7 @@
       "sentiment": {
         "overall_score": 0.0,
         "trend": "stable",
-        "previous_score": 0,
+        "previous_score": 0.0,
         "confidence": "low",
         "sample_size": 1,
         "source_scores": {
@@ -651,7 +651,6 @@
       ],
       "sparkline": [
         -0.15,
-        -0.15,
         -0.3,
         0,
         0.0,
@@ -679,6 +678,7 @@
         0.0,
         0.0,
         0,
+        0.0,
         0.0
       ]
     },
@@ -732,22 +732,21 @@
           "sentiment_score": -0.4723
         },
         {
+          "title": "Top Ecommerce Agencies for Small Businesses in 2026",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/DevCompanyInsights/comments/1vam3u7/top_ecommerce_agencies_for_small_businesses_in/",
+          "date": "2026-07-30",
+          "sentiment_score": 0.9967
+        },
+        {
           "title": "Launch HN: Tokenless (YC S26) \u2013 Automatic model switching to save money",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=49099143",
           "date": "2026-07-29",
           "sentiment_score": 0.4939
-        },
-        {
-          "title": "The Daily Market Flux - Your Complete Market Rundown (07/28/2026)",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/MarketFluxHub/comments/1v9cu4k/the_daily_market_flux_your_complete_market/",
-          "date": "2026-07-28",
-          "sentiment_score": 0.9988
         }
       ],
       "sparkline": [
-        0.47,
         0.53,
         0.53,
         0.53,
@@ -772,6 +771,7 @@
         0.38,
         0.38,
         0.38,
+        0.48,
         0.48,
         0.48,
         0.48,
@@ -846,7 +846,6 @@
       "sparkline": [
         -0.18,
         -0.18,
-        -0.18,
         -0.12,
         -0.08,
         -0.2,
@@ -872,6 +871,7 @@
         -0.19,
         -0.19,
         -0.15,
+        -0.12,
         -0.12,
         -0.12
       ]
@@ -913,7 +913,6 @@
         }
       ],
       "sparkline": [
-        0.0,
         0.26,
         0.0,
         0.0,
@@ -942,6 +941,7 @@
         -0.07,
         0.0,
         0.0,
+        0.0,
         0.0
       ]
     },
@@ -949,8 +949,8 @@
       "name": "Dell",
       "sentiment": {
         "overall_score": 0.29,
-        "trend": "improving",
-        "previous_score": 0.23,
+        "trend": "stable",
+        "previous_score": 0.29,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -1010,7 +1010,6 @@
         }
       ],
       "sparkline": [
-        0.07,
         0.29,
         0.39,
         0.05,
@@ -1039,6 +1038,7 @@
         0.12,
         0.16,
         0.23,
+        0.29,
         0.29
       ]
     },
@@ -1107,7 +1107,6 @@
         }
       ],
       "sparkline": [
-        -0.17,
         -0.32,
         -0.27,
         -0.32,
@@ -1135,6 +1134,7 @@
         -0.19,
         -0.13,
         -0.13,
+        -0.17,
         -0.17,
         -0.17
       ]
@@ -1181,7 +1181,6 @@
         0,
         0,
         0,
-        0,
         -0.13,
         0,
         0,
@@ -1204,6 +1203,7 @@
         0.33,
         0.26,
         0.26,
+        0.44,
         0.44,
         0.44
       ]
@@ -1246,7 +1246,6 @@
       ],
       "sparkline": [
         -0.23,
-        -0.23,
         -0.06,
         -0.1,
         -0.1,
@@ -1271,6 +1270,7 @@
         -0.11,
         -0.11,
         -0.11,
+        -0.23,
         -0.23,
         -0.23,
         -0.23,
