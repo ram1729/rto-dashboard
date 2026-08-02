@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-08-02T02:54:30.567382Z",
+  "last_updated": "2026-08-02T13:28:35.366685Z",
   "scraper_log": {
-    "duration_sec": 225.06,
-    "total_articles": 196,
+    "duration_sec": 229.16,
+    "total_articles": 191,
     "errors": []
   },
   "companies": [
@@ -10,10 +10,10 @@
       "name": "Amazon",
       "sentiment": {
         "overall_score": 0.12,
-        "trend": "improving",
-        "previous_score": 0.06,
+        "trend": "stable",
+        "previous_score": 0.12,
         "confidence": "high",
-        "sample_size": 30,
+        "sample_size": 29,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -21,7 +21,7 @@
           },
           "hackernews": {
             "score": 0.07,
-            "count": 15
+            "count": 14
           },
           "reddit": {
             "score": 0.15,
@@ -72,7 +72,6 @@
       ],
       "sparkline": [
         0.15,
-        0.15,
         0.14,
         0.14,
         0.23,
@@ -100,6 +99,7 @@
         0.08,
         0.06,
         0.06,
+        0.12,
         0.12
       ]
     },
@@ -107,8 +107,8 @@
       "name": "Apple",
       "sentiment": {
         "overall_score": 0.46,
-        "trend": "improving",
-        "previous_score": -0.04,
+        "trend": "stable",
+        "previous_score": 0.46,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -168,7 +168,6 @@
         }
       ],
       "sparkline": [
-        0.45,
         -0.09,
         -0.09,
         0.39,
@@ -197,6 +196,7 @@
         0.29,
         -0.04,
         -0.04,
+        0.46,
         0.46
       ]
     },
@@ -268,7 +268,6 @@
         0.06,
         0.06,
         0.06,
-        0.06,
         0.09,
         0.09,
         0.09,
@@ -294,6 +293,7 @@
         -0.01,
         0.04,
         0.04,
+        0.04,
         0.04
       ]
     },
@@ -301,8 +301,8 @@
       "name": "Meta",
       "sentiment": {
         "overall_score": -0.1,
-        "trend": "declining",
-        "previous_score": 0.24,
+        "trend": "stable",
+        "previous_score": -0.1,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -362,7 +362,6 @@
         }
       ],
       "sparkline": [
-        -0.04,
         -0.0,
         0.42,
         -0.02,
@@ -391,6 +390,7 @@
         -0.06,
         0.24,
         0.24,
+        -0.1,
         -0.1
       ]
     },
@@ -460,7 +460,6 @@
       ],
       "sparkline": [
         0.37,
-        0.37,
         0.04,
         0.44,
         0.06,
@@ -486,6 +485,7 @@
         0.36,
         0.36,
         0.36,
+        0.09,
         0.09,
         0.09,
         0.09
@@ -524,7 +524,7 @@
         0.53,
         0.53,
         0.53,
-        0.53,
+        0,
         0,
         0,
         0,
@@ -616,19 +616,19 @@
     {
       "name": "Bank of America",
       "sentiment": {
-        "overall_score": 0.0,
+        "overall_score": 0,
         "trend": "stable",
         "previous_score": 0.0,
         "confidence": "low",
-        "sample_size": 1,
+        "sample_size": 0,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.0,
-            "count": 1
+            "score": 0,
+            "count": 0
           },
           "reddit": {
             "score": 0,
@@ -640,17 +640,8 @@
           }
         }
       },
-      "top_headlines": [
-        {
-          "title": "Launch HN: Bloomy (YC S26) \u2013 AI-powered mastery learning for K-12",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48981136",
-          "date": "2026-07-20",
-          "sentiment_score": 0.0
-        }
-      ],
+      "top_headlines": [],
       "sparkline": [
-        0.0,
         -0.15,
         0,
         0,
@@ -679,25 +670,26 @@
         0.0,
         0.0,
         0.0,
-        0.0
+        0.0,
+        0
       ]
     },
     {
       "name": "Salesforce",
       "sentiment": {
-        "overall_score": 0.32,
-        "trend": "stable",
+        "overall_score": 0.48,
+        "trend": "improving",
         "previous_score": 0.32,
         "confidence": "high",
-        "sample_size": 17,
+        "sample_size": 16,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.06,
-            "count": 2
+            "score": 0.49,
+            "count": 1
           },
           "reddit": {
             "score": 0.48,
@@ -732,22 +724,21 @@
           "sentiment_score": -0.4723
         },
         {
-          "title": "SF-schema-snapshot \u2013 dump a Salesforce org's schema to SQLite",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49130369",
-          "date": "2026-08-01",
-          "sentiment_score": -0.3818
-        },
-        {
           "title": "Perplexity Personal Computer Windows Connects 400+ Apps To Your PC",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/AISEOInsider/comments/1vcc0dg/perplexity_personal_computer_windows_connects_400/",
           "date": "2026-08-01",
           "sentiment_score": 0.9998
+        },
+        {
+          "title": "Remote Job - Outreach - Senior Sales Operations Manager",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/jobhuntify/comments/1vbkhdk/remote_job_outreach_senior_sales_operations/",
+          "date": "2026-07-31",
+          "sentiment_score": 0.9996
         }
       ],
       "sparkline": [
-        0.0,
         0.53,
         0.53,
         0.53,
@@ -776,7 +767,8 @@
         0.48,
         0.32,
         0.32,
-        0.32
+        0.32,
+        0.48
       ]
     },
     {
@@ -784,7 +776,7 @@
       "sentiment": {
         "overall_score": -0.09,
         "trend": "stable",
-        "previous_score": -0.12,
+        "previous_score": -0.09,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -844,7 +836,6 @@
         }
       ],
       "sparkline": [
-        -0.08,
         -0.2,
         -0.2,
         -0.22,
@@ -873,6 +864,7 @@
         -0.12,
         -0.1,
         -0.12,
+        -0.09,
         -0.09
       ]
     },
@@ -881,7 +873,7 @@
       "sentiment": {
         "overall_score": 0,
         "trend": "stable",
-        "previous_score": 0.0,
+        "previous_score": 0,
         "confidence": "low",
         "sample_size": 0,
         "source_scores": {
@@ -906,7 +898,6 @@
       "top_headlines": [],
       "sparkline": [
         0.0,
-        0.0,
         -0.24,
         0.0,
         0.0,
@@ -934,6 +925,7 @@
         0.0,
         0.0,
         0.0,
+        0,
         0
       ]
     },
@@ -941,8 +933,8 @@
       "name": "Dell",
       "sentiment": {
         "overall_score": 0.14,
-        "trend": "declining",
-        "previous_score": 0.3,
+        "trend": "stable",
+        "previous_score": 0.14,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -965,6 +957,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "ask HN: How do I run Android 15 on a system with Andr 12 vendors?",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49141723",
+          "date": "2026-08-02",
+          "sentiment_score": 0.0
+        },
         {
           "title": "Show HN: I spent 3 years building the CRM I wanted to use",
           "source": "Hacker News",
@@ -992,17 +991,9 @@
           "url": "https://news.ycombinator.com/item?id=49056900",
           "date": "2026-07-26",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "A Great Deal of Information About Hacker News",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49043484",
-          "date": "2026-07-25",
-          "sentiment_score": 0.6249
         }
       ],
       "sparkline": [
-        0.37,
         0.05,
         0.09,
         0.09,
@@ -1031,25 +1022,26 @@
         0.29,
         0.3,
         0.3,
+        0.14,
         0.14
       ]
     },
     {
       "name": "Tesla",
       "sentiment": {
-        "overall_score": -0.13,
+        "overall_score": -0.14,
         "trend": "stable",
-        "previous_score": -0.17,
+        "previous_score": -0.13,
         "confidence": "high",
-        "sample_size": 15,
+        "sample_size": 14,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.13,
-            "count": 15
+            "score": -0.14,
+            "count": 14
           },
           "reddit": {
             "score": 0,
@@ -1062,13 +1054,6 @@
         }
       },
       "top_headlines": [
-        {
-          "title": "Tesla Weighs Sale of China Business to Pave Way for Potential SpaceX Merger",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49118031",
-          "date": "2026-07-31",
-          "sentiment_score": 0.0
-        },
         {
           "title": "Fired Tesla Manager Says Full Self-Driving Cars Were 'Rolling Hazards'",
           "source": "Hacker News",
@@ -1096,10 +1081,16 @@
           "url": "https://news.ycombinator.com/item?id=49026831",
           "date": "2026-07-23",
           "sentiment_score": 0.0
+        },
+        {
+          "title": "Someone Call Tesla a Robotaxi, or SpaceX, Quick",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49028783",
+          "date": "2026-07-23",
+          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        -0.32,
         -0.08,
         -0.24,
         -0.14,
@@ -1128,25 +1119,26 @@
         -0.17,
         -0.17,
         -0.17,
-        -0.13
+        -0.13,
+        -0.14
       ]
     },
     {
       "name": "Caterpillar",
       "sentiment": {
-        "overall_score": 0.32,
+        "overall_score": 0.41,
         "trend": "improving",
-        "previous_score": 0.22,
+        "previous_score": 0.32,
         "confidence": "high",
-        "sample_size": 12,
+        "sample_size": 11,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.22,
-            "count": 2
+            "score": 0.44,
+            "count": 1
           },
           "reddit": {
             "score": 0.39,
@@ -1181,22 +1173,21 @@
           "sentiment_score": -0.4723
         },
         {
-          "title": "How to Survive an Infestation of Toxic Caterpillars",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49126700",
-          "date": "2026-07-31",
-          "sentiment_score": 0.0
-        },
-        {
           "title": "Fatherhood is rewarding, but I think I need to bury my daughter... She's only getting worse.",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/nosleep/comments/1v7rd5z/fatherhood_is_rewarding_but_i_think_i_need_to/",
           "date": "2026-07-27",
           "sentiment_score": -0.9873
+        },
+        {
+          "title": "The Spinning Man",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/nosleep/comments/1v7kekf/the_spinning_man/",
+          "date": "2026-07-27",
+          "sentiment_score": 0.995
         }
       ],
       "sparkline": [
-        0,
         0,
         -0.13,
         0,
@@ -1225,7 +1216,8 @@
         0.44,
         0.22,
         0.22,
-        0.32
+        0.32,
+        0.41
       ]
     },
     {
@@ -1265,7 +1257,6 @@
         }
       ],
       "sparkline": [
-        -0.1,
         -0.23,
         -0.23,
         -0.23,
@@ -1287,6 +1278,7 @@
         -0.11,
         -0.11,
         -0.11,
+        -0.23,
         -0.23,
         -0.23,
         -0.23,
