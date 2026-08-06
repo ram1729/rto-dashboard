@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-08-05T14:16:56.750474Z",
+  "last_updated": "2026-08-06T02:40:44.385319Z",
   "scraper_log": {
-    "duration_sec": 240.3,
-    "total_articles": 199,
+    "duration_sec": 226.31,
+    "total_articles": 190,
     "errors": []
   },
   "companies": [
@@ -11,7 +11,7 @@
       "sentiment": {
         "overall_score": 0.04,
         "trend": "stable",
-        "previous_score": 0.05,
+        "previous_score": 0.04,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -38,21 +38,21 @@
           "title": "Look Up",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/superman/",
-          "date": "2026-08-05",
+          "date": "2026-08-06",
           "sentiment_score": 0.0
         },
         {
           "title": "DC Animated Universe",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/DCAU/",
-          "date": "2026-08-05",
+          "date": "2026-08-06",
           "sentiment_score": 0.0
         },
         {
           "title": "/r/Technology",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/technology/",
-          "date": "2026-08-05",
+          "date": "2026-08-06",
           "sentiment_score": 0.6249
         },
         {
@@ -71,7 +71,6 @@
         }
       ],
       "sparkline": [
-        0.23,
         0.23,
         0.14,
         0.23,
@@ -100,6 +99,7 @@
         0.12,
         0.04,
         0.05,
+        0.04,
         0.04
       ]
     },
@@ -107,8 +107,8 @@
       "name": "Apple",
       "sentiment": {
         "overall_score": 0.26,
-        "trend": "improving",
-        "previous_score": -0.0,
+        "trend": "stable",
+        "previous_score": 0.26,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -117,11 +117,11 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.01,
+            "score": -0.02,
             "count": 15
           },
           "reddit": {
-            "score": 0.41,
+            "score": 0.44,
             "count": 15
           },
           "gdelt": {
@@ -132,6 +132,27 @@
       },
       "top_headlines": [
         {
+          "title": "PowerPoint Presentation Tips and Examples",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/powerpoint/",
+          "date": "2026-08-06",
+          "sentiment_score": 0.6369
+        },
+        {
+          "title": "Return to Office policy black- and whitelist.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/ReturntoOffice/",
+          "date": "2026-08-06",
+          "sentiment_score": 0.8271
+        },
+        {
+          "title": "/r/Technology",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/technology/",
+          "date": "2026-08-06",
+          "sentiment_score": 0.6249
+        },
+        {
           "title": "Do You Think OpenAI Is Apple Circa the 1980s?",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=49178393",
@@ -139,36 +160,14 @@
           "sentiment_score": 0.0
         },
         {
-          "title": "PowerPoint Presentation Tips and Examples",
+          "title": "Bought a used car from a dealer, no V5C, unable to tax it, rejected the vehicle and sent Letter Before Action. Looking for opinions. England",
           "source": "Reddit",
-          "url": "https://www.reddit.com/r/powerpoint/",
+          "url": "https://www.reddit.com/r/LegalAdviceUK/comments/1vg23w7/bought_a_used_car_from_a_dealer_no_v5c_unable_to/",
           "date": "2026-08-05",
-          "sentiment_score": 0.6369
-        },
-        {
-          "title": "Return to Office policy black- and whitelist.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-08-05",
-          "sentiment_score": 0.8271
-        },
-        {
-          "title": "/r/Technology",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/technology/",
-          "date": "2026-08-05",
-          "sentiment_score": 0.6249
-        },
-        {
-          "title": "OpenAI has the right strategy, but is unlucky",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49165173",
-          "date": "2026-08-04",
-          "sentiment_score": 0.0
+          "sentiment_score": -0.4561
         }
       ],
       "sparkline": [
-        -0.06,
         -0.02,
         -0.02,
         -0.02,
@@ -197,6 +196,7 @@
         -0.04,
         -0.02,
         -0.0,
+        0.26,
         0.26
       ]
     },
@@ -204,8 +204,8 @@
       "name": "Google",
       "sentiment": {
         "overall_score": 0.04,
-        "trend": "declining",
-        "previous_score": 0.24,
+        "trend": "stable",
+        "previous_score": 0.04,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -266,7 +266,6 @@
       ],
       "sparkline": [
         0.09,
-        0.09,
         0.1,
         0.08,
         -0.01,
@@ -294,15 +293,16 @@
         0.24,
         0.04,
         0.24,
+        0.04,
         0.04
       ]
     },
     {
       "name": "Meta",
       "sentiment": {
-        "overall_score": -0.06,
-        "trend": "stable",
-        "previous_score": -0.1,
+        "overall_score": -0.13,
+        "trend": "declining",
+        "previous_score": -0.06,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -311,7 +311,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.06,
+            "score": -0.13,
             "count": 15
           },
           "reddit": {
@@ -326,11 +326,11 @@
       },
       "top_headlines": [
         {
-          "title": "Apologise or Lose Safe Harbour: Parliament Panel's 3-Day Ultimatum to Zuckerberg",
+          "title": "Meta Ran Ads That Contained AI-Generated Child Sexual Abuse Imagery",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49180963",
+          "url": "https://news.ycombinator.com/item?id=49187977",
           "date": "2026-08-05",
-          "sentiment_score": 0.4215
+          "sentiment_score": -0.6369
         },
         {
           "title": "Show HN: Sign language translation with smart glasses",
@@ -362,7 +362,6 @@
         }
       ],
       "sparkline": [
-        0.46,
         -0.11,
         -0.11,
         -0.11,
@@ -391,15 +390,16 @@
         -0.12,
         0.23,
         -0.1,
-        -0.06
+        -0.06,
+        -0.13
       ]
     },
     {
       "name": "Microsoft",
       "sentiment": {
-        "overall_score": 0.46,
-        "trend": "improving",
-        "previous_score": 0.12,
+        "overall_score": 0.4,
+        "trend": "declining",
+        "previous_score": 0.46,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -408,11 +408,11 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.11,
+            "score": 0.17,
             "count": 15
           },
           "reddit": {
-            "score": 0.67,
+            "score": 0.54,
             "count": 15
           },
           "gdelt": {
@@ -426,22 +426,29 @@
           "title": "Microsoft Office 365: We all work together.",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/Office365/",
-          "date": "2026-08-05",
+          "date": "2026-08-06",
           "sentiment_score": 0.4019
         },
         {
           "title": "Microsoft Teams",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/MicrosoftTeams/",
-          "date": "2026-08-05",
+          "date": "2026-08-06",
           "sentiment_score": 0.8622
         },
         {
           "title": "/r/Technology",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/technology/",
-          "date": "2026-08-05",
+          "date": "2026-08-06",
           "sentiment_score": 0.6249
+        },
+        {
+          "title": "Microsoft Tells Engineers 'Tokenmaxxing Is Not What We Are Optimizing For'",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49183820",
+          "date": "2026-08-05",
+          "sentiment_score": 0.4588
         },
         {
           "title": "Microsoft Tells Engineers 'Tokenmaxxing Is Not What We Are Optimizing For",
@@ -449,17 +456,9 @@
           "url": "https://news.ycombinator.com/item?id=49171565",
           "date": "2026-08-04",
           "sentiment_score": 0.4588
-        },
-        {
-          "title": "Hotel Wi-Fi attacks use custom malware to breach Microsoft 365 accounts",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49170042",
-          "date": "2026-08-04",
-          "sentiment_score": -0.4404
         }
       ],
       "sparkline": [
-        0.08,
         0.38,
         0.09,
         0.09,
@@ -488,7 +487,8 @@
         0.09,
         0.09,
         0.12,
-        0.46
+        0.46,
+        0.4
       ]
     },
     {
@@ -645,7 +645,6 @@
         -0.3,
         -0.3,
         -0.3,
-        -0.3,
         0,
         0,
         0.0,
@@ -671,6 +670,7 @@
         0,
         0,
         0,
+        0,
         0
       ]
     },
@@ -678,8 +678,8 @@
       "name": "Salesforce",
       "sentiment": {
         "overall_score": 0.25,
-        "trend": "declining",
-        "previous_score": 0.56,
+        "trend": "stable",
+        "previous_score": 0.25,
         "confidence": "low",
         "sample_size": 2,
         "source_scores": {
@@ -718,7 +718,6 @@
         }
       ],
       "sparkline": [
-        0.51,
         0.43,
         0.35,
         0.28,
@@ -747,15 +746,16 @@
         0.48,
         0.56,
         0.56,
+        0.25,
         0.25
       ]
     },
     {
       "name": "AT&T",
       "sentiment": {
-        "overall_score": -0.11,
+        "overall_score": -0.1,
         "trend": "stable",
-        "previous_score": -0.15,
+        "previous_score": -0.11,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -764,7 +764,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.08,
+            "score": -0.05,
             "count": 15
           },
           "reddit": {
@@ -778,6 +778,20 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Changes at Google DeepMind: Demis Hassabis from CEO to Chair, Jeff Dean departs",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49184755",
+          "date": "2026-08-05",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Demis Hassabis is moving from CEO to Chairman at Google DeepMind",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49184757",
+          "date": "2026-08-05",
+          "sentiment_score": 0.0
+        },
         {
           "title": "Found this kitten at a gas station and trying to decide what\u2019s best for her.",
           "source": "Reddit",
@@ -798,24 +812,9 @@
           "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1vdtus9/was_at_a_nearly_empty_beach_with_my_wife_and/",
           "date": "2026-08-02",
           "sentiment_score": -0.1739
-        },
-        {
-          "title": "Getting home from a long day at work to this a**hole blocking my front door \ud83d\ude21",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1vdmsdb/getting_home_from_a_long_day_at_work_to_this/",
-          "date": "2026-08-02",
-          "sentiment_score": -0.826
-        },
-        {
-          "title": "Who\u2019s at fault?",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/dashcams/comments/1vdifki/whos_at_fault/",
-          "date": "2026-08-02",
-          "sentiment_score": -0.8639
         }
       ],
       "sparkline": [
-        -0.22,
         -0.22,
         -0.2,
         -0.1,
@@ -844,25 +843,26 @@
         -0.12,
         -0.08,
         -0.15,
-        -0.11
+        -0.11,
+        -0.1
       ]
     },
     {
       "name": "Disney",
       "sentiment": {
-        "overall_score": 0.19,
-        "trend": "improving",
-        "previous_score": -0.15,
+        "overall_score": 0.08,
+        "trend": "declining",
+        "previous_score": 0.19,
         "confidence": "low",
-        "sample_size": 2,
+        "sample_size": 3,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.19,
-            "count": 2
+            "score": 0.08,
+            "count": 3
           },
           "reddit": {
             "score": 0,
@@ -875,6 +875,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Disney and TikTok strike deal to let creators make videos with its characters",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49190014",
+          "date": "2026-08-05",
+          "sentiment_score": -0.128
+        },
         {
           "title": "Disney Data Dump: What's the Best Day of the Week to Visit the Magic Kingdom?",
           "source": "Hacker News",
@@ -891,7 +898,6 @@
         }
       ],
       "sparkline": [
-        0.0,
         0.0,
         -0.24,
         0.0,
@@ -920,13 +926,14 @@
         -0.25,
         0,
         -0.15,
-        0.19
+        0.19,
+        0.08
       ]
     },
     {
       "name": "Dell",
       "sentiment": {
-        "overall_score": 0.14,
+        "overall_score": 0.12,
         "trend": "stable",
         "previous_score": 0.14,
         "confidence": "high",
@@ -937,7 +944,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.14,
+            "score": 0.12,
             "count": 15
           },
           "reddit": {
@@ -988,7 +995,6 @@
         }
       ],
       "sparkline": [
-        0.39,
         0.04,
         0.04,
         0.04,
@@ -1017,29 +1023,30 @@
         0.14,
         0.3,
         0.14,
-        0.14
+        0.14,
+        0.12
       ]
     },
     {
       "name": "Tesla",
       "sentiment": {
-        "overall_score": 0.13,
-        "trend": "improving",
-        "previous_score": -0.15,
+        "overall_score": -0.13,
+        "trend": "declining",
+        "previous_score": 0.13,
         "confidence": "high",
-        "sample_size": 28,
+        "sample_size": 15,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.15,
-            "count": 13
+            "score": -0.13,
+            "count": 15
           },
           "reddit": {
-            "score": 0.3,
-            "count": 15
+            "score": 0,
+            "count": 0
           },
           "gdelt": {
             "score": 0,
@@ -1049,43 +1056,42 @@
       },
       "top_headlines": [
         {
-          "title": "Return to Office policy black- and whitelist.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/ReturntoOffice/",
+          "title": "Tesla to Open Source Software and Design for Model S and Model X",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49187929",
           "date": "2026-08-05",
-          "sentiment_score": 0.8271
+          "sentiment_score": 0.0
         },
         {
-          "title": "fullyremotework",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/fullyremotework/",
-          "date": "2026-08-05",
-          "sentiment_score": 0.5859
+          "title": "Fired Tesla Manager Says Full Self-Driving Cars Were 'Rolling Hazards'",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49096948",
+          "date": "2026-07-29",
+          "sentiment_score": -0.5574
         },
         {
-          "title": "Antiwork: Unemployment for all, not just the rich!",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/antiwork/",
-          "date": "2026-08-05",
-          "sentiment_score": -0.3434
+          "title": "Tesla sues Cybertruck supplier Angstrom amid standoff keeping production hostage",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49091991",
+          "date": "2026-07-29",
+          "sentiment_score": 0.0
         },
         {
-          "title": "First EV and new truck - \u201823 Platinum",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/F150Lightning/comments/1vfx7jl/first_ev_and_new_truck_23_platinum/",
-          "date": "2026-08-05",
-          "sentiment_score": 0.9902
+          "title": "Tesla's robotaxis are moving in reverse",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49051835",
+          "date": "2026-07-25",
+          "sentiment_score": 0.0
         },
         {
-          "title": "Convention bangers",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/Currencytradingcards/comments/1vcbv3d/convention_bangers/",
-          "date": "2026-08-01",
-          "sentiment_score": 0.7156
+          "title": "Earnings at Tesla fall as research spending cuts into profit from selling cars",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49037660",
+          "date": "2026-07-24",
+          "sentiment_score": 0.1779
         }
       ],
       "sparkline": [
-        -0.19,
         -0.14,
         -0.21,
         -0.31,
@@ -1114,17 +1120,18 @@
         -0.14,
         -0.14,
         -0.15,
-        0.13
+        0.13,
+        -0.13
       ]
     },
     {
       "name": "Caterpillar",
       "sentiment": {
-        "overall_score": 0.44,
-        "trend": "stable",
+        "overall_score": 0.36,
+        "trend": "declining",
         "previous_score": 0.44,
         "confidence": "low",
-        "sample_size": 1,
+        "sample_size": 4,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -1135,8 +1142,8 @@
             "count": 1
           },
           "reddit": {
-            "score": 0,
-            "count": 0
+            "score": 0.31,
+            "count": 3
           },
           "gdelt": {
             "score": 0,
@@ -1146,6 +1153,27 @@
       },
       "top_headlines": [
         {
+          "title": "Return to Office policy black- and whitelist.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/ReturntoOffice/",
+          "date": "2026-08-06",
+          "sentiment_score": 0.8271
+        },
+        {
+          "title": "fullyremotework",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/fullyremotework/",
+          "date": "2026-08-06",
+          "sentiment_score": 0.5859
+        },
+        {
+          "title": "NoToRTOCa",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/NoToRTOCa/",
+          "date": "2026-08-06",
+          "sentiment_score": -0.4723
+        },
+        {
           "title": "Show HN: A game to get people out in nature and appreciating wild animals",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=48995508",
@@ -1154,7 +1182,6 @@
         }
       ],
       "sparkline": [
-        0,
         0,
         0,
         -0.02,
@@ -1183,15 +1210,16 @@
         0.44,
         0.22,
         0.44,
-        0.44
+        0.44,
+        0.36
       ]
     },
     {
       "name": "Cisco",
       "sentiment": {
         "overall_score": -0.23,
-        "trend": "declining",
-        "previous_score": -0.13,
+        "trend": "stable",
+        "previous_score": -0.23,
         "confidence": "low",
         "sample_size": 1,
         "source_scores": {
@@ -1223,7 +1251,6 @@
         }
       ],
       "sparkline": [
-        -0.15,
         -0.23,
         -0.2,
         -0.23,
@@ -1252,6 +1279,7 @@
         -0.06,
         -0.06,
         -0.13,
+        -0.23,
         -0.23
       ]
     }
