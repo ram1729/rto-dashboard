@@ -1,27 +1,27 @@
 {
-  "last_updated": "2026-08-06T02:40:44.385319Z",
+  "last_updated": "2026-08-06T14:16:54.355233Z",
   "scraper_log": {
-    "duration_sec": 226.31,
-    "total_articles": 190,
+    "duration_sec": 242.41,
+    "total_articles": 195,
     "errors": []
   },
   "companies": [
     {
       "name": "Amazon",
       "sentiment": {
-        "overall_score": 0.04,
+        "overall_score": 0.05,
         "trend": "stable",
         "previous_score": 0.04,
         "confidence": "high",
-        "sample_size": 30,
+        "sample_size": 28,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.06,
-            "count": 15
+            "score": 0.1,
+            "count": 13
           },
           "reddit": {
             "score": 0.02,
@@ -63,15 +63,14 @@
           "sentiment_score": 0.5106
         },
         {
-          "title": "Amazon's debt doubled to $129B in 6 months",
+          "title": "Tell HN: Amazonbot aggressively scraping my website and ignoring robots.txt",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49161640",
-          "date": "2026-08-03",
-          "sentiment_score": -0.3612
+          "url": "https://news.ycombinator.com/item?id=49137359",
+          "date": "2026-08-01",
+          "sentiment_score": -0.6124
         }
       ],
       "sparkline": [
-        0.23,
         0.14,
         0.23,
         0.24,
@@ -100,7 +99,8 @@
         0.04,
         0.05,
         0.04,
-        0.04
+        0.04,
+        0.05
       ]
     },
     {
@@ -117,11 +117,11 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.02,
+            "score": -0.05,
             "count": 15
           },
           "reddit": {
-            "score": 0.44,
+            "score": 0.45,
             "count": 15
           },
           "gdelt": {
@@ -131,6 +131,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "OpenAI says Apple's trade secrets lawsuit is 'rotten to its core'",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49195028",
+          "date": "2026-08-06",
+          "sentiment_score": -0.6369
+        },
         {
           "title": "PowerPoint Presentation Tips and Examples",
           "source": "Reddit",
@@ -158,17 +165,9 @@
           "url": "https://news.ycombinator.com/item?id=49178393",
           "date": "2026-08-05",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Bought a used car from a dealer, no V5C, unable to tax it, rejected the vehicle and sent Letter Before Action. Looking for opinions. England",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/LegalAdviceUK/comments/1vg23w7/bought_a_used_car_from_a_dealer_no_v5c_unable_to/",
-          "date": "2026-08-05",
-          "sentiment_score": -0.4561
         }
       ],
       "sparkline": [
-        -0.02,
         -0.02,
         -0.02,
         0.33,
@@ -197,13 +196,14 @@
         -0.02,
         -0.0,
         0.26,
+        0.26,
         0.26
       ]
     },
     {
       "name": "Google",
       "sentiment": {
-        "overall_score": 0.04,
+        "overall_score": 0.05,
         "trend": "stable",
         "previous_score": 0.04,
         "confidence": "high",
@@ -214,7 +214,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.04,
+            "score": 0.05,
             "count": 15
           },
           "reddit": {
@@ -228,6 +228,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Why good developers should avoid working for Google",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49196625",
+          "date": "2026-08-06",
+          "sentiment_score": 0.1779
+        },
         {
           "title": "Tell HN: Gemini uses your email drafts (if you have \"smart features\" turned on)",
           "source": "Hacker News",
@@ -255,17 +262,9 @@
           "url": "https://news.ycombinator.com/item?id=49111237",
           "date": "2026-07-30",
           "sentiment_score": 0.4767
-        },
-        {
-          "title": "Gemini Robotics",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49117178",
-          "date": "2026-07-30",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.09,
         0.1,
         0.08,
         -0.01,
@@ -294,15 +293,16 @@
         0.04,
         0.24,
         0.04,
-        0.04
+        0.04,
+        0.05
       ]
     },
     {
       "name": "Meta",
       "sentiment": {
-        "overall_score": -0.13,
-        "trend": "declining",
-        "previous_score": -0.06,
+        "overall_score": -0.09,
+        "trend": "stable",
+        "previous_score": -0.13,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -311,7 +311,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.13,
+            "score": -0.09,
             "count": 15
           },
           "reddit": {
@@ -326,11 +326,11 @@
       },
       "top_headlines": [
         {
-          "title": "Meta Ran Ads That Contained AI-Generated Child Sexual Abuse Imagery",
+          "title": "Meta latest to tell world its AI agent wandered out of test pen",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49187977",
-          "date": "2026-08-05",
-          "sentiment_score": -0.6369
+          "url": "https://news.ycombinator.com/item?id=49196144",
+          "date": "2026-08-06",
+          "sentiment_score": 0.0
         },
         {
           "title": "Show HN: Sign language translation with smart glasses",
@@ -369,7 +369,6 @@
         -0.11,
         -0.11,
         -0.11,
-        -0.11,
         -0.14,
         -0.14,
         -0.14,
@@ -391,15 +390,16 @@
         0.23,
         -0.1,
         -0.06,
-        -0.13
+        -0.13,
+        -0.09
       ]
     },
     {
       "name": "Microsoft",
       "sentiment": {
-        "overall_score": 0.4,
-        "trend": "declining",
-        "previous_score": 0.46,
+        "overall_score": 0.44,
+        "trend": "stable",
+        "previous_score": 0.4,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -408,11 +408,11 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.17,
+            "score": 0.06,
             "count": 15
           },
           "reddit": {
-            "score": 0.54,
+            "score": 0.67,
             "count": 15
           },
           "gdelt": {
@@ -422,6 +422,27 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Microsoft's Quantum Chief Doesn't Care That Scientists Don't Believe His Results",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49196882",
+          "date": "2026-08-06",
+          "sentiment_score": -0.3875
+        },
+        {
+          "title": "Microsoft Created Fake Employees to Test Exchange Server [video]",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49194174",
+          "date": "2026-08-06",
+          "sentiment_score": -0.2732
+        },
+        {
+          "title": "Microsoft is serious about fixing Windows, and it's doing things right this time",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49191949",
+          "date": "2026-08-06",
+          "sentiment_score": -0.0772
+        },
         {
           "title": "Microsoft Office 365: We all work together.",
           "source": "Reddit",
@@ -435,31 +456,9 @@
           "url": "https://www.reddit.com/r/MicrosoftTeams/",
           "date": "2026-08-06",
           "sentiment_score": 0.8622
-        },
-        {
-          "title": "/r/Technology",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/technology/",
-          "date": "2026-08-06",
-          "sentiment_score": 0.6249
-        },
-        {
-          "title": "Microsoft Tells Engineers 'Tokenmaxxing Is Not What We Are Optimizing For'",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49183820",
-          "date": "2026-08-05",
-          "sentiment_score": 0.4588
-        },
-        {
-          "title": "Microsoft Tells Engineers 'Tokenmaxxing Is Not What We Are Optimizing For",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49171565",
-          "date": "2026-08-04",
-          "sentiment_score": 0.4588
         }
       ],
       "sparkline": [
-        0.38,
         0.09,
         0.09,
         0.09,
@@ -488,7 +487,8 @@
         0.09,
         0.12,
         0.46,
-        0.4
+        0.4,
+        0.44
       ]
     },
     {
@@ -644,7 +644,6 @@
       "sparkline": [
         -0.3,
         -0.3,
-        -0.3,
         0,
         0,
         0.0,
@@ -666,6 +665,7 @@
         0.0,
         0.0,
         0.0,
+        0,
         0,
         0,
         0,
@@ -718,7 +718,6 @@
         }
       ],
       "sparkline": [
-        0.43,
         0.35,
         0.28,
         0.58,
@@ -747,15 +746,16 @@
         0.56,
         0.56,
         0.25,
+        0.25,
         0.25
       ]
     },
     {
       "name": "AT&T",
       "sentiment": {
-        "overall_score": -0.1,
+        "overall_score": -0.11,
         "trend": "stable",
-        "previous_score": -0.11,
+        "previous_score": -0.1,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -764,7 +764,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.05,
+            "score": -0.08,
             "count": 15
           },
           "reddit": {
@@ -815,7 +815,6 @@
         }
       ],
       "sparkline": [
-        -0.22,
         -0.2,
         -0.1,
         -0.2,
@@ -844,25 +843,26 @@
         -0.08,
         -0.15,
         -0.11,
-        -0.1
+        -0.1,
+        -0.11
       ]
     },
     {
       "name": "Disney",
       "sentiment": {
-        "overall_score": 0.08,
+        "overall_score": 0,
         "trend": "declining",
-        "previous_score": 0.19,
+        "previous_score": 0.08,
         "confidence": "low",
-        "sample_size": 3,
+        "sample_size": 0,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.08,
-            "count": 3
+            "score": 0,
+            "count": 0
           },
           "reddit": {
             "score": 0,
@@ -874,31 +874,8 @@
           }
         }
       },
-      "top_headlines": [
-        {
-          "title": "Disney and TikTok strike deal to let creators make videos with its characters",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49190014",
-          "date": "2026-08-05",
-          "sentiment_score": -0.128
-        },
-        {
-          "title": "Disney Data Dump: What's the Best Day of the Week to Visit the Magic Kingdom?",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49178169",
-          "date": "2026-08-05",
-          "sentiment_score": 0.3818
-        },
-        {
-          "title": "Disney+ brings 4K streaming back to European customers, HDR still on to-do list",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49165676",
-          "date": "2026-08-04",
-          "sentiment_score": 0.0
-        }
-      ],
+      "top_headlines": [],
       "sparkline": [
-        0.0,
         -0.24,
         0.0,
         -0.24,
@@ -927,7 +904,8 @@
         0,
         -0.15,
         0.19,
-        0.08
+        0.08,
+        0
       ]
     },
     {
@@ -935,7 +913,7 @@
       "sentiment": {
         "overall_score": 0.12,
         "trend": "stable",
-        "previous_score": 0.14,
+        "previous_score": 0.12,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -997,7 +975,6 @@
       "sparkline": [
         0.04,
         0.04,
-        0.04,
         0.01,
         0.01,
         0.24,
@@ -1024,29 +1001,30 @@
         0.3,
         0.14,
         0.14,
+        0.12,
         0.12
       ]
     },
     {
       "name": "Tesla",
       "sentiment": {
-        "overall_score": -0.13,
-        "trend": "declining",
-        "previous_score": 0.13,
+        "overall_score": 0.05,
+        "trend": "improving",
+        "previous_score": -0.13,
         "confidence": "high",
-        "sample_size": 15,
+        "sample_size": 28,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.13,
-            "count": 15
+            "score": -0.15,
+            "count": 13
           },
           "reddit": {
-            "score": 0,
-            "count": 0
+            "score": 0.17,
+            "count": 15
           },
           "gdelt": {
             "score": 0,
@@ -1056,43 +1034,42 @@
       },
       "top_headlines": [
         {
-          "title": "Tesla to Open Source Software and Design for Model S and Model X",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49187929",
+          "title": "Return to Office policy black- and whitelist.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/ReturntoOffice/",
+          "date": "2026-08-06",
+          "sentiment_score": 0.8271
+        },
+        {
+          "title": "fullyremotework",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/fullyremotework/",
+          "date": "2026-08-06",
+          "sentiment_score": 0.5859
+        },
+        {
+          "title": "Antiwork: Unemployment for all, not just the rich!",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/antiwork/",
+          "date": "2026-08-06",
+          "sentiment_score": -0.3434
+        },
+        {
+          "title": "'A Soulless Demon': D4vd's Path From Pop Star to Accused Killer - Part 2",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/d4vdiots/comments/1vga2mo/a_soulless_demon_d4vds_path_from_pop_star_to/",
           "date": "2026-08-05",
-          "sentiment_score": 0.0
+          "sentiment_score": -0.9979
         },
         {
-          "title": "Fired Tesla Manager Says Full Self-Driving Cars Were 'Rolling Hazards'",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49096948",
-          "date": "2026-07-29",
-          "sentiment_score": -0.5574
-        },
-        {
-          "title": "Tesla sues Cybertruck supplier Angstrom amid standoff keeping production hostage",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49091991",
-          "date": "2026-07-29",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "Tesla's robotaxis are moving in reverse",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49051835",
-          "date": "2026-07-25",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "Earnings at Tesla fall as research spending cuts into profit from selling cars",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49037660",
-          "date": "2026-07-24",
-          "sentiment_score": 0.1779
+          "title": "First EV and new truck - \u201823 Platinum",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/F150Lightning/comments/1vfx7jl/first_ev_and_new_truck_23_platinum/",
+          "date": "2026-08-05",
+          "sentiment_score": 0.9902
         }
       ],
       "sparkline": [
-        -0.14,
         -0.21,
         -0.31,
         -0.24,
@@ -1121,17 +1098,18 @@
         -0.14,
         -0.15,
         0.13,
-        -0.13
+        -0.13,
+        0.05
       ]
     },
     {
       "name": "Caterpillar",
       "sentiment": {
-        "overall_score": 0.36,
-        "trend": "declining",
-        "previous_score": 0.44,
+        "overall_score": 0.44,
+        "trend": "improving",
+        "previous_score": 0.36,
         "confidence": "low",
-        "sample_size": 4,
+        "sample_size": 1,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -1142,8 +1120,8 @@
             "count": 1
           },
           "reddit": {
-            "score": 0.31,
-            "count": 3
+            "score": 0,
+            "count": 0
           },
           "gdelt": {
             "score": 0,
@@ -1153,27 +1131,6 @@
       },
       "top_headlines": [
         {
-          "title": "Return to Office policy black- and whitelist.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-08-06",
-          "sentiment_score": 0.8271
-        },
-        {
-          "title": "fullyremotework",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/fullyremotework/",
-          "date": "2026-08-06",
-          "sentiment_score": 0.5859
-        },
-        {
-          "title": "NoToRTOCa",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/NoToRTOCa/",
-          "date": "2026-08-06",
-          "sentiment_score": -0.4723
-        },
-        {
           "title": "Show HN: A game to get people out in nature and appreciating wild animals",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=48995508",
@@ -1182,7 +1139,6 @@
         }
       ],
       "sparkline": [
-        0,
         0,
         -0.02,
         0,
@@ -1211,7 +1167,8 @@
         0.22,
         0.44,
         0.44,
-        0.36
+        0.36,
+        0.44
       ]
     },
     {
@@ -1251,7 +1208,6 @@
         }
       ],
       "sparkline": [
-        -0.23,
         -0.2,
         -0.23,
         -0.22,
@@ -1279,6 +1235,7 @@
         -0.06,
         -0.06,
         -0.13,
+        -0.23,
         -0.23,
         -0.23
       ]
