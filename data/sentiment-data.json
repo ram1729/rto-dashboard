@@ -1,27 +1,27 @@
 {
-  "last_updated": "2026-08-08T01:46:30.105569Z",
+  "last_updated": "2026-08-08T12:55:22.115499Z",
   "scraper_log": {
-    "duration_sec": 238.6,
-    "total_articles": 194,
+    "duration_sec": 221.97,
+    "total_articles": 182,
     "errors": []
   },
   "companies": [
     {
       "name": "Amazon",
       "sentiment": {
-        "overall_score": 0.14,
+        "overall_score": 0.12,
         "trend": "stable",
         "previous_score": 0.14,
         "confidence": "high",
-        "sample_size": 30,
+        "sample_size": 28,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.11,
-            "count": 15
+            "score": 0.08,
+            "count": 13
           },
           "reddit": {
             "score": 0.15,
@@ -34,6 +34,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "New Amazon Data Center Is Set to Have the Most Polluting Power Plant in the U.S.",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49220350",
+          "date": "2026-08-08",
+          "sentiment_score": 0.1779
+        },
         {
           "title": "Look Up",
           "source": "Reddit",
@@ -56,22 +63,14 @@
           "sentiment_score": 0.6249
         },
         {
-          "title": "How Amazon Built a Data Center in a California Town Without Anyone Noticing",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49210999",
-          "date": "2026-08-07",
-          "sentiment_score": 0.1779
-        },
-        {
-          "title": "Amazon to Offer GLP-1 Weight-Loss Drugs to Medicare Part D Patients",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49201194",
-          "date": "2026-08-06",
-          "sentiment_score": 0.1779
+          "title": "(SELLING) EVERYTHING MUST GO CLOSEOUT SALE TIME! PLEASE READ DISCOUNT REQUIREMENTS! PRICES ARE FIRM WITH APPLIED DISCOUNT! THANK YOU EVERYONE <3",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/DigitalCodeSELL/comments/1vd50pq/selling_everything_must_go_closeout_sale_time/",
+          "date": "2026-08-02",
+          "sentiment_score": -0.9985
         }
       ],
       "sparkline": [
-        0.24,
         0.23,
         0.23,
         0.24,
@@ -100,15 +99,16 @@
         0.04,
         0.05,
         0.14,
-        0.14
+        0.14,
+        0.12
       ]
     },
     {
       "name": "Apple",
       "sentiment": {
         "overall_score": -0.05,
-        "trend": "declining",
-        "previous_score": 0.26,
+        "trend": "stable",
+        "previous_score": -0.05,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -168,7 +168,6 @@
         }
       ],
       "sparkline": [
-        0.33,
         -0.02,
         -0.02,
         -0.02,
@@ -197,6 +196,7 @@
         0.26,
         0.26,
         0.26,
+        -0.05,
         -0.05
       ]
     },
@@ -204,8 +204,8 @@
       "name": "Google",
       "sentiment": {
         "overall_score": 0.2,
-        "trend": "improving",
-        "previous_score": 0.07,
+        "trend": "stable",
+        "previous_score": 0.2,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -265,7 +265,6 @@
         }
       ],
       "sparkline": [
-        -0.01,
         0.16,
         -0.05,
         0.06,
@@ -294,6 +293,7 @@
         0.04,
         0.05,
         0.07,
+        0.2,
         0.2
       ]
     },
@@ -302,7 +302,7 @@
       "sentiment": {
         "overall_score": -0.12,
         "trend": "stable",
-        "previous_score": -0.1,
+        "previous_score": -0.12,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -333,13 +333,6 @@
           "sentiment_score": -0.5574
         },
         {
-          "title": "New Mexico court orders Meta to pay $567M over harms to children's mental health",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49204500",
-          "date": "2026-08-07",
-          "sentiment_score": -0.5574
-        },
-        {
           "title": "The Download: Google's AI shake-up and Meta's rogue model",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=49199367",
@@ -354,6 +347,13 @@
           "sentiment_score": 0.0
         },
         {
+          "title": "Meta Ran Ads That Contained AI-Generated Child Sexual Abuse Imagery",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49187977",
+          "date": "2026-08-05",
+          "sentiment_score": -0.6369
+        },
+        {
           "title": "Show HN: Sign language translation with smart glasses",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=49175774",
@@ -362,7 +362,6 @@
         }
       ],
       "sparkline": [
-        -0.11,
         -0.11,
         -0.11,
         -0.11,
@@ -391,25 +390,26 @@
         -0.13,
         -0.09,
         -0.1,
+        -0.12,
         -0.12
       ]
     },
     {
       "name": "Microsoft",
       "sentiment": {
-        "overall_score": 0.06,
-        "trend": "stable",
+        "overall_score": 0.18,
+        "trend": "improving",
         "previous_score": 0.06,
         "confidence": "high",
-        "sample_size": 15,
+        "sample_size": 11,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.06,
-            "count": 15
+            "score": 0.18,
+            "count": 11
           },
           "reddit": {
             "score": 0,
@@ -423,43 +423,42 @@
       },
       "top_headlines": [
         {
-          "title": "Show HN: CapyToolkit \u2013 Browser-native developer and hardware diagnostic tools",
+          "title": "Microsoft Edge is about to lock out older ad blockers, just like Chrome did",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49207156",
-          "date": "2026-08-07",
+          "url": "https://news.ycombinator.com/item?id=49220392",
+          "date": "2026-08-08",
+          "sentiment_score": 0.3612
+        },
+        {
+          "title": "Show HN: Open OneNote Viewer in Rust",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49137817",
+          "date": "2026-08-01",
           "sentiment_score": 0.0
         },
         {
-          "title": "Microsoft's Quantum Chief Doesn't Care That Scientists Don't Believe His Results",
+          "title": "Show HN: I rebuilt Microsoft Comic Chat's layout engine in one HTML file",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49196882",
-          "date": "2026-08-06",
-          "sentiment_score": -0.3875
+          "url": "https://news.ycombinator.com/item?id=49042872",
+          "date": "2026-07-24",
+          "sentiment_score": 0.0
         },
         {
-          "title": "Microsoft Created Fake Employees to Test Exchange Server [video]",
+          "title": "Amsterdam activists throw acid at Microsoft datacenter project",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49194174",
-          "date": "2026-08-06",
-          "sentiment_score": -0.2732
+          "url": "https://news.ycombinator.com/item?id=48948349",
+          "date": "2026-07-17",
+          "sentiment_score": 0.0
         },
         {
-          "title": "Microsoft is serious about fixing Windows, and it's doing things right this time",
+          "title": "Microsoft confirms Windows GDID device identifier that cannot be disabled",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49191949",
-          "date": "2026-08-06",
-          "sentiment_score": -0.0772
-        },
-        {
-          "title": "Microsoft raises Xbox prices by up to 43%",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49147209",
-          "date": "2026-08-02",
+          "url": "https://news.ycombinator.com/item?id=48920338",
+          "date": "2026-07-15",
           "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.09,
         0.09,
         0.3,
         0.09,
@@ -488,7 +487,8 @@
         0.4,
         0.44,
         0.06,
-        0.06
+        0.06,
+        0.18
       ]
     },
     {
@@ -616,19 +616,19 @@
     {
       "name": "Bank of America",
       "sentiment": {
-        "overall_score": 0.0,
+        "overall_score": 0,
         "trend": "stable",
-        "previous_score": 0,
+        "previous_score": 0.0,
         "confidence": "low",
-        "sample_size": 1,
+        "sample_size": 0,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.0,
-            "count": 1
+            "score": 0,
+            "count": 0
           },
           "reddit": {
             "score": 0,
@@ -640,17 +640,8 @@
           }
         }
       },
-      "top_headlines": [
-        {
-          "title": "Launch HN: Bloomy (YC S26) \u2013 AI-powered mastery learning for K-12",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48981136",
-          "date": "2026-07-20",
-          "sentiment_score": 0.0
-        }
-      ],
+      "top_headlines": [],
       "sparkline": [
-        0,
         0,
         0.0,
         0.0,
@@ -679,15 +670,16 @@
         0,
         0,
         0,
-        0.0
+        0.0,
+        0
       ]
     },
     {
       "name": "Salesforce",
       "sentiment": {
         "overall_score": 0.39,
-        "trend": "declining",
-        "previous_score": 0.47,
+        "trend": "stable",
+        "previous_score": 0.39,
         "confidence": "high",
         "sample_size": 17,
         "source_scores": {
@@ -748,7 +740,6 @@
       ],
       "sparkline": [
         0.58,
-        0.58,
         0.19,
         0.33,
         0.42,
@@ -776,6 +767,7 @@
         0.25,
         0.25,
         0.47,
+        0.39,
         0.39
       ]
     },
@@ -784,7 +776,7 @@
       "sentiment": {
         "overall_score": -0.06,
         "trend": "stable",
-        "previous_score": -0.07,
+        "previous_score": -0.06,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -844,7 +836,6 @@
         }
       ],
       "sparkline": [
-        -0.2,
         -0.07,
         -0.18,
         -0.18,
@@ -873,25 +864,26 @@
         -0.1,
         -0.11,
         -0.07,
+        -0.06,
         -0.06
       ]
     },
     {
       "name": "Disney",
       "sentiment": {
-        "overall_score": -0.15,
+        "overall_score": -0.25,
         "trend": "declining",
-        "previous_score": 0.0,
+        "previous_score": -0.15,
         "confidence": "high",
-        "sample_size": 16,
+        "sample_size": 15,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.0,
-            "count": 1
+            "score": 0,
+            "count": 0
           },
           "reddit": {
             "score": -0.25,
@@ -926,22 +918,21 @@
           "sentiment_score": 0.0
         },
         {
-          "title": "Disney+ Cracks Open the Door to TikTok Creator Videos",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49204751",
-          "date": "2026-08-07",
-          "sentiment_score": 0.0
-        },
-        {
           "title": "Every terrible thing the Trump administration did in July 2026",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/Keep_Track/comments/1vg4btp/every_terrible_thing_the_trump_administration_did/",
           "date": "2026-08-05",
           "sentiment_score": -0.9999
+        },
+        {
+          "title": "(SELLING) EVERYTHING MUST GO CLOSEOUT SALE TIME! PLEASE READ DISCOUNT REQUIREMENTS! PRICES ARE FIRM WITH APPLIED DISCOUNT! THANK YOU EVERYONE <3",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/DigitalCodeSELL/comments/1vd50pq/selling_everything_must_go_closeout_sale_time/",
+          "date": "2026-08-02",
+          "sentiment_score": -0.9985
         }
       ],
       "sparkline": [
-        -0.24,
         0.0,
         0.0,
         0.0,
@@ -970,7 +961,8 @@
         0.08,
         0,
         0.0,
-        -0.15
+        -0.15,
+        -0.25
       ]
     },
     {
@@ -1039,7 +1031,6 @@
       ],
       "sparkline": [
         0.01,
-        0.01,
         0.24,
         0.24,
         0.24,
@@ -1067,25 +1058,26 @@
         0.12,
         0.12,
         0.12,
+        0.12,
         0.12
       ]
     },
     {
       "name": "Tesla",
       "sentiment": {
-        "overall_score": -0.1,
+        "overall_score": -0.08,
         "trend": "stable",
-        "previous_score": -0.14,
+        "previous_score": -0.1,
         "confidence": "high",
-        "sample_size": 14,
+        "sample_size": 11,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.1,
-            "count": 14
+            "score": -0.08,
+            "count": 11
           },
           "reddit": {
             "score": 0,
@@ -1098,20 +1090,6 @@
         }
       },
       "top_headlines": [
-        {
-          "title": "Tesla and SpaceX to invest $16.8B for Terafab chip factory in Texas",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49213402",
-          "date": "2026-08-07",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "SpaceX, Tesla to initially spend $16.8B on Terafab chip plant in Texas",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49202670",
-          "date": "2026-08-06",
-          "sentiment_score": 0.0
-        },
         {
           "title": "Fired Tesla Manager Says Full Self-Driving Cars Were 'Rolling Hazards'",
           "source": "Hacker News",
@@ -1132,10 +1110,23 @@
           "url": "https://news.ycombinator.com/item?id=49037660",
           "date": "2026-07-24",
           "sentiment_score": 0.1779
+        },
+        {
+          "title": "Tesla says Robotaxi is expanding \u2013 its own chart shows it's not",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49026831",
+          "date": "2026-07-23",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Someone Call Tesla a Robotaxi, or SpaceX, Quick",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49028783",
+          "date": "2026-07-23",
+          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        -0.24,
         -0.22,
         -0.22,
         -0.17,
@@ -1164,25 +1155,26 @@
         -0.13,
         0.05,
         -0.14,
-        -0.1
+        -0.1,
+        -0.08
       ]
     },
     {
       "name": "Caterpillar",
       "sentiment": {
-        "overall_score": 0.22,
-        "trend": "declining",
-        "previous_score": 0.53,
+        "overall_score": 0.44,
+        "trend": "improving",
+        "previous_score": 0.22,
         "confidence": "low",
-        "sample_size": 2,
+        "sample_size": 1,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.22,
-            "count": 2
+            "score": 0.44,
+            "count": 1
           },
           "reddit": {
             "score": 0,
@@ -1196,13 +1188,6 @@
       },
       "top_headlines": [
         {
-          "title": "How to Survive an Infestation of Toxic Caterpillars",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49217060",
-          "date": "2026-08-07",
-          "sentiment_score": 0.0
-        },
-        {
           "title": "Show HN: A game to get people out in nature and appreciating wild animals",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=48995508",
@@ -1211,7 +1196,6 @@
         }
       ],
       "sparkline": [
-        0,
         -0.02,
         0,
         0,
@@ -1240,15 +1224,16 @@
         0.36,
         0.44,
         0.53,
-        0.22
+        0.22,
+        0.44
       ]
     },
     {
       "name": "Cisco",
       "sentiment": {
         "overall_score": 0.15,
-        "trend": "improving",
-        "previous_score": -0.23,
+        "trend": "stable",
+        "previous_score": 0.15,
         "confidence": "medium",
         "sample_size": 9,
         "source_scores": {
@@ -1308,7 +1293,6 @@
         }
       ],
       "sparkline": [
-        -0.22,
         -0.23,
         -0.23,
         -0.25,
@@ -1337,6 +1321,7 @@
         -0.23,
         -0.23,
         -0.23,
+        0.15,
         0.15
       ]
     }
