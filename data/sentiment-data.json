@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-08-11T01:52:39.330467Z",
+  "last_updated": "2026-08-11T13:13:56.224102Z",
   "scraper_log": {
-    "duration_sec": 249.16,
-    "total_articles": 196,
+    "duration_sec": 249.55,
+    "total_articles": 198,
     "errors": []
   },
   "companies": [
     {
       "name": "Amazon",
       "sentiment": {
-        "overall_score": 0.04,
+        "overall_score": 0.07,
         "trend": "stable",
-        "previous_score": 0.02,
+        "previous_score": 0.04,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -24,7 +24,7 @@
             "count": 15
           },
           "reddit": {
-            "score": 0.03,
+            "score": 0.09,
             "count": 15
           },
           "gdelt": {
@@ -35,16 +35,16 @@
       },
       "top_headlines": [
         {
+          "title": "Return to Office policy black- and whitelist.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/ReturntoOffice/",
+          "date": "2026-08-11",
+          "sentiment_score": 0.8271
+        },
+        {
           "title": "Look Up",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/superman/",
-          "date": "2026-08-11",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "DC Animated Universe",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/DCAU/",
           "date": "2026-08-11",
           "sentiment_score": 0.0
         },
@@ -71,7 +71,6 @@
         }
       ],
       "sparkline": [
-        0.16,
         0.09,
         0.1,
         0.1,
@@ -100,17 +99,18 @@
         0.12,
         0.02,
         0.02,
-        0.04
+        0.04,
+        0.07
       ]
     },
     {
       "name": "Apple",
       "sentiment": {
-        "overall_score": 0.02,
-        "trend": "stable",
-        "previous_score": -0.02,
+        "overall_score": 0.21,
+        "trend": "improving",
+        "previous_score": 0.02,
         "confidence": "high",
-        "sample_size": 15,
+        "sample_size": 30,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -121,8 +121,8 @@
             "count": 15
           },
           "reddit": {
-            "score": 0,
-            "count": 0
+            "score": 0.32,
+            "count": 15
           },
           "gdelt": {
             "score": 0,
@@ -131,6 +131,27 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Return to Office policy black- and whitelist.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/ReturntoOffice/",
+          "date": "2026-08-11",
+          "sentiment_score": 0.8271
+        },
+        {
+          "title": "PowerPoint Presentation Tips and Examples",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/powerpoint/",
+          "date": "2026-08-11",
+          "sentiment_score": 0.6369
+        },
+        {
+          "title": "/r/Technology",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/technology/",
+          "date": "2026-08-11",
+          "sentiment_score": 0.6249
+        },
         {
           "title": "Apple considers round screens and more designs for Apple Watch revamp",
           "source": "Hacker News",
@@ -144,31 +165,9 @@
           "url": "https://news.ycombinator.com/item?id=49246804",
           "date": "2026-08-10",
           "sentiment_score": 0.4019
-        },
-        {
-          "title": "OpenAI says Apple's trade secrets lawsuit is 'rotten to its core'",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49195028",
-          "date": "2026-08-06",
-          "sentiment_score": -0.6369
-        },
-        {
-          "title": "Do You Think OpenAI Is Apple Circa the 1980s?",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49178393",
-          "date": "2026-08-05",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "OpenAI has the right strategy, but is unlucky",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49165173",
-          "date": "2026-08-04",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        -0.02,
         -0.02,
         -0.02,
         0.39,
@@ -197,17 +196,18 @@
         -0.05,
         -0.02,
         -0.02,
-        0.02
+        0.02,
+        0.21
       ]
     },
     {
       "name": "Google",
       "sentiment": {
-        "overall_score": 0.2,
-        "trend": "improving",
-        "previous_score": 0.07,
+        "overall_score": 0.08,
+        "trend": "declining",
+        "previous_score": 0.2,
         "confidence": "high",
-        "sample_size": 30,
+        "sample_size": 15,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -218,8 +218,8 @@
             "count": 15
           },
           "reddit": {
-            "score": 0.28,
-            "count": 15
+            "score": 0,
+            "count": 0
           },
           "gdelt": {
             "score": 0,
@@ -229,25 +229,11 @@
       },
       "top_headlines": [
         {
-          "title": "PowerPoint Presentation Tips and Examples",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/powerpoint/",
+          "title": "Following Epic loss, Google has started hosting rival app stores in Play Store",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49257088",
           "date": "2026-08-11",
-          "sentiment_score": 0.6369
-        },
-        {
-          "title": "Return to Office policy black- and whitelist.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-08-11",
-          "sentiment_score": 0.8271
-        },
-        {
-          "title": "Google",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/google/",
-          "date": "2026-08-11",
-          "sentiment_score": 0.0
+          "sentiment_score": 0.0258
         },
         {
           "title": "Following Epic loss, Google hosts rival app stores in the Play Store",
@@ -257,15 +243,28 @@
           "sentiment_score": 0.0258
         },
         {
-          "title": "Google DeepMind enters a new era as co-founder Demis Hassabis shifts AI role",
+          "title": "Gemini Robotics 2 Expands Google's AI Capabilities for Humanoid Robots",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49226641",
-          "date": "2026-08-08",
-          "sentiment_score": 0.0
+          "url": "https://news.ycombinator.com/item?id=49215047",
+          "date": "2026-08-07",
+          "sentiment_score": 0.1027
+        },
+        {
+          "title": "Why good developers should avoid working for Google",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49196625",
+          "date": "2026-08-06",
+          "sentiment_score": 0.1779
+        },
+        {
+          "title": "Opinion: Demis Hassabis' new role exposes Google's AI balancing act",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49197486",
+          "date": "2026-08-06",
+          "sentiment_score": -0.128
         }
       ],
       "sparkline": [
-        0.06,
         0.06,
         0.06,
         -0.05,
@@ -294,15 +293,16 @@
         0.2,
         0.2,
         0.07,
-        0.2
+        0.2,
+        0.08
       ]
     },
     {
       "name": "Meta",
       "sentiment": {
         "overall_score": -0.1,
-        "trend": "declining",
-        "previous_score": 0.25,
+        "trend": "stable",
+        "previous_score": -0.1,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -362,7 +362,6 @@
         }
       ],
       "sparkline": [
-        -0.11,
         -0.14,
         -0.14,
         -0.14,
@@ -391,29 +390,30 @@
         -0.12,
         -0.1,
         0.25,
+        -0.1,
         -0.1
       ]
     },
     {
       "name": "Microsoft",
       "sentiment": {
-        "overall_score": 0.02,
-        "trend": "stable",
-        "previous_score": 0.03,
+        "overall_score": 0.33,
+        "trend": "improving",
+        "previous_score": 0.02,
         "confidence": "high",
-        "sample_size": 15,
+        "sample_size": 30,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.02,
+            "score": -0.02,
             "count": 15
           },
           "reddit": {
-            "score": 0,
-            "count": 0
+            "score": 0.54,
+            "count": 15
           },
           "gdelt": {
             "score": 0,
@@ -423,43 +423,42 @@
       },
       "top_headlines": [
         {
+          "title": "Microsoft Responds to Outcry After Quiet Enterprise Install of Beta 'Photos' App",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49253329",
+          "date": "2026-08-11",
+          "sentiment_score": -0.5106
+        },
+        {
+          "title": "Microsoft Office 365: We all work together.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/Office365/",
+          "date": "2026-08-11",
+          "sentiment_score": 0.4019
+        },
+        {
+          "title": "Return to Office policy black- and whitelist.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/ReturntoOffice/",
+          "date": "2026-08-11",
+          "sentiment_score": 0.8271
+        },
+        {
+          "title": "/r/Technology",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/technology/",
+          "date": "2026-08-11",
+          "sentiment_score": 0.6249
+        },
+        {
           "title": "Apple Plans iPhone-to-Windows Copy and Paste in EU After Microsoft Request",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=49241106",
           "date": "2026-08-10",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "The Systemic Collapse of the AI Industry: Ideology, Hardware, and CapEx Crisis",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49232136",
-          "date": "2026-08-09",
-          "sentiment_score": -0.8074
-        },
-        {
-          "title": "ZoomIt for Mac",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49233296",
-          "date": "2026-08-09",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "Microsoft confirms it accidentally installed new OneDrive app on Windows 11 PCs",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49234265",
-          "date": "2026-08-09",
-          "sentiment_score": -0.34
-        },
-        {
-          "title": "Microsoft Edge is about to lock out older ad blockers, just like Chrome did",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49220392",
-          "date": "2026-08-08",
-          "sentiment_score": 0.3612
         }
       ],
       "sparkline": [
-        0.09,
         0.09,
         0.09,
         0.38,
@@ -488,7 +487,8 @@
         0.18,
         0.07,
         0.03,
-        0.02
+        0.02,
+        0.33
       ]
     },
     {
@@ -615,7 +615,7 @@
         0,
         0,
         0,
-        0,
+        0.0,
         0.0,
         0.0,
         0.0
@@ -653,7 +653,6 @@
         0.0,
         0.0,
         0.0,
-        0.0,
         0.12,
         0,
         0.0,
@@ -676,6 +675,7 @@
         0,
         0,
         0.0,
+        0,
         0,
         0,
         0,
@@ -734,20 +734,19 @@
         {
           "title": "The Two Matts Who Built Two Different Internets",
           "source": "Reddit",
-          "url": "https://www.reddit.com/r/indieweb/comments/1vkvomg/the_two_matts_who_built_two_different_internets/",
+          "url": "https://www.reddit.com/r/oldinternet/comments/1vkvo28/the_two_matts_who_built_two_different_internets/",
           "date": "2026-08-10",
           "sentiment_score": 0.9996
         },
         {
           "title": "The Two Matts Who Built Two Different Internets",
           "source": "Reddit",
-          "url": "https://www.reddit.com/r/oldinternet/comments/1vkvo28/the_two_matts_who_built_two_different_internets/",
+          "url": "https://www.reddit.com/r/indieweb/comments/1vkvomg/the_two_matts_who_built_two_different_internets/",
           "date": "2026-08-10",
           "sentiment_score": 0.9996
         }
       ],
       "sparkline": [
-        0.42,
         0.42,
         0.31,
         0.28,
@@ -776,17 +775,18 @@
         0.39,
         0.39,
         0.39,
+        0.39,
         0.39
       ]
     },
     {
       "name": "AT&T",
       "sentiment": {
-        "overall_score": -0.09,
-        "trend": "declining",
-        "previous_score": -0.03,
+        "overall_score": -0.06,
+        "trend": "stable",
+        "previous_score": -0.09,
         "confidence": "high",
-        "sample_size": 30,
+        "sample_size": 15,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -797,8 +797,8 @@
             "count": 15
           },
           "reddit": {
-            "score": -0.11,
-            "count": 15
+            "score": 0,
+            "count": 0
           },
           "gdelt": {
             "score": 0,
@@ -815,13 +815,6 @@
           "sentiment_score": -0.4404
         },
         {
-          "title": "Your order price goes up when you don't tip at Shake Shack self checkout",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1vjulyd/your_order_price_goes_up_when_you_dont_tip_at/",
-          "date": "2026-08-09",
-          "sentiment_score": 0.4833
-        },
-        {
           "title": "Timeline of the OpenAI accidental attack against Hugging Face",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=49220609",
@@ -829,22 +822,28 @@
           "sentiment_score": -0.1531
         },
         {
-          "title": "He found out that if you don't tip at self-service at Shake Shack, they make it more expensive per item.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/TikTokCringe/comments/1vj4alr/he_found_out_that_if_you_dont_tip_at_selfservice/",
-          "date": "2026-08-08",
-          "sentiment_score": -0.4767
-        },
-        {
           "title": "Managing AI Coding Costs at Scale",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=49214468",
           "date": "2026-08-07",
           "sentiment_score": 0.0
+        },
+        {
+          "title": "Lost my phone at the office. Claude suggested tracking Bluetooth signal strength",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49215786",
+          "date": "2026-08-07",
+          "sentiment_score": 0.2263
+        },
+        {
+          "title": "Changes at Google DeepMind: Demis Hassabis from CEO to Chair, Jeff Dean departs",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49184755",
+          "date": "2026-08-05",
+          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        -0.18,
         -0.18,
         -0.18,
         -0.19,
@@ -873,15 +872,16 @@
         -0.06,
         -0.03,
         -0.03,
-        -0.09
+        -0.09,
+        -0.06
       ]
     },
     {
       "name": "Disney",
       "sentiment": {
         "overall_score": 0,
-        "trend": "improving",
-        "previous_score": -0.25,
+        "trend": "stable",
+        "previous_score": 0,
         "confidence": "low",
         "sample_size": 0,
         "source_scores": {
@@ -905,7 +905,6 @@
       },
       "top_headlines": [],
       "sparkline": [
-        0.0,
         -0.07,
         0.0,
         0.0,
@@ -934,6 +933,7 @@
         -0.25,
         -0.25,
         -0.25,
+        0,
         0
       ]
     },
@@ -942,7 +942,7 @@
       "sentiment": {
         "overall_score": 0.12,
         "trend": "stable",
-        "previous_score": 0.13,
+        "previous_score": 0.12,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -1002,7 +1002,6 @@
         }
       ],
       "sparkline": [
-        0.24,
         0.01,
         0.01,
         0.01,
@@ -1031,29 +1030,30 @@
         0.12,
         0.12,
         0.13,
+        0.12,
         0.12
       ]
     },
     {
       "name": "Tesla",
       "sentiment": {
-        "overall_score": -0.08,
-        "trend": "stable",
+        "overall_score": 0.16,
+        "trend": "improving",
         "previous_score": -0.08,
         "confidence": "high",
-        "sample_size": 12,
+        "sample_size": 29,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.08,
-            "count": 12
+            "score": -0.07,
+            "count": 14
           },
           "reddit": {
-            "score": 0,
-            "count": 0
+            "score": 0.3,
+            "count": 15
           },
           "gdelt": {
             "score": 0,
@@ -1063,43 +1063,42 @@
       },
       "top_headlines": [
         {
-          "title": "Tesla Driver Tries 'I Wasn't Driving' Excuse to Get Out of Speeding Ticket",
+          "title": "See How a Tesla-SpaceX Merger Gives Musk a Shortcut to His $1T Payday",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49234229",
-          "date": "2026-08-09",
-          "sentiment_score": -0.0572
-        },
-        {
-          "title": "Fired Tesla Manager Says Full Self-Driving Cars Were 'Rolling Hazards'",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49096948",
-          "date": "2026-07-29",
-          "sentiment_score": -0.5574
-        },
-        {
-          "title": "Tesla's robotaxis are moving in reverse",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49051835",
-          "date": "2026-07-25",
+          "url": "https://news.ycombinator.com/item?id=49252697",
+          "date": "2026-08-11",
           "sentiment_score": 0.0
         },
         {
-          "title": "Earnings at Tesla fall as research spending cuts into profit from selling cars",
+          "title": "Show HN: Alchemize \u2013 Review AI Slop PRs Faster",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49037660",
-          "date": "2026-07-24",
-          "sentiment_score": 0.1779
+          "url": "https://news.ycombinator.com/item?id=49257687",
+          "date": "2026-08-11",
+          "sentiment_score": 0.0
         },
         {
-          "title": "Tesla says Robotaxi is expanding \u2013 its own chart shows it's not",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49026831",
-          "date": "2026-07-23",
-          "sentiment_score": 0.0
+          "title": "Return to Office policy black- and whitelist.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/ReturntoOffice/",
+          "date": "2026-08-11",
+          "sentiment_score": 0.8271
+        },
+        {
+          "title": "fullyremotework",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/fullyremotework/",
+          "date": "2026-08-11",
+          "sentiment_score": 0.5859
+        },
+        {
+          "title": "Antiwork: Unemployment for all, not just the rich!",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/antiwork/",
+          "date": "2026-08-11",
+          "sentiment_score": -0.3434
         }
       ],
       "sparkline": [
-        -0.17,
         -0.17,
         -0.2,
         0.11,
@@ -1128,17 +1127,18 @@
         -0.08,
         -0.08,
         -0.08,
-        -0.08
+        -0.08,
+        0.16
       ]
     },
     {
       "name": "Caterpillar",
       "sentiment": {
-        "overall_score": 0.53,
-        "trend": "improving",
-        "previous_score": 0.44,
-        "confidence": "high",
-        "sample_size": 16,
+        "overall_score": 0.44,
+        "trend": "declining",
+        "previous_score": 0.53,
+        "confidence": "low",
+        "sample_size": 1,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -1149,8 +1149,8 @@
             "count": 1
           },
           "reddit": {
-            "score": 0.59,
-            "count": 15
+            "score": 0,
+            "count": 0
           },
           "gdelt": {
             "score": 0,
@@ -1160,43 +1160,14 @@
       },
       "top_headlines": [
         {
-          "title": "Return to Office policy black- and whitelist.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-08-11",
-          "sentiment_score": 0.8271
-        },
-        {
-          "title": "fullyremotework",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/fullyremotework/",
-          "date": "2026-08-11",
-          "sentiment_score": 0.5859
-        },
-        {
-          "title": "NoToRTOCa",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/NoToRTOCa/",
-          "date": "2026-08-11",
-          "sentiment_score": -0.4723
-        },
-        {
-          "title": "Every Night Something Pretends to Be My Daughter",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/nosleep/comments/1vgn22j/every_night_something_pretends_to_be_my_daughter/",
-          "date": "2026-08-05",
-          "sentiment_score": 0.998
-        },
-        {
-          "title": "Every Night Something Pretends to Be My Daughter",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/scarystories/comments/1vgijeu/every_night_something_pretends_to_be_my_daughter/",
-          "date": "2026-08-05",
-          "sentiment_score": 0.998
+          "title": "Show HN: A game to get people out in nature and appreciating wild animals",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48995508",
+          "date": "2026-07-21",
+          "sentiment_score": 0.4404
         }
       ],
       "sparkline": [
-        0.44,
         0.44,
         0.16,
         0.44,
@@ -1225,15 +1196,16 @@
         0.44,
         0.44,
         0.44,
-        0.53
+        0.53,
+        0.44
       ]
     },
     {
       "name": "Cisco",
       "sentiment": {
         "overall_score": 0,
-        "trend": "declining",
-        "previous_score": 0.15,
+        "trend": "stable",
+        "previous_score": 0,
         "confidence": "low",
         "sample_size": 0,
         "source_scores": {
@@ -1257,7 +1229,6 @@
       },
       "top_headlines": [],
       "sparkline": [
-        -0.23,
         -0.23,
         -0.23,
         -0.23,
@@ -1286,6 +1257,7 @@
         0.15,
         0.15,
         0.15,
+        0,
         0
       ]
     }
