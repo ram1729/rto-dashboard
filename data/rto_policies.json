@@ -84,8 +84,8 @@
     "policy": "Full Office",
     "daysInOffice": 5,
     "enforcement": "Full RTO from Mar 2025, badge tracking",
-    "lastUpdate": "2026-06-30",
-    "source": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOb0xJaTdCYVpaNmhIenBZZng3ZDZFX21aV0J5MDhPZVZpdVdpQV9RTUV1M1FodFcxdXFXa25yVEVrSjZrY1EyUWtjYUhwZ2R4UXJkTlk2VWswM2xLdVI0ZHNEMVZHdG5lNm0xVmdGbUNEclh3YUIyV3BoRklNOUZWQTZBVXpKU0xxeUZZS21xNE9DcmY0b09LUnpR?oc=5",
+    "lastUpdate": "2026-04-02",
+    "source": "https://news.google.com/rss/articles/CBMickFVX3lxTE5OY3N2WWxMTTVpZ3Y0RnB0QXlLT3RpMzFwWnBRQ2xwQm5sbGhDS3YzM0VHMUh0cmZjVVdBa0ZtaTVfNXVwSkgtTUszOWsydERQYjFzbXFzMXYyM3pkOEVZQk5LSms1S09tclg5RWMxVUM5UQ?oc=5",
     "sentiment": -0.72,
     "sentimentTrend": "Declining",
     "mentionVolume": 794,
@@ -2715,6 +2715,12 @@
       }
     ],
     "policyHistory": [
+      {
+        "date": "2025-01-15",
+        "policy": "Hybrid",
+        "daysInOffice": 3,
+        "source": "https://www.businessinsider.com/meta-zuckerberg-return-to-office-status-quo-2025"
+      },
       {
         "date": "2025-01-15",
         "policy": "Hybrid",
