@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-08-17T01:22:51.831392Z",
+  "last_updated": "2026-08-17T12:50:51.973242Z",
   "scraper_log": {
-    "duration_sec": 259.67,
-    "total_articles": 189,
+    "duration_sec": 260.12,
+    "total_articles": 191,
     "errors": []
   },
   "companies": [
@@ -11,7 +11,7 @@
       "sentiment": {
         "overall_score": -0.08,
         "trend": "stable",
-        "previous_score": -0.09,
+        "previous_score": -0.08,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -71,7 +71,6 @@
         }
       ],
       "sparkline": [
-        0.06,
         0.07,
         0.06,
         0.08,
@@ -100,6 +99,7 @@
         -0.01,
         -0.01,
         -0.09,
+        -0.08,
         -0.08
       ]
     },
@@ -168,7 +168,6 @@
         }
       ],
       "sparkline": [
-        0.36,
         -0.09,
         0.37,
         0.29,
@@ -197,6 +196,7 @@
         -0.0,
         0.23,
         0.02,
+        0.02,
         0.02
       ]
     },
@@ -204,8 +204,8 @@
       "name": "Google",
       "sentiment": {
         "overall_score": 0.33,
-        "trend": "improving",
-        "previous_score": 0.14,
+        "trend": "stable",
+        "previous_score": 0.33,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -265,7 +265,6 @@
         }
       ],
       "sparkline": [
-        -0.05,
         -0.01,
         -0.01,
         -0.01,
@@ -294,6 +293,7 @@
         0.08,
         0.08,
         0.14,
+        0.33,
         0.33
       ]
     },
@@ -301,8 +301,8 @@
       "name": "Meta",
       "sentiment": {
         "overall_score": 0.0,
-        "trend": "declining",
-        "previous_score": 0.18,
+        "trend": "stable",
+        "previous_score": 0.0,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -363,7 +363,6 @@
       ],
       "sparkline": [
         -0.1,
-        -0.1,
         -0.06,
         -0.06,
         0.24,
@@ -391,25 +390,26 @@
         0.0,
         0.0,
         0.18,
+        0.0,
         0.0
       ]
     },
     {
       "name": "Microsoft",
       "sentiment": {
-        "overall_score": -0.1,
+        "overall_score": -0.04,
         "trend": "improving",
-        "previous_score": -0.15,
-        "confidence": "medium",
-        "sample_size": 9,
+        "previous_score": -0.1,
+        "confidence": "high",
+        "sample_size": 11,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.1,
-            "count": 9
+            "score": -0.04,
+            "count": 11
           },
           "reddit": {
             "score": 0,
@@ -422,6 +422,20 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Firefox stunts on Edge as Microsoft gears up to neuter adblockers",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49313265",
+          "date": "2026-08-15",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Automating Microsoft Edge Rewards",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49314850",
+          "date": "2026-08-15",
+          "sentiment_score": 0.4767
+        },
         {
           "title": "From AKS node root vulnerability to Microsoft Copilot hijack",
           "source": "Hacker News",
@@ -442,24 +456,9 @@
           "url": "https://news.ycombinator.com/item?id=49253329",
           "date": "2026-08-11",
           "sentiment_score": -0.5106
-        },
-        {
-          "title": "The Systemic Collapse of the AI Industry: Ideology, Hardware, and CapEx Crisis",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49232136",
-          "date": "2026-08-09",
-          "sentiment_score": -0.8074
-        },
-        {
-          "title": "ZoomIt for Mac",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49233296",
-          "date": "2026-08-09",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.11,
         0.36,
         0.36,
         0.36,
@@ -488,7 +487,8 @@
         -0.09,
         0.31,
         -0.15,
-        -0.1
+        -0.1,
+        -0.04
       ]
     },
     {
@@ -605,7 +605,7 @@
         0,
         0,
         0,
-        0,
+        0.0,
         0.0,
         0.0,
         0.0,
@@ -650,7 +650,6 @@
       },
       "top_headlines": [],
       "sparkline": [
-        0.0,
         0,
         0.0,
         0.0,
@@ -676,6 +675,7 @@
         0,
         0.73,
         0.73,
+        0,
         0,
         0,
         0,
@@ -750,7 +750,6 @@
         0.48,
         0.48,
         0.48,
-        0.48,
         0.32,
         0.32,
         0.32,
@@ -775,6 +774,7 @@
         0.39,
         0.25,
         0.39,
+        0.47,
         0.47,
         0.47
       ]
@@ -784,7 +784,7 @@
       "sentiment": {
         "overall_score": -0.06,
         "trend": "stable",
-        "previous_score": -0.04,
+        "previous_score": -0.06,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -807,6 +807,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Hayden Panettiere dies at 36",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/news/comments/1vqgh3p/hayden_panettiere_dies_at_36/",
+          "date": "2026-08-17",
+          "sentiment_score": 0.0
+        },
         {
           "title": "At-home test for infected ticks could improve Lyme Disease diagnosis",
           "source": "Hacker News",
@@ -834,17 +841,9 @@
           "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1vlewgh/whenever_my_wife_borrows_my_vehicle_she_leaves_me/",
           "date": "2026-08-11",
           "sentiment_score": -0.7081
-        },
-        {
-          "title": "This woman, after missing her flight, shouting at the plane to come back",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/funny/comments/1vlnpcf/this_woman_after_missing_her_flight_shouting_at/",
-          "date": "2026-08-11",
-          "sentiment_score": -0.6808
         }
       ],
       "sparkline": [
-        -0.15,
         -0.12,
         -0.12,
         -0.12,
@@ -873,6 +872,7 @@
         -0.06,
         -0.04,
         -0.04,
+        -0.06,
         -0.06
       ]
     },
@@ -880,8 +880,8 @@
       "name": "Disney",
       "sentiment": {
         "overall_score": 0,
-        "trend": "improving",
-        "previous_score": -0.24,
+        "trend": "stable",
+        "previous_score": 0,
         "confidence": "low",
         "sample_size": 0,
         "source_scores": {
@@ -905,7 +905,6 @@
       },
       "top_headlines": [],
       "sparkline": [
-        0.0,
         0.0,
         0.0,
         0.0,
@@ -934,6 +933,7 @@
         0,
         0,
         -0.24,
+        0,
         0
       ]
     },
@@ -942,7 +942,7 @@
       "sentiment": {
         "overall_score": 0.15,
         "trend": "stable",
-        "previous_score": 0.18,
+        "previous_score": 0.15,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -965,6 +965,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Stripe Nears Deal to Buy AI Firm OpenRouter for over $7B",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49323032",
+          "date": "2026-08-16",
+          "sentiment_score": 0.0
+        },
         {
           "title": "Show HN: Musical social media site where you can throw tomatoes at each other",
           "source": "Hacker News",
@@ -992,17 +999,9 @@
           "url": "https://news.ycombinator.com/item?id=49208314",
           "date": "2026-08-07",
           "sentiment_score": -0.4404
-        },
-        {
-          "title": "ask HN: How do I run Android 15 on a system with Andr 12 vendors?",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49141723",
-          "date": "2026-08-02",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.16,
         0.23,
         0.29,
         0.29,
@@ -1031,17 +1030,18 @@
         0.37,
         0.38,
         0.18,
+        0.15,
         0.15
       ]
     },
     {
       "name": "Tesla",
       "sentiment": {
-        "overall_score": -0.04,
-        "trend": "improving",
-        "previous_score": -0.17,
+        "overall_score": -0.17,
+        "trend": "declining",
+        "previous_score": -0.04,
         "confidence": "high",
-        "sample_size": 26,
+        "sample_size": 11,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -1052,8 +1052,8 @@
             "count": 11
           },
           "reddit": {
-            "score": 0.04,
-            "count": 15
+            "score": 0,
+            "count": 0
           },
           "gdelt": {
             "score": 0,
@@ -1062,27 +1062,6 @@
         }
       },
       "top_headlines": [
-        {
-          "title": "Return to Office policy black- and whitelist.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-08-17",
-          "sentiment_score": 0.8271
-        },
-        {
-          "title": "fullyremotework",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/fullyremotework/",
-          "date": "2026-08-17",
-          "sentiment_score": 0.5859
-        },
-        {
-          "title": "Antiwork: Unemployment for all, not just the rich!",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/antiwork/",
-          "date": "2026-08-17",
-          "sentiment_score": -0.3434
-        },
         {
           "title": "Tesla defeats Sweden's IF Metall union after 1,021-day strike",
           "source": "Hacker News",
@@ -1096,10 +1075,30 @@
           "url": "https://news.ycombinator.com/item?id=49248845",
           "date": "2026-08-10",
           "sentiment_score": -0.5574
+        },
+        {
+          "title": "Fired Tesla Manager Says Full Self-Driving Cars Were 'Rolling Hazards'",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49096948",
+          "date": "2026-07-29",
+          "sentiment_score": -0.5574
+        },
+        {
+          "title": "Tesla's robotaxis are moving in reverse",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49051835",
+          "date": "2026-07-25",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Earnings at Tesla fall as research spending cuts into profit from selling cars",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49037660",
+          "date": "2026-07-24",
+          "sentiment_score": 0.1779
         }
       ],
       "sparkline": [
-        -0.13,
         -0.17,
         -0.17,
         -0.17,
@@ -1128,17 +1127,18 @@
         -0.14,
         -0.15,
         -0.17,
-        -0.04
+        -0.04,
+        -0.17
       ]
     },
     {
       "name": "Caterpillar",
       "sentiment": {
-        "overall_score": 0.44,
-        "trend": "stable",
+        "overall_score": 0.53,
+        "trend": "improving",
         "previous_score": 0.44,
-        "confidence": "low",
-        "sample_size": 1,
+        "confidence": "high",
+        "sample_size": 16,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -1149,8 +1149,8 @@
             "count": 1
           },
           "reddit": {
-            "score": 0,
-            "count": 0
+            "score": 0.59,
+            "count": 15
           },
           "gdelt": {
             "score": 0,
@@ -1160,15 +1160,42 @@
       },
       "top_headlines": [
         {
-          "title": "Show HN: A game to get people out in nature and appreciating wild animals",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48995508",
-          "date": "2026-07-21",
-          "sentiment_score": 0.4404
+          "title": "Return to Office policy black- and whitelist.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/ReturntoOffice/",
+          "date": "2026-08-17",
+          "sentiment_score": 0.8271
+        },
+        {
+          "title": "fullyremotework",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/fullyremotework/",
+          "date": "2026-08-17",
+          "sentiment_score": 0.5859
+        },
+        {
+          "title": "NoToRTOCa",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/NoToRTOCa/",
+          "date": "2026-08-17",
+          "sentiment_score": -0.4723
+        },
+        {
+          "title": "Poems 1",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/hyacinthmacawco/comments/1vp47xk/poems_1/",
+          "date": "2026-08-15",
+          "sentiment_score": 0.9999
+        },
+        {
+          "title": "Every Night Something Pretends to Be My Daughter",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/nosleep/comments/1vgn22j/every_night_something_pretends_to_be_my_daughter/",
+          "date": "2026-08-05",
+          "sentiment_score": 0.998
         }
       ],
       "sparkline": [
-        0.26,
         0.44,
         0.44,
         0.44,
@@ -1197,15 +1224,16 @@
         0.44,
         0.44,
         0.44,
-        0.44
+        0.44,
+        0.53
       ]
     },
     {
       "name": "Cisco",
       "sentiment": {
         "overall_score": 0,
-        "trend": "declining",
-        "previous_score": 0.48,
+        "trend": "stable",
+        "previous_score": 0,
         "confidence": "low",
         "sample_size": 0,
         "source_scores": {
@@ -1236,7 +1264,6 @@
         -0.23,
         -0.23,
         -0.23,
-        -0.23,
         -0.06,
         -0.06,
         -0.13,
@@ -1258,6 +1285,7 @@
         0,
         0,
         0.48,
+        0,
         0
       ]
     }
