@@ -1,27 +1,27 @@
 {
-  "last_updated": "2026-08-22T01:20:27.807148Z",
+  "last_updated": "2026-08-22T12:46:40.317250Z",
   "scraper_log": {
-    "duration_sec": 241.69,
-    "total_articles": 191,
+    "duration_sec": 253.98,
+    "total_articles": 186,
     "errors": []
   },
   "companies": [
     {
       "name": "Amazon",
       "sentiment": {
-        "overall_score": 0.06,
+        "overall_score": 0.03,
         "trend": "stable",
         "previous_score": 0.06,
         "confidence": "high",
-        "sample_size": 30,
+        "sample_size": 25,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.05,
-            "count": 15
+            "score": -0.01,
+            "count": 10
           },
           "reddit": {
             "score": 0.06,
@@ -56,22 +56,21 @@
           "sentiment_score": 0.6249
         },
         {
-          "title": "It is a sign of the times that Amazon gets to call this fair use",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49382200",
-          "date": "2026-08-21",
-          "sentiment_score": 0.5147
+          "title": "Returning this computer back to Amazon and worried about not being able to factory reset it",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/pchelp/comments/1vtjm71/returning_this_computer_back_to_amazon_and/",
+          "date": "2026-08-20",
+          "sentiment_score": 0.5543
         },
         {
-          "title": "Dutch data protection authority advises Twitch users to opt out from Amazon AI",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49372781",
+          "title": "We can do better than this !!!",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/10s/comments/1vtpvtt/we_can_do_better_than_this/",
           "date": "2026-08-20",
-          "sentiment_score": 0.25
+          "sentiment_score": 0.9923
         }
       ],
       "sparkline": [
-        0.05,
         0.04,
         0.04,
         0.05,
@@ -100,7 +99,8 @@
         0.07,
         0.06,
         0.06,
-        0.06
+        0.06,
+        0.03
       ]
     },
     {
@@ -168,7 +168,6 @@
         }
       ],
       "sparkline": [
-        -0.0,
         0.26,
         0.26,
         0.26,
@@ -197,6 +196,7 @@
         0.22,
         -0.03,
         -0.0,
+        -0.0,
         -0.0
       ]
     },
@@ -204,8 +204,8 @@
       "name": "Google",
       "sentiment": {
         "overall_score": 0.28,
-        "trend": "improving",
-        "previous_score": 0.13,
+        "trend": "stable",
+        "previous_score": 0.28,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -265,7 +265,6 @@
         }
       ],
       "sparkline": [
-        0.24,
         0.04,
         0.04,
         0.05,
@@ -294,6 +293,7 @@
         0.13,
         0.28,
         0.13,
+        0.28,
         0.28
       ]
     },
@@ -301,8 +301,8 @@
       "name": "Meta",
       "sentiment": {
         "overall_score": -0.07,
-        "trend": "declining",
-        "previous_score": 0.33,
+        "trend": "stable",
+        "previous_score": -0.07,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -325,6 +325,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Ask HN: What is the evidence for a stock market bubble in AI?",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49397022",
+          "date": "2026-08-22",
+          "sentiment_score": 0.0
+        },
         {
           "title": "Attorney General Rob Bonta speaks after first day of Meta trial [video]",
           "source": "Hacker News",
@@ -352,17 +359,9 @@
           "url": "https://news.ycombinator.com/item?id=49243880",
           "date": "2026-08-10",
           "sentiment_score": -0.4404
-        },
-        {
-          "title": "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49246804",
-          "date": "2026-08-10",
-          "sentiment_score": 0.4019
         }
       ],
       "sparkline": [
-        -0.1,
         -0.06,
         -0.13,
         -0.09,
@@ -391,25 +390,26 @@
         -0.1,
         -0.1,
         0.33,
+        -0.07,
         -0.07
       ]
     },
     {
       "name": "Microsoft",
       "sentiment": {
-        "overall_score": -0.05,
+        "overall_score": -0.04,
         "trend": "stable",
-        "previous_score": -0.06,
-        "confidence": "high",
-        "sample_size": 12,
+        "previous_score": -0.05,
+        "confidence": "medium",
+        "sample_size": 9,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.05,
-            "count": 12
+            "score": -0.04,
+            "count": 9
           },
           "reddit": {
             "score": 0,
@@ -423,23 +423,9 @@
       },
       "top_headlines": [
         {
-          "title": "Ask HN: Has Microsoft forgotten how to test software?",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49383954",
-          "date": "2026-08-21",
-          "sentiment_score": -0.2263
-        },
-        {
           "title": "How I came to write that paper with Leslie Lamport",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=49388963",
-          "date": "2026-08-21",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "Migrate Repo to TypeScript 7",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49392513",
           "date": "2026-08-21",
           "sentiment_score": 0.0
         },
@@ -451,15 +437,28 @@
           "sentiment_score": 0.0
         },
         {
-          "title": "Why Are Many GitHub Issues Nonsensical for Visual Studio Code Edge Dev Tools?",
+          "title": "From AKS node root vulnerability to Microsoft Copilot hijack",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49381673",
-          "date": "2026-08-20",
-          "sentiment_score": 0.0
+          "url": "https://news.ycombinator.com/item?id=49273498",
+          "date": "2026-08-12",
+          "sentiment_score": -0.2263
+        },
+        {
+          "title": "Microsoft to increase Windows OEM license pricing 7-10%",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49263567",
+          "date": "2026-08-11",
+          "sentiment_score": 0.3182
+        },
+        {
+          "title": "The Systemic Collapse of the AI Industry: Ideology, Hardware, and CapEx Crisis",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49232136",
+          "date": "2026-08-09",
+          "sentiment_score": -0.8074
         }
       ],
       "sparkline": [
-        0.12,
         0.46,
         0.4,
         0.44,
@@ -488,7 +487,8 @@
         0.28,
         -0.04,
         -0.06,
-        -0.05
+        -0.05,
+        -0.04
       ]
     },
     {
@@ -595,7 +595,6 @@
         0,
         0,
         0,
-        0,
         0.0,
         0.0,
         0.0,
@@ -613,6 +612,7 @@
         0.0,
         0.0,
         0,
+        0.0,
         0.0,
         0.0,
         0.0,
@@ -654,7 +654,6 @@
         0,
         0,
         0,
-        0,
         0.0,
         0,
         0,
@@ -679,25 +678,26 @@
         0,
         0,
         0,
+        0,
         0
       ]
     },
     {
       "name": "Salesforce",
       "sentiment": {
-        "overall_score": 0.47,
+        "overall_score": 0.51,
         "trend": "stable",
-        "previous_score": 0.51,
+        "previous_score": 0.47,
         "confidence": "high",
-        "sample_size": 19,
+        "sample_size": 18,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.04,
-            "count": 4
+            "score": 0.16,
+            "count": 3
           },
           "reddit": {
             "score": 0.72,
@@ -732,22 +732,21 @@
           "sentiment_score": -0.4723
         },
         {
-          "title": "Salesforce Agentforce at total dud for partners",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49393691",
-          "date": "2026-08-21",
-          "sentiment_score": -0.3167
-        },
-        {
           "title": "Slack Code",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=49374965",
           "date": "2026-08-20",
           "sentiment_score": 0.0
+        },
+        {
+          "title": "Remote Job - CrowdStrike - Sr Salesforce Developer",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/jobhuntify/comments/1vp4c3k/remote_job_crowdstrike_sr_salesforce_developer/",
+          "date": "2026-08-15",
+          "sentiment_score": 0.9934
         }
       ],
       "sparkline": [
-        0.56,
         0.25,
         0.25,
         0.25,
@@ -776,7 +775,8 @@
         0.47,
         0.51,
         0.51,
-        0.47
+        0.47,
+        0.51
       ]
     },
     {
@@ -784,7 +784,7 @@
       "sentiment": {
         "overall_score": -0.09,
         "trend": "stable",
-        "previous_score": -0.05,
+        "previous_score": -0.09,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -844,7 +844,6 @@
         }
       ],
       "sparkline": [
-        -0.15,
         -0.11,
         -0.1,
         -0.11,
@@ -873,25 +872,26 @@
         -0.08,
         -0.11,
         -0.05,
+        -0.09,
         -0.09
       ]
     },
     {
       "name": "Disney",
       "sentiment": {
-        "overall_score": 0.13,
-        "trend": "improving",
-        "previous_score": 0,
+        "overall_score": -0.24,
+        "trend": "declining",
+        "previous_score": 0.13,
         "confidence": "high",
-        "sample_size": 16,
+        "sample_size": 15,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.75,
-            "count": 1
+            "score": 0,
+            "count": 0
           },
           "reddit": {
             "score": -0.24,
@@ -904,13 +904,6 @@
         }
       },
       "top_headlines": [
-        {
-          "title": "In 1957, Disney Built Our Friend the Atom. We Now Need Our Friend the AI",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49395597",
-          "date": "2026-08-22",
-          "sentiment_score": 0.7506
-        },
         {
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
@@ -933,6 +926,13 @@
           "sentiment_score": 0.0
         },
         {
+          "title": "(SELLING) $2.50 CS / $3.50 Clearance Sale! - Have $4 section. DC Universe 30-Bundle. Fast Furious 10-Bundle. Jurassic World 6-Bundle. / A ton of iTunes 4Ks for $2.50 or less. MA/FANDANGO titles available. Tremors 7-Bundle. Fifty Shades Trilogy.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/DigitalCodeSELL/comments/1vtuz7u/selling_250_cs_350_clearance_sale_have_4_section/",
+          "date": "2026-08-20",
+          "sentiment_score": -0.9978
+        },
+        {
           "title": "What would you have done to fix Quantumania?",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/marvelstudios/comments/1vs7kzv/what_would_you_have_done_to_fix_quantumania/",
@@ -941,7 +941,6 @@
         }
       ],
       "sparkline": [
-        -0.15,
         0.19,
         0.08,
         0,
@@ -970,15 +969,16 @@
         0,
         0,
         0,
-        0.13
+        0.13,
+        -0.24
       ]
     },
     {
       "name": "Dell",
       "sentiment": {
         "overall_score": 0.21,
-        "trend": "declining",
-        "previous_score": 0.44,
+        "trend": "stable",
+        "previous_score": 0.21,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -1016,13 +1016,6 @@
           "sentiment_score": 0.0
         },
         {
-          "title": "Launch HN: machine0 (YC S26) \u2013 Persistent CPU and GPU VMs from the CLI",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49348136",
-          "date": "2026-08-18",
-          "sentiment_score": 0.0
-        },
-        {
           "title": "Groq Valued at $3.5B in Funding Round After Nvidia Deal",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=49332269",
@@ -1035,10 +1028,16 @@
           "url": "https://news.ycombinator.com/item?id=49305393",
           "date": "2026-08-14",
           "sentiment_score": 0.0
+        },
+        {
+          "title": "Show HN: SecondState \u2013 what if Hebbia started with raw ERP data?",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49251803",
+          "date": "2026-08-11",
+          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.14,
         0.14,
         0.12,
         0.12,
@@ -1067,25 +1066,26 @@
         0.21,
         0.19,
         0.44,
+        0.21,
         0.21
       ]
     },
     {
       "name": "Tesla",
       "sentiment": {
-        "overall_score": -0.13,
+        "overall_score": -0.14,
         "trend": "stable",
-        "previous_score": -0.09,
+        "previous_score": -0.13,
         "confidence": "high",
-        "sample_size": 12,
+        "sample_size": 13,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.13,
-            "count": 12
+            "score": -0.14,
+            "count": 13
           },
           "reddit": {
             "score": 0,
@@ -1098,6 +1098,20 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Tesla's Solar Roof is Dead \u2013 Here's what went wrong",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49396026",
+          "date": "2026-08-22",
+          "sentiment_score": -0.8126
+        },
+        {
+          "title": "Chinese regulators tell Tesla: fix 3M cars",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49396428",
+          "date": "2026-08-22",
+          "sentiment_score": 0.0
+        },
         {
           "title": "Tesla sunsets its Solar Roof tiles",
           "source": "Hacker News",
@@ -1118,24 +1132,9 @@
           "url": "https://news.ycombinator.com/item?id=49385211",
           "date": "2026-08-21",
           "sentiment_score": 0.4019
-        },
-        {
-          "title": "Idea for flying Tesla Roadster has been around 'since the beginning'",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49335562",
-          "date": "2026-08-17",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "Tesla defeats Sweden's IF Metall union after 1,021-day strike",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49300954",
-          "date": "2026-08-14",
-          "sentiment_score": -0.4215
         }
       ],
       "sparkline": [
-        -0.15,
         0.13,
         -0.13,
         0.05,
@@ -1164,78 +1163,18 @@
         -0.02,
         -0.14,
         -0.09,
-        -0.13
+        -0.13,
+        -0.14
       ]
     },
     {
       "name": "Caterpillar",
       "sentiment": {
-        "overall_score": 0,
-        "trend": "stable",
-        "previous_score": 0,
-        "confidence": "low",
-        "sample_size": 0,
-        "source_scores": {
-          "google_news": {
-            "score": 0,
-            "count": 0
-          },
-          "hackernews": {
-            "score": 0,
-            "count": 0
-          },
-          "reddit": {
-            "score": 0,
-            "count": 0
-          },
-          "gdelt": {
-            "score": 0,
-            "count": 0
-          }
-        }
-      },
-      "top_headlines": [],
-      "sparkline": [
-        0.44,
-        0.44,
-        0.36,
-        0.44,
-        0.53,
-        0.22,
-        0.44,
-        0.44,
-        0.44,
-        0.53,
-        0.44,
-        0.44,
-        0.53,
-        0.53,
-        0.44,
-        0.44,
-        0.44,
-        0.44,
-        0.44,
-        0.44,
-        0.53,
-        0.53,
-        0.44,
-        0,
-        0.44,
-        0.53,
-        0.44,
-        0.59,
-        0,
-        0
-      ]
-    },
-    {
-      "name": "Cisco",
-      "sentiment": {
-        "overall_score": 0.81,
+        "overall_score": 0.46,
         "trend": "improving",
         "previous_score": 0,
         "confidence": "high",
-        "sample_size": 11,
+        "sample_size": 15,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -1246,8 +1185,8 @@
             "count": 0
           },
           "reddit": {
-            "score": 0.81,
-            "count": 11
+            "score": 0.46,
+            "count": 15
           },
           "gdelt": {
             "score": 0,
@@ -1278,22 +1217,82 @@
           "sentiment_score": -0.4723
         },
         {
-          "title": "Homeland Security Made a Big Claim About Noncitizen Voting. Now It Can\u2019t Prove It.",
+          "title": "I have a pretty simple question about gus from breaking bad? Can you help me?",
           "source": "Reddit",
-          "url": "https://www.reddit.com/r/WhatTrumpHasDone/comments/1vu3ub2/homeland_security_made_a_big_claim_about/",
-          "date": "2026-08-21",
-          "sentiment_score": 0.9882
+          "url": "https://www.reddit.com/r/okbuddychicanery/comments/1vtp62l/i_have_a_pretty_simple_question_about_gus_from/",
+          "date": "2026-08-20",
+          "sentiment_score": -0.9999
         },
         {
-          "title": "Homeland Security Unable to Prove That Thousands of Noncitizens Registered to Vote in Nevada",
+          "title": "Stock Market News \u2014 August 19, 2026 \u2014 Evening Update \u2014 Last 12 Hours (Pacific Time)",
           "source": "Reddit",
-          "url": "https://www.reddit.com/r/protectUSelections/comments/1vtxe7h/homeland_security_unable_to_prove_that_thousands/",
+          "url": "https://www.reddit.com/r/EverHint/comments/1vta5n9/stock_market_news_august_19_2026_evening_update/",
           "date": "2026-08-20",
-          "sentiment_score": 0.991
+          "sentiment_score": 0.9971
         }
       ],
       "sparkline": [
-        -0.13,
+        0.44,
+        0.36,
+        0.44,
+        0.53,
+        0.22,
+        0.44,
+        0.44,
+        0.44,
+        0.53,
+        0.44,
+        0.44,
+        0.53,
+        0.53,
+        0.44,
+        0.44,
+        0.44,
+        0.44,
+        0.44,
+        0.44,
+        0.53,
+        0.53,
+        0.44,
+        0,
+        0.44,
+        0.53,
+        0.44,
+        0.59,
+        0,
+        0,
+        0.46
+      ]
+    },
+    {
+      "name": "Cisco",
+      "sentiment": {
+        "overall_score": 0,
+        "trend": "declining",
+        "previous_score": 0.81,
+        "confidence": "low",
+        "sample_size": 0,
+        "source_scores": {
+          "google_news": {
+            "score": 0,
+            "count": 0
+          },
+          "hackernews": {
+            "score": 0,
+            "count": 0
+          },
+          "reddit": {
+            "score": 0,
+            "count": 0
+          },
+          "gdelt": {
+            "score": 0,
+            "count": 0
+          }
+        }
+      },
+      "top_headlines": [],
+      "sparkline": [
         -0.23,
         -0.23,
         -0.23,
@@ -1322,7 +1321,8 @@
         0,
         0,
         0,
-        0.81
+        0.81,
+        0
       ]
     }
   ]
