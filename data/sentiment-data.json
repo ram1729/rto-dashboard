@@ -1,30 +1,30 @@
 {
-  "last_updated": "2026-08-29T16:27:36.905613Z",
+  "last_updated": "2026-08-30T04:09:30.544204Z",
   "scraper_log": {
-    "duration_sec": 330.23,
-    "total_articles": 194,
+    "duration_sec": 341.21,
+    "total_articles": 212,
     "errors": []
   },
   "companies": [
     {
       "name": "Amazon",
       "sentiment": {
-        "overall_score": 0.16,
-        "trend": "stable",
-        "previous_score": 0.13,
+        "overall_score": 0.07,
+        "trend": "declining",
+        "previous_score": 0.16,
         "confidence": "high",
-        "sample_size": 22,
+        "sample_size": 21,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.14,
-            "count": 7
+            "score": -0.16,
+            "count": 6
           },
           "reddit": {
-            "score": 0.34,
+            "score": 0.21,
             "count": 15
           },
           "gdelt": {
@@ -35,32 +35,32 @@
       },
       "top_headlines": [
         {
-          "title": "Show HN: MicroVM daemon, deploy any Docker image",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49485801",
-          "date": "2026-08-29",
-          "sentiment_score": 0.0
-        },
-        {
           "title": "Look Up",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/superman/",
-          "date": "2026-08-29",
+          "date": "2026-08-30",
           "sentiment_score": 0.0
         },
         {
           "title": "DC Animated Universe",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/DCAU/",
-          "date": "2026-08-29",
+          "date": "2026-08-30",
           "sentiment_score": 0.0
         },
         {
           "title": "/r/Technology",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/technology/",
-          "date": "2026-08-29",
+          "date": "2026-08-30",
           "sentiment_score": 0.6249
+        },
+        {
+          "title": "Show HN: MicroVM daemon, deploy any Docker image",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49485801",
+          "date": "2026-08-29",
+          "sentiment_score": 0.0
         },
         {
           "title": "Amazon now hides all customer reviews on products",
@@ -71,7 +71,6 @@
         }
       ],
       "sparkline": [
-        0.04,
         0.07,
         -0.01,
         -0.01,
@@ -100,17 +99,18 @@
         0.13,
         0.13,
         0.13,
-        0.16
+        0.16,
+        0.07
       ]
     },
     {
       "name": "Apple",
       "sentiment": {
-        "overall_score": -0.05,
-        "trend": "declining",
-        "previous_score": 0.13,
+        "overall_score": 0.13,
+        "trend": "improving",
+        "previous_score": -0.05,
         "confidence": "high",
-        "sample_size": 15,
+        "sample_size": 30,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -121,8 +121,8 @@
             "count": 15
           },
           "reddit": {
-            "score": 0,
-            "count": 0
+            "score": 0.25,
+            "count": 15
           },
           "gdelt": {
             "score": 0,
@@ -132,43 +132,42 @@
       },
       "top_headlines": [
         {
+          "title": "PowerPoint Presentation Tips and Examples",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/powerpoint/",
+          "date": "2026-08-30",
+          "sentiment_score": 0.6369
+        },
+        {
+          "title": "Return to Office policy black- and whitelist.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/ReturntoOffice/",
+          "date": "2026-08-30",
+          "sentiment_score": 0.8271
+        },
+        {
+          "title": "/r/Technology",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/technology/",
+          "date": "2026-08-30",
+          "sentiment_score": 0.6249
+        },
+        {
+          "title": "The circus has returned to town (Neil Sean's gossip)",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/SaintMeghanMarkle/comments/1w19oig/the_circus_has_returned_to_town_neil_seans_gossip/",
+          "date": "2026-08-29",
+          "sentiment_score": -0.9209
+        },
+        {
           "title": "Apple Maps Ads Are Here, and There's No Way to Turn Them Off",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=49447222",
           "date": "2026-08-26",
           "sentiment_score": -0.296
-        },
-        {
-          "title": "Ads in Apple Maps have officially begun rolling out",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49438829",
-          "date": "2026-08-25",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "Apple Releases New Polishing Cloth",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49434830",
-          "date": "2026-08-25",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "Show HN: Outpost Go 1.4.0, a road-trip planner for the whole journey",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49401547",
-          "date": "2026-08-22",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "Roast my alarm mobile app (please lol)",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49383427",
-          "date": "2026-08-21",
-          "sentiment_score": 0.4019
         }
       ],
       "sparkline": [
-        0.02,
         0.21,
         0.25,
         0.02,
@@ -197,15 +196,16 @@
         -0.05,
         -0.05,
         0.13,
-        -0.05
+        -0.05,
+        0.13
       ]
     },
     {
       "name": "Google",
       "sentiment": {
-        "overall_score": 0.1,
+        "overall_score": 0.05,
         "trend": "declining",
-        "previous_score": 0.17,
+        "previous_score": 0.1,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -214,7 +214,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.1,
+            "score": 0.05,
             "count": 15
           },
           "reddit": {
@@ -265,7 +265,6 @@
         }
       ],
       "sparkline": [
-        0.2,
         0.08,
         0.08,
         0.31,
@@ -294,15 +293,16 @@
         0.37,
         0.17,
         0.17,
-        0.1
+        0.1,
+        0.05
       ]
     },
     {
       "name": "Meta",
       "sentiment": {
         "overall_score": 0.46,
-        "trend": "improving",
-        "previous_score": 0.37,
+        "trend": "stable",
+        "previous_score": 0.46,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -326,32 +326,32 @@
       },
       "top_headlines": [
         {
-          "title": "Meta's Push to Put Robots to Work in Data Centers",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49486846",
-          "date": "2026-08-29",
-          "sentiment_score": 0.0
-        },
-        {
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-08-29",
+          "date": "2026-08-30",
           "sentiment_score": 0.8271
         },
         {
           "title": "Bloodborne",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/bloodborne/",
-          "date": "2026-08-29",
+          "date": "2026-08-30",
           "sentiment_score": 0.4588
         },
         {
           "title": "Legal Advice ~ A place to get simple legal advice*",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/legaladvice/",
-          "date": "2026-08-29",
+          "date": "2026-08-30",
           "sentiment_score": 0.3612
+        },
+        {
+          "title": "Meta's Push to Put Robots to Work in Data Centers",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49486846",
+          "date": "2026-08-29",
+          "sentiment_score": 0.0
         },
         {
           "title": "Inside Meta's Push to Put Robots to Work in Data Centers",
@@ -362,7 +362,6 @@
         }
       ],
       "sparkline": [
-        -0.1,
         -0.1,
         -0.1,
         -0.1,
@@ -391,25 +390,26 @@
         -0.08,
         0.37,
         0.37,
+        0.46,
         0.46
       ]
     },
     {
       "name": "Microsoft",
       "sentiment": {
-        "overall_score": -0.13,
+        "overall_score": -0.11,
         "trend": "stable",
         "previous_score": -0.13,
         "confidence": "high",
-        "sample_size": 10,
+        "sample_size": 14,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.13,
-            "count": 10
+            "score": -0.11,
+            "count": 14
           },
           "reddit": {
             "score": 0,
@@ -430,36 +430,35 @@
           "sentiment_score": 0.0
         },
         {
+          "title": "From single call to agents: five new Claude capabilities available in MS Foundry",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49492204",
+          "date": "2026-08-29",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Forcing all derived classes to implement a specific non-virtual method, part 2",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49491227",
+          "date": "2026-08-29",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Ask HN: Why do you use Ubuntu?",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49445382",
+          "date": "2026-08-26",
+          "sentiment_score": 0.0
+        },
+        {
           "title": "Over 170k Nonprofits Lost All Their Data. Is Microsoft to Blame?",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=49411395",
           "date": "2026-08-23",
           "sentiment_score": -0.5719
-        },
-        {
-          "title": "Show HN: I wrote a BASIC interpreter that boots on UEFI machines",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49410814",
-          "date": "2026-08-23",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "How I came to write that paper with Leslie Lamport",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49388963",
-          "date": "2026-08-21",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "Windows brings out the Rorschach test in everyone (2003)",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49371006",
-          "date": "2026-08-20",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.02,
         0.33,
         0.34,
         0.06,
@@ -488,7 +487,8 @@
         0.24,
         -0.13,
         -0.13,
-        -0.13
+        -0.13,
+        -0.11
       ]
     },
     {
@@ -602,8 +602,8 @@
         0.0,
         0.0,
         0.0,
-        0.0,
         0,
+        0.0,
         0.0,
         0.0,
         0.0,
@@ -625,8 +625,8 @@
       "name": "Bank of America",
       "sentiment": {
         "overall_score": 0,
-        "trend": "declining",
-        "previous_score": 0.36,
+        "trend": "stable",
+        "previous_score": 0,
         "confidence": "low",
         "sample_size": 0,
         "source_scores": {
@@ -654,7 +654,6 @@
         0,
         0,
         0,
-        0,
         0.73,
         0.73,
         0,
@@ -679,6 +678,7 @@
         0.73,
         0.36,
         0.36,
+        0,
         0
       ]
     },
@@ -687,7 +687,7 @@
       "sentiment": {
         "overall_score": 0.52,
         "trend": "stable",
-        "previous_score": 0.49,
+        "previous_score": 0.52,
         "confidence": "high",
         "sample_size": 17,
         "source_scores": {
@@ -714,21 +714,21 @@
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-08-29",
+          "date": "2026-08-30",
           "sentiment_score": 0.8271
         },
         {
           "title": "fullyremotework",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/fullyremotework/",
-          "date": "2026-08-29",
+          "date": "2026-08-30",
           "sentiment_score": 0.5859
         },
         {
           "title": "NoToRTOCa",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/NoToRTOCa/",
-          "date": "2026-08-29",
+          "date": "2026-08-30",
           "sentiment_score": -0.4723
         },
         {
@@ -747,7 +747,6 @@
         }
       ],
       "sparkline": [
-        0.39,
         0.39,
         0.39,
         0.39,
@@ -776,6 +775,7 @@
         0.49,
         0.49,
         0.49,
+        0.52,
         0.52
       ]
     },
@@ -844,7 +844,6 @@
         }
       ],
       "sparkline": [
-        -0.09,
         -0.06,
         -0.06,
         -0.12,
@@ -871,6 +870,7 @@
         -0.07,
         -0.24,
         -0.01,
+        -0.24,
         -0.24,
         -0.24,
         -0.24
@@ -906,7 +906,6 @@
       "top_headlines": [],
       "sparkline": [
         0,
-        0,
         -0.12,
         0,
         -0.12,
@@ -934,29 +933,30 @@
         -0.24,
         0,
         0,
+        0,
         0
       ]
     },
     {
       "name": "Dell",
       "sentiment": {
-        "overall_score": 0.26,
-        "trend": "improving",
-        "previous_score": 0.04,
+        "overall_score": 0.03,
+        "trend": "declining",
+        "previous_score": 0.26,
         "confidence": "high",
-        "sample_size": 30,
+        "sample_size": 15,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.07,
+            "score": 0.03,
             "count": 15
           },
           "reddit": {
-            "score": 0.37,
-            "count": 15
+            "score": 0,
+            "count": 0
           },
           "gdelt": {
             "score": 0,
@@ -966,32 +966,11 @@
       },
       "top_headlines": [
         {
-          "title": "Show HN: MicroVM daemon, deploy any Docker image",
+          "title": "AI should be illegal until we figure out how to deal with its consequences",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49485801",
+          "url": "https://news.ycombinator.com/item?id=49493940",
           "date": "2026-08-29",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "Return to Office policy black- and whitelist.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-08-29",
-          "sentiment_score": 0.8271
-        },
-        {
-          "title": "fullyremotework",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/fullyremotework/",
-          "date": "2026-08-29",
-          "sentiment_score": 0.5859
-        },
-        {
-          "title": "/r/Technology",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/technology/",
-          "date": "2026-08-29",
-          "sentiment_score": 0.6249
+          "sentiment_score": -0.5574
         },
         {
           "title": "Show HN: Darwin-VM \u2013 run the latest iOS and macOS in QEMU",
@@ -999,10 +978,30 @@
           "url": "https://news.ycombinator.com/item?id=49485263",
           "date": "2026-08-28",
           "sentiment_score": 0.0
+        },
+        {
+          "title": "Ask HN: How do you guys stop coding agents from acting out of line?",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49466458",
+          "date": "2026-08-27",
+          "sentiment_score": -0.296
+        },
+        {
+          "title": "Free-AI-Tools-Hub.com Launch",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49430180",
+          "date": "2026-08-25",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Show HN: Sktime-CLI A command line tool to do all time-series tasks",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49433733",
+          "date": "2026-08-25",
+          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.12,
         0.12,
         0.16,
         0.16,
@@ -1031,17 +1030,18 @@
         0.11,
         0.31,
         0.04,
-        0.26
+        0.26,
+        0.03
       ]
     },
     {
       "name": "Tesla",
       "sentiment": {
-        "overall_score": -0.1,
-        "trend": "improving",
-        "previous_score": -0.17,
+        "overall_score": -0.15,
+        "trend": "stable",
+        "previous_score": -0.1,
         "confidence": "high",
-        "sample_size": 10,
+        "sample_size": 25,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -1052,8 +1052,8 @@
             "count": 10
           },
           "reddit": {
-            "score": 0,
-            "count": 0
+            "score": -0.18,
+            "count": 15
           },
           "gdelt": {
             "score": 0,
@@ -1063,43 +1063,42 @@
       },
       "top_headlines": [
         {
+          "title": "Return to Office policy black- and whitelist.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/ReturntoOffice/",
+          "date": "2026-08-30",
+          "sentiment_score": 0.8271
+        },
+        {
+          "title": "fullyremotework",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/fullyremotework/",
+          "date": "2026-08-30",
+          "sentiment_score": 0.5859
+        },
+        {
+          "title": "Antiwork: Unemployment for all, not just the rich!",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/antiwork/",
+          "date": "2026-08-30",
+          "sentiment_score": -0.3434
+        },
+        {
+          "title": "[H] 100s of game keys [W] Cowboy 3030, Luckrot, Vendetta Curse Of Raven's Cry, Ghetto Zombies Graffiti Squad, Endzone 2, Forgotten Seas, Iron Dungeon, Slaverian Trucker, Greedland, Ereban: Shadow Legacy, Into The Necrovale, Kritter Defend Together, rest of Wishlist, Paypal (EU)",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/indiegameswap/comments/1w1igs4/h_100s_of_game_keys_w_cowboy_3030_luckrot/",
+          "date": "2026-08-29",
+          "sentiment_score": -0.9822
+        },
+        {
           "title": "Tesla Full Self-Driving likes trains a bit too much",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=49481200",
           "date": "2026-08-28",
           "sentiment_score": 0.4215
-        },
-        {
-          "title": "Toyota launches updated bZ5 electric SUV at half the price of a Tesla Model Y",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49483649",
-          "date": "2026-08-28",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "Tesla discontinues its Solar Roof tiles, not economically viable",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49414279",
-          "date": "2026-08-24",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "Tesla's Solar Roof is Dead \u2013 Here's what went wrong",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49396026",
-          "date": "2026-08-22",
-          "sentiment_score": -0.8126
-        },
-        {
-          "title": "Tesla sunsets its Solar Roof tiles",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49391382",
-          "date": "2026-08-21",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        -0.08,
         0.16,
         -0.07,
         -0.09,
@@ -1128,7 +1127,8 @@
         -0.17,
         -0.15,
         -0.17,
-        -0.1
+        -0.1,
+        -0.15
       ]
     },
     {
@@ -1160,7 +1160,6 @@
       },
       "top_headlines": [],
       "sparkline": [
-        0.53,
         0.44,
         0.44,
         0.53,
@@ -1189,6 +1188,7 @@
         0.35,
         0,
         0,
+        0,
         0
       ]
     },
@@ -1196,8 +1196,8 @@
       "name": "Cisco",
       "sentiment": {
         "overall_score": 0.39,
-        "trend": "improving",
-        "previous_score": 0.04,
+        "trend": "stable",
+        "previous_score": 0.39,
         "confidence": "high",
         "sample_size": 14,
         "source_scores": {
@@ -1221,32 +1221,32 @@
       },
       "top_headlines": [
         {
-          "title": "YouTube Auto Dubbing, Explained",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49486216",
-          "date": "2026-08-29",
-          "sentiment_score": 0.0
-        },
-        {
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-08-29",
+          "date": "2026-08-30",
           "sentiment_score": 0.8271
         },
         {
           "title": "fullyremotework",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/fullyremotework/",
-          "date": "2026-08-29",
+          "date": "2026-08-30",
           "sentiment_score": 0.5859
         },
         {
           "title": "NoToRTOCa",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/NoToRTOCa/",
-          "date": "2026-08-29",
+          "date": "2026-08-30",
           "sentiment_score": -0.4723
+        },
+        {
+          "title": "YouTube Auto Dubbing, Explained",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49486216",
+          "date": "2026-08-29",
+          "sentiment_score": 0.0
         },
         {
           "title": "I estimate reading code costs 2.1x more than writing it",
@@ -1257,7 +1257,6 @@
         }
       ],
       "sparkline": [
-        0,
         0,
         0.15,
         0,
@@ -1286,6 +1285,7 @@
         0.04,
         0.41,
         0.04,
+        0.39,
         0.39
       ]
     }
