@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-09-02T03:20:52.139529Z",
+  "last_updated": "2026-09-02T16:13:05.186649Z",
   "scraper_log": {
-    "duration_sec": 342.06,
-    "total_articles": 167,
+    "duration_sec": 312.09,
+    "total_articles": 198,
     "errors": []
   },
   "companies": [
     {
       "name": "Amazon",
       "sentiment": {
-        "overall_score": 0.11,
+        "overall_score": 0.12,
         "trend": "stable",
-        "previous_score": 0.13,
+        "previous_score": 0.11,
         "confidence": "high",
-        "sample_size": 10,
+        "sample_size": 23,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -21,11 +21,11 @@
           },
           "hackernews": {
             "score": -0.07,
-            "count": 7
+            "count": 8
           },
           "reddit": {
-            "score": 0.21,
-            "count": 3
+            "score": 0.23,
+            "count": 15
           },
           "gdelt": {
             "score": 0,
@@ -34,6 +34,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Amazon, Synopsys to cut more than 275 Bay Area tech jobs",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49531727",
+          "date": "2026-09-02",
+          "sentiment_score": -0.1027
+        },
         {
           "title": "Look Up",
           "source": "Reddit",
@@ -56,22 +63,14 @@
           "sentiment_score": 0.6249
         },
         {
-          "title": "Amazon Is Requiring Passkeys",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49524246",
-          "date": "2026-09-01",
-          "sentiment_score": 0.1779
-        },
-        {
-          "title": "Banned Books \u2013 Analysis of Censorship on Amazon.com",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49519415",
-          "date": "2026-09-01",
-          "sentiment_score": -0.4588
+          "title": "Amazon replacement marked delivered but never received \u2014 now they\u2019re forcing me to return it. Is this fair?",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/amazonindia/comments/1w53shg/amazon_replacement_marked_delivered_but_never/",
+          "date": "2026-09-02",
+          "sentiment_score": 0.9808
         }
       ],
       "sparkline": [
-        -0.01,
         -0.01,
         -0.01,
         -0.09,
@@ -100,29 +99,30 @@
         0.13,
         0.13,
         0.13,
-        0.11
+        0.11,
+        0.12
       ]
     },
     {
       "name": "Apple",
       "sentiment": {
-        "overall_score": -0.05,
-        "trend": "declining",
-        "previous_score": 0.01,
+        "overall_score": 0.06,
+        "trend": "improving",
+        "previous_score": -0.05,
         "confidence": "high",
-        "sample_size": 15,
+        "sample_size": 30,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.05,
+            "score": -0.08,
             "count": 15
           },
           "reddit": {
-            "score": 0,
-            "count": 0
+            "score": 0.14,
+            "count": 15
           },
           "gdelt": {
             "score": 0,
@@ -132,43 +132,42 @@
       },
       "top_headlines": [
         {
-          "title": "Apple's Phil Schiller Scales Back Role as John Ternus Era Begins",
+          "title": "Show HN: Big-b-router \u2013 Edit OSM maps to avoid ALPRs in Osmand or Comaps",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49512079",
-          "date": "2026-08-31",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "Any Recommended Alternatives to Google Maps and Apple Maps?",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49505565",
-          "date": "2026-08-31",
-          "sentiment_score": 0.2023
-        },
-        {
-          "title": "Apple Maps Ads Are Here, and There's No Way to Turn Them Off",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49447222",
-          "date": "2026-08-26",
+          "url": "https://news.ycombinator.com/item?id=49538364",
+          "date": "2026-09-02",
           "sentiment_score": -0.296
         },
         {
-          "title": "Ads in Apple Maps have officially begun rolling out",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49438829",
-          "date": "2026-08-25",
-          "sentiment_score": 0.0
+          "title": "PowerPoint Presentation Tips and Examples",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/powerpoint/",
+          "date": "2026-09-02",
+          "sentiment_score": 0.6369
         },
         {
-          "title": "Apple Releases New Polishing Cloth",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49434830",
-          "date": "2026-08-25",
-          "sentiment_score": 0.0
+          "title": "Return to Office policy black- and whitelist.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/ReturntoOffice/",
+          "date": "2026-09-02",
+          "sentiment_score": 0.8271
+        },
+        {
+          "title": "/r/Technology",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/technology/",
+          "date": "2026-09-02",
+          "sentiment_score": 0.6249
+        },
+        {
+          "title": "When a woman is forced to confess a fault of her own, she immediately believes herself to have become a victim. (Etienne Rey, Neil Sean's gossips)",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/SaintMeghanMarkle/comments/1w3ybz8/when_a_woman_is_forced_to_confess_a_fault_of_her/",
+          "date": "2026-09-01",
+          "sentiment_score": -0.9778
         }
       ],
       "sparkline": [
-        0.02,
         -0.0,
         0.23,
         0.02,
@@ -197,7 +196,8 @@
         0.13,
         -0.05,
         0.01,
-        -0.05
+        -0.05,
+        0.06
       ]
     },
     {
@@ -265,7 +265,6 @@
         }
       ],
       "sparkline": [
-        0.39,
         0.08,
         0.08,
         0.14,
@@ -294,17 +293,18 @@
         0.02,
         0.4,
         0.02,
+        0.02,
         0.02
       ]
     },
     {
       "name": "Meta",
       "sentiment": {
-        "overall_score": 0.53,
-        "trend": "improving",
-        "previous_score": -0.02,
+        "overall_score": -0.02,
+        "trend": "declining",
+        "previous_score": 0.53,
         "confidence": "high",
-        "sample_size": 30,
+        "sample_size": 15,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -315,8 +315,8 @@
             "count": 15
           },
           "reddit": {
-            "score": 0.86,
-            "count": 15
+            "score": 0,
+            "count": 0
           },
           "gdelt": {
             "score": 0,
@@ -326,43 +326,42 @@
       },
       "top_headlines": [
         {
-          "title": "Return to Office policy black- and whitelist.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-09-02",
-          "sentiment_score": 0.8271
-        },
-        {
-          "title": "Bloodborne",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/bloodborne/",
-          "date": "2026-09-02",
-          "sentiment_score": 0.4588
-        },
-        {
-          "title": "Legal Advice ~ A place to get simple legal advice*",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/legaladvice/",
-          "date": "2026-09-02",
-          "sentiment_score": 0.3612
-        },
-        {
-          "title": "A lie may fool someone else, but it tells you the truth: you're weak. (Tom Wolfe, Neil Sean's gossips)",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/SaintMeghanMarkle/comments/1w31730/a_lie_may_fool_someone_else_but_it_tells_you_the/",
-          "date": "2026-08-31",
-          "sentiment_score": 0.9993
-        },
-        {
           "title": "Meta's push to put robots to work in data centers",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=49500463",
           "date": "2026-08-30",
           "sentiment_score": 0.0
+        },
+        {
+          "title": "Meta's Push to Put Robots to Work in Data Centers",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49486846",
+          "date": "2026-08-29",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Inside Meta's Push to Put Robots to Work in Data Centers",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49479073",
+          "date": "2026-08-28",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Florida Attorney General: We're not settling with Meta, we're going to court",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49481396",
+          "date": "2026-08-28",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "QuestStack: Unlock the Meta Quest 1 bootloader and gain root access",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49461347",
+          "date": "2026-08-27",
+          "sentiment_score": 0.5267
         }
       ],
       "sparkline": [
-        -0.05,
         0.0,
         0.0,
         0.18,
@@ -391,29 +390,30 @@
         -0.02,
         -0.02,
         -0.02,
-        0.53
+        0.53,
+        -0.02
       ]
     },
     {
       "name": "Microsoft",
       "sentiment": {
-        "overall_score": -0.08,
-        "trend": "declining",
-        "previous_score": 0.29,
-        "confidence": "medium",
-        "sample_size": 7,
+        "overall_score": 0.25,
+        "trend": "improving",
+        "previous_score": -0.08,
+        "confidence": "high",
+        "sample_size": 25,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.08,
-            "count": 7
+            "score": -0.07,
+            "count": 10
           },
           "reddit": {
-            "score": 0,
-            "count": 0
+            "score": 0.45,
+            "count": 15
           },
           "gdelt": {
             "score": 0,
@@ -422,6 +422,27 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Microsoft Office 365: We all work together.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/Office365/",
+          "date": "2026-09-02",
+          "sentiment_score": 0.4019
+        },
+        {
+          "title": "Office: Where common sense and your sanity goes to die",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/office/",
+          "date": "2026-09-02",
+          "sentiment_score": -0.508
+        },
+        {
+          "title": "/r/Technology",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/technology/",
+          "date": "2026-09-02",
+          "sentiment_score": 0.6249
+        },
         {
           "title": "Amazon Is Requiring Passkeys",
           "source": "Hacker News",
@@ -435,31 +456,9 @@
           "url": "https://news.ycombinator.com/item?id=49524564",
           "date": "2026-09-01",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Windows brings out the Rorschach test in everyone (2003)",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49371006",
-          "date": "2026-08-20",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "From AKS node root vulnerability to Microsoft Copilot hijack",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49273498",
-          "date": "2026-08-12",
-          "sentiment_score": -0.2263
-        },
-        {
-          "title": "Microsoft to increase Windows OEM license pricing 7-10%",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49263567",
-          "date": "2026-08-11",
-          "sentiment_score": 0.3182
         }
       ],
       "sparkline": [
-        -0.07,
         -0.09,
         0.31,
         -0.15,
@@ -488,7 +487,8 @@
         0.29,
         -0.01,
         0.29,
-        -0.08
+        -0.08,
+        0.25
       ]
     },
     {
@@ -596,8 +596,8 @@
         0.0,
         0.0,
         0.0,
-        0.0,
         0,
+        0.0,
         0.0,
         0.0,
         0.0,
@@ -665,7 +665,6 @@
         }
       ],
       "sparkline": [
-        0.73,
         0,
         0,
         0,
@@ -693,6 +692,7 @@
         0,
         0,
         0,
+        0.22,
         0.22,
         0.22
       ]
@@ -762,7 +762,6 @@
         }
       ],
       "sparkline": [
-        0.39,
         0.25,
         0.39,
         0.47,
@@ -788,6 +787,7 @@
         0.52,
         0.52,
         0.52,
+        0.54,
         0.54,
         0.54,
         0.54,
@@ -859,7 +859,6 @@
         }
       ],
       "sparkline": [
-        -0.11,
         -0.06,
         -0.04,
         -0.04,
@@ -888,17 +887,18 @@
         -0.05,
         -0.05,
         -0.05,
+        -0.05,
         -0.05
       ]
     },
     {
       "name": "Disney",
       "sentiment": {
-        "overall_score": 0,
-        "trend": "improving",
-        "previous_score": -0.23,
-        "confidence": "low",
-        "sample_size": 0,
+        "overall_score": -0.23,
+        "trend": "declining",
+        "previous_score": 0,
+        "confidence": "high",
+        "sample_size": 15,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -909,8 +909,8 @@
             "count": 0
           },
           "reddit": {
-            "score": 0,
-            "count": 0
+            "score": -0.23,
+            "count": 15
           },
           "gdelt": {
             "score": 0,
@@ -918,9 +918,44 @@
           }
         }
       },
-      "top_headlines": [],
+      "top_headlines": [
+        {
+          "title": "The Book of Boba Fett",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/BookOfBobaFett/",
+          "date": "2026-09-02",
+          "sentiment_score": -0.5848
+        },
+        {
+          "title": "Return to Office policy black- and whitelist.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/ReturntoOffice/",
+          "date": "2026-09-02",
+          "sentiment_score": 0.8271
+        },
+        {
+          "title": "Box Office - The Business of Movies",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/boxoffice/",
+          "date": "2026-09-02",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Finally live action remakes are no more",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/okbuddycinephile/comments/1w0ajpu/finally_live_action_remakes_are_no_more/",
+          "date": "2026-08-27",
+          "sentiment_score": -0.6808
+        },
+        {
+          "title": "New interview in Famitsu with Nomura and Yasue about Kingdom Hearts 4",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/KingdomHearts/comments/1vzex7t/new_interview_in_famitsu_with_nomura_and_yasue/",
+          "date": "2026-08-27",
+          "sentiment_score": 1.0
+        }
+      ],
       "sparkline": [
-        0,
         0,
         0,
         -0.24,
@@ -949,29 +984,30 @@
         -0.23,
         0,
         -0.23,
-        0
+        0,
+        -0.23
       ]
     },
     {
       "name": "Dell",
       "sentiment": {
-        "overall_score": 0.27,
-        "trend": "improving",
-        "previous_score": 0.07,
+        "overall_score": 0.15,
+        "trend": "declining",
+        "previous_score": 0.27,
         "confidence": "high",
-        "sample_size": 30,
+        "sample_size": 15,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.11,
+            "score": 0.15,
             "count": 15
           },
           "reddit": {
-            "score": 0.37,
-            "count": 15
+            "score": 0,
+            "count": 0
           },
           "gdelt": {
             "score": 0,
@@ -981,27 +1017,6 @@
       },
       "top_headlines": [
         {
-          "title": "Return to Office policy black- and whitelist.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-09-02",
-          "sentiment_score": 0.8271
-        },
-        {
-          "title": "fullyremotework",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/fullyremotework/",
-          "date": "2026-09-02",
-          "sentiment_score": 0.5859
-        },
-        {
-          "title": "/r/Technology",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/technology/",
-          "date": "2026-09-02",
-          "sentiment_score": 0.6249
-        },
-        {
           "title": "Show HN: Kaden Terminal \u2013 Bloat / AI Free Terminal for Linux",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=49526071",
@@ -1009,15 +1024,35 @@
           "sentiment_score": 0.5106
         },
         {
-          "title": "Nvidia's Anthropic Deal: Just Don't Call It 'Circular Financing'",
+          "title": "Show HN: Darwin-VM \u2013 run the latest iOS and macOS in QEMU",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49529620",
-          "date": "2026-09-01",
+          "url": "https://news.ycombinator.com/item?id=49485263",
+          "date": "2026-08-28",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Ask HN: How do you guys stop coding agents from acting out of line?",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49466458",
+          "date": "2026-08-27",
+          "sentiment_score": -0.296
+        },
+        {
+          "title": "Launch HN: Salem Robotics (YC S26) \u2013 Software for industrial inspection robots",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49466715",
+          "date": "2026-08-27",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Free-AI-Tools-Hub.com Launch",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49430180",
+          "date": "2026-08-25",
           "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.16,
         0.37,
         0.38,
         0.18,
@@ -1046,15 +1081,16 @@
         0.1,
         0.28,
         0.07,
-        0.27
+        0.27,
+        0.15
       ]
     },
     {
       "name": "Tesla",
       "sentiment": {
         "overall_score": -0.23,
-        "trend": "declining",
-        "previous_score": -0.15,
+        "trend": "stable",
+        "previous_score": -0.23,
         "confidence": "medium",
         "sample_size": 9,
         "source_scores": {
@@ -1114,7 +1150,6 @@
         }
       ],
       "sparkline": [
-        0.14,
         -0.14,
         -0.15,
         -0.17,
@@ -1143,15 +1178,16 @@
         -0.18,
         -0.15,
         -0.15,
+        -0.23,
         -0.23
       ]
     },
     {
       "name": "Caterpillar",
       "sentiment": {
-        "overall_score": 0.46,
-        "trend": "improving",
-        "previous_score": 0,
+        "overall_score": 0.44,
+        "trend": "stable",
+        "previous_score": 0.46,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -1164,7 +1200,7 @@
             "count": 0
           },
           "reddit": {
-            "score": 0.46,
+            "score": 0.44,
             "count": 15
           },
           "gdelt": {
@@ -1196,22 +1232,21 @@
           "sentiment_score": -0.4723
         },
         {
+          "title": "\u222bPEACEFUL SECULAR DEMOCRATS E PLURIBUS UNUM \u222b HAPPY NEW YEAR 250 CCL \u03a3\u039d\u2019 USA\u222b",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/SecularDemocrats/comments/1w4znfh/peaceful_secular_democrats_e_pluribus_unum_happy/",
+          "date": "2026-09-02",
+          "sentiment_score": 0.7132
+        },
+        {
           "title": "The Daily Market Flux - Your Complete Market Rundown (08/31/2026)",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/MarketFluxHub/comments/1w40qr2/the_daily_market_flux_your_complete_market/",
           "date": "2026-09-01",
           "sentiment_score": 0.7387
-        },
-        {
-          "title": "Doubt regarding going to internship from hostel",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/AnnaUniversityCEG/comments/1vwznb0/doubt_regarding_going_to_internship_from_hostel/",
-          "date": "2026-08-24",
-          "sentiment_score": -0.7135
         }
       ],
       "sparkline": [
-        0.44,
         0.44,
         0.44,
         0.44,
@@ -1240,7 +1275,8 @@
         0,
         0.44,
         0,
-        0.46
+        0.46,
+        0.44
       ]
     },
     {
@@ -1289,7 +1325,6 @@
       "sparkline": [
         0,
         0,
-        0,
         0.48,
         0,
         0,
@@ -1312,6 +1347,7 @@
         0.04,
         0.39,
         0.39,
+        0.0,
         0.0,
         0.0,
         0.0,
