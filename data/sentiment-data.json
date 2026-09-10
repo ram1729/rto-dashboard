@@ -1,27 +1,27 @@
 {
-  "last_updated": "2026-09-10T03:28:57.588643Z",
+  "last_updated": "2026-09-10T16:04:48.446519Z",
   "scraper_log": {
-    "duration_sec": 239.19,
-    "total_articles": 185,
+    "duration_sec": 299.26,
+    "total_articles": 201,
     "errors": []
   },
   "companies": [
     {
       "name": "Amazon",
       "sentiment": {
-        "overall_score": 0.29,
+        "overall_score": 0.31,
         "trend": "stable",
-        "previous_score": 0.32,
+        "previous_score": 0.29,
         "confidence": "high",
-        "sample_size": 22,
+        "sample_size": 24,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.06,
-            "count": 7
+            "score": 0.01,
+            "count": 9
           },
           "reddit": {
             "score": 0.5,
@@ -34,6 +34,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Amazon pilots ad services in ChatGPT",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49644047",
+          "date": "2026-09-10",
+          "sentiment_score": 0.1779
+        },
         {
           "title": "Look Up",
           "source": "Reddit",
@@ -61,17 +68,9 @@
           "url": "https://news.ycombinator.com/item?id=49634095",
           "date": "2026-09-09",
           "sentiment_score": -0.128
-        },
-        {
-          "title": "Getting a taste of their own medicine - Harry and Meghan\u2019s \u2018surprise\u2019 over King\u2019s royal letter: Sussexes say they were not told in advance about Charles\u2019 statement which came \u2018a day before review into their security\u2019 (Daily Mail)",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/DlistedRoyals/comments/1wakuf4/getting_a_taste_of_their_own_medicine_harry_and/",
-          "date": "2026-09-08",
-          "sentiment_score": 0.9987
         }
       ],
       "sparkline": [
-        0.05,
         0.04,
         0.12,
         0.14,
@@ -100,15 +99,16 @@
         0.25,
         0.33,
         0.32,
-        0.29
+        0.29,
+        0.31
       ]
     },
     {
       "name": "Apple",
       "sentiment": {
         "overall_score": 0.08,
-        "trend": "improving",
-        "previous_score": -0.0,
+        "trend": "stable",
+        "previous_score": 0.08,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -169,7 +169,6 @@
       ],
       "sparkline": [
         -0.0,
-        -0.0,
         0.15,
         0.13,
         -0.05,
@@ -197,6 +196,7 @@
         0.07,
         -0.03,
         -0.0,
+        0.08,
         0.08
       ]
     },
@@ -229,6 +229,13 @@
       },
       "top_headlines": [
         {
+          "title": "Show HN: DriveSync \u2013 fast Git-styled Google Drive sync CLI",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49609784",
+          "date": "2026-09-08",
+          "sentiment_score": 0.0
+        },
+        {
           "title": "Hikers stranded on Mount Shasta after following a plan by Gemini AI",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=49599132",
@@ -255,17 +262,9 @@
           "url": "https://news.ycombinator.com/item?id=49557878",
           "date": "2026-09-03",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Google Search Rolling Out Google.com/Goto Tracking Parameters",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49458640",
-          "date": "2026-08-27",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.15,
         0.17,
         0.17,
         0.13,
@@ -294,6 +293,7 @@
         0.01,
         0.43,
         0.01,
+        0.01,
         0.01
       ]
     },
@@ -301,8 +301,8 @@
       "name": "Meta",
       "sentiment": {
         "overall_score": -0.13,
-        "trend": "declining",
-        "previous_score": 0.49,
+        "trend": "stable",
+        "previous_score": -0.13,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -363,7 +363,6 @@
       ],
       "sparkline": [
         0.27,
-        0.27,
         -0.07,
         -0.11,
         -0.08,
@@ -391,25 +390,26 @@
         -0.1,
         -0.1,
         0.49,
+        -0.13,
         -0.13
       ]
     },
     {
       "name": "Microsoft",
       "sentiment": {
-        "overall_score": 0.34,
-        "trend": "improving",
-        "previous_score": -0.03,
+        "overall_score": 0.35,
+        "trend": "stable",
+        "previous_score": 0.34,
         "confidence": "high",
-        "sample_size": 24,
+        "sample_size": 25,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.06,
-            "count": 9
+            "score": 0.1,
+            "count": 10
           },
           "reddit": {
             "score": 0.51,
@@ -422,6 +422,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "What algorithm did Windows XP use to choose your initial user picture?",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49640646",
+          "date": "2026-09-10",
+          "sentiment_score": 0.516
+        },
         {
           "title": "Microsoft Office 365: We all work together.",
           "source": "Reddit",
@@ -449,17 +456,9 @@
           "url": "https://www.reddit.com/r/Accounting/comments/1wc3g7i/i_havent_had_a_single_interview_since_i_lost_my/",
           "date": "2026-09-10",
           "sentiment_score": -0.9647
-        },
-        {
-          "title": "Switzerland tests a FOSS escape route from Microsoft 365",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49633919",
-          "date": "2026-09-09",
-          "sentiment_score": 0.1779
         }
       ],
       "sparkline": [
-        -0.03,
         -0.03,
         0.28,
         0.27,
@@ -488,7 +487,8 @@
         0.41,
         0.03,
         -0.03,
-        0.34
+        0.34,
+        0.35
       ]
     },
     {
@@ -607,13 +607,13 @@
         0.0,
         0.0,
         0.0,
-        0.0,
         0.29,
         0.29,
         0.29,
         0.29,
         0.29,
         0.29,
+        0.57,
         0.57,
         0.57,
         0.57,
@@ -661,7 +661,6 @@
         0,
         0,
         0,
-        0,
         0.73,
         0.36,
         0.36,
@@ -683,6 +682,7 @@
         0.22,
         0.22,
         0.22,
+        0.0,
         0.0,
         0.0,
         0.0,
@@ -756,7 +756,6 @@
       ],
       "sparkline": [
         0.49,
-        0.49,
         0.52,
         0.52,
         0.49,
@@ -780,6 +779,7 @@
         0.53,
         0.53,
         0.53,
+        0.86,
         0.86,
         0.86,
         0.86,
@@ -853,7 +853,6 @@
       ],
       "sparkline": [
         -0.09,
-        -0.09,
         -0.07,
         -0.24,
         -0.01,
@@ -881,17 +880,18 @@
         0.04,
         0.01,
         0.04,
+        0.04,
         0.04
       ]
     },
     {
       "name": "Disney",
       "sentiment": {
-        "overall_score": 0,
-        "trend": "stable",
+        "overall_score": -0.23,
+        "trend": "declining",
         "previous_score": 0,
-        "confidence": "low",
-        "sample_size": 0,
+        "confidence": "high",
+        "sample_size": 15,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -902,8 +902,8 @@
             "count": 0
           },
           "reddit": {
-            "score": 0,
-            "count": 0
+            "score": -0.23,
+            "count": 15
           },
           "gdelt": {
             "score": 0,
@@ -911,9 +911,44 @@
           }
         }
       },
-      "top_headlines": [],
+      "top_headlines": [
+        {
+          "title": "The Book of Boba Fett",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/BookOfBobaFett/",
+          "date": "2026-09-10",
+          "sentiment_score": -0.5848
+        },
+        {
+          "title": "Return to Office policy black- and whitelist.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/ReturntoOffice/",
+          "date": "2026-09-10",
+          "sentiment_score": 0.8271
+        },
+        {
+          "title": "Box Office - The Business of Movies",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/boxoffice/",
+          "date": "2026-09-10",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "The Rise of Skywalker contradicts the message of \"letting go of your loved ones\" in the Prequel Trilogy",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/prequelappreciation/comments/1wbezca/the_rise_of_skywalker_contradicts_the_message_of/",
+          "date": "2026-09-09",
+          "sentiment_score": -0.991
+        },
+        {
+          "title": "(SELLING) EVERYTHING MUST GO SALE CONTINUED! ADDED A BUNCH OF TITLES! DISCOUNT RULES IN POST! THANK YOU EVERYONE <3",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/DigitalCodeSELL/comments/1w87b9i/selling_everything_must_go_sale_continued_added_a/",
+          "date": "2026-09-05",
+          "sentiment_score": -0.9986
+        }
+      ],
       "sparkline": [
-        0,
         0,
         -0.37,
         0,
@@ -942,15 +977,16 @@
         0,
         -0.23,
         0,
-        0
+        0,
+        -0.23
       ]
     },
     {
       "name": "Dell",
       "sentiment": {
-        "overall_score": 0.1,
-        "trend": "declining",
-        "previous_score": 0.52,
+        "overall_score": 0.06,
+        "trend": "stable",
+        "previous_score": 0.1,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -959,7 +995,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.1,
+            "score": 0.06,
             "count": 15
           },
           "reddit": {
@@ -973,6 +1009,20 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Maven Robotics emerges from stealth after raising $100M for wheeled robots",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49644977",
+          "date": "2026-09-10",
+          "sentiment_score": -0.0772
+        },
+        {
+          "title": "Bending Spoons to buy Miro in $1.36B cash deal",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49643658",
+          "date": "2026-09-10",
+          "sentiment_score": 0.0
+        },
         {
           "title": "EU and Canada Plan Deal to Boost Trade, Security as US Ties Fray",
           "source": "Hacker News",
@@ -993,24 +1043,9 @@
           "url": "https://news.ycombinator.com/item?id=49609260",
           "date": "2026-09-08",
           "sentiment_score": -0.3612
-        },
-        {
-          "title": "Tell HN: The Thoughts and Woes of a Full-Time Founder Part 2",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49571763",
-          "date": "2026-09-05",
-          "sentiment_score": -0.4404
-        },
-        {
-          "title": "Show HN: Moadim.io \u2013 A scheduler for agents",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49571537",
-          "date": "2026-09-04",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.44,
         0.43,
         0.17,
         0.17,
@@ -1039,17 +1074,18 @@
         0.1,
         0.1,
         0.52,
-        0.1
+        0.1,
+        0.06
       ]
     },
     {
       "name": "Tesla",
       "sentiment": {
-        "overall_score": 0.06,
-        "trend": "improving",
-        "previous_score": -0.09,
+        "overall_score": -0.14,
+        "trend": "declining",
+        "previous_score": 0.06,
         "confidence": "high",
-        "sample_size": 29,
+        "sample_size": 14,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -1060,8 +1096,8 @@
             "count": 14
           },
           "reddit": {
-            "score": 0.17,
-            "count": 15
+            "score": 0,
+            "count": 0
           },
           "gdelt": {
             "score": 0,
@@ -1071,43 +1107,42 @@
       },
       "top_headlines": [
         {
-          "title": "Return to Office policy black- and whitelist.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-09-10",
-          "sentiment_score": 0.8271
+          "title": "Tesla killing Solar Roof is leaving installers with six-figure losses",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49601846",
+          "date": "2026-09-07",
+          "sentiment_score": -0.7964
         },
         {
-          "title": "fullyremotework",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/fullyremotework/",
-          "date": "2026-09-10",
-          "sentiment_score": 0.5859
+          "title": "A Tesla ran a stop sign and killed a man, Full Self-Driving/Autopilot was on",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49602582",
+          "date": "2026-09-07",
+          "sentiment_score": -0.7717
         },
         {
-          "title": "Antiwork: Unemployment for all, not just the rich!",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/antiwork/",
-          "date": "2026-09-10",
-          "sentiment_score": -0.3434
+          "title": "Tesla Begins Offering Rides in a Car Without a Steering Wheel",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49559666",
+          "date": "2026-09-04",
+          "sentiment_score": 0.0
         },
         {
-          "title": "[H] LAD Infinite Wealth, Sea Of Stars, Intruder, Circuit Superstars, WWE 2K25, Labyrinthine, SCP 5K, Hurtworld, Project Cars GOTY, Miscreated, Friday 13th, Call To Arms Ostfront, The Outer Worlds, AssCreed Valhalla, Rivals Of Aether & 100s more [W] Wishlist, Paypal (EU)",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/GameTrade/comments/1wbhfym/h_lad_infinite_wealth_sea_of_stars_intruder/",
-          "date": "2026-09-09",
-          "sentiment_score": -0.9554
+          "title": "Tesla launches steering-wheel-free Cybercab robotaxi in Austin",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49562206",
+          "date": "2026-09-04",
+          "sentiment_score": 0.0
         },
         {
-          "title": "How did this guy unlock my car?",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/TeslaSupport/comments/1wb4dxi/how_did_this_guy_unlock_my_car/",
-          "date": "2026-09-08",
-          "sentiment_score": 0.8558
+          "title": "Tesla opens \"Help us grow out fleet\" after opening robotaxi to the public",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49559775",
+          "date": "2026-09-04",
+          "sentiment_score": 0.4019
         }
       ],
       "sparkline": [
-        -0.16,
         -0.19,
         -0.18,
         -0.19,
@@ -1136,17 +1171,18 @@
         -0.0,
         -0.09,
         -0.09,
-        0.06
+        0.06,
+        -0.14
       ]
     },
     {
       "name": "Caterpillar",
       "sentiment": {
-        "overall_score": 0,
-        "trend": "stable",
+        "overall_score": 0.36,
+        "trend": "improving",
         "previous_score": 0,
-        "confidence": "low",
-        "sample_size": 0,
+        "confidence": "high",
+        "sample_size": 13,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -1157,8 +1193,8 @@
             "count": 0
           },
           "reddit": {
-            "score": 0,
-            "count": 0
+            "score": 0.36,
+            "count": 13
           },
           "gdelt": {
             "score": 0,
@@ -1166,9 +1202,44 @@
           }
         }
       },
-      "top_headlines": [],
+      "top_headlines": [
+        {
+          "title": "Return to Office policy black- and whitelist.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/ReturntoOffice/",
+          "date": "2026-09-10",
+          "sentiment_score": 0.8271
+        },
+        {
+          "title": "fullyremotework",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/fullyremotework/",
+          "date": "2026-09-10",
+          "sentiment_score": 0.5859
+        },
+        {
+          "title": "NoToRTOCa",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/NoToRTOCa/",
+          "date": "2026-09-10",
+          "sentiment_score": -0.4723
+        },
+        {
+          "title": "The Replete - 0",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/TalesFromTheCreeps/comments/1w714z9/the_replete_0/",
+          "date": "2026-09-04",
+          "sentiment_score": 0.9994
+        },
+        {
+          "title": "Lily's Journals: Thursday, October 15, 1987",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/Lillian_Madwhip/comments/1w5kpsf/lilys_journals_thursday_october_15_1987/",
+          "date": "2026-09-02",
+          "sentiment_score": 0.9824
+        }
+      ],
       "sparkline": [
-        0,
         0,
         0.21,
         0,
@@ -1197,7 +1268,8 @@
         0,
         0.36,
         0,
-        0
+        0,
+        0.36
       ]
     },
     {
@@ -1252,7 +1324,6 @@
       ],
       "sparkline": [
         0.81,
-        0.81,
         0.06,
         0.06,
         0.04,
@@ -1276,6 +1347,7 @@
         0.17,
         -0.33,
         -0.33,
+        -0.16,
         -0.16,
         -0.16,
         -0.16,
