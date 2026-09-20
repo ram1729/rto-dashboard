@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-09-20T03:50:11.433505Z",
+  "last_updated": "2026-09-20T15:40:56.908015Z",
   "scraper_log": {
-    "duration_sec": 233.34,
-    "total_articles": 177,
+    "duration_sec": 220.44,
+    "total_articles": 185,
     "errors": []
   },
   "companies": [
@@ -11,17 +11,17 @@
       "sentiment": {
         "overall_score": 0.27,
         "trend": "stable",
-        "previous_score": 0.29,
+        "previous_score": 0.27,
         "confidence": "high",
-        "sample_size": 20,
+        "sample_size": 23,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.05,
-            "count": 5
+            "score": -0.06,
+            "count": 8
           },
           "reddit": {
             "score": 0.46,
@@ -34,6 +34,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Karen Nikoghosyan Is Building AI Operating Layers for Multichannel Commerce",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49776683",
+          "date": "2026-09-20",
+          "sentiment_score": 0.0
+        },
         {
           "title": "Look Up",
           "source": "Reddit",
@@ -61,17 +68,9 @@
           "url": "https://www.reddit.com/r/movies/comments/1wieywc/time_to_be_real_about_david_ellisons_threats_to/",
           "date": "2026-09-17",
           "sentiment_score": 0.9777
-        },
-        {
-          "title": "Sould amazon remove reviews of people that are just dumb",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/AmazonVine/comments/1wihj7x/sould_amazon_remove_reviews_of_people_that_are/",
-          "date": "2026-09-17",
-          "sentiment_score": -0.8625
         }
       ],
       "sparkline": [
-        0.12,
         0.2,
         0.21,
         0.18,
@@ -100,6 +99,7 @@
         0.35,
         0.37,
         0.29,
+        0.27,
         0.27
       ]
     },
@@ -107,8 +107,8 @@
       "name": "Apple",
       "sentiment": {
         "overall_score": -0.04,
-        "trend": "declining",
-        "previous_score": 0.13,
+        "trend": "stable",
+        "previous_score": -0.04,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -168,7 +168,6 @@
         }
       ],
       "sparkline": [
-        0.06,
         -0.08,
         0.41,
         0.09,
@@ -197,6 +196,7 @@
         -0.03,
         -0.01,
         0.13,
+        -0.04,
         -0.04
       ]
     },
@@ -268,7 +268,6 @@
         0.02,
         0.02,
         0.02,
-        0.02,
         0.38,
         0.02,
         0.01,
@@ -294,6 +293,7 @@
         -0.04,
         0.28,
         -0.06,
+        -0.06,
         -0.06
       ]
     },
@@ -301,8 +301,8 @@
       "name": "Meta",
       "sentiment": {
         "overall_score": 0.27,
-        "trend": "improving",
-        "previous_score": -0.01,
+        "trend": "stable",
+        "previous_score": 0.27,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -362,7 +362,6 @@
         }
       ],
       "sparkline": [
-        -0.02,
         0.53,
         -0.02,
         -0.05,
@@ -391,25 +390,26 @@
         0.36,
         -0.05,
         -0.01,
+        0.27,
         0.27
       ]
     },
     {
       "name": "Microsoft",
       "sentiment": {
-        "overall_score": 0.04,
+        "overall_score": 0.0,
         "trend": "stable",
-        "previous_score": 0.0,
+        "previous_score": 0.04,
         "confidence": "high",
-        "sample_size": 14,
+        "sample_size": 15,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.04,
-            "count": 14
+            "score": 0.0,
+            "count": 15
           },
           "reddit": {
             "score": 0,
@@ -430,18 +430,18 @@
           "sentiment_score": 0.0
         },
         {
-          "title": "Microsoft director: AI scraping 'the largest theft of labor in human history'",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49768921",
-          "date": "2026-09-19",
-          "sentiment_score": 0.0
-        },
-        {
           "title": "Bringing Correctly Rounded Math to Production with LLVM-Libc",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=49757081",
           "date": "2026-09-18",
           "sentiment_score": 0.0
+        },
+        {
+          "title": "Microsoft Confirms October 7 Windows and Surface Event Featuring RTX Spark",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49757495",
+          "date": "2026-09-18",
+          "sentiment_score": 0.2263
         },
         {
           "title": "Show HN: I compiled FreeRDP into a Flutter app so my phone can do RDP and SSH",
@@ -459,7 +459,6 @@
         }
       ],
       "sparkline": [
-        0.25,
         -0.07,
         0.3,
         -0.13,
@@ -488,7 +487,8 @@
         0.12,
         -0.01,
         0.0,
-        0.04
+        0.04,
+        0.0
       ]
     },
     {
@@ -593,13 +593,13 @@
         0.0,
         0.0,
         0.0,
-        0.0,
         0.29,
         0.29,
         0.29,
         0.29,
         0.29,
         0.29,
+        0.57,
         0.57,
         0.57,
         0.57,
@@ -659,7 +659,6 @@
       ],
       "sparkline": [
         0.22,
-        0.22,
         0.15,
         0.0,
         0.0,
@@ -669,6 +668,7 @@
         0.22,
         0.22,
         0.22,
+        0.0,
         0.0,
         0.0,
         0.0,
@@ -758,7 +758,6 @@
         0.54,
         0.54,
         0.54,
-        0.54,
         0.86,
         0.86,
         0.86,
@@ -776,6 +775,7 @@
         0.85,
         0.85,
         0.85,
+        0.53,
         0.53,
         0.53,
         0.53,
@@ -790,8 +790,8 @@
     {
       "name": "AT&T",
       "sentiment": {
-        "overall_score": -0.02,
-        "trend": "stable",
+        "overall_score": 0.06,
+        "trend": "improving",
         "previous_score": -0.02,
         "confidence": "high",
         "sample_size": 15,
@@ -801,7 +801,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.02,
+            "score": 0.06,
             "count": 15
           },
           "reddit": {
@@ -852,7 +852,6 @@
         }
       ],
       "sparkline": [
-        -0.05,
         -0.28,
         -0.28,
         -0.23,
@@ -881,25 +880,26 @@
         0.0,
         -0.02,
         -0.02,
-        -0.02
+        -0.02,
+        0.06
       ]
     },
     {
       "name": "Disney",
       "sentiment": {
-        "overall_score": 0.62,
-        "trend": "improving",
-        "previous_score": 0.0,
+        "overall_score": 0.31,
+        "trend": "declining",
+        "previous_score": 0.62,
         "confidence": "low",
-        "sample_size": 1,
+        "sample_size": 2,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.62,
-            "count": 1
+            "score": 0.31,
+            "count": 2
           },
           "reddit": {
             "score": 0,
@@ -918,10 +918,16 @@
           "url": "https://news.ycombinator.com/item?id=49769395",
           "date": "2026-09-19",
           "sentiment_score": 0.6249
+        },
+        {
+          "title": "Disney Hires Its First CTO: Karandeep Anand, Former CEO of AI Chatbot Startup",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49757554",
+          "date": "2026-09-18",
+          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        -0.23,
         0,
         0,
         0,
@@ -950,29 +956,30 @@
         0.0,
         0,
         0.0,
-        0.62
+        0.62,
+        0.31
       ]
     },
     {
       "name": "Dell",
       "sentiment": {
-        "overall_score": 0.53,
-        "trend": "improving",
-        "previous_score": -0.08,
+        "overall_score": -0.06,
+        "trend": "declining",
+        "previous_score": 0.53,
         "confidence": "high",
-        "sample_size": 30,
+        "sample_size": 15,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.04,
+            "score": -0.06,
             "count": 15
           },
           "reddit": {
-            "score": 0.88,
-            "count": 15
+            "score": 0,
+            "count": 0
           },
           "gdelt": {
             "score": 0,
@@ -989,36 +996,35 @@
           "sentiment_score": 0.0
         },
         {
-          "title": "Return to Office policy black- and whitelist.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-09-20",
-          "sentiment_score": 0.8271
+          "title": "Trump announces 'forever' deal to defend Greenland, Denmark says sign next week",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49761138",
+          "date": "2026-09-18",
+          "sentiment_score": 0.0
         },
         {
-          "title": "fullyremotework",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/fullyremotework/",
-          "date": "2026-09-20",
-          "sentiment_score": 0.5859
+          "title": "Show HN: Intent Based Infrastructure on Top of Terraform",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49740408",
+          "date": "2026-09-17",
+          "sentiment_score": 0.2023
         },
         {
-          "title": "/r/Technology",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/technology/",
-          "date": "2026-09-20",
-          "sentiment_score": 0.6249
+          "title": "Ask HN: How to recover Google auth after phone stolen?",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49742976",
+          "date": "2026-09-17",
+          "sentiment_score": -0.4939
         },
         {
-          "title": "LPT: Use P2 for the risky moves",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/churning/comments/1wk84l2/lpt_use_p2_for_the_risky_moves/",
-          "date": "2026-09-19",
-          "sentiment_score": 0.9931
+          "title": "TSMC revealing details about next gen A14 node",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49714096",
+          "date": "2026-09-15",
+          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.15,
         0.15,
         0.15,
         0.11,
@@ -1047,17 +1053,18 @@
         0.53,
         -0.08,
         -0.08,
-        0.53
+        0.53,
+        -0.06
       ]
     },
     {
       "name": "Tesla",
       "sentiment": {
-        "overall_score": -0.09,
-        "trend": "declining",
-        "previous_score": 0.08,
+        "overall_score": 0.08,
+        "trend": "improving",
+        "previous_score": -0.09,
         "confidence": "high",
-        "sample_size": 15,
+        "sample_size": 30,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -1068,8 +1075,8 @@
             "count": 15
           },
           "reddit": {
-            "score": 0,
-            "count": 0
+            "score": 0.19,
+            "count": 15
           },
           "gdelt": {
             "score": 0,
@@ -1079,43 +1086,42 @@
       },
       "top_headlines": [
         {
-          "title": "Show HN: Analyzed 400 routes and driving a Tesla beats flying 65% of the time",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49707707",
-          "date": "2026-09-15",
-          "sentiment_score": 0.0
+          "title": "Return to Office policy black- and whitelist.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/ReturntoOffice/",
+          "date": "2026-09-20",
+          "sentiment_score": 0.8271
         },
         {
-          "title": "The New Tesla Roadster Is Finally Probably Maybe Coming on October 1",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49704593",
-          "date": "2026-09-14",
-          "sentiment_score": 0.0
+          "title": "fullyremotework",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/fullyremotework/",
+          "date": "2026-09-20",
+          "sentiment_score": 0.5859
         },
         {
-          "title": "I'm being cyberattacked by Tesla, Inc",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49686766",
-          "date": "2026-09-13",
-          "sentiment_score": 0.0
+          "title": "Antiwork: Unemployment for all, not just the rich!",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/antiwork/",
+          "date": "2026-09-20",
+          "sentiment_score": -0.3434
         },
         {
-          "title": "Tesla Roadster to be unveiled on Oct first",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49676250",
-          "date": "2026-09-12",
-          "sentiment_score": 0.0
+          "title": "[H] Sea Of Stars, Intruder, Circuit Superstars, WWE 2K25, Labyrinthine, SCP 5K, Hurtworld, Project Cars GOTY, Miscreated, Friday 13th, Call To Arms Ostfront, The Outer Worlds, AssCreed Valhalla, Rivals Of Aether, LAD Infinite Wealth & 100s more [W] Paypal (EU)",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/indiegameswap/comments/1wjm8gd/h_sea_of_stars_intruder_circuit_superstars_wwe/",
+          "date": "2026-09-18",
+          "sentiment_score": -0.9756
         },
         {
-          "title": "A Decade of Hype, 3k Roofs, and One Redirect URL: Tesla Kills the Solar Roof",
+          "title": "Can I get insurance for company renting humanoids for parties?",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49667360",
-          "date": "2026-09-12",
-          "sentiment_score": -0.5423
+          "url": "https://news.ycombinator.com/item?id=49733718",
+          "date": "2026-09-16",
+          "sentiment_score": 0.4019
         }
       ],
       "sparkline": [
-        -0.23,
         -0.18,
         -0.19,
         0.02,
@@ -1144,7 +1150,8 @@
         -0.09,
         -0.09,
         0.08,
-        -0.09
+        -0.09,
+        0.08
       ]
     },
     {
@@ -1176,7 +1183,6 @@
       },
       "top_headlines": [],
       "sparkline": [
-        0.44,
         0,
         0,
         0,
@@ -1204,6 +1210,7 @@
         0,
         0,
         0.12,
+        0,
         0,
         0
       ]
@@ -1211,19 +1218,19 @@
     {
       "name": "Cisco",
       "sentiment": {
-        "overall_score": 0.09,
-        "trend": "improving",
-        "previous_score": -0.02,
-        "confidence": "low",
-        "sample_size": 4,
+        "overall_score": -0.02,
+        "trend": "declining",
+        "previous_score": 0.09,
+        "confidence": "medium",
+        "sample_size": 7,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.09,
-            "count": 4
+            "score": -0.02,
+            "count": 7
           },
           "reddit": {
             "score": 0,
@@ -1236,6 +1243,20 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Japan Opens the Door to Acquiring Nuclear-Powered Submarines",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49773595",
+          "date": "2026-09-20",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Einstein on the Atomic Bomb (1945)",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49762597",
+          "date": "2026-09-19",
+          "sentiment_score": -0.4939
+        },
         {
           "title": "Cisco Email Gateway SQL Injection Yields Unauthenticated Root (CVSS 9.8)",
           "source": "Hacker News",
@@ -1251,22 +1272,14 @@
           "sentiment_score": 0.34
         },
         {
-          "title": "I estimate reading code costs 2.1x more than writing it",
+          "title": "How to Detect Residential Proxies",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49456758",
-          "date": "2026-08-26",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "Munich Court Proposes \u20ac1.05 Monthly Codec Royalty for Netflix Premium Users",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49434187",
-          "date": "2026-08-25",
+          "url": "https://news.ycombinator.com/item?id=49668557",
+          "date": "2026-09-12",
           "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.0,
         0.32,
         0.32,
         -0.04,
@@ -1295,7 +1308,8 @@
         0.07,
         0.09,
         -0.02,
-        0.09
+        0.09,
+        -0.02
       ]
     }
   ]
