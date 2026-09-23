@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-09-23T03:43:56.524328Z",
+  "last_updated": "2026-09-23T16:22:08.027724Z",
   "scraper_log": {
-    "duration_sec": 228.67,
-    "total_articles": 186,
+    "duration_sec": 251.88,
+    "total_articles": 204,
     "errors": []
   },
   "companies": [
@@ -10,18 +10,18 @@
       "name": "Amazon",
       "sentiment": {
         "overall_score": 0.27,
-        "trend": "improving",
-        "previous_score": 0.2,
+        "trend": "stable",
+        "previous_score": 0.27,
         "confidence": "high",
-        "sample_size": 25,
+        "sample_size": 28,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.11,
-            "count": 10
+            "score": 0.13,
+            "count": 13
           },
           "reddit": {
             "score": 0.36,
@@ -35,6 +35,27 @@
       },
       "top_headlines": [
         {
+          "title": "Amazon re-hiring laid-off workers for AI",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49816099",
+          "date": "2026-09-23",
+          "sentiment_score": 0.1779
+        },
+        {
+          "title": "Amazon is trying to rehire workers it laid off, emails show",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49815735",
+          "date": "2026-09-23",
+          "sentiment_score": 0.1779
+        },
+        {
+          "title": "Amazon opens its seller tools to outside AI agents, starting with Anthropic",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49817493",
+          "date": "2026-09-23",
+          "sentiment_score": 0.1779
+        },
+        {
           "title": "Look Up",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/superman/",
@@ -47,31 +68,9 @@
           "url": "https://www.reddit.com/r/DCAU/",
           "date": "2026-09-23",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "/r/Technology",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/technology/",
-          "date": "2026-09-23",
-          "sentiment_score": 0.6249
-        },
-        {
-          "title": "Show HN: An API that tells you what people love about a product",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49803206",
-          "date": "2026-09-22",
-          "sentiment_score": 0.6369
-        },
-        {
-          "title": "Patches Posted with Aim to Mainline Linux Kernel Support for the Amazon Kindle 4",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49792106",
-          "date": "2026-09-21",
-          "sentiment_score": 0.5267
         }
       ],
       "sparkline": [
-        0.19,
         0.19,
         0.19,
         0.19,
@@ -100,17 +99,18 @@
         0.27,
         0.2,
         0.2,
+        0.27,
         0.27
       ]
     },
     {
       "name": "Apple",
       "sentiment": {
-        "overall_score": -0.04,
-        "trend": "stable",
-        "previous_score": -0.01,
+        "overall_score": 0.03,
+        "trend": "improving",
+        "previous_score": -0.04,
         "confidence": "high",
-        "sample_size": 15,
+        "sample_size": 30,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -121,8 +121,8 @@
             "count": 15
           },
           "reddit": {
-            "score": 0,
-            "count": 0
+            "score": 0.07,
+            "count": 15
           },
           "gdelt": {
             "score": 0,
@@ -132,43 +132,42 @@
       },
       "top_headlines": [
         {
-          "title": "Show HN: Rossino \u2013 Pomodoro timer for Mac/iPhone/iPad/Watch, exact-second sync",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49736114",
-          "date": "2026-09-17",
-          "sentiment_score": 0.0
+          "title": "PowerPoint Presentation Tips and Examples",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/powerpoint/",
+          "date": "2026-09-23",
+          "sentiment_score": 0.6369
         },
         {
-          "title": "The secret formula for Apple's rounded corners (2023)",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49723095",
-          "date": "2026-09-16",
-          "sentiment_score": 0.0
+          "title": "Return to Office policy black- and whitelist.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/ReturntoOffice/",
+          "date": "2026-09-23",
+          "sentiment_score": 0.8271
         },
         {
-          "title": "Playing Bad Apple on the brain of a simulated fruit fly",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49687295",
-          "date": "2026-09-13",
-          "sentiment_score": -0.4019
+          "title": "/r/Technology",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/technology/",
+          "date": "2026-09-23",
+          "sentiment_score": 0.6249
         },
         {
-          "title": "India launches tap-and-pay option for payments for full Apple Pay rollout",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49655360",
-          "date": "2026-09-11",
-          "sentiment_score": -0.1027
+          "title": "Need advice on how to talk my sister-in-law into moving home, after my brother-in-law (her husband) traveled overseas for a business trip and decided not to come back. Leaving my sister-in-law who is a stay-at-home mom to two teenagers and a baby on the way with nothing.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/BestofRedditorUpdates/comments/1wmz0gu/need_advice_on_how_to_talk_my_sisterinlaw_into/",
+          "date": "2026-09-22",
+          "sentiment_score": 0.9991
         },
         {
-          "title": "Getting 50 GB/S Back from the Apple Neural Engine",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49636479",
-          "date": "2026-09-10",
-          "sentiment_score": 0.0
+          "title": "(Selling) 4K & HD & Collections - Halloween Section On Top",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/DigitalCodeSELL/comments/1wk1u06/selling_4k_hd_collections_halloween_section_on_top/",
+          "date": "2026-09-18",
+          "sentiment_score": -0.9995
         }
       ],
       "sparkline": [
-        -0.09,
         -0.07,
         -0.0,
         0.16,
@@ -197,15 +196,16 @@
         -0.04,
         -0.04,
         -0.01,
-        -0.04
+        -0.04,
+        0.03
       ]
     },
     {
       "name": "Google",
       "sentiment": {
         "overall_score": -0.03,
-        "trend": "declining",
-        "previous_score": 0.28,
+        "trend": "stable",
+        "previous_score": -0.03,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -265,7 +265,6 @@
         }
       ],
       "sparkline": [
-        0.38,
         0.02,
         0.01,
         0.02,
@@ -294,6 +293,7 @@
         -0.06,
         0.28,
         0.28,
+        -0.03,
         -0.03
       ]
     },
@@ -302,7 +302,7 @@
       "sentiment": {
         "overall_score": 0.04,
         "trend": "stable",
-        "previous_score": 0.01,
+        "previous_score": 0.04,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -364,7 +364,6 @@
       "sparkline": [
         -0.05,
         -0.05,
-        -0.05,
         -0.14,
         0.49,
         -0.12,
@@ -391,6 +390,7 @@
         0.27,
         -0.01,
         0.01,
+        0.04,
         0.04
       ]
     },
@@ -398,8 +398,8 @@
       "name": "Microsoft",
       "sentiment": {
         "overall_score": 0.43,
-        "trend": "improving",
-        "previous_score": 0.1,
+        "trend": "stable",
+        "previous_score": 0.43,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -444,22 +444,21 @@
           "sentiment_score": 0.6249
         },
         {
+          "title": "Antigravity 2 Release: v2.16.0",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/google_antigravity/comments/1wnqoya/antigravity_2_release_v2160/",
+          "date": "2026-09-23",
+          "sentiment_score": 0.968
+        },
+        {
           "title": "Microsoft, Google took down $66M marketplace selling VMs with pirated software",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=49797111",
           "date": "2026-09-22",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Ask HN: Is it impossible to disable Siri on macOS 27?",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49786609",
-          "date": "2026-09-21",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        -0.14,
         0.27,
         0.28,
         -0.05,
@@ -488,6 +487,7 @@
         0.0,
         0.05,
         0.1,
+        0.43,
         0.43
       ]
     },
@@ -589,13 +589,13 @@
         }
       ],
       "sparkline": [
-        0.0,
         0.29,
         0.29,
         0.29,
         0.29,
         0.29,
         0.29,
+        0.57,
         0.57,
         0.57,
         0.57,
@@ -661,10 +661,10 @@
         0.0,
         0.0,
         0.0,
+        0.22,
+        0.22,
+        0.22,
         0.0,
-        0.22,
-        0.22,
-        0.22,
         0.0,
         0.0,
         0.0,
@@ -694,8 +694,8 @@
       "name": "Salesforce",
       "sentiment": {
         "overall_score": 0.47,
-        "trend": "declining",
-        "previous_score": 0.53,
+        "trend": "stable",
+        "previous_score": 0.47,
         "confidence": "high",
         "sample_size": 16,
         "source_scores": {
@@ -758,7 +758,6 @@
         0.86,
         0.86,
         0.86,
-        0.86,
         0.53,
         0.53,
         0.53,
@@ -784,15 +783,16 @@
         0.53,
         0.53,
         0.53,
+        0.47,
         0.47
       ]
     },
     {
       "name": "AT&T",
       "sentiment": {
-        "overall_score": 0.01,
+        "overall_score": 0.04,
         "trend": "stable",
-        "previous_score": 0.06,
+        "previous_score": 0.01,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -801,7 +801,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.01,
+            "score": 0.04,
             "count": 15
           },
           "reddit": {
@@ -852,7 +852,6 @@
         }
       ],
       "sparkline": [
-        -0.04,
         -0.01,
         -0.01,
         -0.22,
@@ -881,15 +880,16 @@
         0.06,
         0.06,
         0.06,
-        0.01
+        0.01,
+        0.04
       ]
     },
     {
       "name": "Disney",
       "sentiment": {
         "overall_score": 0.31,
-        "trend": "improving",
-        "previous_score": 0.21,
+        "trend": "stable",
+        "previous_score": 0.31,
         "confidence": "low",
         "sample_size": 2,
         "source_scores": {
@@ -928,7 +928,6 @@
         }
       ],
       "sparkline": [
-        -0.23,
         0,
         0,
         0,
@@ -957,17 +956,18 @@
         0.31,
         0.31,
         0.21,
+        0.31,
         0.31
       ]
     },
     {
       "name": "Dell",
       "sentiment": {
-        "overall_score": -0.11,
-        "trend": "stable",
+        "overall_score": 0.34,
+        "trend": "improving",
         "previous_score": -0.11,
         "confidence": "high",
-        "sample_size": 15,
+        "sample_size": 30,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -978,8 +978,8 @@
             "count": 15
           },
           "reddit": {
-            "score": 0,
-            "count": 0
+            "score": 0.61,
+            "count": 15
           },
           "gdelt": {
             "score": 0,
@@ -988,6 +988,27 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Return to Office policy black- and whitelist.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/ReturntoOffice/",
+          "date": "2026-09-23",
+          "sentiment_score": 0.8271
+        },
+        {
+          "title": "fullyremotework",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/fullyremotework/",
+          "date": "2026-09-23",
+          "sentiment_score": 0.5859
+        },
+        {
+          "title": "/r/Technology",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/technology/",
+          "date": "2026-09-23",
+          "sentiment_score": 0.6249
+        },
         {
           "title": "AI-controlled robot arms attempted harmful tasks 97% of the time",
           "source": "Hacker News",
@@ -1001,31 +1022,9 @@
           "url": "https://news.ycombinator.com/item?id=49787453",
           "date": "2026-09-21",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "AI-controlled robot arms attempted harmful tasks 97% of the time",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49785875",
-          "date": "2026-09-21",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "I got to see Google's wild ideas about the future of laptops",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49787847",
-          "date": "2026-09-21",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "Trump says U.S. working on deal to buy potash from Belarus instead of Canada",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49794512",
-          "date": "2026-09-21",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.13,
         0.1,
         0.12,
         0.1,
@@ -1054,29 +1053,30 @@
         -0.06,
         0.51,
         -0.11,
-        -0.11
+        -0.11,
+        0.34
       ]
     },
     {
       "name": "Tesla",
       "sentiment": {
-        "overall_score": 0.09,
-        "trend": "stable",
-        "previous_score": 0.11,
+        "overall_score": -0.1,
+        "trend": "declining",
+        "previous_score": 0.09,
         "confidence": "high",
-        "sample_size": 30,
+        "sample_size": 15,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.08,
+            "score": -0.1,
             "count": 15
           },
           "reddit": {
-            "score": 0.19,
-            "count": 15
+            "score": 0,
+            "count": 0
           },
           "gdelt": {
             "score": 0,
@@ -1093,36 +1093,35 @@
           "sentiment_score": 0.0
         },
         {
-          "title": "Return to Office policy black- and whitelist.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-09-23",
-          "sentiment_score": 0.8271
-        },
-        {
-          "title": "fullyremotework",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/fullyremotework/",
-          "date": "2026-09-23",
-          "sentiment_score": 0.5859
-        },
-        {
-          "title": "Antiwork: Unemployment for all, not just the rich!",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/antiwork/",
-          "date": "2026-09-23",
-          "sentiment_score": -0.3434
-        },
-        {
           "title": "Tesla Cooked and Then Lost Norway",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=49802575",
           "date": "2026-09-22",
           "sentiment_score": -0.3182
+        },
+        {
+          "title": "SpaceX Restricts Airspace over McGregor Facility Ahead of Tesla Roadster Event",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49786645",
+          "date": "2026-09-21",
+          "sentiment_score": -0.3182
+        },
+        {
+          "title": "NHTSA orders Tesla to prove its Cybercab is legal to sell, under oath",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49728202",
+          "date": "2026-09-16",
+          "sentiment_score": 0.128
+        },
+        {
+          "title": "Show HN: Analyzed 400 routes and driving a Tesla beats flying 65% of the time",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49707707",
+          "date": "2026-09-15",
+          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        -0.1,
         0.01,
         0.01,
         -0.08,
@@ -1151,7 +1150,8 @@
         0.08,
         -0.04,
         0.11,
-        0.09
+        0.09,
+        -0.1
       ]
     },
     {
@@ -1185,7 +1185,6 @@
       "sparkline": [
         0,
         0,
-        0,
         0.36,
         0,
         0,
@@ -1207,6 +1206,7 @@
         0,
         0,
         0.12,
+        0,
         0,
         0,
         0,
@@ -1219,8 +1219,8 @@
       "name": "Cisco",
       "sentiment": {
         "overall_score": -0.11,
-        "trend": "declining",
-        "previous_score": -0.02,
+        "trend": "stable",
+        "previous_score": -0.11,
         "confidence": "medium",
         "sample_size": 6,
         "source_scores": {
@@ -1280,7 +1280,6 @@
         }
       ],
       "sparkline": [
-        0.31,
         -0.04,
         -0.04,
         -0.23,
@@ -1309,6 +1308,7 @@
         -0.02,
         -0.02,
         -0.02,
+        -0.11,
         -0.11
       ]
     }
