@@ -1,30 +1,30 @@
 {
-  "last_updated": "2026-09-26T03:59:40.667398Z",
+  "last_updated": "2026-09-26T16:05:11.228640Z",
   "scraper_log": {
-    "duration_sec": 212.15,
-    "total_articles": 175,
+    "duration_sec": 256.31,
+    "total_articles": 197,
     "errors": []
   },
   "companies": [
     {
       "name": "Amazon",
       "sentiment": {
-        "overall_score": 0.07,
-        "trend": "declining",
-        "previous_score": 0.19,
+        "overall_score": 0.11,
+        "trend": "stable",
+        "previous_score": 0.07,
         "confidence": "high",
-        "sample_size": 25,
+        "sample_size": 24,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.03,
-            "count": 10
+            "score": 0.06,
+            "count": 9
           },
           "reddit": {
-            "score": 0.09,
+            "score": 0.14,
             "count": 15
           },
           "gdelt": {
@@ -35,16 +35,16 @@
       },
       "top_headlines": [
         {
+          "title": "Return to Office policy black- and whitelist.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/ReturntoOffice/",
+          "date": "2026-09-26",
+          "sentiment_score": 0.8271
+        },
+        {
           "title": "Look Up",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/superman/",
-          "date": "2026-09-26",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "DC Animated Universe",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/DCAU/",
           "date": "2026-09-26",
           "sentiment_score": 0.0
         },
@@ -56,22 +56,21 @@
           "sentiment_score": 0.6249
         },
         {
-          "title": "Show HN: I wrote a book on trading psychology, Daoism, and quant risk",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49851184",
-          "date": "2026-09-25",
-          "sentiment_score": -0.2732
-        },
-        {
           "title": "Amazon to Expand Robot-Making Capacity with New, $100M Indiana Hub",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=49830376",
           "date": "2026-09-24",
           "sentiment_score": 0.4588
+        },
+        {
+          "title": "I owe my Trump-supporting friends an apology. (an EXHAUSTING list of why I hate trump)",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/AntiTrumpAlliance/comments/1wp4lge/i_owe_my_trumpsupporting_friends_an_apology_an/",
+          "date": "2026-09-24",
+          "sentiment_score": -0.9998
         }
       ],
       "sparkline": [
-        0.21,
         0.21,
         0.18,
         0.2,
@@ -100,17 +99,18 @@
         0.27,
         0.22,
         0.19,
-        0.07
+        0.07,
+        0.11
       ]
     },
     {
       "name": "Apple",
       "sentiment": {
-        "overall_score": 0.04,
+        "overall_score": 0.06,
         "trend": "stable",
-        "previous_score": 0.02,
+        "previous_score": 0.04,
         "confidence": "high",
-        "sample_size": 15,
+        "sample_size": 30,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -121,8 +121,8 @@
             "count": 15
           },
           "reddit": {
-            "score": 0,
-            "count": 0
+            "score": 0.07,
+            "count": 15
           },
           "gdelt": {
             "score": 0,
@@ -132,6 +132,27 @@
       },
       "top_headlines": [
         {
+          "title": "Return to Office policy black- and whitelist.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/ReturntoOffice/",
+          "date": "2026-09-26",
+          "sentiment_score": 0.8271
+        },
+        {
+          "title": "PowerPoint Presentation Tips and Examples",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/powerpoint/",
+          "date": "2026-09-26",
+          "sentiment_score": 0.6369
+        },
+        {
+          "title": "/r/Technology",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/technology/",
+          "date": "2026-09-26",
+          "sentiment_score": 0.6249
+        },
+        {
           "title": "Fifteen years later, the Apple Cards origin story",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=49845804",
@@ -139,36 +160,14 @@
           "sentiment_score": 0.0
         },
         {
-          "title": "Show HN: Rossino \u2013 Pomodoro timer for Mac/iPhone/iPad/Watch, exact-second sync",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49736114",
-          "date": "2026-09-17",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "The secret formula for Apple's rounded corners (2023)",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49723095",
-          "date": "2026-09-16",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "Playing Bad Apple on the brain of a simulated fruit fly",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49687295",
-          "date": "2026-09-13",
-          "sentiment_score": -0.4019
-        },
-        {
-          "title": "Ask HN: What's a good \"semi-dumb\" phone/watch for kids?",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49668960",
-          "date": "2026-09-12",
-          "sentiment_score": 0.4404
+          "title": "Apple TV Originals on NYT\u2019s 100 Best TV Shows of the 21st Century",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/tvPlus/comments/1wq92cd/apple_tv_originals_on_nyts_100_best_tv_shows_of/",
+          "date": "2026-09-25",
+          "sentiment_score": 0.9684
         }
       ],
       "sparkline": [
-        -0.0,
         -0.0,
         0.09,
         -0.0,
@@ -197,15 +196,16 @@
         0.03,
         0.04,
         0.02,
-        0.04
+        0.04,
+        0.06
       ]
     },
     {
       "name": "Google",
       "sentiment": {
-        "overall_score": 0.01,
-        "trend": "declining",
-        "previous_score": 0.31,
+        "overall_score": -0.02,
+        "trend": "stable",
+        "previous_score": 0.01,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -214,7 +214,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.01,
+            "score": -0.02,
             "count": 15
           },
           "reddit": {
@@ -265,7 +265,6 @@
         }
       ],
       "sparkline": [
-        0.02,
         0.01,
         0.01,
         0.01,
@@ -294,14 +293,15 @@
         -0.03,
         -0.03,
         0.31,
-        0.01
+        0.01,
+        -0.02
       ]
     },
     {
       "name": "Meta",
       "sentiment": {
-        "overall_score": 0.03,
-        "trend": "stable",
+        "overall_score": -0.03,
+        "trend": "declining",
         "previous_score": 0.03,
         "confidence": "high",
         "sample_size": 15,
@@ -311,7 +311,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.03,
+            "score": -0.03,
             "count": 15
           },
           "reddit": {
@@ -325,6 +325,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "One company is at the center of a wave of rogue AI attacks",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49853692",
+          "date": "2026-09-26",
+          "sentiment_score": -0.4404
+        },
         {
           "title": "Meta takes down satirical video confronting Meta employees with Meta glasses",
           "source": "Hacker News",
@@ -352,17 +359,9 @@
           "url": "https://news.ycombinator.com/item?id=49750216",
           "date": "2026-09-18",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Show HN: Swift-Qwen3.8-27B, -58.3% thinking, x1.95 speed, accuracy of xhigh",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49727511",
-          "date": "2026-09-16",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.49,
         -0.12,
         -0.07,
         0.51,
@@ -391,25 +390,26 @@
         0.04,
         0.04,
         0.03,
-        0.03
+        0.03,
+        -0.03
       ]
     },
     {
       "name": "Microsoft",
       "sentiment": {
-        "overall_score": 0.4,
-        "trend": "improving",
-        "previous_score": 0.01,
+        "overall_score": 0.38,
+        "trend": "stable",
+        "previous_score": 0.4,
         "confidence": "high",
-        "sample_size": 27,
+        "sample_size": 30,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.01,
-            "count": 12
+            "score": -0.05,
+            "count": 15
           },
           "reddit": {
             "score": 0.63,
@@ -423,6 +423,13 @@
       },
       "top_headlines": [
         {
+          "title": "Nobody wanted an \"AI PC,\" so Microsoft stopped calling it that",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49854382",
+          "date": "2026-09-26",
+          "sentiment_score": -0.2911
+        },
+        {
           "title": "Microsoft Office 365: We all work together.",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/Office365/",
@@ -430,11 +437,11 @@
           "sentiment_score": 0.4019
         },
         {
-          "title": "Microsoft Office \u2013 News, updates, support, and more!",
+          "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
-          "url": "https://www.reddit.com/r/msoffice/",
+          "url": "https://www.reddit.com/r/ReturntoOffice/",
           "date": "2026-09-26",
-          "sentiment_score": 0.8513
+          "sentiment_score": 0.8271
         },
         {
           "title": "/r/Technology",
@@ -444,22 +451,14 @@
           "sentiment_score": 0.6249
         },
         {
-          "title": "Antigravity 2 Release: v2.16.0",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/google_antigravity/comments/1wnqoya/antigravity_2_release_v2160/",
-          "date": "2026-09-23",
-          "sentiment_score": 0.968
-        },
-        {
-          "title": "Microsoft killed FoxPro in 2007. Anyway, here's FoxPro revived",
+          "title": "Microsoft tried to ban \"Microslop\", and six months later it has given up",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49808023",
-          "date": "2026-09-22",
-          "sentiment_score": -0.6705
+          "url": "https://news.ycombinator.com/item?id=49827616",
+          "date": "2026-09-24",
+          "sentiment_score": -0.5574
         }
       ],
       "sparkline": [
-        -0.05,
         0.31,
         -0.04,
         -0.05,
@@ -488,7 +487,8 @@
         0.43,
         0.05,
         0.01,
-        0.4
+        0.4,
+        0.38
       ]
     },
     {
@@ -591,7 +591,7 @@
       "sparkline": [
         0.29,
         0.29,
-        0.29,
+        0.57,
         0.57,
         0.57,
         0.57,
@@ -660,7 +660,7 @@
       "sparkline": [
         0.22,
         0.22,
-        0.22,
+        0.0,
         0.0,
         0.0,
         0.0,
@@ -757,7 +757,6 @@
       "sparkline": [
         0.53,
         0.53,
-        0.53,
         0.86,
         0.86,
         0.86,
@@ -784,15 +783,16 @@
         0.47,
         0.43,
         0.5,
+        0.5,
         0.5
       ]
     },
     {
       "name": "AT&T",
       "sentiment": {
-        "overall_score": -0.01,
-        "trend": "declining",
-        "previous_score": 0.04,
+        "overall_score": -0.04,
+        "trend": "stable",
+        "previous_score": -0.01,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -801,7 +801,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.01,
+            "score": -0.04,
             "count": 15
           },
           "reddit": {
@@ -815,6 +815,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Pentium II at 600Mhz with Voodoo 3 Emulated on 86Box with M6 Mac Mini",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49841285",
+          "date": "2026-09-25",
+          "sentiment_score": 0.0
+        },
         {
           "title": "Meta takes down a critical video about meta AI Glasses after filming at Meta",
           "source": "Hacker News",
@@ -842,17 +849,9 @@
           "url": "https://news.ycombinator.com/item?id=49739018",
           "date": "2026-09-17",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Steam Frame starts at $1059",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49700661",
-          "date": "2026-09-14",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        -0.01,
         0.03,
         -0.15,
         0.03,
@@ -881,7 +880,8 @@
         0.04,
         0.06,
         0.04,
-        -0.01
+        -0.01,
+        -0.04
       ]
     },
     {
@@ -925,7 +925,6 @@
         0,
         0,
         0,
-        0,
         -0.23,
         0,
         0,
@@ -950,29 +949,30 @@
         0.31,
         0,
         0.44,
+        0.44,
         0.44
       ]
     },
     {
       "name": "Dell",
       "sentiment": {
-        "overall_score": -0.14,
-        "trend": "declining",
-        "previous_score": -0.07,
+        "overall_score": 0.34,
+        "trend": "improving",
+        "previous_score": -0.14,
         "confidence": "high",
-        "sample_size": 15,
+        "sample_size": 30,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.14,
+            "score": -0.12,
             "count": 15
           },
           "reddit": {
-            "score": 0,
-            "count": 0
+            "score": 0.61,
+            "count": 15
           },
           "gdelt": {
             "score": 0,
@@ -982,43 +982,42 @@
       },
       "top_headlines": [
         {
-          "title": "Tell HN: Stop emailing HN users with deceptive AI spam",
+          "title": "Thought on how to deal with AI crawlers",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49849134",
-          "date": "2026-09-25",
-          "sentiment_score": -0.5719
-        },
-        {
-          "title": "Ask HN: Who's still keeping a DOS machine up because the business depends on it?",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49848955",
-          "date": "2026-09-25",
+          "url": "https://news.ycombinator.com/item?id=49853899",
+          "date": "2026-09-26",
           "sentiment_score": 0.0
         },
         {
-          "title": "Ask HN: How do you deal with cyber attacks once you scale?",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49826381",
-          "date": "2026-09-24",
-          "sentiment_score": -0.4404
+          "title": "Return to Office policy black- and whitelist.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/ReturntoOffice/",
+          "date": "2026-09-26",
+          "sentiment_score": 0.8271
         },
         {
-          "title": "Show HN: Koi.rest \u2013 watch some fish and regain your balance",
+          "title": "fullyremotework",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/fullyremotework/",
+          "date": "2026-09-26",
+          "sentiment_score": 0.5859
+        },
+        {
+          "title": "/r/Technology",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/technology/",
+          "date": "2026-09-26",
+          "sentiment_score": 0.6249
+        },
+        {
+          "title": "Show HN: I made a 3D rock climbing analysis tool using iPhone LiDAR [video]",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49837006",
-          "date": "2026-09-24",
+          "url": "https://news.ycombinator.com/item?id=49849064",
+          "date": "2026-09-25",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "OpenAI is well positioned to fast-follow Jev",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49802161",
-          "date": "2026-09-22",
-          "sentiment_score": 0.2732
         }
       ],
       "sparkline": [
-        0.47,
         0.13,
         0.12,
         0.49,
@@ -1047,7 +1046,8 @@
         0.34,
         -0.11,
         -0.07,
-        -0.14
+        -0.14,
+        0.34
       ]
     },
     {
@@ -1055,7 +1055,7 @@
       "sentiment": {
         "overall_score": -0.1,
         "trend": "stable",
-        "previous_score": -0.12,
+        "previous_score": -0.1,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -1115,7 +1115,6 @@
         }
       ],
       "sparkline": [
-        -0.04,
         -0.12,
         -0.04,
         -0.12,
@@ -1144,17 +1143,18 @@
         -0.1,
         -0.11,
         -0.12,
+        -0.1,
         -0.1
       ]
     },
     {
       "name": "Caterpillar",
       "sentiment": {
-        "overall_score": 0.14,
-        "trend": "stable",
+        "overall_score": 0,
+        "trend": "declining",
         "previous_score": 0.14,
-        "confidence": "high",
-        "sample_size": 10,
+        "confidence": "low",
+        "sample_size": 0,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -1165,8 +1165,8 @@
             "count": 0
           },
           "reddit": {
-            "score": 0.14,
-            "count": 10
+            "score": 0,
+            "count": 0
           },
           "gdelt": {
             "score": 0,
@@ -1174,45 +1174,8 @@
           }
         }
       },
-      "top_headlines": [
-        {
-          "title": "Return to Office policy black- and whitelist.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-09-26",
-          "sentiment_score": 0.8271
-        },
-        {
-          "title": "fullyremotework",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/fullyremotework/",
-          "date": "2026-09-26",
-          "sentiment_score": 0.5859
-        },
-        {
-          "title": "NoToRTOCa",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/NoToRTOCa/",
-          "date": "2026-09-26",
-          "sentiment_score": -0.4723
-        },
-        {
-          "title": "The Daily Market Flux - Your Complete Market Rundown (09/22/2026)",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/MarketFluxHub/comments/1wnzha7/the_daily_market_flux_your_complete_market/",
-          "date": "2026-09-23",
-          "sentiment_score": -0.9249
-        },
-        {
-          "title": "[H] Frostpunk 2, Life is Strange, Diablo IV, Octopath Traveller II, Assassin's Creed, Aliens, Spyro, Shenmui, Tomb Raider, many more [W] Paypal or Venmo or Trade",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/indiegameswap/comments/1wmmv8h/h_frostpunk_2_life_is_strange_diablo_iv_octopath/",
-          "date": "2026-09-21",
-          "sentiment_score": -0.9996
-        }
-      ],
+      "top_headlines": [],
       "sparkline": [
-        0,
         0,
         0.36,
         0,
@@ -1241,15 +1204,16 @@
         0,
         0.07,
         0.14,
-        0.14
+        0.14,
+        0
       ]
     },
     {
       "name": "Cisco",
       "sentiment": {
         "overall_score": 0.11,
-        "trend": "improving",
-        "previous_score": -0.03,
+        "trend": "stable",
+        "previous_score": 0.11,
         "confidence": "low",
         "sample_size": 3,
         "source_scores": {
@@ -1295,7 +1259,6 @@
         }
       ],
       "sparkline": [
-        0.17,
         -0.33,
         -0.33,
         -0.16,
@@ -1324,6 +1287,7 @@
         -0.11,
         0.07,
         -0.03,
+        0.11,
         0.11
       ]
     }
