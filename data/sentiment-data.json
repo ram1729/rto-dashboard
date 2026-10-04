@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-10-04T04:45:00.944529Z",
+  "last_updated": "2026-10-04T16:39:52.017999Z",
   "scraper_log": {
-    "duration_sec": 225.19,
-    "total_articles": 186,
+    "duration_sec": 224.82,
+    "total_articles": 185,
     "errors": []
   },
   "companies": [
     {
       "name": "Amazon",
       "sentiment": {
-        "overall_score": 0.24,
+        "overall_score": 0.17,
         "trend": "declining",
-        "previous_score": 0.35,
+        "previous_score": 0.24,
         "confidence": "high",
         "sample_size": 25,
         "source_scores": {
@@ -20,11 +20,11 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.14,
+            "score": 0.12,
             "count": 10
           },
           "reddit": {
-            "score": 0.31,
+            "score": 0.2,
             "count": 15
           },
           "gdelt": {
@@ -34,6 +34,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Amazon responds to data center backlash, says it no longer uses NDAs",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49950827",
+          "date": "2026-10-04",
+          "sentiment_score": -0.128
+        },
         {
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
@@ -61,17 +68,9 @@
           "url": "https://news.ycombinator.com/item?id=49932896",
           "date": "2026-10-02",
           "sentiment_score": 0.6124
-        },
-        {
-          "title": "Amazon seeks to offload $8B of Nvidia chips to investors",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49933958",
-          "date": "2026-10-02",
-          "sentiment_score": 0.1779
         }
       ],
       "sparkline": [
-        0.3,
         0.31,
         0.31,
         0.25,
@@ -100,7 +99,8 @@
         0.3,
         0.35,
         0.35,
-        0.24
+        0.24,
+        0.17
       ]
     },
     {
@@ -108,7 +108,7 @@
       "sentiment": {
         "overall_score": -0.0,
         "trend": "stable",
-        "previous_score": 0.0,
+        "previous_score": -0.0,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -168,7 +168,6 @@
         }
       ],
       "sparkline": [
-        -0.04,
         0.2,
         -0.04,
         -0.06,
@@ -197,15 +196,16 @@
         -0.02,
         0.0,
         0.0,
+        -0.0,
         -0.0
       ]
     },
     {
       "name": "Google",
       "sentiment": {
-        "overall_score": -0.07,
+        "overall_score": -0.11,
         "trend": "stable",
-        "previous_score": -0.05,
+        "previous_score": -0.07,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -214,7 +214,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.07,
+            "score": -0.11,
             "count": 15
           },
           "reddit": {
@@ -267,7 +267,6 @@
       "sparkline": [
         -0.04,
         -0.04,
-        -0.04,
         0.33,
         -0.04,
         -0.04,
@@ -294,15 +293,16 @@
         -0.02,
         0.22,
         -0.05,
-        -0.07
+        -0.07,
+        -0.11
       ]
     },
     {
       "name": "Meta",
       "sentiment": {
         "overall_score": 0.2,
-        "trend": "improving",
-        "previous_score": -0.07,
+        "trend": "stable",
+        "previous_score": 0.2,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -315,7 +315,7 @@
             "count": 15
           },
           "reddit": {
-            "score": 0.36,
+            "score": 0.35,
             "count": 15
           },
           "gdelt": {
@@ -347,22 +347,21 @@
           "sentiment_score": 0.3612
         },
         {
+          "title": "A quick combat guide to animation cancelling and the best attributes for your weapons in DW3 Remaster",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/dynastywarriors/comments/1wx3dhk/a_quick_combat_guide_to_animation_cancelling_and/",
+          "date": "2026-10-04",
+          "sentiment_score": -0.9951
+        },
+        {
           "title": "She's funded by the Arnaults: A Recap",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/BLACKPINKSNARK/comments/1wu3kx8/shes_funded_by_the_arnaults_a_recap/",
           "date": "2026-09-30",
           "sentiment_score": 0.994
-        },
-        {
-          "title": "Trapped in a 27-Cycle Automated Ban Loop on WhatsApp: How Meta\u2019s Broken AI and Malicious Abuse Reporting Are Sabotaging Real Users",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/whatsapp/comments/1wt39qf/trapped_in_a_27cycle_automated_ban_loop_on/",
-          "date": "2026-09-29",
-          "sentiment_score": -0.9967
         }
       ],
       "sparkline": [
-        0.35,
         -0.08,
         0.35,
         -0.08,
@@ -391,6 +390,7 @@
         0.2,
         -0.07,
         -0.07,
+        0.2,
         0.2
       ]
     },
@@ -459,7 +459,6 @@
         }
       ],
       "sparkline": [
-        0.17,
         0.08,
         0.07,
         0.14,
@@ -485,6 +484,7 @@
         0.05,
         0.05,
         0.35,
+        0.04,
         0.04,
         0.04,
         0.04,
@@ -612,9 +612,9 @@
         0.57,
         0.57,
         0.57,
+        0.29,
+        0.29,
         0.57,
-        0.29,
-        0.29,
         0.57,
         0.57,
         0.57,
@@ -678,12 +678,12 @@
         0.0,
         0.0,
         0.0,
-        0.0,
         0.14,
         0.0,
         -0.03,
         -0.05,
         -0.14,
+        -0.32,
         -0.32,
         -0.32,
         -0.32,
@@ -693,19 +693,19 @@
     {
       "name": "Salesforce",
       "sentiment": {
-        "overall_score": 0.5,
-        "trend": "stable",
+        "overall_score": 0.44,
+        "trend": "declining",
         "previous_score": 0.5,
         "confidence": "high",
-        "sample_size": 17,
+        "sample_size": 18,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.19,
-            "count": 2
+            "score": 0.03,
+            "count": 3
           },
           "reddit": {
             "score": 0.68,
@@ -718,6 +718,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Show HN: Skins.dev \u2013 add the features missing from the web apps you use",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49955117",
+          "date": "2026-10-04",
+          "sentiment_score": -0.296
+        },
         {
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
@@ -745,17 +752,9 @@
           "url": "https://www.reddit.com/r/AI_Agents/comments/1wvqyik/top_10_ai_integration_companies_to_watch_in_2026/",
           "date": "2026-10-02",
           "sentiment_score": 0.9999
-        },
-        {
-          "title": "Top 10 AI Integration Companies to Watch in 2026",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/OpenAI/comments/1wvqz9b/top_10_ai_integration_companies_to_watch_in_2026/",
-          "date": "2026-10-02",
-          "sentiment_score": 0.9999
         }
       ],
       "sparkline": [
-        0.53,
         0.53,
         0.53,
         0.53,
@@ -784,15 +783,16 @@
         0.48,
         0.5,
         0.5,
-        0.5
+        0.5,
+        0.44
       ]
     },
     {
       "name": "AT&T",
       "sentiment": {
         "overall_score": 0.01,
-        "trend": "declining",
-        "previous_score": 0.09,
+        "trend": "stable",
+        "previous_score": 0.01,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -852,7 +852,6 @@
         }
       ],
       "sparkline": [
-        -0.02,
         -0.04,
         -0.06,
         -0.06,
@@ -881,6 +880,7 @@
         0.01,
         0.01,
         0.09,
+        0.01,
         0.01
       ]
     },
@@ -888,8 +888,8 @@
       "name": "Disney",
       "sentiment": {
         "overall_score": 0,
-        "trend": "declining",
-        "previous_score": 0.22,
+        "trend": "stable",
+        "previous_score": 0,
         "confidence": "low",
         "sample_size": 0,
         "source_scores": {
@@ -913,7 +913,6 @@
       },
       "top_headlines": [],
       "sparkline": [
-        -0.22,
         0,
         -0.01,
         0.0,
@@ -942,29 +941,30 @@
         0,
         0.07,
         0.22,
+        0,
         0
       ]
     },
     {
       "name": "Dell",
       "sentiment": {
-        "overall_score": 0.26,
-        "trend": "improving",
-        "previous_score": -0.12,
+        "overall_score": -0.09,
+        "trend": "declining",
+        "previous_score": 0.26,
         "confidence": "high",
-        "sample_size": 30,
+        "sample_size": 15,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.1,
+            "score": -0.09,
             "count": 15
           },
           "reddit": {
-            "score": 0.48,
-            "count": 15
+            "score": 0,
+            "count": 0
           },
           "gdelt": {
             "score": 0,
@@ -974,43 +974,42 @@
       },
       "top_headlines": [
         {
-          "title": "Return to Office policy black- and whitelist.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-10-04",
-          "sentiment_score": 0.8271
-        },
-        {
-          "title": "fullyremotework",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/fullyremotework/",
-          "date": "2026-10-04",
-          "sentiment_score": 0.5859
-        },
-        {
-          "title": "/r/Technology",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/technology/",
-          "date": "2026-10-04",
-          "sentiment_score": 0.6249
-        },
-        {
-          "title": "Trump vs Pelosi Trading Analysis is Eye Opening",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/smallstreetbets/comments/1wx2u7w/trump_vs_pelosi_trading_analysis_is_eye_opening/",
-          "date": "2026-10-04",
-          "sentiment_score": 0.9595
-        },
-        {
-          "title": "Is library building obsoleted by AI coding?",
+          "title": "U.S.-Russia Talks on Ukraine Now Involve an Oil Deal Tied to Trump Allies",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49947975",
-          "date": "2026-10-03",
+          "url": "https://news.ycombinator.com/item?id=49951910",
+          "date": "2026-10-04",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Ask HN: What to do with lots of spare compute in colocation?",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49932912",
+          "date": "2026-10-02",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Show HN: Kanmaps \u2013 Product roadmaps like videogame skill trees",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49916539",
+          "date": "2026-10-01",
+          "sentiment_score": 0.3612
+        },
+        {
+          "title": "Show HN: Open-source model routing for coding agents at Astra-level performance",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49911500",
+          "date": "2026-09-30",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Show HN: Perspica \u2013 A semantic diff for reviewing code",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49914005",
+          "date": "2026-09-30",
           "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.06,
         0.04,
         0.05,
         -0.07,
@@ -1039,29 +1038,30 @@
         -0.13,
         -0.15,
         -0.12,
-        0.26
+        0.26,
+        -0.09
       ]
     },
     {
       "name": "Tesla",
       "sentiment": {
-        "overall_score": -0.11,
-        "trend": "declining",
-        "previous_score": -0.06,
+        "overall_score": 0.3,
+        "trend": "improving",
+        "previous_score": -0.11,
         "confidence": "high",
-        "sample_size": 15,
+        "sample_size": 28,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.11,
-            "count": 15
+            "score": -0.13,
+            "count": 13
           },
           "reddit": {
-            "score": 0,
-            "count": 0
+            "score": 0.55,
+            "count": 15
           },
           "gdelt": {
             "score": 0,
@@ -1078,36 +1078,35 @@
           "sentiment_score": 0.0
         },
         {
-          "title": "Tesla patents 'Electric Fan Car' with 4 ducted fans ahead of Roadster reveal",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49912409",
-          "date": "2026-09-30",
-          "sentiment_score": 0.3182
+          "title": "Return to Office policy black- and whitelist.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/ReturntoOffice/",
+          "date": "2026-10-04",
+          "sentiment_score": 0.8271
         },
         {
-          "title": "Tesla workers balk at training Optimus humanoid robots as replacements",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49876186",
-          "date": "2026-09-28",
-          "sentiment_score": 0.0
+          "title": "fullyremotework",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/fullyremotework/",
+          "date": "2026-10-04",
+          "sentiment_score": 0.5859
         },
         {
-          "title": "Tesla workers balk at training Optimus humanoid robots as replacements",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49851856",
-          "date": "2026-09-26",
-          "sentiment_score": 0.0
+          "title": "Antiwork: Unemployment for all, not just the rich!",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/antiwork/",
+          "date": "2026-10-04",
+          "sentiment_score": -0.3434
         },
         {
-          "title": "Tesla Closes Texas Airspace for Roadster Launch Event",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49810425",
-          "date": "2026-09-23",
-          "sentiment_score": 0.0
+          "title": "A New Birth of Freedom: Election of 1896",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/Presidentialpoll/comments/1wvgxxp/a_new_birth_of_freedom_election_of_1896/",
+          "date": "2026-10-02",
+          "sentiment_score": 0.9991
         }
       ],
       "sparkline": [
-        -0.09,
         -0.09,
         -0.12,
         -0.12,
@@ -1136,7 +1135,8 @@
         0.32,
         -0.06,
         -0.06,
-        -0.11
+        -0.11,
+        0.3
       ]
     },
     {
@@ -1168,7 +1168,6 @@
       },
       "top_headlines": [],
       "sparkline": [
-        0,
         0.36,
         0.36,
         0.12,
@@ -1197,6 +1196,7 @@
         0,
         0,
         0,
+        0,
         0
       ]
     },
@@ -1204,8 +1204,8 @@
       "name": "Cisco",
       "sentiment": {
         "overall_score": -0.06,
-        "trend": "declining",
-        "previous_score": 0.02,
+        "trend": "stable",
+        "previous_score": -0.06,
         "confidence": "medium",
         "sample_size": 7,
         "source_scores": {
@@ -1265,7 +1265,6 @@
         }
       ],
       "sparkline": [
-        0.13,
         0.0,
         0.0,
         0.09,
@@ -1294,6 +1293,7 @@
         0.09,
         0.05,
         0.02,
+        -0.06,
         -0.06
       ]
     }
