@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-10-17T03:22:26.630747Z",
+  "last_updated": "2026-10-17T15:11:38.592255Z",
   "scraper_log": {
-    "duration_sec": 226.72,
-    "total_articles": 204,
+    "duration_sec": 210.48,
+    "total_articles": 190,
     "errors": []
   },
   "companies": [
@@ -10,18 +10,18 @@
       "name": "Amazon",
       "sentiment": {
         "overall_score": 0.28,
-        "trend": "declining",
-        "previous_score": 0.37,
+        "trend": "stable",
+        "previous_score": 0.28,
         "confidence": "high",
-        "sample_size": 27,
+        "sample_size": 29,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.11,
-            "count": 12
+            "score": 0.13,
+            "count": 14
           },
           "reddit": {
             "score": 0.38,
@@ -34,6 +34,20 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Amazon devices chief sees a future where AI devices replace the need to use apps",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50129954",
+          "date": "2026-10-17",
+          "sentiment_score": 0.1779
+        },
+        {
+          "title": "Formally verified AES-XTS: The first AES algorithm to join s2n-bignum",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50129087",
+          "date": "2026-10-17",
+          "sentiment_score": 0.296
+        },
         {
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
@@ -49,29 +63,14 @@
           "sentiment_score": 0.0
         },
         {
-          "title": "/r/Technology",
+          "title": "Amazon",
           "source": "Reddit",
-          "url": "https://www.reddit.com/r/technology/",
+          "url": "https://www.reddit.com/r/amazon/",
           "date": "2026-10-17",
-          "sentiment_score": 0.6249
-        },
-        {
-          "title": "Fail Closed: Human-AI Research Without Pretending to Know",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50123004",
-          "date": "2026-10-16",
-          "sentiment_score": -0.5853
-        },
-        {
-          "title": "Amazon has over 1M robot workers. What's next for human employees?",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50068117",
-          "date": "2026-10-13",
-          "sentiment_score": 0.1779
+          "sentiment_score": 0.5255
         }
       ],
       "sparkline": [
-        0.15,
         0.14,
         0.12,
         0.12,
@@ -100,15 +99,16 @@
         0.4,
         0.37,
         0.37,
+        0.28,
         0.28
       ]
     },
     {
       "name": "Apple",
       "sentiment": {
-        "overall_score": 0.07,
-        "trend": "improving",
-        "previous_score": -0.02,
+        "overall_score": 0.04,
+        "trend": "stable",
+        "previous_score": 0.07,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -117,7 +117,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.07,
+            "score": 0.04,
             "count": 15
           },
           "reddit": {
@@ -170,7 +170,6 @@
       "sparkline": [
         0.01,
         0.01,
-        0.01,
         0.12,
         0.01,
         0.01,
@@ -197,17 +196,18 @@
         -0.05,
         -0.02,
         -0.02,
-        0.07
+        0.07,
+        0.04
       ]
     },
     {
       "name": "Google",
       "sentiment": {
-        "overall_score": 0.2,
-        "trend": "improving",
-        "previous_score": -0.09,
+        "overall_score": -0.07,
+        "trend": "declining",
+        "previous_score": 0.2,
         "confidence": "high",
-        "sample_size": 30,
+        "sample_size": 15,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -218,8 +218,8 @@
             "count": 15
           },
           "reddit": {
-            "score": 0.37,
-            "count": 15
+            "score": 0,
+            "count": 0
           },
           "gdelt": {
             "score": 0,
@@ -229,43 +229,42 @@
       },
       "top_headlines": [
         {
-          "title": "Return to Office policy black- and whitelist.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-10-17",
-          "sentiment_score": 0.8271
-        },
-        {
-          "title": "PowerPoint Presentation Tips and Examples",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/powerpoint/",
-          "date": "2026-10-17",
-          "sentiment_score": 0.6369
-        },
-        {
-          "title": "Google",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/google/",
-          "date": "2026-10-17",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "# League Classic: What Actually Happened Behind the Scenes",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/LeagueClassic/comments/1x7petn/league_classic_what_actually_happened_behind_the/",
-          "date": "2026-10-16",
-          "sentiment_score": 0.9992
-        },
-        {
           "title": "SpaceX and Google said no. Now his software rides SpaceX rocket next to Google's",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=50088541",
           "date": "2026-10-14",
           "sentiment_score": 0.0
+        },
+        {
+          "title": "Google ships Gemini 4 Argon, Amex launches agent purchase authorization, plus",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50087077",
+          "date": "2026-10-14",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Google's new model, Argon, is only avaliabe to ultra users on Antigravity",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50080057",
+          "date": "2026-10-13",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Gemini 4 Argon",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50073879",
+          "date": "2026-10-13",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Gemini API RLS notes: 3.7-flash now routed to 3.8-flash, 3.5->3.6",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50039886",
+          "date": "2026-10-11",
+          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.22,
         -0.02,
         -0.02,
         -0.02,
@@ -294,15 +293,16 @@
         -0.09,
         0.19,
         -0.09,
-        0.2
+        0.2,
+        -0.07
       ]
     },
     {
       "name": "Meta",
       "sentiment": {
         "overall_score": -0.0,
-        "trend": "declining",
-        "previous_score": 0.22,
+        "trend": "stable",
+        "previous_score": -0.0,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -363,7 +363,6 @@
       ],
       "sparkline": [
         -0.03,
-        -0.03,
         0.2,
         -0.07,
         -0.07,
@@ -391,29 +390,30 @@
         -0.0,
         -0.0,
         0.22,
+        -0.0,
         -0.0
       ]
     },
     {
       "name": "Microsoft",
       "sentiment": {
-        "overall_score": 0.06,
-        "trend": "stable",
-        "previous_score": 0.04,
+        "overall_score": 0.26,
+        "trend": "improving",
+        "previous_score": 0.06,
         "confidence": "high",
-        "sample_size": 15,
+        "sample_size": 30,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.06,
+            "score": 0.03,
             "count": 15
           },
           "reddit": {
-            "score": 0,
-            "count": 0
+            "score": 0.4,
+            "count": 15
           },
           "gdelt": {
             "score": 0,
@@ -423,43 +423,42 @@
       },
       "top_headlines": [
         {
+          "title": "Show HN: UAC-Less Sudo for Windows",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50131539",
+          "date": "2026-10-17",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Microsoft Office 365: We all work together.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/Office365/",
+          "date": "2026-10-17",
+          "sentiment_score": 0.4019
+        },
+        {
+          "title": "Return to Office policy black- and whitelist.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/ReturntoOffice/",
+          "date": "2026-10-17",
+          "sentiment_score": 0.8271
+        },
+        {
+          "title": "/r/Technology",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/technology/",
+          "date": "2026-10-17",
+          "sentiment_score": 0.6249
+        },
+        {
           "title": "AI Revolution vs. Computing Revolution",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=50120075",
           "date": "2026-10-16",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Dutch tax authorities cancel Microsoft 365 cloud rollout and turn to open source",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50078691",
-          "date": "2026-10-13",
-          "sentiment_score": -0.25
-        },
-        {
-          "title": "Clean room Adobe/Microsoft forks are rapidly improving",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50069802",
-          "date": "2026-10-13",
-          "sentiment_score": 0.6705
-        },
-        {
-          "title": "An open-source, clean-room reimplementation of Microsoft Word in pure Rust",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50050370",
-          "date": "2026-10-12",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "Open-source Microsoft Excel, PowerPoint, and Word replications",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50043110",
-          "date": "2026-10-11",
-          "sentiment_score": 0.4588
         }
       ],
       "sparkline": [
-        0.01,
         0.41,
         0.05,
         0.05,
@@ -488,7 +487,8 @@
         0.24,
         0.04,
         0.04,
-        0.06
+        0.06,
+        0.26
       ]
     },
     {
@@ -585,7 +585,6 @@
         0.57,
         0.57,
         0.57,
-        0.57,
         0.29,
         0.29,
         0.57,
@@ -593,6 +592,7 @@
         0.57,
         0.57,
         0.57,
+        0,
         0,
         0,
         0,
@@ -665,7 +665,6 @@
       ],
       "sparkline": [
         0.0,
-        0.0,
         0.14,
         0.0,
         -0.03,
@@ -693,17 +692,18 @@
         0.0,
         0.0,
         -0.03,
+        -0.03,
         -0.03
       ]
     },
     {
       "name": "Salesforce",
       "sentiment": {
-        "overall_score": 0.54,
-        "trend": "improving",
-        "previous_score": 0.47,
-        "confidence": "high",
-        "sample_size": 16,
+        "overall_score": 0.0,
+        "trend": "declining",
+        "previous_score": 0.54,
+        "confidence": "low",
+        "sample_size": 1,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -714,8 +714,8 @@
             "count": 1
           },
           "reddit": {
-            "score": 0.86,
-            "count": 15
+            "score": 0,
+            "count": 0
           },
           "gdelt": {
             "score": 0,
@@ -725,43 +725,14 @@
       },
       "top_headlines": [
         {
-          "title": "Return to Office policy black- and whitelist.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-10-17",
-          "sentiment_score": 0.8271
-        },
-        {
-          "title": "fullyremotework",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/fullyremotework/",
-          "date": "2026-10-17",
-          "sentiment_score": 0.5859
-        },
-        {
-          "title": "NoToRTOCa",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/NoToRTOCa/",
-          "date": "2026-10-17",
-          "sentiment_score": -0.4723
-        },
-        {
-          "title": "CPA - laid off since a May 2025. Am I cooked?",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/Accounting/comments/1x6rmc4/cpa_laid_off_since_a_may_2025_am_i_cooked/",
-          "date": "2026-10-15",
-          "sentiment_score": 0.9989
-        },
-        {
-          "title": "This Week's Top E-commerce News Stories \ud83d\udca5 October 12th, 2026",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/shopify/comments/1x4fhfc/this_weeks_top_ecommerce_news_stories_october/",
-          "date": "2026-10-12",
-          "sentiment_score": 0.9996
+          "title": "Salesforce tracing without debug logs: every trigger, field write, and rollback",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49756146",
+          "date": "2026-09-18",
+          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.5,
         0.48,
         0.49,
         0.49,
@@ -790,15 +761,16 @@
         0.47,
         0.47,
         0.47,
-        0.54
+        0.54,
+        0.0
       ]
     },
     {
       "name": "AT&T",
       "sentiment": {
-        "overall_score": 0.01,
-        "trend": "improving",
-        "previous_score": -0.05,
+        "overall_score": 0.0,
+        "trend": "stable",
+        "previous_score": 0.01,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -807,7 +779,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.01,
+            "score": -0.05,
             "count": 15
           },
           "reddit": {
@@ -858,7 +830,6 @@
         }
       ],
       "sparkline": [
-        0.05,
         -0.04,
         0.01,
         0.11,
@@ -887,15 +858,16 @@
         0.01,
         0.01,
         -0.05,
-        0.01
+        0.01,
+        0.0
       ]
     },
     {
       "name": "Disney",
       "sentiment": {
         "overall_score": -0.09,
-        "trend": "declining",
-        "previous_score": 0.11,
+        "trend": "stable",
+        "previous_score": -0.09,
         "confidence": "low",
         "sample_size": 2,
         "source_scores": {
@@ -934,7 +906,6 @@
         }
       ],
       "sparkline": [
-        0,
         0.44,
         0.21,
         0.44,
@@ -963,15 +934,16 @@
         0.09,
         0.11,
         0.11,
+        -0.09,
         -0.09
       ]
     },
     {
       "name": "Dell",
       "sentiment": {
-        "overall_score": 0.02,
+        "overall_score": 0.0,
         "trend": "stable",
-        "previous_score": -0.03,
+        "previous_score": 0.02,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -980,7 +952,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.02,
+            "score": 0.0,
             "count": 15
           },
           "reddit": {
@@ -998,6 +970,13 @@
           "title": "Proofpoint to buy Varonis Systems in $6.3B all-cash deal",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=50114912",
+          "date": "2026-10-16",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Rosemont Residency Master Plan \u2013 Project Layout and Details",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50117216",
           "date": "2026-10-16",
           "sentiment_score": 0.0
         },
@@ -1021,17 +1000,9 @@
           "url": "https://news.ycombinator.com/item?id=50095323",
           "date": "2026-10-14",
           "sentiment_score": 0.2755
-        },
-        {
-          "title": "Show HN: A calendar of every Chinese holiday your supplier will cite as a delay",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50054095",
-          "date": "2026-10-12",
-          "sentiment_score": 0.1027
         }
       ],
       "sparkline": [
-        -0.13,
         -0.18,
         -0.11,
         -0.04,
@@ -1060,15 +1031,16 @@
         -0.0,
         0.02,
         -0.03,
-        0.02
+        0.02,
+        0.0
       ]
     },
     {
       "name": "Tesla",
       "sentiment": {
         "overall_score": -0.01,
-        "trend": "improving",
-        "previous_score": -0.09,
+        "trend": "stable",
+        "previous_score": -0.01,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -1128,7 +1100,6 @@
         }
       ],
       "sparkline": [
-        -0.1,
         0.23,
         -0.08,
         -0.08,
@@ -1157,90 +1128,30 @@
         0.2,
         -0.03,
         -0.09,
+        -0.01,
         -0.01
       ]
     },
     {
       "name": "Caterpillar",
       "sentiment": {
-        "overall_score": 0,
-        "trend": "stable",
+        "overall_score": 0.11,
+        "trend": "improving",
         "previous_score": 0,
-        "confidence": "low",
-        "sample_size": 0,
-        "source_scores": {
-          "google_news": {
-            "score": 0,
-            "count": 0
-          },
-          "hackernews": {
-            "score": 0,
-            "count": 0
-          },
-          "reddit": {
-            "score": 0,
-            "count": 0
-          },
-          "gdelt": {
-            "score": 0,
-            "count": 0
-          }
-        }
-      },
-      "top_headlines": [],
-      "sparkline": [
-        0.14,
-        0,
-        0,
-        0.13,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0.09,
-        0.09,
-        0.09,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0.09,
-        0,
-        0,
-        0,
-        0.11,
-        0,
-        0
-      ]
-    },
-    {
-      "name": "Cisco",
-      "sentiment": {
-        "overall_score": 0.06,
-        "trend": "stable",
-        "previous_score": 0.04,
         "confidence": "high",
-        "sample_size": 21,
+        "sample_size": 13,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.16,
-            "count": 7
+            "score": 0,
+            "count": 0
           },
           "reddit": {
-            "score": 0.19,
-            "count": 14
+            "score": 0.11,
+            "count": 13
           },
           "gdelt": {
             "score": 0,
@@ -1271,6 +1182,82 @@
           "sentiment_score": -0.4723
         },
         {
+          "title": "Roast my CV - Switz edition",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/ItaliaCareerAdvice/comments/1x7km9v/roast_my_cv_switz_edition/",
+          "date": "2026-10-16",
+          "sentiment_score": -0.5399
+        },
+        {
+          "title": "UAW election debacle: More than 90 percent of members boycott vote, as apparatus reinstalls Fain",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/Trotskyism/comments/1x4egvy/uaw_election_debacle_more_than_90_percent_of/",
+          "date": "2026-10-12",
+          "sentiment_score": 0.9729
+        }
+      ],
+      "sparkline": [
+        0,
+        0,
+        0.13,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.09,
+        0.09,
+        0.09,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.09,
+        0,
+        0,
+        0,
+        0.11,
+        0,
+        0,
+        0.11
+      ]
+    },
+    {
+      "name": "Cisco",
+      "sentiment": {
+        "overall_score": -0.16,
+        "trend": "declining",
+        "previous_score": 0.06,
+        "confidence": "medium",
+        "sample_size": 7,
+        "source_scores": {
+          "google_news": {
+            "score": 0,
+            "count": 0
+          },
+          "hackernews": {
+            "score": -0.16,
+            "count": 7
+          },
+          "reddit": {
+            "score": 0,
+            "count": 0
+          },
+          "gdelt": {
+            "score": 0,
+            "count": 0
+          }
+        }
+      },
+      "top_headlines": [
+        {
           "title": "Hole in Neanderthal shoulder bone linked to ancient wooden spear",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=50107684",
@@ -1278,15 +1265,35 @@
           "sentiment_score": 0.0
         },
         {
-          "title": "Goodwill finds",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/vinyl/comments/1x6vdke/goodwill_finds/",
-          "date": "2026-10-15",
-          "sentiment_score": 0.555
+          "title": "Ukraine Starlink Access Restricted as Musk Says Zelensky 'Has Gone Too Far'",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50094910",
+          "date": "2026-10-14",
+          "sentiment_score": -0.3818
+        },
+        {
+          "title": "'Nothing About This Was Inevitable'",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50019559",
+          "date": "2026-10-09",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Musk explains why Tesla Robotaxi isn't running at night, and Lidar is the answer",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49950226",
+          "date": "2026-10-04",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Behind the killer robots of Ukraine's new warfare 'revolution'",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49947440",
+          "date": "2026-10-03",
+          "sentiment_score": -0.7579
         }
       ],
       "sparkline": [
-        0.11,
         0.06,
         0.02,
         0.06,
@@ -1315,7 +1322,8 @@
         -0.07,
         -0.13,
         0.04,
-        0.06
+        0.06,
+        -0.16
       ]
     }
   ]
