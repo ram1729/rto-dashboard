@@ -1,30 +1,30 @@
 {
-  "last_updated": "2026-10-22T16:54:25.072685Z",
+  "last_updated": "2026-10-23T03:45:19.416799Z",
   "scraper_log": {
-    "duration_sec": 222.96,
-    "total_articles": 188,
+    "duration_sec": 204.66,
+    "total_articles": 204,
     "errors": []
   },
   "companies": [
     {
       "name": "Amazon",
       "sentiment": {
-        "overall_score": 0.51,
-        "trend": "improving",
-        "previous_score": 0.3,
+        "overall_score": 0.48,
+        "trend": "stable",
+        "previous_score": 0.51,
         "confidence": "high",
-        "sample_size": 15,
+        "sample_size": 30,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0,
-            "count": 0
+            "score": 0.23,
+            "count": 15
           },
           "reddit": {
-            "score": 0.51,
+            "score": 0.64,
             "count": 15
           },
           "gdelt": {
@@ -38,40 +38,39 @@
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-10-22",
+          "date": "2026-10-23",
           "sentiment_score": 0.8271
         },
         {
           "title": "Look Up",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/superman/",
-          "date": "2026-10-22",
+          "date": "2026-10-23",
           "sentiment_score": 0.0
         },
         {
           "title": "Amazon",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/amazon/",
-          "date": "2026-10-22",
+          "date": "2026-10-23",
           "sentiment_score": 0.5255
         },
         {
-          "title": "October 16-18 Box Office Recap \u2013 'Street Fighter' disappoints with $50.8M worldwide, below expectations. But 'You Can See Everything' massively over-performs with $15.6M domestically, the second biggest debut for a documentary. 'Whalefall' and 'Sense and Sensibility' post unremarkable starts.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/movies/comments/1xaf1ix/october_1618_box_office_recap_street_fighter/",
-          "date": "2026-10-20",
-          "sentiment_score": 0.9984
+          "title": "Amazon is buying billions in Nvidia AI systems it can't yet turn on",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50199951",
+          "date": "2026-10-22",
+          "sentiment_score": 0.1779
         },
         {
-          "title": "The year is 2036. A patient walks into an American ED.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/emergencymedicine/comments/1xas96c/the_year_is_2036_a_patient_walks_into_an_american/",
-          "date": "2026-10-20",
-          "sentiment_score": 0.9534
+          "title": "Amazon identifies PHP2Shell exploitation prior to public disclosure",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50189623",
+          "date": "2026-10-22",
+          "sentiment_score": 0.1779
         }
       ],
       "sparkline": [
-        0.35,
         0.35,
         0.24,
         0.17,
@@ -100,15 +99,16 @@
         0.34,
         0.32,
         0.3,
-        0.51
+        0.51,
+        0.48
       ]
     },
     {
       "name": "Apple",
       "sentiment": {
-        "overall_score": 0.42,
+        "overall_score": 0.51,
         "trend": "improving",
-        "previous_score": 0.06,
+        "previous_score": 0.42,
         "confidence": "high",
         "sample_size": 30,
         "source_scores": {
@@ -121,7 +121,7 @@
             "count": 15
           },
           "reddit": {
-            "score": 0.61,
+            "score": 0.74,
             "count": 15
           },
           "gdelt": {
@@ -135,21 +135,21 @@
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-10-22",
+          "date": "2026-10-23",
           "sentiment_score": 0.8271
         },
         {
           "title": "PowerPoint Presentation Tips and Examples",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/powerpoint/",
-          "date": "2026-10-22",
+          "date": "2026-10-23",
           "sentiment_score": 0.6369
         },
         {
           "title": "/r/Technology",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/technology/",
-          "date": "2026-10-22",
+          "date": "2026-10-23",
           "sentiment_score": 0.6249
         },
         {
@@ -168,7 +168,6 @@
         }
       ],
       "sparkline": [
-        0.0,
         0.0,
         -0.0,
         -0.0,
@@ -197,7 +196,8 @@
         0.57,
         0.04,
         0.06,
-        0.42
+        0.42,
+        0.51
       ]
     },
     {
@@ -205,7 +205,7 @@
       "sentiment": {
         "overall_score": -0.05,
         "trend": "stable",
-        "previous_score": -0.02,
+        "previous_score": -0.05,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -265,7 +265,6 @@
         }
       ],
       "sparkline": [
-        0.22,
         -0.05,
         -0.07,
         -0.11,
@@ -294,13 +293,14 @@
         -0.0,
         0.23,
         -0.02,
+        -0.05,
         -0.05
       ]
     },
     {
       "name": "Meta",
       "sentiment": {
-        "overall_score": -0.02,
+        "overall_score": -0.03,
         "trend": "stable",
         "previous_score": -0.02,
         "confidence": "high",
@@ -311,7 +311,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.02,
+            "score": -0.03,
             "count": 15
           },
           "reddit": {
@@ -325,6 +325,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Robinson vs. Meta Platforms and the Cdafa Consent Defense",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50203985",
+          "date": "2026-10-23",
+          "sentiment_score": 0.34
+        },
         {
           "title": "Big Tech Will Not Broadcast Your Dissent",
           "source": "Hacker News",
@@ -352,17 +359,9 @@
           "url": "https://news.ycombinator.com/item?id=50066493",
           "date": "2026-10-13",
           "sentiment_score": 0.4404
-        },
-        {
-          "title": "Show HN: CircleIt \u2013 Circle something on a web page, your coding agent fixes it",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50020545",
-          "date": "2026-10-09",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        -0.07,
         -0.07,
         0.2,
         0.2,
@@ -391,15 +390,16 @@
         -0.0,
         -0.0,
         -0.02,
-        -0.02
+        -0.02,
+        -0.03
       ]
     },
     {
       "name": "Microsoft",
       "sentiment": {
         "overall_score": 0.04,
-        "trend": "declining",
-        "previous_score": 0.18,
+        "trend": "stable",
+        "previous_score": 0.04,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -464,7 +464,6 @@
         0.04,
         0.04,
         0.04,
-        0.04,
         0.08,
         0.08,
         0.07,
@@ -488,6 +487,7 @@
         0.05,
         0.04,
         0.18,
+        0.04,
         0.04
       ]
     },
@@ -556,8 +556,8 @@
       "name": "Goldman Sachs",
       "sentiment": {
         "overall_score": -0.3,
-        "trend": "declining",
-        "previous_score": 0.0,
+        "trend": "stable",
+        "previous_score": -0.3,
         "confidence": "low",
         "sample_size": 1,
         "source_scores": {
@@ -592,7 +592,6 @@
         0.57,
         0.57,
         0.57,
-        0.57,
         0,
         0,
         0,
@@ -618,6 +617,7 @@
         0.0,
         0.0,
         0.0,
+        -0.3,
         -0.3
       ]
     },
@@ -654,7 +654,6 @@
         -0.32,
         -0.32,
         -0.32,
-        -0.32,
         0,
         -0.65,
         -0.65,
@@ -679,15 +678,16 @@
         0,
         0,
         0,
+        0,
         0
       ]
     },
     {
       "name": "Salesforce",
       "sentiment": {
-        "overall_score": 0.86,
-        "trend": "improving",
-        "previous_score": 0.66,
+        "overall_score": 0.9,
+        "trend": "stable",
+        "previous_score": 0.86,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -700,7 +700,7 @@
             "count": 0
           },
           "reddit": {
-            "score": 0.86,
+            "score": 0.9,
             "count": 15
           },
           "gdelt": {
@@ -710,27 +710,6 @@
         }
       },
       "top_headlines": [
-        {
-          "title": "Return to Office policy black- and whitelist.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-10-22",
-          "sentiment_score": 0.8271
-        },
-        {
-          "title": "fullyremotework",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/fullyremotework/",
-          "date": "2026-10-22",
-          "sentiment_score": 0.5859
-        },
-        {
-          "title": "NoToRTOCa",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/NoToRTOCa/",
-          "date": "2026-10-22",
-          "sentiment_score": -0.4723
-        },
         {
           "title": "Looking for a new job",
           "source": "Reddit",
@@ -744,10 +723,30 @@
           "url": "https://www.reddit.com/r/Accounting/comments/1x6rmc4/cpa_laid_off_since_a_may_2025_am_i_cooked/",
           "date": "2026-10-15",
           "sentiment_score": 0.9989
+        },
+        {
+          "title": "This Week's Top E-commerce News Stories \ud83d\udca5 October 12th, 2026",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/shopify/comments/1x4fhfc/this_weeks_top_ecommerce_news_stories_october/",
+          "date": "2026-10-12",
+          "sentiment_score": 0.9996
+        },
+        {
+          "title": "E-commerce Industry News Recap \ud83d\udd25 Week of October 12th, 2026",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/ecommerce/comments/1x4fh1z/ecommerce_industry_news_recap_week_of_october/",
+          "date": "2026-10-12",
+          "sentiment_score": 0.9996
+        },
+        {
+          "title": "What's new in e-commerce? \ud83d\udd25 Week of October 12th, 2026",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/ShopifyeCommerce/comments/1x4fha2/whats_new_in_ecommerce_week_of_october_12th_2026/",
+          "date": "2026-10-12",
+          "sentiment_score": 0.9996
         }
       ],
       "sparkline": [
-        0.5,
         0.5,
         0.5,
         0.44,
@@ -776,7 +775,8 @@
         0.86,
         0.72,
         0.66,
-        0.86
+        0.86,
+        0.9
       ]
     },
     {
@@ -784,7 +784,7 @@
       "sentiment": {
         "overall_score": -0.06,
         "trend": "stable",
-        "previous_score": -0.05,
+        "previous_score": -0.06,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -844,7 +844,6 @@
         }
       ],
       "sparkline": [
-        0.01,
         0.09,
         0.01,
         0.01,
@@ -873,28 +872,29 @@
         0.08,
         0.08,
         -0.05,
+        -0.06,
         -0.06
       ]
     },
     {
       "name": "Disney",
       "sentiment": {
-        "overall_score": -0.0,
-        "trend": "stable",
-        "previous_score": -0.03,
+        "overall_score": 0.09,
+        "trend": "improving",
+        "previous_score": -0.0,
         "confidence": "high",
-        "sample_size": 15,
+        "sample_size": 16,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0,
-            "count": 0
+            "score": -0.17,
+            "count": 1
           },
           "reddit": {
-            "score": -0.0,
+            "score": 0.25,
             "count": 15
           },
           "gdelt": {
@@ -908,40 +908,39 @@
           "title": "Return to Office policy black- and whitelist.",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-10-22",
+          "date": "2026-10-23",
           "sentiment_score": 0.8271
         },
         {
           "title": "The Book of Boba Fett",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/BookOfBobaFett/",
-          "date": "2026-10-22",
+          "date": "2026-10-23",
           "sentiment_score": -0.5848
         },
         {
           "title": "Box Office - The Business of Movies",
           "source": "Reddit",
           "url": "https://www.reddit.com/r/boxoffice/",
-          "date": "2026-10-22",
+          "date": "2026-10-23",
           "sentiment_score": 0.0
         },
         {
-          "title": "I filed a formal complaint against my male MAGA psychiatrist",
+          "title": "\u2018Star Wars: Starfighter\u2019 Outspends \u2018The Force Awakens\u2019 With Costs Of $226.5 Million",
           "source": "Reddit",
-          "url": "https://www.reddit.com/r/GirlDinnerDiaries/comments/1xajt4s/i_filed_a_formal_complaint_against_my_male_maga/",
-          "date": "2026-10-20",
-          "sentiment_score": 0.9007
+          "url": "https://www.reddit.com/r/StarWars/comments/1xcntj5/star_wars_starfighter_outspends_the_force_awakens/",
+          "date": "2026-10-22",
+          "sentiment_score": 0.9478
         },
         {
-          "title": "Disney Heroes - What could have been.",
+          "title": "\u2018Star Wars: Starfighter\u2019 Outspends \u2018The Force Awakens\u2019 With Costs Of $226.5 Million",
           "source": "Reddit",
-          "url": "https://www.reddit.com/r/disney/comments/1x9nlmw/disney_heroes_what_could_have_been/",
-          "date": "2026-10-19",
-          "sentiment_score": 0.9973
+          "url": "https://www.reddit.com/r/StarWarsLeaks/comments/1xcmcuy/star_wars_starfighter_outspends_the_force_awakens/",
+          "date": "2026-10-22",
+          "sentiment_score": 0.9288
         }
       ],
       "sparkline": [
-        0.07,
         0.22,
         0,
         0,
@@ -970,7 +969,8 @@
         0,
         -0.03,
         -0.03,
-        -0.0
+        -0.0,
+        0.09
       ]
     },
     {
@@ -978,7 +978,7 @@
       "sentiment": {
         "overall_score": -0.07,
         "trend": "stable",
-        "previous_score": -0.04,
+        "previous_score": -0.07,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -1038,7 +1038,6 @@
         }
       ],
       "sparkline": [
-        -0.15,
         -0.12,
         0.26,
         -0.09,
@@ -1067,15 +1066,16 @@
         -0.04,
         -0.01,
         -0.04,
+        -0.07,
         -0.07
       ]
     },
     {
       "name": "Tesla",
       "sentiment": {
-        "overall_score": -0.01,
-        "trend": "declining",
-        "previous_score": 0.05,
+        "overall_score": 0.01,
+        "trend": "stable",
+        "previous_score": -0.01,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -1084,7 +1084,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.01,
+            "score": 0.01,
             "count": 15
           },
           "reddit": {
@@ -1098,6 +1098,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Post-training 4B model with RL to fly Tesla Roadster 21% better than GPT-6 Astra",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50197622",
+          "date": "2026-10-22",
+          "sentiment_score": 0.4404
+        },
         {
           "title": "Can the Tesla Roadster Fly?",
           "source": "Hacker News",
@@ -1125,17 +1132,9 @@
           "url": "https://news.ycombinator.com/item?id=50116255",
           "date": "2026-10-16",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Tesla Roadster: It Flies, Flips, and Hits 0-60 in 0.81s",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50118525",
-          "date": "2026-10-16",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        -0.06,
         -0.06,
         -0.11,
         0.3,
@@ -1164,7 +1163,8 @@
         -0.01,
         0.12,
         0.05,
-        -0.01
+        -0.01,
+        0.01
       ]
     },
     {
@@ -1201,7 +1201,6 @@
         0,
         0,
         0,
-        0,
         0.09,
         0.09,
         0.09,
@@ -1225,15 +1224,16 @@
         0.26,
         0,
         0,
+        0,
         0
       ]
     },
     {
       "name": "Cisco",
       "sentiment": {
-        "overall_score": 0.14,
+        "overall_score": 0.2,
         "trend": "improving",
-        "previous_score": -0.15,
+        "previous_score": 0.14,
         "confidence": "high",
         "sample_size": 22,
         "source_scores": {
@@ -1243,11 +1243,11 @@
           },
           "hackernews": {
             "score": -0.09,
-            "count": 8
+            "count": 9
           },
           "reddit": {
-            "score": 0.29,
-            "count": 14
+            "score": 0.38,
+            "count": 13
           },
           "gdelt": {
             "score": 0,
@@ -1257,6 +1257,27 @@
       },
       "top_headlines": [
         {
+          "title": "Return to Office policy black- and whitelist.",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/ReturntoOffice/",
+          "date": "2026-10-23",
+          "sentiment_score": 0.8271
+        },
+        {
+          "title": "fullyremotework",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/fullyremotework/",
+          "date": "2026-10-23",
+          "sentiment_score": 0.5859
+        },
+        {
+          "title": "NoToRTOCa",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/NoToRTOCa/",
+          "date": "2026-10-23",
+          "sentiment_score": -0.4723
+        },
+        {
           "title": "The Kessler Syndrome (where blowups multiply exponentially) applied to software",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=50189771",
@@ -1264,36 +1285,14 @@
           "sentiment_score": 0.0
         },
         {
-          "title": "America Is About to See What Happens When Voters Turn to AI",
+          "title": "Canadian Officers Don't Want to Serve in the U.S. Anymore",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50196419",
+          "url": "https://news.ycombinator.com/item?id=50201264",
           "date": "2026-10-22",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "Return to Office policy black- and whitelist.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-10-22",
-          "sentiment_score": 0.8271
-        },
-        {
-          "title": "fullyremotework",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/fullyremotework/",
-          "date": "2026-10-22",
-          "sentiment_score": 0.5859
-        },
-        {
-          "title": "NoToRTOCa",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/NoToRTOCa/",
-          "date": "2026-10-22",
-          "sentiment_score": -0.4723
+          "sentiment_score": -0.0572
         }
       ],
       "sparkline": [
-        0.05,
         0.02,
         -0.06,
         -0.06,
@@ -1322,7 +1321,8 @@
         -0.19,
         -0.15,
         -0.15,
-        0.14
+        0.14,
+        0.2
       ]
     }
   ]
