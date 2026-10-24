@@ -6,8 +6,8 @@
     "policy": "Full Office",
     "daysInOffice": 5,
     "enforcement": "Strict mandate from Jan 2, 2025",
-    "lastUpdate": "2025-01-02",
-    "source": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRElZQ2ZLM2h5YjRvTWZyOHlEUW8tSWFqU3FNTTNUdDgtTzRXbXlsOHYxcVlGSDVSUXpjbXdyREVjdWhGR1ktQ3JpbEhnc2lYWVg3bFNNaUxfWm1GSnVjN094QUhfcllCQUhzMDlmdU83ZGRGTWNMOUFJOF9xUmp1S1dJblVwOC01Y3NzMklMaUtFNWg1a1JabUFjb0dIRkNUaWo5cjdxWDg?oc=5",
+    "lastUpdate": "2026-08-11",
+    "source": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPOEFhVzBKbjJPNnZZNUhnWXNKTExZdXp5czBXNDVZbjFMRkRCUDVJZXBqb3hqc2J4TXdjYWNybFdiRHZYbXlmQkRWaUhGck9QR2lwNGtvQ2FJVnNRLUU1Z3NJaFN4SW9yZEEyY09naE1rMzJ2OWdLd3ZTWTNGWFNEdHphUVBiZ2llMTR1RFRBZk9jaEdaMk5YYndLZFpLdlZ2RlhXdUNmT0l0Zw?oc=5",
     "sentiment": -0.58,
     "sentimentTrend": "Declining",
     "mentionVolume": 2049,
@@ -2130,8 +2130,8 @@
     "policy": "Office-First",
     "daysInOffice": 4,
     "enforcement": "Tightening policy from 2025",
-    "lastUpdate": "2026-10-06",
-    "source": "https://news.google.com/rss/articles/CBMizgFBVV95cUxONldfQnhVVk5DN1NXbjdEdUVKbDFEalRCRUlVV0Nrb09XcFQ2YnJMcHA4SXlOYjRqeUpOaU1XMTIxRXprcGIzM1Bkc0FFazRuYTg2RmhfQUZFTXZuRXVVV01UajZKS2hxVDNGbmhIS1ZRQnlPdEYxVU5NZHprQ0F6Z05YY19jZF9QVnQ3UTJvSDdObEtuaUVmVzA4Q1RCaTlGWjRHUDZiOWctS2pqM3MtUzYyTDFnRXJBdzZpeGdJdkN2MmhRM0Y5ZUdPTFNNZw?oc=5",
+    "lastUpdate": "2026-07-13",
+    "source": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZnNkTktQRG1hSmc0V0tibGdlV3VTNW1ySjlUbHdmZWVQRTlNZ0szNm80NHNkOUhpMXBKUy1wN0U0NlFvMURCNGF2RkNHZl9UNUphRDBpVlhkbk9KUU80OEdiNHpmUE9ONTNNcmsweDI4djIwazNFUUNPZERXcENOaDNpZnRtdGROa2tMTlAydlpRR2JKT3dZRVdaQXVBb29HZl94OVVxWEozdw?oc=5",
     "sentiment": 0.84,
     "sentimentTrend": "Improving",
     "mentionVolume": 3724,
@@ -2350,11 +2350,11 @@
     "id": 21,
     "company": "John Deere",
     "sector": "Industrials",
-    "policy": "Hybrid",
-    "daysInOffice": 3,
+    "policy": "Office-First",
+    "daysInOffice": 4,
     "enforcement": "Strict from 2025",
-    "lastUpdate": "2025-05-14",
-    "source": "https://news.google.com/rss/articles/CBMid0FVX3lxTE83MFl1OUs4eXVrM0p0MDZycFNYZWVnY3JwYXZmX0FybmkxXzRWbkxxUmN5bnNVUjBMN0hyZnB6SEV2ZlY4dFVfQkUzcFhJSkFKR012b3JKMWhValh5LWNJQWhXcklFOWpnam1LQ1ROc01pUHFET2pF?oc=5",
+    "lastUpdate": "2024-10-01",
+    "source": "https://www.desmoinesregister.com/story/money/business/john-deere-return-to-office",
     "sentiment": 0.77,
     "sentimentTrend": "Improving",
     "mentionVolume": 4099,
@@ -2666,6 +2666,12 @@
       }
     ],
     "policyHistory": [
+      {
+        "date": "2025-02-15",
+        "policy": "Hybrid",
+        "daysInOffice": 3,
+        "source": "https://www.geekwire.com/2025/microsoft-return-to-office-policy-3-days/"
+      },
       {
         "date": "2025-02-15",
         "policy": "Hybrid",
@@ -4844,6 +4850,12 @@
         "policy": "Hybrid",
         "daysInOffice": 3,
         "source": "https://www.businessinsider.com/meta-zuckerberg-return-to-office-status-quo-2025"
+      },
+      {
+        "date": "2025-01-15",
+        "policy": "Hybrid",
+        "daysInOffice": 3,
+        "source": "https://www.businessinsider.com/meta-zuckerberg-return-to-office-status-quo-2025"
       }
     ]
   },
@@ -4929,10 +4941,10 @@
     "company": "Bank of America",
     "sector": "Financials",
     "policy": "Hybrid",
-    "daysInOffice": 3,
+    "daysInOffice": 2,
     "enforcement": "Office-first hybrid, senior staff 5d",
-    "lastUpdate": "2026-08-19",
-    "source": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1Cc1l1Y09BMHBtX1ozT0RYT3BHUjhPR2hERVZpQ0FVaDJzemFxOXBLSjhfSmRlRmNHWGJNSnJxZDZaX3VTU29LVjZzSnA1cS1FYi1hc2JndmVva0Zkc2pPOWhkWTIyWjUxdXQ0YmM0Q0TSAXBBVV95cUxNbXZZQzd6NWdIdHBvdW5uMVRGNUdqTGd5VlhyelFLS2R2Rm1kM0lxX21QVHVSd0ZLSm1lXzllRnhlOWRCZ2ZDREgzUkUyb19qVE5MZ19JVE1EWnpxb2pDQVFueGRzaU5IaFNRX1NqM1BY?oc=5",
+    "lastUpdate": "2026-08-14",
+    "source": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUWR3Sjd4eHNOVUhmblR2cmZaNm1iMzFDZ0ZybUZFd1FRTmxqdHJZbUw2LWZKMmNvUmR5V2xkMFM0NEgwVFhtOEQ0ZVFtUkFzUmR2NjlxakRGM1pNMWFUWUxSbWtTeXRzMUdERG5LcEVyYXhVcW1yQUZlSkMzVmlDbmsweHl5dkdpeFUwUnFrazgyNEoxT3JCeXB1T3dGUzBYbkhvNjlBQ08?oc=5",
     "sentiment": 0.89,
     "sentimentTrend": "Improving",
     "mentionVolume": 5441,
@@ -4993,6 +5005,12 @@
       }
     ],
     "policyHistory": [
+      {
+        "date": "2024-01-15",
+        "policy": "Hybrid",
+        "daysInOffice": 3,
+        "source": "https://www.businessinsider.com/bank-of-america-return-to-office-hybrid-2024"
+      },
       {
         "date": "2024-01-15",
         "policy": "Hybrid",
@@ -5970,8 +5988,8 @@
     "policy": "Hybrid",
     "daysInOffice": 3,
     "enforcement": "Relocation to Bentonville required",
-    "lastUpdate": "2024-08-12",
-    "source": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVndNY1lfNmxHSzJ3YWZadVRncGFSLTFrM1NRV0pxbnp1X3VCZmxKMlZQa0VMNUlmd2x4aktaVGE1cW9TazNqVW9DS3Rjb2lpS3pvY1M4ZXBhUjAyYzQ2OU04dXJHUnI1TC1kMXBkRTNheFhQMXgyTmhYRXZ6b2prSU9VX2hVc0RWWi1TX2xiWmJjWjFsWkFNeEpOT2xpcjRqa040LTRIc2VSN3BfeWFtN1ZIbWZIZENFYllKc3A3T1I?oc=5",
+    "lastUpdate": "2026-04-21",
+    "source": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOTjRHR0FYRTBXbFZBUHFnM0U1QXU3TEkyU2pLRnBweF9sV3RkOWEwNEZReVlPTkU3ZVM1RTV3VG1GVF9sbGxrZlcybE9YRV9oWGhEd05SbEpHMllROFF6LWFZLU45TnRhbXRyVG9GdHVDaW5ZRDd3dkhYczNENGVabXJHZjlpNU92SzlEVjZkZnE2OEtMT29jM2VYYlBJS3B3V1BKbjFvbXhrQ29XQlhyM3RlUUQ?oc=5",
     "sentiment": 0.64,
     "sentimentTrend": "Improving",
     "mentionVolume": 3494,
@@ -6263,8 +6281,8 @@
     "policy": "Hybrid",
     "daysInOffice": 3,
     "enforcement": "Manager discretion",
-    "lastUpdate": "2026-06-04",
-    "source": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNelpNSmhLd0QzLXVMQks4YW83Z2VlQ243d3AzREhkdGpWb25vQmZzWmtpMkFoeHlxSlRSa3VVOGN3ZU1ac2lkMU56bzVwUmJ1Zi1peEZpYUxCTEVEcUFtc0VvV0F5VUJ6ckpCUFFpdTJVM3RpdlRPdUh6SXhrdENOOHFxNU5yaUZXVnF2aUlLZFZjWlVLSUE?oc=5",
+    "lastUpdate": "2025-12-06",
+    "source": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNRnNkMkEwTUFDVTFoQlNLLWlQel81TWFjc0hNd2RDYUVGQmRxeTBOMWVqRXE3V2VoamhZODgyLV9wa2pVNUdaNm9Ic0dYQlZsNHpPRGkzNlhPVkJrMVIybU1ubWdiOVZ2TFltbkIzdHBmeE9POEpLMmhvb0duYnpubllaMFR1MW5QWi1zNnF6T0VPSzkzY25XQ0NLbXo?oc=5",
     "sentiment": 0.64,
     "sentimentTrend": "Improving",
     "mentionVolume": 3848,
@@ -6880,6 +6898,12 @@
         "policy": "Hybrid",
         "daysInOffice": 3,
         "source": "https://www.lightreading.com/5g/verizon-hybrid-work-policy"
+      },
+      {
+        "date": "2023-01-01",
+        "policy": "Hybrid",
+        "daysInOffice": 3,
+        "source": "https://www.lightreading.com/5g/verizon-hybrid-work-policy"
       }
     ]
   },
@@ -6964,11 +6988,11 @@
     "id": 37,
     "company": "Mastercard",
     "sector": "Financials",
-    "policy": "Hybrid",
-    "daysInOffice": 3,
+    "policy": "Office-First",
+    "daysInOffice": 4,
     "enforcement": "3d average + 4 weeks remote/year (2026)",
-    "lastUpdate": "2026-09-18",
-    "source": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPblk2TjJwVW81M1NaeW5ad2F5VWZ5aHJES2ZobFpuWUVKSGdyaGFJZHpKaFFRc3pDNnJZeG54ZmNKX1NPUzZkSnFJZ0tPaDBacWZ0X3I4cGQ0b2taOWxMOGpLc090cTU5NHJwMGhQcE5CNnJiZ2tGWTVxa0F2bmR1Ti1wTHFwWU55dVZMNThhc3RTZnpRMHFKOUJyVW8?oc=5",
+    "lastUpdate": "2026-07-06",
+    "source": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNdmF5czVmbkEzMTR3VlNWZDJBdzBoeXJBUnZyZnFwbHdvV1NoNHF3LW9IRC10YkJEcmVHYnVsUkNOSUZiR1V1NWEweHhlYzByNVFiTmtXd1VpQzBzREFoc3h2UjFhZEVEMDRoaUpoeWphcGdNZDVLY2F5RUxqcTFFZk1hQkNjSERtZDU2S0pkd2diLVhXZFZCeGpka0ZxY1YySkJjWFhWSGhXLXhaXzgxNElpbVRaOUZCMHdIbDhFRFNNVjNISWRWU3FYSXpyeXFwWnkwU3ZNTWVuYU9tVnBibEhvYkxHR3FOVUw1ZUZZSlQ0UmhTZXlpTnp5ZEJocENOMGNqY1dRbXAycEk?oc=5",
     "sentiment": 0.9,
     "sentimentTrend": "Improving",
     "mentionVolume": 1309,
@@ -7034,6 +7058,14 @@
       {
         "month": "Dec",
         "sentiment": 1.06
+      }
+    ],
+    "policyHistory": [
+      {
+        "date": "2026-03-01",
+        "policy": "Hybrid",
+        "daysInOffice": 3,
+        "source": "https://careers.mastercard.com/us/en/blogarticle/mastercards-approach-to-flexible-working"
       }
     ]
   },
@@ -7400,11 +7432,11 @@
     "id": 41,
     "company": "Procter & Gamble",
     "sector": "Consumer Staples",
-    "policy": "Full Office",
-    "daysInOffice": 5,
+    "policy": "Hybrid",
+    "daysInOffice": 3,
     "enforcement": "Standard hybrid",
-    "lastUpdate": "2026-02-04",
-    "source": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBfbmFVTUczaGVzVWRheUxRME5zMmx5SHUwVG9aQWwycjNSX29qbWN4WGEtVUhvMzQyREg0aHNxd2JHOS1ZR0RXY0hmaFFGVERCNGVZWlJSLUtQaC1CNDFOOWZ3ZzZyMk1UMTJCa3VSbWxvT19zelh0Y1dhd0EwV1U?oc=5",
+    "lastUpdate": "2025-11-20",
+    "source": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeVh6bzJZTnN2cjA3MzBDWk1wTVZKWjVtNUtCQjRkM2NjWnJVdjFmTkVFamxRNmRCVWU2cVg1eHZKNjFOdl9EaFp2Tm5oalMtMXY5ZWdwcTZpNnFaSW8yQV8tSEZWd1NabmF5N2JlNnFOOTBXdUtmckNxNGF4UHlXQkM2RzlOSWQ0c0dMQm9yWTFOLXZjYmRRMmtTeVA3OEFhUkl1cTBlMjFOczA?oc=5",
     "sentiment": 0.78,
     "sentimentTrend": "Improving",
     "mentionVolume": 2462,
@@ -7494,8 +7526,8 @@
     "policy": "Hybrid",
     "daysInOffice": 3,
     "enforcement": "Standard hybrid",
-    "lastUpdate": "2026-07-10",
-    "source": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQM0JQRWhhcUtiRXd5bzh2ZDA1LWN0VGhPTS0zSGdlWUZvMHdIdFVHQmY3dllHZFJJOWV1U1cxQkI1VTF3d3J2S25jcEhLRktZTURsY2NranZvWUZQM2thSGhjRDJIb3QtMmdTVDRXc0d0SVNMMm9mR3l5WkFzNmYxTTlDVzFsdUVHekF0M21DbDIwUkZObXdWRE0wcng4MFZ0NThMbkk4b3dDVVE?oc=5",
+    "lastUpdate": "2023-01-01",
+    "source": "https://www.reuters.com/business/energy/chevron-hybrid-work-policy",
     "sentiment": 0.64,
     "sentimentTrend": "Improving",
     "mentionVolume": 5295,
@@ -7757,8 +7789,8 @@
     "policy": "Hybrid",
     "daysInOffice": 3,
     "enforcement": "Standard hybrid",
-    "lastUpdate": "2026-07-15",
-    "source": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRTlpZUdTaUdPSXpqMTZSa1lfNWNKX2swZ0NmbFl6SVFVOFBsRHJmMmtDSUlLdjl3Z2RJSEwxZTZuQ0p1dkRsNnU5MlVxZW5Gd2ZPZ1lzZ2NMREt6c2I1TFRBVk84aVhDbENITU0xZjh3VThWRTlqcTVlRVAyN0djOWZ6YUZ1bXVQ?oc=5",
+    "lastUpdate": "2026-05-19",
+    "source": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNckFlVkVFdHhJSmN0NlNOZlFWQlFZOXFyX1lwOVU1dE5TWWZmYzlCd2Rmb3RBNGF4MlpqeTlYSzZKaERlXzNEbjRTWnBZMklfQTJGOGVpSVRYSUlDalpGTFAxTFRkNnNMd3pvZEFzT25tTHNydHRRQUIwQnVWQ1RLN0tvYUJCb1JTTmlRcHRnM3E?oc=5",
     "sentiment": 0.84,
     "sentimentTrend": "Improving",
     "mentionVolume": 1243,
@@ -8115,8 +8147,8 @@
     "policy": "Hybrid",
     "daysInOffice": 3,
     "enforcement": "Hybrid tied to regional hubs (confirmed 2026)",
-    "lastUpdate": "2026-10-21",
-    "source": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPX2otZl9fak1GQWs5MWFZaFg5cDNUdW5Tck1PMUw2Rk9pQVNGY3dIVXl6emdIUUg5MzBaV004bXRwQ0t0dG9vUnN2ZUtqcldIcnE1a3JLeW9vdWFnaVhWWDlpdUZ6VktmZ3JJQTUxeGlqQ05zdmtpdkVUYmlyVGJoOFlVMFdDVWd6LUFoUlFuaVYyRXBxVTdicGh3dWhJUG1YQ0gzT3R2TGkybWJfeW1uc2VDd2JjTWNSbVBMblZhX0kwNm5XVGtwUThQY1JXS2tjWmJGaGI4T0p6UmJhcHMyMVZB?oc=5",
+    "lastUpdate": "2026-07-01",
+    "source": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQYTBlZWk2bXV1d3hpWVR1MDhYSE4tNVQwVThNcU9lQzhQRE5OSXRzaFFqTGJsOGdoQUlkOHA1WGkxMzhlckpDZWRkckRDRVRCRG55UHpUYXVCaV9pTElkZVpVblZJSlVyYzBvdDc0R0plc1JaRTlkc0p6bEJFdzNCRFptZ1hkdWFTdG9YSE1VSHI3akdyN1pvOUxjLVRmTjRVeWVnMWRfek5abUhCaWNZVnRFYnV0ZVVhQ1ZYUW5OUDVqNGdYUkdOa0lKRUZzUV9NaUJWMlpTSjgyejRhWGNnb1p3?oc=5",
     "sentiment": 0.81,
     "sentimentTrend": "Improving",
     "mentionVolume": 2335,
@@ -8284,8 +8316,8 @@
     "policy": "Remote-First",
     "daysInOffice": 0,
     "enforcement": "Team-driven, no company mandate",
-    "lastUpdate": "2026-08-14",
-    "source": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPQVlSTkRfeGFCcXJ5UzdydERtOHEyZmFvTTljSFlESzRwR21VaXhBTUZxVUlvLTJnTGZOT19vQ0VqdzJWa2J2TXVXWkt2b0pjeE14Y21zLVBoZlJEVzhHSzdlWjZyaWxJcUxfWjVIUTlCb1hQaUthbWhwNVQ3d2dkQjB1dW1YeGg2dk9fdWdKNFNCd2M3ZnJEYVNGN2JqQlJ0VDdGTkctZHhiT214dndJOGJoSV8zaGJoWWp0NmYzLTfSAcgBQVVfeXFMT3hyOXlEMjVvMlVQb1RSMVBwU2xJT1drdkVhQ0xuTmxsaW1TLTRXZFlxQWp1Q2txdVZOb3NHeEhhdUgzOVMtZEpKR0pOcW43NW5KNFJiTXM1d21Ga0lraEFWLVVKVDNmTGw0LWRSZ2FTbWh4c0NTbW9veEZON0Z0RHl1bmk1dUxvd0k1bFVsSWZ6LXRCcEtEYWxicDcwQldramVYMHVRb0pDZ0RmdUtWdUVMTEZJMEJDMmFsdmZLMkxXMzM4cDlpTWo?oc=5",
+    "lastUpdate": "2025-04-21",
+    "source": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNEVtTjAtVVFLd09Ua25Ka2lTb0xEQjg3aWFCOW5YcVg1S0ZZWjhqR25vN2JMZGdhbVNTVGgyeXcyVFVrYUd5NG1CZVRfRE9oQ1BQNWx4Y3ZlTHZRS3dLSUthVlVkUnBtQ0Y3eWN1WFZNOEFFSHNLX1RJbW9JZTBGZGkzVXplX3pqdmdmSVJRcG9VT1ZfZE9rVVF5cWtidXNKV0E?oc=5",
     "sentiment": 0.85,
     "sentimentTrend": "Improving",
     "mentionVolume": 2923,
