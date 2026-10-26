@@ -1615,8 +1615,8 @@
     "policy": "Full Office",
     "daysInOffice": 5,
     "enforcement": "Strict from 2026",
-    "lastUpdate": "2026-05-01",
-    "source": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQYy10SUFiRndTNXdha3RmRkRhM2xpaXlicjRrdElwNHI1ZXFKN0M4WkN4WXNlTTlGRWtMT0VZVmN0bGVRa3NnVTFac0ZqaV8tWk8tWUJUSmk1b29LMTJNbFZ1LXA1SWlHTlRUbTNzUlRRTllueUJ4ZWRDcmtaNUNhb3FIV0lkaEU?oc=5",
+    "lastUpdate": "2026-01-16",
+    "source": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPT0huLU5Ldy1aV25jdnh0Zm96M3RuY2luODRaaUlqSUF0b3Y2RENqVUhLdWthdkhzaEN6dDdXXzN6OFNsbnk4cFBkNm4xTlR0WE9PY2U0OUtBQjQ0OWlwSlBQY29udzI0OXowaG9UbXdSVUZveUJlbHNEMEduR1g4Zkl5Z3ZGNXFncmhNTDdWQk40UGhEU2FxY0F1Z0ptYkJRcGlEcENxcm1RVklB?oc=5",
     "sentiment": -0.47,
     "sentimentTrend": "Declining",
     "mentionVolume": 1247,
@@ -2666,6 +2666,12 @@
       }
     ],
     "policyHistory": [
+      {
+        "date": "2025-02-15",
+        "policy": "Hybrid",
+        "daysInOffice": 3,
+        "source": "https://www.geekwire.com/2025/microsoft-return-to-office-policy-3-days/"
+      },
       {
         "date": "2025-02-15",
         "policy": "Hybrid",
@@ -4892,6 +4898,12 @@
         "policy": "Hybrid",
         "daysInOffice": 3,
         "source": "https://www.businessinsider.com/meta-zuckerberg-return-to-office-status-quo-2025"
+      },
+      {
+        "date": "2025-01-15",
+        "policy": "Hybrid",
+        "daysInOffice": 3,
+        "source": "https://www.businessinsider.com/meta-zuckerberg-return-to-office-status-quo-2025"
       }
     ]
   },
@@ -4977,10 +4989,10 @@
     "company": "Bank of America",
     "sector": "Financials",
     "policy": "Hybrid",
-    "daysInOffice": 2,
+    "daysInOffice": 3,
     "enforcement": "Office-first hybrid, senior staff 5d",
-    "lastUpdate": "2026-08-17",
-    "source": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbGxFSk9pb1E1S2lQUGprYVhneUJkYVQ5VndpUXNxMTVBSW1tdE80TGFjSHpQeV91bzJGRTRwbjd5OFB1LUZuYUFpM3ZTRFR5RGhaR0dWTmhUOC1QNVFMVnc2SWFUX0tFQ1NmX0JZcGxjUldranFmdnRRMF9qZjUxWjdaYXZ0Z0hxdWNObEI0bUZHMVk3dmhpT2xIYUZRc1J3RUE?oc=5",
+    "lastUpdate": "2026-08-19",
+    "source": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1Cc1l1Y09BMHBtX1ozT0RYT3BHUjhPR2hERVZpQ0FVaDJzemFxOXBLSjhfSmRlRmNHWGJNSnJxZDZaX3VTU29LVjZzSnA1cS1FYi1hc2JndmVva0Zkc2pPOWhkWTIyWjUxdXQ0YmM0Q0TSAXBBVV95cUxNbXZZQzd6NWdIdHBvdW5uMVRGNUdqTGd5VlhyelFLS2R2Rm1kM0lxX21QVHVSd0ZLSm1lXzllRnhlOWRCZ2ZDREgzUkUyb19qVE5MZ19JVE1EWnpxb2pDQVFueGRzaU5IaFNRX1NqM1BY?oc=5",
     "sentiment": 0.89,
     "sentimentTrend": "Improving",
     "mentionVolume": 5441,
@@ -6970,6 +6982,12 @@
         "policy": "Hybrid",
         "daysInOffice": 3,
         "source": "https://www.lightreading.com/5g/verizon-hybrid-work-policy"
+      },
+      {
+        "date": "2023-01-01",
+        "policy": "Hybrid",
+        "daysInOffice": 3,
+        "source": "https://www.lightreading.com/5g/verizon-hybrid-work-policy"
       }
     ]
   },
@@ -7054,11 +7072,11 @@
     "id": 37,
     "company": "Mastercard",
     "sector": "Financials",
-    "policy": "Office-First",
-    "daysInOffice": 4,
+    "policy": "Hybrid",
+    "daysInOffice": 3,
     "enforcement": "3d average + 4 weeks remote/year (2026)",
-    "lastUpdate": "2026-07-06",
-    "source": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNdmF5czVmbkEzMTR3VlNWZDJBdzBoeXJBUnZyZnFwbHdvV1NoNHF3LW9IRC10YkJEcmVHYnVsUkNOSUZiR1V1NWEweHhlYzByNVFiTmtXd1VpQzBzREFoc3h2UjFhZEVEMDRoaUpoeWphcGdNZDVLY2F5RUxqcTFFZk1hQkNjSERtZDU2S0pkd2diLVhXZFZCeGpka0ZxY1YySkJjWFhWSGhXLXhaXzgxNElpbVRaOUZCMHdIbDhFRFNNVjNISWRWU3FYSXpyeXFwWnkwU3ZNTWVuYU9tVnBibEhvYkxHR3FOVUw1ZUZZSlQ0UmhTZXlpTnp5ZEJocENOMGNqY1dRbXAycEk?oc=5",
+    "lastUpdate": "2026-03-01",
+    "source": "https://careers.mastercard.com/us/en/blogarticle/mastercards-approach-to-flexible-working",
     "sentiment": 0.9,
     "sentimentTrend": "Improving",
     "mentionVolume": 1309,
@@ -7249,8 +7267,8 @@
     "policy": "Hybrid",
     "daysInOffice": 3,
     "enforcement": "Work that Works model confirmed late 2025",
-    "lastUpdate": "2025-12-15",
-    "source": "https://www.thestreet.com/lifestyle/pepsico-reportedly-asks-some-staff-to-work-from-home",
+    "lastUpdate": "2026-09-22",
+    "source": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPTjIySEd5a3k1Q3QxSWpidUhsNWppV0NpWGktX3ZKX0RxdWZoVlhfc3pCRGZxUEgwOEFDbTlpb2UwdnA0SGFneVhuSmI1RE1TdjBEUU5tV2U1Q3pXMFBpUnlLMUJXNzF1bXpBZVlhMm5vMjF0bG5KaGJzTzlZanF0R2lXM2ZkcENzU1RxazljXzA1UXpTQVFqeklrcFVkcVhFTTZxeVZCQnhzajJpa0hQbVBiMmIzSGI0QnVoSzlFajZGelJwOG9OeG5FdGUxdw?oc=5",
     "sentiment": 0.87,
     "sentimentTrend": "Improving",
     "mentionVolume": 3785,
@@ -7519,8 +7537,8 @@
     "policy": "Hybrid",
     "daysInOffice": 3,
     "enforcement": "Standard hybrid",
-    "lastUpdate": "2023-01-01",
-    "source": "https://www.businessinsider.com/procter-gamble-hybrid-work-policy",
+    "lastUpdate": "2025-11-20",
+    "source": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeVh6bzJZTnN2cjA3MzBDWk1wTVZKWjVtNUtCQjRkM2NjWnJVdjFmTkVFamxRNmRCVWU2cVg1eHZKNjFOdl9EaFp2Tm5oalMtMXY5ZWdwcTZpNnFaSW8yQV8tSEZWd1NabmF5N2JlNnFOOTBXdUtmckNxNGF4UHlXQkM2RzlOSWQ0c0dMQm9yWTFOLXZjYmRRMmtTeVA3OEFhUkl1cTBlMjFOczA?oc=5",
     "sentiment": 0.78,
     "sentimentTrend": "Improving",
     "mentionVolume": 2462,
@@ -8231,8 +8249,8 @@
     "policy": "Hybrid",
     "daysInOffice": 3,
     "enforcement": "Hybrid tied to regional hubs (confirmed 2026)",
-    "lastUpdate": "2026-07-01",
-    "source": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQYTBlZWk2bXV1d3hpWVR1MDhYSE4tNVQwVThNcU9lQzhQRE5OSXRzaFFqTGJsOGdoQUlkOHA1WGkxMzhlckpDZWRkckRDRVRCRG55UHpUYXVCaV9pTElkZVpVblZJSlVyYzBvdDc0R0plc1JaRTlkc0p6bEJFdzNCRFptZ1hkdWFTdG9YSE1VSHI3akdyN1pvOUxjLVRmTjRVeWVnMWRfek5abUhCaWNZVnRFYnV0ZVVhQ1ZYUW5OUDVqNGdYUkdOa0lKRUZzUV9NaUJWMlpTSjgyejRhWGNnb1p3?oc=5",
+    "lastUpdate": "2026-06-17",
+    "source": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQcVBQYm1YR2FRVGVVWm1PZkV6bVF0ZUZXcF9xd0M1ZTljX3l6OS1jN2laeFlTcGpVMlZ6SVhCU3lnU09UVUZpMk9YaFZfN3ZtTHlMSmVZbkdXQ05OMVJmTk81UWxxNndXUlpPNmh4cEhIRDFvNmp3RWFza251OG9NZWx0bjFybjdBUlFIcTQ0Yi01UGdjRmZvQ2ZpS0pWbU03YTk2ZU5EcnVDYi0yaE94NS1nWV91ZXFXMWxsRFBQUXNmVWZhSTRfREp0dzl4WXkwYTZNc1dVaHJaREVpYUtrY1hpd3NMT292VWZ3S0hrQlB4S1NkY2lVSGNWWQ?oc=5",
     "sentiment": 0.81,
     "sentimentTrend": "Improving",
     "mentionVolume": 2335,
@@ -8323,8 +8341,8 @@
     "policy": "Remote-First",
     "daysInOffice": 0,
     "enforcement": "Work From Anywhere since Feb 2021",
-    "lastUpdate": "2026-07-06",
-    "source": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9IR3NQbk43cW5ZemlRYl9jWnEzNjI3eFBtOFhRWUc4eWowRUZnWW5DLUNfQm9PbmFSMV9xWF9fa3ZEeG1YQzBObkZrM1N3Y2N4RGxEdWdNMkNHcnhqNFJQUTVIem9Ub25RenRIbkNrTlVFa1NEUmY0?oc=5",
+    "lastUpdate": "2025-04-29",
+    "source": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQckNGOF92bHY5SnBYckd0LTJLRkVKeThnVzJvVWowc1Z0MjlkX1Q2ZUdRcjNjVHlJSVdMLXd5Zm5jMGd3TTNKcWRMSkxyajltNm9hZjJLc19sNnBHeXVJNUNGRW9pMjA2VlNkVE9lWlAyVTNWdlg1cDNPZmpTVEE4S3Y1cVFSaTZTRlp6YlBod0NxUTFHR2RULTVnbUxWTVJRXzRsQ1BR?oc=5",
     "sentiment": 0.8,
     "sentimentTrend": "Improving",
     "mentionVolume": 556,
