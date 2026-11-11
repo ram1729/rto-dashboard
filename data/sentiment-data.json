@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-11-10T19:34:37.862565Z",
+  "last_updated": "2026-11-11T05:06:58.613003Z",
   "scraper_log": {
-    "duration_sec": 275.04,
-    "total_articles": 203,
+    "duration_sec": 239.56,
+    "total_articles": 130,
     "errors": []
   },
   "companies": [
     {
       "name": "Amazon",
       "sentiment": {
-        "overall_score": 0.49,
-        "trend": "improving",
-        "previous_score": 0.4,
+        "overall_score": 0.1,
+        "trend": "declining",
+        "previous_score": 0.49,
         "confidence": "high",
-        "sample_size": 30,
+        "sample_size": 15,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -24,8 +24,8 @@
             "count": 15
           },
           "reddit": {
-            "score": 0.72,
-            "count": 15
+            "score": 0,
+            "count": 0
           },
           "gdelt": {
             "score": 0,
@@ -63,15 +63,14 @@
           "sentiment_score": 0.1779
         },
         {
-          "title": "Return to Office policy black- and whitelist.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-11-10",
-          "sentiment_score": 0.8271
+          "title": "\"Construct\" room from Matrix with Amazon products",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50433525",
+          "date": "2026-11-09",
+          "sentiment_score": 0.1779
         }
       ],
       "sparkline": [
-        0.46,
         0.46,
         0.54,
         0.53,
@@ -100,7 +99,8 @@
         0.39,
         0.4,
         0.4,
-        0.49
+        0.49,
+        0.1
       ]
     },
     {
@@ -108,7 +108,7 @@
       "sentiment": {
         "overall_score": 0.1,
         "trend": "stable",
-        "previous_score": 0.12,
+        "previous_score": 0.1,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -168,7 +168,6 @@
         }
       ],
       "sparkline": [
-        0.12,
         0.42,
         0.34,
         0.12,
@@ -197,6 +196,7 @@
         0.12,
         0.12,
         0.12,
+        0.1,
         0.1
       ]
     },
@@ -204,8 +204,8 @@
       "name": "Google",
       "sentiment": {
         "overall_score": 0.07,
-        "trend": "declining",
-        "previous_score": 0.15,
+        "trend": "stable",
+        "previous_score": 0.07,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -265,7 +265,6 @@
         }
       ],
       "sparkline": [
-        0.06,
         -0.05,
         -0.05,
         -0.02,
@@ -294,17 +293,18 @@
         0.09,
         0.09,
         0.15,
+        0.07,
         0.07
       ]
     },
     {
       "name": "Meta",
       "sentiment": {
-        "overall_score": 0.2,
-        "trend": "improving",
-        "previous_score": -0.03,
+        "overall_score": -0.02,
+        "trend": "declining",
+        "previous_score": 0.2,
         "confidence": "high",
-        "sample_size": 30,
+        "sample_size": 15,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -315,8 +315,8 @@
             "count": 15
           },
           "reddit": {
-            "score": 0.33,
-            "count": 15
+            "score": 0,
+            "count": 0
           },
           "gdelt": {
             "score": 0,
@@ -326,43 +326,42 @@
       },
       "top_headlines": [
         {
-          "title": "Return to Office policy black- and whitelist.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-11-10",
-          "sentiment_score": 0.8271
-        },
-        {
-          "title": "Bloodborne",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/bloodborne/",
-          "date": "2026-11-10",
-          "sentiment_score": 0.4588
-        },
-        {
-          "title": "Legal Advice ~ A place to get simple legal advice*",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/legaladvice/",
-          "date": "2026-11-10",
-          "sentiment_score": 0.3612
-        },
-        {
-          "title": "As a whole, this might be the best year in movies in over a decade",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/moviecritic/comments/1xsgba3/as_a_whole_this_might_be_the_best_year_in_movies/",
-          "date": "2026-11-10",
-          "sentiment_score": 0.999
-        },
-        {
-          "title": "Show HN: Black Ops II statically recompiled to native ARM64 macOS",
+          "title": "Show HN: Mimzie, an agent-neutral alternative to the Claude Suite/Claude Cowork",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50427552",
+          "url": "https://news.ycombinator.com/item?id=50448283",
+          "date": "2026-11-11",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "A Year as a Research Engineer Working on RSI at Meta",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50441689",
+          "date": "2026-11-10",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Show HN: Tokspur a 3x faster open source inference engine for Macs",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50438931",
+          "date": "2026-11-10",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Being a meat proxy for AI should be grounds for getting people fired",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50422001",
+          "date": "2026-11-09",
+          "sentiment_score": -0.5574
+        },
+        {
+          "title": "Show HN: Emma, a real-time AI video persona from Nuance Labs",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50432589",
           "date": "2026-11-09",
           "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        -0.02,
         0.01,
         -0.02,
         0.18,
@@ -391,7 +390,8 @@
         0.17,
         0.15,
         -0.03,
-        0.2
+        0.2,
+        -0.02
       ]
     },
     {
@@ -430,6 +430,13 @@
           "sentiment_score": 0.0
         },
         {
+          "title": "Ask HN: LLM-Resistant Publishing Strategies",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50411036",
+          "date": "2026-11-08",
+          "sentiment_score": 0.0
+        },
+        {
           "title": "Google, OpenAI, and Anthropic back a shared robots.txt AI training signal",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=50395808",
@@ -449,17 +456,9 @@
           "url": "https://news.ycombinator.com/item?id=50341004",
           "date": "2026-11-02",
           "sentiment_score": 0.34
-        },
-        {
-          "title": "Microsoft Azure revenue surges 48% to $33.2B, beating expectations",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50283238",
-          "date": "2026-10-29",
-          "sentiment_score": -0.4588
         }
       ],
       "sparkline": [
-        0.01,
         0.05,
         0.13,
         0.02,
@@ -488,25 +487,26 @@
         0.02,
         0.02,
         0.02,
+        0.02,
         0.02
       ]
     },
     {
       "name": "JPMorgan Chase",
       "sentiment": {
-        "overall_score": 0,
-        "trend": "stable",
+        "overall_score": 0.1,
+        "trend": "improving",
         "previous_score": 0,
         "confidence": "low",
-        "sample_size": 0,
+        "sample_size": 1,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0,
-            "count": 0
+            "score": 0.1,
+            "count": 1
           },
           "reddit": {
             "score": 0,
@@ -518,7 +518,15 @@
           }
         }
       },
-      "top_headlines": [],
+      "top_headlines": [
+        {
+          "title": "JPMorganChase expands Claude Code to more employees across the firm",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50436993",
+          "date": "2026-11-10",
+          "sentiment_score": 0.1027
+        }
+      ],
       "sparkline": [
         0,
         0,
@@ -549,7 +557,7 @@
         0,
         0,
         0,
-        0
+        0.1
       ]
     },
     {
@@ -644,7 +652,6 @@
       "sparkline": [
         0,
         0,
-        0,
         0.0,
         0.0,
         -0.04,
@@ -671,17 +678,18 @@
         0,
         0,
         0,
+        0,
         0
       ]
     },
     {
       "name": "Salesforce",
       "sentiment": {
-        "overall_score": 0.6,
+        "overall_score": 0.17,
         "trend": "declining",
-        "previous_score": 0.68,
-        "confidence": "high",
-        "sample_size": 17,
+        "previous_score": 0.6,
+        "confidence": "low",
+        "sample_size": 2,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -692,8 +700,8 @@
             "count": 2
           },
           "reddit": {
-            "score": 0.86,
-            "count": 15
+            "score": 0,
+            "count": 0
           },
           "gdelt": {
             "score": 0,
@@ -703,43 +711,21 @@
       },
       "top_headlines": [
         {
-          "title": "Return to Office policy black- and whitelist.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-11-10",
-          "sentiment_score": 0.8271
+          "title": "A Salesforce AI agent that can't publish a hallucination",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50258198",
+          "date": "2026-10-27",
+          "sentiment_score": 0.0
         },
         {
-          "title": "fullyremotework",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/fullyremotework/",
-          "date": "2026-11-10",
-          "sentiment_score": 0.5859
-        },
-        {
-          "title": "NoToRTOCa",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/NoToRTOCa/",
-          "date": "2026-11-10",
-          "sentiment_score": -0.4723
-        },
-        {
-          "title": "Global Business News \u2014 November 02, 2026 \u2014 Midday Update \u2014 Last 12 Hours (Pacific Time)",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/EverHint/comments/1xm642q/global_business_news_november_02_2026_midday/",
-          "date": "2026-11-02",
-          "sentiment_score": 0.9998
-        },
-        {
-          "title": "Remote Job - Zip Co - Marketing CRM Ops Technical Specialist",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/jobhuntify/comments/1xifuus/remote_job_zip_co_marketing_crm_ops_technical/",
-          "date": "2026-10-29",
-          "sentiment_score": 0.9996
+          "title": "Tell HN: Unbounce Security Incident",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50209991",
+          "date": "2026-10-23",
+          "sentiment_score": 0.34
         }
       ],
       "sparkline": [
-        0.58,
         0.58,
         0.59,
         0.59,
@@ -768,7 +754,8 @@
         0.66,
         0.6,
         0.68,
-        0.6
+        0.6,
+        0.17
       ]
     },
     {
@@ -836,7 +823,6 @@
         }
       ],
       "sparkline": [
-        -0.05,
         -0.04,
         -0.03,
         -0.06,
@@ -865,17 +851,18 @@
         -0.05,
         -0.05,
         -0.05,
+        -0.05,
         -0.05
       ]
     },
     {
       "name": "Disney",
       "sentiment": {
-        "overall_score": 0.18,
-        "trend": "stable",
-        "previous_score": 0.23,
-        "confidence": "high",
-        "sample_size": 16,
+        "overall_score": 0.0,
+        "trend": "declining",
+        "previous_score": 0.18,
+        "confidence": "low",
+        "sample_size": 1,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -886,8 +873,8 @@
             "count": 1
           },
           "reddit": {
-            "score": 0.29,
-            "count": 15
+            "score": 0,
+            "count": 0
           },
           "gdelt": {
             "score": 0,
@@ -897,43 +884,14 @@
       },
       "top_headlines": [
         {
-          "title": "(SELLING) Post-Election 2026 Update - First Proper Update in 6 Months! Discounts ONLY for Clearance!",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/DigitalCodeSELL/comments/1xrb6aw/selling_postelection_2026_update_first_proper/",
-          "date": "2026-11-08",
-          "sentiment_score": -0.999
-        },
-        {
-          "title": "Uncanceling Johnny Depp: Why Hollywood appears ready to forgive its problematic star | Industry sources say Disney is closely watching 'Ebenezer's box office & any potential backlash, before making a decision on 'Pirates 6'; 'Ebenezer' and Depp have done extremely well in NRG's recent audience polls",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/boxoffice/comments/1xqdnui/uncanceling_johnny_depp_why_hollywood_appears/",
-          "date": "2026-11-07",
-          "sentiment_score": 0.996
-        },
-        {
-          "title": "Ariana Grande Comedy \u2018Focker-In-Law\u2019 & Disney\u2019s \u2018Hexed\u2019 Hope To Lure $40M-$50M Opening Over Thanksgiving Box Office Stretch",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/boxoffice/comments/1xpm3sl/ariana_grande_comedy_fockerinlaw_disneys_hexed/",
-          "date": "2026-11-06",
-          "sentiment_score": 0.9889
-        },
-        {
-          "title": "[hilarious trope] when a character irrationally hates something/someone so so much with a burning passion",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/TopCharacterTropes/comments/1xnh0sj/hilarious_trope_when_a_character_irrationally/",
-          "date": "2026-11-04",
-          "sentiment_score": -0.9956
-        },
-        {
-          "title": "Disney and Forbes Confirm What I've Said About Ryan Reynolds, Maximum Effort and Who Gets the Money (Kassidy O'Connell)",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/ItEndsWithLawsuits/comments/1xmrdnw/disney_and_forbes_confirm_what_ive_said_about/",
-          "date": "2026-11-03",
-          "sentiment_score": 0.5251
+          "title": "Disney Raising Prices Days After Confirming Ads Will Now Show Up on Every Tier",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50205934",
+          "date": "2026-10-23",
+          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        -0.09,
         -0.09,
         0.0,
         -0.07,
@@ -962,7 +920,8 @@
         0.23,
         0.0,
         0.23,
-        0.18
+        0.18,
+        0.0
       ]
     },
     {
@@ -970,7 +929,7 @@
       "sentiment": {
         "overall_score": -0.15,
         "trend": "stable",
-        "previous_score": -0.13,
+        "previous_score": -0.15,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -1031,7 +990,6 @@
       ],
       "sparkline": [
         -0.06,
-        -0.06,
         0.31,
         -0.04,
         -0.06,
@@ -1059,6 +1017,7 @@
         -0.09,
         0.41,
         -0.13,
+        -0.15,
         -0.15
       ]
     },
@@ -1127,7 +1086,6 @@
         }
       ],
       "sparkline": [
-        0.01,
         -0.01,
         0.01,
         -0.01,
@@ -1156,17 +1114,18 @@
         0.04,
         0.04,
         0.04,
+        0.04,
         0.04
       ]
     },
     {
       "name": "Caterpillar",
       "sentiment": {
-        "overall_score": 0.6,
-        "trend": "stable",
+        "overall_score": 0,
+        "trend": "declining",
         "previous_score": 0.6,
-        "confidence": "high",
-        "sample_size": 14,
+        "confidence": "low",
+        "sample_size": 0,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -1177,8 +1136,8 @@
             "count": 0
           },
           "reddit": {
-            "score": 0.6,
-            "count": 14
+            "score": 0,
+            "count": 0
           },
           "gdelt": {
             "score": 0,
@@ -1186,45 +1145,8 @@
           }
         }
       },
-      "top_headlines": [
-        {
-          "title": "Return to Office policy black- and whitelist.",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/ReturntoOffice/",
-          "date": "2026-11-10",
-          "sentiment_score": 0.8271
-        },
-        {
-          "title": "fullyremotework",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/fullyremotework/",
-          "date": "2026-11-10",
-          "sentiment_score": 0.5859
-        },
-        {
-          "title": "NoToRTOCa",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/NoToRTOCa/",
-          "date": "2026-11-10",
-          "sentiment_score": -0.4723
-        },
-        {
-          "title": "Mike Stathis (AVA Investment Analytics / Apex Venture Advisors) Track Record Exposed: His 71 Archived Seeking Alpha Articles (2008 to 2010) Prove He Owned Zero Shorts in 2008, Bought WaMu Right Before It Hit $0, Hid for 6 Months, and Bought BP 7 Days Before Its Dividend Was Cut",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/MikeStathis/comments/1xp82cs/mike_stathis_ava_investment_analytics_apex/",
-          "date": "2026-11-06",
-          "sentiment_score": 0.9978
-        },
-        {
-          "title": "Black Hive - Chapter 2",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/writers/comments/1xlzd3v/black_hive_chapter_2/",
-          "date": "2026-11-02",
-          "sentiment_score": -0.9914
-        }
-      ],
+      "top_headlines": [],
       "sparkline": [
-        0.56,
         0,
         0,
         0,
@@ -1253,7 +1175,8 @@
         0.6,
         0,
         0.6,
-        0.6
+        0.6,
+        0
       ]
     },
     {
@@ -1321,7 +1244,6 @@
         }
       ],
       "sparkline": [
-        -0.09,
         -0.11,
         -0.11,
         -0.11,
@@ -1343,6 +1265,7 @@
         0.0,
         0.0,
         0.26,
+        0.0,
         0.0,
         0.0,
         0.0,
