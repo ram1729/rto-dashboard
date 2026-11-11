@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-11-11T05:06:58.613003Z",
+  "last_updated": "2026-11-11T19:27:47.664144Z",
   "scraper_log": {
-    "duration_sec": 239.56,
+    "duration_sec": 217.82,
     "total_articles": 130,
     "errors": []
   },
@@ -9,9 +9,9 @@
     {
       "name": "Amazon",
       "sentiment": {
-        "overall_score": 0.1,
-        "trend": "declining",
-        "previous_score": 0.49,
+        "overall_score": 0.14,
+        "trend": "stable",
+        "previous_score": 0.1,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -20,7 +20,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.1,
+            "score": 0.14,
             "count": 15
           },
           "reddit": {
@@ -35,6 +35,27 @@
       },
       "top_headlines": [
         {
+          "title": "Ring cameras go mobile as Amazon debuts AI-powered security drone and robot",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50452395",
+          "date": "2026-11-11",
+          "sentiment_score": 0.4767
+        },
+        {
+          "title": "Amazon's Ring retries $250 home security drone and $1k patrol robot",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50450782",
+          "date": "2026-11-11",
+          "sentiment_score": 0.34
+        },
+        {
+          "title": "Show HN: Rebuilding Amazon SES in Rust",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50456921",
+          "date": "2026-11-11",
+          "sentiment_score": 0.1779
+        },
+        {
           "title": "Amazon's Ring unveils flying drone and robot to patrol homes and businesses",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=50441134",
@@ -47,31 +68,9 @@
           "url": "https://news.ycombinator.com/item?id=50442276",
           "date": "2026-11-10",
           "sentiment_score": 0.1779
-        },
-        {
-          "title": "Show HN: Faux Show \u2013 a homemade alternative to the Amazon Show",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50442946",
-          "date": "2026-11-10",
-          "sentiment_score": 0.1779
-        },
-        {
-          "title": "New Details Emerge in Amazon Ads Auction-Rigging Case",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50437053",
-          "date": "2026-11-10",
-          "sentiment_score": 0.1779
-        },
-        {
-          "title": "\"Construct\" room from Matrix with Amazon products",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50433525",
-          "date": "2026-11-09",
-          "sentiment_score": 0.1779
         }
       ],
       "sparkline": [
-        0.46,
         0.54,
         0.53,
         0.76,
@@ -100,7 +99,8 @@
         0.4,
         0.4,
         0.49,
-        0.1
+        0.1,
+        0.14
       ]
     },
     {
@@ -168,7 +168,6 @@
         }
       ],
       "sparkline": [
-        0.42,
         0.34,
         0.12,
         0.12,
@@ -197,13 +196,14 @@
         0.12,
         0.12,
         0.1,
+        0.1,
         0.1
       ]
     },
     {
       "name": "Google",
       "sentiment": {
-        "overall_score": 0.07,
+        "overall_score": 0.06,
         "trend": "stable",
         "previous_score": 0.07,
         "confidence": "high",
@@ -214,7 +214,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.07,
+            "score": 0.06,
             "count": 15
           },
           "reddit": {
@@ -228,6 +228,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Gemini Robotics 2.5",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50453617",
+          "date": "2026-11-11",
+          "sentiment_score": 0.0
+        },
         {
           "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
           "source": "Hacker News",
@@ -255,17 +262,9 @@
           "url": "https://news.ycombinator.com/item?id=50420697",
           "date": "2026-11-09",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Google, OpenAI, and Anthropic back a shared robots.txt AI training signal",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50395808",
-          "date": "2026-11-06",
-          "sentiment_score": 0.34
         }
       ],
       "sparkline": [
-        -0.05,
         -0.05,
         -0.02,
         0.14,
@@ -294,15 +293,16 @@
         0.09,
         0.15,
         0.07,
-        0.07
+        0.07,
+        0.06
       ]
     },
     {
       "name": "Meta",
       "sentiment": {
-        "overall_score": -0.02,
-        "trend": "declining",
-        "previous_score": 0.2,
+        "overall_score": -0.04,
+        "trend": "stable",
+        "previous_score": -0.02,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -311,7 +311,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.02,
+            "score": -0.04,
             "count": 15
           },
           "reddit": {
@@ -326,43 +326,42 @@
       },
       "top_headlines": [
         {
-          "title": "Show HN: Mimzie, an agent-neutral alternative to the Claude Suite/Claude Cowork",
+          "title": "New Indian mega library rocked by scandal over 'AI-generated books'",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50448283",
+          "url": "https://news.ycombinator.com/item?id=50453475",
+          "date": "2026-11-11",
+          "sentiment_score": -0.4404
+        },
+        {
+          "title": "Meta, TikTok join Google to push back on Indonesia's AI copyright law revisions",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50455906",
+          "date": "2026-11-11",
+          "sentiment_score": 0.296
+        },
+        {
+          "title": "Meta's Head of Infrastructure, Engineering to Depart in 2027",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50456964",
           "date": "2026-11-11",
           "sentiment_score": 0.0
         },
         {
-          "title": "A Year as a Research Engineer Working on RSI at Meta",
+          "title": "Why does Reddit want me to use the iOS app on my desktop?",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50441689",
-          "date": "2026-11-10",
-          "sentiment_score": 0.0
+          "url": "https://news.ycombinator.com/item?id=50451569",
+          "date": "2026-11-11",
+          "sentiment_score": 0.0772
         },
         {
-          "title": "Show HN: Tokspur a 3x faster open source inference engine for Macs",
+          "title": "Ask HN: LLM-Resistant Publishing Strategies",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50438931",
-          "date": "2026-11-10",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "Being a meat proxy for AI should be grounds for getting people fired",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50422001",
-          "date": "2026-11-09",
-          "sentiment_score": -0.5574
-        },
-        {
-          "title": "Show HN: Emma, a real-time AI video persona from Nuance Labs",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50432589",
-          "date": "2026-11-09",
+          "url": "https://news.ycombinator.com/item?id=50411036",
+          "date": "2026-11-08",
           "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.01,
         -0.02,
         0.18,
         0.0,
@@ -391,7 +390,8 @@
         0.15,
         -0.03,
         0.2,
-        -0.02
+        -0.02,
+        -0.04
       ]
     },
     {
@@ -423,16 +423,16 @@
       },
       "top_headlines": [
         {
-          "title": "The SideWinder Game Pad, Microsoft's first game controller",
+          "title": "Microsoft's Patch Tuesday surpasses 1k bugs for second month in a row",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50410427",
-          "date": "2026-11-08",
+          "url": "https://news.ycombinator.com/item?id=50451078",
+          "date": "2026-11-11",
           "sentiment_score": 0.0
         },
         {
-          "title": "Ask HN: LLM-Resistant Publishing Strategies",
+          "title": "The SideWinder Game Pad, Microsoft's first game controller",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50411036",
+          "url": "https://news.ycombinator.com/item?id=50410427",
           "date": "2026-11-08",
           "sentiment_score": 0.0
         },
@@ -459,7 +459,6 @@
         }
       ],
       "sparkline": [
-        0.05,
         0.13,
         0.02,
         0.02,
@@ -488,6 +487,7 @@
         0.02,
         0.02,
         0.02,
+        0.02,
         0.02
       ]
     },
@@ -495,8 +495,8 @@
       "name": "JPMorgan Chase",
       "sentiment": {
         "overall_score": 0.1,
-        "trend": "improving",
-        "previous_score": 0,
+        "trend": "stable",
+        "previous_score": 0.1,
         "confidence": "low",
         "sample_size": 1,
         "source_scores": {
@@ -556,7 +556,7 @@
         0,
         0,
         0,
-        0,
+        0.1,
         0.1
       ]
     },
@@ -651,7 +651,6 @@
       "top_headlines": [],
       "sparkline": [
         0,
-        0,
         0.0,
         0.0,
         -0.04,
@@ -679,6 +678,7 @@
         0,
         0,
         0,
+        0,
         0
       ]
     },
@@ -686,8 +686,8 @@
       "name": "Salesforce",
       "sentiment": {
         "overall_score": 0.17,
-        "trend": "declining",
-        "previous_score": 0.6,
+        "trend": "stable",
+        "previous_score": 0.17,
         "confidence": "low",
         "sample_size": 2,
         "source_scores": {
@@ -726,7 +726,6 @@
         }
       ],
       "sparkline": [
-        0.58,
         0.59,
         0.59,
         0.59,
@@ -755,13 +754,14 @@
         0.6,
         0.68,
         0.6,
+        0.17,
         0.17
       ]
     },
     {
       "name": "AT&T",
       "sentiment": {
-        "overall_score": -0.05,
+        "overall_score": -0.06,
         "trend": "stable",
         "previous_score": -0.05,
         "confidence": "high",
@@ -772,7 +772,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.05,
+            "score": -0.06,
             "count": 15
           },
           "reddit": {
@@ -786,6 +786,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Google SWE points 48 AI agents at NASA Lidar, finds unmapped Maya pyramid in 72h",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50452455",
+          "date": "2026-11-11",
+          "sentiment_score": 0.0
+        },
         {
           "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
           "source": "Hacker News",
@@ -813,17 +820,9 @@
           "url": "https://news.ycombinator.com/item?id=50352758",
           "date": "2026-11-03",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Supermarket freezers across Europe hit by second suspected cyber-attack",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50335615",
-          "date": "2026-11-02",
-          "sentiment_score": -0.25
         }
       ],
       "sparkline": [
-        -0.04,
         -0.03,
         -0.06,
         -0.05,
@@ -852,15 +851,16 @@
         -0.05,
         -0.05,
         -0.05,
-        -0.05
+        -0.05,
+        -0.06
       ]
     },
     {
       "name": "Disney",
       "sentiment": {
         "overall_score": 0.0,
-        "trend": "declining",
-        "previous_score": 0.18,
+        "trend": "stable",
+        "previous_score": 0.0,
         "confidence": "low",
         "sample_size": 1,
         "source_scores": {
@@ -892,7 +892,6 @@
         }
       ],
       "sparkline": [
-        -0.09,
         0.0,
         -0.07,
         -0.07,
@@ -921,13 +920,14 @@
         0.0,
         0.23,
         0.18,
+        0.0,
         0.0
       ]
     },
     {
       "name": "Dell",
       "sentiment": {
-        "overall_score": -0.15,
+        "overall_score": -0.13,
         "trend": "stable",
         "previous_score": -0.15,
         "confidence": "high",
@@ -938,7 +938,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.15,
+            "score": -0.13,
             "count": 15
           },
           "reddit": {
@@ -953,11 +953,11 @@
       },
       "top_headlines": [
         {
-          "title": "Anthropic strikes $3.4B deal to generate gas-fired power for data centres",
+          "title": "Show HN: ZeGrapher v4: modern open-source math plotter \u2013 Desmos-inspired",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50412760",
-          "date": "2026-11-08",
-          "sentiment_score": -0.3612
+          "url": "https://news.ycombinator.com/item?id=50455219",
+          "date": "2026-11-11",
+          "sentiment_score": 0.0
         },
         {
           "title": "Developer ends lucrative screensaver deal with Roku because Fox bought it",
@@ -989,7 +989,6 @@
         }
       ],
       "sparkline": [
-        -0.06,
         0.31,
         -0.04,
         -0.06,
@@ -1018,7 +1017,8 @@
         0.41,
         -0.13,
         -0.15,
-        -0.15
+        -0.15,
+        -0.13
       ]
     },
     {
@@ -1086,7 +1086,6 @@
         }
       ],
       "sparkline": [
-        -0.01,
         0.01,
         -0.01,
         -0.17,
@@ -1115,6 +1114,7 @@
         0.04,
         0.04,
         0.04,
+        0.04,
         0.04
       ]
     },
@@ -1122,8 +1122,8 @@
       "name": "Caterpillar",
       "sentiment": {
         "overall_score": 0,
-        "trend": "declining",
-        "previous_score": 0.6,
+        "trend": "stable",
+        "previous_score": 0,
         "confidence": "low",
         "sample_size": 0,
         "source_scores": {
@@ -1147,7 +1147,6 @@
       },
       "top_headlines": [],
       "sparkline": [
-        0,
         0,
         0,
         0,
@@ -1176,6 +1175,7 @@
         0,
         0.6,
         0.6,
+        0,
         0
       ]
     },
@@ -1208,17 +1208,17 @@
       },
       "top_headlines": [
         {
+          "title": "Cisco to rewrite 98% of its legacy code using AI",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50389728",
+          "date": "2026-11-06",
+          "sentiment_score": 0.0
+        },
+        {
           "title": "Ask HN: What router do you use at home?",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=50352464",
           "date": "2026-11-03",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "Cisco gives engineer unlimited AI tokens to rewrite legacy code",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50304122",
-          "date": "2026-10-30",
           "sentiment_score": 0.0
         },
         {
@@ -1247,7 +1247,6 @@
         -0.11,
         -0.11,
         -0.11,
-        -0.11,
         -0.09,
         0.21,
         -0.13,
@@ -1265,6 +1264,7 @@
         0.0,
         0.0,
         0.26,
+        0.0,
         0.0,
         0.0,
         0.0,
