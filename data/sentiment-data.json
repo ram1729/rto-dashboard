@@ -1,15 +1,15 @@
 {
-  "last_updated": "2026-11-12T19:46:27.796222Z",
+  "last_updated": "2026-11-13T05:33:04.888456Z",
   "scraper_log": {
-    "duration_sec": 226.21,
-    "total_articles": 130,
+    "duration_sec": 254.34,
+    "total_articles": 129,
     "errors": []
   },
   "companies": [
     {
       "name": "Amazon",
       "sentiment": {
-        "overall_score": 0.14,
+        "overall_score": 0.17,
         "trend": "stable",
         "previous_score": 0.14,
         "confidence": "high",
@@ -20,7 +20,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.14,
+            "score": 0.17,
             "count": 15
           },
           "reddit": {
@@ -42,6 +42,13 @@
           "sentiment_score": 0.34
         },
         {
+          "title": "Adding RSA Support to swift-nio-ssh",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50476069",
+          "date": "2026-11-12",
+          "sentiment_score": 0.4019
+        },
+        {
           "title": "Ring cameras go mobile as Amazon debuts AI-powered security drone and robot",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=50452395",
@@ -61,17 +68,9 @@
           "url": "https://news.ycombinator.com/item?id=50450782",
           "date": "2026-11-11",
           "sentiment_score": 0.34
-        },
-        {
-          "title": "Amazon's Ring unveils flying drone and robot to patrol homes and businesses",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50441134",
-          "date": "2026-11-10",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.76,
         0.43,
         0.46,
         0.46,
@@ -100,7 +99,8 @@
         0.1,
         0.14,
         0.14,
-        0.14
+        0.14,
+        0.17
       ]
     },
     {
@@ -168,7 +168,6 @@
         }
       ],
       "sparkline": [
-        0.12,
         0.35,
         0.16,
         0.35,
@@ -193,6 +192,7 @@
         0.12,
         0.12,
         0.12,
+        0.1,
         0.1,
         0.1,
         0.1,
@@ -265,7 +265,6 @@
         }
       ],
       "sparkline": [
-        0.14,
         -0.02,
         0.14,
         -0.02,
@@ -294,14 +293,15 @@
         0.07,
         0.06,
         0.06,
+        0.06,
         0.06
       ]
     },
     {
       "name": "Meta",
       "sentiment": {
-        "overall_score": -0.04,
-        "trend": "stable",
+        "overall_score": -0.12,
+        "trend": "declining",
         "previous_score": -0.04,
         "confidence": "high",
         "sample_size": 15,
@@ -311,7 +311,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.04,
+            "score": -0.12,
             "count": 15
           },
           "reddit": {
@@ -326,6 +326,13 @@
       },
       "top_headlines": [
         {
+          "title": "Copyright-Strike-for-Hire: Lawsuit Targets Service over Fake Meta Takedowns",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50478494",
+          "date": "2026-11-13",
+          "sentiment_score": -0.6124
+        },
+        {
           "title": "The Confidential Payments Meta and TikTok Made to Addicted Teens",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=50468766",
@@ -336,13 +343,6 @@
           "title": "Roadside investigations of psyllids, ants and eucs",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=50468687",
-          "date": "2026-11-12",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "Show HN: Kapso \u2013 Iterative learning from enterprise data",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50471281",
           "date": "2026-11-12",
           "sentiment_score": 0.0
         },
@@ -362,7 +362,6 @@
         }
       ],
       "sparkline": [
-        0.0,
         0.0,
         0.01,
         0.09,
@@ -391,15 +390,16 @@
         -0.02,
         -0.04,
         -0.04,
-        -0.04
+        -0.04,
+        -0.12
       ]
     },
     {
       "name": "Microsoft",
       "sentiment": {
-        "overall_score": 0.01,
+        "overall_score": 0.02,
         "trend": "stable",
-        "previous_score": 0.02,
+        "previous_score": 0.01,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -408,7 +408,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.01,
+            "score": 0.02,
             "count": 15
           },
           "reddit": {
@@ -423,11 +423,25 @@
       },
       "top_headlines": [
         {
+          "title": "Outlook still down for anyone else?",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50478356",
+          "date": "2026-11-13",
+          "sentiment_score": 0.0
+        },
+        {
           "title": "Microsoft Removes Remaining eMudhra Root Certificates from Trusted Root Program",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=50466161",
           "date": "2026-11-12",
           "sentiment_score": 0.4767
+        },
+        {
+          "title": "Microsoft Status: \"We are re-routing the protocols\"",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50473606",
+          "date": "2026-11-12",
+          "sentiment_score": 0.0
         },
         {
           "title": "Microsoft's Patch Tuesday surpasses 1k bugs for second month in a row",
@@ -442,24 +456,9 @@
           "url": "https://news.ycombinator.com/item?id=50410427",
           "date": "2026-11-08",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Google, OpenAI, and Anthropic back a shared robots.txt AI training signal",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50395808",
-          "date": "2026-11-06",
-          "sentiment_score": 0.34
-        },
-        {
-          "title": "Show HN: Aggregate Finance, your financial data in a spreadsheet you own",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50371992",
-          "date": "2026-11-04",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.02,
         0.02,
         0.01,
         0.01,
@@ -488,15 +487,16 @@
         0.02,
         0.02,
         0.02,
-        0.01
+        0.01,
+        0.02
       ]
     },
     {
       "name": "JPMorgan Chase",
       "sentiment": {
         "overall_score": 0,
-        "trend": "declining",
-        "previous_score": 0.1,
+        "trend": "stable",
+        "previous_score": 0,
         "confidence": "low",
         "sample_size": 0,
         "source_scores": {
@@ -545,10 +545,10 @@
         0,
         0,
         0,
+        0.1,
+        0.1,
+        0.1,
         0,
-        0.1,
-        0.1,
-        0.1,
         0
       ]
     },
@@ -642,7 +642,6 @@
       },
       "top_headlines": [],
       "sparkline": [
-        0.0,
         -0.04,
         0.0,
         0.0,
@@ -657,6 +656,7 @@
         0.0,
         0.0,
         0.0,
+        0,
         0,
         0,
         0,
@@ -718,7 +718,6 @@
         }
       ],
       "sparkline": [
-        0.59,
         0.24,
         0.57,
         0.58,
@@ -744,6 +743,7 @@
         0.6,
         0.68,
         0.6,
+        0.17,
         0.17,
         0.17,
         0.17,
@@ -815,7 +815,6 @@
         }
       ],
       "sparkline": [
-        -0.05,
         -0.13,
         -0.06,
         -0.06,
@@ -843,6 +842,7 @@
         -0.05,
         -0.05,
         -0.06,
+        -0.05,
         -0.05,
         -0.05
       ]
@@ -884,7 +884,6 @@
         }
       ],
       "sparkline": [
-        -0.07,
         -0.15,
         0.16,
         0.16,
@@ -910,6 +909,7 @@
         0.0,
         0.23,
         0.18,
+        0.0,
         0.0,
         0.0,
         0.0,
@@ -981,7 +981,6 @@
         }
       ],
       "sparkline": [
-        -0.06,
         -0.09,
         -0.01,
         -0.09,
@@ -1008,6 +1007,7 @@
         -0.13,
         -0.15,
         -0.15,
+        -0.13,
         -0.13,
         -0.13,
         -0.13
@@ -1078,7 +1078,6 @@
         }
       ],
       "sparkline": [
-        -0.17,
         0.01,
         0.01,
         0.01,
@@ -1100,6 +1099,7 @@
         0.04,
         0.04,
         0.02,
+        0.04,
         0.04,
         0.04,
         0.04,
@@ -1139,7 +1139,6 @@
       },
       "top_headlines": [],
       "sparkline": [
-        0,
         0.59,
         0,
         0.59,
@@ -1168,6 +1167,7 @@
         0,
         0,
         0,
+        0,
         0
       ]
     },
@@ -1178,7 +1178,7 @@
         "trend": "stable",
         "previous_score": 0.0,
         "confidence": "medium",
-        "sample_size": 7,
+        "sample_size": 6,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -1186,7 +1186,7 @@
           },
           "hackernews": {
             "score": 0.0,
-            "count": 7
+            "count": 6
           },
           "reddit": {
             "score": 0,
@@ -1199,13 +1199,6 @@
         }
       },
       "top_headlines": [
-        {
-          "title": "Cisco to rewrite 98% of its legacy code using AI",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50389728",
-          "date": "2026-11-06",
-          "sentiment_score": 0.0
-        },
         {
           "title": "Ask HN: What router do you use at home?",
           "source": "Hacker News",
@@ -1233,10 +1226,16 @@
           "url": "https://news.ycombinator.com/item?id=50206190",
           "date": "2026-10-23",
           "sentiment_score": 0.0
+        },
+        {
+          "title": "The Kessler Syndrome (where blowups multiply exponentially) applied to software",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50189771",
+          "date": "2026-10-22",
+          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        -0.11,
         -0.09,
         0.21,
         -0.13,
@@ -1254,6 +1253,7 @@
         0.0,
         0.0,
         0.26,
+        0.0,
         0.0,
         0.0,
         0.0,
