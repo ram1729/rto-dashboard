@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-11-14T05:21:59.881730Z",
+  "last_updated": "2026-11-14T17:52:45.502842Z",
   "scraper_log": {
-    "duration_sec": 232.1,
-    "total_articles": 131,
+    "duration_sec": 218.41,
+    "total_articles": 126,
     "errors": []
   },
   "companies": [
@@ -72,7 +72,6 @@
       ],
       "sparkline": [
         0.46,
-        0.46,
         0.5,
         0.5,
         0.51,
@@ -100,6 +99,7 @@
         0.14,
         0.14,
         0.17,
+        0.17,
         0.17
       ]
     },
@@ -108,7 +108,7 @@
       "sentiment": {
         "overall_score": 0.06,
         "trend": "stable",
-        "previous_score": 0.1,
+        "previous_score": 0.06,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -168,7 +168,6 @@
         }
       ],
       "sparkline": [
-        0.16,
         0.35,
         0.33,
         0.31,
@@ -197,15 +196,16 @@
         0.1,
         0.1,
         0.1,
+        0.06,
         0.06
       ]
     },
     {
       "name": "Google",
       "sentiment": {
-        "overall_score": 0.07,
+        "overall_score": 0.03,
         "trend": "stable",
-        "previous_score": 0.06,
+        "previous_score": 0.07,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -214,7 +214,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.07,
+            "score": 0.03,
             "count": 15
           },
           "reddit": {
@@ -228,6 +228,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Traveling Salesperson Problem \u2013 Google OR-Tools",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50498031",
+          "date": "2026-11-14",
+          "sentiment_score": -0.4019
+        },
         {
           "title": "Gemini Robotics 2.5",
           "source": "Hacker News",
@@ -255,17 +262,9 @@
           "url": "https://news.ycombinator.com/item?id=50429426",
           "date": "2026-11-09",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Show HN: Mindfries- AI Interviewer based on real eng skill not on L**tC*de",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50420697",
-          "date": "2026-11-09",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.14,
         -0.02,
         0.0,
         0.0,
@@ -294,25 +293,26 @@
         0.06,
         0.06,
         0.06,
-        0.07
+        0.07,
+        0.03
       ]
     },
     {
       "name": "Meta",
       "sentiment": {
-        "overall_score": -0.06,
+        "overall_score": -0.0,
         "trend": "improving",
-        "previous_score": -0.12,
+        "previous_score": -0.06,
         "confidence": "high",
-        "sample_size": 15,
+        "sample_size": 12,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.06,
-            "count": 15
+            "score": -0.0,
+            "count": 12
           },
           "reddit": {
             "score": 0,
@@ -326,32 +326,32 @@
       },
       "top_headlines": [
         {
-          "title": "What reduces burnout, according to three 2026 meta-analyses",
+          "title": "Kagi Mail is coming to public beta",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50485351",
+          "url": "https://news.ycombinator.com/item?id=50490230",
           "date": "2026-11-13",
           "sentiment_score": 0.0
         },
         {
-          "title": "The Confidential Payments Meta and TikTok Made to Addicted Teens",
+          "title": "Show HN: Kapso \u2013 Iterative learning from enterprise data",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50468766",
+          "url": "https://news.ycombinator.com/item?id=50471281",
           "date": "2026-11-12",
           "sentiment_score": 0.0
         },
         {
-          "title": "Why does Reddit want me to use the iOS app on my desktop?",
+          "title": "Show HN: Rebuilding Amazon SES in Rust",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50451569",
+          "url": "https://news.ycombinator.com/item?id=50456921",
           "date": "2026-11-11",
-          "sentiment_score": 0.0772
+          "sentiment_score": 0.1779
         },
         {
-          "title": "Being a meat proxy for AI should be grounds for getting people fired",
+          "title": "Show HN: Klad, a paint app your coding agent can drive (source-available)",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50422001",
-          "date": "2026-11-09",
-          "sentiment_score": -0.5574
+          "url": "https://news.ycombinator.com/item?id=50454951",
+          "date": "2026-11-11",
+          "sentiment_score": 0.0
         },
         {
           "title": "Ask HN: LLM-Resistant Publishing Strategies",
@@ -362,7 +362,6 @@
         }
       ],
       "sparkline": [
-        0.01,
         0.09,
         -0.03,
         -0.05,
@@ -391,7 +390,8 @@
         -0.04,
         -0.04,
         -0.12,
-        -0.06
+        -0.06,
+        -0.0
       ]
     },
     {
@@ -423,13 +423,6 @@
       },
       "top_headlines": [
         {
-          "title": "Outlook still down for anyone else?",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50478356",
-          "date": "2026-11-13",
-          "sentiment_score": 0.0
-        },
-        {
           "title": "Microsoft Removes Remaining eMudhra Root Certificates from Trusted Root Program",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=50466161",
@@ -456,10 +449,16 @@
           "url": "https://news.ycombinator.com/item?id=50410427",
           "date": "2026-11-08",
           "sentiment_score": 0.0
+        },
+        {
+          "title": "Google, OpenAI, and Anthropic back a shared robots.txt AI training signal",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50395808",
+          "date": "2026-11-06",
+          "sentiment_score": 0.34
         }
       ],
       "sparkline": [
-        0.01,
         0.01,
         -0.03,
         0,
@@ -487,6 +486,7 @@
         0.02,
         0.02,
         0.01,
+        0.02,
         0.02,
         0.02
       ]
@@ -543,10 +543,10 @@
         0,
         0,
         0,
+        0.1,
+        0.1,
+        0.1,
         0,
-        0.1,
-        0.1,
-        0.1,
         0,
         0,
         0
@@ -645,7 +645,6 @@
         0.0,
         0.0,
         0.0,
-        0.0,
         0,
         0,
         0,
@@ -655,6 +654,7 @@
         0.0,
         0.0,
         0.0,
+        0,
         0,
         0,
         0,
@@ -718,7 +718,6 @@
         }
       ],
       "sparkline": [
-        0.57,
         0.58,
         0.58,
         0.58,
@@ -747,6 +746,7 @@
         0.17,
         0.17,
         0.17,
+        0.17,
         0.17
       ]
     },
@@ -754,8 +754,8 @@
       "name": "AT&T",
       "sentiment": {
         "overall_score": 0.0,
-        "trend": "improving",
-        "previous_score": -0.05,
+        "trend": "stable",
+        "previous_score": 0.0,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -816,7 +816,6 @@
       ],
       "sparkline": [
         -0.06,
-        -0.06,
         -0.12,
         -0.13,
         -0.19,
@@ -844,25 +843,26 @@
         -0.05,
         -0.05,
         -0.05,
+        0.0,
         0.0
       ]
     },
     {
       "name": "Disney",
       "sentiment": {
-        "overall_score": -0.19,
-        "trend": "declining",
-        "previous_score": 0.0,
+        "overall_score": 0.0,
+        "trend": "improving",
+        "previous_score": -0.19,
         "confidence": "low",
-        "sample_size": 3,
+        "sample_size": 2,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.19,
-            "count": 3
+            "score": 0.0,
+            "count": 2
           },
           "reddit": {
             "score": 0,
@@ -883,13 +883,6 @@
           "sentiment_score": 0.0
         },
         {
-          "title": "Star Wars 50th Anniversary: Disney and Lucasfilm Announce 2027 Celebration",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50487837",
-          "date": "2026-11-13",
-          "sentiment_score": -0.5574
-        },
-        {
           "title": "Disney Raising Prices Days After Confirming Ads Will Now Show Up on Every Tier",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=50205934",
@@ -898,7 +891,6 @@
         }
       ],
       "sparkline": [
-        0.16,
         0.16,
         0.0,
         0.0,
@@ -927,7 +919,8 @@
         0.0,
         0.0,
         0.0,
-        -0.19
+        -0.19,
+        0.0
       ]
     },
     {
@@ -966,10 +959,10 @@
           "sentiment_score": 0.0
         },
         {
-          "title": "Dell's 157 PB all-flash object storage rack",
+          "title": "Show HN: 1:1 Webflow to Claude Code converter",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50465814",
-          "date": "2026-11-12",
+          "url": "https://news.ycombinator.com/item?id=50490283",
+          "date": "2026-11-13",
           "sentiment_score": 0.0
         },
         {
@@ -995,7 +988,6 @@
         }
       ],
       "sparkline": [
-        -0.01,
         -0.09,
         -0.07,
         -0.06,
@@ -1020,6 +1012,7 @@
         -0.13,
         -0.15,
         -0.15,
+        -0.13,
         -0.13,
         -0.13,
         -0.13,
@@ -1095,7 +1088,6 @@
         0.01,
         0.01,
         0.01,
-        0.01,
         -0.08,
         0.04,
         0.04,
@@ -1112,6 +1104,7 @@
         0.04,
         0.04,
         0.02,
+        0.04,
         0.04,
         0.04,
         0.04,
@@ -1153,7 +1146,6 @@
       },
       "top_headlines": [],
       "sparkline": [
-        0,
         0.59,
         0.59,
         0.59,
@@ -1182,6 +1174,7 @@
         0,
         0,
         0,
+        0,
         0
       ]
     },
@@ -1192,7 +1185,7 @@
         "trend": "stable",
         "previous_score": 0.0,
         "confidence": "medium",
-        "sample_size": 6,
+        "sample_size": 5,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -1200,7 +1193,7 @@
           },
           "hackernews": {
             "score": 0.0,
-            "count": 6
+            "count": 5
           },
           "reddit": {
             "score": 0,
@@ -1218,13 +1211,6 @@
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=50352464",
           "date": "2026-11-03",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "Cisco gives engineer unlimited AI tokens to rewrite legacy code",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50304122",
-          "date": "2026-10-30",
           "sentiment_score": 0.0
         },
         {
@@ -1247,10 +1233,16 @@
           "url": "https://news.ycombinator.com/item?id=50189771",
           "date": "2026-10-22",
           "sentiment_score": 0.0
+        },
+        {
+          "title": "Lucid's 25,000 Bolt robotaxis will run on Nvidia's self-driving software",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50184967",
+          "date": "2026-10-21",
+          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.21,
         -0.13,
         -0.15,
         -0.18,
@@ -1266,6 +1258,7 @@
         0.0,
         0.0,
         0.26,
+        0.0,
         0.0,
         0.0,
         0.0,
