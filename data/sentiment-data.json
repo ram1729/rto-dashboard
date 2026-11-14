@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-11-13T05:33:04.888456Z",
+  "last_updated": "2026-11-14T05:21:59.881730Z",
   "scraper_log": {
-    "duration_sec": 254.34,
-    "total_articles": 129,
+    "duration_sec": 232.1,
+    "total_articles": 131,
     "errors": []
   },
   "companies": [
@@ -11,7 +11,7 @@
       "sentiment": {
         "overall_score": 0.17,
         "trend": "stable",
-        "previous_score": 0.14,
+        "previous_score": 0.17,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -71,7 +71,6 @@
         }
       ],
       "sparkline": [
-        0.43,
         0.46,
         0.46,
         0.5,
@@ -100,13 +99,14 @@
         0.14,
         0.14,
         0.14,
+        0.17,
         0.17
       ]
     },
     {
       "name": "Apple",
       "sentiment": {
-        "overall_score": 0.1,
+        "overall_score": 0.06,
         "trend": "stable",
         "previous_score": 0.1,
         "confidence": "high",
@@ -117,7 +117,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.1,
+            "score": 0.06,
             "count": 15
           },
           "reddit": {
@@ -146,6 +146,13 @@
           "sentiment_score": 0.0
         },
         {
+          "title": "Show HN: DBDelve \u2013 Open-Source DB Client Made with Rust and GPUI",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50427934",
+          "date": "2026-11-09",
+          "sentiment_score": 0.0
+        },
+        {
           "title": "Apple HomeView Ultra, drone and laundry-folding robot reportedly in development",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=50355217",
@@ -158,17 +165,9 @@
           "url": "https://news.ycombinator.com/item?id=50286034",
           "date": "2026-10-29",
           "sentiment_score": 0.4215
-        },
-        {
-          "title": "Show HN: Point your camera at a landscape to learn about its geology",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50290533",
-          "date": "2026-10-29",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.35,
         0.16,
         0.35,
         0.33,
@@ -197,13 +196,14 @@
         0.1,
         0.1,
         0.1,
-        0.1
+        0.1,
+        0.06
       ]
     },
     {
       "name": "Google",
       "sentiment": {
-        "overall_score": 0.06,
+        "overall_score": 0.07,
         "trend": "stable",
         "previous_score": 0.06,
         "confidence": "high",
@@ -214,7 +214,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.06,
+            "score": 0.07,
             "count": 15
           },
           "reddit": {
@@ -265,7 +265,6 @@
         }
       ],
       "sparkline": [
-        -0.02,
         0.14,
         -0.02,
         0.0,
@@ -294,15 +293,16 @@
         0.06,
         0.06,
         0.06,
-        0.06
+        0.06,
+        0.07
       ]
     },
     {
       "name": "Meta",
       "sentiment": {
-        "overall_score": -0.12,
-        "trend": "declining",
-        "previous_score": -0.04,
+        "overall_score": -0.06,
+        "trend": "improving",
+        "previous_score": -0.12,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -311,7 +311,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.12,
+            "score": -0.06,
             "count": 15
           },
           "reddit": {
@@ -326,23 +326,16 @@
       },
       "top_headlines": [
         {
-          "title": "Copyright-Strike-for-Hire: Lawsuit Targets Service over Fake Meta Takedowns",
+          "title": "What reduces burnout, according to three 2026 meta-analyses",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50478494",
+          "url": "https://news.ycombinator.com/item?id=50485351",
           "date": "2026-11-13",
-          "sentiment_score": -0.6124
+          "sentiment_score": 0.0
         },
         {
           "title": "The Confidential Payments Meta and TikTok Made to Addicted Teens",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=50468766",
-          "date": "2026-11-12",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "Roadside investigations of psyllids, ants and eucs",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50468687",
           "date": "2026-11-12",
           "sentiment_score": 0.0
         },
@@ -359,10 +352,16 @@
           "url": "https://news.ycombinator.com/item?id=50422001",
           "date": "2026-11-09",
           "sentiment_score": -0.5574
+        },
+        {
+          "title": "Ask HN: LLM-Resistant Publishing Strategies",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50411036",
+          "date": "2026-11-08",
+          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.0,
         0.01,
         0.09,
         -0.03,
@@ -391,7 +390,8 @@
         -0.04,
         -0.04,
         -0.04,
-        -0.12
+        -0.12,
+        -0.06
       ]
     },
     {
@@ -399,7 +399,7 @@
       "sentiment": {
         "overall_score": 0.02,
         "trend": "stable",
-        "previous_score": 0.01,
+        "previous_score": 0.02,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -459,7 +459,6 @@
         }
       ],
       "sparkline": [
-        0.02,
         0.01,
         0.01,
         -0.03,
@@ -488,6 +487,7 @@
         0.02,
         0.02,
         0.01,
+        0.02,
         0.02
       ]
     },
@@ -544,10 +544,10 @@
         0,
         0,
         0,
+        0.1,
+        0.1,
+        0.1,
         0,
-        0.1,
-        0.1,
-        0.1,
         0,
         0
       ]
@@ -642,7 +642,6 @@
       },
       "top_headlines": [],
       "sparkline": [
-        -0.04,
         0.0,
         0.0,
         0.0,
@@ -656,6 +655,7 @@
         0.0,
         0.0,
         0.0,
+        0,
         0,
         0,
         0,
@@ -718,7 +718,6 @@
         }
       ],
       "sparkline": [
-        0.24,
         0.57,
         0.58,
         0.58,
@@ -747,14 +746,15 @@
         0.17,
         0.17,
         0.17,
+        0.17,
         0.17
       ]
     },
     {
       "name": "AT&T",
       "sentiment": {
-        "overall_score": -0.05,
-        "trend": "stable",
+        "overall_score": 0.0,
+        "trend": "improving",
         "previous_score": -0.05,
         "confidence": "high",
         "sample_size": 15,
@@ -764,7 +764,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.05,
+            "score": 0.0,
             "count": 15
           },
           "reddit": {
@@ -815,7 +815,6 @@
         }
       ],
       "sparkline": [
-        -0.13,
         -0.06,
         -0.06,
         -0.12,
@@ -844,25 +843,26 @@
         -0.06,
         -0.05,
         -0.05,
-        -0.05
+        -0.05,
+        0.0
       ]
     },
     {
       "name": "Disney",
       "sentiment": {
-        "overall_score": 0.0,
-        "trend": "stable",
+        "overall_score": -0.19,
+        "trend": "declining",
         "previous_score": 0.0,
         "confidence": "low",
-        "sample_size": 1,
+        "sample_size": 3,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.0,
-            "count": 1
+            "score": -0.19,
+            "count": 3
           },
           "reddit": {
             "score": 0,
@@ -876,6 +876,20 @@
       },
       "top_headlines": [
         {
+          "title": "Using LLMs outside of reflection is an anti-pattern",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50489240",
+          "date": "2026-11-13",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Star Wars 50th Anniversary: Disney and Lucasfilm Announce 2027 Celebration",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50487837",
+          "date": "2026-11-13",
+          "sentiment_score": -0.5574
+        },
+        {
           "title": "Disney Raising Prices Days After Confirming Ads Will Now Show Up on Every Tier",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=50205934",
@@ -884,7 +898,6 @@
         }
       ],
       "sparkline": [
-        -0.15,
         0.16,
         0.16,
         0.0,
@@ -913,7 +926,8 @@
         0.0,
         0.0,
         0.0,
-        0.0
+        0.0,
+        -0.19
       ]
     },
     {
@@ -945,17 +959,17 @@
       },
       "top_headlines": [
         {
-          "title": "Show HN: Ramasite, a Self-Contained Laravel/Filament/SQLite CMS",
+          "title": "Using LLMs outside of reflection is an anti-pattern",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50462469",
-          "date": "2026-11-12",
+          "url": "https://news.ycombinator.com/item?id=50489240",
+          "date": "2026-11-13",
           "sentiment_score": 0.0
         },
         {
-          "title": "Brazil's Serra Verde starts shipping heavy rare earths to US under 15-year deal",
+          "title": "Dell's 157 PB all-flash object storage rack",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50454418",
-          "date": "2026-11-11",
+          "url": "https://news.ycombinator.com/item?id=50465814",
+          "date": "2026-11-12",
           "sentiment_score": 0.0
         },
         {
@@ -981,7 +995,6 @@
         }
       ],
       "sparkline": [
-        -0.09,
         -0.01,
         -0.09,
         -0.07,
@@ -1007,6 +1020,7 @@
         -0.13,
         -0.15,
         -0.15,
+        -0.13,
         -0.13,
         -0.13,
         -0.13,
@@ -1082,7 +1096,6 @@
         0.01,
         0.01,
         0.01,
-        0.01,
         -0.08,
         0.04,
         0.04,
@@ -1099,6 +1112,7 @@
         0.04,
         0.04,
         0.02,
+        0.04,
         0.04,
         0.04,
         0.04,
@@ -1139,7 +1153,6 @@
       },
       "top_headlines": [],
       "sparkline": [
-        0.59,
         0,
         0.59,
         0.59,
@@ -1164,6 +1177,7 @@
         0,
         0.6,
         0.6,
+        0,
         0,
         0,
         0,
@@ -1236,7 +1250,6 @@
         }
       ],
       "sparkline": [
-        -0.09,
         0.21,
         -0.13,
         -0.15,
@@ -1253,6 +1266,7 @@
         0.0,
         0.0,
         0.26,
+        0.0,
         0.0,
         0.0,
         0.0,
