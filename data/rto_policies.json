@@ -2593,11 +2593,11 @@
     "id": 24,
     "company": "Microsoft",
     "sector": "Technology",
-    "policy": "Office-First",
-    "daysInOffice": 4,
+    "policy": "Hybrid",
+    "daysInOffice": 3,
     "enforcement": "3d phased rollout from Feb 2026",
-    "lastUpdate": "2026-10-21",
-    "source": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOeS01VjZOeWl6VU43NldYVk11UXdhenZfZ29UaVp6d0pyQlF1Y0xRaUs0UzdhcGZxMmZaaWYzemprT3cxOFlJWVZVZjBGWVEtaWlRaV83QnJSZVpPLUV2OWw2REtFOUluMG9uRnZZdGtiZ0ZLM3J2dndHV1RneUV6RTNNd0E?oc=5",
+    "lastUpdate": "2026-10-14",
+    "source": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBLaEZ4bnM2bFJOYTdmTHR0d1FWZjB1TkprOHYwbEgzaEx2RUhhaGRiMENUVWYtamk3elpwaE9NMHF1bW9NYWVwOVNVcG5NaUtlMG5hdTZyV0IzX3hPU1RMdl9MYlFEWm5y?oc=5",
     "sentiment": 0.75,
     "sentimentTrend": "Improving",
     "mentionVolume": 3074,
@@ -2829,6 +2829,12 @@
       }
     ],
     "policyHistory": [
+      {
+        "date": "2025-01-15",
+        "policy": "Hybrid",
+        "daysInOffice": 3,
+        "source": "https://www.businessinsider.com/meta-zuckerberg-return-to-office-status-quo-2025"
+      },
       {
         "date": "2025-01-15",
         "policy": "Hybrid",
@@ -6318,6 +6324,12 @@
         "policy": "Hybrid",
         "daysInOffice": 3,
         "source": "https://www.businessinsider.com/bank-of-america-return-to-office-hybrid-2024"
+      },
+      {
+        "date": "2024-01-15",
+        "policy": "Hybrid",
+        "daysInOffice": 3,
+        "source": "https://www.businessinsider.com/bank-of-america-return-to-office-hybrid-2024"
       }
     ]
   },
@@ -6905,6 +6917,12 @@
       }
     ],
     "policyHistory": [
+      {
+        "date": "2023-01-01",
+        "policy": "Hybrid",
+        "daysInOffice": 3,
+        "source": "https://www.lightreading.com/5g/verizon-hybrid-work-policy"
+      },
       {
         "date": "2023-01-01",
         "policy": "Hybrid",
