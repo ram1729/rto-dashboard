@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-11-18T06:19:06.308413Z",
+  "last_updated": "2026-11-18T20:12:24.685513Z",
   "scraper_log": {
-    "duration_sec": 246.94,
-    "total_articles": 135,
+    "duration_sec": 239.27,
+    "total_articles": 130,
     "errors": []
   },
   "companies": [
@@ -72,7 +72,6 @@
       ],
       "sparkline": [
         0.49,
-        0.49,
         0.57,
         0.49,
         0.49,
@@ -98,6 +97,7 @@
         0.17,
         0.17,
         0.17,
+        -0.12,
         -0.12,
         -0.12,
         -0.12
@@ -169,7 +169,6 @@
       ],
       "sparkline": [
         0.27,
-        0.27,
         0.25,
         0.27,
         0.12,
@@ -197,13 +196,14 @@
         0.06,
         0.01,
         0.01,
+        0.01,
         0.01
       ]
     },
     {
       "name": "Google",
       "sentiment": {
-        "overall_score": 0.07,
+        "overall_score": 0.09,
         "trend": "stable",
         "previous_score": 0.07,
         "confidence": "high",
@@ -214,7 +214,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.07,
+            "score": 0.09,
             "count": 15
           },
           "reddit": {
@@ -266,7 +266,6 @@
       ],
       "sparkline": [
         -0.01,
-        -0.01,
         0.03,
         0.03,
         0.13,
@@ -294,13 +293,14 @@
         0.03,
         0.03,
         0.07,
-        0.07
+        0.07,
+        0.09
       ]
     },
     {
       "name": "Meta",
       "sentiment": {
-        "overall_score": 0.02,
+        "overall_score": -0.01,
         "trend": "stable",
         "previous_score": 0.02,
         "confidence": "high",
@@ -311,7 +311,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.02,
+            "score": -0.01,
             "count": 15
           },
           "reddit": {
@@ -326,43 +326,42 @@
       },
       "top_headlines": [
         {
+          "title": "Show HN: Break a robot arm and watch a meta-RL agent keep writing",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50547628",
+          "date": "2026-11-18",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Project Gryffindor: Meta's plan to get more school kids using Instagram",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50548125",
+          "date": "2026-11-18",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Project Gryffindor: Meta's plan to get more school kids using Instagram",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50546118",
+          "date": "2026-11-18",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Launch HN: Maritime (YC F26) \u2013 A managed cloud for production AI agents",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50549188",
+          "date": "2026-11-18",
+          "sentiment_score": 0.0
+        },
+        {
           "title": "Show HN: If Conductor and Cursor Had a Baby (Open Source, macOS)",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=50532246",
           "date": "2026-11-17",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "A cheap, private alternative to Meta's AI keychain, by hacking a ZNP badge",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50532143",
-          "date": "2026-11-17",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "Meta would 'consider' pulling services from Canada if lawful access bill passes",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50526361",
-          "date": "2026-11-17",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "Show HN: Open-source, real-time object tracking for live video feeds",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50523377",
-          "date": "2026-11-16",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "Ask HN: LLM-Resistant Publishing Strategies",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50411036",
-          "date": "2026-11-08",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        -0.02,
         -0.05,
         -0.05,
         -0.05,
@@ -391,13 +390,14 @@
         -0.02,
         -0.0,
         0.02,
-        0.02
+        0.02,
+        -0.01
       ]
     },
     {
       "name": "Microsoft",
       "sentiment": {
-        "overall_score": -0.01,
+        "overall_score": -0.06,
         "trend": "stable",
         "previous_score": -0.01,
         "confidence": "high",
@@ -408,7 +408,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.01,
+            "score": -0.06,
             "count": 15
           },
           "reddit": {
@@ -422,6 +422,20 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Microsoft rejected Rockstar's pitch to put GTA3 on the original Xbox (2021)",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50548417",
+          "date": "2026-11-18",
+          "sentiment_score": -0.25
+        },
+        {
+          "title": "Microsoft's SideWinder Strategic Commander was a failed attempt",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50543887",
+          "date": "2026-11-18",
+          "sentiment_score": -0.5106
+        },
         {
           "title": "Microsoft's agent-framework PyPI package Compromised with Credential Stealer",
           "source": "Hacker News",
@@ -442,24 +456,9 @@
           "url": "https://news.ycombinator.com/item?id=50521093",
           "date": "2026-11-16",
           "sentiment_score": -0.5267
-        },
-        {
-          "title": "Microsoft EVP on the root cause of the recent outage",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50521880",
-          "date": "2026-11-16",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "Microsoft \u2013 more details on the root cause",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50516382",
-          "date": "2026-11-16",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.01,
         0.07,
         0.08,
         0.06,
@@ -488,25 +487,26 @@
         0.04,
         -0.01,
         -0.01,
-        -0.01
+        -0.01,
+        -0.06
       ]
     },
     {
       "name": "JPMorgan Chase",
       "sentiment": {
-        "overall_score": 0.0,
+        "overall_score": 0,
         "trend": "stable",
         "previous_score": 0.0,
         "confidence": "low",
-        "sample_size": 1,
+        "sample_size": 0,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.0,
-            "count": 1
+            "score": 0,
+            "count": 0
           },
           "reddit": {
             "score": 0,
@@ -518,17 +518,8 @@
           }
         }
       },
-      "top_headlines": [
-        {
-          "title": "HN news: last week Microsoft today Apple",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50535206",
-          "date": "2026-11-17",
-          "sentiment_score": 0.0
-        }
-      ],
+      "top_headlines": [],
       "sparkline": [
-        0,
         0,
         0,
         0,
@@ -557,7 +548,8 @@
         0,
         0,
         0.0,
-        0.0
+        0.0,
+        0
       ]
     },
     {
@@ -624,19 +616,19 @@
     {
       "name": "Bank of America",
       "sentiment": {
-        "overall_score": 0.0,
-        "trend": "declining",
-        "previous_score": 0.15,
+        "overall_score": 0,
+        "trend": "stable",
+        "previous_score": 0.0,
         "confidence": "low",
-        "sample_size": 2,
+        "sample_size": 0,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.0,
-            "count": 2
+            "score": 0,
+            "count": 0
           },
           "reddit": {
             "score": 0,
@@ -648,24 +640,8 @@
           }
         }
       },
-      "top_headlines": [
-        {
-          "title": "HN news: last week Microsoft today Apple",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50535206",
-          "date": "2026-11-17",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "Show HN: Matchday \u2013 your team's whole season in one auto-updating calendar",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50531864",
-          "date": "2026-11-17",
-          "sentiment_score": 0.0
-        }
-      ],
+      "top_headlines": [],
       "sparkline": [
-        0,
         0,
         0,
         0,
@@ -694,25 +670,26 @@
         0,
         0.44,
         0.15,
-        0.0
+        0.0,
+        0
       ]
     },
     {
       "name": "Salesforce",
       "sentiment": {
-        "overall_score": -0.02,
-        "trend": "stable",
+        "overall_score": 0.17,
+        "trend": "improving",
         "previous_score": -0.02,
-        "confidence": "medium",
-        "sample_size": 5,
+        "confidence": "low",
+        "sample_size": 2,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.02,
-            "count": 5
+            "score": 0.17,
+            "count": 2
           },
           "reddit": {
             "score": 0,
@@ -725,27 +702,6 @@
         }
       },
       "top_headlines": [
-        {
-          "title": "AI-native CRM Dreamteam raises $53M to challenge Salesforce and HubSpot",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50529695",
-          "date": "2026-11-17",
-          "sentiment_score": 0.0772
-        },
-        {
-          "title": "Salesforce and Microsoft Announce Copilotforce",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50539489",
-          "date": "2026-11-17",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "Optimizely hack infected CNN, Fox News, BBC, Salesforce sites with malware",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50534664",
-          "date": "2026-11-17",
-          "sentiment_score": -0.4939
-        },
         {
           "title": "A Salesforce AI agent that can't publish a hallucination",
           "source": "Hacker News",
@@ -762,7 +718,6 @@
         }
       ],
       "sparkline": [
-        0.58,
         0.11,
         0.58,
         0.62,
@@ -791,7 +746,8 @@
         0.17,
         0.17,
         -0.02,
-        -0.02
+        -0.02,
+        0.17
       ]
     },
     {
@@ -823,6 +779,13 @@
       },
       "top_headlines": [
         {
+          "title": "Interviewed at a YC startup, found out they used my LinkedIn without permission",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50542135",
+          "date": "2026-11-18",
+          "sentiment_score": 0.0
+        },
+        {
           "title": "Technical issue at JPMorgan Chase triggers online banking delays for US banks",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=50521045",
@@ -849,17 +812,9 @@
           "url": "https://news.ycombinator.com/item?id=50370610",
           "date": "2026-11-04",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50354960",
-          "date": "2026-11-03",
-          "sentiment_score": 0.296
         }
       ],
       "sparkline": [
-        -0.1,
         -0.09,
         -0.05,
         -0.13,
@@ -887,6 +842,7 @@
         0.0,
         0.0,
         0.02,
+        0.0,
         0.0,
         0.0
       ]
@@ -948,7 +904,6 @@
         0.0,
         0.0,
         0.0,
-        0.0,
         0.23,
         0.0,
         0.23,
@@ -964,14 +919,15 @@
         0.0,
         0.0,
         0.0,
+        0.0,
         0.0
       ]
     },
     {
       "name": "Dell",
       "sentiment": {
-        "overall_score": -0.09,
-        "trend": "stable",
+        "overall_score": -0.15,
+        "trend": "declining",
         "previous_score": -0.09,
         "confidence": "high",
         "sample_size": 15,
@@ -981,7 +937,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.09,
+            "score": -0.15,
             "count": 15
           },
           "reddit": {
@@ -995,13 +951,6 @@
         }
       },
       "top_headlines": [
-        {
-          "title": "Show HN: Emulating a Realtek RTD2841 Smart TV SoC (Tcl RT41) in QEMU",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50518410",
-          "date": "2026-11-16",
-          "sentiment_score": 0.4019
-        },
         {
           "title": "Show HN: Nobody blocks a keyboard \u2013 Rooted Android as a physical USB Deck",
           "source": "Hacker News",
@@ -1029,10 +978,16 @@
           "url": "https://news.ycombinator.com/item?id=50393660",
           "date": "2026-11-06",
           "sentiment_score": 0.0
+        },
+        {
+          "title": "Ask HN: How's your home-cooked software revolution going?",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50391446",
+          "date": "2026-11-06",
+          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        -0.08,
         -0.11,
         -0.07,
         -0.07,
@@ -1061,7 +1016,8 @@
         -0.13,
         -0.09,
         -0.09,
-        -0.09
+        -0.09,
+        -0.15
       ]
     },
     {
@@ -1130,7 +1086,6 @@
       ],
       "sparkline": [
         0.04,
-        0.04,
         0.09,
         0.04,
         0.04,
@@ -1157,6 +1112,7 @@
         0.04,
         0.07,
         0.05,
+        0.01,
         0.01,
         0.01
       ]
@@ -1191,7 +1147,6 @@
       "top_headlines": [],
       "sparkline": [
         0.6,
-        0.6,
         0,
         0.59,
         0,
@@ -1219,6 +1174,7 @@
         0,
         0,
         0,
+        0,
         0
       ]
     },
@@ -1229,7 +1185,7 @@
         "trend": "stable",
         "previous_score": 0.0,
         "confidence": "medium",
-        "sample_size": 5,
+        "sample_size": 6,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -1237,7 +1193,7 @@
           },
           "hackernews": {
             "score": 0.0,
-            "count": 5
+            "count": 6
           },
           "reddit": {
             "score": 0,
@@ -1255,6 +1211,13 @@
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=50352464",
           "date": "2026-11-03",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Cisco gives engineer unlimited AI tokens to rewrite legacy code",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50304122",
+          "date": "2026-10-30",
           "sentiment_score": 0.0
         },
         {
@@ -1277,17 +1240,9 @@
           "url": "https://news.ycombinator.com/item?id=50189771",
           "date": "2026-10-22",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Lucid's 25,000 Bolt robotaxis will run on Nvidia's self-driving software",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50184967",
-          "date": "2026-10-21",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        -0.08,
         -0.08,
         0.0,
         0.0,
@@ -1297,6 +1252,7 @@
         0.0,
         0.0,
         0.26,
+        0.0,
         0.0,
         0.0,
         0.0,
