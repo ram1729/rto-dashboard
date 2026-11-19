@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-11-18T20:12:24.685513Z",
+  "last_updated": "2026-11-19T06:20:43.588229Z",
   "scraper_log": {
-    "duration_sec": 239.27,
-    "total_articles": 130,
+    "duration_sec": 252.02,
+    "total_articles": 131,
     "errors": []
   },
   "companies": [
@@ -71,7 +71,6 @@
         }
       ],
       "sparkline": [
-        0.49,
         0.57,
         0.49,
         0.49,
@@ -97,6 +96,7 @@
         0.17,
         0.17,
         0.17,
+        -0.12,
         -0.12,
         -0.12,
         -0.12,
@@ -132,6 +132,13 @@
       },
       "top_headlines": [
         {
+          "title": "Casting an expert eye on Apple's AI photo-retouching features",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50553668",
+          "date": "2026-11-18",
+          "sentiment_score": 0.0
+        },
+        {
           "title": "Show HN: Nine is multiplayer sudoku across all Apple devices",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=50526798",
@@ -158,17 +165,9 @@
           "url": "https://news.ycombinator.com/item?id=50421360",
           "date": "2026-11-09",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Apple HomeView Ultra, drone and laundry-folding robot reportedly in development",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50355217",
-          "date": "2026-11-03",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.27,
         0.25,
         0.27,
         0.12,
@@ -197,15 +196,16 @@
         0.01,
         0.01,
         0.01,
+        0.01,
         0.01
       ]
     },
     {
       "name": "Google",
       "sentiment": {
-        "overall_score": 0.09,
+        "overall_score": 0.06,
         "trend": "stable",
-        "previous_score": 0.07,
+        "previous_score": 0.09,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -214,7 +214,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.09,
+            "score": 0.06,
             "count": 15
           },
           "reddit": {
@@ -228,6 +228,20 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Google Embraces Geothermal Technology to Vaporize Rock for Clean Power",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50555965",
+          "date": "2026-11-19",
+          "sentiment_score": 0.4019
+        },
+        {
+          "title": "Show HN: Try Vibe Robotics! (IRL or MuJoCo SIM)",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50553913",
+          "date": "2026-11-18",
+          "sentiment_score": 0.0
+        },
         {
           "title": "Google Embraces Geothermal Technology to Vaporize Rock for Clean Power",
           "source": "Hacker News",
@@ -248,24 +262,9 @@
           "url": "https://news.ycombinator.com/item?id=50453617",
           "date": "2026-11-11",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50441849",
-          "date": "2026-11-10",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "Show HN: A Hacker's Web Browser \u2013 Any Site to API (Open-Source)",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50440317",
-          "date": "2026-11-10",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        -0.01,
         0.03,
         0.03,
         0.13,
@@ -294,7 +293,8 @@
         0.03,
         0.07,
         0.07,
-        0.09
+        0.09,
+        0.06
       ]
     },
     {
@@ -302,7 +302,7 @@
       "sentiment": {
         "overall_score": -0.01,
         "trend": "stable",
-        "previous_score": 0.02,
+        "previous_score": -0.01,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -326,6 +326,13 @@
       },
       "top_headlines": [
         {
+          "title": "Project Gryffindor: Meta's plan to get more school kids using Instagram",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50556337",
+          "date": "2026-11-19",
+          "sentiment_score": 0.0
+        },
+        {
           "title": "Show HN: Break a robot arm and watch a meta-RL agent keep writing",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=50547628",
@@ -347,13 +354,6 @@
           "sentiment_score": 0.0
         },
         {
-          "title": "Launch HN: Maritime (YC F26) \u2013 A managed cloud for production AI agents",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50549188",
-          "date": "2026-11-18",
-          "sentiment_score": 0.0
-        },
-        {
           "title": "Show HN: If Conductor and Cursor Had a Baby (Open Source, macOS)",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=50532246",
@@ -362,7 +362,6 @@
         }
       ],
       "sparkline": [
-        -0.05,
         -0.05,
         -0.05,
         -0.05,
@@ -391,6 +390,7 @@
         -0.0,
         0.02,
         0.02,
+        -0.01,
         -0.01
       ]
     },
@@ -399,7 +399,7 @@
       "sentiment": {
         "overall_score": -0.06,
         "trend": "stable",
-        "previous_score": -0.01,
+        "previous_score": -0.06,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -459,7 +459,6 @@
         }
       ],
       "sparkline": [
-        0.07,
         0.08,
         0.06,
         0.03,
@@ -488,6 +487,7 @@
         -0.01,
         -0.01,
         -0.01,
+        -0.06,
         -0.06
       ]
     },
@@ -496,7 +496,7 @@
       "sentiment": {
         "overall_score": 0,
         "trend": "stable",
-        "previous_score": 0.0,
+        "previous_score": 0,
         "confidence": "low",
         "sample_size": 0,
         "source_scores": {
@@ -536,7 +536,6 @@
         0,
         0,
         0,
-        0,
         0.1,
         0.1,
         0.1,
@@ -549,6 +548,7 @@
         0,
         0.0,
         0.0,
+        0,
         0
       ]
     },
@@ -618,7 +618,7 @@
       "sentiment": {
         "overall_score": 0,
         "trend": "stable",
-        "previous_score": 0.0,
+        "previous_score": 0,
         "confidence": "low",
         "sample_size": 0,
         "source_scores": {
@@ -642,7 +642,6 @@
       },
       "top_headlines": [],
       "sparkline": [
-        0,
         0,
         0,
         0.0,
@@ -671,25 +670,26 @@
         0.44,
         0.15,
         0.0,
+        0,
         0
       ]
     },
     {
       "name": "Salesforce",
       "sentiment": {
-        "overall_score": 0.17,
-        "trend": "improving",
-        "previous_score": -0.02,
+        "overall_score": -0.05,
+        "trend": "declining",
+        "previous_score": 0.17,
         "confidence": "low",
-        "sample_size": 2,
+        "sample_size": 3,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.17,
-            "count": 2
+            "score": -0.05,
+            "count": 3
           },
           "reddit": {
             "score": 0,
@@ -702,6 +702,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Optimizely hack infected CNN, Fox News, BBC, Salesforce sites with malware",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50534664",
+          "date": "2026-11-17",
+          "sentiment_score": -0.4939
+        },
         {
           "title": "A Salesforce AI agent that can't publish a hallucination",
           "source": "Hacker News",
@@ -718,7 +725,6 @@
         }
       ],
       "sparkline": [
-        0.11,
         0.58,
         0.62,
         0.7,
@@ -747,14 +753,15 @@
         0.17,
         -0.02,
         -0.02,
-        0.17
+        0.17,
+        -0.05
       ]
     },
     {
       "name": "AT&T",
       "sentiment": {
-        "overall_score": 0.0,
-        "trend": "stable",
+        "overall_score": -0.05,
+        "trend": "declining",
         "previous_score": 0.0,
         "confidence": "high",
         "sample_size": 15,
@@ -764,7 +771,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.0,
+            "score": -0.05,
             "count": 15
           },
           "reddit": {
@@ -779,11 +786,25 @@
       },
       "top_headlines": [
         {
+          "title": "Seven new models at scalable price-performance",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50548021",
+          "date": "2026-11-18",
+          "sentiment_score": 0.0
+        },
+        {
           "title": "Interviewed at a YC startup, found out they used my LinkedIn without permission",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=50542135",
           "date": "2026-11-18",
           "sentiment_score": 0.0
+        },
+        {
+          "title": "Russia reportedly planned mass-casualty attack in Poland to be blamed on Ukraine",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50547344",
+          "date": "2026-11-18",
+          "sentiment_score": -0.7351
         },
         {
           "title": "Technical issue at JPMorgan Chase triggers online banking delays for US banks",
@@ -798,24 +819,9 @@
           "url": "https://news.ycombinator.com/item?id=50520866",
           "date": "2026-11-16",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50397429",
-          "date": "2026-11-06",
-          "sentiment_score": 0.128
-        },
-        {
-          "title": "Insects don't swarm at LED lights",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50370610",
-          "date": "2026-11-04",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        -0.09,
         -0.05,
         -0.13,
         -0.06,
@@ -844,7 +850,8 @@
         0.02,
         0.0,
         0.0,
-        0.0
+        0.0,
+        -0.05
       ]
     },
     {
@@ -903,7 +910,6 @@
         0.0,
         0.0,
         0.0,
-        0.0,
         0.23,
         0.0,
         0.23,
@@ -920,15 +926,16 @@
         0.0,
         0.0,
         0.0,
+        0.0,
         0.0
       ]
     },
     {
       "name": "Dell",
       "sentiment": {
-        "overall_score": -0.15,
-        "trend": "declining",
-        "previous_score": -0.09,
+        "overall_score": -0.13,
+        "trend": "stable",
+        "previous_score": -0.15,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -937,7 +944,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.15,
+            "score": -0.13,
             "count": 15
           },
           "reddit": {
@@ -951,6 +958,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "The First Nvidia RTX Spark Mini PCs Launch Today from Asus, Dell, and MSI",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50554040",
+          "date": "2026-11-18",
+          "sentiment_score": 0.2263
+        },
         {
           "title": "Show HN: Nobody blocks a keyboard \u2013 Rooted Android as a physical USB Deck",
           "source": "Hacker News",
@@ -978,17 +992,9 @@
           "url": "https://news.ycombinator.com/item?id=50393660",
           "date": "2026-11-06",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Ask HN: How's your home-cooked software revolution going?",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50391446",
-          "date": "2026-11-06",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        -0.11,
         -0.07,
         -0.07,
         0.34,
@@ -1017,7 +1023,8 @@
         -0.09,
         -0.09,
         -0.09,
-        -0.15
+        -0.15,
+        -0.13
       ]
     },
     {
@@ -1085,7 +1092,6 @@
         }
       ],
       "sparkline": [
-        0.04,
         0.09,
         0.04,
         0.04,
@@ -1112,6 +1118,7 @@
         0.04,
         0.07,
         0.05,
+        0.01,
         0.01,
         0.01,
         0.01
@@ -1146,7 +1153,6 @@
       },
       "top_headlines": [],
       "sparkline": [
-        0.6,
         0,
         0.59,
         0,
@@ -1163,6 +1169,7 @@
         0,
         0.6,
         0.6,
+        0,
         0,
         0,
         0,
@@ -1243,7 +1250,6 @@
         }
       ],
       "sparkline": [
-        -0.08,
         0.0,
         0.0,
         0.11,
@@ -1252,6 +1258,7 @@
         0.0,
         0.0,
         0.26,
+        0.0,
         0.0,
         0.0,
         0.0,
