@@ -1,15 +1,15 @@
 {
-  "last_updated": "2026-11-20T06:07:24.297386Z",
+  "last_updated": "2026-11-21T06:02:03.444373Z",
   "scraper_log": {
-    "duration_sec": 256.41,
-    "total_articles": 132,
+    "duration_sec": 252.43,
+    "total_articles": 124,
     "errors": []
   },
   "companies": [
     {
       "name": "Amazon",
       "sentiment": {
-        "overall_score": -0.12,
+        "overall_score": -0.11,
         "trend": "stable",
         "previous_score": -0.12,
         "confidence": "high",
@@ -20,7 +20,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.12,
+            "score": -0.11,
             "count": 15
           },
           "reddit": {
@@ -71,7 +71,6 @@
         }
       ],
       "sparkline": [
-        0.49,
         0.5,
         0.5,
         0.49,
@@ -100,13 +99,14 @@
         -0.12,
         -0.12,
         -0.12,
-        -0.12
+        -0.12,
+        -0.11
       ]
     },
     {
       "name": "Apple",
       "sentiment": {
-        "overall_score": 0.01,
+        "overall_score": -0.03,
         "trend": "stable",
         "previous_score": 0.01,
         "confidence": "high",
@@ -117,7 +117,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.01,
+            "score": -0.03,
             "count": 15
           },
           "reddit": {
@@ -139,17 +139,24 @@
           "sentiment_score": 0.0
         },
         {
+          "title": "Show HN: Depth Pro 2 ONNX/TensorRT and ROS 2 (278 FPS on 3090)",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50573575",
+          "date": "2026-11-20",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Show HN: MacVisor TPM \u2013 Virtual TPM Under Apple's Virtualization.framework",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50572172",
+          "date": "2026-11-20",
+          "sentiment_score": 0.0
+        },
+        {
           "title": "At Apple, the robots are coming",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=50566218",
           "date": "2026-11-19",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "Casting an expert eye on Apple's AI photo-retouching features",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50553668",
-          "date": "2026-11-18",
           "sentiment_score": 0.0
         },
         {
@@ -158,17 +165,9 @@
           "url": "https://news.ycombinator.com/item?id=50526798",
           "date": "2026-11-17",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Animating Bad Apple with No JavaScript, No CSS, & Minimal HTML",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50510180",
-          "date": "2026-11-15",
-          "sentiment_score": -0.5875
         }
       ],
       "sparkline": [
-        0.12,
         0.27,
         0.27,
         0.12,
@@ -197,7 +196,8 @@
         0.01,
         0.01,
         0.01,
-        0.01
+        0.01,
+        -0.03
       ]
     },
     {
@@ -229,6 +229,13 @@
       },
       "top_headlines": [
         {
+          "title": "Google Officially Rolls Out Collapsible Sidebar on Search",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50572625",
+          "date": "2026-11-20",
+          "sentiment_score": 0.0
+        },
+        {
           "title": "Google Embraces Geothermal Technology to Vaporize Rock for Clean Power",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=50555965",
@@ -255,17 +262,9 @@
           "url": "https://news.ycombinator.com/item?id=50498031",
           "date": "2026-11-14",
           "sentiment_score": -0.4019
-        },
-        {
-          "title": "Gemini Robotics 2.5",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50453617",
-          "date": "2026-11-11",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.13,
         0.05,
         0.05,
         0.05,
@@ -294,14 +293,15 @@
         0.09,
         0.06,
         0.06,
+        0.06,
         0.06
       ]
     },
     {
       "name": "Meta",
       "sentiment": {
-        "overall_score": -0.01,
-        "trend": "stable",
+        "overall_score": -0.07,
+        "trend": "declining",
         "previous_score": -0.01,
         "confidence": "high",
         "sample_size": 15,
@@ -311,7 +311,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.01,
+            "score": -0.07,
             "count": 15
           },
           "reddit": {
@@ -326,18 +326,18 @@
       },
       "top_headlines": [
         {
-          "title": "Project Gryffindor: Meta's plan to get more school kids using Instagram",
+          "title": "Realistic lunar ISRU processing facilty simulation: Smelting rocks into metal [video]",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50556337",
-          "date": "2026-11-19",
+          "url": "https://news.ycombinator.com/item?id=50574536",
+          "date": "2026-11-20",
           "sentiment_score": 0.0
         },
         {
-          "title": "Project Gryffindor: Meta's plan to get more school kids using Instagram",
+          "title": "Rant: Gemini 4 does not make any sense",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50562806",
+          "url": "https://news.ycombinator.com/item?id=50560575",
           "date": "2026-11-19",
-          "sentiment_score": 0.0
+          "sentiment_score": -0.34
         },
         {
           "title": "Show HN: Break a robot arm and watch a meta-RL agent keep writing",
@@ -349,20 +349,19 @@
         {
           "title": "Project Gryffindor: Meta's plan to get more school kids using Instagram",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50548125",
+          "url": "https://news.ycombinator.com/item?id=50546118",
           "date": "2026-11-18",
           "sentiment_score": 0.0
         },
         {
-          "title": "Project Gryffindor: Meta's plan to get more school kids using Instagram",
+          "title": "Launch HN: Maritime (YC F26) \u2013 A managed cloud for production AI agents",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50546118",
+          "url": "https://news.ycombinator.com/item?id=50549188",
           "date": "2026-11-18",
           "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        -0.05,
         -0.05,
         -0.0,
         0.07,
@@ -391,7 +390,8 @@
         -0.01,
         -0.01,
         -0.01,
-        -0.01
+        -0.01,
+        -0.07
       ]
     },
     {
@@ -459,7 +459,6 @@
         }
       ],
       "sparkline": [
-        0.03,
         -0.02,
         0.05,
         -0.01,
@@ -488,25 +487,26 @@
         -0.06,
         -0.06,
         -0.06,
+        -0.06,
         -0.06
       ]
     },
     {
       "name": "JPMorgan Chase",
       "sentiment": {
-        "overall_score": 0.0,
+        "overall_score": 0,
         "trend": "stable",
         "previous_score": 0.0,
         "confidence": "low",
-        "sample_size": 1,
+        "sample_size": 0,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.0,
-            "count": 1
+            "score": 0,
+            "count": 0
           },
           "reddit": {
             "score": 0,
@@ -518,15 +518,7 @@
           }
         }
       },
-      "top_headlines": [
-        {
-          "title": "JPMorgan Chase Hack Exposes 16000 Customers Linked to Exclusive Reserve Card",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50563572",
-          "date": "2026-11-19",
-          "sentiment_score": 0.0
-        }
-      ],
+      "top_headlines": [],
       "sparkline": [
         0,
         0,
@@ -541,7 +533,6 @@
         0,
         0,
         0,
-        0,
         0.1,
         0.1,
         0.1,
@@ -557,7 +548,8 @@
         0,
         0,
         0.0,
-        0.0
+        0.0,
+        0
       ]
     },
     {
@@ -652,7 +644,6 @@
       "sparkline": [
         0.0,
         0.0,
-        0.0,
         0,
         0,
         0,
@@ -679,25 +670,26 @@
         0,
         0,
         0,
+        0,
         0
       ]
     },
     {
       "name": "Salesforce",
       "sentiment": {
-        "overall_score": -0.05,
-        "trend": "stable",
+        "overall_score": 0.17,
+        "trend": "improving",
         "previous_score": -0.05,
         "confidence": "low",
-        "sample_size": 3,
+        "sample_size": 2,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.05,
-            "count": 3
+            "score": 0.17,
+            "count": 2
           },
           "reddit": {
             "score": 0,
@@ -710,13 +702,6 @@
         }
       },
       "top_headlines": [
-        {
-          "title": "Optimizely hack infected CNN, Fox News, BBC, Salesforce sites with malware",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50534664",
-          "date": "2026-11-17",
-          "sentiment_score": -0.4939
-        },
         {
           "title": "A Salesforce AI agent that can't publish a hallucination",
           "source": "Hacker News",
@@ -733,7 +718,6 @@
         }
       ],
       "sparkline": [
-        0.7,
         0.62,
         0.62,
         0.62,
@@ -762,7 +746,8 @@
         0.17,
         -0.05,
         -0.05,
-        -0.05
+        -0.05,
+        0.17
       ]
     },
     {
@@ -830,7 +815,6 @@
         }
       ],
       "sparkline": [
-        -0.06,
         -0.11,
         -0.06,
         -0.15,
@@ -859,6 +843,7 @@
         0.0,
         -0.05,
         -0.05,
+        -0.05,
         -0.05
       ]
     },
@@ -869,7 +854,7 @@
         "trend": "stable",
         "previous_score": 0.0,
         "confidence": "low",
-        "sample_size": 2,
+        "sample_size": 1,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -877,7 +862,7 @@
           },
           "hackernews": {
             "score": 0.0,
-            "count": 2
+            "count": 1
           },
           "reddit": {
             "score": 0,
@@ -891,13 +876,6 @@
       },
       "top_headlines": [
         {
-          "title": "Using LLMs outside of reflection is an anti-pattern",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50489240",
-          "date": "2026-11-13",
-          "sentiment_score": 0.0
-        },
-        {
           "title": "Disney Raising Prices Days After Confirming Ads Will Now Show Up on Every Tier",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=50205934",
@@ -906,7 +884,6 @@
         }
       ],
       "sparkline": [
-        0.0,
         0.0,
         0.0,
         0.0,
@@ -935,13 +912,14 @@
         0.0,
         0.0,
         0.0,
+        0.0,
         0.0
       ]
     },
     {
       "name": "Dell",
       "sentiment": {
-        "overall_score": -0.11,
+        "overall_score": -0.13,
         "trend": "stable",
         "previous_score": -0.11,
         "confidence": "high",
@@ -952,7 +930,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.11,
+            "score": -0.13,
             "count": 15
           },
           "reddit": {
@@ -967,11 +945,25 @@
       },
       "top_headlines": [
         {
-          "title": "The First Nvidia RTX Spark Mini PCs Launch Today from Asus, Dell, and MSI",
+          "title": "Trump admin still won't let Wi-Fi giant TP-Link sell its latest routers in US",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50554040",
+          "url": "https://news.ycombinator.com/item?id=50576900",
+          "date": "2026-11-20",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "ICE offers contractor operating deportation flights windfall and secrecy",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50557651",
+          "date": "2026-11-19",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Why YC Series A rounds fell off a cliff",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50546365",
           "date": "2026-11-18",
-          "sentiment_score": 0.2263
+          "sentiment_score": 0.0
         },
         {
           "title": "Show HN: Nobody blocks a keyboard \u2013 Rooted Android as a physical USB Deck",
@@ -979,20 +971,6 @@
           "url": "https://news.ycombinator.com/item?id=50517840",
           "date": "2026-11-16",
           "sentiment_score": -0.2263
-        },
-        {
-          "title": "Show HN: a Rust implementation of the Reticulum mesh networking stack",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50506235",
-          "date": "2026-11-15",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "Using LLMs outside of reflection is an anti-pattern",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50489240",
-          "date": "2026-11-13",
-          "sentiment_score": 0.0
         },
         {
           "title": "Developer ends lucrative screensaver deal with Roku because Fox bought it",
@@ -1003,7 +981,6 @@
         }
       ],
       "sparkline": [
-        0.34,
         -0.07,
         -0.05,
         -0.05,
@@ -1032,25 +1009,26 @@
         -0.15,
         -0.13,
         -0.11,
-        -0.11
+        -0.11,
+        -0.13
       ]
     },
     {
       "name": "Tesla",
       "sentiment": {
-        "overall_score": 0.01,
+        "overall_score": 0.02,
         "trend": "stable",
         "previous_score": 0.01,
         "confidence": "high",
-        "sample_size": 15,
+        "sample_size": 13,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.01,
-            "count": 15
+            "score": 0.02,
+            "count": 13
           },
           "reddit": {
             "score": 0,
@@ -1085,22 +1063,21 @@
           "sentiment_score": 0.0
         },
         {
+          "title": "Tesla Hasn't Had a Successful New Product Launch Since JB Straubel Stepped Down",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50414427",
+          "date": "2026-11-08",
+          "sentiment_score": -0.4717
+        },
+        {
           "title": "Just turned my car into a Tesla Roadster",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=50401785",
           "date": "2026-11-07",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Tesla to axe Cybertruck as Musk shifts focus to robotics and AI",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50390828",
-          "date": "2026-11-06",
-          "sentiment_score": -0.1027
         }
       ],
       "sparkline": [
-        0.04,
         0.04,
         0.0,
         0.04,
@@ -1129,7 +1106,8 @@
         0.01,
         0.01,
         0.01,
-        0.01
+        0.01,
+        0.02
       ]
     },
     {
@@ -1161,7 +1139,6 @@
       },
       "top_headlines": [],
       "sparkline": [
-        0,
         0.49,
         0,
         0.45,
@@ -1190,6 +1167,7 @@
         0,
         0,
         0,
+        0,
         0
       ]
     },
@@ -1199,8 +1177,8 @@
         "overall_score": 0.0,
         "trend": "stable",
         "previous_score": 0.0,
-        "confidence": "medium",
-        "sample_size": 6,
+        "confidence": "low",
+        "sample_size": 3,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -1208,7 +1186,7 @@
           },
           "hackernews": {
             "score": 0.0,
-            "count": 6
+            "count": 3
           },
           "reddit": {
             "score": 0,
@@ -1229,13 +1207,6 @@
           "sentiment_score": 0.0
         },
         {
-          "title": "Cisco gives engineer unlimited AI tokens to rewrite legacy code",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50304122",
-          "date": "2026-10-30",
-          "sentiment_score": 0.0
-        },
-        {
           "title": "Sterling Anderson doesn't think humanoid robots should be building cars",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=50298649",
@@ -1248,22 +1219,15 @@
           "url": "https://news.ycombinator.com/item?id=50206190",
           "date": "2026-10-23",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "The Kessler Syndrome (where blowups multiply exponentially) applied to software",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50189771",
-          "date": "2026-10-22",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.11,
         0.0,
         0.0,
         0.0,
         0.0,
         0.26,
+        0.0,
         0.0,
         0.0,
         0.0,
