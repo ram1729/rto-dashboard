@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-11-24T08:51:22.540660Z",
+  "last_updated": "2026-11-24T22:08:21.569114Z",
   "scraper_log": {
-    "duration_sec": 233.24,
-    "total_articles": 126,
+    "duration_sec": 244.02,
+    "total_articles": 124,
     "errors": []
   },
   "companies": [
@@ -11,7 +11,7 @@
       "sentiment": {
         "overall_score": -0.1,
         "trend": "stable",
-        "previous_score": -0.12,
+        "previous_score": -0.1,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -71,7 +71,6 @@
         }
       ],
       "sparkline": [
-        0.45,
         0.48,
         0.49,
         0.4,
@@ -100,6 +99,7 @@
         -0.11,
         -0.11,
         -0.12,
+        -0.1,
         -0.1
       ]
     },
@@ -132,6 +132,13 @@
       },
       "top_headlines": [
         {
+          "title": "Show HN: BetterNews \u2013 Live voice rooms for every hackernews story",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50634513",
+          "date": "2026-11-24",
+          "sentiment_score": 0.0
+        },
+        {
           "title": "Show HN: Klink \u2013 I built a sudoku game where every puzzle helps rebuild a robot",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=50619225",
@@ -158,17 +165,9 @@
           "url": "https://news.ycombinator.com/item?id=50572172",
           "date": "2026-11-20",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "At Apple, the robots are coming",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50566218",
-          "date": "2026-11-19",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.12,
         0.36,
         0.12,
         0.38,
@@ -197,13 +196,14 @@
         -0.03,
         -0.03,
         -0.01,
+        -0.01,
         -0.01
       ]
     },
     {
       "name": "Google",
       "sentiment": {
-        "overall_score": 0.05,
+        "overall_score": 0.07,
         "trend": "stable",
         "previous_score": 0.05,
         "confidence": "high",
@@ -214,7 +214,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.05,
+            "score": 0.07,
             "count": 15
           },
           "reddit": {
@@ -229,11 +229,11 @@
       },
       "top_headlines": [
         {
-          "title": "Ask HN: Harness vs. Feature Factories",
+          "title": "The Railway security incident: what we rotated, why we moved to Google Cloud",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50618223",
-          "date": "2026-11-23",
-          "sentiment_score": 0.0
+          "url": "https://news.ycombinator.com/item?id=50628465",
+          "date": "2026-11-24",
+          "sentiment_score": 0.34
         },
         {
           "title": "One Vulnearbility Hacks Google, WordPress, Roundcube, Debian 13, Zoom, Box, etc.",
@@ -270,7 +270,6 @@
         0.09,
         0.09,
         0.09,
-        0.09,
         0.15,
         0.07,
         0.07,
@@ -294,15 +293,16 @@
         0.05,
         0.05,
         0.05,
-        0.05
+        0.05,
+        0.07
       ]
     },
     {
       "name": "Meta",
       "sentiment": {
-        "overall_score": 0.03,
+        "overall_score": 0.01,
         "trend": "stable",
-        "previous_score": 0.06,
+        "previous_score": 0.03,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -311,7 +311,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.03,
+            "score": 0.01,
             "count": 15
           },
           "reddit": {
@@ -333,16 +333,16 @@
           "sentiment_score": 0.0
         },
         {
+          "title": "Show HN: InterviewCop \u2013 Stop Interviewing Chat GPT",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50635028",
+          "date": "2026-11-24",
+          "sentiment_score": -0.296
+        },
+        {
           "title": "Ask HN: Harness vs. Feature Factories",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=50618223",
-          "date": "2026-11-23",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "Show HN: Hammerspoon 2 Beta 1 is released",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50606408",
           "date": "2026-11-23",
           "sentiment_score": 0.0
         },
@@ -362,7 +362,6 @@
         }
       ],
       "sparkline": [
-        -0.0,
         -0.05,
         -0.05,
         -0.02,
@@ -391,7 +390,8 @@
         -0.0,
         0.06,
         0.06,
-        0.03
+        0.03,
+        0.01
       ]
     },
     {
@@ -459,7 +459,6 @@
         }
       ],
       "sparkline": [
-        0.0,
         0.05,
         0.0,
         0.06,
@@ -485,6 +484,7 @@
         -0.06,
         -0.06,
         -0.06,
+        -0.04,
         -0.04,
         -0.04,
         -0.04,
@@ -527,7 +527,6 @@
         0,
         0,
         0,
-        0,
         0.1,
         0.1,
         0.1,
@@ -544,6 +543,7 @@
         0,
         0.0,
         0.0,
+        0,
         0,
         0,
         0,
@@ -658,10 +658,10 @@
         0,
         0,
         0,
-        0,
         0.44,
         0.15,
         0.0,
+        0,
         0,
         0,
         0,
@@ -677,19 +677,19 @@
     {
       "name": "Salesforce",
       "sentiment": {
-        "overall_score": -0.16,
-        "trend": "stable",
+        "overall_score": 0.0,
+        "trend": "improving",
         "previous_score": -0.16,
         "confidence": "low",
-        "sample_size": 3,
+        "sample_size": 2,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.16,
-            "count": 3
+            "score": 0.0,
+            "count": 2
           },
           "reddit": {
             "score": 0,
@@ -710,13 +710,6 @@
           "sentiment_score": 0.0
         },
         {
-          "title": "Optimizely hack infected CNN, Fox News, BBC, Salesforce sites with malware",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50534664",
-          "date": "2026-11-17",
-          "sentiment_score": -0.4939
-        },
-        {
           "title": "A Salesforce AI agent that can't publish a hallucination",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=50258198",
@@ -725,7 +718,6 @@
         }
       ],
       "sparkline": [
-        0.6,
         0.17,
         0.6,
         0.6,
@@ -754,13 +746,14 @@
         0.0,
         0.0,
         -0.16,
-        -0.16
+        -0.16,
+        0.0
       ]
     },
     {
       "name": "AT&T",
       "sentiment": {
-        "overall_score": -0.1,
+        "overall_score": -0.11,
         "trend": "stable",
         "previous_score": -0.1,
         "confidence": "high",
@@ -771,7 +764,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.1,
+            "score": -0.11,
             "count": 15
           },
           "reddit": {
@@ -822,7 +815,6 @@
         }
       ],
       "sparkline": [
-        -0.06,
         0.05,
         -0.06,
         -0.05,
@@ -851,7 +843,8 @@
         -0.1,
         -0.1,
         -0.1,
-        -0.1
+        -0.1,
+        -0.11
       ]
     },
     {
@@ -886,7 +879,6 @@
         0.0,
         0.0,
         0.0,
-        0.0,
         0.23,
         0.0,
         0.23,
@@ -909,6 +901,7 @@
         0.0,
         0.0,
         0.0,
+        0,
         0,
         0,
         0,
@@ -981,7 +974,6 @@
       ],
       "sparkline": [
         -0.09,
-        -0.09,
         0.41,
         -0.09,
         -0.09,
@@ -1009,25 +1001,26 @@
         -0.2,
         -0.15,
         -0.18,
+        -0.18,
         -0.18
       ]
     },
     {
       "name": "Tesla",
       "sentiment": {
-        "overall_score": -0.06,
-        "trend": "stable",
+        "overall_score": -0.0,
+        "trend": "improving",
         "previous_score": -0.06,
         "confidence": "high",
-        "sample_size": 14,
+        "sample_size": 13,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": -0.06,
-            "count": 14
+            "score": -0.0,
+            "count": 13
           },
           "reddit": {
             "score": 0,
@@ -1041,6 +1034,27 @@
       },
       "top_headlines": [
         {
+          "title": "Tesla's Unsupervised FSD future likely to bring Starlink to every model",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50630679",
+          "date": "2026-11-24",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Elon Musk says SpaceX and Tesla exploring largest merger in history",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50627261",
+          "date": "2026-11-24",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Sleeping in Tesla Model 3 in -26\u00b0C [video]",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50632629",
+          "date": "2026-11-24",
+          "sentiment_score": 0.0
+        },
+        {
           "title": "Tesla launches FSD v15, targets its biggest weaknesses, from signs to potholes",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=50594937",
@@ -1048,36 +1062,14 @@
           "sentiment_score": -0.3612
         },
         {
-          "title": "Tesla FSD V15: Reality View Is Insane [video]",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50601377",
-          "date": "2026-11-22",
-          "sentiment_score": -0.4019
-        },
-        {
           "title": "The Tesla Roadster Won't Refill Its Air Tanks (Bet) [video]",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=50514580",
           "date": "2026-11-16",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Tesla Cybercab orders open at $29,990 and $299/mo, only in Robotaxi zones",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50496652",
-          "date": "2026-11-14",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "Tesla Opens Cybercab Orders to 'Select Customers' at $29,990 Plus $299 per Month",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50492178",
-          "date": "2026-11-14",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.02,
         0.04,
         0.04,
         0.02,
@@ -1106,7 +1098,8 @@
         -0.04,
         -0.04,
         -0.06,
-        -0.06
+        -0.06,
+        -0.0
       ]
     },
     {
@@ -1138,7 +1131,6 @@
       },
       "top_headlines": [],
       "sparkline": [
-        0,
         0.6,
         0,
         0,
@@ -1146,6 +1138,7 @@
         0,
         0.6,
         0.6,
+        0,
         0,
         0,
         0,
@@ -1173,8 +1166,8 @@
     {
       "name": "Cisco",
       "sentiment": {
-        "overall_score": -0.15,
-        "trend": "stable",
+        "overall_score": -0.04,
+        "trend": "improving",
         "previous_score": -0.15,
         "confidence": "low",
         "sample_size": 4,
@@ -1184,7 +1177,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.15,
+            "score": -0.04,
             "count": 4
           },
           "reddit": {
@@ -1199,11 +1192,11 @@
       },
       "top_headlines": [
         {
-          "title": "Tomato Fraud? When San Marzano Is \"San Marzano\" \u2013 Cinco Tomatos",
+          "title": "Launching Kolaemos they're calling it the most exposed workload of all time",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50604355",
-          "date": "2026-11-22",
-          "sentiment_score": -0.5859
+          "url": "https://news.ycombinator.com/item?id=50632596",
+          "date": "2026-11-24",
+          "sentiment_score": -0.1513
         },
         {
           "title": "Humanity's oldest art is being erased by climate change",
@@ -1254,10 +1247,10 @@
         0.0,
         0.0,
         0.0,
-        0.0,
         -0.15,
         -0.15,
-        -0.15
+        -0.15,
+        -0.04
       ]
     }
   ]
