@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-11-24T22:08:21.569114Z",
+  "last_updated": "2026-11-25T07:24:51.619141Z",
   "scraper_log": {
-    "duration_sec": 244.02,
-    "total_articles": 124,
+    "duration_sec": 233.02,
+    "total_articles": 125,
     "errors": []
   },
   "companies": [
@@ -35,10 +35,10 @@
       },
       "top_headlines": [
         {
-          "title": "Amazon drone crashes into house after delivering shampoo",
+          "title": "Ariane 6 rocket launches 36 Amazon Leo satellites into orbit after",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50622030",
-          "date": "2026-11-24",
+          "url": "https://news.ycombinator.com/item?id=50637124",
+          "date": "2026-11-25",
           "sentiment_score": 0.1779
         },
         {
@@ -71,7 +71,6 @@
         }
       ],
       "sparkline": [
-        0.48,
         0.49,
         0.4,
         0.39,
@@ -99,6 +98,7 @@
         -0.11,
         -0.11,
         -0.12,
+        -0.1,
         -0.1,
         -0.1
       ]
@@ -132,6 +132,20 @@
       },
       "top_headlines": [
         {
+          "title": "ROMS: iOS server manager app with multi-snippets/SSH/Shortcuts (TestFlight)",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50639432",
+          "date": "2026-11-25",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Inky. Inkling 2 Mini inference on Apple Silicon",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50638283",
+          "date": "2026-11-25",
+          "sentiment_score": 0.0
+        },
+        {
           "title": "Show HN: BetterNews \u2013 Live voice rooms for every hackernews story",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=50634513",
@@ -151,24 +165,9 @@
           "url": "https://news.ycombinator.com/item?id=50570194",
           "date": "2026-11-20",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Show HN: Depth Pro 2 ONNX/TensorRT and ROS 2 (278 FPS on 3090)",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50573575",
-          "date": "2026-11-20",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "Show HN: MacVisor TPM \u2013 Virtual TPM Under Apple's Virtualization.framework",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50572172",
-          "date": "2026-11-20",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.36,
         0.12,
         0.38,
         0.12,
@@ -197,6 +196,7 @@
         -0.03,
         -0.01,
         -0.01,
+        -0.01,
         -0.01
       ]
     },
@@ -205,7 +205,7 @@
       "sentiment": {
         "overall_score": 0.07,
         "trend": "stable",
-        "previous_score": 0.05,
+        "previous_score": 0.07,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -269,7 +269,6 @@
         0.09,
         0.09,
         0.09,
-        0.09,
         0.15,
         0.07,
         0.07,
@@ -294,15 +293,16 @@
         0.05,
         0.05,
         0.05,
+        0.07,
         0.07
       ]
     },
     {
       "name": "Meta",
       "sentiment": {
-        "overall_score": 0.01,
+        "overall_score": 0.03,
         "trend": "stable",
-        "previous_score": 0.03,
+        "previous_score": 0.01,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -311,7 +311,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": 0.01,
+            "score": 0.03,
             "count": 15
           },
           "reddit": {
@@ -326,18 +326,18 @@
       },
       "top_headlines": [
         {
+          "title": "ROMS: iOS server manager app with multi-snippets/SSH/Shortcuts (TestFlight)",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50639432",
+          "date": "2026-11-25",
+          "sentiment_score": 0.0
+        },
+        {
           "title": "India's opposition storms Meta's offices to get its Instagram accounts back",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=50624487",
           "date": "2026-11-24",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Show HN: InterviewCop \u2013 Stop Interviewing Chat GPT",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50635028",
-          "date": "2026-11-24",
-          "sentiment_score": -0.296
         },
         {
           "title": "Ask HN: Harness vs. Feature Factories",
@@ -362,7 +362,6 @@
         }
       ],
       "sparkline": [
-        -0.05,
         -0.05,
         -0.02,
         0.17,
@@ -391,7 +390,8 @@
         0.06,
         0.06,
         0.03,
-        0.01
+        0.01,
+        0.03
       ]
     },
     {
@@ -459,7 +459,6 @@
         }
       ],
       "sparkline": [
-        0.05,
         0.0,
         0.06,
         0.02,
@@ -484,6 +483,7 @@
         -0.06,
         -0.06,
         -0.06,
+        -0.04,
         -0.04,
         -0.04,
         -0.04,
@@ -526,7 +526,6 @@
         0,
         0,
         0,
-        0,
         0.1,
         0.1,
         0.1,
@@ -543,6 +542,7 @@
         0,
         0.0,
         0.0,
+        0,
         0,
         0,
         0,
@@ -657,10 +657,10 @@
         0,
         0,
         0,
-        0,
         0.44,
         0.15,
         0.0,
+        0,
         0,
         0,
         0,
@@ -677,19 +677,19 @@
     {
       "name": "Salesforce",
       "sentiment": {
-        "overall_score": 0.0,
-        "trend": "improving",
-        "previous_score": -0.16,
+        "overall_score": -0.16,
+        "trend": "declining",
+        "previous_score": 0.0,
         "confidence": "low",
-        "sample_size": 2,
+        "sample_size": 3,
         "source_scores": {
           "google_news": {
             "score": 0,
             "count": 0
           },
           "hackernews": {
-            "score": 0.0,
-            "count": 2
+            "score": -0.16,
+            "count": 3
           },
           "reddit": {
             "score": 0,
@@ -710,6 +710,13 @@
           "sentiment_score": 0.0
         },
         {
+          "title": "Optimizely hack infected CNN, Fox News, BBC, Salesforce sites with malware",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50534664",
+          "date": "2026-11-17",
+          "sentiment_score": -0.4939
+        },
+        {
           "title": "A Salesforce AI agent that can't publish a hallucination",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=50258198",
@@ -718,7 +725,6 @@
         }
       ],
       "sparkline": [
-        0.17,
         0.6,
         0.6,
         0.66,
@@ -747,7 +753,8 @@
         0.0,
         -0.16,
         -0.16,
-        0.0
+        0.0,
+        -0.16
       ]
     },
     {
@@ -755,7 +762,7 @@
       "sentiment": {
         "overall_score": -0.11,
         "trend": "stable",
-        "previous_score": -0.1,
+        "previous_score": -0.11,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -815,7 +822,6 @@
         }
       ],
       "sparkline": [
-        0.05,
         -0.06,
         -0.05,
         -0.05,
@@ -844,6 +850,7 @@
         -0.1,
         -0.1,
         -0.1,
+        -0.11,
         -0.11
       ]
     },
@@ -878,7 +885,6 @@
       "sparkline": [
         0.0,
         0.0,
-        0.0,
         0.23,
         0.0,
         0.23,
@@ -901,6 +907,7 @@
         0.0,
         0.0,
         0.0,
+        0,
         0,
         0,
         0,
@@ -973,7 +980,6 @@
         }
       ],
       "sparkline": [
-        -0.09,
         0.41,
         -0.09,
         -0.09,
@@ -1002,6 +1008,7 @@
         -0.15,
         -0.18,
         -0.18,
+        -0.18,
         -0.18
       ]
     },
@@ -1009,8 +1016,8 @@
       "name": "Tesla",
       "sentiment": {
         "overall_score": -0.0,
-        "trend": "improving",
-        "previous_score": -0.06,
+        "trend": "stable",
+        "previous_score": -0.0,
         "confidence": "high",
         "sample_size": 13,
         "source_scores": {
@@ -1071,7 +1078,6 @@
       ],
       "sparkline": [
         0.04,
-        0.04,
         0.02,
         0.04,
         0.04,
@@ -1099,6 +1105,7 @@
         -0.04,
         -0.06,
         -0.06,
+        -0.0,
         -0.0
       ]
     },
@@ -1131,13 +1138,13 @@
       },
       "top_headlines": [],
       "sparkline": [
-        0.6,
         0,
         0,
         0.6,
         0,
         0.6,
         0.6,
+        0,
         0,
         0,
         0,
@@ -1167,8 +1174,8 @@
       "name": "Cisco",
       "sentiment": {
         "overall_score": -0.04,
-        "trend": "improving",
-        "previous_score": -0.15,
+        "trend": "stable",
+        "previous_score": -0.04,
         "confidence": "low",
         "sample_size": 4,
         "source_scores": {
@@ -1246,10 +1253,10 @@
         0.0,
         0.0,
         0.0,
-        0.0,
         -0.15,
         -0.15,
         -0.15,
+        -0.04,
         -0.04
       ]
     }
