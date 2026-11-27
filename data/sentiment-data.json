@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-11-27T07:09:22.935720Z",
+  "last_updated": "2026-11-27T20:54:26.480130Z",
   "scraper_log": {
-    "duration_sec": 234.95,
-    "total_articles": 120,
+    "duration_sec": 214.06,
+    "total_articles": 121,
     "errors": []
   },
   "companies": [
@@ -72,7 +72,6 @@
       ],
       "sparkline": [
         0.4,
-        0.4,
         0.49,
         0.1,
         0.14,
@@ -95,6 +94,7 @@
         -0.11,
         -0.11,
         -0.12,
+        -0.1,
         -0.1,
         -0.1,
         -0.1,
@@ -169,7 +169,6 @@
       ],
       "sparkline": [
         0.12,
-        0.12,
         0.1,
         0.1,
         0.1,
@@ -191,6 +190,7 @@
         -0.03,
         -0.03,
         -0.03,
+        -0.01,
         -0.01,
         -0.01,
         -0.01,
@@ -265,7 +265,6 @@
         }
       ],
       "sparkline": [
-        0.09,
         0.15,
         0.07,
         0.07,
@@ -294,6 +293,7 @@
         0.07,
         0.07,
         0.07,
+        0.07,
         0.07
       ]
     },
@@ -302,7 +302,7 @@
       "sentiment": {
         "overall_score": -0.04,
         "trend": "stable",
-        "previous_score": -0.08,
+        "previous_score": -0.04,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -326,6 +326,20 @@
       },
       "top_headlines": [
         {
+          "title": "Show HN: Open-source ESP32 desk body for a local AI assistant",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50668024",
+          "date": "2026-11-27",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "Show HN: Targeted Mutation Testing \u2013 Observation-guided mutation testing tool",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50667811",
+          "date": "2026-11-27",
+          "sentiment_score": 0.0
+        },
+        {
           "title": "Meta Refused to Share Muse for Testing, UK Financial Watchdog Complains",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=50655614",
@@ -333,36 +347,21 @@
           "sentiment_score": -0.3818
         },
         {
+          "title": "ROMS: iOS server manager app with multi-snippets/SSH/Shortcuts (TestFlight)",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50639432",
+          "date": "2026-11-25",
+          "sentiment_score": 0.0
+        },
+        {
           "title": "India's opposition storms Meta's offices to get its Instagram accounts back",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=50624487",
           "date": "2026-11-24",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "Show HN: Brickie \u2013 Deploy sandboxes in your own AWS account",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50629936",
-          "date": "2026-11-24",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "Ask HN: Harness vs. Feature Factories",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50618223",
-          "date": "2026-11-23",
-          "sentiment_score": 0.0
-        },
-        {
-          "title": "Show HN: A free website check that starts from what your buyers search",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50598848",
-          "date": "2026-11-22",
-          "sentiment_score": 0.5106
         }
       ],
       "sparkline": [
-        0.15,
         -0.03,
         0.2,
         -0.02,
@@ -391,6 +390,7 @@
         0.03,
         -0.08,
         -0.08,
+        -0.04,
         -0.04
       ]
     },
@@ -464,7 +464,6 @@
         0.02,
         0.02,
         0.02,
-        0.02,
         0.01,
         0.02,
         0.02,
@@ -480,6 +479,7 @@
         -0.06,
         -0.06,
         -0.06,
+        -0.04,
         -0.04,
         -0.04,
         -0.04,
@@ -522,7 +522,6 @@
       "sparkline": [
         0,
         0,
-        0,
         0.1,
         0.1,
         0.1,
@@ -539,6 +538,7 @@
         0,
         0.0,
         0.0,
+        0,
         0,
         0,
         0,
@@ -617,8 +617,8 @@
       "name": "Bank of America",
       "sentiment": {
         "overall_score": -0.29,
-        "trend": "declining",
-        "previous_score": 0,
+        "trend": "stable",
+        "previous_score": -0.29,
         "confidence": "low",
         "sample_size": 1,
         "source_scores": {
@@ -661,7 +661,6 @@
         0,
         0,
         0,
-        0,
         0.44,
         0.15,
         0.0,
@@ -679,6 +678,7 @@
         0,
         0,
         0,
+        -0.29,
         -0.29
       ]
     },
@@ -686,8 +686,8 @@
       "name": "Salesforce",
       "sentiment": {
         "overall_score": 0.0,
-        "trend": "improving",
-        "previous_score": -0.16,
+        "trend": "stable",
+        "previous_score": 0.0,
         "confidence": "low",
         "sample_size": 1,
         "source_scores": {
@@ -719,7 +719,6 @@
         }
       ],
       "sparkline": [
-        0.6,
         0.68,
         0.6,
         0.17,
@@ -748,6 +747,7 @@
         -0.16,
         -0.16,
         -0.16,
+        0.0,
         0.0
       ]
     },
@@ -756,7 +756,7 @@
       "sentiment": {
         "overall_score": -0.03,
         "trend": "stable",
-        "previous_score": -0.07,
+        "previous_score": -0.03,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -819,7 +819,6 @@
         -0.05,
         -0.05,
         -0.05,
-        -0.05,
         -0.06,
         -0.05,
         -0.05,
@@ -845,6 +844,7 @@
         -0.11,
         -0.07,
         -0.07,
+        -0.03,
         -0.03
       ]
     },
@@ -877,7 +877,6 @@
       },
       "top_headlines": [],
       "sparkline": [
-        0.0,
         0.23,
         0.18,
         0.0,
@@ -906,15 +905,16 @@
         0,
         0,
         0,
+        0,
         0
       ]
     },
     {
       "name": "Dell",
       "sentiment": {
-        "overall_score": -0.24,
-        "trend": "declining",
-        "previous_score": -0.18,
+        "overall_score": -0.21,
+        "trend": "stable",
+        "previous_score": -0.24,
         "confidence": "high",
         "sample_size": 15,
         "source_scores": {
@@ -923,7 +923,7 @@
             "count": 0
           },
           "hackernews": {
-            "score": -0.24,
+            "score": -0.21,
             "count": 15
           },
           "reddit": {
@@ -941,6 +941,13 @@
           "title": "Rockstar workers vote against union recognition deal",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=50661551",
+          "date": "2026-11-27",
+          "sentiment_score": 0.0
+        },
+        {
+          "title": "75% of Rockstar's workers have voted against a union deal",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50665173",
           "date": "2026-11-27",
           "sentiment_score": 0.0
         },
@@ -964,17 +971,9 @@
           "url": "https://news.ycombinator.com/item?id=50608133",
           "date": "2026-11-23",
           "sentiment_score": -0.5267
-        },
-        {
-          "title": "COP31 climate talks fail to agree deal over fossil fuels row",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50599409",
-          "date": "2026-11-22",
-          "sentiment_score": -0.25
         }
       ],
       "sparkline": [
-        0.41,
         -0.13,
         -0.15,
         -0.15,
@@ -1003,7 +1002,8 @@
         -0.18,
         -0.18,
         -0.18,
-        -0.24
+        -0.24,
+        -0.21
       ]
     },
     {
@@ -1011,9 +1011,9 @@
       "sentiment": {
         "overall_score": -0.03,
         "trend": "stable",
-        "previous_score": -0.0,
+        "previous_score": -0.03,
         "confidence": "high",
-        "sample_size": 10,
+        "sample_size": 11,
         "source_scores": {
           "google_news": {
             "score": 0,
@@ -1021,7 +1021,7 @@
           },
           "hackernews": {
             "score": -0.03,
-            "count": 10
+            "count": 11
           },
           "reddit": {
             "score": 0,
@@ -1034,6 +1034,13 @@
         }
       },
       "top_headlines": [
+        {
+          "title": "Tesla Makes an Unsafe Pitch to Senior Drivers Clinging to Car Keys",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50669951",
+          "date": "2026-11-27",
+          "sentiment_score": 0.0
+        },
         {
           "title": "EU postpones discussion to approve Tesla's self-driving tech",
           "source": "Hacker News",
@@ -1061,17 +1068,9 @@
           "url": "https://news.ycombinator.com/item?id=50496652",
           "date": "2026-11-14",
           "sentiment_score": 0.0
-        },
-        {
-          "title": "The Tesla Roadster Won't Refill Its Air Tanks (Bet) [video]",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50487128",
-          "date": "2026-11-13",
-          "sentiment_score": 0.0
         }
       ],
       "sparkline": [
-        0.04,
         0.04,
         0.04,
         0.04,
@@ -1100,6 +1099,7 @@
         -0.0,
         -0.0,
         -0.0,
+        -0.03,
         -0.03
       ]
     },
@@ -1132,9 +1132,9 @@
       },
       "top_headlines": [],
       "sparkline": [
+        0.6,
+        0.6,
         0,
-        0.6,
-        0.6,
         0,
         0,
         0,
@@ -1169,7 +1169,7 @@
       "sentiment": {
         "overall_score": 0.0,
         "trend": "stable",
-        "previous_score": -0.03,
+        "previous_score": 0.0,
         "confidence": "low",
         "sample_size": 3,
         "source_scores": {
@@ -1236,7 +1236,6 @@
         0.0,
         0.0,
         0.0,
-        0.0,
         -0.15,
         -0.15,
         -0.15,
@@ -1244,6 +1243,7 @@
         -0.04,
         -0.04,
         -0.03,
+        0.0,
         0.0
       ]
     }
